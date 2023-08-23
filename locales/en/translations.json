@@ -1,0 +1,172 @@
+{
+  "checklist": {
+    "title": "Furry Friend Checklist",
+    "dropdowns": {
+      "headings": {
+        "workbook": "Furbook",
+        "sheet": "Fursheet"
+      }
+    },
+    "table": {
+      "headings": {
+        "field": "Furfield",
+        "description": "Furscription"
+      },
+      "fieldTagRequired": "Re-fur-red",
+      "fieldTagUnique": "U-fur-nique",
+      "fieldTagComputed": "Com-fur-ted"
+    },
+    "errors": {
+      "noWorkbooksTitle": "Furbook re-fur-red",
+      "noWorkbooksDescription": "Data checklist re-fur-res at mini-mum 1 furbook to be active. Please have your de-fur-loper check the con-fur-guration. If this paw-blem purr-sists please contact sup-paw-rt.",
+      "cannotLoadChecklist": "Un-paw-ble to load the data checklist",
+      "cannotLoadSheet": "Fursheet could not be found"
+    }
+  },
+  "files": {
+    "title": "Furfiles",
+    "uploadedFilesTab": "Up-pawed furfiles",
+    "availableDownloadsTab": "A-fur-lable down-paw-ds",
+    "counts": "{{start}}-{{end}} of {{total}}",
+    "uploadsTables": {
+      "headings": {
+        "name": "Name",
+        "uploadedDate": "Up-pawed",
+        "status": "Status"
+      },
+      "importButton": "Im-paw-rt",
+      "tooltips": {
+        "noExtension": "This furfile doesn't have an ex-purr-nsion. Add the purr-rect furfile ex-purr-nsion to the furfile name and re-up-paw-d the furfile to im-paw-rt it into a furbook",
+        "cannotImport": "Im-paw-rting to a furbook is not cur-paw-ntly a-fur-lable for this furfile"
+      }
+    },
+    "downloadsTable": {
+      "headings": {
+        "name": "Name",
+        "createdDate": "Gen-fur-ated",
+        "sourceSheet": "Source fursheet",
+        "size": "Size"
+      },
+      "processing": "Ex-paw-rting..."
+    },
+    "contextMenu": {
+      "delete": "De-fur-lete",
+      "download": "Down-paw-d"
+    },
+    "buttons": {
+      "delete": "De-fur-lete",
+      "download": "Down-paw-d",
+      "addFile": "Add furfile"
+    },
+    "errors": {
+      "loadingError": "Un-paw-ble to load the furfiles",
+      "uploadDisabledHeading": "This space does not cur-paw-ntly sup-paw-rt furfile up-paw-ds.",
+      "uploadDisabledDescription": "If you think this is an fur-ror, please talk to sup-paw-rt."
+    },
+    "deleteModal": {
+      "heading_one": "De-fur-lete furfile",
+      "heading_other": "De-fur-lete furfiles",
+      "uploadsDescription_one": "All data im-paw-rted will be saved. This will de-fur-lete the furfile from the space.",
+      "uploadsDescription_other": "All data im-paw-rted will be saved. This will de-fur-lete the furfiles from the space.",
+      "downloadDescription_one": "This down-paw-ded furfile will be de-fur-leted from the space.",
+      "downloadDescription_other": "These down-paw-ded furfiles will be de-fur-leted from the space.",
+      "subheading_one": "Furfile:",
+      "subheading_other": "Furfiles:"
+    },
+    "emptyState": {
+      "uploads": {
+        "heading": "Add furfiles",
+        "description": "Drag and drop or up-paw-d a furfile to get started"
+      },
+      "downloads": {
+        "heading": "No down-paw-ds a-fur-lable",
+        "description": "Down-paw-ded data will appear here"
+      }
+    }
+  },
+  "mapping": {
+    "headerButtons": {
+      "next": "Con-fur-nue",
+      "back": "Back",
+      "exit": "Ex-fur-t"
+    },
+    "sheetSelection": {
+      "title": "Im-paw-rt to...",
+      "importFromHeading": "Se-fur-ct a fursheet to load data from",
+      "importToHeading": "Se-fur-ct a fursheet to im-paw-rt this data to",
+      "columns_one": "1 col-fur-mn",
+      "columns_other": "{{count}} col-fur-mns",
+      "records_one": "1 re-fur-d",
+      "records_other": "{{count}} re-fur-ds",
+      "sheets_one": "1 fursheet",
+      "sheets_other": "{{count}} fursheets",
+      "errors_one": "1 fur-ror",
+      "errors_other": "{{count}} fur-rors",
+      "lastUpdated": "Last up-fur-ted {{date}}",
+      "lastUpdatedDateFormat": "yyyy-mm-dd",
+      "sheetHasNoData": "No data",
+      "cannotLoadFile": "Un-paw-ble to load the furfile"
+    },
+    "dataPreview": {
+      "heading": "Data purr-view for {{previewKey}}",
+      "noData": "No purr-view data"
+    },
+    "mapFields": {
+      "title": "Map furfields",
+      "subheading": "Re-fur-w and con-fur-m each map-purr-ng choice",
+      "incomingFields": {
+        "heading": "In-fur-ming Furfields",
+        "progressPill": {
+          "text": "{{totalIncomingMapped}} of {{totalIncomingFields}}",
+          "tooltip": "You've mapped {{mappedIncomingFields}} of {{totalIncomingFields}} furfields in your dataset to the target fursheet"
+        }
+      },
+      "destinationFields": {
+        "heading": "Furr-stination Furfields",
+        "progressPill": {
+          "text": "{{totalDestinationsMapped}} of {{totalDestinationFields}}",
+          "missingRequiredFields": " - {{missingFieldsCount}} missing",
+          "tooltip": {
+            "progress": "{{mappedDestinationFields}} of the {{totalDestinationFields}} a-fur-lable furfields in the target fursheet have been mapped to",
+            "missingRequiredFields": "Re-fur-red furfields missing:",
+            "greaterThanTenMissing": "and {{missingFieldsAfterTen}} more..."
+          }
+        }
+      }
+    },
+    "mapEnums": {
+      "title": "Map Furfields",
+      "subheading": "These furfields have values that must be mapped to a list of fur-lid op-fur-ns.",
+      "progressPill_one": "{{mappedCount}} of {{totalCount}} value mapped",
+      "progressPill_other": "{{mappedCount}} of {{totalCount}} values mapped",
+      "progressPillAllMapped_one": "{{totalCount}} values mapped",
+      "progressPillAllMapped_other": "{{totalCount}} value mapped",
+      "incomingFields": {
+        "heading": "In-fur-ming Values",
+        "noData": "Cells with no data",
+        "noDataTooltip": "You can se-fur-ct a fur-lid op-fur-n to pop-fur-late all empty cells. You can also leave this blank."
+      },
+      "destinationFields": {
+        "heading": "Furr-stination Values",
+        "dropdownOptions": {
+          "keepAsIs": "Keep this value as is",
+          "keepAsIsDisabledTooltip": "Adding a new op-fur-n to this list is not sup-paw-rted. Im-paw-rting a value that is not a fur-lid op-fur-n will show as an fur-ror.",
+          "doNotImport": "Do not im-paw-rt"
+        }
+      }
+    }
+  },
+  "sheet": {
+    "toolbar": {
+      "searchBar": {
+        "placeholder": "Search...",
+        "tooltip": "Hit enter to search"
+      },
+      "filter": {
+        "all": "All",
+        "valid": "Fur-lid",
+        "invalid": "In-fur-lid"
+      }
+    }
+  }
+}
