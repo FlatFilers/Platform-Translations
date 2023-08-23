@@ -1,171 +1,171 @@
 {
-  "lista de verificación": {
-    "título": "Lista de verificación de datos",
-    "desplegables": {
-      "encabezados": {
-        "libro": "Libro",
-        "hoja": "Hoja"
+  "checklist": {
+    "title": "Data checklist",
+    "dropdowns": {
+      "headings": {
+        "workbook": "Libro",
+        "sheet": "Hoja" 
       }
     },
-    "tabla": {
-      "encabezados": {
-        "campo": "Campo",
-        "descripción": "Descripción"
+    "table": {
+      "headings": {
+        "field": "Campo",
+        "description": "Descripción"
       },
-      "etiquetaDeCampoRequerido": "Requerido",
-      "etiquetaDeCampoÚnico": "Único",
-      "etiquetaDeCampoCalculado": "Calculado"
+      "fieldTagRequired": "Requerido",
+      "fieldTagUnique": "Único",
+      "fieldTagComputed": "Calculado"
     },
-    "errores": {
-      "sinTítuloDeLibros": "Se requiere libro",
-      "sinDescripciónDeLibros": "La lista de verificación de datos requiere como mínimo 1 libro activo. Por favor, pídale a su desarrollador que revise la configuración. Si este problema persiste, póngase en contacto con el servicio de asistencia.",
-      "noSePuedeCargarLaListaDeVerificación": "No se puede cargar la lista de verificación de datos",
-      "noSePuedeCargarLaHoja": "No se pudo encontrar la hoja"
+    "errors": {
+      "noWorkbooksTitle": "Se requiere libro",
+      "noWorkbooksDescription": "La lista de verificación de datos requiere como mínimo 1 libro activo. Por favor, pídale a su desarrollador que revise la configuración. Si este problema persiste, póngase en contacto con el servicio de asistencia.",
+      "cannotLoadChecklist": "No se puede cargar la lista de verificación de datos",
+      "cannotLoadSheet": "No se pudo encontrar la hoja"
     }
   },
-  "archivos": {
-    "título": "Archivos",
-    "pestañaDeArchivosCargados": "Archivos cargados",
-    "pestañaDeDescargasDisponibles": "Descargas disponibles",
-    "recuentos": "{{inicio}}-{{fin}} de {{total}}",
-    "tablasDeCargas": {
-      "encabezados": {
-        "nombre": "Nombre",
-        "fechaDeCarga": "Cargado",
-        "estado": "Estado"
+  "files": {
+    "title": "Archivos",
+    "uploadedFilesTab": "Archivos cargados",
+    "availableDownloadsTab": "Descargas disponibles",
+    "counts": "{{inicio}}-{{fin}} de {{total}}",
+    "uploadsTables": {
+      "headings": {
+        "name": "Nombre",
+        "uploadedDate": "Cargado",
+        "status": "Estado"
       },
-      "botónDeImportar": "Importar",
+      "importButton": "Importar",
       "tooltips": {
-        "sinExtensión": "Este archivo no tiene extensión. Agregue la extensión de archivo correcta al nombre del archivo y vuelva a cargar el archivo para importarlo a un libro",
-        "noSePuedeImportar": "La importación a un libro actualmente no está disponible para este archivo"
+        "noExtension": "Este archivo no tiene extensión. Agregue la extensión de archivo correcta al nombre del archivo y vuelva a cargar el archivo para importarlo a un libro",
+        "cannotImport": "La importación a un libro actualmente no está disponible para este archivo"
       }
     },
-    "tablaDeDescargas": {
-      "encabezados": {
-        "nombre": "Nombre",
-        "fechaDeCreación": "Generado",
-        "hojaFuente": "Hoja fuente",
-        "tamaño": "Tamaño"
+    "downloadsTable": {
+      "headings": {
+        "name": "Nombre",
+        "createdDate": "Generado",
+        "sourceSheet": "Hoja fuente",
+        "size": "Tamaño"
       },
-      "procesando": "Exportando..."
+      "processing": "Exportando..."
     },
-    "menúContextual": {
-      "eliminar": "Eliminar",
-      "descargar": "Descargar"
+    "contextMenu": {
+      "delete": "Eliminar",
+      "download": "Descargar"
     },
-    "botones": {
-      "eliminar": "Eliminar",
-      "descargar": "Descargar",
-      "agregarArchivo": "Agregar archivo"
+    "buttons": {
+      "delete": "Eliminar",
+      "download": "Descargar",
+      "addFile": "Agregar archivo"
     },
-    "errores": {
-      "errorDeCarga": "No se pueden cargar los archivos",
-      "encabezadoDeCargaDeshabilitada": "Este espacio actualmente no admite la carga de archivos.",
-      "descripciónDeCargaDeshabilitada": "Si cree que esto es un error, hable con el servicio de asistencia."
+    "errors": {
+      "loadingError": "No se pueden cargar los archivos",
+      "uploadDisabledHeading": "Este espacio actualmente no admite la carga de archivos.",
+      "uploadDisabledDescription": "Si cree que esto es un error, hable con el servicio de asistencia."
     },
-    "modalEliminar": {
-      "encabezado_uno": "Eliminar archivo",
-      "encabezado_otros": "Eliminar archivos",
-      "descripciónDeCargas_uno": "Todos los datos importados se guardarán. Esto eliminará el archivo del espacio.",
-      "descripciónDeCargas_otros": "Todos los datos importados se guardarán. Esto eliminará los archivos del espacio.",
-      "descripciónDeDescargas_uno": "Este archivo descargado se eliminará del espacio.",
-      "descripciónDeDescargas_otros": "Estos archivos descargados se eliminarán del espacio.",
-      "subencabezado_uno": "Archivo:",
-      "subencabezado_otros": "Archivos:"
+    "deleteModal": {
+      "heading_one": "Eliminar archivo",
+      "heading_other": "Eliminar archivos",
+      "uploadsDescription_one": "Todos los datos importados se guardarán. Esto eliminará el archivo del espacio.",
+      "uploadsDescription_other": "Todos los datos importados se guardarán. Esto eliminará los archivos del espacio.", 
+      "downloadDescription_one": "Este archivo descargado se eliminará del espacio.",
+      "downloadDescription_other": "Estos archivos descargados se eliminarán del espacio.",
+      "subheading_one": "Archivo:",
+      "subheading_other": "Archivos:"
     },
-    "estadoVacío": {
-      "cargas": {
-        "encabezado": "Agregar archivos",
-        "descripción": "Arrastre y suelte o cargue un archivo para comenzar"
+    "emptyState": {
+      "uploads": {
+        "heading": "Agregar archivos",
+        "description": "Arrastre y suelte o cargue un archivo para comenzar"
       },
-      "descargas": {
-        "encabezado": "No hay descargas disponibles",
-        "descripción": "Las descargas aparecerán aquí"
+      "downloads": {
+        "heading": "No hay descargas disponibles",
+        "description": "Las descargas aparecerán aquí"
       }
     }
   },
-  "asignación": {
-    "botonesDelEncabezado": {
-      "siguiente": "Continuar",
-      "atrás": "Atrás",
-      "salir": "Salir"
+  "mapping": {
+    "headerButtons": {
+      "next": "Continuar",
+      "back": "Atrás", 
+      "exit": "Salir"
     },
-    "selecciónDeHoja": {
-      "título": "Importar a...",
-      "encabezadoDeImportarDesde": "Seleccione una hoja para cargar los datos",
-      "encabezadoDeImportarA": "Seleccione una hoja para importar estos datos",
-      "columnas_una": "1 columna",
-      "columnas_otras": "{{count}} columnas",
-      "registros_uno": "1 registro",
-      "registros_otros": "{{count}} registros",
-      "hojas_una": "1 hoja",
-      "hojas_otras": "{{count}} hojas",
-      "errores_uno": "1 error",
-      "errores_otros": "{{count}} errores",
-      "últimaActualización": "Última actualización {{fecha}}",
-      "formatoDeFechaDeÚltimaActualización": "yyyy-mm-dd",
-      "hojaSinDatos": "Sin datos",
-      "noSePuedeCargarElArchivo": "No se puede cargar el archivo"
+    "sheetSelection": {
+      "title": "Importar a...",
+      "importFromHeading": "Seleccione una hoja para cargar los datos",
+      "importToHeading": "Seleccione una hoja para importar estos datos",
+      "columns_one": "1 columna",
+      "columns_other": "{{count}} columnas",
+      "records_one": "1 registro",
+      "records_other": "{{count}} registros",
+      "sheets_one": "1 hoja",
+      "sheets_other": "{{count}} hojas",
+      "errors_one": "1 error",
+      "errors_other": "{{count}} errores",
+      "lastUpdated": "Última actualización {{fecha}}",
+      "lastUpdatedDateFormat": "yyyy-mm-dd",
+      "sheetHasNoData": "Sin datos",
+      "cannotLoadFile": "No se puede cargar el archivo"
     },
-    "vistaPreviaDeDatos": {
-      "encabezado": "Vista previa de datos para {{previewKey}}",
-      "sinDatos": "Sin datos de vista previa"
+    "dataPreview": {
+      "heading": "Vista previa de datos para {{previewKey}}",
+      "noData": "Sin datos de vista previa" 
     },
-    "asignarCampos": {
-      "título": "Asignar campos",
-      "subencabezado": "Revise y confirme cada elección de asignación",
-      "camposEntrantes": {
-        "encabezado": "Campos entrantes",
-        "píldoraDeProgreso": {
-          "texto": "{{totalIncomingMapped}} de {{totalIncomingFields}}",
-          "toolTip": "Ha asignado {{mappedIncomingFields}} de {{totalIncomingFields}} campos en su conjunto de datos a la hoja de destino"
+    "mapFields": {
+      "title": "Asignar campos",
+      "subheading": "Revise y confirme cada elección de asignación",
+      "incomingFields": {
+        "heading": "Campos entrantes",
+        "progressPill": {
+          "text": "{{totalIncomingMapped}} de {{totalIncomingFields}}",
+          "tooltip": "Ha asignado {{mappedIncomingFields}} de {{totalIncomingFields}} campos en su conjunto de datos a la hoja de destino"
         }
       },
-      "camposDeDestino": {
-        "encabezado": "Campos de destino",
-        "píldoraDeProgreso": {
-          "texto": "{{totalDestinationsMapped}} de {{totalDestinationFields}}",
-          "camposRequeridosFaltantes": " - faltan {{missingFieldsCount}}",
-          "toolTip": {
-            "progreso": "{{mappedDestinationFields}} de los {{totalDestinationFields}} campos disponibles en la hoja de destino se han asignado a",
-            "camposRequeridosFaltantes": "Campos requeridos que faltan:",
-            "másDeDiezFaltantes": "y {{missingFieldsAfterTen}} más..."
+      "destinationFields": {
+        "heading": "Campos de destino",
+        "progressPill": {
+          "text": "{{totalDestinationsMapped}} de {{totalDestinationFields}}",
+          "missingRequiredFields": " - faltan {{missingFieldsCount}}",
+          "tooltip": {
+            "progress": "{{mappedDestinationFields}} de los {{totalDestinationFields}} campos disponibles en la hoja de destino se han asignado a",
+            "missingRequiredFields": "Campos requeridos que faltan:",
+            "greaterThanTenMissing": "y {{missingFieldsAfterTen}} más..."  
           }
         }
       }
     },
-    "asignarEnums": {
-      "título": "Asignar campos",
-      "subencabezado": "Estos campos tienen valores que deben asignarse a una lista de opciones válidas.",
-      "píldoraDeProgreso_uno": "{{mappedCount}} de {{totalCount}} valor asignado",
-      "píldoraDeProgreso_otros": "{{mappedCount}} de {{totalCount}} valores asignados",
-      "píldoraTodosAsignados_uno": "{{totalCount}} valores asignados",
-      "píldoraTodosAsignados_otros": "{{totalCount}} valor asignado",
-      "camposEntrantes": {
-        "encabezado": "Valores entrantes",
-        "sinDatos": "Celdas sin datos",
-        "toolTipSinDatos": "Puede seleccionar una opción válida para rellenar todas las celdas vacías. También puede dejarlo en blanco."
+    "mapEnums": {
+      "title": "Asignar campos",
+      "subheading": "Estos campos tienen valores que deben asignarse a una lista de opciones válidas.",
+      "progressPill_one": "{{mappedCount}} de {{totalCount}} valor asignado",
+      "progressPill_other": "{{mappedCount}} de {{totalCount}} valores asignados",
+      "progressPillAllMapped_one": "{{totalCount}} valores asignados",
+      "progressPillAllMapped_other": "{{totalCount}} valor asignado",
+      "incomingFields": {
+        "heading": "Valores entrantes",
+        "noData": "Celdas sin datos", 
+        "noDataTooltip": "Puede seleccionar una opción válida para rellenar todas las celdas vacías. También puede dejarlo en blanco."
       },
-      "camposDeDestino": {
-        "encabezado": "Valores de destino",
-        "opcionesDeListaDesplegable": {
-          "mantenerTalCual": "Mantener este valor tal cual",
-          "toolTipMantenerTalCualDeshabilitado": "Agregar una nueva opción a esta lista no es compatible. La importación de un valor que no es una opción válida se mostrará como un error.",
-          "noImportar": "No importar"
+      "destinationFields": {
+        "heading": "Valores de destino",
+        "dropdownOptions": {
+          "keepAsIs": "Mantener este valor tal cual",
+          "keepAsIsDisabledTooltip": "Agregar una nueva opción a esta lista no es compatible. La importación de un valor que no es una opción válida se mostrará como un error.",
+          "doNotImport": "No importar"
         }
       }
     }
   },
-  "hoja": {
-    "barraDeHerramientas": {
-      "barraDeBúsqueda": {
-        "marcadorDePosición": "Buscar...",
-        "toolTip": "Presione Enter para buscar"
+  "sheet": { 
+    "toolbar": {
+      "searchBar": {
+        "placeholder": "Buscar...",
+        "tooltip": "Presione Enter para buscar"  
       },
-      "filtro": {
-        "todos": "Todos",
-        "válidos": "Válidos",
-        "noVálidos": "No válidos"
+      "filter": {
+        "all": "Todos",
+        "valid": "Válidos",
+        "invalid": "No válidos"
       }
     }
   }
