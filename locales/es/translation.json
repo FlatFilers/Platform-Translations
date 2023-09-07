@@ -56,7 +56,10 @@
     "buttons": {
       "delete": "删除",
       "download": "下载",
-      "addFile": "添加文件"
+      "addFile": {
+        "text": "添加文件",
+        "inProgressText": "Subiendo archivo"
+      }
     },
     "errors": {
       "loadingError": "无法加载文件",
