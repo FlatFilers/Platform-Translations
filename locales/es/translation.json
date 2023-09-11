@@ -1,175 +1,495 @@
 {
+  "document": {
+    "error": {
+      "title": "Documento no encontrado",
+      "description": "Este documento no parece existir"
+    }
+  },
   "checklist": {
-    "title": "数据检查清单",
+    "title": "Lista de verificación de datos",
     "dropdowns": {
       "headings": {
-        "workbook": "工作簿",
-        "sheet": "工作表"
+        "workbook": "Libro",
+        "sheet": "Hoja"
       }
     },
     "table": {
       "headings": {
-        "field": "字段",
-        "description": "描述"
+        "field": "Nombre del campo",
+        "dataType": "Tipo de dato",
+        "description": "Descripción"
       },
-      "fieldTagRequired": "必填",
-      "fieldTagUnique": "唯一",
-      "fieldTagComputed": "计算"
+      "fieldTagRequired": "Requerido",
+      "fieldTagUnique": "Único",
+      "fieldTagComputed": "Calculado",
+      "dataTypes": {
+        "string": "Texto",
+        "enum": "Enumeración",
+        "boolean": "Booleano",
+        "number": "Número",
+        "date": "Fecha",
+        "reference": "Referencia",
+        "unknown": "Desconocido"
+      }
     },
     "errors": {
-      "noWorkbooksTitle": "需要工作簿",
-      "noWorkbooksDescription": "数据检查清单需要至少1个活动工作簿。请让您的开发人员检查配置。如果这个问题仍然存在,请联系支持。", 
-      "cannotLoadChecklist": "无法加载数据检查清单",
-      "cannotLoadSheet": "找不到工作表"
+      "noWorkbooksTitle": "Se requiere libro",
+      "noWorkbooksDescription": "La lista de verificación de datos requiere al menos 1 libro activo. Por favor, pida a su desarrollador que revise la configuración. Si este problema persiste, póngase en contacto con el servicio de asistencia.",
+      "cannotLoadChecklist": "No se puede cargar la lista de verificación de datos",
+      "cannotLoadSheet": "No se pudo encontrar la hoja"
     }
   },
   "files": {
-    "title": "文件",
-    "uploadedFilesTab": "已上传文件",
-    "availableDownloadsTab": "可用下载",
-    "counts": "{{start}}-{{end}} of {{total}}",
+    "title": "Archivos",
+    "uploadedFilesTab": "Archivos subidos",
+    "availableDownloadsTab": "Descargas disponibles",
+    "counts": "{{start}}-{{end}} de {{total}}",
     "uploadsTables": {
       "headings": {
-        "name": "名称",
-        "uploadedDate": "已上传",
-        "status": "状态"
+        "name": "Nombre",
+        "uploadedDate": "Subido",
+        "status": "Estado"
       },
-      "importButton": "导入",
+      "importButton": "Importar",
       "tooltips": {
-        "noExtension": "此文件没有扩展名。请在文件名中添加正确的文件扩展名,然后重新上传该文件以将其导入工作簿",
-        "cannotImport": "目前不支持将此文件导入工作簿"
+        "noExtension": "Este archivo no tiene extensión. Agregue la extensión de archivo correcta al nombre del archivo y vuelva a subir el archivo para importarlo en un libro",
+        "cannotImport": "Actualmente no está disponible la importación a un libro para este archivo"
       }
     },
     "downloadsTable": {
       "headings": {
-        "name": "名称",
-        "createdDate": "生成于",
-        "sourceSheet": "源工作表",
-        "size": "大小"
+        "name": "Nombre",
+        "createdDate": "Generado",
+        "sourceSheet": "Hoja de origen",
+        "size": "Tamaño"
       },
-      "processing": "导出中..."
+      "processing": "Exportando..."
     },
     "contextMenu": {
-      "delete": "删除",
-      "download": "下载"
+      "delete": "Eliminar",
+      "download": "Descargar"
     },
     "buttons": {
-      "delete": "删除",
-      "download": "下载",
+      "delete": "Eliminar",
+      "download": "Descargar",
       "addFile": {
-        "text": "添加文件",
+        "text": "Agregar archivo",
         "inProgressText": "Subiendo archivo"
       }
     },
     "errors": {
-      "loadingError": "无法加载文件",
-      "uploadDisabledHeading": "此空间当前不支持文件上传。",
-      "uploadDisabledDescription": "如果您认为这是一个错误,请联系支持。"
+      "loadingError": "No se pueden cargar los archivos",
+      "uploadDisabledHeading": "Este espacio actualmente no admite la subida de archivos.",
+      "uploadDisabledDescription": "Si cree que esto es un error, comuníquese con el servicio de asistencia."
     },
     "deleteModal": {
-      "heading_one": "删除文件", 
-      "heading_other": "删除文件",
-      "uploadsDescription_one": "所有导入的数据将被保存。这将从空间中删除该文件。",
-      "uploadsDescription_other": "所有导入的数据将被保存。这将从空间中删除这些文件。",
-      "downloadDescription_one": "此下载文件将从空间中删除。",
-      "downloadDescription_other": "这些下载的文件将从空间中删除。",
-      "subheading_one": "文件:",
-      "subheading_other": "文件:"
+      "heading_one": "Eliminar archivo",
+      "heading_other": "Eliminar archivos",
+      "uploadsDescription_one": "Todos los datos importados se guardarán. Esto eliminará el archivo del espacio.",
+      "uploadsDescription_other": "Todos los datos importados se guardarán. Esto eliminará los archivos del espacio.",
+      "downloadDescription_one": "Este archivo descargado se eliminará del espacio.",
+      "downloadDescription_other": "Estos archivos descargados se eliminarán del espacio.",
+      "subheading_one": "Archivo:",
+      "subheading_other": "Archivos:"
     },
     "emptyState": {
       "uploads": {
-        "heading": "添加文件",
-        "description": "拖放或上传文件以开始"
+        "heading": "Agregar archivos",
+        "description": "Arrastre y suelte o suba un archivo para comenzar"
       },
       "downloads": {
-        "heading": "无可用下载",
-        "description": "下载的数据将出现在此处"
+        "heading": "No hay descargas disponibles",
+        "description": "Los datos descargados aparecerán aquí"
+      }
+    },
+    "uploadFile": {
+      "popovers": {
+        "onDragPopoverConfirmation": "Soltando archivo en:",
+        "uploadInProgress": "Subiendo: {{fileName}}",
+        "uploadComplete": "Subido: {{fileName}}",
+        "uploadsDisabled": "Este espacio actualmente no admite la subida de archivos.",
+        "errorUploading": "No se pudo subir el archivo: {{fileName}}"
       }
     }
   },
   "mapping": {
     "headerButtons": {
-      "next": "继续",
-      "back": "返回",
-      "exit": "退出"
+      "next": "Continuar",
+      "back": "Atrás",
+      "exit": "Salir"
     },
     "sheetSelection": {
-      "title": "导入至...",
-      "importFromHeading": "选择一个工作表以加载数据",
-      "importToHeading": "选择一个工作表以导入此数据",
-      "columns_one": "1 列",
-      "columns_other": "{{count}} 列",
-      "records_one": "1 条记录",
-      "records_other": "{{count}} 条记录",
-      "sheets_one": "1 个工作表",
-      "sheets_other": "{{count}} 个工作表",
-      "errors_one": "1 个错误",
-      "errors_other": "{{count}} 个错误",
-      "lastUpdated": "最后更新 {{date}}",
-      "lastUpdatedDateFormat": "yyyy-mm-dd",
-      "sheetHasNoData": "无数据",
-      "cannotLoadFile": "无法加载文件"
+      "title": "Importar a...",
+      "importFromHeading": "Seleccione una hoja para cargar los datos",
+      "importToHeading": "Seleccione una hoja para importar estos datos",
+      "columns_one": "1 columna",
+      "columns_other": "{{count}} columnas",
+      "records_one": "1 registro",
+      "records_other": "{{count}} registros",
+      "sheets_one": "1 hoja",
+      "sheets_other": "{{count}} hojas",
+      "errors_one": "1 error",
+      "errors_other": "{{count}} errores",
+      "lastUpdated": "Última actualización {{date}}",
+      "lastUpdatedDateFormat": "dd-mm-yyyy",
+      "sheetHasNoData": "Sin datos",
+      "cannotLoadFile": "No se puede subir el archivo: {{fileName}}"
     },
     "dataPreview": {
-      "heading": "{{previewKey}} 的数据预览",
-      "noData": "无预览数据"
+      "heading": "Vista previa de datos para {{previewKey}}",
+      "noData": "Sin datos de vista previa"
     },
     "mapFields": {
-      "title": "映射字段",
-      "subheading": "查看并确认每个映射选择",
+      "title": "Asignar campos",
+      "subheading": "Revise y confirme cada asignación",
       "incomingFields": {
-        "heading": "输入字段",
+        "heading": "Campos entrantes",
         "progressPill": {
-          "text": "{{totalIncomingMapped}} / {{totalIncomingFields}}",
-          "tooltip": "您已将数据集中的 {{mappedIncomingFields}} / {{totalIncomingFields}} 个字段映射到目标工作表"
+          "text": "{{totalIncomingMapped}} de {{totalIncomingFields}}",
+          "tooltip": "Ha asignado {{mappedIncomingFields}} de {{totalIncomingFields}} campos en su conjunto de datos a la hoja de destino"
         }
       },
       "destinationFields": {
-        "heading": "目标字段",
+        "heading": "Campos de destino",
         "progressPill": {
-          "text": "{{totalDestinationsMapped}} / {{totalDestinationFields}}",
-          "missingRequiredFields": " - 缺少 {{missingFieldsCount}} 个",
+          "text": "{{totalDestinationsMapped}} de {{totalDestinationFields}}",
+          "missingRequiredFields": " - faltan {{missingFieldsCount}}",
           "tooltip": {
-            "progress": "目标工作表中可用的 {{totalDestinationFields}} 个字段中的 {{mappedDestinationFields}} 个已被映射",
-            "missingRequiredFields": "缺少必填字段:",
-            "greaterThanTenMissing": "另外 {{missingFieldsAfterTen}} 个..."
+            "progress": "{{mappedDestinationFields}} de los {{totalDestinationFields}} campos disponibles en la hoja de destino han sido asignados a",
+            "missingRequiredFields": "Campos requeridos que faltan:",
+            "greaterThanTenMissing": "y {{missingFieldsAfterTen}} más..."
           }
         }
       }
     },
     "mapEnums": {
-      "title": "映射字段",
-      "subheading": "这些字段的值必须映射到有效选项列表。",
-      "progressPill_one": "{{mappedCount}} / {{totalCount}} 个值已映射",
-      "progressPill_other": "{{mappedCount}} / {{totalCount}} 个值已映射",
-      "progressPillAllMapped_one": "{{totalCount}} 个值已映射",
-      "progressPillAllMapped_other": "{{totalCount}} 个值已映射",
+      "title": "Asignar campos",
+      "subheading": "Estos campos tienen valores que deben asignarse a una lista de opciones válidas.",
+      "progressPill_one": "{{mappedCount}} de {{totalCount}} valor asignado",
+      "progressPill_other": "{{mappedCount}} de {{totalCount}} valores asignados",
+      "progressPillAllMapped_one": "{{totalCount}} valores asignados",
+      "progressPillAllMapped_other": "{{totalCount}} valores asignados",
       "incomingFields": {
-        "heading": "输入值",
-        "noData": "无数据的单元格",
-        "noDataTooltip": "您可以选择一个有效的选项以填充所有空单元格。您也可以留空。"
+        "heading": "Valores entrantes",
+        "noData": "Celdas sin datos",
+        "noDataTooltip": "Puede seleccionar una opción válida para rellenar todas las celdas vacías. También puede dejar esto en blanco."
       },
       "destinationFields": {
-        "heading": "目标值",
+        "heading": "Valores de destino",
         "dropdownOptions": {
-          "keepAsIs": "保持该值原样",
-          "keepAsIsDisabledTooltip": "不支持向该列表添加新选项。导入无效选项的值将显示错误。",
-          "doNotImport": "不导入"
+          "keepAsIs": "Mantener este valor tal cual",
+          "keepAsIsDisabledTooltip": "No se admite agregar una nueva opción a esta lista. La importación de un valor que no es una opción válida se mostrará como un error.",
+          "doNotImport": "No importar"
         }
       }
     }
   },
-  "sheet": {
-    "toolbar": {
-      "searchBar": {
-        "placeholder": "搜索...",
-        "tooltip": "按 Enter 搜索"
+  "sidebar": {
+    "checklist": "Lista de verificación de datos",
+    "files": "Archivos",
+    "emptyWorkbook": "Libro vacío",
+    "readOnlyIconTooltip": "Esta hoja es de solo lectura"
+  },
+  "errors": {
+    "notFound": "No encontrado",
+    "missingParameter": "Parámetro no proporcionado",
+    "unauthorized": "Sus credenciales de acceso no son válidas.",
+    "sheetNotFound": "Hoja no encontrada",
+    "workbookNotFound": "Libro no encontrado",
+    "spaceNotFound": "Espacio no encontrado",
+    "fileNotFound": "Archivo no encontrado",
+    "unknownError": "Algo salió mal",
+    "refreshPageDescription": "Actualice la página para volver a intentarlo. Si el problema persiste, póngase en contacto con el servicio de asistencia.",
+    "refreshButton": "Reintentar"
+  },
+  "jobs": {
+    "pill": {
+      "hoverText": "Trabajos",
+      "multipleJobsRunning": "{{count}} trabajos en ejecución",
+      "status": {
+        "delete": {
+          "inProgress": "Eliminando registros...",
+          "complete": "Eliminación completada",
+          "failed": "Error en la eliminación"
+        },
+        "extract": {
+          "inProgress": "Extrayendo datos...",
+          "complete": "Extracción completada",
+          "failed": "Error en la extracción"
+        },
+        "mapping": {
+          "inProgress": "Asignando...",
+          "complete": "Asignación completada",
+          "failed": "Error en la asignación"
+        },
+        "default": {
+          "inProgress": "Trabajo en ejecución",
+          "complete": "Trabajo completado",
+          "failed": "Error en el trabajo"
+        }
+      }
+    },
+    "panel": {
+      "empty": "Los trabajos aparecerán aquí cuando se estén ejecutando o se hayan completado",
+      "errorLoadingJob": "No encontrado",
+      "status": {
+        "delete": {
+          "inProgress": "Eliminando registros",
+          "complete": "Eliminación completada",
+          "failed": "Error en la eliminación",
+          "cancelled": "Eliminación de registros cancelada"
+        },
+        "extract": {
+          "inProgress": "Extrayendo archivo",
+          "complete": "Archivo extraído",
+          "failed": "Error al extraer archivo",
+          "cancelled": "Extracción de archivo cancelada"
+        },
+        "mapping": {
+          "inProgress": "Asignando a libro",
+          "complete": "Asignado a libro",
+          "failed": "Error al asignar a libro",
+          "canceled": "Asignación a libro cancelada"
+        },
+        "export": {
+          "inProgress": "Generando descarga",
+          "failed": "Error al generar descarga",
+          "complete": "Descarga generada",
+          "canceled": "Descarga cancelada"
+        },
+        "default": {
+          "inProgress": "Ejecutando trabajo",
+          "failed": { "prefix": "Error en trabajo", "suffix": "" },
+          "complete": { "prefix": "Trabajo", "suffix": "completado" },
+          "canceled": { "prefix": "Trabajo", "suffix": "cancelado" }
+        }
       },
-      "filter": {
-        "all": "全部",
-        "valid": "有效",
-        "invalid": "无效"
+      "action": {
+        "mapping": "Ir al libro",
+        "extract": "Importar",
+        "export": "Descargar"
+      },
+      "time": {
+        "started": "Iniciado el {{time}}",
+        "failed": "Error después de",
+        "completed": "Completado en",
+        "units": {
+          "hour": "hr",
+          "minute": "min",
+          "second": "seg"
+        }
+      }
+    },
+    "customActions": {
+      "modals": {
+        "defaultJobName": "Trabajo",
+        "defaultResourceName": "este recurso",
+        "outcomeModals": {
+          "defaultMessage": {
+            "success": "{{jobName}} se ejecutó correctamente en {{resourceName}}",
+            "failed": "{{jobName}} en {{resourceName}} falló"
+          },
+          "defaultHeading": {
+            "failed": "Error en el trabajo",
+            "success": "¡Éxito!"
+          },
+          "defaultDownloadLabel": "Descargar",
+          "defaultFileName": "archivo",
+          "defaultLabel": "Ver recurso",
+          "acknowledgementModal": {
+            "defaultContinueButton": "Continuar"
+          },
+          "permanentOutcomeModal": {
+            "defaultContinueButton": "Continuar"
+          }
+        },
+        "startModal": {
+          "confirmButton": "Confirmar",
+          "loadingText": "Cargando...",
+          "errorMessage": "Error con la acción"
+        },
+        "confirmModal": {
+          "defaultLoadingButton": "Cargando...",
+          "defaultConfirmButton": "Confirmar",
+          "cancelButton": "Cancelar"
+        },
+        "foregroundJobProgressModal": {
+          "defaultJobName": "Trabajo",
+          "runningOn": "ejecutándose en",
+          "defaultResourceName": "este recurso"
+        }
       }
     }
-  } 
+  },
+  "versionHistory": {
+    "pill": {
+      "hoverText": "Historial de versiones"
+    },
+    "panel": {
+      "heading": "Historial de versiones",
+      "thisMonth": "Este mes",
+      "empty": "Una vez generadas, las versiones aparecerán aquí. Las versiones se generan automáticamente, a menudo cuando se produce una transformación masiva de datos.",
+      "versionRestored": "Versión creada antes de restaurar una versión anterior",
+      "generatedSnapshot": "Instantánea generada antes de aplicar la transformación de IA para el mensaje: "
+    },
+    "modals": {
+      "confirm": {
+        "heading": "Confirmar restauración de versión",
+        "description": "Está a punto de restaurar los datos de su hoja a una versión anterior, ¿desea continuar?",
+        "closeButton": "Cerrar",
+        "proceedButton": "Proceder"
+      },
+      "success": {
+        "heading": "Restauración de versión exitosa",
+        "description": "¡Su hoja se ha restaurado correctamente a una versión anterior! Informe a cualquier colaborador dentro de la hoja que actualice su navegador para reducir el riesgo de problemas",
+        "closeButton": "Proceder"
+      }
+    }
+  },
+  "sheet": {
+    "errors": {
+      "loading": "No se puede obtener el libro.",
+      "notFound": "Libro no encontrado",
+      "noSheets": {
+        "title": "El libro no contiene hojas",
+        "message": "Un libro debe contener al menos una hoja. No se encontró ninguna."
+      }
+    },
+    "popovers": {
+      "errors": {
+        "invalidFFQL": "Revise su consulta",
+        "recordsLoadFailed": "Error al cargar registros",
+        "cellUpdateFailed": "Algo salió mal. Actualice la página e intente nuevamente. Si esto continúa, comuníquese con el servicio de asistencia"
+      }
+    },
+    "emptyView": {
+      "heading": "Empecemos",
+      "uploadFile": "Arrastre y suelte o suba un archivo para comenzar",
+      "manualEntry": "Ingrese los datos manualmente"
+    },
+    "table": {
+      "contextMenu": {
+        "findAndReplace": {
+          "modal": {
+            "errors": {
+              "findError": "Hubo un error al buscar valores",
+              "replaceError": "Hubo un error al reemplazar valores"
+            }
+          }
+        }
+      }
+    },
+    "toolbar": {
+      "searchBar": {
+        "placeholder": "Buscar...",
+        "tooltip": "Presione Enter para buscar"
+      },
+      "filter": {
+        "all": "Todos",
+        "valid": "Válidos",
+        "invalid": "Inválidos"
+      },
+      "buttons": {
+        "download": {
+          "tooltip": {
+            "active": {
+              "noRecordsSelected": "Descargar esta hoja",
+              "invalidFilterApplied": "Descargar todos los registros no válidos",
+              "validFilterApplied": "Descargar todos los registros válidos",
+              "recordsSelected": "Descargar los registros seleccionados"
+            },
+            "disabled": "No hay registros para descargar"
+          }
+        },
+        "delete": {
+          "tooltip": {
+            "active": "Eliminar registros seleccionados",
+            "disabled": {
+              "deleteDisabled": "La eliminación de registros está deshabilitada en esta hoja.",
+              "noRecordsSelected": "Seleccione al menos un registro para eliminarlo"
+            }
+          }
+        }
+      },
+      "customActionsDropdown": {
+        "disabledTooltip": {
+          "requireSelection": "Por favor seleccione uno o más registros para utilizar esta acción",
+          "requireAllValid": "Esta acción requiere que todas las filas seleccionadas sean válidas"
+        }
+      }
+    }
+  },
+  "guestInvite": {
+    "getNewAccessLink": {
+      "heading": "Revisa tu bandeja de entrada",
+      "content": "Hemos enviado un enlace de acceso seguro a",
+      "finePrint": "Si tienes problemas para encontrar el correo electrónico, revisa tu carpeta de spam o actualiza esta página para enviar otro enlace de acceso. El enlace funcionará durante 5 minutos."
+    }
+  },
+  "commandMenu": {
+    "placeholder": "Encuentra o haz cualquier cosa...",
+    "commands": {
+      "filter": {
+        "description": "escribe una declaración FFFQL",
+        "learnHow": "aprende cómo",
+        "apply": "Aplicar filtro.",
+        "link": "Aprende más sobre los filtros FFQL"
+      },
+      "search": {
+        "global": {
+          "description": "buscar en toda la hoja",
+          "apply": "Aplicar búsqueda."
+        },
+        "inField": {
+          "description": "buscar dentro de un campo",
+          "apply": "Aplicar búsqueda dentro del campo.",
+          "applyExample": "i.e. 'nombre_primero' Jane Doe"
+        }
+      }
+    },
+    "aiAssist": {
+      "title": "Construye con IA",
+      "transform": {
+        "description": "pide a la IA que transforme tus datos",
+        "errorBanner": {
+          "generalError": "Algo salió mal. Por favor, inténtalo de nuevo.",
+          "versionError": "No se puede crear una versión para revertir - La transformación de IA se ha abortado. Por favor, inténtalo de nuevo."
+        },
+        "instruction": "Describe cómo quisieras que el asistente de IA transforme tus datos:",
+        "askingAI": {
+          "stepOne": "Pensando",
+          "stepTwo": "Escribiendo",
+          "stepThree": "Haciendo",
+          "stepFour": "Terminando"
+        },
+        "review": {
+          "description": "Esto es lo que he encontrado. Lee la explicación paso a paso y la consulta, y si parece correcto, haz clic abajo para aplicarlo.",
+          "codeTitle": "Código",
+          "warning": "Advertencia: Esto transformará tus datos"
+        },
+        "transforming": {
+          "inProgress": "Aplicando a tu conjunto de datos"
+        }
+      },
+      "query": {
+        "description": "pide a la IA que escriba una consulta para ti en FFQL",
+        "errorBanner": {
+          "generalError": "Algo salió mal. Por favor, inténtalo de nuevo."
+        },
+        "instruction": "Describe cómo quisieras que el asistente de IA consulte tus datos:",
+        "askingAI": {
+          "stepOne": "Pensando",
+          "stepTwo": "Escribiendo",
+          "stepThree": "Haciendo",
+          "stepFour": "Terminando"
+        },
+        "review": {
+          "description": "Esto es lo que he encontrado. Lee la explicación paso a paso y la consulta, y si parece correcto, haz clic abajo para aplicarlo.",
+          "queryTitle": "Consulta",
+          "explanationTitle": "Explicación"
+        }
+      }
+    }
+  }
 }
+  
