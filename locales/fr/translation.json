@@ -1,7 +1,7 @@
 {
   "document": {
     "error": {
-      "title": "Document not found",
+      "title": "Document could not be found",
       "description": "This document does not seem to exist"
     }
   },
