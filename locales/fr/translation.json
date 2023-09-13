@@ -2,693 +2,125 @@
   "checklist": {
     "dropdowns": {
       "headings": {
-        "sheet": "Fiche",
-        "workbook": "Classeur"
+        "sheet": "Feuille de Câlin",
+        "workbook": "Carnet de Jeu de Chiot"
       }
     },
     "errors": {
-      "cannotLoadChecklist": "Impossible de charger la liste de contrôle des données",
-      "cannotLoadSheet": "La fiche n'a pas pu être trouvée",
-      "noWorkbooksDescription": "La liste de contrôle des données nécessite qu'au moins un classeur soit actif. Demandez à votre développeur de vérifier la configuration. Si ce problème persiste, veuillez contacter le support.",
-      "noWorkbooksTitle": "Classeur requis"
+      "cannotLoadChecklist": "Impossible de charger la checklist de préparation du chiot",
+      "cannotLoadSheet": "La feuille est cachée (introuvable)",
+      "noWorkbooksDescription": "Notre checklist chiot a besoin d'au moins un carnet actif. Veuillez demander à votre développeur de récupérer les bons paramètres. Si cette queue continue de remuer, contactez le support.",
+      "noWorkbooksTitle": "Carnet manquant !"
     },
     "table": {
       "dataTypes": {
         "boolean": "Booléen",
-        "date": "Date",
-        "enum": "Énumération",
-        "number": "Nombre",
-        "reference": "Référence",
-        "string": "Série",
-        "unknown": "Inconnu"
+        "date": "Date de jeu",
+        "enum": "Énumération d'os",
+        "number": "Compte de pattes",
+        "reference": "Référence au vétérinaire",
+        "string": "Chapelet de saucisses",
+        "unknown": "Bâtard mystère"
       },
-      "fieldTagComputed": "Calculé",
-      "fieldTagRequired": "Obligatoire",
-      "fieldTagUnique": "Unique",
+      "fieldTagComputed": "Calculs de chiot",
+      "fieldTagRequired": "Requis impérativement",
+      "fieldTagUnique": "Unique en son genre",
       "headings": {
-        "dataType": "Type de données",
-        "description": "Description",
-        "field": "Nom du champ"
+        "dataType": "Type de race",
+        "description": "Profil de chiot",
+        "field": "Champ fantastique"
       }
     },
-    "title": "Liste de vérification des données"
-  },
-  "commandMenu": {
-    "aiAssist": {
-      "query": {
-        "askingAI": {
-          "stepFour": "Termine",
-          "stepOne": "Pense",
-          "stepThree": "Exécute",
-          "stepTwo": "Écrit"
-        },
-        "description": "demandez à l'IA d'écrire une requête pour vous dans FFQL",
-        "errorBanner": {
-          "generalError": "Une erreur s'est produite. Veuillez réessayer."
-        },
-        "instruction": "Décrivez la façon dont vous souhaitez que l'assistant IA interroge vos données :",
-        "review": {
-          "description": "Voilà ce que j'ai trouvé. Lisez l'explication étape par étape ainsi que la requête, et si tout est correct, cliquez ci-dessous pour valider.",
-          "explanationTitle": "Explication",
-          "queryTitle": "Requête"
-        }
-      },
-      "title": "Créer à l'aide de l'IA",
-      "transform": {
-        "askingAI": {
-          "stepFour": "Termine",
-          "stepOne": "Pense",
-          "stepThree": "Exécute",
-          "stepTwo": "Écrit"
-        },
-        "description": "demander à l'IA de transformer vos données",
-        "errorBanner": {
-          "generalError": "Une erreur s'est produite. Veuillez réessayer.",
-          "versionError": "Impossible de créer une version de restauration - transformation par l'IA abandonnée. Veuillez réessayer."
-        },
-        "instruction": "Décrivez la façon dont vous souhaitez que l'assistant IA transforme vos données :",
-        "review": {
-          "codeTitle": "Code",
-          "description": "Voilà ce que j'ai trouvé. Lisez l'explication étape par étape ainsi que la requête, et si tout est correct, cliquez ci-dessous pour valider.",
-          "warning": "Avertissement : vos données seront transformé es"
-        },
-        "transforming": {
-          "inProgress": "Application à votre jeu de données"
-        }
-      }
-    },
-    "commands": {
-      "filter": {
-        "apply": "Appliquer le filtre.",
-        "description": "Écrire une requête FFQL",
-        "learnHow": "découvrez comment",
-        "link": "En savoir plus sur les filtres FFQL"
-      },
-      "search": {
-        "global": {
-          "apply": "Appliquer la recherche.",
-          "description": "rechercher dans toute la fiche"
-        },
-        "inField": {
-          "apply": "Appliquer la recherche dans un champ.",
-          "applyExample": "Par exemple, 'prénom' Jane Doe",
-          "description": "rechercher dans un champ"
-        }
-      }
-    },
-    "placeholder": "Trouver ou faire quelque chose..."
-  },
-  "document": {
-    "error": {
-      "description": "Ce document ne semble pas exister",
-      "title": "Document introuvable"
-    }
-  },
-  "errors": {
-    "fileNotFound": "Fichier introuvable",
-    "missingParameter": "Paramètre non fourni",
-    "notFound": "Non trouvé(e)",
-    "refreshButton": "Réessayer",
-    "refreshPageDescription": "Actualiser la page pour réessayer. Si le problème persiste, contactez l'assistance.",
-    "sheetNotFound": "Feuille introuvable",
-    "spaceNotFound": "Espace introuvable",
-    "unauthorized": "Vos identifiants de connexion sont incorrects.",
-    "unknownError": "Une erreur s'est produite",
-    "workbookNotFound": "Classeur non trouvé"
+    "title": "Liste des prérequis pattes de chiot"
   },
   "files": {
-    "availableDownloadsTab": "Téléchargements disponibles",
+    "availableDownloadsTab": "Jouets à mâcher disponibles",
     "buttons": {
       "addFile": {
-        "inProgressText": "Téléchargement du fichier",
-        "text": "Ajouter un fichier"
+        "inProgressText": "Enterre os...",
+        "text": "Ajouter jouet à mâcher"
       },
-      "delete": "Supprimer",
-      "download": "Télécharger"
+      "delete": "Enterrer",
+      "download": "Rapporter"
     },
-    "contextMenu": {
-      "delete": "Supprimer",
-      "download": "Télécharger"
-    },
-    "counts": "{{start}}-{{end}} sur {{total}}",
+    "contextMenu": { "delete": "Enterrer", "download": "Rapporter" },
+    "counts": "{{start}}-{{end}} sur {{total}} chiots",
     "deleteModal": {
-      "downloadDescription_one": "Ce fichier téléchargé sera supprimé de cet espace.",
-      "downloadDescription_other": "Ces fichiers téléchargés seront supprimés de cet espace.",
-      "downloadDescription_zero": "Ces fichiers téléchargés seront supprimés de cet espace.",
-      "heading_one": "Supprimer le fichier",
-      "heading_other": "Supprimer les fichiers",
-      "heading_zero": "Supprimer les fichiers",
-      "subheading_one": "Fichier :",
-      "subheading_other": "Fichiers :",
-      "subheading_zero": "Fichiers :",
-      "uploadsDescription_one": "Toutes les données importées seront sauvegardées. Cette opération effacera le fichier de cet espace.",
-      "uploadsDescription_other": "Toutes les données importées seront sauvegardées. Cette opération supprimera les fichiers de cet espace.",
-      "uploadsDescription_zero": "Toutes les données importées seront sauvegardées. Cette opération supprimera les fichiers de l'espace."
+      "downloadDescription_one": "Ce jouet à mâcher rapporté va être enterré dans le jardin.",
+      "downloadDescription_other": "Ces jouets à mâcher rapportés vont être enterrés dans le jardin.",
+      "heading_one": "Enterrer jouet à mâcher",
+      "heading_other": "Enterrer jouets à mâcher",
+      "subheading_one": "Jouet à mâcher :",
+      "subheading_other": "Jouets à mâcher :",
+      "uploadsDescription_one": "Tous les endroits reniflés seront sauvegardés. Cela va enterrer le jouet à mâcher dans le jardin.",
+      "uploadsDescription_other": "Tous les endroits reniflés seront sauvegardés. Cela va enterrer les jouets à mâcher dans le jardin."
     },
     "downloadsTable": {
       "headings": {
-        "createdDate": "Généré",
-        "name": "Nom",
-        "size": "Taille",
-        "sourceSheet": "Fiche source"
+        "createdDate": "Déterré le",
+        "name": "Nom du jouet à mâcher",
+        "size": "Taille de l'os",
+        "sourceSheet": "Source de l'odeur"
       },
-      "processing": "Exportation..."
+      "processing": "Reniflement en cours..."
     },
     "emptyState": {
       "downloads": {
-        "description": "Les données téléchargées apparaîtront ici",
-        "heading": "Aucun téléchargement disponible"
+        "description": "Les jouets à mâcher rapportés apparaîtront ici",
+        "heading": "Aucun jouet à mâcher rapporté"
       },
       "uploads": {
-        "description": "Faites glisser et déposez ou téléchargez un fichier pour commencer.",
-        "heading": "Ajouter des fichiers"
+        "description": "Glissez-déposez ou ajoutez un jouet à mâcher pour commencer",
+        "heading": "Ajouter des jouets à mâcher"
       }
     },
     "errors": {
-      "loadingError": "Impossible de charger les fichiers",
-      "uploadDisabledDescription": "Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le service d'assistance.",
-      "uploadDisabledHeading": "Cet espace ne permet pas actuellement le téléchargement de fichiers."
+      "loadingError": "Impossible de déterrer les jouets à mâcher",
+      "uploadDisabledDescription": "Si vous pensez qu'il s'agit d'une erreur, veuillez aboyer au support.",
+      "uploadDisabledHeading": "Ce jardin ne supporte pas actuellement l'enterrement de nouveaux os."
     },
-    "title": "Fichiers",
-    "uploadedFilesTab": "Fichiers téléchargés",
+    "title": "Jouets à mâcher",
+    "uploadedFilesTab": "Os enterrés",
     "uploadFile": {
       "popovers": {
-        "errorUploading": "Impossible de télécharger le fichier : {{fileName}}",
-        "onDragPopoverConfirmation": "Déposer le fichier dans :",
-        "uploadComplete": "Téléchargé : {{fileName}}",
-        "uploadInProgress": "Téléchargement : {{fileName}}",
-        "uploadsDisabled": "Cet espace ne permet pas actuellement le téléchargement de fichiers."
+        "errorUploading": "Impossible d'enterrer le jouet à mâcher : {{fileName}}",
+        "onDragPopoverConfirmation": "Déposer os dans :",
+        "uploadComplete": "Enterré : {{fileName}}",
+        "uploadInProgress": "Enterrement en cours : {{fileName}}",
+        "uploadsDisabled": "Ce jardin ne supporte pas actuellement l'enterrement de nouveaux os."
       }
     },
     "uploadsTables": {
       "headings": {
-        "name": "Nom",
-        "status": "Statut",
-        "uploadedDate": "Téléchargé"
+        "name": "Nom du jouet à mâcher",
+        "status": "Statut de reniflement",
+        "uploadedDate": "Enterré le"
       },
-      "importButton": "Importer",
+      "importButton": "Déterrer",
       "tooltips": {
-        "cannotImport": "L'importation dans un classeur n'est pas actuellement disponible pour ce fichier.",
-        "noExtension": "Ce fichier n'a pas d'extension. Ajoutez l'extension correcte au nom du fichier et téléchargez à nouveau le fichier pour l'importer dans un classeur."
-      }
-    }
-  },
-  "guestInvite": {
-    "getNewAccessLink": {
-      "content": "Nous avons envoyé un lien d'accès sécurisé à",
-      "finePrint": "Si vous avez du mal à trouver le mail, consultez votre dossier Spam ou actualisez cette page pour envoyer un autre lien. Ce lien sera actif pendant 5 minutes.",
-      "heading": "Vérifier votre boîte mail"
-    }
-  },
-  "jobs": {
-    "customActions": {
-      "modals": {
-        "confirmModal": {
-          "cancelButton": "Annuler",
-          "defaultConfirmButton": "Confirmer",
-          "defaultLoadingButton": "Chargement en cours..."
-        },
-        "defaultJobName": "Emploi",
-        "defaultResourceName": "cette ressource",
-        "foregroundJobProgressModal": {
-          "defaultJobName": "Emploi",
-          "defaultResourceName": "cette ressource",
-          "runningOn": "en exécution sur"
-        },
-        "outcomeModals": {
-          "acknowledgementModal": {
-            "defaultContinueButton": "Continuer"
-          },
-          "defaultDownloadLabel": "Télécharger",
-          "defaultFileName": "fichier",
-          "defaultHeading": {
-            "failed": "La tâche a échoué",
-            "success": "Succès !"
-          },
-          "defaultLabel": "Voir la ressource",
-          "defaultMessage": {
-            "failed": "{{jobName}} sur {{resourceName}} a échoué",
-            "success": "{{jobName}} exécutée avec succès sur {{resourceName}}"
-          },
-          "permanentOutcomeModal": {
-            "defaultContinueButton": "Continuer"
-          }
-        },
-        "startModal": {
-          "confirmButton": "Confirmer",
-          "errorMessage": "Erreur avec l'action",
-          "loadingText": "Chargement en cours..."
-        }
-      }
-    },
-    "panel": {
-      "action": {
-        "export": "Télécharger",
-        "extract": "Importer",
-        "mapping": "Aller au classeur"
-      },
-      "empty": "Les tâches apparaissent ici lorsqu'elles sont en cours ou terminées.",
-      "errorLoadingJob": "Non trouvé(e)",
-      "status": {
-        "default": {
-          "canceled": {
-            "prefix": "Emploi",
-            "suffix": "annulé(e)"
-          },
-          "complete": {
-            "prefix": "Emploi",
-            "suffix": "complet"
-          },
-          "failed": {
-            "prefix": "Emploi",
-            "suffix": "échec"
-          },
-          "inProgress": "Tâche en cours d'exécution"
-        },
-        "delete": {
-          "cancelled": "Annulation de la suppression d'enregistrements",
-          "complete": "Suppression terminée",
-          "failed": "Échec de la suppression",
-          "inProgress": "Suppression d'enregistrements en cours"
-        },
-        "export": {
-          "canceled": "Téléchargement annulé",
-          "complete": "Téléchargement généré",
-          "failed": "Échec de la génération du téléchargement",
-          "inProgress": "Génération du téléchargement en cours"
-        },
-        "extract": {
-          "cancelled": "Extraction du fichier annulée",
-          "complete": "Fichier extrait",
-          "failed": "Échec de l'extraction du fichier",
-          "inProgress": "Extraction du fichier en cours"
-        },
-        "mapping": {
-          "canceled": "Annulation de la mise en correspondance avec le classeur",
-          "complete": "Mis en correspondance vers le classeur",
-          "failed": "Échec de la mise en correspondance avec le classeur",
-          "inProgress": "Correspondance avec le classeur en cours"
-        }
-      },
-      "time": {
-        "completed": "Terminé en",
-        "failed": "Échec après",
-        "started": "Démarré {{time}}",
-        "units": {
-          "hour": "hr",
-          "minute": "min",
-          "second": "sec"
-        }
-      }
-    },
-    "pill": {
-      "hoverText": "Tâches",
-      "multipleJobsRunning": "{{count}} tâches en cours d'exécution",
-      "status": {
-        "default": {
-          "complete": "Tâche exécutée",
-          "failed": "La tâche a échoué",
-          "inProgress": "Tâche en cours"
-        },
-        "delete": {
-          "complete": "Suppression terminée",
-          "failed": "Échec de la suppression",
-          "inProgress": "Suppression des données..."
-        },
-        "extract": {
-          "complete": "Extraction terminée",
-          "failed": "Échec de l'extraction",
-          "inProgress": "Extraction des données..."
-        },
-        "mapping": {
-          "complete": "Mise en correspondance terminée",
-          "failed": "Mise en correspondance échouée",
-          "inProgress": "Mise en correspondance..."
-        }
-      }
-    }
-  },
-  "mapping": {
-    "dataPreview": {
-      "heading": "Aperçu des données pour {{previewKey}}",
-      "noData": "Aucune donnée d'aperçu"
-    },
-    "headerButtons": {
-      "back": "Retour",
-      "exit": "Quitter",
-      "next": "Continuer"
-    },
-    "mapEnums": {
-      "destinationFields": {
-        "dropdownOptions": {
-          "doNotImport": "Ne pas importer",
-          "keepAsIs": "Conserver cette valeur telle quelle",
-          "keepAsIsDisabledTooltip": "Ajouter une nouvelle option à cette liste est impossible. Importer une valeur qui n'est pas une option valide entraînera une erreur."
-        },
-        "heading": "Valeurs cibles"
-      },
-      "incomingFields": {
-        "heading": "Valeurs entrantes",
-        "noData": "Cellules vides",
-        "noDataTooltip": "Vous pouvez sélectionner une option valide pour remplir toutes les cellules vides. Vous pouvez également laisser ce champ vide."
-      },
-      "progressPill_one": "{{mappedCount}} de {{totalCount}} valeur mise en correspondance",
-      "progressPill_other": "{{mappedCount}} de {{totalCount}} valeurs mises en correspondance",
-      "progressPill_zero": "{{mappedCount}} de {{totalCount}} valeurs mises en correspondance",
-      "progressPillAllMapped_one": "{{totalCount}} valeurs mises en correspondance",
-      "progressPillAllMapped_other": "{{totalCount}} valeur mise en correspondance",
-      "progressPillAllMapped_zero": "{{totalCount}} valeur mise en correspondance",
-      "subheading": "Ces champs contiennent des valeurs qui doivent être mises en correspondance avec une liste d'options valides.",
-      "title": "Mettre les champs en correspondance"
-    },
-    "mapFields": {
-      "destinationFields": {
-        "addNewField": {
-          "description": "Ajouter ce champ à votre feuille",
-          "label": "Ajouter comme nouveau champ"
-        },
-        "dropdownOptionLabels": {
-          "new": "Ajouter un nouveau",
-          "unused": "Non utilisé",
-          "used": "Utilisé"
-        },
-        "heading": "Champs de destination",
-        "progressPill": {
-          "missingRequiredFields": " - {{missingFieldsCount}} manquant",
-          "text": "{{totalDestinationsMapped}} sur {{totalDestinationFields}}",
-          "tooltip": {
-            "greaterThanTenMissing": "et {{missingFieldsAfterTen}} plus...",
-            "missingRequiredFields": "Champs obligatoires manquants :",
-            "progress": "{{mappedDestinationFields}} des {{totalDestinationFields}} champs disponibles dans la feuille cible ont été mappés vers"
-          }
-        }
-      },
-      "incomingFields": {
-        "heading": "Champs entrants",
-        "progressPill": {
-          "text": "{{totalIncomingMapped}} sur {{totalIncomingFields}}",
-          "tooltip": "Vous avez mappé {{mappedIncomingFields}} sur {{totalIncomingFields}} champs de votre ensemble de données vers la feuille cible."
-        }
-      },
-      "subheading": "Examinez et confirmez chaque choix de mapping",
-      "title": "Champs de la map"
-    },
-    "sheetSelection": {
-      "cannotLoadFile": "Impossible de télécharger le fichier : {{fileName}}",
-      "columns_one": "1 colonne",
-      "columns_other": "{{count}} colonnes",
-      "columns_zero": "{{count}} colonnes",
-      "errors_one": "1 erreur",
-      "errors_other": "{{count}} erreurs",
-      "errors_zero": "{{count}} erreurs",
-      "importFromHeading": "Sélectionnez une feuille à partir de laquelle vous souhaitez charger des données",
-      "importToHeading": "Sélectionnez une feuille dans laquelle importer ces données",
-      "lastUpdated": "Dernière mise à jour le {{date}}",
-      "lastUpdatedDateFormat": "aaaa - mm - jj",
-      "records_one": "1 dossier",
-      "records_other": "{{count}} dossiers",
-      "records_zero": "{{count}} dossiers",
-      "sheetHasNoData": "Aucune donnée",
-      "sheets_one": "1 feuille",
-      "sheets_other": "{{count}} feuilles",
-      "sheets_zero": "{{count}} feuilles",
-      "title": "Importer vers..."
-    }
-  },
-  "sheet": {
-    "emptyView": {
-      "heading": "Démarrons",
-      "manualEntry": "Saisir manuellement les données",
-      "uploadFile": "Faites glisser et déposez ou téléchargez un fichier pour commencer."
-    },
-    "errors": {
-      "loading": "Impossible de récupérer le classeur.",
-      "noSheets": {
-        "description": "Un classeur doit contenir au moins une feuille. Aucune feuille n'a été trouvée.",
-        "title": "Le classeur ne contient pas de feuilles"
-      },
-      "notFound": "Classeur non trouvé"
-    },
-    "popovers": {
-      "errors": {
-        "cellUpdateFailed": "Une erreur s'est produite. Veuillez actualiser la page et réessayer. Si le problème persiste, veuillez contacter le service d'assistance",
-        "invalidFFQL": "Veuillez vérifier votre requête",
-        "recordsLoadFailed": "Échec du chargement des enregistrements"
-      }
-    },
-    "table": {
-      "cells": {
-        "enum": {
-          "loading": "Chargement des options...",
-          "loadingError": "Échec du chargement des options",
-          "noMatchesFound": "Aucune correspondance trouvée",
-          "placeholder": "Tapez votre texte ici...",
-          "seeMore": "Faites une recherche pour voir plus d'options"
-        },
-        "messages": {
-          "autogen": "✨ Générée automatiquement",
-          "reference": "La valeur n'existe pas dans le tableau de référence",
-          "req": "{{field}} est obligatoire",
-          "transformed": "🪄️ Transformée à partir de {{originalValue}}",
-          "unique": "La valeur n'est pas unique"
-        }
-      },
-      "contextMenu": {
-        "findAndReplace": {
-          "findAndReplaceValues": "Rechercher et remplacer",
-          "modal": {
-            "cancelButton": "Annuler",
-            "descriptionExactOnly": "Remplacer en masse n'importe quel texte de cette colonne par une valeur valide. Nous ne prenons en charge que les correspondances exactes",
-            "descriptionPartialAndExact": "Remplacez en masse n'importe quel texte dans cette colonne. Nous prenons en charge les correspondances partielles et exactes pour ces données.",
-            "errors": {
-              "findError": "Une erreur est survenue lors de la recherche des valeurs",
-              "generalError": "Une erreur est survenue. Veuillez réessayer.",
-              "replaceError": "Une erreur est survenue lors du remplacement des valeurs"
-            },
-            "exactMatchesOnly": "Faire apparaître uniquement les correspondances exactes",
-            "finding": "Recherche de toutes les occurrences",
-            "heading": "Rechercher et remplacer dans {{columnName}}",
-            "isFiltered": "Cet ensemble de données a été filtré. La recherche et le remplacement ne s'exécutent que sur les enregistrements filtrés.",
-            "replaceButton": "Remplacer tout",
-            "replaceEmpty": {
-              "description": {
-                "addValues": "Ceci remplira toutes les cellules vides dans {{columnName}}",
-                "addValuesToAll": "Toutes les cellules vides se trouvent dans {{columnName}}, vous pouvez les remplir en masse avec une valeur sélectionnée.",
-                "addValuesToCount_one": "Il y a {{formattedCount}} cellule vide dans {{columnName}}, vous pouvez la remplir en masse avec une valeur sélectionnée.",
-                "addValuesToCount_other": "Il y a {{formattedCount}} cellules vides dans {{columnName}}, vous pouvez les remplir en masse avec une valeur sélectionnée.",
-                "addValuesToCount_zero": "Il y a {{formattedCount}} cellules vides dans {{columnName}}, vous pouvez les remplir en masse avec une valeur sélectionnée.",
-                "noEmptyValues": "Impossible de trouver des cellules vides dans ce champ !"
-              },
-              "heading": {
-                "addValues": "Ajouter une valeur aux cellules vides dans {{columnName}}",
-                "addValuesToAll": "Ajouter une valeur à toutes les cellules vides dans {{columnName}}",
-                "addValuesToCount_one": "Ajouter une valeur à {{formattedCount}} cellule vide dans {{columnName}}",
-                "addValuesToCount_other": "Ajouter une valeur aux {{formattedCount}} cellules vides dans {{columnName}}",
-                "addValuesToCount_zero": "Ajouter une valeur aux {{formattedCount}} cellules vides dans {{columnName}}",
-                "noEmptyValues": "Aucune valeur vide trouvée"
-              }
-            },
-            "replaceEnum": {
-              "moreOptions": "Afficher les 100 premières options. Rechercher pour en voir plus.",
-              "noMatchesFound": "Aucune correspondance trouvée",
-              "replaceWith": "Remplacer par..."
-            },
-            "replaceValue": {
-              "leavingBlank": "Si vous laissez ce champ vide, les valeurs sélectionnées seront supprimées.",
-              "noMatchesFound": "Aucune valeur trouvée",
-              "replaceWith": "Remplacer par..."
-            },
-            "replacing": "Remplacement des valeurs",
-            "runOnAllRecords": "Exécuter sur tous les enregistrements",
-            "searchForEmpty": "Si ce champ est vide, nous rechercherons les valeurs vides.",
-            "searchForText": "Recherche de texte...",
-            "searchResultsCount_one": "{{count}} correspondance",
-            "searchResultsCount_other": "{{count}} correspondances",
-            "searchResultsCount_zero": "{{count}} correspondances"
-          },
-          "replaceEmptyValues": "Remplacer les valeurs vides"
-        },
-        "pin": {
-          "apply": "Colonne d'épingles",
-          "remove": "Supprimer l'épingle",
-          "tooltip": {
-            "maxPinned": "Vous pouvez épingler jusqu'à trois colonnes. Désépinglez l'une des colonnes actuellement épinglées pour épingler cette colonne.",
-            "pin": "Épingler cette colonne à gauche du tableau",
-            "unpin": "Cliquer pour désépingler cette colonne"
-          }
-        },
-        "searchInField": {
-          "modal": {
-            "cancelButton": "Annuler",
-            "placeholder": "Rechercher...",
-            "searchButton": "Rechercher",
-            "searchWithin": "Rechercher dans"
-          },
-          "searchInThisField": "Rechercher dans ce champ"
-        },
-        "sort": {
-          "ascending": {
-            "apply": "Trier de A à Z",
-            "remove": "Supprimer le tri de A à Z"
-          },
-          "descending": {
-            "apply": "Trier de Z à A",
-            "remove": "Supprimer le tri de Z à A"
-          },
-          "tooltip": {
-            "notSorted": "Cliquer pour trier de A à Z",
-            "sortedAsc": "Tri de A à Z",
-            "sortedDes": "Tri de Z à A"
-          }
-        }
-      },
-      "errors": {
-        "description": "Un problème survient lors de l'affichage de ces données dans le tableau. Veuillez consulter la console pour en savoir plus sur l'erreur.",
-        "title": "Une erreur s'est produite"
-      },
-      "indexRow": {
-        "tooltip": {
-          "createRow": "Ajoutez des données pour créer cette ligne",
-          "noData": "Il n'y a pas de ligne à sélectionner. Seules les lignes contenant des données peuvent être sélectionnées.",
-          "rowNumber": "Ligne {{number}}"
-        }
-      },
-      "modals": {
-        "copyAlert": {
-          "cancelButton": "Annuler",
-          "description": "Nous avons remarqué que vous essayez de sélectionner plus de 100 enregistrements. Nous limitons la copie à 100 enregistrements afin de préserver l'intégrité de vos données.",
-          "download": "Souhaitez-vous télécharger cette feuille au format .csv ?",
-          "downloadButton": "Télécharger",
-          "heading": "Souhaitez-vous télécharger ce fichier ?"
-        },
-        "deleteAlert": {
-          "descriptionEnd": "Les enregistrements visibles dans Flatfile peuvent ne pas être exactement dans le même ordre que votre fichier source -- Flatfile modifie intelligemment vos données pour supprimer les enregistrements vides, les doublons, etc. Nous ne recommandons pas de coller plus de 100 enregistrements à la fois.",
-          "descriptionStart": "Nous avons remarqué que vous essayez de supprimer des données sur plus de 100 enregistrements. Nous limitons la suppression à 100 enregistrements à la fois afin de préserver l'intégrité de vos données.",
-          "dismissButton": "Supprimer",
-          "heading": "Vous avez atteint notre limite de suppression !"
-        },
-        "pasteAlert": {
-          "descriptionEnd": "Les enregistrements visibles dans Flatfile peuvent ne pas être exactement dans le même ordre que votre fichier source -- Flatfile modifie intelligemment vos données pour supprimer les enregistrements vides, les doublons, etc. Nous ne recommandons pas de coller plus de 100 enregistrements à la fois.",
-          "descriptionStart": "Nous avons remarqué que vous essayez de coller des données sur plus de 100 enregistrements. Nous limitons le collage à 100 enregistrements afin de maintenir l'intégrité de vos données.",
-          "dismissButton": "Supprimer",
-          "heading": "Vous avez atteint notre limite de collage !"
-        }
-      }
-    },
-    "toolbar": {
-      "buttons": {
-        "delete": {
-          "tooltip": {
-            "active": "Supprimer les enregistrements sélectionnés",
-            "disabled": {
-              "deleteDisabled": "La suppression des enregistrements est désactivée sur cette feuille.",
-              "noRecordsSelected": "Sélectionnez au moins un enregistrement à supprimer"
-            }
-          }
-        },
-        "download": {
-          "tooltip": {
-            "active": {
-              "invalidFilterApplied": "Télécharger tous les enregistrements invalides",
-              "noRecordsSelected": "Télécharger cette feuille",
-              "recordsSelected": "Télécharger les enregistrements sélectionnés",
-              "validFilterApplied": "Télécharger tous les enregistrements valides"
-            },
-            "disabled": "Aucun enregistrement à télécharger"
-          }
-        }
-      },
-      "customActionsDropdown": {
-        "disabledTooltip": {
-          "requireAllValid": "Cette action nécessite que toutes les lignes sélectionnées soient valides",
-          "requireSelection": "Veuillez sélectionner au moins un enregistrement pour utiliser cette action"
-        }
-      },
-      "filterByError": {
-        "buttonText": "Filtrer par erreur",
-        "dropdownPlaceholder": "Rechercher ou sélectionner..."
-      },
-      "filters": {
-        "all": "Tout",
-        "invalid": "Invalide",
-        "tooltip": {
-          "filter": {
-            "invalid": "invalide",
-            "total": "total",
-            "valid": "valide"
-          },
-          "filtered": "Cet ensemble de données a été filtré pour afficher {{filteredCount}} des {{countString}} {{filter}} enregistrements.",
-          "filteredByError": "Cet ensemble de données a été filtré via le filtre d'erreur pour afficher {{filteredCount}} des {{countString}} {{filter}} enregistrements.",
-          "filteredByFFQL": "Cet ensemble de données a été filtré via le langage de requête Flatfile pour afficher {{filteredCount}} des {{countString}} {{filter}} enregistrements.",
-          "filteredBySearch": "Cet ensemble de données a été filtré via la recherche pour afficher {{filteredCount}} des {{countString}} {{filter}} enregistrements.",
-          "filteredBySearchAndError": "Cet ensemble de données a été filtré via la recherche et le filtre d'erreur pour afficher {{filteredCount}} des {{countString}} {{filter}} enregistrements.",
-          "inactiveCount": "{{countString}} {{filter}} enregistrements, {{filteredCount}} filtrés"
-        },
-        "valid": "Valide"
-      },
-      "moreActions": {
-        "buttonText": "Plus d'actions",
-        "placeholder": "Rechercher ou sélectionner..."
-      },
-      "searchBar": {
-        "placeholder": "Rechercher...",
-        "tooltip": "Appuyez sur Entrée pour lancer la recherche"
+        "cannotImport": "Déterrer un carnet à partir de ce jouet à mâcher n'est actuellement pas disponible",
+        "noExtension": "Ce jouet à mâcher n'a pas d'étiquette. Ajoutez le bon nom au jouet à mâcher et enterrez-le à nouveau pour le déterrer plus tard"
       }
     }
   },
   "sidebar": {
-    "checklist": "Liste de vérification des données",
-    "emptyWorkbook": "Classeur vide",
-    "files": "Fichiers",
-    "readOnlyIconTooltip": "Cette feuille est en lecture seule"
+    "checklist": "Checklist chiot",
+    "emptyWorkbook": "Site de fouille vide",
+    "files": "Jouets à mâcher",
+    "readOnlyIconTooltip": "Cette Marque d'odeur est en lecture seule"
   },
-  "versionHistory": {
-    "modals": {
-      "default": {
-        "description": "Une erreur inattendue s'est produite - aucune action correspondante n'a été appliquée"
-      },
-      "delete": {
-        "confirm": {
-          "closeButton": "Fermer",
-          "description": "Voulez-vous vraiment supprimer la version sélectionnée ?",
-          "heading": "Supprimer la version",
-          "proceedButton": "Supprimer"
-        },
-        "error": {
-          "closeButton": "Fermer",
-          "description": "Impossible de supprimer la version sélectionnée en raison d'une erreur inattendue – si le problème persiste, contactez le service d'assistance.",
-          "heading": "Impossible de supprimer la version",
-          "retryButton": "Réessayer"
-        },
-        "success": {
-          "closeButton": "Fermer",
-          "description": "La version sélectionnée a été supprimée.",
-          "heading": "Version supprimée"
-        }
-      },
-      "restore": {
-        "confirm": {
-          "closeButton": "Fermer",
-          "description": "Vous êtes sur le point de restaurer les données de votre feuille à une version antérieure – souhaitez-vous continuer ?",
-          "heading": "Confirmer la restauration de la version",
-          "proceedButton": "Continuer"
-        },
-        "success": {
-          "closeButton": "Fermer",
-          "description": "Votre feuille a été restaurée avec succès vers une version antérieure ! Veuillez informer tous les collaborateurs de la feuille de rafraîchir leur navigateur afin de réduire le risque de problèmes.",
-          "heading": "Version restaurée avec succès"
-        }
-      }
-    },
-    "panel": {
-      "empty": "Les versions, une fois générées, apparaîtront ici. Les versions sont générées automatiquement, souvent au moment d'une transformation en masse des données.",
-      "generatedSnapshot": "Instantané généré avant l'application de AI Transform pour l'invite : ",
-      "heading": "Historique des versions",
-      "thisMonth": "Ce mois-ci",
-      "versionRestored": "Version créée avant la restauration d'une version précédente"
-    },
-    "pill": {
-      "hoverText": "Historique des versions"
+  "myDocument": {
+    "title": "Votre premier Espace Chiot !",
+    "body": "# Bienvenue ### Donnez un grand aboiement à votre premier Espace Chiot dans la nouvelle Nichée ! Vous remarquerez que la checklist, les fichiers et la barre latérale ont eu droit à une cure de jouvence chiots."
+  },
+  "mySubmitAction": {
+    "label": "Soumettre",
+    "description": "Fini de marquer tous les arbres ? Appuyez sur soumettre pour envoyer vos données de reniflement",
+    "tooltip": "Soumettre vos données de reniflement",
+    "outcome": {
+      "heading": "Import réussi !",
+      "message": "Toutes les données de reniflement ont été soumises ! Vous pouvez maintenant cliquer sur le lien ci-dessous.",
+      "urlLabel": "Retourner à la nichée"
     }
   }
 }

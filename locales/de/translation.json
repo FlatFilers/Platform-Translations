@@ -1,694 +1,123 @@
 {
   "checklist": {
     "dropdowns": {
-      "headings": {
-        "sheet": "Blatt",
-        "workbook": "Arbeitsmappe"
-      }
+      "headings": { "sheet": "Kuschel Blatt", "workbook": "Welpen Spielbuch" }
     },
     "errors": {
-      "cannotLoadChecklist": "Laden der Daten-Prüfliste nicht möglich",
-      "cannotLoadSheet": "Blatt konnte nicht gefunden werden",
-      "noWorkbooksDescription": "Daten-Prüfliste erfordert zumindest 1 aktive Arbeitsmappe. Bitte lassen Sie die Konfigurierung durch Ihren Entwickler überprüfen. Falls das Problem weiter besteht, kontaktieren Sie bitte den Kundendienst.",
-      "noWorkbooksTitle": "Arbeitsmappe erforderlich"
+      "cannotLoadChecklist": "Die Welpen-Vorbereitungs-Checkliste kann nicht geladen werden",
+      "cannotLoadSheet": "Das Blatt ist versteckt (kann nicht gefunden werden)",
+      "noWorkbooksDescription": "Unsere Welpen-Checkliste benötigt mindestens ein aktives Spielbuch. Bitte fordere deinen Entwickler auf, die richtigen Einstellungen abzurufen. Wenn dieser Schwanz weiter wedelt, kontaktiere den Support.",
+      "noWorkbooksTitle": "Spielbuch fehlt!"
     },
     "table": {
       "dataTypes": {
-        "boolean": "Aussagenlogisch",
-        "date": "Datum",
-        "enum": "Aufzählung",
-        "number": "Zahl",
-        "reference": "Referenz",
-        "string": "Reihung",
-        "unknown": "Unbekannt"
+        "boolean": "Bell-ean",
+        "date": "Spieltermin",
+        "enum": "Aufzählung von Knochen",
+        "number": "Pfotenanzahl",
+        "reference": "Verweis auf den Tierarzt",
+        "string": "Wurstketten",
+        "unknown": "Geheimnis Mischling"
       },
-      "fieldTagComputed": "Berechnet",
-      "fieldTagRequired": "Erforderlich",
-      "fieldTagUnique": "Einmalig",
+      "fieldTagComputed": "Welpen Berechnungen",
+      "fieldTagRequired": "Pfotenweise benötigt",
+      "fieldTagUnique": "Einzigartig in seiner Art",
       "headings": {
-        "dataType": "Datentyp",
-        "description": "Beschreibung",
-        "field": "Feldname"
+        "dataType": "Rassentyp",
+        "description": "Welpenprofil",
+        "field": "Fell-astisches Feld"
       }
     },
-    "title": "Daten-Checkliste"
-  },
-  "commandMenu": {
-    "aiAssist": {
-      "query": {
-        "askingAI": {
-          "stepFour": "Beenden",
-          "stepOne": "Nachdenken",
-          "stepThree": "Tun",
-          "stepTwo": "Schreiben"
-        },
-        "description": "KI bitten, eine Abfrage in FFQL für Sie zu schreiben",
-        "errorBanner": {
-          "generalError": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
-        },
-        "instruction": "Beschreiben Sie, wie Sie möchten, dass der KI-Assistent Ihre Daten abfragt:",
-        "review": {
-          "description": "Das habe ich mir ausgedacht. Lesen Sie die Schritt-für-Schritt-Erklärung und die Abfrage, und wenn es gut aussieht, klicken Sie unten, um es anzuwenden.",
-          "explanationTitle": "Erklärung",
-          "queryTitle": "Abfrage"
-        }
-      },
-      "title": "Erstellen mit KI",
-      "transform": {
-        "askingAI": {
-          "stepFour": "Beenden",
-          "stepOne": "Nachdenken",
-          "stepThree": "Tun",
-          "stepTwo": "Schreiben"
-        },
-        "description": "KI mit der Transformation Ihrer Daten beauftragen",
-        "errorBanner": {
-          "generalError": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
-          "versionError": "Es kann keine Rollback-Version erstellt werden – KI-Transformation abgebrochen. Bitte versuchen Sie es erneut."
-        },
-        "instruction": "Beschreiben Sie, wie Sie möchten, dass der KI-Assistent Ihre Daten transformiert:",
-        "review": {
-          "codeTitle": "Code",
-          "description": "Das habe ich mir ausgedacht. Lesen Sie die Schritt-für-Schritt-Erklärung und die Abfrage, und wenn es gut aussieht, klicken Sie unten, um es anzuwenden.",
-          "warning": "Warnung! Dies wird Ihre Daten transformieren"
-        },
-        "transforming": {
-          "inProgress": "Anwenden auf Ihren Datensatz"
-        }
-      }
-    },
-    "commands": {
-      "filter": {
-        "apply": "Filter anwenden.",
-        "description": "eine FFFQL-Anweisung schreiben",
-        "learnHow": "erfahren, wie",
-        "link": "Erfahren Sie mehr über FFQL-Filter"
-      },
-      "search": {
-        "global": {
-          "apply": "Suche anwenden.",
-          "description": "das ganze Blatt durchsuchen"
-        },
-        "inField": {
-          "apply": "Suche innerhalb eines Feldes anwenden.",
-          "applyExample": "z. B. „Vorname“ Jane Doe",
-          "description": "Suche innerhalb eines Feldes"
-        }
-      }
-    },
-    "placeholder": "Finden oder tun Sie etwas ..."
-  },
-  "document": {
-    "error": {
-      "description": "Dieses Dokument existiert offenbar nicht",
-      "title": "Dokument nicht gefunden"
-    }
-  },
-  "errors": {
-    "fileNotFound": "Datei nicht gefunden",
-    "missingParameter": "Parameter nicht angegeben",
-    "notFound": "Nicht gefunden",
-    "refreshButton": "Erneut versuchen",
-    "refreshPageDescription": "Aktualisieren Sie die Seite und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich bitte an den Support.",
-    "sheetNotFound": "Arbeitsblatt nicht gefunden",
-    "spaceNotFound": "Bereich nicht gefunden",
-    "unauthorized": "Ihre Zugangsdaten sind ungültig.",
-    "unknownError": "Etwas ist schief gelaufen",
-    "workbookNotFound": "Arbeitsmappe nicht gefunden"
+    "title": "Checkliste für Welpenpfoten-Voraussetzungen"
   },
   "files": {
-    "availableDownloadsTab": "Verfügbare Downloads",
+    "availableDownloadsTab": "Verfügbare Kaustangen",
     "buttons": {
       "addFile": {
-        "inProgressText": "Datei wird hochgeladen",
-        "text": "Datei hinzufügen"
+        "inProgressText": "Knochen vergraben...",
+        "text": "Kaustange hinzufügen"
       },
-      "delete": "Löschen",
-      "download": "Herunterladen"
+      "delete": "Vergraben",
+      "download": "Holen"
     },
-    "contextMenu": {
-      "delete": "Löschen",
-      "download": "Herunterladen"
-    },
-    "counts": "{{start}}–{{end}} von {{total}}",
+    "contextMenu": { "delete": "Vergraben", "download": "Holen" },
+    "counts": "{{start}}-{{end}} von {{total}} Welpen",
     "deleteModal": {
-      "downloadDescription_one": "Diese heruntergeladene Datei wird aus dem Speicherplatz gelöscht.\n",
-      "downloadDescription_other": "Diese heruntergeladenen Dateien werden aus dem Speicherplatz gelöscht.\n\n",
-      "downloadDescription_zero": "Diese heruntergeladenen Dateien werden aus dem Speicherplatz gelöscht.\n",
-      "heading_one": "Datei löschen",
-      "heading_other": "Dateien löschen",
-      "heading_zero": "Dateien löschen",
-      "subheading_one": "Datei:\n",
-      "subheading_other": "Dateien:\n",
-      "subheading_zero": "Dateien:\n",
-      "uploadsDescription_one": "Alle importierten Daten werden gespeichert. Dadurch wird die Datei aus dem Speicherplatz gelöscht.",
-      "uploadsDescription_other": "Alle importierten Daten werden gespeichert. Dadurch werden die Dateien aus dem Speicherplatz gelöscht.\n",
-      "uploadsDescription_zero": "Alle importierten Daten werden gespeichert. Dadurch werden die Dateien aus dem Raum gelöscht."
+      "downloadDescription_one": "Diese geholte Kaustange wird im Garten vergraben.",
+      "downloadDescription_other": "Diese geholten Kaustangen werden im Garten vergraben.",
+      "heading_one": "Kaustange vergraben",
+      "heading_other": "Kaustangen vergraben",
+      "subheading_one": "Kaustange:",
+      "subheading_other": "Kaustangen:",
+      "uploadsDescription_one": "Alle geschnüffelten Stellen werden gespeichert. Dies vergräbt die Kaustange im Garten.",
+      "uploadsDescription_other": "Alle geschnüffelten Stellen werden gespeichert. Dies vergräbt die Kaustangen im Garten."
     },
     "downloadsTable": {
       "headings": {
-        "createdDate": "Erzeugt",
-        "name": "Name",
-        "size": "Größe",
-        "sourceSheet": "Quellblatt"
+        "createdDate": "Ausgegraben am",
+        "name": "Name der Kaustange",
+        "size": "Größe des Knochens",
+        "sourceSheet": "Quelle des Geruchs"
       },
-      "processing": "Wird exportiert ..."
+      "processing": "Schnüffeln..."
     },
     "emptyState": {
       "downloads": {
-        "description": "Die heruntergeladenen Daten werden hier angezeigt.",
-        "heading": "Keine Downloads verfügbar"
+        "description": "Geholte Kaustangen erscheinen hier",
+        "heading": "Keine Kaustangen geholt"
       },
       "uploads": {
-        "description": "Datei ziehen und ablegen oder hochladen, um loszulegen",
-        "heading": "Dateien hinzufügen"
+        "description": "Ziehen und Ablegen oder Kaustange hinzufügen, um zu beginnen",
+        "heading": "Kaustangen hinzufügen"
       }
     },
     "errors": {
-      "loadingError": "Die Dateien können nicht geladen werden",
-      "uploadDisabledDescription": "Falls Sie glauben, dass das ein Fehler ist, kontaktieren Sie bitte den Kundendienst.",
-      "uploadDisabledHeading": "Dieser Speicherort unterstützt derzeit keine Datei-Uploads."
+      "loadingError": "Die Kaustangen können nicht ausgegraben werden",
+      "uploadDisabledDescription": "Wenn du denkst, dass dies ein Fehler ist, bell bitte den Support an.",
+      "uploadDisabledHeading": "Dieser Garten unterstützt derzeit nicht das Vergraben neuer Knochen."
     },
-    "title": "Dateien",
-    "uploadedFilesTab": "Hochgeladene Dateien",
+    "title": "Kaustangen",
+    "uploadedFilesTab": "Vergrabene Knochen",
     "uploadFile": {
       "popovers": {
-        "errorUploading": "Datei kann nicht hochgeladen werden: {{fileName}}",
-        "onDragPopoverConfirmation": "Datei ablegen in:",
-        "uploadComplete": "Hochgeladen: {{fileName}}",
-        "uploadInProgress": "Hochladen: {{fileName}}",
-        "uploadsDisabled": "Dieser Speicherort unterstützt derzeit keine Datei-Uploads."
+        "errorUploading": "Kaustange konnte nicht vergraben werden: {{fileName}}",
+        "onDragPopoverConfirmation": "Knochen ablegen in:",
+        "uploadComplete": "Vergraben: {{fileName}}",
+        "uploadInProgress": "Vergraben: {{fileName}}",
+        "uploadsDisabled": "Dieser Garten unterstützt derzeit nicht das Vergraben neuer Knochen."
       }
     },
     "uploadsTables": {
       "headings": {
-        "name": "Name",
-        "status": "Status",
-        "uploadedDate": "Hochgeladen"
+        "name": "Name der Kaustange",
+        "status": "Schnüffelstatus",
+        "uploadedDate": "Vergraben am"
       },
-      "importButton": "Importieren",
+      "importButton": "Ausgraben",
       "tooltips": {
-        "cannotImport": "Importieren in eine Arbeitsmappe ist für diese Datei zur Zeit nicht verfügbar",
-        "noExtension": "Diese Datei hat keine Erweiterung. Fügen Sie dem Dateinamen die richtige Erweiterung hinzu und laden Sie die Datei erneut hoch, um sie in eine Arbeitsmappe zu importieren"
-      }
-    }
-  },
-  "guestInvite": {
-    "getNewAccessLink": {
-      "content": "Wir haben einen sicheren Zugangslink gesendet an",
-      "finePrint": "Wenn Sie Probleme haben, die E-Mail zu finden, überprüfen Sie Ihren Spam-Ordner oder aktualisieren Sie diese Seite, um einen weiteren Zugangslink zu senden. Der Link wird 5 Minuten lang funktionieren.",
-      "heading": "Prüfen Sie Ihren Posteingang"
-    }
-  },
-  "jobs": {
-    "customActions": {
-      "modals": {
-        "confirmModal": {
-          "cancelButton": "Abbrechen",
-          "defaultConfirmButton": "Bestätigen",
-          "defaultLoadingButton": "Wird geladen"
-        },
-        "defaultJobName": "Job",
-        "defaultResourceName": "diese Ressource",
-        "foregroundJobProgressModal": {
-          "defaultJobName": "Job",
-          "defaultResourceName": "diese Ressource",
-          "runningOn": "wird ausgeführt auf"
-        },
-        "outcomeModals": {
-          "acknowledgementModal": {
-            "defaultContinueButton": "Weiter"
-          },
-          "defaultDownloadLabel": "Herunterladen",
-          "defaultFileName": "Datei",
-          "defaultHeading": {
-            "failed": "Auftrag fehlgeschlagen",
-            "success": "Erfolgreich!"
-          },
-          "defaultLabel": "Ressource anzeigen",
-          "defaultMessage": {
-            "failed": "{{jobName}} auf {{resourceName}} fehlgeschlagen",
-            "success": "{{jobName}} lief erfolgreich auf {{resourceName}}"
-          },
-          "permanentOutcomeModal": {
-            "defaultContinueButton": "Weiter"
-          }
-        },
-        "startModal": {
-          "confirmButton": "Bestätigen",
-          "errorMessage": "Fehler beim Vorgang",
-          "loadingText": "Wird geladen"
-        }
-      }
-    },
-    "panel": {
-      "action": {
-        "export": "Herunterladen",
-        "extract": "Importieren",
-        "mapping": "Zur Arbeitsmappe gehen"
-      },
-      "empty": "Aufträge werden hier angezeigt, wenn sie ausgeführt oder abgeschlossen werden.",
-      "errorLoadingJob": "Nicht gefunden",
-      "status": {
-        "default": {
-          "canceled": {
-            "prefix": "Job",
-            "suffix": "abgebrochen"
-          },
-          "complete": {
-            "prefix": "Job",
-            "suffix": "abgeschlossen"
-          },
-          "failed": {
-            "prefix": "Job",
-            "suffix": "fehlgeschlagen"
-          },
-          "inProgress": "Laufender Auftrag"
-        },
-        "delete": {
-          "cancelled": "Datensatzlöschung abgebrochen",
-          "complete": "Löschvorgang abgeschlossen",
-          "failed": "Löschvorgang fehlgeschlagen",
-          "inProgress": "Datensätze löschen"
-        },
-        "export": {
-          "canceled": "Download abgebrochen",
-          "complete": "Download generiert",
-          "failed": "Download konnte nicht generiert werden",
-          "inProgress": "Download wird generiert"
-        },
-        "extract": {
-          "cancelled": "Dateiextraktion abgebrochen",
-          "complete": "Extrahierte Datei",
-          "failed": "Datei konnte nicht extrahiert werden",
-          "inProgress": "Datei extrahieren"
-        },
-        "mapping": {
-          "canceled": "Zuordnung zur Arbeitsmappe abgebrochen",
-          "complete": "Der Arbeitsmappe zugeordnet",
-          "failed": "Zuordnung zur Arbeitsmappe fehlgeschlagen",
-          "inProgress": "Zuordnung zur Arbeitsmappe"
-        }
-      },
-      "time": {
-        "completed": "Abgeschlossen in:",
-        "failed": "Gescheitert nach:",
-        "started": "Begonnen am: {{time}}",
-        "units": {
-          "hour": "Std.",
-          "minute": "Min.",
-          "second": "Sek."
-        }
-      }
-    },
-    "pill": {
-      "hoverText": "Aufträge",
-      "multipleJobsRunning": "{{count}} laufende Aufträge",
-      "status": {
-        "default": {
-          "complete": "Auftrag abgeschlossen",
-          "failed": "Auftrag fehlgeschlagen",
-          "inProgress": "Auftrag läuft"
-        },
-        "delete": {
-          "complete": "Löschvorgang abgeschlossen",
-          "failed": "Löschvorgang fehlgeschlagen",
-          "inProgress": "Datensätze löschen …"
-        },
-        "extract": {
-          "complete": "Extraktion abgeschlossen",
-          "failed": "Extraktion fehlgeschlagen",
-          "inProgress": "Daten extrahieren …"
-        },
-        "mapping": {
-          "complete": "Zuordnung abgeschlossen",
-          "failed": "Zuordnung fehlgeschlagen",
-          "inProgress": "Zuordnung …"
-        }
-      }
-    }
-  },
-  "mapping": {
-    "dataPreview": {
-      "heading": "Datenvorschau für {{previewKey}}",
-      "noData": "Keine Vorschaudaten"
-    },
-    "headerButtons": {
-      "back": "Zurück",
-      "exit": "Beenden",
-      "next": "Weiter"
-    },
-    "mapEnums": {
-      "destinationFields": {
-        "dropdownOptions": {
-          "doNotImport": "Nicht importieren",
-          "keepAsIs": "Diesen Wert so belassen",
-          "keepAsIsDisabledTooltip": "Das Hinzufügen einer neuen Option zu dieser Liste wird nicht unterstützt. Das Importieren eines ungültigen Werts wird als Fehler angezeigt."
-        },
-        "heading": "Zielwerte"
-      },
-      "incomingFields": {
-        "heading": "Eingehende Werte",
-        "noData": "Zellen ohne Daten",
-        "noDataTooltip": "Sie können eine gültige Option auswählen, um alle leeren Zellen auszufüllen. Dieses Feld kann auch leer gelassen werden."
-      },
-      "progressPill_one": "{{mappedCount}} von {{totalCount}} Wert zugeordnet",
-      "progressPill_other": "{{mappedCount}} von {{totalCount}} Werten zugeordnet",
-      "progressPill_zero": "{{mappedCount}} von {{totalCount}} Werten zugeordnet",
-      "progressPillAllMapped_one": "{{totalCount}} Werte zugeordnet",
-      "progressPillAllMapped_other": "{{totalCount}} Wert zugeordnet",
-      "progressPillAllMapped_zero": "{{totalCount}} Wert zugeordnet",
-      "subheading": "Diese Felder haben Werte, die einer Liste gültiger Optionen zugeordnet werden müssen.",
-      "title": "Felder zuordnen"
-    },
-    "mapFields": {
-      "destinationFields": {
-        "addNewField": {
-          "description": "Dieses Feld in das Arbeitsblatt einfügen",
-          "label": "Als neues Feld hinzufügen"
-        },
-        "dropdownOptionLabels": {
-          "new": "Neu hinzufügen",
-          "unused": "Unbenutzt",
-          "used": "Verwendet"
-        },
-        "heading": "Zielfelder",
-        "progressPill": {
-          "missingRequiredFields": " - {{missingFieldsCount}} fehlt",
-          "text": "{{totalDestinationsMapped}} von {{totalDestinationFields}}",
-          "tooltip": {
-            "greaterThanTenMissing": "und {{missingFieldsAfterTen}} weitere …",
-            "missingRequiredFields": "Erforderliche Felder fehlen:",
-            "progress": "{{mappedDestinationFields}} der {{totalDestinationFields}} verfügbaren Felder im Zielblatt wurden zugeordnet zu"
-          }
-        }
-      },
-      "incomingFields": {
-        "heading": "Eingehende Felder",
-        "progressPill": {
-          "text": "{{totalIncomingMapped}} von {{totalIncomingFields}}",
-          "tooltip": "Sie haben {{mappedIncomingFields}} der {{totalIncomingFields}} Felder in Ihrem Datensatz dem Zielblatt zugeordnet."
-        }
-      },
-      "subheading": "Überprüfen und bestätigen Sie jede Mapping-Auswahl.",
-      "title": "Felder zuordnen"
-    },
-    "sheetSelection": {
-      "cannotLoadFile": "Datei kann nicht hochgeladen werden: {{fileName}}",
-      "columns_one": "1 Spalte\n",
-      "columns_other": "{{count}} Spalten\n",
-      "columns_zero": "{{count}} Spalten\n",
-      "errors_one": "1 Fehler\n",
-      "errors_other": "{{count}} Fehler",
-      "errors_zero": "{{count}} Fehler\n",
-      "importFromHeading": "Wählen Sie ein Blatt aus, aus dem Daten geladen werden sollen.",
-      "importToHeading": "Wählen Sie ein Blatt aus, in das diese Daten importiert werden sollen.",
-      "lastUpdated": "Zuletzt aktualisiert am: {{date}}",
-      "lastUpdatedDateFormat": "JJJJ-MM-TT",
-      "records_one": "1 Datensatz\n",
-      "records_other": "{{count}} Datensätze\n",
-      "records_zero": "{{count}} Datensätze",
-      "sheetHasNoData": "Keine Daten",
-      "sheets_one": "1 Blatt\n",
-      "sheets_other": "{{count}} Blätter\n",
-      "sheets_zero": "{{count}} Blätter\n",
-      "title": "Importieren nach"
-    }
-  },
-  "sheet": {
-    "emptyView": {
-      "heading": "Fangen wir an",
-      "manualEntry": "Daten manuell eingeben",
-      "uploadFile": "Datei ziehen und ablegen oder hochladen, um loszulegen"
-    },
-    "errors": {
-      "loading": "Arbeitsmappe kann nicht abgerufen werden.",
-      "noSheets": {
-        "description": "Eine Arbeitsmappe muss mindestens ein Blatt enthalten. Es wurde keine gefunden.",
-        "title": "Arbeitsmappe enthält keine Blätter"
-      },
-      "notFound": "Arbeitsmappe nicht gefunden"
-    },
-    "popovers": {
-      "errors": {
-        "cellUpdateFailed": "Etwas ist schief gelaufen. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut. Sollte dies weiterhin der Fall sein, wenden Sie sich bitte an den Support.",
-        "invalidFFQL": "Bitte prüfen Sie Ihre Anfrage",
-        "recordsLoadFailed": "Datensätze konnten nicht geladen werden"
-      }
-    },
-    "table": {
-      "cells": {
-        "enum": {
-          "loading": "Lade Optionen …",
-          "loadingError": "Optionen konnten nicht geladen werden",
-          "noMatchesFound": "Keine Übereinstimmungen gefunden",
-          "placeholder": "Hier eingeben …",
-          "seeMore": "Suchen, um weitere Optionen zu sehen"
-        },
-        "messages": {
-          "autogen": "✨ Automatisch generiert",
-          "reference": "Der Wert existiert in der Referenztabelle nicht",
-          "req": "{{field}} ist erforderlich",
-          "transformed": "🪄️ Transformiert aus {{originalValue}}",
-          "unique": "Der Wert ist nicht einmalig"
-        }
-      },
-      "contextMenu": {
-        "findAndReplace": {
-          "findAndReplaceValues": "Suchen und ersetzen",
-          "modal": {
-            "cancelButton": "Abbrechen",
-            "descriptionExactOnly": "Sie können per Stapelverarbeitung einen beliebigen Text in dieser Spalte durch einen gültigen Wert ersetzen – wir zeigen nur genaue Treffer an",
-            "descriptionPartialAndExact": "Sie können per Stapelverarbeitung einen beliebigen Text in dieser Spalte ersetzen – wir unterstützen bei diesen Daten partielle und genaue Treffer",
-            "errors": {
-              "findError": "Beim Auffinden der Werte ist ein Fehler aufgetreten",
-              "generalError": "Etwas ist schiefgelaufen, bitte noch einmal versuchen",
-              "replaceError": "Beim Ersetzen der Werte ist ein Fehler aufgetreten"
-            },
-            "exactMatchesOnly": "Nur genaue Treffer anzeigen",
-            "finding": "Alle Stellen suchen",
-            "heading": "In {{columnName}} suchen und ersetzen",
-            "isFiltered": "Dieser Datensatz wurde gefiltert. Das Suchen und Ersetzen bezieht sich nur auf gefilterte Aufzeichnungen.",
-            "replaceButton": "Alles ersetzen",
-            "replaceEmpty": {
-              "description": {
-                "addValues": "Hiermit werden alle leeren Zellen in {{columnName}} ausgefüllt",
-                "addValuesToAll": "Es gibt leere Zellen in {{columnName}} – Sie können einen Wert wählen, der in alle eingefügt wird",
-                "addValuesToCount_one": "Es gibt {{formattedCount}} leere Zelle in {{columnName}} – Sie können einen Wert wählen, der dort eingefügt wird",
-                "addValuesToCount_other": "Es gibt {{formattedCount}} leere Zellen in {{columnName}} – Sie können einen Wert wählen, der in alle eingefügt wird",
-                "addValuesToCount_zero": "Es gibt {{formattedCount}} leere Zellen in {{columnName}} – Sie können einen Wert wählen, der in alle eingefügt wird",
-                "noEmptyValues": "Wir haben in diesem Feld keine leeren Zellen gefunden!"
-              },
-              "heading": {
-                "addValues": "Geben Sie einen Wert für die leeren Zellen in {{columnName}} ein",
-                "addValuesToAll": "Geben Sie einen Wert für alle leeren Zellen in {{columnName}} ein",
-                "addValuesToCount_one": "Geben Sie einen Wert für die {{formattedCount}} leere Zelle in {{columnName}} ein",
-                "addValuesToCount_other": "Geben Sie einen Wert für die {{formattedCount}} leeren Zellen in {{columnName}} ein",
-                "addValuesToCount_zero": "Geben Sie einen Wert für die {{formattedCount}} leeren Zellen in {{columnName}} ein",
-                "noEmptyValues": "Keine leeren Werte gefunden"
-              }
-            },
-            "replaceEnum": {
-              "moreOptions": "Es werden die ersten 100 Optionen angezeigt. Führen Sie eine Suche durch, um mehr zu sehen.",
-              "noMatchesFound": "Keine Übereinstimmungen gefunden",
-              "replaceWith": "Ersetzen durch …"
-            },
-            "replaceValue": {
-              "leavingBlank": "Wenn dieses Feld leer bleibt, werden die gewählten Werte gelöscht",
-              "noMatchesFound": "Keine Werte gefunden",
-              "replaceWith": "Ersetzen durch …"
-            },
-            "replacing": "Ersetzen der Werte",
-            "runOnAllRecords": "Auf alle Aufzeichnungen anwenden",
-            "searchForEmpty": "Wenn dieses Feld leer bleibt, suchen wir nach leeren Werten",
-            "searchForText": "Nach Text suchen …",
-            "searchResultsCount_one": "{{count}} Treffer",
-            "searchResultsCount_other": "{{count}} Treffer",
-            "searchResultsCount_zero": "{{count}} Treffer"
-          },
-          "replaceEmptyValues": "Leere Werte ersetzen"
-        },
-        "pin": {
-          "apply": "Spalte anheften",
-          "remove": "Nicht mehr anheften",
-          "tooltip": {
-            "maxPinned": "Sie können bis zu drei Spalten anheften – heben Sie die Anheftung einer der bereits angehefteten Spalten auf, um diese Spalte anzuheften",
-            "pin": "Diese Spalte links von der Tabelle anheften",
-            "unpin": "Klicken, um diese Spalte nicht mehr anzuheften"
-          }
-        },
-        "searchInField": {
-          "modal": {
-            "cancelButton": "Abbrechen",
-            "placeholder": "Suchen …",
-            "searchButton": "Suchen",
-            "searchWithin": "Suche innerhalb von"
-          },
-          "searchInThisField": "In diesem Feld suchen"
-        },
-        "sort": {
-          "ascending": {
-            "apply": "Von A bis Z sortieren",
-            "remove": "Sortierung von A bis Z aufheben"
-          },
-          "descending": {
-            "apply": "Von Z bis A sortieren",
-            "remove": "Sortierung von Z bis A aufheben"
-          },
-          "tooltip": {
-            "notSorted": "Zum Sortieren von A bis Z klicken",
-            "sortedAsc": "Sortiert von A bis Z",
-            "sortedDes": "Sortiert von Z bis A"
-          }
-        }
-      },
-      "errors": {
-        "description": "Die Tabelle hat Probleme, diese Daten anzuzeigen. Bitte sehen Sie in der Konsole nach, ob ein Fehler vorliegt.",
-        "title": "Etwas ist schief gelaufen"
-      },
-      "indexRow": {
-        "tooltip": {
-          "createRow": "Zum Anlegen dieser Zeile Daten hinzufügen",
-          "noData": "Es gibt keine auswählbaren Zeilen. Es können nur Zeilen ausgewählt werden, die Daten enthalten.",
-          "rowNumber": "Zeile {{number}}"
-        }
-      },
-      "modals": {
-        "copyAlert": {
-          "cancelButton": "Abbrechen",
-          "description": "Wir haben festgestellt, dass Sie versuchen, mehr als 100 Datensätze auszuwählen. Wir beschränken das Kopieren auf 100 Datensätze, um die Integrität Ihrer Daten zu wahren.",
-          "download": "Möchten Sie dieses Blatt als CSV-Datei herunterladen?",
-          "downloadButton": "Herunterladen",
-          "heading": "Möchten Sie diese Datei herunterladen?"
-        },
-        "deleteAlert": {
-          "descriptionEnd": "Die Datensätze, die Sie in Flatfile sehen, sind möglicherweise nicht genau in der gleichen Reihenfolge wie Ihre Quelldatei. Flatfile modifiziert Ihre Daten auf intelligente Weise, um leere Datensätze, Duplikate usw. zu entfernen. Wir empfehlen, jeweils nicht mehr als 100 Datensätze einzufügen.",
-          "descriptionStart": "Wir haben festgestellt, dass Sie versuchen Daten aus mehr als 100 Aufzeichnungen zu löschen. Wir begrenzen Löschaktionen auf 100 Aufzeichnungen gleichzeitig, um Ihre Daten zu schützen.",
-          "dismissButton": "Ablehnen",
-          "heading": "Sie haben unser Löschlimit erreicht!"
-        },
-        "pasteAlert": {
-          "descriptionEnd": "Die Datensätze, die Sie in Flatfile sehen, sind möglicherweise nicht genau in der gleichen Reihenfolge wie Ihre Quelldatei. Flatfile modifiziert Ihre Daten auf intelligente Weise, um leere Datensätze, Duplikate usw. zu entfernen. Wir empfehlen, jeweils nicht mehr als 100 Datensätze einzufügen.",
-          "descriptionStart": "Wir haben festgestellt, dass Sie versuchen, Daten über mehr als 100 Datensätze einzufügen. Wir beschränken das Einfügen auf 100 Datensätze, um die Integrität Ihrer Daten zu wahren.",
-          "dismissButton": "Ablehnen",
-          "heading": "Sie haben unser Limit für das Einfügen erreicht!"
-        }
-      }
-    },
-    "toolbar": {
-      "buttons": {
-        "delete": {
-          "tooltip": {
-            "active": "Ausgewählte Einträge löschen",
-            "disabled": {
-              "deleteDisabled": "Das Löschen von Einträgen wurde für dieses Schema deaktiviert.",
-              "noRecordsSelected": "Zum Löschen mindestens einen Eintrag auswählen"
-            }
-          }
-        },
-        "download": {
-          "tooltip": {
-            "active": {
-              "invalidFilterApplied": "Alle ungültigen Einträge herunterladen",
-              "noRecordsSelected": "Dieses Schema herunterladen",
-              "recordsSelected": "Ausgewählte Einträge herunterladen",
-              "validFilterApplied": "Alle gültigen Einträge herunterladen"
-            },
-            "disabled": "Es sind keine Einträge zum Herunterladen verfügbar"
-          }
-        }
-      },
-      "customActionsDropdown": {
-        "disabledTooltip": {
-          "requireAllValid": "Für diese Aktion müssen alle ausgewählten Zeilen gültig sein",
-          "requireSelection": "Für diese Aktion bitte einen oder mehrere Einträge auswählen"
-        }
-      },
-      "filterByError": {
-        "buttonText": "Nach Fehler filtern",
-        "dropdownPlaceholder": "Suchen oder auswählen …"
-      },
-      "filters": {
-        "all": "Alles",
-        "invalid": "Ungültig",
-        "tooltip": {
-          "filter": {
-            "invalid": "ungültig",
-            "total": "insgesamt",
-            "valid": "gültig"
-          },
-          "filtered": "Dieser Datensatz wurde gefiltert und zeigt {{filteredCount}} der {{countString}} {{filter}}-Einträge an.",
-          "filteredByError": "Dieser Datensatz wurde über den Fehlerfilter gefiltert und zeigt {{filteredCount}} der {{countString}} {{filter}}-Datensätze an.",
-          "filteredByFFQL": "Dieser Datensatz wurde über die Flatfile Query Language gefiltert und zeigt {{filteredCount}} der {{countString}} {{filter}}-Einträge an.",
-          "filteredBySearch": "Dieser Datensatz wurde über die Suche gefiltert und zeigt {{filteredCount}} der {{countString}} {{filter}}-Einträge an.",
-          "filteredBySearchAndError": "Dieser Datensatz wurde über die Suche und den Fehlerfilter gefiltert und zeigt {{filteredCount}} der {{countString}} {{filter}}-Einträge an.",
-          "inactiveCount": "{{countString}} {{filter}}-Einträge, {{filteredCount}} gefiltert"
-        },
-        "valid": "Gültig"
-      },
-      "moreActions": {
-        "buttonText": "Weitere Aktionen",
-        "placeholder": "Suchen oder auswählen …"
-      },
-      "searchBar": {
-        "placeholder": "Suchen …",
-        "tooltip": "Zum Suchen die Entertaste drücken"
+        "cannotImport": "Ein Spielbuch aus dieser Kaustange auszugraben ist derzeit nicht verfügbar",
+        "noExtension": "Diese Kaustange hat kein Etikett. Füge der Kaustange den richtigen Namen hinzu und vergrabe sie erneut, um sie später auszugraben"
       }
     }
   },
   "sidebar": {
-    "checklist": "Daten-Checkliste",
-    "emptyWorkbook": "Leeres Arbeitsbuch",
-    "files": "Dateien",
-    "readOnlyIconTooltip": "Dieses Arbeitsblatt ist schreibgeschützt"
+    "checklist": "Welpen Checkliste",
+    "emptyWorkbook": "Leere Grabstätte",
+    "files": "Kaustangen",
+    "readOnlyIconTooltip": "Diese Geruchsmarkierung ist schreibgeschützt"
   },
-  "versionHistory": {
-    "modals": {
-      "default": {
-        "description": "Ein unerwarteter Fehler ist aufgetreten. Es wurde keine passende Aktion durchgeführt"
-      },
-      "delete": {
-        "confirm": {
-          "closeButton": "Schließen",
-          "description": "Sind Sie sicher, dass Sie die ausgewählte Version löschen möchten?",
-          "heading": "Version löschen",
-          "proceedButton": "Löschen"
-        },
-        "error": {
-          "closeButton": "Schließen",
-          "description": "Die ausgewählte Version konnte aufgrund eines unerwarteten Fehlers nicht gelöscht werden. Falls das Problem weiterhin besteht, wenden Sie sich an den Support.",
-          "heading": "Version kann nicht gelöscht werden",
-          "retryButton": "Erneut versuchen"
-        },
-        "success": {
-          "closeButton": "Schließen",
-          "description": "Die ausgewählte Version wurde gelöscht.",
-          "heading": "Version gelöscht"
-        }
-      },
-      "restore": {
-        "confirm": {
-          "closeButton": "Schließen",
-          "description": "Sie sind im Begriff, Ihre Blattdaten auf eine frühere Version zurückzusetzen. Möchten Sie fortfahren?",
-          "heading": "Bestätigen Sie die Wiederherstellung der Version",
-          "proceedButton": "Weiter"
-        },
-        "success": {
-          "closeButton": "Schließen",
-          "description": "Ihr Blatt wurde erfolgreich auf eine ältere Version zurückgesetzt! Bitte informieren Sie alle Mitarbeiter im Blatt, dass sie ihren Browser aktualisieren sollten, um das Risiko von Problemen zu verringern.",
-          "heading": "Version erfolgreich wiederherstellen"
-        }
-      }
-    },
-    "panel": {
-      "empty": "Generierte Versionen erscheinen hier. Versionen werden automatisch generiert, oft wenn eine Massenumwandlung von Daten stattfindet.",
-      "generatedSnapshot": "Schnappschuss, der vor der Anwendung von AI Transform für die Eingabeaufforderung erstellt wurde: ",
-      "heading": "Versionsverlauf",
-      "thisMonth": "Diesen Monat",
-      "versionRestored": "Version, die vor der Wiederherstellung einer früheren Version erstellt wurde"
-    },
-    "pill": {
-      "hoverText": "Versionsverlauf"
+  "myDocument": {
+    "title": "Dein erster Welpenplatz!",
+    "body": "# Willkommen ### Gib ein lautes Bellen für deinen ersten Welpenplatz im neuen Zwinger! Du wirst feststellen, dass die Checkliste, Dateien und Seitenleiste eine Welpen-Überholung bekommen haben!"
+  },
+  "mySubmitAction": {
+    "label": "Absenden",
+    "description": "Alle Bäume markiert? Klicke auf Absenden, um deine Schnüffeldaten zu senden",
+    "tooltip": "Schnüffeldaten absenden",
+    "outcome": {
+      "heading": "Toll importiert!",
+      "message": "Alle Schnüffeldaten wurden gesendet! Du kannst jetzt auf den Link unten klicken.",
+      "urlLabel": "Zurück zum Zwinger"
     }
   }
 }
