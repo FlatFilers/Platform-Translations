@@ -385,7 +385,7 @@
       "notFound": "Workbook not found",
       "noSheets": {
         "title": "Workbook contains no sheets",
-        "message": "A workbook must contain at least one sheet. None were found."
+        "description": "A workbook must contain at least one sheet. None were found."
       }
     },
     "popovers": {
