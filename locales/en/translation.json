@@ -2,680 +2,128 @@
   "checklist": {
     "dropdowns": {
       "headings": {
-        "sheet": "Sheet",
-        "workbook": "Workbook"
+        "sheet": "Snuggle Sheet",
+        "workbook": "Puppy Playbook"
       }
     },
     "errors": {
-      "cannotLoadChecklist": "Unable to load the data checklist",
-      "cannotLoadSheet": "Sheet could not be found",
-      "noWorkbooksDescription": "Data checklist requires at minimum 1 workbook to be active. Please have your developer check the configuration. If this problem persists please contact support.",
-      "noWorkbooksTitle": "Workbook required"
+      "cannotLoadChecklist": "Unable to load the pup-preparation checklist",
+      "cannotLoadSheet": "Sheet is hiding (cannot be found)",
+      "noWorkbooksDescription": "Our puppy checklist needs at least one playbook to be active. Please ask your developer to fetch the right settings. If this tail keeps wagging, contact support.",
+      "noWorkbooksTitle": "Playbook Missing!"
     },
     "table": {
       "dataTypes": {
-        "boolean": "Boolean",
-        "date": "Date",
-        "enum": "Enum",
-        "number": "Number",
-        "reference": "Reference",
-        "string": "String",
-        "unknown": "Unknown"
+        "boolean": "Bark-olean",
+        "date": "Playdate",
+        "enum": "Enum of Bones",
+        "number": "Paw Count",
+        "reference": "Reference to the Vet",
+        "string": "String of Sausages",
+        "unknown": "Mystery Mutt"
       },
-      "fieldTagComputed": "Computed",
-      "fieldTagRequired": "Required",
-      "fieldTagUnique": "Unique",
+      "fieldTagComputed": "Puppy Calculations",
+      "fieldTagRequired": "Paw-sitively Needed",
+      "fieldTagUnique": "One-of-a-kind",
       "headings": {
-        "dataType": "Data type",
-        "description": "Description",
-        "field": "Field name"
+        "dataType": "Breed Type",
+        "description": "Puppy Profile",
+        "field": "Fur-tastic Field"
       }
     },
-    "title": "Data checklist"
-  },
-  "commandMenu": {
-    "aiAssist": {
-      "query": {
-        "askingAI": {
-          "stepFour": "Finishing",
-          "stepOne": "Thinking",
-          "stepThree": "Doing",
-          "stepTwo": "Writing"
-        },
-        "description": "ask AI to write a query for you in FFQL",
-        "errorBanner": {
-          "generalError": "Something went wrong. Please try again."
-        },
-        "instruction": "Describe how you'd like the AI assistant to query your data:",
-        "review": {
-          "description": "Here's what I came up with. Read the step by step explanation and the query, and if it looks good, click below to apply it.",
-          "explanationTitle": "Explanation",
-          "queryTitle": "Query"
-        }
-      },
-      "title": "Build with AI",
-      "transform": {
-        "askingAI": {
-          "stepFour": "Finishing",
-          "stepOne": "Thinking",
-          "stepThree": "Doing",
-          "stepTwo": "Writing"
-        },
-        "description": "ask AI to transform your data",
-        "errorBanner": {
-          "generalError": "Something went wrong. Please try again.",
-          "versionError": "Unable to create a rollback version - AI transform aborted. Please try again."
-        },
-        "instruction": "Describe how you'd like the AI assistant to transform your data:",
-        "review": {
-          "codeTitle": "Code",
-          "description": "Here's what I came up with. Read the step by step explanation and the query, and if it looks good, click below to apply it.",
-          "warning": "Warning: This will transform your data"
-        },
-        "transforming": {
-          "inProgress": "Applying to your dataset"
-        }
-      }
-    },
-    "commands": {
-      "filter": {
-        "apply": "Apply Filter.",
-        "description": "write an FFFQL statement",
-        "learnHow": "learn how",
-        "link": "Learn more about FFQL filters"
-      },
-      "search": {
-        "global": {
-          "apply": "Apply search.",
-          "description": "search the whole sheet"
-        },
-        "inField": {
-          "apply": "Apply search within field.",
-          "applyExample": "i.e. 'first_name' Jane Doe",
-          "description": "search within a field"
-        }
-      }
-    },
-    "placeholder": "Find or do anything..."
-  },
-  "document": {
-    "error": {
-      "description": "This document does not seem to exist",
-      "title": "Document not found"
-    }
-  },
-  "errors": {
-    "fileNotFound": "File not found",
-    "missingParameter": "Parameter not provided",
-    "notFound": "Not found",
-    "refreshButton": "Retry",
-    "refreshPageDescription": "Refresh the page to try again. If the problem persists, contact support.",
-    "sheetNotFound": "Sheet not found",
-    "spaceNotFound": "Space not found",
-    "unauthorized": "Your access credentials are invalid.",
-    "unknownError": "Something went wrong",
-    "workbookNotFound": "Workbook not found"
+    "title": "Puppy Paw-requisites Checklist"
   },
   "files": {
-    "availableDownloadsTab": "Available downloads",
+    "availableDownloadsTab": "Available chew toys",
     "buttons": {
       "addFile": {
-        "inProgressText": "Uploading file",
-        "text": "Add file"
+        "inProgressText": "Burying bone...",
+        "text": "Add chew toy"
       },
-      "delete": "Delete",
-      "download": "Download"
+      "delete": "Bury",
+      "download": "Fetch"
     },
     "contextMenu": {
-      "delete": "Delete",
-      "download": "Download"
+      "delete": "Bury",
+      "download": "Fetch"
     },
-    "counts": "{{start}}-{{end}} of {{total}}",
+    "counts": "{{start}}-{{end}} of {{total}} pups",
     "deleteModal": {
-      "downloadDescription_one": "This downloaded file will be deleted from the space.",
-      "downloadDescription_other": "These downloaded files will be deleted from the space.",
-      "heading_one": "Delete file",
-      "heading_other": "Delete files",
-      "subheading_one": "File:",
-      "subheading_other": "Files:",
-      "uploadsDescription_one": "All data imported will be saved. This will delete the file from the space.",
-      "uploadsDescription_other": "All data imported will be saved. This will delete the files from the space."
+      "downloadDescription_one": "This fetched chew toy will be buried in the yard.",
+      "downloadDescription_other": "These fetched chew toys will be buried in the yard.",
+      "heading_one": "Bury chew toy",
+      "heading_other": "Bury chew toys",
+      "subheading_one": "Chew toy:",
+      "subheading_other": "Chew toys:",
+      "uploadsDescription_one": "All sniffed out spots will be saved. This will bury the chew toy in the yard.",
+      "uploadsDescription_other": "All sniffed out spots will be saved. This will bury the chew toys in the yard."
     },
     "downloadsTable": {
       "headings": {
-        "createdDate": "Generated",
-        "name": "Name",
-        "size": "Size",
-        "sourceSheet": "Source sheet"
+        "createdDate": "Dug up on",
+        "name": "Chew toy name",
+        "size": "Size of bone",
+        "sourceSheet": "Source of scent"
       },
-      "processing": "Exporting..."
+      "processing": "Sniffing out..."
     },
     "emptyState": {
       "downloads": {
-        "description": "Downloaded data will appear here",
-        "heading": "No downloads available"
+        "description": "Fetched chew toys will appear here",
+        "heading": "No chew toys fetched"
       },
       "uploads": {
-        "description": "Drag and drop or upload a file to get started",
-        "heading": "Add files"
+        "description": "Drag and drop or add a chew toy to get started",
+        "heading": "Add chew toys"
       }
     },
     "errors": {
-      "loadingError": "Unable to load the files",
-      "uploadDisabledDescription": "If you think this is an error, please talk to support.",
-      "uploadDisabledHeading": "This space does not currently support file uploads."
+      "loadingError": "Unable to dig up the chew toys",
+      "uploadDisabledDescription": "If you think this is a mistake, please bark at support.",
+      "uploadDisabledHeading": "This yard does not currently support burying new bones."
     },
-    "title": "Files",
-    "uploadedFilesTab": "Uploaded files",
+    "title": "Chew Toys",
+    "uploadedFilesTab": "Buried Bones",
     "uploadFile": {
       "popovers": {
-        "errorUploading": "Unable to upload file: {{fileName}}",
-        "onDragPopoverConfirmation": "Dropping file in:",
-        "uploadComplete": "Uploaded: {{fileName}}",
-        "uploadInProgress": "Uploading: {{fileName}}",
-        "uploadsDisabled": "This space does not currently support file uploads."
+        "errorUploading": "Unable to bury chew toy: {{fileName}}",
+        "onDragPopoverConfirmation": "Dropping bone in:",
+        "uploadComplete": "Buried: {{fileName}}",
+        "uploadInProgress": "Burying: {{fileName}}",
+        "uploadsDisabled": "This yard does not currently support burying new bones."
       }
     },
     "uploadsTables": {
       "headings": {
-        "name": "Name",
-        "status": "Status",
-        "uploadedDate": "Uploaded"
+        "name": "Chew toy name",
+        "status": "Sniff status",
+        "uploadedDate": "Buried on"
       },
-      "importButton": "Import",
+      "importButton": "Dig up",
       "tooltips": {
-        "cannotImport": "Importing to a workbook is not currently available for this file",
-        "noExtension": "This file doesn't have an extension. Add the correct file extension to the file name and reupload the file to import it into a workbook"
-      }
-    }
-  },
-  "guestInvite": {
-    "getNewAccessLink": {
-      "content": "We've sent a secure access link to",
-      "finePrint": "If you have trouble locating the email, check your spam folder or refresh this page to send another access link. The link will work for 5 minutes.",
-      "heading": "Check your inbox"
-    }
-  },
-  "jobs": {
-    "customActions": {
-      "modals": {
-        "confirmModal": {
-          "cancelButton": "Cancel",
-          "defaultConfirmButton": "Confirm",
-          "defaultLoadingButton": "Loading..."
-        },
-        "defaultJobName": "Job",
-        "defaultResourceName": "this resource",
-        "foregroundJobProgressModal": {
-          "defaultJobName": "Job",
-          "defaultResourceName": "this resource",
-          "runningOn": "running on"
-        },
-        "outcomeModals": {
-          "acknowledgementModal": {
-            "defaultContinueButton": "Continue"
-          },
-          "defaultDownloadLabel": "Download",
-          "defaultFileName": "file",
-          "defaultHeading": {
-            "failed": "Job failed",
-            "success": "Success!"
-          },
-          "defaultLabel": "View Resource",
-          "defaultMessage": {
-            "failed": "{{jobName}} on {{resourceName}} failed",
-            "success": "{{jobName}} ran on {{resourceName}} successfully"
-          },
-          "permanentOutcomeModal": {
-            "defaultContinueButton": "Continue"
-          }
-        },
-        "startModal": {
-          "confirmButton": "Confirm",
-          "errorMessage": "Error with action",
-          "loadingText": "Loading..."
-        }
-      }
-    },
-    "panel": {
-      "action": {
-        "export": "Download",
-        "extract": "Import",
-        "mapping": "Go to workbook"
-      },
-      "empty": "Jobs will appear here when they're running or completed",
-      "errorLoadingJob": "Not found",
-      "status": {
-        "default": {
-          "canceled": {
-            "prefix": "Job",
-            "suffix": "cancelled"
-          },
-          "complete": {
-            "prefix": "Job",
-            "suffix": "complete"
-          },
-          "failed": {
-            "prefix": "Job",
-            "suffix": "failed"
-          },
-          "inProgress": "Running job"
-        },
-        "delete": {
-          "cancelled": "Cancelled record deletion",
-          "complete": "Deletion completed",
-          "failed": "Deletion failed",
-          "inProgress": "Deleting records"
-        },
-        "export": {
-          "canceled": "Download cancelled",
-          "complete": "Download generated",
-          "failed": "Failed to generate download",
-          "inProgress": "Generating download"
-        },
-        "extract": {
-          "cancelled": "Cancelled file extraction",
-          "complete": "Extracted file",
-          "failed": "Failed to extract file",
-          "inProgress": "Extracting file"
-        },
-        "mapping": {
-          "canceled": "Cancelled mapping to workbook",
-          "complete": "Mapped to workbook",
-          "failed": "Failed to map to workbook",
-          "inProgress": "Mapping to workbook"
-        }
-      },
-      "time": {
-        "completed": "Completed in",
-        "failed": "Failed after",
-        "started": "Started {{time}}",
-        "units": {
-          "hour": "hr",
-          "minute": "min",
-          "second": "sec"
-        }
-      }
-    },
-    "pill": {
-      "hoverText": "Jobs",
-      "multipleJobsRunning": "{{count}} jobs running",
-      "status": {
-        "default": {
-          "complete": "Job completed",
-          "failed": "Job failed",
-          "inProgress": "Job running"
-        },
-        "delete": {
-          "complete": "Deletion completed",
-          "failed": "Deletion failed",
-          "inProgress": "Deleting records..."
-        },
-        "extract": {
-          "complete": "Extraction completed",
-          "failed": "Extraction failed",
-          "inProgress": "Extracting data..."
-        },
-        "mapping": {
-          "complete": "Mapping completed",
-          "failed": "Mapping failed",
-          "inProgress": "Mapping..."
-        }
-      }
-    }
-  },
-  "mapping": {
-    "dataPreview": {
-      "heading": "Data preview for {{previewKey}}",
-      "noData": "No preview data"
-    },
-    "headerButtons": {
-      "back": "Back",
-      "exit": "Exit",
-      "next": "Continue"
-    },
-    "mapEnums": {
-      "destinationFields": {
-        "dropdownOptions": {
-          "doNotImport": "Do not import",
-          "keepAsIs": "Keep this value as is",
-          "keepAsIsDisabledTooltip": "Adding a new option to this list is not supported. Importing a value that is not a valid option will show as an error."
-        },
-        "heading": "Destination Values"
-      },
-      "incomingFields": {
-        "heading": "Incoming Values",
-        "noData": "Cells with no data",
-        "noDataTooltip": "You can select a valid option to populate all empty cells. You can also leave this blank."
-      },
-      "progressPill_one": "{{mappedCount}} of {{totalCount}} value mapped",
-      "progressPill_other": "{{mappedCount}} of {{totalCount}} values mapped",
-      "progressPillAllMapped_one": "{{totalCount}} values mapped",
-      "progressPillAllMapped_other": "{{totalCount}} value mapped",
-      "subheading": "These fields have values that must be mapped to a list of valid options.",
-      "title": "Map Fields"
-    },
-    "mapFields": {
-      "destinationFields": {
-        "addNewField": {
-          "description": "Add this field to your sheet",
-          "label": "Add as new field"
-        },
-        "dropdownOptionLabels": {
-          "new": "Add new",
-          "unused": "Unused",
-          "used": "Used"
-        },
-        "heading": "Destination Fields",
-        "progressPill": {
-          "missingRequiredFields": " - {{missingFieldsCount}} missing",
-          "text": "{{totalDestinationsMapped}} of {{totalDestinationFields}}",
-          "tooltip": {
-            "greaterThanTenMissing": "and {{missingFieldsAfterTen}} more...",
-            "missingRequiredFields": "Required fields missing:",
-            "progress": "{{mappedDestinationFields}} of the {{totalDestinationFields}} available fields in the target sheet have been mapped to"
-          }
-        }
-      },
-      "incomingFields": {
-        "heading": "Incoming Fields",
-        "progressPill": {
-          "text": "{{totalIncomingMapped}} of {{totalIncomingFields}}",
-          "tooltip": "You've mapped {{mappedIncomingFields}} of {{totalIncomingFields}} fields in your dataset to the target sheet"
-        }
-      },
-      "subheading": "Review and confirm each mapping choice",
-      "title": "Map fields"
-    },
-    "sheetSelection": {
-      "cannotLoadFile": "Unable to upload file: {{fileName}}",
-      "columns_one": "1 column",
-      "columns_other": "{{count}} columns",
-      "errors_one": "1 error",
-      "errors_other": "{{count}} errors",
-      "importFromHeading": "Select a sheet to load data from",
-      "importToHeading": "Select a sheet to import this data to",
-      "lastUpdated": "Last updated {{date}}",
-      "lastUpdatedDateFormat": "yyyy-mm-dd",
-      "records_one": "1 record",
-      "records_other": "{{count}} records",
-      "sheetHasNoData": "No data",
-      "sheets_one": "1 sheet",
-      "sheets_other": "{{count}} sheets",
-      "title": "Import to..."
-    }
-  },
-  "sheet": {
-    "emptyView": {
-      "heading": "Let's get started",
-      "manualEntry": "Manually enter data",
-      "uploadFile": "Drag and drop or upload a file to get started"
-    },
-    "errors": {
-      "loading": "Unable to fetch workbook.",
-      "noSheets": {
-        "description": "A workbook must contain at least one sheet. None were found.",
-        "title": "Workbook contains no sheets"
-      },
-      "notFound": "Workbook not found"
-    },
-    "popovers": {
-      "errors": {
-        "cellUpdateFailed": "Something went wrong. Please refresh the page and try again. If this continues, please reach out to support",
-        "invalidFFQL": "Please check your query",
-        "recordsLoadFailed": "Records failed to load"
-      }
-    },
-    "table": {
-      "cells": {
-        "enum": {
-          "loading": "Loading options...",
-          "loadingError": "Unable to load options",
-          "noMatchesFound": "No matches found",
-          "placeholder": "Type here...",
-          "seeMore": "Search to see more options"
-        },
-        "messages": {
-          "autogen": "✨ Automatically generated",
-          "reference": "Value does not exist in the reference table",
-          "req": "{{field}} is required",
-          "transformed": "🪄️ Transformed from {{originalValue}}",
-          "unique": "Value is not unique"
-        }
-      },
-      "contextMenu": {
-        "findAndReplace": {
-          "findAndReplaceValues": "Find and replace",
-          "modal": {
-            "cancelButton": "Cancel",
-            "descriptionExactOnly": "Bulk replace any text in this column with a valid value. We surface exact matches only",
-            "descriptionPartialAndExact": "Bulk replace any text in this column. We support both partial and exact matches for this data",
-            "errors": {
-              "findError": "There was an error finding values",
-              "generalError": "Something went wrong. Please try again",
-              "replaceError": "There was an error replacing values"
-            },
-            "exactMatchesOnly": "Surface exact matches only",
-            "finding": "Finding all instances",
-            "heading": "Find and replace in {{columnName}}",
-            "isFiltered": "This dataset has been filtered. Find and replace will only run on filtered records.",
-            "replaceButton": "Replace all",
-            "replaceEmpty": {
-              "description": {
-                "addValues": "This will populate all empty cells in {{columnName}}",
-                "addValuesToAll": "There are all empty cells in {{columnName}}, you can bulk populate these with a selected value",
-                "addValuesToCount_one": "There is {{formattedCount}} empty cell in {{columnName}}, you can bulk populate this with a selected value",
-                "addValuesToCount_other": "There are {{formattedCount}} empty cells in {{columnName}}, you can bulk populate these with a selected value",
-                "noEmptyValues": "We couldn't find any empty cells in this field!"
-              },
-              "heading": {
-                "addValues": "Add a value to empty cells in {{columnName}}",
-                "addValuesToAll": "Add a value to all empty cells in {{columnName}}",
-                "addValuesToCount_one": "Add a value to {{formattedCount}} empty cell in {{columnName}}",
-                "addValuesToCount_other": "Add a value to {{formattedCount}} empty cells in {{columnName}}",
-                "noEmptyValues": "No empty values found"
-              }
-            },
-            "replaceEnum": {
-              "moreOptions": "Showing first 100 options. Search to see more.",
-              "noMatchesFound": "No matches found",
-              "replaceWith": "Replace with..."
-            },
-            "replaceValue": {
-              "leavingBlank": "Leaving this field blank will delete selected values",
-              "noMatchesFound": "No values found",
-              "replaceWith": "Replace with..."
-            },
-            "replacing": "Replacing values",
-            "runOnAllRecords": "Run on all records",
-            "searchForEmpty": "If this field is left empty, we'll search for empty values",
-            "searchForText": "Search for text...",
-            "searchResultsCount_one": "{{count}} match",
-            "searchResultsCount_other": "{{count}} matches"
-          },
-          "replaceEmptyValues": "Replace empty values"
-        },
-        "pin": {
-          "apply": "Pin column",
-          "remove": "Remove pin",
-          "tooltip": {
-            "maxPinned": "You can pin up to three columns, unpin one of the currently pinned columns in order to pin this column",
-            "pin": "Pin this column to the left of the table",
-            "unpin": "Click to unpin this column"
-          }
-        },
-        "searchInField": {
-          "modal": {
-            "cancelButton": "Cancel",
-            "placeholder": "Search...",
-            "searchButton": "Search",
-            "searchWithin": "Search within"
-          },
-          "searchInThisField": "Search in this field"
-        },
-        "sort": {
-          "ascending": {
-            "apply": "Sort A-Z",
-            "remove": "Remove sort A-Z"
-          },
-          "descending": {
-            "apply": "Sort Z-A",
-            "remove": "Remove sort Z-A"
-          },
-          "tooltip": {
-            "notSorted": "Click to sort A-Z",
-            "sortedAsc": "Sorted A-Z",
-            "sortedDes": "Sorted Z-A"
-          }
-        }
-      },
-      "errors": {
-        "description": "The table is having trouble displaying this data. Please see the console for error details.",
-        "title": "Something went wrong"
-      },
-      "indexRow": {
-        "tooltip": {
-          "createRow": "Add data to create this row",
-          "noData": "There are no rows available to select. Only rows containing data can be selected.",
-          "rowNumber": "Row {{number}}"
-        }
-      },
-      "modals": {
-        "copyAlert": {
-          "cancelButton": "Cancel",
-          "description": "We noticed you're trying to select more than 100 records. We limit copying to 100 records in order to maintain the integrity of your data.",
-          "download": "Would you like to download this sheet as a .csv?",
-          "downloadButton": "Download",
-          "heading": "Would you like to download this file?"
-        },
-        "deleteAlert": {
-          "descriptionEnd": "The records you see inside Flatfile may not be in the exact same order as your source file -- Flatfile intelligently modifies your data to remove empty records, duplicates, etc. We don't recommend pasting more than 100 records at a time.",
-          "descriptionStart": "We noticed you're trying to delete data over more than 100 records. We limit delete to 100 records at a time in order to maintain the integrity of your data.",
-          "dismissButton": "Dismiss",
-          "heading": "You've hit our delete limit!"
-        },
-        "pasteAlert": {
-          "descriptionEnd": "The records you see inside Flatfile may not be in the exact same order as your source file -- Flatfile intelligently modifies your data to remove empty records, duplicates, etc. We don't recommend pasting more than 100 records at a time.",
-          "descriptionStart": "We noticed you're trying to paste data over more than 100 records. We limit pasting to 100 records in order to maintain the integrity of your data.",
-          "dismissButton": "Dismiss",
-          "heading": "You've hit our paste limit!"
-        }
-      }
-    },
-    "toolbar": {
-      "buttons": {
-        "delete": {
-          "tooltip": {
-            "active": "Delete selected records",
-            "disabled": {
-              "deleteDisabled": "Deleting records is disabled in this Sheet.",
-              "noRecordsSelected": "Select at least one record in order to delete it"
-            }
-          }
-        },
-        "download": {
-          "tooltip": {
-            "active": {
-              "invalidFilterApplied": "Download all invalid records",
-              "noRecordsSelected": "Download this sheet",
-              "recordsSelected": "Download selected records",
-              "validFilterApplied": "Download all valid records"
-            },
-            "disabled": "No records to download"
-          }
-        }
-      },
-      "customActionsDropdown": {
-        "disabledTooltip": {
-          "requireAllValid": "This action requires all selected rows to be valid",
-          "requireSelection": "Please select one or more records to use this action"
-        }
-      },
-      "filterByError": {
-        "buttonText": "Filter by error",
-        "dropdownPlaceholder": "Search or select..."
-      },
-      "filters": {
-        "all": "All",
-        "invalid": "Invalid",
-        "tooltip": {
-          "filter": {
-            "invalid": "invalid",
-            "total": "total",
-            "valid": "valid"
-          },
-          "filtered": "This dataset has been filtered to show {{filteredCount}} of the {{countString}} {{filter}} records.",
-          "filteredByError": "This dataset has been filtered via the error filter to show {{filteredCount}} of the {{countString}} {{filter}} records.",
-          "filteredByFFQL": "This dataset has been filtered via the Flatfile Query Language to show {{filteredCount}} of the {{countString}} {{filter}} records.",
-          "filteredBySearch": "This dataset has been filtered via search to show {{filteredCount}} of the {{countString}} {{filter}} records.",
-          "filteredBySearchAndError": "This dataset has been filtered via search and the error filter to show {{filteredCount}} of the {{countString}} {{filter}} records.",
-          "inactiveCount": "{{countString}} {{filter}} records, {{filteredCount}} filtered"
-        },
-        "valid": "Valid"
-      },
-      "moreActions": {
-        "buttonText": "More actions",
-        "placeholder": "Search or select..."
-      },
-      "searchBar": {
-        "placeholder": "Search...",
-        "tooltip": "Hit enter to search"
+        "cannotImport": "Digging up a workbook from this chew toy is not currently available",
+        "noExtension": "This chew toy doesn't have a label. Add the correct label to the chew toy name and rebury it to dig it up later"
       }
     }
   },
   "sidebar": {
-    "checklist": "Data checklist",
-    "emptyWorkbook": "Empty workbook",
-    "files": "Files",
-    "readOnlyIconTooltip": "This Sheet is read-only"
+    "checklist": "Puppy checklist",
+    "emptyWorkbook": "Empty dig site",
+    "files": "Chew Toys",
+    "readOnlyIconTooltip": "This Scent Mark is read-only"
   },
-  "versionHistory": {
-    "modals": {
-      "default": {
-        "description": "An unexpected error occurred - no matching action applied"
-      },
-      "delete": {
-        "confirm": {
-          "closeButton": "Close",
-          "description": "Are you sure you want to delete the selected version?",
-          "heading": "Delete Version",
-          "proceedButton": "Delete"
-        },
-        "error": {
-          "closeButton": "Close",
-          "description": "The selected version could not be deleted due to an unexpected error - if the problem persists, contact support",
-          "heading": "Unable to delete version",
-          "retryButton": "Try Again"
-        },
-        "success": {
-          "closeButton": "Close",
-          "description": "The selected version has been deleted.",
-          "heading": "Version Deleted"
-        }
-      },
-      "restore": {
-        "confirm": {
-          "closeButton": "Close",
-          "description": "You are about to restore your sheet data to a previous version - would you like to proceed?",
-          "heading": "Confirm Version Restore",
-          "proceedButton": "Proceed"
-        },
-        "success": {
-          "closeButton": "Close",
-          "description": "Your Sheet has been successfully restored to an older version! Please inform any collaborators within the sheet to refresh their browser to reduce the risk of issues",
-          "heading": "Version Restore Successful"
-        }
-      }
-    },
-    "panel": {
-      "empty": "Versions, once generated, will appear here. Versions are generated automatically, often when a bulk transformation of data occurs.",
-      "generatedSnapshot": "Snapshot generated before applying AI Transform for prompt: ",
-      "heading": "Version History",
-      "thisMonth": "This Month",
-      "versionRestored": "Version created before restore of a previous version"
-    },
-    "pill": {
-      "hoverText": "Version History"
+  "myDocument": {
+    "title": "Your first Puppy Space!",
+    "body": "# Welcome ### Give a big woof to your first Puppy Space in the new Doghouse!"
+  },
+  "mySubmitAction": {
+    "label": "Submit",
+    "description": "Done marking all the trees? Hit submit to send your sniff data",
+    "tooltip": "Submit your sniff data",
+    "outcome": {
+      "heading": "Paw-some import!",
+      "message": "All sniff data has been submitted! You can now click the link below.",
+      "urlLabel": "Return to the doghouse"
     }
   }
 }
