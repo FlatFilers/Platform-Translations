@@ -41,7 +41,7 @@
   },
   "myDocument": {
     "title": "Your first Puppy Space!",
-    "body": "# Welcome ### Give a big woof to your first Puppy Space in the new Doghouse! You'll notice that the checklist, files and sidebar have been given a puppy makeover!"
+    "body": "# Welcome\n\n### Give a big woof to your first Puppy Space in the new Doghouse!\n\nYou'll notice that the checklist, files, and sidebar have been given a puppy makeover through some localization magic!"
   },
   "mySubmitAction": {
     "label": "Submit",
