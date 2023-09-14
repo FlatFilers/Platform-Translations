@@ -108,7 +108,7 @@
   },
   "myDocument": {
     "title": "Dein erster Welpenplatz!",
-    "body": "# Willkommen ### Gib ein lautes Bellen für deinen ersten Welpenplatz im neuen Zwinger! Du wirst feststellen, dass die Checkliste, Dateien und Seitenleiste eine Welpen-Überholung bekommen haben!"
+    "body": "# Willkommen\n\n### Ein lautes Wuff für deinen ersten Welpenraum im neuen Hundehaus!\n\nDu wirst bemerken, dass die Checkliste, Dateien und die Seitenleiste durch einige Lokalisierungsmagie ein welpenhaftes Makeover erhalten haben!"
   },
   "mySubmitAction": {
     "label": "Absenden",
