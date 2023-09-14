@@ -111,7 +111,9 @@
   },
   "myDocument": {
     "title": "¡Tu primer Espacio de Cachorro!",
-    "body": "# Bienvenido\n\n### ¡Da un gran ladrido a tu primer Espacio Cachorro en la nueva Perrera!\n\nNotarás que la lista de verificación, los archivos y la barra lateral han recibido un cambio de imagen de cachorro gracias a algo de magia de localización."
+    "body": {
+      "markdownContent": "# ¡Bienvenido al Patio de Juegos de Localización de Cachorros! 🐶\n\n### ¡Prueba Diferentes Idiomas para una Diversión Perruna! 🌍\n\n¿No sería genial si los cachorros pudieran hablar todos los idiomas? Bueno, aquí en nuestro Patio de Juegos de Localización de Cachorros, ¡puedes experimentarlo de verdad!\n\n🐕 ¡Inténtalo:\n- **Inglés**: No necesitas un código adicional. ¡Ya estás en la versión en inglés por defecto!\n- **Alemán**: Agrega `?lng=de` al final de la URL y presiona Enter para una experiencia alemana lleno de ladridos.\n- **Francés**: Usa `?lng=fr` para una encantadora traducción francesa que hasta los caniches franceses aprobarían!\n- **Español**: ¿Quieres ladrar en español? Solo agrega `?lng=es` a la URL.\n\n### ¿Cómo Funciona? 🐾\n\nNo estamos enseñando a los cachorros a traducir, ¡pero nuestro mágico archivo translation.json hace el truco! ¿La mejor parte? ¡Nuestra página de Markdown se actualiza dinámicamente según el idioma seleccionado! No se necesita programación. 🪄\n\nAsí que, mientras navegas por nuestro Patio de Juegos de Localización de Cachorros, nota cómo las palabras se transforman en el idioma que elijas. 🌟\n\n¡Adelante, pruébalo! ¡Explora el mundo perruno en diferentes idiomas y descubre cómo la localización hace que la web sea un lugar lleno de alegría para todos! 🌐\n\n![Patio de Juegos de Localización de Cachorros](https://example.com/puppy-localization-playground.png)"
+    }
   },
   "mySubmitAction": {
     "label": "Enviar",
