@@ -647,6 +647,7 @@
     "files": "Archivos",
     "readOnlyIconTooltip": "Esta hoja es de solo lectura"
   },
+  "spaceLoadingMessage": "Preparando Space...",
   "versionHistory": {
     "modals": {
       "confirm": {
