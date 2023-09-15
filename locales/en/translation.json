@@ -629,6 +629,7 @@
     "files": "Files",
     "readOnlyIconTooltip": "This Sheet is read-only"
   },
+  "spaceLoadingMessage": "Preparing Space...",
   "versionHistory": {
     "modals": {
       "default": {

@@ -642,6 +642,7 @@
     "files": "Fichiers",
     "readOnlyIconTooltip": "Cette feuille est en lecture seule"
   },
+  "spaceLoadingMessage": "Préparation Space...",
   "versionHistory": {
     "modals": {
       "default": {

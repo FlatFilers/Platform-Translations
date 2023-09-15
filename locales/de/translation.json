@@ -642,6 +642,7 @@
     "files": "Dateien",
     "readOnlyIconTooltip": "Dieses Arbeitsblatt ist schreibgeschützt"
   },
+  "spaceLoadingMessage": "Vorbereitung Space...",
   "versionHistory": {
     "modals": {
       "default": {
