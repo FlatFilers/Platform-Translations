@@ -613,8 +613,8 @@
         },
         "valid": "Valid"
       },
-      "moreActions": {
-        "buttonText": "More actions",
+      "actionsDropdown": {
+        "buttonText": "Actions",
         "placeholder": "Search or select..."
       },
       "searchBar": {

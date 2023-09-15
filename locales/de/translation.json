@@ -626,8 +626,8 @@
         },
         "valid": "Gültig"
       },
-      "moreActions": {
-        "buttonText": "Weitere Aktionen",
+      "actionsDropdown": {
+        "buttonText": "Aktionen",
         "placeholder": "Suchen oder auswählen …"
       },
       "searchBar": {
