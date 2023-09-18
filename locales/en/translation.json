@@ -540,6 +540,10 @@
           "rowNumber": "Row {{number}}"
         }
       },
+      "maximumMessage": {
+        "singular": "...and 1 more row. Table views only support up to 500,000 records at a time due to browser limitations. Search, sort, filters, and bulk actions will still operate on all rows hidden from view.",
+        "plural": "...and {{hiddenRows}} more rows. Table views only support up to 500,000 records at a time due to browser limitations. Search, sort, filters, and bulk actions will still operate on all rows hidden from view."
+      },
       "modals": {
         "copyAlert": {
           "cancelButton": "Cancel",
