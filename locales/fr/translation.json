@@ -553,6 +553,10 @@
           "rowNumber": "Ligne {{number}}"
         }
       },
+      "maximumMessage": {
+        "singular": "...et 1 ligne supplémentaire. Table views only support up to 500,000 records at a time due to browser limitations. Search, sort, filters, and bulk actions will still operate on all rows hidden from view.",
+        "plural": "...et {{hiddenRows}} lignes supplémentaires. Les vues de tableau ne prennent en charge que 500 000 enregistrements à la fois en raison des limitations du navigateur. La recherche, le tri, les filtres et les actions groupées fonctionneront toujours sur toutes les lignes masquées."
+      },
       "modals": {
         "copyAlert": {
           "cancelButton": "Annuler",

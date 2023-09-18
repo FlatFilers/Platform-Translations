@@ -553,6 +553,10 @@
           "rowNumber": "Fila {{number}}"
         }
       },
+      "maximumMessage": {
+        "singular": "...y 1 fila más. Las vistas de tabla solo admiten hasta 500.000 registros a la vez debido a limitaciones del navegador. Las acciones de búsqueda, clasificación, filtros y masivas seguirán funcionando en todas las filas ocultas a la vista.",
+        "plural": "...y {{hiddenRows}} filas más. Las vistas de tabla solo admiten hasta 500.000 registros a la vez debido a limitaciones del navegador. Las acciones de búsqueda, clasificación, filtros y masivas seguirán funcionando en todas las filas ocultas a la vista."
+      },
       "modals": {
         "copyAlert": {
           "cancelButton": "Cancelar",
