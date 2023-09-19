@@ -554,8 +554,8 @@
         }
       },
       "maximumMessage": {
-        "singular": "...und 1 weitere Reihe. Tabellenansichten unterstützen aufgrund von Browsereinschränkungen nur bis zu 500.000 Datensätze gleichzeitig. Such-, Sortier-, Filter- und Massenaktionen funktionieren weiterhin für alle nicht sichtbaren Zeilen.",
-        "plural": "...und {{hiddenRows}} weitere Reihen. Tabellenansichten unterstützen aufgrund von Browsereinschränkungen nur bis zu 500.000 Datensätze gleichzeitig. Such-, Sortier-, Filter- und Massenaktionen funktionieren weiterhin für alle nicht sichtbaren Zeilen."
+        "plural": "...und {{hiddenRows}} weitere Zeilen. Tabellenansichten unterstützen aufgrund von Browserbeschränkungen nur bis zu 500.000 Datensätze auf einmal. Such-, Sortier-, Filter- und Massenaktionen funktionieren weiterhin auf allen ausgeblendeten Zeilen.",
+        "singular": "...und 1 weitere Zeile. Tabellenansichten unterstützen aufgrund von Browserbeschränkungen nur bis zu 500.000 Datensätze auf einmal. Such-, Sortier-, Filter- und Massenaktionen funktionieren weiterhin auf allen ausgeblendeten Zeilen."
       },
       "modals": {
         "copyAlert": {
@@ -580,6 +580,10 @@
       }
     },
     "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "Aktionen",
+        "placeholder": "Suchen oder auswählen …"
+      },
       "buttons": {
         "delete": {
           "tooltip": {
@@ -630,8 +634,8 @@
         },
         "valid": "Gültig"
       },
-      "actionsDropdown": {
-        "buttonText": "Aktionen",
+      "moreActions": {
+        "buttonText": "Weitere Aktionen",
         "placeholder": "Suchen oder auswählen …"
       },
       "searchBar": {
@@ -646,7 +650,7 @@
     "files": "Dateien",
     "readOnlyIconTooltip": "Dieses Arbeitsblatt ist schreibgeschützt"
   },
-  "spaceLoadingMessage": "Vorbereitung Space...",
+  "spaceLoadingMessage": "Raum wird vorbereitet",
   "versionHistory": {
     "modals": {
       "default": {

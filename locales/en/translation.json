@@ -541,8 +541,8 @@
         }
       },
       "maximumMessage": {
-        "singular": "...and 1 more row. Table views only support up to 500,000 records at a time due to browser limitations. Search, sort, filters, and bulk actions will still operate on all rows hidden from view.",
-        "plural": "...and {{hiddenRows}} more rows. Table views only support up to 500,000 records at a time due to browser limitations. Search, sort, filters, and bulk actions will still operate on all rows hidden from view."
+        "plural": "...and {{hiddenRows}} more rows. Table views only support up to 500,000 records at a time due to browser limitations. Search, sort, filters, and bulk actions will still operate on all rows hidden from view.",
+        "singular": "...and 1 more row. Table views only support up to 500,000 records at a time due to browser limitations. Search, sort, filters, and bulk actions will still operate on all rows hidden from view."
       },
       "modals": {
         "copyAlert": {
@@ -567,6 +567,10 @@
       }
     },
     "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "Actions",
+        "placeholder": "Search or select..."
+      },
       "buttons": {
         "delete": {
           "tooltip": {
@@ -617,8 +621,8 @@
         },
         "valid": "Valid"
       },
-      "actionsDropdown": {
-        "buttonText": "Actions",
+      "moreActions": {
+        "buttonText": "More actions",
         "placeholder": "Search or select..."
       },
       "searchBar": {
