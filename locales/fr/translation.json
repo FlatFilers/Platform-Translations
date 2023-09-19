@@ -554,8 +554,8 @@
         }
       },
       "maximumMessage": {
-        "singular": "...et 1 ligne supplémentaire. Table views only support up to 500,000 records at a time due to browser limitations. Search, sort, filters, and bulk actions will still operate on all rows hidden from view.",
-        "plural": "...et {{hiddenRows}} lignes supplémentaires. Les vues de tableau ne prennent en charge que 500 000 enregistrements à la fois en raison des limitations du navigateur. La recherche, le tri, les filtres et les actions groupées fonctionneront toujours sur toutes les lignes masquées."
+        "plural": "...et {{hiddenRows}} rangs supplémentaires. Les affichages de tableau sont restreints à 500 000 enregistrements à la fois à cause de contraintes liées au navigateur. Les recherches, les tris, les filtres et les actions de masse se réaliseront néanmoins sur tous les rangs non visibles.",
+        "singular": "...et un rang supplémentaire. Les affichages de tableau sont restreints à 500 000 enregistrements à la fois à cause de contraintes liées au navigateur. Les recherches, les tris, les filtres et les actions de masse se réaliseront néanmoins sur tous les rangs non visibles."
       },
       "modals": {
         "copyAlert": {
@@ -580,6 +580,10 @@
       }
     },
     "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "Actions",
+        "placeholder": "Rechercher ou sélectionner..."
+      },
       "buttons": {
         "delete": {
           "tooltip": {
@@ -630,8 +634,8 @@
         },
         "valid": "Valide"
       },
-      "actionsDropdown": {
-        "buttonText": "Actions",
+      "moreActions": {
+        "buttonText": "Plus d'actions",
         "placeholder": "Rechercher ou sélectionner..."
       },
       "searchBar": {
@@ -646,7 +650,7 @@
     "files": "Fichiers",
     "readOnlyIconTooltip": "Cette feuille est en lecture seule"
   },
-  "spaceLoadingMessage": "Préparation Space...",
+  "spaceLoadingMessage": "Préparation de l'espace...",
   "versionHistory": {
     "modals": {
       "default": {

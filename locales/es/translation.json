@@ -554,8 +554,8 @@
         }
       },
       "maximumMessage": {
-        "singular": "...y 1 fila más. Las vistas de tabla solo admiten hasta 500.000 registros a la vez debido a limitaciones del navegador. Las acciones de búsqueda, clasificación, filtros y masivas seguirán funcionando en todas las filas ocultas a la vista.",
-        "plural": "...y {{hiddenRows}} filas más. Las vistas de tabla solo admiten hasta 500.000 registros a la vez debido a limitaciones del navegador. Las acciones de búsqueda, clasificación, filtros y masivas seguirán funcionando en todas las filas ocultas a la vista."
+        "plural": "... y {{hiddenRows}} filas más. Las vistas de la tabla solo admiten hasta 500 000 registros a la vez por las limitaciones del navegador. La búsqueda, ordenación, filtros y acciones masivas seguirán funcionando en todas las filas ocultas a la vista.",
+        "singular": "...y 1 fila más. Las vistas de la tabla solo admiten hasta 500 000 registros a la vez por las limitaciones del navegador. La búsqueda, ordenación, filtros y acciones masivas seguirán funcionando en todas las filas ocultas a la vista."
       },
       "modals": {
         "copyAlert": {
@@ -580,6 +580,10 @@
       }
     },
     "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "Acciones",
+        "placeholder": "Buscar o seleccionar..."
+      },
       "buttons": {
         "delete": {
           "tooltip": {
@@ -608,11 +612,6 @@
           "requireSelection": "Seleccione uno o más registros para acceder a esta acción."
         }
       },
-      "filter": {
-        "all": "Todos",
-        "invalid": "Inválidos",
-        "valid": "Válidos"
-      },
       "filterByError": {
         "buttonText": "Filtrar por tipo de error",
         "dropdownPlaceholder": "Buscar o seleccionar..."
@@ -635,8 +634,8 @@
         },
         "valid": "Validar"
       },
-      "actionsDropdown": {
-        "buttonText": "Acciones",
+      "moreActions": {
+        "buttonText": "Más acciones",
         "placeholder": "Buscar o seleccionar..."
       },
       "searchBar": {
@@ -651,15 +650,9 @@
     "files": "Archivos",
     "readOnlyIconTooltip": "Esta hoja es de solo lectura"
   },
-  "spaceLoadingMessage": "Preparando Space...",
+  "spaceLoadingMessage": "Preparando espacio...",
   "versionHistory": {
     "modals": {
-      "confirm": {
-        "closeButton": "Cerrar",
-        "description": "Está a punto de restaurar los datos de su hoja a una versión anterior, ¿desea continuar?",
-        "heading": "Confirmar restauración de versión",
-        "proceedButton": "Proceder"
-      },
       "default": {
         "description": "Se ha producido un error inesperado. No se ha aplicado la acción correspondiente"
       },
@@ -694,11 +687,6 @@
           "description": "Tu hoja se ha restaurado correctamente a una versión anterior. Informa a todos los colaboradores de la hoja de que actualicen su navegador para reducir el riesgo de problemas.",
           "heading": "Restauración de versión realizada con éxito"
         }
-      },
-      "success": {
-        "closeButton": "Proceder",
-        "description": "¡Su hoja se ha restaurado correctamente a una versión anterior! Informe a cualquier colaborador dentro de la hoja que actualice su navegador para reducir el riesgo de problemas",
-        "heading": "Restauración de versión exitosa"
       }
     },
     "panel": {
