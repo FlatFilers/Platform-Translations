@@ -206,7 +206,10 @@
         "confirmModal": {
           "cancelButton": "Cancelar",
           "defaultConfirmButton": "Confirmar",
-          "defaultLoadingButton": "Cargando..."
+          "defaultLoadingButton": "Cargando...",
+          "isRequired": "{{field}} es obligatorio",
+          "mustBeNumber": "{{field}} debe ser un número",
+          "optional": "opcional"
         },
         "defaultJobName": "Trabajo",
         "defaultResourceName": "esta fuente",
