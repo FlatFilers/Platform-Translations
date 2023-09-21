@@ -213,6 +213,7 @@
         "foregroundJobProgressModal": {
           "defaultJobName": "Trabajo",
           "defaultResourceName": "esta fuente",
+          "percentComplete": "{{percent}} % completado",
           "runningOn": "en ejecución"
         },
         "outcomeModals": {
@@ -293,6 +294,7 @@
       "time": {
         "completed": "Completado en",
         "failed": "Fallido tras",
+        "remaining": "restante",
         "started": "Iniciado a las {{time}}",
         "units": {
           "hour": "hr",
