@@ -206,7 +206,10 @@
         "confirmModal": {
           "cancelButton": "Abbrechen",
           "defaultConfirmButton": "Bestätigen",
-          "defaultLoadingButton": "Wird geladen"
+          "defaultLoadingButton": "Wird geladen",
+          "isRequired": "{{field}} ist erforderlich",
+          "mustBeNumber": "{{field}} muss eine Zahl sein",
+          "optional": "optional"
         },
         "defaultJobName": "Job",
         "defaultResourceName": "diese Ressource",
