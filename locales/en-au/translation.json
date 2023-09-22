@@ -1,0 +1,75 @@
+{
+  "files": {
+    "availableDownloadsTab": "G'day downloads",
+    "buttons": {
+      "addFile": {
+        "inProgressText": "Chuckin' in a file",
+        "text": "Toss in a file"
+      },
+      "delete": "Chuck it",
+      "download": "Grab it"
+    },
+    "contextMenu": {
+      "delete": "Bin it",
+      "download": "Snag it"
+    },
+    "counts": "{{start}}-{{end}} of {{total}}",
+    "deleteModal": {
+      "downloadDescription_one": "This downloaded file will be chucked from the space.",
+      "downloadDescription_other": "These downloaded files will be chucked from the space.",
+      "heading_one": "Chuck a file",
+      "heading_other": "Chuck some files",
+      "subheading_one": "File:",
+      "subheading_other": "Files:",
+      "uploadsDescription_one": "All data imported will be saved. This will chuck the file from the space.",
+      "uploadsDescription_other": "All data imported will be saved. This will chuck the files from the space."
+    },
+    "downloadsTable": {
+      "headings": {
+        "createdDate": "Whacked up",
+        "name": "Handle",
+        "size": "Bloke",
+        "sourceSheet": "Source worksheet"
+      },
+      "processing": "Exportin'..."
+    },
+    "emptyState": {
+      "downloads": {
+        "description": "Grabbed data will pop up here",
+        "heading": "No snags available"
+      },
+      "uploads": {
+        "description": "Drag and drop or chuck in a file to get started",
+        "heading": "Toss in some files"
+      }
+    },
+    "errors": {
+      "loadingError": "Couldn't load the files, mate",
+      "uploadDisabledDescription": "If you reckon this is an error, give support a bell.",
+      "uploadDisabledHeading": "This space's not up for file uploads right now, mate."
+    },
+    "title": "Files, Mate",
+    "uploadedFilesTab": "Uploaded stuff",
+    "uploadFile": {
+      "popovers": {
+        "errorUploading": "Couldn't chuck in the file: {{fileName}}",
+        "onDragPopoverConfirmation": "Droppin' a file in:",
+        "uploadComplete": "Chuck it in: {{fileName}}",
+        "uploadInProgress": "Chuckin' in: {{fileName}}",
+        "uploadsDisabled": "This space's not up for chuckin' files right now, mate."
+      }
+    },
+    "uploadsTables": {
+      "headings": {
+        "name": "Handle",
+        "status": "Status",
+        "uploadedDate": "Chuck date"
+      },
+      "importButton": "Import it",
+      "tooltips": {
+        "cannotImport": "Importin' to a workbook's not on the cards for this file, mate",
+        "noExtension": "This file's got no extension, mate. Stick the right one on and chuck it back to import it into a workbook"
+      }
+    }
+  }
+}
