@@ -439,7 +439,11 @@
         "cellUpdateFailed": "Etwas ist schief gelaufen. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut. Sollte dies weiterhin der Fall sein, wenden Sie sich bitte an den Support.",
         "invalidFFQL": "Bitte prüfen Sie Ihre Anfrage",
         "recordsLoadFailed": "Datensätze konnten nicht geladen werden"
-      }
+      },
+      "copyCell_one": "{{count}} Zelle kopiert",
+      "copyCell_other": "{{count}} Zellen kopiert",
+      "copyRecord_one": "{{count}} Datensatz kopiert",
+      "copyRecord_other": "{{count}} Datensätze kopiert"
     },
     "table": {
       "cells": {
@@ -589,6 +593,10 @@
         "buttonText": "Aktionen",
         "placeholder": "Suchen oder auswählen …"
       },
+      "dropdown": {
+        "delete": "Löschen",
+        "download": "Herunterladen"
+      },
       "buttons": {
         "delete": {
           "tooltip": {
@@ -597,6 +605,29 @@
               "deleteDisabled": "Das Löschen von Einträgen wurde für dieses Schema deaktiviert.",
               "noRecordsSelected": "Zum Löschen mindestens einen Eintrag auswählen"
             }
+          },
+          "modal": {
+            "heading_one": "Datensatz löschen",
+            "heading_other": "Datensätze löschen",
+            "description": {
+              "prefix": "Möchten Sie den",
+              "infix": "ausgewählten",
+              "infixType": {
+                "valid": "gültigen",
+                "invalid": "ungültigen"
+              },
+              "suffix_one": "Datensatz löschen?",
+              "suffix_other": "Datensätze löschen?"
+            },
+            "cancelButton": "Abbrechen",
+            "confirmButton": "Datensätze löschen",
+            "inProgress": "Datensätze werden gelöscht...",
+            "errorMessage": "Datensätze konnten nicht gelöscht werden. Bitte versuchen Sie es erneut oder ändern Sie Ihre Auswahl."
+          },
+          "popover": {
+            "successMessage_other": "{{count}} Datensätze gelöscht",
+            "successMessage_one": "{{count}} Datensatz gelöscht",
+            "successMessageNoCount": "Datensätze gelöscht"
           }
         },
         "download": {
@@ -608,6 +639,24 @@
               "validFilterApplied": "Alle gültigen Einträge herunterladen"
             },
             "disabled": "Es sind keine Einträge zum Herunterladen verfügbar"
+          },
+          "modal": {
+            "heading_one": "Datensatz herunterladen",
+            "heading_other": "Datensätze herunterladen",
+            "description": {
+              "prefix": "Möchten Sie den",
+              "infix": "ausgewählten",
+              "infixType": {
+                "valid": "gültigen",
+                "invalid": "ungültigen"
+              },
+              "suffix_one": "Datensatz herunterladen?",
+              "suffix_other": "Datensätze herunterladen?"
+            },
+            "cancelButton": "Abbrechen",
+            "confirmButton": "Datensätze herunterladen",
+            "inProgress": "Datensätze werden heruntergeladen...",
+            "errorMessage": "Datensätze konnten nicht heruntergeladen werden. Bitte versuchen Sie es erneut oder ändern Sie Ihre Auswahl."
           }
         }
       },
@@ -655,6 +704,100 @@
     "files": "Dateien",
     "readOnlyIconTooltip": "Dieses Arbeitsblatt ist schreibgeschützt"
   },
+  "snapshot": {
+    "restore": {
+      "title": "Änderungen gelten in",
+      "message": "Ihr Blatt {{name}} wird auf die Version in diesem Snapshot wiederhergestellt.",
+      "cancelButton": "Abbrechen",
+      "submitButton": "Wiederherstellen",
+      "errorMessage": "Der Snapshot konnte aufgrund eines unerwarteten Fehlers nicht wiederhergestellt werden.",
+      "successMessage": "Ihr Blatt wurde auf eine frühere Version wiederhergestellt.",
+      "filters": {
+        "updatedSince": "Ändern",
+        "createdSince": "Entfernen",
+        "deletedSince": "Hinzufügen"
+      },
+      "empty": {
+        "title": "Nichts zu sehen!",
+        "updatedSince": "Dieser Snapshot enthält keine Datensätze, die geändert werden.",
+        "createdSince": "Dieser Snapshot enthält keine Datensätze, die entfernt werden.",
+        "deletedSince": "Dieser Snapshot enthält keine Datensätze, die hinzugefügt werden."
+      },
+      "summary": {
+        "total": {
+          "singular": {
+            "noFields": "Daten ändern sich in 1 Datensatz.",
+            "oneField": "Die Daten ändern sich in 1 Datensatz in 1 Feld.",
+            "multipleFields": "Die Daten ändern sich in 1 Datensatz über {{fields}} Felder."
+          },
+          "plural": {
+            "noFields": "Daten ändern sich in {{records}} Datensätzen.",
+            "oneField": "Die Daten ändern sich in {{records}} Datensätzen in einem Feld.",
+            "multipleFields": "Daten ändern sich in {{records}} Datensätzen über {{fields}} Felder."
+          }
+        },
+        "fields": {
+          "start": " Daten werden geändert in ",
+          "singular": {
+            "first": "1 Zelle im Feld {{name}}",
+            "middle": ", 1 Zelle im Feld {{name}}",
+            "last": " und 1 Zelle im Feld {{name}}"
+          },
+          "plural": {
+            "first": "{{cells}} Zellen im Feld {{name}}",
+            "middle": ", {{cells}} Zellen im Feld {{name}}",
+            "last": " und {{cells}} Zellen im Feld {{name}}"
+          }
+        }
+      }
+    },
+    "accept": {
+      "title": "Änderungen vorgenommen in",
+      "message": "Durch das Akzeptieren der Änderungen werden alle neuen Werte in Ihrem Blatt {{name}} zusammengeführt.",
+      "cancelButton": "Abbrechen",
+      "submitButton": "Änderungen akzeptieren",
+      "errorMessage": "Die Snapshot-Änderungen konnten aufgrund eines unerwarteten Fehlers nicht angewendet werden.",
+      "successMessage": "Änderungen wurden auf Ihr Blatt angewendet.",
+      "filters": {
+        "updatedSince": "Geändert",
+        "createdSince": "Entfernt",
+        "deletedSince": "Hinzugefügt"
+      },
+      "empty": {
+        "title": "Nichts zu sehen!",
+        "updatedSince": "Dieser Snapshot enthält keine geänderten Datensätze.",
+        "createdSince": "Dieser Schnappschuss enthält keine entfernten Datensätze.",
+        "deletedSince": "Dieser Snapshot hat keine hinzugefügten Datensätze."
+      },
+      "summary": {
+        "total": {
+          "singular": {
+            "noFields": "Daten in 1 Datensatz geändert.",
+            "oneField": "Daten in 1 Datensatz in 1 Feld geändert.",
+            "multipleFields": "Daten wurden in 1 Datensatz in {{fields}} Feldern geändert."
+          },
+          "plural": {
+            "noFields": "Daten in {{records}} Datensätzen geändert.",
+            "oneField": "Daten in {{records}} Datensätzen in 1 Feld geändert.",
+            "multipleFields": "Daten in {{records}} Datensätzen in {{fields}} Feldern geändert."
+          }
+        },
+        "fields": {
+          "start": " Daten wurden geändert in ",
+          "singular": {
+            "first": "1 Zelle im Feld {{name}}",
+            "middle": ", 1 Zelle im Feld {{name}}",
+            "last": " und 1 Zelle im Feld {{name}}"
+          },
+          "plural": {
+            "first": "{{cells}} Zellen im Feld {{name}}",
+            "middle": ", {{cells}} Zellen im Feld {{name}}",
+            "last": " und {{cells}} Zellen im Feld {{name}}"
+          }
+        }
+      }
+    }
+  },
   "spaceLoadingMessage": "Raum wird vorbereitet",
   "versionHistory": {
     "modals": {
@@ -678,19 +821,6 @@
           "closeButton": "Schließen",
           "description": "Die ausgewählte Version wurde gelöscht.",
           "heading": "Version gelöscht"
-        }
-      },
-      "restore": {
-        "confirm": {
-          "closeButton": "Schließen",
-          "description": "Sie sind im Begriff, Ihre Blattdaten auf eine frühere Version zurückzusetzen. Möchten Sie fortfahren?",
-          "heading": "Bestätigen Sie die Wiederherstellung der Version",
-          "proceedButton": "Weiter"
-        },
-        "success": {
-          "closeButton": "Schließen",
-          "description": "Ihr Blatt wurde erfolgreich auf eine ältere Version zurückgesetzt! Bitte informieren Sie alle Mitarbeiter im Blatt, dass sie ihren Browser aktualisieren sollten, um das Risiko von Problemen zu verringern.",
-          "heading": "Version erfolgreich wiederherstellen"
         }
       }
     },
