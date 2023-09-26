@@ -16,5 +16,5 @@ Don't like our default translations? We'd love your help! Here's how you can get
 
 4. **Updating Platform-Translations:** Changes made in our private repository are automaticly synchronized with this repository. This ensures that improvements made based on your feedback become part of the official translations for all users!
 
-Your insights and language skills make a big difference in making our translations accurate. Thanks for being part of our collaborative effort to make Flatfile better for all users!
+Your insights and language skills make a big difference in making our translations more accurate. Thanks for being part of our collaborative effort to make Flatfile better for all users!
 
