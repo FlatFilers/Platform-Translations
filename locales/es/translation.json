@@ -253,6 +253,7 @@
       },
       "empty": "Los trabajos aparecerán aquí cuando se estén ejecutando o estén completados",
       "errorLoadingJob": "No se ha encontrado",
+      "heading": "Trabajos",
       "status": {
         "default": {
           "canceled": {

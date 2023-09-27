@@ -253,6 +253,7 @@
       },
       "empty": "Aufträge werden hier angezeigt, wenn sie ausgeführt oder abgeschlossen werden.",
       "errorLoadingJob": "Nicht gefunden",
+      "heading": "Aufträge",
       "status": {
         "default": {
           "canceled": {
