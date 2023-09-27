@@ -425,15 +425,15 @@
       "notFound": "Workbook not found"
     },
     "popovers": {
+      "copyCell_one": "{{count}} cell copied",
+      "copyCell_other": "{{count}} cells copied",
+      "copyRecord_one": "{{count}} record copied",
+      "copyRecord_other": "{{count}} records copied",
       "errors": {
         "cellUpdateFailed": "Something went wrong. Please refresh the page and try again. If this continues, please reach out to support",
         "invalidFFQL": "Please check your query",
         "recordsLoadFailed": "Records failed to load"
-      },
-      "copyCell_one": "{{count}} cell copied",
-      "copyCell_other": "{{count}} cells copied",
-      "copyRecord_one": "{{count}} record copied",
-      "copyRecord_other": "{{count}} records copied"
+      }
     },
     "table": {
       "cells": {
@@ -580,44 +580,58 @@
         "buttonText": "Actions",
         "placeholder": "Search or select..."
       },
-      "dropdown": {
-        "delete": "Delete",
-        "download": "Download"
-      },
       "buttons": {
         "delete": {
+          "modal": {
+            "cancelButton": "Cancel",
+            "confirmButton": "Delete records",
+            "description": {
+              "infix": "selected",
+              "infixType": {
+                "invalid": "invalid",
+                "valid": "valid"
+              },
+              "prefix": "Would you like to delete the",
+              "suffix_one": "record?",
+              "suffix_other": "records?"
+            },
+            "errorMessage": "Unable to delete records. Please try again or modify your selection.",
+            "heading_one": "Delete Record",
+            "heading_other": "Delete Records",
+            "inProgress": "Deleting records..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} record deleted",
+            "successMessage_other": "{{count}} records deleted",
+            "successMessageNoCount": "Records deleted"
+          },
           "tooltip": {
             "active": "Delete selected records",
             "disabled": {
               "deleteDisabled": "Deleting records is disabled in this Sheet.",
               "noRecordsSelected": "Select at least one record in order to delete it"
             }
-          },
-          "modal": {
-            "heading_one": "Delete Record",
-            "heading_other": "Delete Records",
-            "description": {
-              "prefix": "Would you like to delete the",
-              "infix": "selected",
-              "infixType": {
-                "valid": "valid",
-                "invalid": "invalid"
-              },
-              "suffix_one": "record?",
-              "suffix_other": "records?"
-            },
-            "cancelButton": "Cancel",
-            "confirmButton": "Delete records",
-            "inProgress": "Deleting records...",
-            "errorMessage": "Unable to delete records. Please try again or modify your selection."
-          },
-          "popover": {
-            "successMessage_other": "{{count}} records deleted",
-            "successMessage_one": "{{count}} record deleted",
-            "successMessageNoCount": "Records deleted"
           }
         },
         "download": {
+          "modal": {
+            "cancelButton": "Cancel",
+            "confirmButton": "Download records",
+            "description": {
+              "infix": "selected",
+              "infixType": {
+                "invalid": "invalid",
+                "valid": "valid"
+              },
+              "prefix": "Would you like to download the",
+              "suffix_one": "record?",
+              "suffix_other": "records?"
+            },
+            "errorMessage": "Unable to download records. Please try again or modify your selection.",
+            "heading_one": "Download Record",
+            "heading_other": "Download Records",
+            "inProgress": "Downloading records..."
+          },
           "tooltip": {
             "active": {
               "invalidFilterApplied": "Download all invalid records",
@@ -626,24 +640,6 @@
               "validFilterApplied": "Download all valid records"
             },
             "disabled": "No records to download"
-          },
-          "modal": {
-            "heading_one": "Download Record",
-            "heading_other": "Download Records",
-            "description": {
-              "prefix": "Would you like to download the",
-              "infix": "selected",
-              "infixType": {
-                "valid": "valid",
-                "invalid": "invalid"
-              },
-              "suffix_one": "record?",
-              "suffix_other": "records?"
-            },
-            "cancelButton": "Cancel",
-            "confirmButton": "Download records",
-            "inProgress": "Downloading records...",
-            "errorMessage": "Unable to download records. Please try again or modify your selection."
           }
         }
       },
@@ -652,6 +648,10 @@
           "requireAllValid": "This action requires all selected rows to be valid",
           "requireSelection": "Please select one or more records to use this action"
         }
+      },
+      "dropdown": {
+        "delete": "Delete",
+        "download": "Download"
       },
       "filterByError": {
         "buttonText": "Filter by error",
@@ -692,97 +692,97 @@
     "readOnlyIconTooltip": "This Sheet is read-only"
   },
   "snapshot": {
-    "restore": {
-      "title": "Changes to apply in",
-      "message": "Your sheet {{name}} will be restored to the version in this snapshot.",
-      "errorMessage": "The snapshot could not be restored due to an unexpected error.",
-      "successMessage": "Your sheet was restored to an earlier version.",
-      "cancelButton": "Cancel",
-      "submitButton": "Restore",
-      "filters": {
-        "updatedSince": "Modify",
-        "createdSince": "Remove",
-        "deletedSince": "Add"
-      },
-      "empty": {
-        "title": "Nothing to see!",
-        "updatedSince": "This snapshot has no records that will be modified.",
-        "createdSince": "This snapshot has no records that will be removed.",
-        "deletedSince": "This snapshot has no records that will be added."
-      },
-      "summary": {
-        "total": {
-          "singular": {
-            "noFields": "Data will change in 1 record.",
-            "oneField": "Data will change in 1 record across 1 field.",
-            "multipleFields": "Data will change in 1 record across {{fields}} fields."
-          },
-          "plural": {
-            "noFields": "Data will change in {{records}} records.",
-            "oneField": "Data will change in {{records}} records across 1 field.",
-            "multipleFields": "Data will change in {{records}} records across {{fields}} fields."
-          }
-        },
-        "fields": {
-          "start": " Data will be modified in ",
-          "singular": {
-            "first": "1 cell in field {{name}}",
-            "middle": ", 1 cell in field {{name}}",
-            "last": " and 1 cell in field {{name}}"
-          },
-          "plural": {
-            "first": "{{cells}} cells in field {{name}}",
-            "middle": ", {{cells}} cells in field {{name}}",
-            "last": " and {{cells}} cells in field {{name}}"
-          }
-        }
-      }
-    },
     "accept": {
-      "title": "Changes made in",
-      "message": "Accepting changes merges all new values into your sheet {{name}}.",
-      "errorMessage": "The snapshot changes could not be applied due to an unexpected error.",
-      "successMessage": "Changes were applied to your sheet.",
       "cancelButton": "Cancel",
-      "submitButton": "Accept changes",
-      "filters": {
-        "updatedSince": "Modified",
-        "createdSince": "Removed",
-        "deletedSince": "Added"
-      },
       "empty": {
-        "title": "Nothing to see!",
-        "updatedSince": "This snapshot has no modified records.",
         "createdSince": "This snapshot has no removed records.",
-        "deletedSince": "This snapshot has no added records."
+        "deletedSince": "This snapshot has no added records.",
+        "title": "Nothing to see!",
+        "updatedSince": "This snapshot has no modified records."
       },
+      "errorMessage": "The snapshot changes could not be applied due to an unexpected error.",
+      "filters": {
+        "createdSince": "Removed",
+        "deletedSince": "Added",
+        "updatedSince": "Modified"
+      },
+      "message": "Accepting changes merges all new values into your sheet {{name}}.",
+      "submitButton": "Accept changes",
+      "successMessage": "Changes were applied to your sheet.",
       "summary": {
-        "total": {
-          "singular": {
-            "noFields": "Data changed in 1 record.",
-            "oneField": "Data changed in 1 record across 1 field.",
-            "multipleFields": "Data changed in 1 record across {{fields}} fields."
-          },
-          "plural": {
-            "noFields": "Data changed in {{records}} records.",
-            "oneField": "Data changed in {{records}} records across 1 field.",
-            "multipleFields": "Data changed in {{records}} records across {{fields}} fields."
-          }
-        },
         "fields": {
-          "start": " Data was modified in ",
-          "singular": {
-            "first": "1 cell in field {{name}}",
-            "middle": ", 1 cell in field {{name}}",
-            "last": " and 1 cell in field {{name}}"
-          },
           "plural": {
             "first": "{{cells}} cells in field {{name}}",
-            "middle": ", {{cells}} cells in field {{name}}",
-            "last": " and {{cells}} cells in field {{name}}"
+            "last": " and {{cells}} cells in field {{name}}",
+            "middle": ", {{cells}} cells in field {{name}}"
+          },
+          "singular": {
+            "first": "1 cell in field {{name}}",
+            "last": " and 1 cell in field {{name}}",
+            "middle": ", 1 cell in field {{name}}"
+          },
+          "start": " Data was modified in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data changed in {{records}} records across {{fields}} fields.",
+            "noFields": "Data changed in {{records}} records.",
+            "oneField": "Data changed in {{records}} records across 1 field."
+          },
+          "singular": {
+            "multipleFields": "Data changed in 1 record across {{fields}} fields.",
+            "noFields": "Data changed in 1 record.",
+            "oneField": "Data changed in 1 record across 1 field."
           }
         }
-      }
+      },
+      "title": "Changes made in"
+    },
+    "restore": {
+      "cancelButton": "Cancel",
+      "empty": {
+        "createdSince": "This snapshot has no records that will be removed.",
+        "deletedSince": "This snapshot has no records that will be added.",
+        "title": "Nothing to see!",
+        "updatedSince": "This snapshot has no records that will be modified."
+      },
+      "errorMessage": "The snapshot could not be restored due to an unexpected error.",
+      "filters": {
+        "createdSince": "Remove",
+        "deletedSince": "Add",
+        "updatedSince": "Modify"
+      },
+      "message": "Your sheet {{name}} will be restored to the version in this snapshot.",
+      "submitButton": "Restore",
+      "successMessage": "Your sheet was restored to an earlier version.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} cells in field {{name}}",
+            "last": " and {{cells}} cells in field {{name}}",
+            "middle": ", {{cells}} cells in field {{name}}"
+          },
+          "singular": {
+            "first": "1 cell in field {{name}}",
+            "last": " and 1 cell in field {{name}}",
+            "middle": ", 1 cell in field {{name}}"
+          },
+          "start": " Data will be modified in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data will change in {{records}} records across {{fields}} fields.",
+            "noFields": "Data will change in {{records}} records.",
+            "oneField": "Data will change in {{records}} records across 1 field."
+          },
+          "singular": {
+            "multipleFields": "Data will change in 1 record across {{fields}} fields.",
+            "noFields": "Data will change in 1 record.",
+            "oneField": "Data will change in 1 record across 1 field."
+          }
+        }
+      },
+      "title": "Changes to apply in"
     }
   },
   "spaceLoadingMessage": "Preparing Space...",
@@ -808,6 +808,19 @@
           "closeButton": "Close",
           "description": "The selected version has been deleted.",
           "heading": "Version Deleted"
+        }
+      },
+      "restore": {
+        "confirm": {
+          "closeButton": "Close",
+          "description": "You are about to restore your sheet data to a previous version - would you like to proceed?",
+          "heading": "Confirm Version Restore",
+          "proceedButton": "Proceed"
+        },
+        "success": {
+          "closeButton": "Close",
+          "description": "Your Sheet has been successfully restored to an older version! Please inform any collaborators within the sheet to refresh their browser to reduce the risk of issues",
+          "heading": "Version Restore Successful"
         }
       }
     },

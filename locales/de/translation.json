@@ -435,15 +435,17 @@
       "notFound": "Arbeitsmappe nicht gefunden"
     },
     "popovers": {
+      "copyCell_one": "{{count}} Zelle kopiert",
+      "copyCell_other": "{{count}} Zellen kopiert",
+      "copyCell_zero": "{{count}} Zellen kopiert",
+      "copyRecord_one": "{{count}} Aufnahme kopiert",
+      "copyRecord_other": "{{count}} Aufnahmen kopiert",
+      "copyRecord_zero": "{{count}} Aufnahmen kopiert",
       "errors": {
         "cellUpdateFailed": "Etwas ist schief gelaufen. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut. Sollte dies weiterhin der Fall sein, wenden Sie sich bitte an den Support.",
         "invalidFFQL": "Bitte prüfen Sie Ihre Anfrage",
         "recordsLoadFailed": "Datensätze konnten nicht geladen werden"
-      },
-      "copyCell_one": "{{count}} Zelle kopiert",
-      "copyCell_other": "{{count}} Zellen kopiert",
-      "copyRecord_one": "{{count}} Datensatz kopiert",
-      "copyRecord_other": "{{count}} Datensätze kopiert"
+      }
     },
     "table": {
       "cells": {
@@ -593,44 +595,63 @@
         "buttonText": "Aktionen",
         "placeholder": "Suchen oder auswählen …"
       },
-      "dropdown": {
-        "delete": "Löschen",
-        "download": "Herunterladen"
-      },
       "buttons": {
         "delete": {
+          "modal": {
+            "cancelButton": "Abbrechen",
+            "confirmButton": "Aufnahmen löschen",
+            "description": {
+              "infix": "ausgewählten",
+              "infixType": {
+                "invalid": "ungültigen",
+                "valid": "gültigen"
+              },
+              "prefix": "Wollen Sie die",
+              "suffix_one": "Aufnahme löschen?",
+              "suffix_other": "Aufnahmen löschen?",
+              "suffix_zero": "Aufnahmen löschen?"
+            },
+            "errorMessage": "Die Aufnahmen können nicht gelöscht werden. Bitte versuchen Sie es noch einmal oder ändern Sie Ihre Auswahl.",
+            "heading_one": "Aufnahme löschen",
+            "heading_other": "Aufnahmen löschen",
+            "heading_zero": "Aufnahmen löschen",
+            "inProgress": "Die Aufnahmen werden gelöscht ..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} Aufnahme gelöscht",
+            "successMessage_other": "{{count}} Aufnahmen gelöscht",
+            "successMessage_zero": "{{count}} Aufnahmen gelöscht",
+            "successMessageNoCount": "Aufnahmen gelöscht"
+          },
           "tooltip": {
             "active": "Ausgewählte Einträge löschen",
             "disabled": {
               "deleteDisabled": "Das Löschen von Einträgen wurde für dieses Schema deaktiviert.",
               "noRecordsSelected": "Zum Löschen mindestens einen Eintrag auswählen"
             }
-          },
-          "modal": {
-            "heading_one": "Datensatz löschen",
-            "heading_other": "Datensätze löschen",
-            "description": {
-              "prefix": "Möchten Sie den",
-              "infix": "ausgewählten",
-              "infixType": {
-                "valid": "gültigen",
-                "invalid": "ungültigen"
-              },
-              "suffix_one": "Datensatz löschen?",
-              "suffix_other": "Datensätze löschen?"
-            },
-            "cancelButton": "Abbrechen",
-            "confirmButton": "Datensätze löschen",
-            "inProgress": "Datensätze werden gelöscht...",
-            "errorMessage": "Datensätze konnten nicht gelöscht werden. Bitte versuchen Sie es erneut oder ändern Sie Ihre Auswahl."
-          },
-          "popover": {
-            "successMessage_other": "{{count}} Datensätze gelöscht",
-            "successMessage_one": "{{count}} Datensatz gelöscht",
-            "successMessageNoCount": "Datensätze gelöscht"
           }
         },
         "download": {
+          "modal": {
+            "cancelButton": "Abbrechen",
+            "confirmButton": "Aufnahmen herunterladen",
+            "description": {
+              "infix": "ausgewählten",
+              "infixType": {
+                "invalid": "ungültigen",
+                "valid": "gültigen"
+              },
+              "prefix": "Wollen Sie die",
+              "suffix_one": "Aufnahme herunterladen?",
+              "suffix_other": "Aufnahmen herunterladen?",
+              "suffix_zero": "Aufnahmen herunterladen?"
+            },
+            "errorMessage": "Die Aufnahmen können nicht heruntergeladen werden. Bitte versuchen Sie es erneut oder ändern Sie Ihre Auswahl.",
+            "heading_one": "Aufnahme herunterladen",
+            "heading_other": "Aufnahmen herunterladen",
+            "heading_zero": "Aufnahmen herunterladen",
+            "inProgress": "Die Aufnahmen werden heruntergeladen ..."
+          },
           "tooltip": {
             "active": {
               "invalidFilterApplied": "Alle ungültigen Einträge herunterladen",
@@ -639,24 +660,6 @@
               "validFilterApplied": "Alle gültigen Einträge herunterladen"
             },
             "disabled": "Es sind keine Einträge zum Herunterladen verfügbar"
-          },
-          "modal": {
-            "heading_one": "Datensatz herunterladen",
-            "heading_other": "Datensätze herunterladen",
-            "description": {
-              "prefix": "Möchten Sie den",
-              "infix": "ausgewählten",
-              "infixType": {
-                "valid": "gültigen",
-                "invalid": "ungültigen"
-              },
-              "suffix_one": "Datensatz herunterladen?",
-              "suffix_other": "Datensätze herunterladen?"
-            },
-            "cancelButton": "Abbrechen",
-            "confirmButton": "Datensätze herunterladen",
-            "inProgress": "Datensätze werden heruntergeladen...",
-            "errorMessage": "Datensätze konnten nicht heruntergeladen werden. Bitte versuchen Sie es erneut oder ändern Sie Ihre Auswahl."
           }
         }
       },
@@ -665,6 +668,10 @@
           "requireAllValid": "Für diese Aktion müssen alle ausgewählten Zeilen gültig sein",
           "requireSelection": "Für diese Aktion bitte einen oder mehrere Einträge auswählen"
         }
+      },
+      "dropdown": {
+        "delete": "Löschen",
+        "download": "Herunterladen"
       },
       "filterByError": {
         "buttonText": "Nach Fehler filtern",
@@ -705,97 +712,97 @@
     "readOnlyIconTooltip": "Dieses Arbeitsblatt ist schreibgeschützt"
   },
   "snapshot": {
-    "restore": {
-      "title": "Änderungen gelten in",
-      "message": "Ihr Blatt {{name}} wird auf die Version in diesem Snapshot wiederhergestellt.",
-      "cancelButton": "Abbrechen",
-      "submitButton": "Wiederherstellen",
-      "errorMessage": "Der Snapshot konnte aufgrund eines unerwarteten Fehlers nicht wiederhergestellt werden.",
-      "successMessage": "Ihr Blatt wurde auf eine frühere Version wiederhergestellt.",
-      "filters": {
-        "updatedSince": "Ändern",
-        "createdSince": "Entfernen",
-        "deletedSince": "Hinzufügen"
-      },
-      "empty": {
-        "title": "Nichts zu sehen!",
-        "updatedSince": "Dieser Snapshot enthält keine Datensätze, die geändert werden.",
-        "createdSince": "Dieser Snapshot enthält keine Datensätze, die entfernt werden.",
-        "deletedSince": "Dieser Snapshot enthält keine Datensätze, die hinzugefügt werden."
-      },
-      "summary": {
-        "total": {
-          "singular": {
-            "noFields": "Daten ändern sich in 1 Datensatz.",
-            "oneField": "Die Daten ändern sich in 1 Datensatz in 1 Feld.",
-            "multipleFields": "Die Daten ändern sich in 1 Datensatz über {{fields}} Felder."
-          },
-          "plural": {
-            "noFields": "Daten ändern sich in {{records}} Datensätzen.",
-            "oneField": "Die Daten ändern sich in {{records}} Datensätzen in einem Feld.",
-            "multipleFields": "Daten ändern sich in {{records}} Datensätzen über {{fields}} Felder."
-          }
-        },
-        "fields": {
-          "start": " Daten werden geändert in ",
-          "singular": {
-            "first": "1 Zelle im Feld {{name}}",
-            "middle": ", 1 Zelle im Feld {{name}}",
-            "last": " und 1 Zelle im Feld {{name}}"
-          },
-          "plural": {
-            "first": "{{cells}} Zellen im Feld {{name}}",
-            "middle": ", {{cells}} Zellen im Feld {{name}}",
-            "last": " und {{cells}} Zellen im Feld {{name}}"
-          }
-        }
-      }
-    },
     "accept": {
-      "title": "Änderungen vorgenommen in",
-      "message": "Durch das Akzeptieren der Änderungen werden alle neuen Werte in Ihrem Blatt {{name}} zusammengeführt.",
       "cancelButton": "Abbrechen",
-      "submitButton": "Änderungen akzeptieren",
-      "errorMessage": "Die Snapshot-Änderungen konnten aufgrund eines unerwarteten Fehlers nicht angewendet werden.",
-      "successMessage": "Änderungen wurden auf Ihr Blatt angewendet.",
-      "filters": {
-        "updatedSince": "Geändert",
-        "createdSince": "Entfernt",
-        "deletedSince": "Hinzugefügt"
-      },
       "empty": {
+        "createdSince": "Dieser Snapshot enthält keine entfernten Datensätze.",
+        "deletedSince": "Dieser Schnappschuss enthält keine hinzugefügten Datensätze.",
         "title": "Nichts zu sehen!",
-        "updatedSince": "Dieser Snapshot enthält keine geänderten Datensätze.",
-        "createdSince": "Dieser Schnappschuss enthält keine entfernten Datensätze.",
-        "deletedSince": "Dieser Snapshot hat keine hinzugefügten Datensätze."
+        "updatedSince": "Dieser Snapshot enthält keine geänderten Datensätze."
       },
+      "errorMessage": "Die Snapshot-Änderungen konnten aufgrund eines unerwarteten Fehlers nicht übernommen werden.",
+      "filters": {
+        "createdSince": "Entfernt",
+        "deletedSince": "Hinzugefügt",
+        "updatedSince": "Geändert"
+      },
+      "message": "Durch das Akzeptieren von Änderungen werden alle neuen Werte in Ihr Blatt {{name}} eingefügt.",
+      "submitButton": "Änderungen akzeptieren",
+      "successMessage": "Die Änderungen wurden auf Ihr Blatt angewendet.",
       "summary": {
-        "total": {
-          "singular": {
-            "noFields": "Daten in 1 Datensatz geändert.",
-            "oneField": "Daten in 1 Datensatz in 1 Feld geändert.",
-            "multipleFields": "Daten wurden in 1 Datensatz in {{fields}} Feldern geändert."
-          },
-          "plural": {
-            "noFields": "Daten in {{records}} Datensätzen geändert.",
-            "oneField": "Daten in {{records}} Datensätzen in 1 Feld geändert.",
-            "multipleFields": "Daten in {{records}} Datensätzen in {{fields}} Feldern geändert."
-          }
-        },
         "fields": {
-          "start": " Daten wurden geändert in ",
-          "singular": {
-            "first": "1 Zelle im Feld {{name}}",
-            "middle": ", 1 Zelle im Feld {{name}}",
-            "last": " und 1 Zelle im Feld {{name}}"
-          },
           "plural": {
             "first": "{{cells}} Zellen im Feld {{name}}",
-            "middle": ", {{cells}} Zellen im Feld {{name}}",
-            "last": " und {{cells}} Zellen im Feld {{name}}"
+            "last": " und {{cells}} Zellen im Feld {{name}}",
+            "middle": ", {{cells}} Zellen im Feld {{name}}"
+          },
+          "singular": {
+            "first": "1 Zelle im Feld {{name}}",
+            "last": " und 1 Zelle im Feld {{name}}",
+            "middle": ", 1 Zelle im Feld {{name}}"
+          },
+          "start": " Die Daten wurden geändert in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Daten wurden in {{records}} Datensätzen in {{fields}} Feldern geändert.",
+            "noFields": "Daten wurden in {{records}} Datensätzen geändert.",
+            "oneField": "Daten wurden in {{records}} Datensätzen in 1 Feld geändert."
+          },
+          "singular": {
+            "multipleFields": "Daten wurden in 1 Datensatz in {{fields}} Feldern geändert.",
+            "noFields": "Daten wurden in 1 Datensatz geändert.",
+            "oneField": "Daten wurden in 1 Datensatz in 1 Feld geändert."
           }
         }
-      }
+      },
+      "title": "Änderungen vorgenommen in"
+    },
+    "restore": {
+      "cancelButton": "Abbrechen",
+      "empty": {
+        "createdSince": "Dieser Snapshot enthält keine Datensätze, die entfernt werden müssen.",
+        "deletedSince": "Dieser Snapshot enthält keine Datensätze, die hinzugefügt werden müssen.",
+        "title": "Nichts zu sehen!",
+        "updatedSince": "Dieser Snapshot enthält keine Datensätze, die geändert werden müssen."
+      },
+      "errorMessage": "Der Schnappschuss konnte aufgrund eines unerwarteten Fehlers nicht wiederhergestellt werden.",
+      "filters": {
+        "createdSince": "Entfernen",
+        "deletedSince": "Hinzufügen",
+        "updatedSince": "Ändern"
+      },
+      "message": "Ihr Arbeitsblatt {{name}} wird in der Version dieses Schnappschusses wiederhergestellt.",
+      "submitButton": "Wiederherstellen",
+      "successMessage": "Ihr Arbeitsblatt wurde in einer früheren Version wiederhergestellt.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} Zellen im Feld {{name}}",
+            "last": " und {{cells}} Zellen im Feld {{name}}",
+            "middle": ", {{cells}} Zellen im Feld {{name}}"
+          },
+          "singular": {
+            "first": "1 Zelle im Feld {{name}}",
+            "last": " und 1 Zelle im Feld {{name}}",
+            "middle": ", 1 Zelle im Feld {{name}}"
+          },
+          "start": " Daten werden geändert in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Die Daten ändern sich in {{records}} Datensätzen in {{fields}} Feldern.",
+            "noFields": "Die Daten ändern sich in {{records}} Datensätzen.",
+            "oneField": "Die Daten ändern sich in {{records}} Datensätzen in 1 Feld."
+          },
+          "singular": {
+            "multipleFields": "Die Daten ändern sich in 1 Datensatz in {{fields}} Feldern.",
+            "noFields": "Die Daten ändern sich in 1 Datensatz.",
+            "oneField": "Die Daten ändern sich in 1 Datensatz in 1 Feld."
+          }
+        }
+      },
+      "title": "Die Änderungen sollen angewendet werden auf"
     }
   },
   "spaceLoadingMessage": "Raum wird vorbereitet",
@@ -821,6 +828,19 @@
           "closeButton": "Schließen",
           "description": "Die ausgewählte Version wurde gelöscht.",
           "heading": "Version gelöscht"
+        }
+      },
+      "restore": {
+        "confirm": {
+          "closeButton": "Schließen",
+          "description": "Sie sind im Begriff, Ihre Blattdaten auf eine frühere Version zurückzusetzen. Möchten Sie fortfahren?",
+          "heading": "Bestätigen Sie die Wiederherstellung der Version",
+          "proceedButton": "Weiter"
+        },
+        "success": {
+          "closeButton": "Schließen",
+          "description": "Ihr Blatt wurde erfolgreich auf eine ältere Version zurückgesetzt! Bitte informieren Sie alle Mitarbeiter im Blatt, dass sie ihren Browser aktualisieren sollten, um das Risiko von Problemen zu verringern.",
+          "heading": "Version erfolgreich wiederherstellen"
         }
       }
     },

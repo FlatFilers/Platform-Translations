@@ -207,8 +207,8 @@
           "cancelButton": "Annuler",
           "defaultConfirmButton": "Confirmer",
           "defaultLoadingButton": "Chargement en cours...",
-          "isRequired": "{{field}} est obligatoire",
-          "mustBeNumber": "{{field}} doit être un nombre",
+          "isRequired": "{{field}} est requis",
+          "mustBeNumber": "{{field}} doit être un chiffre",
           "optional": "facultatif"
         },
         "defaultJobName": "Emploi",
@@ -435,15 +435,17 @@
       "notFound": "Classeur non trouvé"
     },
     "popovers": {
+      "copyCell_one": "{{count}} cellule copiée",
+      "copyCell_other": "{{count}} cellules copiées",
+      "copyCell_zero": "{{count}} cellules copiées",
+      "copyRecord_one": "{{count}} enregistrement copié",
+      "copyRecord_other": "{{count}} enregistrements copiés",
+      "copyRecord_zero": "{{count}} enregistrements copiés",
       "errors": {
         "cellUpdateFailed": "Une erreur s'est produite. Veuillez actualiser la page et réessayer. Si le problème persiste, veuillez contacter le service d'assistance",
         "invalidFFQL": "Veuillez vérifier votre requête",
         "recordsLoadFailed": "Échec du chargement des enregistrements"
-      },
-      "copyCell_one": "{{count}} cellule copiée",
-      "copyCell_other": "{{count}} cellules copiées",
-      "copyRecord_one": "{{count}} enregistrement copié",
-      "copyRecord_other": "{{count}} enregistrements copiés"
+      }
     },
     "table": {
       "cells": {
@@ -593,44 +595,63 @@
         "buttonText": "Actions",
         "placeholder": "Rechercher ou sélectionner..."
       },
-      "dropdown": {
-        "delete": "Supprimer",
-        "download": "Télécharger"
-      },
       "buttons": {
         "delete": {
+          "modal": {
+            "cancelButton": "Annuler",
+            "confirmButton": "Supprimer les enregistrements",
+            "description": {
+              "infix": "sélectionné(e)",
+              "infixType": {
+                "invalid": "invalide",
+                "valid": "valide"
+              },
+              "prefix": "Souhaitez-vous supprimer le/la ou les",
+              "suffix_one": "enregistrement ?",
+              "suffix_other": "enregistrements ?",
+              "suffix_zero": "enregistrements ?"
+            },
+            "errorMessage": "Impossible de supprimer les enregistrements. Veuillez réessayer ou modifier votre sélection.",
+            "heading_one": "Supprimer l'enregistrement",
+            "heading_other": "Supprimer les enregistrements",
+            "heading_zero": "Supprimer les enregistrements",
+            "inProgress": "Suppression des enregistrements..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} enregistrement supprimé",
+            "successMessage_other": "{{count}} enregistrements supprimés",
+            "successMessage_zero": "{{count}} enregistrements supprimés",
+            "successMessageNoCount": "Enregistrements supprimés"
+          },
           "tooltip": {
             "active": "Supprimer les enregistrements sélectionnés",
             "disabled": {
               "deleteDisabled": "La suppression des enregistrements est désactivée sur cette feuille.",
               "noRecordsSelected": "Sélectionnez au moins un enregistrement à supprimer"
             }
-          },
-          "modal": {
-            "heading_one": "Supprimer l'enregistrement",
-            "heading_other": "Supprimer les enregistrements",
-            "description": {
-              "prefix": "Souhaitez-vous supprimer le",
-              "infix": "sélectionné",
-              "infixType": {
-                "valid": "valide",
-                "invalid": "invalide"
-              },
-              "suffix_one": "enregistrement ?",
-              "suffix_other": "enregistrements ?"
-            },
-            "cancelButton": "Annuler",
-            "confirmButton": "Supprimer les enregistrements",
-            "inProgress": "Suppression des enregistrements en cours...",
-            "errorMessage": "Impossible de supprimer les enregistrements. Veuillez réessayer ou modifier votre sélection."
-          },
-          "popover": {
-            "successMessage_other": "{{count}} enregistrements supprimés",
-            "successMessage_one": "{{count}} enregistrement supprimé",
-            "successMessageNoCount": "Enregistrements supprimés"
           }
         },
         "download": {
+          "modal": {
+            "cancelButton": "Annuler",
+            "confirmButton": "Télécharger les enregistrements ?",
+            "description": {
+              "infix": "sélectionné(e)",
+              "infixType": {
+                "invalid": "invalide",
+                "valid": "valide"
+              },
+              "prefix": "Souhaitez-vous télécharger le/la ou les",
+              "suffix_one": "enregistrement ?",
+              "suffix_other": "enregistrements ?",
+              "suffix_zero": "enregistrements ?"
+            },
+            "errorMessage": "Impossible de télécharger les enregistrements. Veuillez réessayer ou modifier votre sélection.",
+            "heading_one": "Télécharger l'enregistrement",
+            "heading_other": "Télécharger les enregistrements",
+            "heading_zero": "Télécharger les enregistrements",
+            "inProgress": "Téléchargement des enregistrements..."
+          },
           "tooltip": {
             "active": {
               "invalidFilterApplied": "Télécharger tous les enregistrements invalides",
@@ -639,24 +660,6 @@
               "validFilterApplied": "Télécharger tous les enregistrements valides"
             },
             "disabled": "Aucun enregistrement à télécharger"
-          },
-          "modal": {
-            "heading_one": "Télécharger l'enregistrement",
-            "heading_other": "Télécharger les enregistrements",
-            "description": {
-              "prefix": "Souhaitez-vous télécharger le",
-              "infix": "sélectionné",
-              "infixType": {
-                "valid": "valide",
-                "invalid": "invalide"
-              },
-              "suffix_one": "enregistrement ?",
-              "suffix_other": "enregistrements ?"
-            },
-            "cancelButton": "Annuler",
-            "confirmButton": "Télécharger les enregistrements",
-            "inProgress": "Téléchargement des enregistrements en cours...",
-            "errorMessage": "Impossible de télécharger les enregistrements. Veuillez réessayer ou modifier votre sélection."
           }
         }
       },
@@ -665,6 +668,10 @@
           "requireAllValid": "Cette action nécessite que toutes les lignes sélectionnées soient valides",
           "requireSelection": "Veuillez sélectionner au moins un enregistrement pour utiliser cette action"
         }
+      },
+      "dropdown": {
+        "delete": "Supprimer",
+        "download": "Télécharger"
       },
       "filterByError": {
         "buttonText": "Filtrer par erreur",
@@ -705,97 +712,97 @@
     "readOnlyIconTooltip": "Cette feuille est en lecture seule"
   },
   "snapshot": {
-    "restore": {
-      "title": "Modifications à appliquer",
-      "message": "Votre feuille {{name}} sera restaurée à la version de cet instantané.",
-      "cancelButton": "Annuler",
-      "submitButton": "Restaurer",
-      "errorMessage": "L'instantané n'a pas pu être restauré en raison d'une erreur inattendue.",
-      "successMessage": "Votre feuille a été restaurée vers une version antérieure.",
-      "filters": {
-        "updatedSince": "Modifier",
-        "createdSince": "Supprimer",
-        "deletedSince": "Ajouter"
-      },
-      "empty": {
-        "title": "Rien à voir!",
-        "updatedSince": "Cet instantané ne contient aucun enregistrement susceptible d'être modifié.",
-        "createdSince": "Cet instantané ne contient aucun enregistrement qui sera supprimé.",
-        "deletedSince": "Cet instantané ne contient aucun enregistrement qui sera ajouté."
-      },
-      "summary": {
-        "total": {
-          "singular": {
-            "noFields": "Les données changeront dans 1 enregistrement.",
-            "oneField": "Les données changeront dans 1 enregistrement sur 1 champ.",
-            "multipleFields": "Les données changeront dans 1 enregistrement dans {{fields}} champs."
-          },
-          "plural": {
-            "noFields": "Les données changeront dans {{records}} enregistrements.",
-            "oneField": "Les données changeront dans {{records}} enregistrements sur 1 champ.",
-            "multipleFields": "Les données changeront dans {{records}} enregistrements dans {{fields}} champs."
-          }
-        },
-        "fields": {
-          "start": " Les données seront modifiées dans ",
-          "singular": {
-            "first": "1 cellule dans le champ {{name}}",
-            "middle": ", 1 cellule dans le champ {{name}}",
-            "last": " et 1 cellule dans le champ {{name}}"
-          },
-          "plural": {
-            "first": "{{cells}} cellules dans le champ {{name}}",
-            "middle": ", {{cells}} cellules dans le champ {{name}}",
-            "last": " et {{cells}} cellules dans le champ {{name}}"
-          }
-        }
-      }
-    },
     "accept": {
-      "title": "Modifications apportées dans",
-      "message": "L'acceptation des modifications fusionne toutes les nouvelles valeurs dans votre feuille {{name}}.",
       "cancelButton": "Annuler",
-      "submitButton": "Accepter les modifications",
-      "errorMessage": "Les modifications de l'instantané n'ont pas pu être appliquées en raison d'une erreur inattendue.",
-      "successMessage": "Les modifications ont été appliquées à votre feuille.",
-      "filters": {
-        "updatedSince": "Modifié",
-        "createdSince": "Supprimé",
-        "deletedSince": "Ajouté"
-      },
       "empty": {
-        "title": "Rien à voir!",
-        "updatedSince": "Cet instantané n'a aucun enregistrement modifié.",
-        "createdSince": "Cet instantané ne comporte aucun enregistrement supprimé.",
-        "deletedSince": "Cet instantané n'a aucun enregistrement ajouté."
+        "createdSince": "Cette photo ne contient aucun enregistrement supprimé.",
+        "deletedSince": "Cette photo ne contient aucun enregistrement ajouté.",
+        "title": "Rien à afficher !",
+        "updatedSince": "Cette photo ne contient aucun enregistrement modifié."
       },
+      "errorMessage": "Les modifications de la photo n'ont pas pu être appliquées en raison d'une erreur inattendue.",
+      "filters": {
+        "createdSince": "Supprimé",
+        "deletedSince": "Ajouté",
+        "updatedSince": "Modifié"
+      },
+      "message": "L'acceptation des modifications fusionne toutes les nouvelles valeurs dans votre feuille {{name}}.",
+      "submitButton": "Accepter les modifications",
+      "successMessage": "Les modifications ont été appliquées à votre feuille.",
       "summary": {
-        "total": {
-          "singular": {
-            "noFields": "Données modifiées dans 1 enregistrement.",
-            "oneField": "Données modifiées dans 1 enregistrement sur 1 champ.",
-            "multipleFields": "Données modifiées dans 1 enregistrement dans {{fields}} champs."
-          },
-          "plural": {
-            "noFields": "Données modifiées dans {{records}} enregistrements.",
-            "oneField": "Données modifiées dans {{records}} enregistrements sur 1 champ.",
-            "multipleFields": "Données modifiées dans {{records}} enregistrements dans {{fields}} champs."
-          }
-        },
         "fields": {
-          "start": " Les données ont été modifiées dans ",
-          "singular": {
-            "first": "1 cellule dans le champ {{name}}",
-            "middle": ", 1 cellule dans le champ {{name}}",
-            "last": " et 1 cellule dans le champ {{name}}"
-          },
           "plural": {
             "first": "{{cells}} cellules dans le champ {{name}}",
-            "middle": ", {{cells}} cellules dans le champ {{name}}",
-            "last": " et {{cells}} cellules dans le champ {{name}}"
+            "last": " et {{cells}} cellules dans le champ {{name}}",
+            "middle": ", {{cells}} cellules dans le champ {{name}}"
+          },
+          "singular": {
+            "first": "une cellule dans le champ {{name}}",
+            "last": " et une cellule dans le champ {{name}}",
+            "middle": ", une cellule dans le champ {{name}}"
+          },
+          "start": " Les données ont été modifiées dans "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Données modifiées dans {{records}} enregistrements sur {{fields}} champs.",
+            "noFields": "Données modifiées dans {{records}} enregistrements.",
+            "oneField": "Données modifiées dans {{records}} enregistrements sur un seul champ."
+          },
+          "singular": {
+            "multipleFields": "Données modifiées dans un seul enregistrement sur {{fields}} champs.",
+            "noFields": "Données modifiées dans un seul enregistrement.",
+            "oneField": "Données modifiées dans un seul enregistrement sur un seul champ."
           }
         }
-      }
+      },
+      "title": "Modifications apportées dans"
+    },
+    "restore": {
+      "cancelButton": "Annuler",
+      "empty": {
+        "createdSince": "Cette photo ne contient aucun enregistrement à supprimer.",
+        "deletedSince": "Cette photo ne contient aucun enregistrement à ajouter.",
+        "title": "Rien à afficher !",
+        "updatedSince": "Cette photo ne contient aucun enregistrement à modifier."
+      },
+      "errorMessage": "L'instantané n'a pas pu être restauré en raison d'une erreur inattendue.",
+      "filters": {
+        "createdSince": "Supprimer",
+        "deletedSince": "Ajouter",
+        "updatedSince": "Modifier"
+      },
+      "message": "Votre feuille {{name}} sera restaurée selon la version de cet instantané.",
+      "submitButton": "Restaurer",
+      "successMessage": "Votre feuille a été restaurée dans une version antérieure.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} cellules dans le champ {{name}}",
+            "last": " et {{cells}} cellules dans le champ {{name}}",
+            "middle": ", {{cells}} cellules dans le champ {{name}}"
+          },
+          "singular": {
+            "first": "une cellule dans le champ {{name}}",
+            "last": " et une cellule dans le champ {{name}}",
+            "middle": ", une cellule dans le champ {{name}}"
+          },
+          "start": " Les données seront modifiées dans "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Les données seront modifiées dans {{records}} enregistrements sur {{fields}} champs.",
+            "noFields": "Les données seront modifiées dans {{records}} enregistrements.",
+            "oneField": "Les données seront modifiées dans {{records}} enregistrements sur un seul champ."
+          },
+          "singular": {
+            "multipleFields": "Les données seront modifiées dans un seul enregistrement sur {{fields}} champs.",
+            "noFields": "Les données seront modifiées dans un seul enregistrement.",
+            "oneField": "Les données seront modifiées dans un seul enregistrement sur un seul champ."
+          }
+        }
+      },
+      "title": "Changements à appliquer dans"
     }
   },
   "spaceLoadingMessage": "Préparation de l'espace...",
@@ -821,6 +828,19 @@
           "closeButton": "Fermer",
           "description": "La version sélectionnée a été supprimée.",
           "heading": "Version supprimée"
+        }
+      },
+      "restore": {
+        "confirm": {
+          "closeButton": "Fermer",
+          "description": "Vous êtes sur le point de restaurer les données de votre feuille à une version antérieure – souhaitez-vous continuer ?",
+          "heading": "Confirmer la restauration de la version",
+          "proceedButton": "Continuer"
+        },
+        "success": {
+          "closeButton": "Fermer",
+          "description": "Votre feuille a été restaurée avec succès vers une version antérieure ! Veuillez informer tous les collaborateurs de la feuille de rafraîchir leur navigateur afin de réduire le risque de problèmes.",
+          "heading": "Version restaurée avec succès"
         }
       }
     },
