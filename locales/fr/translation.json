@@ -253,6 +253,7 @@
       },
       "empty": "Les tâches apparaissent ici lorsqu'elles sont en cours ou terminées.",
       "errorLoadingJob": "Non trouvé(e)",
+      "heading": "Tâches",
       "status": {
         "default": {
           "canceled": {

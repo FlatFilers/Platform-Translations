@@ -249,6 +249,7 @@
       },
       "empty": "Jobs will appear here when they're running or completed",
       "errorLoadingJob": "Not found",
+      "heading": "Jobs",
       "status": {
         "default": {
           "canceled": {
