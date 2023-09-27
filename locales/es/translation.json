@@ -208,7 +208,7 @@
           "defaultConfirmButton": "Confirmar",
           "defaultLoadingButton": "Cargando...",
           "isRequired": "{{field}} es obligatorio",
-          "mustBeNumber": "{{field}} debe ser un número",
+          "mustBeNumber": "{{field}} tiene que ser un número",
           "optional": "opcional"
         },
         "defaultJobName": "Trabajo",
@@ -435,15 +435,17 @@
       "notFound": "Libro de trabajo no encontrado"
     },
     "popovers": {
+      "copyCell_one": "{{count}} celda copiada",
+      "copyCell_other": "{{count}} celdas copiadas",
+      "copyCell_zero": "{{count}} celdas copiadas",
+      "copyRecord_one": "{{count}} registro copiado",
+      "copyRecord_other": "{{count}} registros copiados",
+      "copyRecord_zero": "{{count}} registros copiados",
       "errors": {
         "cellUpdateFailed": "Ha ocurrido un error. Actualiza la página e inténtalo de nuevo. Si el problema persiste, ponte en contacto con el servicio de asistencia",
         "invalidFFQL": "Comprueba tu consulta",
         "recordsLoadFailed": "No se han podido cargar los registros"
-      },
-      "copyCell_one": "{{count}} celda copiada",
-      "copyCell_other": "{{count}} celdas copiadas",
-      "copyRecord_one": "{{count}} registro copiado",
-      "copyRecord_other": "{{count}} registros copiados"
+      }
     },
     "table": {
       "cells": {
@@ -593,44 +595,63 @@
         "buttonText": "Acciones",
         "placeholder": "Buscar o seleccionar..."
       },
-      "dropdown": {
-        "delete": "Eliminar",
-        "download": "Descargar"
-      },
       "buttons": {
         "delete": {
+          "modal": {
+            "cancelButton": "Cancelar",
+            "confirmButton": "Eliminar registros",
+            "description": {
+              "infix": "seleccionados",
+              "infixType": {
+                "invalid": "no válidos",
+                "valid": "válidos"
+              },
+              "prefix": "¿Quieres eliminar los",
+              "suffix_one": "registro?",
+              "suffix_other": "registros?",
+              "suffix_zero": "registros?"
+            },
+            "errorMessage": "No se han podido eliminar los registros. Inténtalo de nuevo o modifica tu selección.",
+            "heading_one": "Eliminar registro",
+            "heading_other": "Eliminar registros",
+            "heading_zero": "Eliminar registros",
+            "inProgress": "Eliminando registros..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} registro eliminado",
+            "successMessage_other": "{{count}} registros eliminados",
+            "successMessage_zero": "{{count}} registros eliminados",
+            "successMessageNoCount": "Registros eliminados"
+          },
           "tooltip": {
             "active": "Eliminar los registros seleccionados.",
             "disabled": {
               "deleteDisabled": "El borrado de registros está deshabilitado en esta Hoja.",
               "noRecordsSelected": "Seleccione por lo menos un registro para borrarlo."
             }
-          },
-          "modal": {
-            "heading_one": "Borrar registro",
-            "heading_other": "Borrar registros",
-            "description": {
-              "prefix": "¿Desea borrar el",
-              "infix": "seleccionado",
-              "infixType": {
-                "valid": "válido",
-                "invalid": "inválido"
-              },
-              "suffix_one": "registro?",
-              "suffix_other": "registros?"
-            },
-            "cancelButton": "Cancelar",
-            "confirmButton": "Borrar registros",
-            "inProgress": "Borrando registros...",
-            "errorMessage": "No se pueden borrar los registros. Por favor, inténtelo de nuevo o modifique su selección."
-          },
-          "popover": {
-            "successMessage_other": "{{count}} registros eliminados",
-            "successMessage_one": "{{count}} registro eliminado",
-            "successMessageNoCount": "Registros eliminados"
           }
         },
         "download": {
+          "modal": {
+            "cancelButton": "Cancelar",
+            "confirmButton": "Descargar registros",
+            "description": {
+              "infix": "seleccionados",
+              "infixType": {
+                "invalid": "no válidos",
+                "valid": "válidos"
+              },
+              "prefix": "¿Quieres descargar los",
+              "suffix_one": "registro?",
+              "suffix_other": "registros?",
+              "suffix_zero": "registros?"
+            },
+            "errorMessage": "No se han podido descargar los registros. Inténtalo de nuevo o modifica tu selección.",
+            "heading_one": "Descargar registro",
+            "heading_other": "Descargar registros",
+            "heading_zero": "Descargar registros",
+            "inProgress": "Descargando registros..."
+          },
           "tooltip": {
             "active": {
               "invalidFilterApplied": "Descargar todos los registros inválidos.",
@@ -639,24 +660,6 @@
               "validFilterApplied": "Descargar todos los registros válidos."
             },
             "disabled": "No hay registros para descargar."
-          },
-          "modal": {
-            "heading_one": "Descargar registro",
-            "heading_other": "Descargar registros",
-            "description": {
-              "prefix": "¿Desea descargar el",
-              "infix": "seleccionado",
-              "infixType": {
-                "valid": "válido",
-                "invalid": "inválido"
-              },
-              "suffix_one": "registro?",
-              "suffix_other": "registros?"
-            },
-            "cancelButton": "Cancelar",
-            "confirmButton": "Descargar registros",
-            "inProgress": "Descargando registros...",
-            "errorMessage": "No se pueden descargar los registros. Por favor, inténtelo de nuevo o modifique su selección."
           }
         }
       },
@@ -665,6 +668,10 @@
           "requireAllValid": "Esta acción requiere que todas las filas seleccionadas sean válidas.",
           "requireSelection": "Seleccione uno o más registros para acceder a esta acción."
         }
+      },
+      "dropdown": {
+        "delete": "Eliminar",
+        "download": "Descargar"
       },
       "filterByError": {
         "buttonText": "Filtrar por tipo de error",
@@ -705,97 +712,97 @@
     "readOnlyIconTooltip": "Esta hoja es de solo lectura"
   },
   "snapshot": {
-    "restore": {
-      "title": "Cambios a aplicar en",
-      "message": "Tu hoja {{name}} será restaurada a la versión en esta instantánea.",
-      "cancelButton": "Cancelar",
-      "submitButton": "Restaurar",
-      "errorMessage": "La instantánea no se pudo restaurar debido a un error inesperado.",
-      "successMessage": "Su hoja fue restaurada a una versión anterior.",
-      "filters": {
-        "updatedSince": "Modificar",
-        "createdSince": "Eliminar",
-        "deletedSince": "Agregar"
-      },
-      "empty": {
-        "title": "¡Nada que ver!",
-        "updatedSince": "Esta instantánea no tiene registros que vayan a ser modificados.",
-        "createdSince": "Esta instantánea no tiene registros que se eliminarán.",
-        "deletedSince": "Esta instantánea no tiene registros que se agregarán."
-      },
-      "summary": {
-        "total": {
-          "singular": {
-            "noFields": "Los datos cambiarán en 1 registro.",
-            "oneField": "Los datos cambiarán en 1 registro en 1 campo.",
-            "multipleFields": "Los datos cambiarán en 1 registro en {{fields}} campos."
-          },
-          "plural": {
-            "noFields": "Los datos cambiarán en {{records}} registros.",
-            "oneField": "Los datos cambiarán en {{records}} registros en 1 campo.",
-            "multipleFields": "Los datos cambiarán en {{records}} registros en {{fields}} campos."
-          }
-        },
-        "fields": {
-          "start": " Los datos serán modificados en ",
-          "singular": {
-            "first": "1 celda en el campo {{name}}",
-            "middle": ", 1 celda en el campo {{name}}",
-            "last": " y 1 celda en el campo {{name}}"
-          },
-          "plural": {
-            "first": "{{cells}} celdas en el campo {{name}}",
-            "middle": ", {{cells}} celdas en el campo {{name}}",
-            "last": " y {{cells}} celdas en el campo {{name}}"
-          }
-        }
-      }
-    },
     "accept": {
-      "title": "Cambios realizados en",
-      "message": "Al aceptar cambios se fusionan todos los valores nuevos en tu hoja {{name}}.",
       "cancelButton": "Cancelar",
-      "submitButton": "Aceptar cambios",
-      "errorMessage": "Los cambios en la instantánea no se pudieron aplicar debido a un error inesperado.",
-      "successMessage": "Se aplicaron cambios a su hoja.",
-      "filters": {
-        "updatedSince": "Modificado",
-        "createdSince": "Eliminado",
-        "deletedSince": "Agregado"
-      },
       "empty": {
-        "title": "¡Nada que ver!",
-        "updatedSince": "Esta instantánea no tiene registros modificados.",
-        "createdSince":"Esta instantánea no tiene registros eliminados.",
-        "deletedSince": "Esta instantánea no tiene registros agregados."
+        "createdSince": "Esta captura no tiene registros eliminados.",
+        "deletedSince": "Esta captura no tiene registros añadidos.",
+        "title": "¡No hay nada que ver!",
+        "updatedSince": "Esta captura no tiene registros modificados."
       },
+      "errorMessage": "No se han podido aplicar los cambios de la captura debido a un error inesperado.",
+      "filters": {
+        "createdSince": "Eliminado",
+        "deletedSince": "Añadido",
+        "updatedSince": "Modificado"
+      },
+      "message": "Aceptar los cambios hace que se unifiquen todos los valores nuevos en tu hoja {{name}}.",
+      "submitButton": "Aceptar cambios",
+      "successMessage": "Se han aplicado los cambios a tu hoja.",
       "summary": {
-        "total": {
-          "singular": {
-            "noFields": "Los datos cambiaron en 1 registro.",
-            "oneField": "Los datos cambiaron en 1 registro en 1 campo.",
-            "multipleFields": "Los datos cambiaron en 1 registro en {{fields}} campos."
-          },
-          "plural": {
-            "noFields": "Los datos cambiaron en {{records}} registros.",
-            "oneField": "Los datos cambiaron en {{records}} registros en 1 campo.",
-            "multipleFields": "Los datos cambiaron en {{records}} registros en {{fields}} campos."
-          }
-        },
         "fields": {
-          "start": "Los datos fueron modificados en ",
-          "singular": {
-            "first": "1 celda en el campo {{name}}",
-            "middle": ", 1 celda en el campo {{name}}",
-            "last": " y 1 celda en el campo {{name}}"
-          },
           "plural": {
-            "first": "{{cells}} celdas en el campo {{name}}",
-            "middle": ", {{cells}} celdas en el campo {{name}}",
-            "last": " y {{cells}} celdas en el campo {{name}}"
+            "first": "{{cells}} celdas en la casilla {{name}}",
+            "last": " y {{cells}} celdas en la casilla {{name}}",
+            "middle": ", {{cells}} celdas en la casilla {{name}}"
+          },
+          "singular": {
+            "first": "1 celda en la casilla {{name}}",
+            "last": " y 1 celda en la casilla {{name}}",
+            "middle": ", 1 celda en la casilla {{name}}"
+          },
+          "start": " Se han modificado los datos en "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Se han cambiado los datos en {{records}} registros en {{fields}} casillas.",
+            "noFields": "Se han cambiado los datos en {{records}} registros.",
+            "oneField": "Se han cambiado los datos en {{records}} registros en 1 casilla."
+          },
+          "singular": {
+            "multipleFields": "Se han cambiado los datos en 1 registro en {{fields}} casillas.",
+            "noFields": "Se han cambiado los datos en 1 registro.",
+            "oneField": "Se han cambiado los datos en 1 registro en 1 casilla."
           }
         }
-      }
+      },
+      "title": "Se han hecho cambios en"
+    },
+    "restore": {
+      "cancelButton": "Cancelar",
+      "empty": {
+        "createdSince": "Esta captura no tiene registros que vayan a ser eliminados.",
+        "deletedSince": "Esta captura no tiene registros que vayan a ser añadidos.",
+        "title": "¡No hay nada que ver!",
+        "updatedSince": "Esta captura no tiene registros que vayan a ser modificados."
+      },
+      "errorMessage": "No se ha podido restablecer la captura debido a un error inesperado.",
+      "filters": {
+        "createdSince": "Eliminar",
+        "deletedSince": "Añadir",
+        "updatedSince": "Modificar"
+      },
+      "message": "Tu hoja {{name}} se restablecerá a la versión en esta captura.",
+      "submitButton": "Restablecer",
+      "successMessage": "Se ha restablecido tu hoja a una versión anterior.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} celdas en la casilla {{name}}",
+            "last": " y {{cells}} celdas en la casilla {{name}}",
+            "middle": ", {{cells}} celdas en la casilla {{name}}"
+          },
+          "singular": {
+            "first": "1 celda en la casilla {{name}}",
+            "last": " y 1 celda en la casilla {{name}}",
+            "middle": ", 1 celda en la casilla {{name}}"
+          },
+          "start": " Los datos se modificarán en "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Los datos cambiarán en {{records}} registros en {{fields}} casillas.",
+            "noFields": "Los datos cambiarán en {{records}} registros.",
+            "oneField": "Los datos cambiarán en {{records}} registros en 1 casilla."
+          },
+          "singular": {
+            "multipleFields": "Los datos cambiarán en 1 registro en {{fields}} casillas.",
+            "noFields": "Los datos cambiarán en 1 registro.",
+            "oneField": "Los datos cambiarán en 1 registro en 1 casilla."
+          }
+        }
+      },
+      "title": "Los cambios se aplican en"
     }
   },
   "spaceLoadingMessage": "Preparando espacio...",
@@ -822,7 +829,20 @@
           "description": "Se ha eliminado la versión seleccionada.",
           "heading": "Versión eliminada"
         }
-      }   
+      },
+      "restore": {
+        "confirm": {
+          "closeButton": "Cerrar",
+          "description": "Estás a punto de restaurar los datos de tu hoja a una versión anterior, ¿quieres proceder?",
+          "heading": "Confirmar la restauración de la versión",
+          "proceedButton": "Proceder"
+        },
+        "success": {
+          "closeButton": "Cerrar",
+          "description": "Tu hoja se ha restaurado correctamente a una versión anterior. Informa a todos los colaboradores de la hoja de que actualicen su navegador para reducir el riesgo de problemas.",
+          "heading": "Restauración de versión realizada con éxito"
+        }
+      }
     },
     "panel": {
       "empty": "Las versiones, una vez generadas, aparecerán aquí. Normalmente, las versiones se generan automáticamente cuando se produce una transformación masiva de datos.",
