@@ -710,7 +710,14 @@
     "checklist": "Lista de verificação de dados",
     "emptyWorkbook": "Pasta de trabalho vazia",
     "files": "Arquivos",
-    "readOnlyIconTooltip": "Esta Planilha é somente leitura"
+    "readOnlyIconTooltip": "Esta Planilha é somente leitura",
+    "connections": {
+      "tooltips": {
+        "connectionFresh": "Conectado a {{source}} por meio de {{service}}",
+        "connectionStale": "Última sincronização com {{source}} há mais de 24 horas",
+        "connectionError": "Há um problema ao verificar os metadados das conexões desta pasta de trabalho"
+      }
+    }
   },
   "snapshot": {
     "accept": {
