@@ -425,7 +425,23 @@
     "emptyView": {
       "heading": "Fangen wir an",
       "manualEntry": "Daten manuell eingeben",
-      "uploadFile": "Datei ziehen und ablegen oder hochladen, um loszulegen"
+      "uploadFile": "Datei ziehen und ablegen oder hochladen, um loszulegen",
+      "noSheetError": {
+        "heading": "Blatt nicht gefunden",
+        "description": "Dieses Blatt scheint nicht zu existieren."
+      },
+      "sheetLocked": {
+        "heading": "Datensätze hinzufügen ist derzeit deaktiviert",
+        "description": "Wenn Sie denken, dass dies ein Fehler ist, wenden Sie sich bitte an den Support."
+      },
+      "readOnly": {
+        "heading": "Warten auf Daten",
+        "description": "Blätter, die keine neuen Zeilen und/oder Bearbeitungen akzeptieren, erhalten häufig dynamisch befüllte Daten. Es gibt keine Aktion, die Sie zu diesem Zeitpunkt unternehmen können."
+      },
+      "defaultError": {
+        "heading": "Noch nichts zu sehen!",
+        "description": "Dieses Blatt scheint leer zu sein."
+      }
     },
     "errors": {
       "loading": "Arbeitsmappe kann nicht abgerufen werden.",
@@ -434,6 +450,10 @@
         "title": "Arbeitsmappe enthält keine Blätter"
       },
       "notFound": "Arbeitsmappe nicht gefunden"
+    },
+    "info": {
+      "copiedPopover": "In die Zwischenablage kopiert",
+      "copyButton": "Klicken Sie, um zu kopieren!"
     },
     "popovers": {
       "copyCell_one": "{{count}} Zelle kopiert",

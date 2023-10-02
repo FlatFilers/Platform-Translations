@@ -415,7 +415,23 @@
     "emptyView": {
       "heading": "Let's get started",
       "manualEntry": "Manually enter data",
-      "uploadFile": "Drag and drop or upload a file to get started"
+      "uploadFile": "Drag and drop or upload a file to get started",
+      "noSheetError": {
+        "heading": "Sheet not found",
+        "description": "This sheet doesn't seem to exist."
+      },
+      "sheetLocked": {
+        "heading": "Adding records is currently disabled",
+        "description": "If you think this is an error, please reach out to support."
+      },
+      "readOnly": {
+        "heading": "Awaiting data",
+        "description": "Sheets that don't accept new rows and/or edits commonly receive dynamically populated data. There is no action you can take at take at this time."
+      },
+      "defaultError": {
+        "heading": "Nothing to see yet!",
+        "description": "This sheet appears to be empty."
+      }
     },
     "errors": {
       "loading": "Unable to fetch workbook.",
@@ -424,6 +440,10 @@
         "title": "Workbook contains no sheets"
       },
       "notFound": "Workbook not found"
+    },
+    "info": {
+      "copiedPopover": "Copied to clipboard",
+      "copyButton": "Click to copy!"
     },
     "popovers": {
       "copyCell_one": "{{count}} cell copied",
