@@ -710,7 +710,14 @@
     "checklist": "Liste de vérification des données",
     "emptyWorkbook": "Classeur vide",
     "files": "Fichiers",
-    "readOnlyIconTooltip": "Cette feuille est en lecture seule"
+    "readOnlyIconTooltip": "Cette feuille est en lecture seule",
+    "connections": {
+      "tooltips": {
+        "connectionFresh": "Connecté à {{source}} via {{service}}",
+        "connectionStale": "Dernière synchronisation avec {{source}} il y a plus de 24 heures",
+        "connectionError": "Un problème est survenu lors de la vérification des métadonnées des connexions de ce classeur"
+      }
+    }
   },
   "snapshot": {
     "accept": {

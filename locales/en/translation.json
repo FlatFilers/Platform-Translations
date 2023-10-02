@@ -690,7 +690,14 @@
     "checklist": "Data checklist",
     "emptyWorkbook": "Empty workbook",
     "files": "Files",
-    "readOnlyIconTooltip": "This Sheet is read-only"
+    "readOnlyIconTooltip": "This Sheet is read-only",
+    "connections": {
+      "tooltips": {
+        "connectionFresh": "Connected to {{source}} via {{service}}",
+        "connectionStale": "Last synced with {{source}} more than 24 hours ago",
+        "connectionError": "There is an issue verifying the metadata of this workbook's connections"
+      }
+    }
   },
   "snapshot": {
     "accept": {

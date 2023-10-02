@@ -710,7 +710,14 @@
     "checklist": "Daten-Checkliste",
     "emptyWorkbook": "Leeres Arbeitsbuch",
     "files": "Dateien",
-    "readOnlyIconTooltip": "Dieses Arbeitsblatt ist schreibgeschützt"
+    "readOnlyIconTooltip": "Dieses Arbeitsblatt ist schreibgeschützt",
+    "connections": {
+      "tooltips": {
+        "connectionFresh": "Verbunden mit {{source}} über {{service}}",
+        "connectionStale": "Zuletzt mit {{source}} vor mehr als 24 Stunden synchronisiert",
+        "connectionError": "Beim Überprüfen der Metadaten der Verbindungen dieser Arbeitsmappe ist ein Problem aufgetreten"
+      }
+    }
   },
   "snapshot": {
     "accept": {

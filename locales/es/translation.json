@@ -710,7 +710,14 @@
     "checklist": "Lista de control de datos",
     "emptyWorkbook": "Libro de trabajo vacío",
     "files": "Archivos",
-    "readOnlyIconTooltip": "Esta hoja es de solo lectura"
+    "readOnlyIconTooltip": "Esta hoja es de solo lectura",
+    "connections": {
+      "tooltips": {
+        "connectionFresh": "Conectado a {{source}} a través de {{service}}",
+        "connectionStale": "Última sincronización con {{source}} hace más de 24 horas",
+        "connectionError": "Hay un problema al verificar los metadatos de las conexiones de este libro"
+      }
+    }
   },
   "snapshot": {
     "accept": {
