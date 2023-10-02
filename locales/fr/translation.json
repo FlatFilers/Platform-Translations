@@ -425,7 +425,23 @@
     "emptyView": {
       "heading": "Démarrons",
       "manualEntry": "Saisir manuellement les données",
-      "uploadFile": "Faites glisser et déposez ou téléchargez un fichier pour commencer."
+      "uploadFile": "Faites glisser et déposez ou téléchargez un fichier pour commencer.",
+      "noSheetError": {
+        "heading": "Feuille introuvable",
+        "description": "Cette feuille ne semble pas exister."
+      },
+      "sheetLocked": {
+        "heading": "L'ajout d'enregistrements est actuellement désactivé",
+        "description": "Si vous pensez que c'est une erreur, veuillez contacter le support."
+      },
+      "readOnly": {
+        "heading": "En attente de données",
+        "description": "Les feuilles qui n'acceptent pas de nouvelles lignes et/ou modifications reçoivent souvent des données alimentées dynamiquement. Il n'y a aucune action que vous puissiez prendre en ce moment."
+      },
+      "defaultError": {
+        "heading": "Rien à voir pour le moment!",
+        "description": "Cette feuille semble être vide."
+      }
     },
     "errors": {
       "loading": "Impossible de récupérer le classeur.",
@@ -434,6 +450,10 @@
         "title": "Le classeur ne contient pas de feuilles"
       },
       "notFound": "Classeur non trouvé"
+    },
+    "info": {
+      "copiedPopover": "Copié dans le presse-papiers",
+      "copyButton": "Cliquez pour copier!"
     },
     "popovers": {
       "copyCell_one": "{{count}} cellule copiée",

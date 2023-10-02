@@ -425,7 +425,23 @@
     "emptyView": {
       "heading": "Comencemos",
       "manualEntry": "Introducir datos manualmente",
-      "uploadFile": "Arrastra y suelta o sube un archivo para comenzar"
+      "uploadFile": "Arrastra y suelta o sube un archivo para comenzar",
+      "noSheetError": {
+        "heading": "Hoja no encontrada",
+        "description": "Esta hoja no parece existir."
+      },
+      "sheetLocked": {
+        "heading": "Actualmente está deshabilitada la adición de registros",
+        "description": "Si cree que esto es un error, comuníquese con el soporte."
+      },
+      "readOnly": {
+        "heading": "Esperando datos",
+        "description": "Las hojas que no aceptan nuevas filas y/o ediciones generalmente reciben datos poblados dinámicamente. No hay ninguna acción que pueda realizar en este momento."
+      },
+      "defaultError": {
+        "heading": "¡Nada que ver todavía!",
+        "description": "Esta hoja parece estar vacía."
+      }
     },
     "errors": {
       "loading": "No se ha podido recuperar el libro de trabajo.",
@@ -434,6 +450,10 @@
         "title": "El libro de trabajo no contiene hojas"
       },
       "notFound": "Libro de trabajo no encontrado"
+    },
+    "info": {
+      "copiedPopover": "Copiado al portapapeles",
+      "copyButton": "¡Haz clic para copiar!"
     },
     "popovers": {
       "copyCell_one": "{{count}} celda copiada",

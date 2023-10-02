@@ -425,7 +425,23 @@
     "emptyView": {
       "heading": "Vamos começar",
       "manualEntry": "Insira os dados manualmente",
-      "uploadFile": "Arraste e solte ou carregue um arquivo para começar"
+      "uploadFile": "Arraste e solte ou carregue um arquivo para começar",
+      "noSheetError": {
+        "heading": "Planilha não encontrada",
+        "description": "Esta planilha não parece existir."
+      },
+      "sheetLocked": {
+        "heading": "Adicionar registros está atualmente desativado",
+        "description": "Se você acha que isso é um erro, por favor, entre em contato com o suporte."
+      },
+      "readOnly": {
+        "heading": "Aguardando dados",
+        "description": "Planilhas que não aceitam novas linhas e/ou edições geralmente recebem dados populados dinamicamente. Não há nenhuma ação que você possa fazer neste momento."
+      },
+      "defaultError": {
+        "heading": "Nada para ver ainda!",
+        "description": "Esta planilha parece estar vazia."
+      }
     },
     "errors": {
       "loading": "Não foi possível buscar a pasta de trabalho.",
@@ -434,6 +450,10 @@
         "title": "A pasta de trabalho não contém planilhas"
       },
       "notFound": "A pasta de trabalho não encontrada"
+    },
+    "info": {
+      "copiedPopover": "Copiado para a área de transferência",
+      "copyButton": "Clique para copiar!"
     },
     "popovers": {
       "copyCell_one": "{{count}} célula copiada",
