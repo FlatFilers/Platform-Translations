@@ -77,6 +77,10 @@
         }
       }
     },
+    "buttons": {
+      "apply": "Appliquer",
+      "cancel": "Annuler"
+    },
     "commands": {
       "filter": {
         "apply": "Appliquer le filtre.",
@@ -742,13 +746,14 @@
   "snapshot": {
     "accept": {
       "cancelButton": "Annuler",
+      "cancelError": "Les modifications n'ont pas pu être annulées en raison d'une erreur inattendue.",
+      "cancelSuccess": "Les modifications apportées à votre feuille ont été annulées avec succès.",
       "empty": {
         "createdSince": "Cette photo ne contient aucun enregistrement supprimé.",
         "deletedSince": "Cette photo ne contient aucun enregistrement ajouté.",
         "title": "Rien à afficher !",
         "updatedSince": "Cette photo ne contient aucun enregistrement modifié."
       },
-      "errorMessage": "Les modifications de la photo n'ont pas pu être appliquées en raison d'une erreur inattendue.",
       "filters": {
         "createdSince": "Supprimé",
         "deletedSince": "Ajouté",
@@ -756,7 +761,8 @@
       },
       "message": "L'acceptation des modifications fusionne toutes les nouvelles valeurs dans votre feuille {{name}}.",
       "submitButton": "Accepter les modifications",
-      "successMessage": "Les modifications ont été appliquées à votre feuille.",
+      "submitError": "Les modifications de la photo n'ont pas pu être appliquées en raison d'une erreur inattendue.",
+      "submitSuccess": "Les modifications ont été appliquées à votre feuille.",
       "summary": {
         "fields": {
           "plural": {
@@ -788,13 +794,14 @@
     },
     "restore": {
       "cancelButton": "Annuler",
+      "cancelError": "",
+      "cancelSuccess": "",
       "empty": {
         "createdSince": "Cette photo ne contient aucun enregistrement à supprimer.",
         "deletedSince": "Cette photo ne contient aucun enregistrement à ajouter.",
         "title": "Rien à afficher !",
         "updatedSince": "Cette photo ne contient aucun enregistrement à modifier."
       },
-      "errorMessage": "L'instantané n'a pas pu être restauré en raison d'une erreur inattendue.",
       "filters": {
         "createdSince": "Supprimer",
         "deletedSince": "Ajouter",
@@ -802,7 +809,8 @@
       },
       "message": "Votre feuille {{name}} sera restaurée selon la version de cet instantané.",
       "submitButton": "Restaurer",
-      "successMessage": "Votre feuille a été restaurée dans une version antérieure.",
+      "submitError": "L'instantané n'a pas pu être restauré en raison d'une erreur inattendue.",
+      "submitSuccess": "Votre feuille a été restaurée dans une version antérieure.",
       "summary": {
         "fields": {
           "plural": {

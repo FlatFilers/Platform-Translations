@@ -46,7 +46,7 @@
         "errorBanner": {
           "generalError": "Something went wrong. Please try again."
         },
-        "instruction": "Describe how you'd like the AI assistant to query your data:",
+        "instruction": "Describe how you'd like the AI assistant to query your data.",
         "review": {
           "description": "Here's what I came up with. Read the step by step explanation and the query, and if it looks good, click below to apply it.",
           "explanationTitle": "Explanation",
@@ -66,7 +66,7 @@
           "generalError": "Something went wrong. Please try again.",
           "versionError": "Unable to create a rollback version - AI transform aborted. Please try again."
         },
-        "instruction": "Describe how you'd like the AI assistant to transform your data:",
+        "instruction": "Describe how you'd like the AI assistant to transform your data.",
         "review": {
           "codeTitle": "Code",
           "description": "Here's what I came up with. Read the step by step explanation and the query, and if it looks good, click below to apply it.",
@@ -77,10 +77,14 @@
         }
       }
     },
+    "buttons": {
+      "apply": "Apply",
+      "cancel": "Cancel"
+    },
     "commands": {
       "filter": {
         "apply": "Apply Filter.",
-        "description": "write an FFFQL statement",
+        "description": "write an FFQL statement",
         "learnHow": "learn how",
         "link": "Learn more about FFQL filters"
       },
@@ -722,13 +726,14 @@
   "snapshot": {
     "accept": {
       "cancelButton": "Cancel",
+      "cancelError": "The changes could not be reverted due to an unexpected error.",
+      "cancelSuccess": "Changes to your sheet were successfully reverted.",
       "empty": {
         "createdSince": "This snapshot has no removed records.",
         "deletedSince": "This snapshot has no added records.",
         "title": "Nothing to see!",
         "updatedSince": "This snapshot has no modified records."
       },
-      "errorMessage": "The snapshot changes could not be applied due to an unexpected error.",
       "filters": {
         "createdSince": "Removed",
         "deletedSince": "Added",
@@ -736,7 +741,8 @@
       },
       "message": "Accepting changes merges all new values into your sheet {{name}}.",
       "submitButton": "Accept changes",
-      "successMessage": "Changes were applied to your sheet.",
+      "submitError": "The snapshot changes could not be applied due to an unexpected error.",
+      "submitSuccess": "Changes to your sheet were successfully applied.",
       "summary": {
         "fields": {
           "plural": {
@@ -768,13 +774,14 @@
     },
     "restore": {
       "cancelButton": "Cancel",
+      "cancelError": "",
+      "cancelSuccess": "",
       "empty": {
         "createdSince": "This snapshot has no records that will be removed.",
         "deletedSince": "This snapshot has no records that will be added.",
         "title": "Nothing to see!",
         "updatedSince": "This snapshot has no records that will be modified."
       },
-      "errorMessage": "The snapshot could not be restored due to an unexpected error.",
       "filters": {
         "createdSince": "Remove",
         "deletedSince": "Add",
@@ -782,7 +789,8 @@
       },
       "message": "Your sheet {{name}} will be restored to the version in this snapshot.",
       "submitButton": "Restore",
-      "successMessage": "Your sheet was restored to an earlier version.",
+      "submitError": "The snapshot could not be restored due to an unexpected error.",
+      "submitSuccess": "Your sheet was restored to an earlier version.",
       "summary": {
         "fields": {
           "plural": {
