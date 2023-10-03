@@ -77,6 +77,10 @@
         }
       }
     },
+    "buttons": {
+      "apply": "Aplicar",
+      "cancel": "Cancelar"
+    },
     "commands": {
       "filter": {
         "apply": "Aplicar filtro.",
@@ -742,13 +746,14 @@
   "snapshot": {
     "accept": {
       "cancelButton": "Cancelar",
+      "cancelError": "As alterações não puderam ser revertidas devido a um erro inesperado.",
+      "cancelSuccess": "As alterações em sua planilha foram revertidas com sucesso.",
       "empty": {
         "createdSince": "Este retrato não tem registros removidos.",
         "deletedSince": "Este retrato não tem registros adicionados.",
         "title": "Nada para ver!",
         "updatedSince": "Este retrato não tem registros modificados."
       },
-      "errorMessage": "As mudanças de retrato não puderam ser aplicadas por conta de um erro inesperado",
       "filters": {
         "createdSince": "Removido",
         "deletedSince": "Adicionado",
@@ -756,7 +761,8 @@
       },
       "message": "Aceitar as mudanças mescla todos os novos valores dentro de sua folha {{name}}.",
       "submitButton": "Aceitar mudanças",
-      "successMessage": "Mudanças foram aplicadas à sua folha",
+      "submitError": "As mudanças de retrato não puderam ser aplicadas por conta de um erro inesperado",
+      "submitSuccess": "Mudanças foram aplicadas à sua folha",
       "summary": {
         "fields": {
           "plural": {
@@ -788,13 +794,14 @@
     },
     "restore": {
       "cancelButton": "Cancelar",
+      "cancelError": "",
+      "cancelSuccess": "",
       "empty": {
         "createdSince": "Esta imagem não tem registros a serem removidos.",
         "deletedSince": "Esta imagem não tem registros a serem adicionados.",
         "title": "Nada para ver!",
         "updatedSince": "Esta imagem não tem registros a serem modificados."
       },
-      "errorMessage": "A imagem não pôde ser restaurada devido a um erro inesperado.",
       "filters": {
         "createdSince": "Remover",
         "deletedSince": "Adicionar",
@@ -802,7 +809,8 @@
       },
       "message": "Sua planilha {{name}} será restaurada à versão desta imagem.",
       "submitButton": "Restaurar",
-      "successMessage": "Sua planilha foi restaurada a uma versão anterior.",
+      "submitError": "A imagem não pôde ser restaurada devido a um erro inesperado.",
+      "submitSuccess": "Sua planilha foi restaurada a uma versão anterior.",
       "summary": {
         "fields": {
           "plural": {

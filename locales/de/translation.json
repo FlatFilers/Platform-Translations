@@ -77,10 +77,14 @@
         }
       }
     },
+    "buttons": {
+      "apply": "Anwenden",
+      "cancel": "Abbrechen"
+    },
     "commands": {
       "filter": {
         "apply": "Filter anwenden.",
-        "description": "eine FFFQL-Anweisung schreiben",
+        "description": "eine FFQL-Anweisung schreiben",
         "learnHow": "erfahren, wie",
         "link": "Erfahren Sie mehr über FFQL-Filter"
       },
@@ -742,13 +746,14 @@
   "snapshot": {
     "accept": {
       "cancelButton": "Abbrechen",
+      "cancelError": "Die Änderungen konnten aufgrund eines unerwarteten Fehlers nicht rückgängig gemacht werden.",
+      "cancelSuccess": "Änderungen an Ihrem Blatt wurden erfolgreich rückgängig gemacht.",
       "empty": {
         "createdSince": "Dieser Snapshot enthält keine entfernten Datensätze.",
         "deletedSince": "Dieser Schnappschuss enthält keine hinzugefügten Datensätze.",
         "title": "Nichts zu sehen!",
         "updatedSince": "Dieser Snapshot enthält keine geänderten Datensätze."
       },
-      "errorMessage": "Die Snapshot-Änderungen konnten aufgrund eines unerwarteten Fehlers nicht übernommen werden.",
       "filters": {
         "createdSince": "Entfernt",
         "deletedSince": "Hinzugefügt",
@@ -756,7 +761,8 @@
       },
       "message": "Durch das Akzeptieren von Änderungen werden alle neuen Werte in Ihr Blatt {{name}} eingefügt.",
       "submitButton": "Änderungen akzeptieren",
-      "successMessage": "Die Änderungen wurden auf Ihr Blatt angewendet.",
+      "submitError": "Die Snapshot-Änderungen konnten aufgrund eines unerwarteten Fehlers nicht übernommen werden.",
+      "submitSuccess": "Die Änderungen wurden auf Ihr Blatt angewendet.",
       "summary": {
         "fields": {
           "plural": {
@@ -788,13 +794,14 @@
     },
     "restore": {
       "cancelButton": "Abbrechen",
+      "cancelError": "",
+      "cancelSuccess": "",
       "empty": {
         "createdSince": "Dieser Snapshot enthält keine Datensätze, die entfernt werden müssen.",
         "deletedSince": "Dieser Snapshot enthält keine Datensätze, die hinzugefügt werden müssen.",
         "title": "Nichts zu sehen!",
         "updatedSince": "Dieser Snapshot enthält keine Datensätze, die geändert werden müssen."
       },
-      "errorMessage": "Der Schnappschuss konnte aufgrund eines unerwarteten Fehlers nicht wiederhergestellt werden.",
       "filters": {
         "createdSince": "Entfernen",
         "deletedSince": "Hinzufügen",
@@ -802,7 +809,8 @@
       },
       "message": "Ihr Arbeitsblatt {{name}} wird in der Version dieses Schnappschusses wiederhergestellt.",
       "submitButton": "Wiederherstellen",
-      "successMessage": "Ihr Arbeitsblatt wurde in einer früheren Version wiederhergestellt.",
+      "submitError": "Der Schnappschuss konnte aufgrund eines unerwarteten Fehlers nicht wiederhergestellt werden.",
+      "submitSuccess": "Ihr Arbeitsblatt wurde in einer früheren Version wiederhergestellt.",
       "summary": {
         "fields": {
           "plural": {
