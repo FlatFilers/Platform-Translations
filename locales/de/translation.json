@@ -427,25 +427,25 @@
   },
   "sheet": {
     "emptyView": {
+      "defaultError": {
+        "description": "Dieses Blatt scheint leer zu sein.",
+        "heading": "Noch nichts zu sehen!"
+      },
       "heading": "Fangen wir an",
       "manualEntry": "Daten manuell eingeben",
-      "uploadFile": "Datei ziehen und ablegen oder hochladen, um loszulegen",
       "noSheetError": {
-        "heading": "Blatt nicht gefunden",
-        "description": "Dieses Blatt scheint nicht zu existieren."
-      },
-      "sheetLocked": {
-        "heading": "Datensätze hinzufügen ist derzeit deaktiviert",
-        "description": "Wenn Sie denken, dass dies ein Fehler ist, wenden Sie sich bitte an den Support."
+        "description": "Dieses Blatt scheint nicht zu existieren.",
+        "heading": "Blatt nicht gefunden"
       },
       "readOnly": {
-        "heading": "Warten auf Daten",
-        "description": "Blätter, die keine neuen Zeilen und/oder Bearbeitungen akzeptieren, erhalten häufig dynamisch befüllte Daten. Es gibt keine Aktion, die Sie zu diesem Zeitpunkt unternehmen können."
+        "description": "Blätter, die keine neuen Zeilen und/oder Bearbeitungen zulassen, erhalten in der Regel dynamisch aufgefüllte Daten. Zu diesem Zeitpunkt können Sie keine Maßnahmen ergreifen.",
+        "heading": "Warten auf Daten"
       },
-      "defaultError": {
-        "heading": "Noch nichts zu sehen!",
-        "description": "Dieses Blatt scheint leer zu sein."
-      }
+      "sheetLocked": {
+        "description": "Wenn Sie glauben, dass dies ein Fehler ist, wenden Sie sich bitte an den Support.",
+        "heading": "Hinzufügen von Datensätzen ist derzeit deaktiviert"
+      },
+      "uploadFile": "Datei ziehen und ablegen oder hochladen, um loszulegen"
     },
     "errors": {
       "loading": "Arbeitsmappe kann nicht abgerufen werden.",
@@ -457,7 +457,7 @@
     },
     "info": {
       "copiedPopover": "In die Zwischenablage kopiert",
-      "copyButton": "Klicken Sie, um zu kopieren!"
+      "copyButton": "Klicken Sie zum Kopieren!"
     },
     "popovers": {
       "copyCell_one": "{{count}} Zelle kopiert",
@@ -732,28 +732,29 @@
   },
   "sidebar": {
     "checklist": "Daten-Checkliste",
-    "emptyWorkbook": "Leeres Arbeitsbuch",
-    "files": "Dateien",
-    "readOnlyIconTooltip": "Dieses Arbeitsblatt ist schreibgeschützt",
     "connections": {
       "tooltips": {
+        "connectionError": "Es gibt ein Problem beim Überprüfen der Metadaten der Verbindungen dieser Arbeitsmappe",
         "connectionFresh": "Verbunden mit {{source}} über {{service}}",
-        "connectionStale": "Zuletzt mit {{source}} vor mehr als 24 Stunden synchronisiert",
-        "connectionError": "Beim Überprüfen der Metadaten der Verbindungen dieser Arbeitsmappe ist ein Problem aufgetreten"
+        "connectionStale": "Zuletzt synchronisiert mit {{source}} vor mehr als 24 Stunden"
       }
-    }
+    },
+    "emptyWorkbook": "Leeres Arbeitsbuch",
+    "files": "Dateien",
+    "readOnlyIconTooltip": "Dieses Arbeitsblatt ist schreibgeschützt"
   },
   "snapshot": {
     "accept": {
       "cancelButton": "Abbrechen",
       "cancelError": "Die Änderungen konnten aufgrund eines unerwarteten Fehlers nicht rückgängig gemacht werden.",
-      "cancelSuccess": "Änderungen an Ihrem Blatt wurden erfolgreich rückgängig gemacht.",
+      "cancelSuccess": "Die Änderungen an Ihrem Blatt wurden erfolgreich rückgängig gemacht.",
       "empty": {
         "createdSince": "Dieser Snapshot enthält keine entfernten Datensätze.",
         "deletedSince": "Dieser Schnappschuss enthält keine hinzugefügten Datensätze.",
         "title": "Nichts zu sehen!",
         "updatedSince": "Dieser Snapshot enthält keine geänderten Datensätze."
       },
+      "errorMessage": "Die Snapshot-Änderungen konnten aufgrund eines unerwarteten Fehlers nicht übernommen werden.",
       "filters": {
         "createdSince": "Entfernt",
         "deletedSince": "Hinzugefügt",
@@ -762,7 +763,8 @@
       "message": "Durch das Akzeptieren von Änderungen werden alle neuen Werte in Ihr Blatt {{name}} eingefügt.",
       "submitButton": "Änderungen akzeptieren",
       "submitError": "Die Snapshot-Änderungen konnten aufgrund eines unerwarteten Fehlers nicht übernommen werden.",
-      "submitSuccess": "Die Änderungen wurden auf Ihr Blatt angewendet.",
+      "submitSuccess": "Die Änderungen an Ihrem Blatt wurden erfolgreich angewendet.",
+      "successMessage": "Die Änderungen wurden auf Ihr Blatt angewendet.",
       "summary": {
         "fields": {
           "plural": {
@@ -794,14 +796,13 @@
     },
     "restore": {
       "cancelButton": "Abbrechen",
-      "cancelError": "",
-      "cancelSuccess": "",
       "empty": {
         "createdSince": "Dieser Snapshot enthält keine Datensätze, die entfernt werden müssen.",
         "deletedSince": "Dieser Snapshot enthält keine Datensätze, die hinzugefügt werden müssen.",
         "title": "Nichts zu sehen!",
         "updatedSince": "Dieser Snapshot enthält keine Datensätze, die geändert werden müssen."
       },
+      "errorMessage": "Der Schnappschuss konnte aufgrund eines unerwarteten Fehlers nicht wiederhergestellt werden.",
       "filters": {
         "createdSince": "Entfernen",
         "deletedSince": "Hinzufügen",
@@ -809,8 +810,9 @@
       },
       "message": "Ihr Arbeitsblatt {{name}} wird in der Version dieses Schnappschusses wiederhergestellt.",
       "submitButton": "Wiederherstellen",
-      "submitError": "Der Schnappschuss konnte aufgrund eines unerwarteten Fehlers nicht wiederhergestellt werden.",
-      "submitSuccess": "Ihr Arbeitsblatt wurde in einer früheren Version wiederhergestellt.",
+      "submitError": "Der Snapshot konnte aufgrund eines unerwarteten Fehlers nicht wiederhergestellt werden.",
+      "submitSuccess": "Ihr Blatt wurde in einer früheren Version wiederhergestellt.",
+      "successMessage": "Ihr Arbeitsblatt wurde in einer früheren Version wiederhergestellt.",
       "summary": {
         "fields": {
           "plural": {
