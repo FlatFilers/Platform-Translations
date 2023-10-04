@@ -84,7 +84,7 @@
     "commands": {
       "filter": {
         "apply": "Aplicar filtro.",
-        "description": "escreva uma declaração FFFQL",
+        "description": "escreva uma declaração FFQL",
         "learnHow": "saiba como",
         "link": "Saiba mais sobre os filtros FFQL"
       },
@@ -427,25 +427,25 @@
   },
   "sheet": {
     "emptyView": {
+      "defaultError": {
+        "description": "Essa planilha parece estar vazia.",
+        "heading": "Não há nada para ver ainda!"
+      },
       "heading": "Vamos começar",
       "manualEntry": "Insira os dados manualmente",
-      "uploadFile": "Arraste e solte ou carregue um arquivo para começar",
       "noSheetError": {
-        "heading": "Planilha não encontrada",
-        "description": "Esta planilha não parece existir."
-      },
-      "sheetLocked": {
-        "heading": "Adicionar registros está atualmente desativado",
-        "description": "Se você acha que isso é um erro, por favor, entre em contato com o suporte."
+        "description": "Essa planilha não parece existir.",
+        "heading": "Planilha não encontrada"
       },
       "readOnly": {
-        "heading": "Aguardando dados",
-        "description": "Planilhas que não aceitam novas linhas e/ou edições geralmente recebem dados populados dinamicamente. Não há nenhuma ação que você possa fazer neste momento."
+        "description": "As planilhas que não aceitam novas linhas e/ou edições costumam receber dados preenchidos de forma dinâmica. Você não pode realizar nenhuma ação no momento.",
+        "heading": "Aguardando dados"
       },
-      "defaultError": {
-        "heading": "Nada para ver ainda!",
-        "description": "Esta planilha parece estar vazia."
-      }
+      "sheetLocked": {
+        "description": "Se achar que isso é um erro, fale com o suporte.",
+        "heading": "A adição de registros está desabilitada no momento"
+      },
+      "uploadFile": "Arraste e solte ou carregue um arquivo para começar"
     },
     "errors": {
       "loading": "Não foi possível buscar a pasta de trabalho.",
@@ -732,28 +732,29 @@
   },
   "sidebar": {
     "checklist": "Lista de verificação de dados",
-    "emptyWorkbook": "Pasta de trabalho vazia",
-    "files": "Arquivos",
-    "readOnlyIconTooltip": "Esta Planilha é somente leitura",
     "connections": {
       "tooltips": {
-        "connectionFresh": "Conectado a {{source}} por meio de {{service}}",
-        "connectionStale": "Última sincronização com {{source}} há mais de 24 horas",
-        "connectionError": "Há um problema ao verificar os metadados das conexões desta pasta de trabalho"
+        "connectionError": "Há um problema ao verificar os metadados das conexões desta pasta de trabalho",
+        "connectionFresh": "Conectado a {{source}} via {{service}}",
+        "connectionStale": "A última sincronização com {{source}} ocorreu há mais de 24 horas"
       }
-    }
+    },
+    "emptyWorkbook": "Pasta de trabalho vazia",
+    "files": "Arquivos",
+    "readOnlyIconTooltip": "Esta Planilha é somente leitura"
   },
   "snapshot": {
     "accept": {
       "cancelButton": "Cancelar",
       "cancelError": "As alterações não puderam ser revertidas devido a um erro inesperado.",
-      "cancelSuccess": "As alterações em sua planilha foram revertidas com sucesso.",
+      "cancelSuccess": "As alterações à sua planilha foram revertidas com sucesso.",
       "empty": {
         "createdSince": "Este retrato não tem registros removidos.",
         "deletedSince": "Este retrato não tem registros adicionados.",
         "title": "Nada para ver!",
         "updatedSince": "Este retrato não tem registros modificados."
       },
+      "errorMessage": "As mudanças de retrato não puderam ser aplicadas por conta de um erro inesperado",
       "filters": {
         "createdSince": "Removido",
         "deletedSince": "Adicionado",
@@ -761,8 +762,9 @@
       },
       "message": "Aceitar as mudanças mescla todos os novos valores dentro de sua folha {{name}}.",
       "submitButton": "Aceitar mudanças",
-      "submitError": "As mudanças de retrato não puderam ser aplicadas por conta de um erro inesperado",
-      "submitSuccess": "Mudanças foram aplicadas à sua folha",
+      "submitError": "As alterações do instantâneo não puderam ser aplicadas devido a um erro inesperado.",
+      "submitSuccess": "As alterações à sua planilha foram aplicadas com sucesso.",
+      "successMessage": "Mudanças foram aplicadas à sua folha",
       "summary": {
         "fields": {
           "plural": {
@@ -794,14 +796,13 @@
     },
     "restore": {
       "cancelButton": "Cancelar",
-      "cancelError": "",
-      "cancelSuccess": "",
       "empty": {
         "createdSince": "Esta imagem não tem registros a serem removidos.",
         "deletedSince": "Esta imagem não tem registros a serem adicionados.",
         "title": "Nada para ver!",
         "updatedSince": "Esta imagem não tem registros a serem modificados."
       },
+      "errorMessage": "A imagem não pôde ser restaurada devido a um erro inesperado.",
       "filters": {
         "createdSince": "Remover",
         "deletedSince": "Adicionar",
@@ -809,8 +810,9 @@
       },
       "message": "Sua planilha {{name}} será restaurada à versão desta imagem.",
       "submitButton": "Restaurar",
-      "submitError": "A imagem não pôde ser restaurada devido a um erro inesperado.",
-      "submitSuccess": "Sua planilha foi restaurada a uma versão anterior.",
+      "submitError": "O instantâneo não pôde ser restaurado devido a um erro inesperado.",
+      "submitSuccess": "Sua planilha foi restaurada para uma versão anterior.",
+      "successMessage": "Sua planilha foi restaurada a uma versão anterior.",
       "summary": {
         "fields": {
           "plural": {

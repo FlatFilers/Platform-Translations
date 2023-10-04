@@ -427,25 +427,25 @@
   },
   "sheet": {
     "emptyView": {
+      "defaultError": {
+        "description": "Cette feuille semble vide.",
+        "heading": "Il n'y a rien à voir pour l'instant !"
+      },
       "heading": "Démarrons",
       "manualEntry": "Saisir manuellement les données",
-      "uploadFile": "Faites glisser et déposez ou téléchargez un fichier pour commencer.",
       "noSheetError": {
-        "heading": "Feuille introuvable",
-        "description": "Cette feuille ne semble pas exister."
-      },
-      "sheetLocked": {
-        "heading": "L'ajout d'enregistrements est actuellement désactivé",
-        "description": "Si vous pensez que c'est une erreur, veuillez contacter le support."
+        "description": "Cette feuille ne semble pas exister.",
+        "heading": "Feuille non trouvée"
       },
       "readOnly": {
-        "heading": "En attente de données",
-        "description": "Les feuilles qui n'acceptent pas de nouvelles lignes et/ou modifications reçoivent souvent des données alimentées dynamiquement. Il n'y a aucune action que vous puissiez prendre en ce moment."
+        "description": "Les feuilles qui n'acceptent pas de nouvelles lignes ou de modifications reçoivent généralement des données alimentées de manière dynamique. Vous ne pouvez rien faire pour l'instant.",
+        "heading": "En attente de données"
       },
-      "defaultError": {
-        "heading": "Rien à voir pour le moment!",
-        "description": "Cette feuille semble être vide."
-      }
+      "sheetLocked": {
+        "description": "Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le service d'assistance.",
+        "heading": "L'ajout d'entrées est actuellement désactivé"
+      },
+      "uploadFile": "Faites glisser et déposez ou téléchargez un fichier pour commencer."
     },
     "errors": {
       "loading": "Impossible de récupérer le classeur.",
@@ -457,7 +457,7 @@
     },
     "info": {
       "copiedPopover": "Copié dans le presse-papiers",
-      "copyButton": "Cliquez pour copier!"
+      "copyButton": "Cliquez pour copier !"
     },
     "popovers": {
       "copyCell_one": "{{count}} cellule copiée",
@@ -732,16 +732,16 @@
   },
   "sidebar": {
     "checklist": "Liste de vérification des données",
-    "emptyWorkbook": "Classeur vide",
-    "files": "Fichiers",
-    "readOnlyIconTooltip": "Cette feuille est en lecture seule",
     "connections": {
       "tooltips": {
+        "connectionError": "Un problème survient lors de la vérification des métadonnées des connexions de ce classeur.",
         "connectionFresh": "Connecté à {{source}} via {{service}}",
-        "connectionStale": "Dernière synchronisation avec {{source}} il y a plus de 24 heures",
-        "connectionError": "Un problème est survenu lors de la vérification des métadonnées des connexions de ce classeur"
+        "connectionStale": "Synchronisé pour la dernière fois avec {{source}} il y a plus de 24 heures"
       }
-    }
+    },
+    "emptyWorkbook": "Classeur vide",
+    "files": "Fichiers",
+    "readOnlyIconTooltip": "Cette feuille est en lecture seule"
   },
   "snapshot": {
     "accept": {
@@ -754,6 +754,7 @@
         "title": "Rien à afficher !",
         "updatedSince": "Cette photo ne contient aucun enregistrement modifié."
       },
+      "errorMessage": "Les modifications de la photo n'ont pas pu être appliquées en raison d'une erreur inattendue.",
       "filters": {
         "createdSince": "Supprimé",
         "deletedSince": "Ajouté",
@@ -761,8 +762,9 @@
       },
       "message": "L'acceptation des modifications fusionne toutes les nouvelles valeurs dans votre feuille {{name}}.",
       "submitButton": "Accepter les modifications",
-      "submitError": "Les modifications de la photo n'ont pas pu être appliquées en raison d'une erreur inattendue.",
-      "submitSuccess": "Les modifications ont été appliquées à votre feuille.",
+      "submitError": "Les modifications de l'instantané n'ont pas pu être appliquées en raison d'une erreur inattendue.",
+      "submitSuccess": "Les modifications apportées à votre feuille ont été appliquées avec succès.",
+      "successMessage": "Les modifications ont été appliquées à votre feuille.",
       "summary": {
         "fields": {
           "plural": {
@@ -794,14 +796,13 @@
     },
     "restore": {
       "cancelButton": "Annuler",
-      "cancelError": "",
-      "cancelSuccess": "",
       "empty": {
         "createdSince": "Cette photo ne contient aucun enregistrement à supprimer.",
         "deletedSince": "Cette photo ne contient aucun enregistrement à ajouter.",
         "title": "Rien à afficher !",
         "updatedSince": "Cette photo ne contient aucun enregistrement à modifier."
       },
+      "errorMessage": "L'instantané n'a pas pu être restauré en raison d'une erreur inattendue.",
       "filters": {
         "createdSince": "Supprimer",
         "deletedSince": "Ajouter",
@@ -810,7 +811,8 @@
       "message": "Votre feuille {{name}} sera restaurée selon la version de cet instantané.",
       "submitButton": "Restaurer",
       "submitError": "L'instantané n'a pas pu être restauré en raison d'une erreur inattendue.",
-      "submitSuccess": "Votre feuille a été restaurée dans une version antérieure.",
+      "submitSuccess": "Votre feuille a été restaurée à une version antérieure.",
+      "successMessage": "Votre feuille a été restaurée dans une version antérieure.",
       "summary": {
         "fields": {
           "plural": {

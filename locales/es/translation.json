@@ -427,25 +427,25 @@
   },
   "sheet": {
     "emptyView": {
+      "defaultError": {
+        "description": "Parece que esta hoja está vacía.",
+        "heading": "¡Aún no hay nada que ver!"
+      },
       "heading": "Comencemos",
       "manualEntry": "Introducir datos manualmente",
-      "uploadFile": "Arrastra y suelta o sube un archivo para comenzar",
       "noSheetError": {
-        "heading": "Hoja no encontrada",
-        "description": "Esta hoja no parece existir."
-      },
-      "sheetLocked": {
-        "heading": "Actualmente está deshabilitada la adición de registros",
-        "description": "Si cree que esto es un error, comuníquese con el soporte."
+        "description": "Parece que esta hoja no existe.",
+        "heading": "No se ha encontrado la hoja"
       },
       "readOnly": {
-        "heading": "Esperando datos",
-        "description": "Las hojas que no aceptan nuevas filas y/o ediciones generalmente reciben datos poblados dinámicamente. No hay ninguna acción que pueda realizar en este momento."
+        "description": "Las hojas que no aceptan nuevas filas o ediciones suelen recibir datos rellenados dinámicamente. No hay ninguna acción que puedas tomar en este momento.",
+        "heading": "En espera de los datos"
       },
-      "defaultError": {
-        "heading": "¡Nada que ver todavía!",
-        "description": "Esta hoja parece estar vacía."
-      }
+      "sheetLocked": {
+        "description": "Si crees que esto es un error, ponte en contacto con el servicio de asistencia.",
+        "heading": "La adición de registros está desactivada"
+      },
+      "uploadFile": "Arrastra y suelta o sube un archivo para comenzar"
     },
     "errors": {
       "loading": "No se ha podido recuperar el libro de trabajo.",
@@ -732,28 +732,29 @@
   },
   "sidebar": {
     "checklist": "Lista de control de datos",
-    "emptyWorkbook": "Libro de trabajo vacío",
-    "files": "Archivos",
-    "readOnlyIconTooltip": "Esta hoja es de solo lectura",
     "connections": {
       "tooltips": {
+        "connectionError": "Hay un problema al verificar los metadatos de las conexiones de este libro de trabajo.",
         "connectionFresh": "Conectado a {{source}} a través de {{service}}",
-        "connectionStale": "Última sincronización con {{source}} hace más de 24 horas",
-        "connectionError": "Hay un problema al verificar los metadatos de las conexiones de este libro"
+        "connectionStale": "Última sincronización con {{source}} hace más de 24 horas"
       }
-    }
+    },
+    "emptyWorkbook": "Libro de trabajo vacío",
+    "files": "Archivos",
+    "readOnlyIconTooltip": "Esta hoja es de solo lectura"
   },
   "snapshot": {
     "accept": {
       "cancelButton": "Cancelar",
-      "cancelError": "Los cambios no se pudieron revertir debido a un error inesperado.",
-      "cancelSuccess": "Los cambios en su hoja se revirtieron exitosamente.",
+      "cancelError": "No se han podido revertir los cambios debido a un error inesperado.",
+      "cancelSuccess": "Se han revertido satisfactoriamente los cambios en la hoja.",
       "empty": {
         "createdSince": "Esta captura no tiene registros eliminados.",
         "deletedSince": "Esta captura no tiene registros añadidos.",
         "title": "¡No hay nada que ver!",
         "updatedSince": "Esta captura no tiene registros modificados."
       },
+      "errorMessage": "No se han podido aplicar los cambios de la captura debido a un error inesperado.",
       "filters": {
         "createdSince": "Eliminado",
         "deletedSince": "Añadido",
@@ -761,8 +762,9 @@
       },
       "message": "Aceptar los cambios hace que se unifiquen todos los valores nuevos en tu hoja {{name}}.",
       "submitButton": "Aceptar cambios",
-      "submitError": "No se han podido aplicar los cambios de la captura debido a un error inesperado.",
-      "submitSuccess": "Se han aplicado los cambios a tu hoja.",
+      "submitError": "No se han podido aplicar los cambios de la instantánea debido a un error inesperado.",
+      "submitSuccess": "Se han aplicado satisfactoriamente los cambios en la hoja.",
+      "successMessage": "Se han aplicado los cambios a tu hoja.",
       "summary": {
         "fields": {
           "plural": {
@@ -794,14 +796,13 @@
     },
     "restore": {
       "cancelButton": "Cancelar",
-      "cancelError": "",
-      "cancelSuccess": "",
       "empty": {
         "createdSince": "Esta captura no tiene registros que vayan a ser eliminados.",
         "deletedSince": "Esta captura no tiene registros que vayan a ser añadidos.",
         "title": "¡No hay nada que ver!",
         "updatedSince": "Esta captura no tiene registros que vayan a ser modificados."
       },
+      "errorMessage": "No se ha podido restablecer la captura debido a un error inesperado.",
       "filters": {
         "createdSince": "Eliminar",
         "deletedSince": "Añadir",
@@ -809,8 +810,9 @@
       },
       "message": "Tu hoja {{name}} se restablecerá a la versión en esta captura.",
       "submitButton": "Restablecer",
-      "submitError": "No se ha podido restablecer la captura debido a un error inesperado.",
-      "submitSuccess": "Se ha restablecido tu hoja a una versión anterior.",
+      "submitError": "No se ha podido restaurar la instantánea debido a un error inesperado.",
+      "submitSuccess": "Se ha restaurado la hoja a una versión anterior.",
+      "successMessage": "Se ha restablecido tu hoja a una versión anterior.",
       "summary": {
         "fields": {
           "plural": {

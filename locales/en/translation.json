@@ -46,7 +46,7 @@
         "errorBanner": {
           "generalError": "Something went wrong. Please try again."
         },
-        "instruction": "Describe how you'd like the AI assistant to query your data.",
+        "instruction": "Describe how you'd like the AI assistant to query your data:",
         "review": {
           "description": "Here's what I came up with. Read the step by step explanation and the query, and if it looks good, click below to apply it.",
           "explanationTitle": "Explanation",
@@ -66,7 +66,7 @@
           "generalError": "Something went wrong. Please try again.",
           "versionError": "Unable to create a rollback version - AI transform aborted. Please try again."
         },
-        "instruction": "Describe how you'd like the AI assistant to transform your data.",
+        "instruction": "Describe how you'd like the AI assistant to transform your data:",
         "review": {
           "codeTitle": "Code",
           "description": "Here's what I came up with. Read the step by step explanation and the query, and if it looks good, click below to apply it.",
@@ -417,25 +417,25 @@
   },
   "sheet": {
     "emptyView": {
+      "defaultError": {
+        "description": "This sheet appears to be empty.",
+        "heading": "Nothing to see yet!"
+      },
       "heading": "Let's get started",
       "manualEntry": "Manually enter data",
-      "uploadFile": "Drag and drop or upload a file to get started",
       "noSheetError": {
-        "heading": "Sheet not found",
-        "description": "This sheet doesn't seem to exist."
-      },
-      "sheetLocked": {
-        "heading": "Adding records is currently disabled",
-        "description": "If you think this is an error, please reach out to support."
+        "description": "This sheet doesn't seem to exist.",
+        "heading": "Sheet not found"
       },
       "readOnly": {
-        "heading": "Awaiting data",
-        "description": "Sheets that don't accept new rows and/or edits commonly receive dynamically populated data. There is no action you can take at take at this time."
+        "description": "Sheets that don't accept new rows and/or edits commonly receive dynamically populated data. There is no action you can take at take at this time.",
+        "heading": "Awaiting data"
       },
-      "defaultError": {
-        "heading": "Nothing to see yet!",
-        "description": "This sheet appears to be empty."
-      }
+      "sheetLocked": {
+        "description": "If you think this is an error, please reach out to support.",
+        "heading": "Adding records is currently disabled"
+      },
+      "uploadFile": "Drag and drop or upload a file to get started"
     },
     "errors": {
       "loading": "Unable to fetch workbook.",
@@ -712,16 +712,16 @@
   },
   "sidebar": {
     "checklist": "Data checklist",
-    "emptyWorkbook": "Empty workbook",
-    "files": "Files",
-    "readOnlyIconTooltip": "This Sheet is read-only",
     "connections": {
       "tooltips": {
+        "connectionError": "There is an issue verifying the metadata of this workbook's connections",
         "connectionFresh": "Connected to {{source}} via {{service}}",
-        "connectionStale": "Last synced with {{source}} more than 24 hours ago",
-        "connectionError": "There is an issue verifying the metadata of this workbook's connections"
+        "connectionStale": "Last synced with {{source}} more than 24 hours ago"
       }
-    }
+    },
+    "emptyWorkbook": "Empty workbook",
+    "files": "Files",
+    "readOnlyIconTooltip": "This Sheet is read-only"
   },
   "snapshot": {
     "accept": {
@@ -734,6 +734,7 @@
         "title": "Nothing to see!",
         "updatedSince": "This snapshot has no modified records."
       },
+      "errorMessage": "The snapshot changes could not be applied due to an unexpected error.",
       "filters": {
         "createdSince": "Removed",
         "deletedSince": "Added",
@@ -743,6 +744,7 @@
       "submitButton": "Accept changes",
       "submitError": "The snapshot changes could not be applied due to an unexpected error.",
       "submitSuccess": "Changes to your sheet were successfully applied.",
+      "successMessage": "Changes were applied to your sheet.",
       "summary": {
         "fields": {
           "plural": {
@@ -774,14 +776,13 @@
     },
     "restore": {
       "cancelButton": "Cancel",
-      "cancelError": "",
-      "cancelSuccess": "",
       "empty": {
         "createdSince": "This snapshot has no records that will be removed.",
         "deletedSince": "This snapshot has no records that will be added.",
         "title": "Nothing to see!",
         "updatedSince": "This snapshot has no records that will be modified."
       },
+      "errorMessage": "The snapshot could not be restored due to an unexpected error.",
       "filters": {
         "createdSince": "Remove",
         "deletedSince": "Add",
@@ -791,6 +792,7 @@
       "submitButton": "Restore",
       "submitError": "The snapshot could not be restored due to an unexpected error.",
       "submitSuccess": "Your sheet was restored to an earlier version.",
+      "successMessage": "Your sheet was restored to an earlier version.",
       "summary": {
         "fields": {
           "plural": {
