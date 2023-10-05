@@ -732,6 +732,7 @@
   },
   "sidebar": {
     "checklist": "Liste de vérification des données",
+    "addConnection": "Ajouter une connexion",
     "connections": {
       "tooltips": {
         "connectionError": "Un problème survient lors de la vérification des métadonnées des connexions de ce classeur.",
@@ -793,6 +794,15 @@
         }
       },
       "title": "Modifications apportées dans"
+    },
+    "cells": {
+      "messages": {
+        "accept": "Si vous acceptez les modifications, toutes les nouvelles valeurs seront fusionnées dans votre ensemble de données.",
+        "current": "Valeur actuelle: {{value}}",
+        "empty": "aucune donnée",
+        "restore": "Votre ensemble de données sera restauré à la version de cet instantané.",
+        "snapshot": "Nouvelle valeur: {{value}}"
+      }
     },
     "restore": {
       "cancelButton": "Annuler",

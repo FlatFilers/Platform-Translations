@@ -732,6 +732,7 @@
   },
   "sidebar": {
     "checklist": "Lista de verificação de dados",
+    "addConnection": "Adicionar conexão",
     "connections": {
       "tooltips": {
         "connectionError": "Há um problema ao verificar os metadados das conexões desta pasta de trabalho",
@@ -793,6 +794,15 @@
         }
       },
       "title": "Mudanças feitas em"
+    },
+    "cells": {
+      "messages": {
+        "accept": "Se você aceitar as alterações, todos os novos valores serão mesclados em seu conjunto de dados.",
+        "current": "Valor atual: {{value}}",
+        "empty": "sem dados",
+        "restore": "Seu conjunto de dados será restaurado para a versão nesta imagem.",
+        "snapshot": "Novo valor: {{value}}"
+      }
     },
     "restore": {
       "cancelButton": "Cancelar",
