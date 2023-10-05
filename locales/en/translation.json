@@ -712,6 +712,7 @@
   },
   "sidebar": {
     "checklist": "Data checklist",
+    "addConnection": "Add Connection",
     "connections": {
       "tooltips": {
         "connectionError": "There is an issue verifying the metadata of this workbook's connections",
@@ -773,6 +774,15 @@
         }
       },
       "title": "Changes made in"
+    },
+    "cells": {
+      "messages": {
+        "accept": "If you accept changes, all new values will be merged into your dataset.",
+        "current": "Current value: {{value}}",
+        "empty": "no data",
+        "restore": "Your dataset will be restored to the version in this snapshot.",
+        "snapshot": "New value: {{value}}"
+      }
     },
     "restore": {
       "cancelButton": "Cancel",
