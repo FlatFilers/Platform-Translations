@@ -731,8 +731,8 @@
     }
   },
   "sidebar": {
+    "addConnection": "Añadir conexión",
     "checklist": "Lista de control de datos",
-    "addConnection": "Agregar conexión",
     "connections": {
       "tooltips": {
         "connectionError": "Hay un problema al verificar los metadatos de las conexiones de este libro de trabajo.",
@@ -800,7 +800,7 @@
         "accept": "Si acepta los cambios, todos los valores nuevos se fusionarán en su conjunto de datos.",
         "current": "Valor actual: {{value}}",
         "empty": "sin datos",
-        "restore": "Su conjunto de datos se restaurará a la versión de esta instantánea.",
+        "restore": "Su conjunto de datos se restaurará a la versión de esta captura.",
         "snapshot": "Nuevo valor: {{value}}"
       }
     },
