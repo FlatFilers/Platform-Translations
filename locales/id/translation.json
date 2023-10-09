@@ -1,0 +1,56 @@
+{
+  "checklist": {
+    "dropdowns": {
+      "headings": {
+        "sheet": "Lembar Pelukan",
+        "workbook": "Buku Bermain Anjing"
+      }
+    },
+    "errors": {
+      "cannotLoadChecklist": "Tidak dapat memuat daftar persiapan anjing",
+      "cannotLoadSheet": "Lembar sedang bersembunyi (tidak ditemukan)",
+      "noWorkbooksDescription": "Daftar persiapan anjing kita memerlukan setidaknya satu buku bermain untuk aktif. Mohon tanyakan kepada developer Anda untuk mengambil pengaturan yang benar. Jika ekor ini terus mengibas, hubungi dukungan.",
+      "noWorkbooksTitle": "Buku Bermain Hilang!"
+    },
+    "table": {
+      "dataTypes": {
+        "boolean": "Bark-olean",
+        "date": "Kencan Bermain",
+        "enum": "Enum Tulang",
+        "number": "Jumlah Cakar",
+        "reference": "Rujukan Dokter Hewan",
+        "string": "String Sosis",
+        "unknown": "Anjing Misterius"
+      },
+      "fieldTagComputed": "Perhitungan Anjing",
+      "fieldTagRequired": "Pasti Perlu",
+      "fieldTagUnique": "Satu-satunya",
+      "headings": {
+        "dataType": "Jenis Ras",
+        "description": "Profil Anjing",
+        "field": "Bidang Fantastis"
+      }
+    },
+    "title": "Daftar Persiapan Cakar Anjing"
+  },
+  "sidebar": {
+    "checklist": "Daftar Anjing",
+    "emptyWorkbook": "Situs Galian Kosong",
+    "files": "Mainan Gigit",
+    "readOnlyIconTooltip": "Tanda Bau ini hanya baca"
+  },
+  "myDocument": {
+    "title": "Ruang Anjing Pertama Anda!",
+    "body": "# Sesuaikan bahasa dan teks di Ruang Flatfile Anda\n\n---\n\nAktifkan terjemahan, penyesuaian, dan penggantian teks untuk Ruang Anda dengan mudah menggunakan dukungan lokal Flatfile.\n\n## Hal yang bisa Anda lakukan di sini\n\nCoba Bahasa yang Berbeda untuk Beberapa Keseruan Anjing! 🌍\n\nBukankah akan menarik jika anjing bisa berbicara dalam setiap bahasa? Nah, di Playground Lokalisasi Anjing kami, Anda bisa merasakan hal tersebut!\n\n🐕 Coba saja:\n\n- **Inggris**: Tambahkan `?lng=en` ke URL dan muat ulang halaman untuk pengalaman yang cocok dengan English Pointer!\n- **Jerman**: Tambahkan `?lng=de` ke akhir URL dan tekan enter untuk pengalaman Jerman yang menggonggong seru.\n- **Perancis**: Gunakan `?lng=fr` untuk terjemahan Perancis yang bahkan poodle Perancis akan menyetujui!\n- **Spanyol**: Ingin menggonggong dalam bahasa Spanyol? Hanya tambahkan `?lng=es` ke URL.\n- **Portugis Brasil**: Tambahkan `?lng=pt-BR` di akhir URL untuk melihat dunia melalui mata Brazillian Terrier.\n\nKami tidak mengajari anjing untuk menerjemahkan, tetapi file terjemahan.json kami melakukan triknya. Bagian terbaiknya? Halaman Markdown kami memperbarui dirinya sendiri secara dinamis berdasarkan bahasa yang dipilih! Tidak perlu pengkodean keras. 🪄\n\nJadi, saat Anda menjelajahi Playground Lokalisasi Anjing kami, perhatikan bagaimana kata-kata berubah menjadi bahasa yang Anda pilih. 🌟\n\nAyo, coba saja! Jelajahi dunia anjing dalam bahasa yang berbeda dan lihat bagaimana lokalisasi membuat web menjadi tempat yang sangat menyenangkan bagi semua orang! 🌐\n\nLihat [terjemahan yang diubah sesuai tema anjing di sini](https://github.com/FlatFilers/Platform-Translations/blob/demo-structure/locales/en/translation.json). Anda juga bisa melihat kode sumber untuk ruang ini dalam [Typescript](https://github.com/FlatFilers/flatfile-docs-kitchen-sink/blob/main/typescript/localization/index.ts) dan [Javascript](https://github.com/FlatFilers/flatfile-docs-kitchen-sink/blob/main/javascript/localization/index.js).\n\n## Membuat Ruang ini\n\nRuang ini telah dikonfigurasi dengan opsi lokalisasi.\n\nBerikut tampilan kode yang digunakan untuk membuatnya:\n\n```jsx\nimport api from \"@flatfile/api\";\nimport { Client, FlatfileEvent, FlatfileListener } from \"@flatfile/listener\";\n\nexport default function flatfileEventListener(listener: Client) {\n  listener.filter({ job: \"space:configure\" }, (configure: FlatfileListener) => {\n    configure.on(\n      \"job:ready\",\n      async ({ context: { spaceId, environmentId, jobId } }: FlatfileEvent) => {\n        try {\n          await api.jobs.ack(jobId, {\n            info: \"Job started.\",\n            progress: 10,\n          });\n\n          //Dokumen menggunakan kunci terjemahan alih-alih mengkodekan string dengan keras\n          const document = await api.documents.create(spaceId, {\n            title: \"myDocument.title\",\n            body: \"myDocument.body\",\n          });\n\n          //Mengatur jalur terjemahan untuk ruang\n          await api.spaces.update(spaceId, {\n            metadata: {\n              sidebarConfig: {\n                defaultPage: {\n                  documentId: document.data.id,\n                },\n              },\n            },\n            translationsPath:\n              \"https://raw.githubusercontent.com/FlatFilers/Platform-Translations/demo-structure/locales/en/translation.json\",\n          });\n\n\n          await api.workbooks.create({\n            spaceId,\n            environmentId,\n            ...\n          });\n\n          await api.jobs.complete(jobId, {\n            outcome: {\n              message: \"Job completed.\",\n            },\n          });\n        } catch (error: any) {\n          console.error(\"Error: \", error.stack);\n\n          await api.jobs.fail(jobId, {\n            outcome: {\n              message: \"Job error.\",\n            },\n          });\n        }\n      }\n    );\n  });\n}\n```\n\n## Dokumentasi lebih lanjut\n\nBaca lebih lanjut tentang mengkustomisasi teks Ruang Anda [di sini](https://flatfile.com/docs/guides/localization).\n\n## Pelajari lebih lanjut tentang Flatfile dengan mencoba [demo lainnya](https://platform.flatfile.com/getting-started)\n"
+  },
+  "mySubmitAction": {
+    "label": "Kirim",
+    "description": "Selesai menandai semua pohon? Tekan kirim untuk mengirim data penciuman Anda",
+    "tooltip": "Kirim data penciuman Anda",
+    "outcome": {
+      "heading": "Impor yang Hebat!",
+      "message": "Semua data penciuman telah dikirim! Anda sekarang dapat mengklik tautan di bawah ini.",
+      "urlLabel": "Kembali ke kandang anjing"
+    }
+  }
+}
