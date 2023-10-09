@@ -1,0 +1,886 @@
+{
+  "checklist": {
+    "dropdowns": {
+      "headings": {
+        "sheet": "Lembar",
+        "workbook": "Buku kerja"
+      }
+    },
+    "errors": {
+      "cannotLoadChecklist": "Tidak dapat memuat daftar periksa data",
+      "cannotLoadSheet": "Lembar tidak dapat ditemukan",
+      "noWorkbooksDescription": "Daftar periksa data memerlukan minimal 1 buku kerja supaya aktif. Silakan minta developer Anda memeriksa konfigurasinya. Jika masalah ini berlanjut, silakan hubungi dukungan.",
+      "noWorkbooksTitle": "Buku kerja diperlukan"
+    },
+    "table": {
+      "dataTypes": {
+        "boolean": "Boolean",
+        "date": "Tanggal",
+        "enum": "Enum",
+        "number": "Angka",
+        "reference": "Reference",
+        "string": "String",
+        "unknown": "Tidak dikenal"
+      },
+      "fieldTagComputed": "Dihitung",
+      "fieldTagRequired": "Diperlukan",
+      "fieldTagUnique": "Unik",
+      "headings": {
+        "dataType": "Jenis data",
+        "description": "Deskripsi",
+        "field": "Nama bidang"
+      }
+    },
+    "title": "Daftar periksa data"
+  },
+  "commandMenu": {
+    "aiAssist": {
+      "query": {
+        "askingAI": {
+          "stepFour": "Menyelesaikan",
+          "stepOne": "Berpikir",
+          "stepThree": "Melakukan",
+          "stepTwo": "Menulis"
+        },
+        "description": "minta AI untuk menulis kueri untuk Anda di FFQL",
+        "errorBanner": {
+          "generalError": "Terjadi masalah. Silakan coba lagi."
+        },
+        "instruction": "Jelaskan bagaimana Anda ingin asisten AI mentransformasi data Anda:",
+        "review": {
+          "description": "Inilah yang saya temukan. Baca penjelasan langkah demi langkah dan kuerinya, dan jika terlihat bagus, klik di bawah untuk menerapkannya.",
+          "explanationTitle": "Penjelasan",
+          "queryTitle": "Kueri"
+        }
+      },
+      "title": "Buat dengan AI",
+      "transform": {
+        "askingAI": {
+          "stepFour": "Menyelesaikan",
+          "stepOne": "Berpikir",
+          "stepThree": "Melakukan",
+          "stepTwo": "Menulis"
+        },
+        "description": "minta AI untuk mentransformasi data Anda",
+        "errorBanner": {
+          "generalError": "Terjadi masalah. Silakan coba lagi.",
+          "versionError": "Tidak dapat membuat versi rollback - transformasi AI dibatalkan. Silakan coba lagi."
+        },
+        "instruction": "Jelaskan bagaimana Anda ingin asisten AI mentransformasi data Anda:",
+        "review": {
+          "codeTitle": "Kode",
+          "description": "Inilah yang saya temukan. Baca penjelasan langkah demi langkah dan kuerinya, dan jika terlihat bagus, klik di bawah untuk menerapkannya.",
+          "warning": "Peringatan: Ini akan mentransformasi data Anda"
+        },
+        "transforming": {
+          "inProgress": "Menerapkan ke kumpulan data Anda"
+        }
+      }
+    },
+    "buttons": {
+      "apply": "Terapkan",
+      "cancel": "Batal"
+    },
+    "commands": {
+      "filter": {
+        "apply": "Terapkan Filter.",
+        "description": "tulis pernyataan FFQL",
+        "learnHow": "pelajari caranya",
+        "link": "Pelajari selengkapnya tentang filter FFQL"
+      },
+      "search": {
+        "global": {
+          "apply": "Terapkan pencarian.",
+          "description": "cari di seluruh lembar"
+        },
+        "inField": {
+          "apply": "Terapkan pencarian di dalam bidang.",
+          "applyExample": "yaitu \"nama_depan\" Jane Doe",
+          "description": "Cari di dalam bidang"
+        }
+      }
+    },
+    "placeholder": "Temukan atau lakukan sesuatu..."
+  },
+  "document": {
+    "error": {
+      "description": "Dokumen ini sepertinya tidak ada",
+      "title": "Dokumen tidak ditemukan"
+    }
+  },
+  "errors": {
+    "fileNotFound": "File tidak ditemukan",
+    "missingParameter": "Parameter tidak diberikan",
+    "notFound": "Tidak ditemukan",
+    "refreshButton": "Coba lagi",
+    "refreshPageDescription": "Perbarui halaman untuk mencoba lagi. Jika masalah terus berlanjur, hubungi dukungan.",
+    "sheetNotFound": "Lembar tidak ditemukan",
+    "spaceNotFound": "Ruang tidak ditemukan",
+    "unauthorized": "Kredensial akses Anda tidak valid.",
+    "unknownError": "Terjadi masalah",
+    "workbookNotFound": "Buku kerja tidak ditemukan"
+  },
+  "files": {
+    "availableDownloadsTab": "Unduhan yang tersedia",
+    "buttons": {
+      "addFile": {
+        "inProgressText": "Mengunggah berkas",
+        "text": "Tambah berkas"
+      },
+      "delete": "Hapus",
+      "download": "Unduh"
+    },
+    "contextMenu": {
+      "delete": "Hapus",
+      "download": "Unduh"
+    },
+    "counts": "{{start}}-{{end}} dari {{total}}",
+    "deleteModal": {
+      "downloadDescription_other": "Berkas yang diunduh ini akan dihapus dari ruang.",
+      "downloadDescription_zero": "Berkas yang diunduh ini akan dihapus dari ruang.",
+      "heading_other": "Hapus berkas",
+      "heading_zero": "Hapus berkas",
+      "subheading_other": "Berkas:",
+      "subheading_zero": "Berkas:",
+      "uploadsDescription_other": "Semua data yang diimpor akan disimpan. Ini akan menghapus file dari ruang tersebut.",
+      "uploadsDescription_zero": "Semua data yang diimpor akan disimpan. Ini akan menghapus berkas dari ruang tersebut."
+    },
+    "downloadsTable": {
+      "headings": {
+        "createdDate": "Dibuat",
+        "name": "Nama",
+        "size": "Ukuran",
+        "sourceSheet": "Lembar sumber"
+      },
+      "processing": "Mengekspor..."
+    },
+    "emptyState": {
+      "downloads": {
+        "description": "Data yang diunduh akan muncul di sini",
+        "heading": "Tidak ada unduhan yang tersedia"
+      },
+      "uploads": {
+        "description": "Seret dan jatuhkan atau unggah berkas untuk memulai",
+        "heading": "Tambah berkas"
+      }
+    },
+    "errors": {
+      "loadingError": "Tidak dapat memuat berkas",
+      "uploadDisabledDescription": "Jika menurut Anda ini adalah kesalahan, silakan hubungi dukungan.",
+      "uploadDisabledHeading": "Ruang ini saat ini tidak mendukung pengunggahan berkas."
+    },
+    "title": "File",
+    "uploadedFilesTab": "File yang diunggah",
+    "uploadFile": {
+      "popovers": {
+        "errorUploading": "Tidak dapat mengunggah file: {{fileName}}",
+        "onDragPopoverConfirmation": "Jatuhkan berkas di:",
+        "uploadComplete": "Diunggah: {{fileName}}",
+        "uploadInProgress": "Mengunggah: {{fileName}}",
+        "uploadsDisabled": "Ruang ini saat ini tidak mendukung pengunggahan berkas."
+      }
+    },
+    "uploadsTables": {
+      "headings": {
+        "name": "Nama",
+        "status": "Status",
+        "uploadedDate": "Diunggah"
+      },
+      "importButton": "Impor",
+      "tooltips": {
+        "cannotImport": "Mengimpor ke buku kerja saat ini tidak tersedia untuk berkas ini",
+        "noExtension": "Berkas ini tidak memiliki ekstensi. Tambahkan ekstensi berkas yang benar ke nama berkas tersebut dan unggah ulang berkas tersebut untuk mengimpornya ke buku kerja"
+      }
+    }
+  },
+  "guestInvite": {
+    "getNewAccessLink": {
+      "content": "Kami telah mengirimkan tautan akses aman ke",
+      "finePrint": "Jika Anda kesulitan menemukan surel tersebut, periksa folder spam Anda atau segarkan halaman ini untuk mengirimkan tautan akses lain. Tautan akan berfungsi selama 5 menit.",
+      "heading": "Periksa kotak masuk Anda"
+    }
+  },
+  "jobs": {
+    "customActions": {
+      "modals": {
+        "confirmModal": {
+          "cancelButton": "Batal",
+          "defaultConfirmButton": "Konfirmasikan",
+          "defaultLoadingButton": "Memuat...",
+          "isRequired": "{{field}} diperlukan",
+          "mustBeNumber": "{{field}} harus berupa angka",
+          "optional": "opsional"
+        },
+        "defaultJobName": "Pekerjaan",
+        "defaultResourceName": "sumber daya ini",
+        "foregroundJobProgressModal": {
+          "defaultJobName": "Pekerjaan",
+          "defaultResourceName": "sumber daya ini",
+          "percentComplete": "{{percent}}% selesai",
+          "runningOn": "berjalan di"
+        },
+        "outcomeModals": {
+          "acknowledgementModal": {
+            "defaultContinueButton": "Lanjutkan"
+          },
+          "defaultDownloadLabel": "Unduh",
+          "defaultFileName": "berkas",
+          "defaultHeading": {
+            "failed": "Pekerjaan gagal",
+            "success": "Berhasil!"
+          },
+          "defaultLabel": "Lihat Sumber Daya",
+          "defaultMessage": {
+            "failed": "{{jobName}} di {{resourceName}} gagal",
+            "success": "{{jobName}} berhasil dijalankan di {{resourceName}}"
+          },
+          "permanentOutcomeModal": {
+            "defaultContinueButton": "Lanjutkan"
+          }
+        },
+        "startModal": {
+          "confirmButton": "Konfirmasikan",
+          "errorMessage": "Kesalahan dalam tindakan",
+          "loadingText": "Memuat..."
+        }
+      }
+    },
+    "panel": {
+      "action": {
+        "export": "Unduh",
+        "extract": "Impor",
+        "mapping": "Buka buku kerja"
+      },
+      "empty": "Pekerjaan akan muncul di sini saat dijalankan atau selesai",
+      "errorLoadingJob": "Tidak ditemukan",
+      "heading": "pekerjaan",
+      "status": {
+        "default": {
+          "canceled": {
+            "prefix": "Pekerjaan",
+            "suffix": "dibatalkan"
+          },
+          "complete": {
+            "prefix": "Pekerjaan",
+            "suffix": "menyelesaikan"
+          },
+          "failed": {
+            "prefix": "Pekerjaan",
+            "suffix": "gagal"
+          },
+          "inProgress": "Menjalankan pekerjaan"
+        },
+        "delete": {
+          "cancelled": "Penghapusan entri yang dibatalkan",
+          "complete": "Penghapusan selesai",
+          "failed": "Penghapusan gagal",
+          "inProgress": "Menghapus entri"
+        },
+        "export": {
+          "canceled": "Pengunduhan dibatalkan",
+          "complete": "Unduhan dihasilkan",
+          "failed": "Gagal menghasilkan unduhan",
+          "inProgress": "Menghasilkan unduhan"
+        },
+        "extract": {
+          "cancelled": "Ekstraksi file yang dibatalkan",
+          "complete": "File diekstrak",
+          "failed": "Gagal mengekstrak file",
+          "inProgress": "Mengekstrak file"
+        },
+        "mapping": {
+          "canceled": "Membatalkan pemetaan ke buku kerja",
+          "complete": "Dipetakan ke buku kerja",
+          "failed": "Gagal memetakan ke buku kerja",
+          "inProgress": "Memetakan ke buku kerja"
+        }
+      },
+      "time": {
+        "completed": "Selesai dalam",
+        "failed": "Gagal setelah",
+        "remaining": "tersisa",
+        "started": "Dimulai {{time}}",
+        "units": {
+          "hour": "jam",
+          "minute": "menit",
+          "second": "detik"
+        }
+      }
+    },
+    "pill": {
+      "hoverText": "pekerjaan",
+      "multipleJobsRunning": "{{count}} pekerjaan dijalankan",
+      "status": {
+        "default": {
+          "complete": "Pekerjaan selesai",
+          "failed": "Pekerjaan gagal",
+          "inProgress": "Pekerjaan dijalankan"
+        },
+        "delete": {
+          "complete": "Penghapusan selesai",
+          "failed": "Penghapusan gagal",
+          "inProgress": "Menghapus rekaman..."
+        },
+        "extract": {
+          "complete": "Ekstrasi selesai",
+          "failed": "Ekstraksi gagal",
+          "inProgress": "Mengekstrak data..."
+        },
+        "mapping": {
+          "complete": "Pemetaan selesai",
+          "failed": "Pemetaan gagal",
+          "inProgress": "Memetakan..."
+        }
+      }
+    }
+  },
+  "mapping": {
+    "dataPreview": {
+      "heading": "Pratinjau data untuk {{previewKey}}",
+      "noData": "Tidak ada data pratinjau"
+    },
+    "headerButtons": {
+      "back": "Kembali",
+      "exit": "Keluar",
+      "next": "Lanjutkan"
+    },
+    "mapEnums": {
+      "destinationFields": {
+        "dropdownOptions": {
+          "doNotImport": "Jangan impor",
+          "keepAsIs": "Jangan ubah nilai ini",
+          "keepAsIsDisabledTooltip": "Menambahkan opsi baru ke daftar ini tidak didukung. Mengimpor nilai yang bukan opsi valid akan ditampilkan sebagai kesalahan."
+        },
+        "heading": "Nilai Tujuan"
+      },
+      "incomingFields": {
+        "heading": "Nilai yang Masuk",
+        "noData": "Sel tanpa data",
+        "noDataTooltip": "Anda dapat memilih opsi yang valid untuk mengisi semua sel. Anda juga dapat mengosongkannya."
+      },
+      "progressPill_other": "{{mappedCount}} dari {{totalCount}} nilai dipetakan",
+      "progressPill_zero": "{{mappedCount}} dari {{totalCount}} nilai dipetakan",
+      "progressPillAllMapped_other": "{{totalCount}} nilai dipetakan",
+      "progressPillAllMapped_zero": "{{totalCount}} nilai dipetakan",
+      "subheading": "Bidang ini memiliki nilai yang harus dipetakan ke daftar opsi yang valid.",
+      "title": "Bidang Peta"
+    },
+    "mapFields": {
+      "destinationFields": {
+        "addNewField": {
+          "description": "Tambahkan bidang ini ke lembar Anda",
+          "label": "Tambahkan sebagai bidang baru"
+        },
+        "dropdownOptionLabels": {
+          "new": "Tambahkan baru",
+          "unused": "Tidak digunakan",
+          "used": "Digunakan"
+        },
+        "heading": "Bidang Tujuan",
+        "progressPill": {
+          "missingRequiredFields": " - {{missingFieldsCount}} hilang",
+          "text": "{{totalDestinationsMapped}} dari {{totalDestinationFields}}",
+          "tooltip": {
+            "greaterThanTenMissing": "dan {{missingFieldsAfterTen}} lagi...",
+            "missingRequiredFields": "Bidang yang diperlukan hilang:",
+            "progress": "{{mappedDestinationFields}} dari {{totalDestinationFields}} bidang yang tersedia di lembar target telah dipetakan ke"
+          }
+        }
+      },
+      "incomingFields": {
+        "heading": "Bidang Masuk",
+        "progressPill": {
+          "text": "{{totalIncomingMapped}} dari {{totalIncomingFields}}",
+          "tooltip": "Anda telah memetakan {{mappedIncomingFields}} dari {{totalIncomingFields}} bidang dalam kumpulan data Anda ke lembar target"
+        }
+      },
+      "subheading": "Tinjau dan konfirmasi setiap pilihan pemetaan",
+      "title": "Bidang peta"
+    },
+    "sheetSelection": {
+      "cannotLoadFile": "Tidak dapat mengunggah file: {{fileName}}",
+      "columns_other": "{{count}} kolom",
+      "columns_zero": "{{count}} kolom",
+      "errors_other": "{{count}} kesalahan",
+      "errors_zero": "{{count}} kesalahan",
+      "importFromHeading": "Pilih lembar untuk memuat data dari",
+      "importToHeading": "Pilih lembar untuk mengimpor data ini ke",
+      "lastUpdated": "Terakhir diperbarui {{date}}",
+      "lastUpdatedDateFormat": "yyyy-mm-dd",
+      "records_other": "{{count}} rekaman",
+      "records_zero": "{{count}} rekaman",
+      "sheetHasNoData": "Tidak ada data",
+      "sheets_other": "{{count}} lembar",
+      "sheets_zero": "{{count}} lembar",
+      "title": "Impor ke..."
+    }
+  },
+  "sheet": {
+    "emptyView": {
+      "defaultError": {
+        "description": "Sepertinya lembar ini kosong.",
+        "heading": "Belum ada apa-apa!"
+      },
+      "heading": "Mari mulai",
+      "manualEntry": "Masukkan data secara manual",
+      "noSheetError": {
+        "description": "Lembar ini sepertinya tidak ada.",
+        "heading": "Lembar tidak ditemukan"
+      },
+      "readOnly": {
+        "description": "Lembar yang tidak menerima baris baru dan/atau pengeditan biasanya menerima data yang diisi secara dinamis. Tidak ada tindakan yang dapat Anda ambil saat ini.",
+        "heading": "Menunggu data"
+      },
+      "sheetLocked": {
+        "description": "Hubungi layanan dukungan jika Anda merasa ini adalah sebuah kesalahan.",
+        "heading": "Penambahan catatan sedang dinonaktifkan"
+      },
+      "uploadFile": "Seret dan jatuhkan atau unggah berkas untuk memulai"
+    },
+    "errors": {
+      "loading": "Tidak dapat mengambil buku kerja.",
+      "noSheets": {
+        "description": "Sebuah buku kerja harus berisi setidaknya satu lembaran. Tidak ada lembaran yang ditemukan.",
+        "title": "Buku kerja tidak berisi lembaran"
+      },
+      "notFound": "Buku kerja tidak ditemukan"
+    },
+    "info": {
+      "copiedPopover": "Disalin ke papan klip",
+      "copyButton": "Klik untuk menyalin!"
+    },
+    "popovers": {
+      "copyCell_other": "{{count}} sel disalin",
+      "copyCell_zero": "{{count}} sel disalin",
+      "copyRecord_other": "{{count}} rekaman disalin",
+      "copyRecord_zero": "{{count}} rekaman disalin",
+      "errors": {
+        "cellUpdateFailed": "Terjadi masalah. Harap segarkan halaman dan coba lagi. Jika ini berlanjut, harap hubungi bantuan",
+        "invalidFFQL": "Harap periksa kueri Anda",
+        "recordsLoadFailed": "Rekaman gagal dimuat"
+      }
+    },
+    "table": {
+      "cells": {
+        "enum": {
+          "loading": "Memuat opsi...",
+          "loadingError": "Gagal memuat opsi",
+          "noMatchesFound": "Tidak ditemukan kecocokan",
+          "placeholder": "Tikkan di sini...",
+          "seeMore": "Cari untuk melihat opsi lainnya"
+        },
+        "messages": {
+          "autogen": "✨ Dibuat secara otomatis",
+          "reference": "Nilai tidak ada dalam tabel referensi",
+          "req": "{{field}} diperlukan",
+          "transformed": "🪄️ Diubah dari {{originalValue}}",
+          "unique": "Nilai tidak unik"
+        }
+      },
+      "contextMenu": {
+        "findAndReplace": {
+          "findAndReplaceValues": "Temukan dan ganti",
+          "modal": {
+            "cancelButton": "Batal",
+            "descriptionExactOnly": "Ganti massal teks dalam kolom ini dengan nilai yang valid. Kami menampilkan hanya kecocokan yang sama persis",
+            "descriptionPartialAndExact": "Ganti massal teks dalam kolom ini. Kami mendukung baik kecocokan sebagian maupun sama persis untuk data ini",
+            "errors": {
+              "findError": "Terdapat eror saat menemukan nilai",
+              "generalError": "Terjadi masalah. Harap coba lagi",
+              "replaceError": "Terdapat eror saat mengganti nilai"
+            },
+            "exactMatchesOnly": "Tampilkan hanya kecocokan yang sama persis",
+            "finding": "Menemukan semua instans",
+            "heading": "Temukan dan ganti di {{columnName}}",
+            "isFiltered": "Himpunan data ini telah disaring. Temukan dan ganti hanya akan berjalan pada data yang disaring.",
+            "replaceButton": "Ganti semua",
+            "replaceEmpty": {
+              "description": {
+                "addValues": "Ini akan mengisi semua sel kosong di {{columnName}}",
+                "addValuesToAll": "Ada semua sel kosong di {{columnName}}, Anda dapat mengisi massal sel-sel ini dengan nilai yang dipilih",
+                "addValuesToCount_other": "Ada {{formattedCount}} sel kosong di {{columnName}}, Anda dapat mengisi massal sel-sel ini dengan nilai yang dipilih",
+                "addValuesToCount_zero": "Ada {{formattedCount}} sel kosong di {{columnName}}, Anda dapat mengisi massal sel-sel ini dengan nilai yang dipilih",
+                "noEmptyValues": "Kami tidak dapat menemukan sel kosong pada bidang ini!"
+              },
+              "heading": {
+                "addValues": "Tambahkan nilai pada sel kosong di {{columnName}}",
+                "addValuesToAll": "Tambahkan nilai pada semua sel kosong di {{columnName}}",
+                "addValuesToCount_other": "Tambahkan nilai pada {{formattedCount}} sel kosong di {{columnName}}",
+                "addValuesToCount_zero": "Tambahkan nilai pada {{formattedCount}} sel kosong di {{columnName}}",
+                "noEmptyValues": "Tidak ada nilai yang kosong yang ditemukan"
+              }
+            },
+            "replaceEnum": {
+              "moreOptions": "Menampilkan 100 pilihan pertama. Cari untuk melihat lainnya.",
+              "noMatchesFound": "Tidak ditemukan kecocokan",
+              "replaceWith": "Ganti dengan..."
+            },
+            "replaceValue": {
+              "leavingBlank": "Membiarkan bidang ini kosong akan menghapus nilai yang dipilih",
+              "noMatchesFound": "Tidak ada nilai yang ditemukan",
+              "replaceWith": "Ganti dengan..."
+            },
+            "replacing": "Mengganti nilai",
+            "runOnAllRecords": "Jalankan pada semua data",
+            "searchForEmpty": "Jika bidang ini dibiarkan kosong, kami akan mencari nilai yang kosong",
+            "searchForText": "Cari teks...",
+            "searchResultsCount_other": "{{count}} kecocokan",
+            "searchResultsCount_zero": "{{count}} kecocokan"
+          },
+          "replaceEmptyValues": "Ganti nilai yang kosong"
+        },
+        "pin": {
+          "apply": "Sematkan kolom",
+          "remove": "Hapus pin",
+          "tooltip": {
+            "maxPinned": "Anda dapat menyematkan hingga tiga kolom, lepas salah satu kolom yang sedang disemat untuk menyematkan kolom ini",
+            "pin": "Sematkan kolom ini pada sisi kiri tabel",
+            "unpin": "Klik untuk melepas sematan kolom ini"
+          }
+        },
+        "searchInField": {
+          "modal": {
+            "cancelButton": "Batal",
+            "placeholder": "Cari...",
+            "searchButton": "Cari",
+            "searchWithin": "Cari di"
+          },
+          "searchInThisField": "Cari dalam bidang ini"
+        },
+        "sort": {
+          "ascending": {
+            "apply": "Urutkan A-Z",
+            "remove": "Hapus urutan A-Z"
+          },
+          "descending": {
+            "apply": "Urutkan Z-A",
+            "remove": "Hapus urutan Z-A"
+          },
+          "tooltip": {
+            "notSorted": "Klik untuk mengurutkan A-Z",
+            "sortedAsc": "Diurutkan A-Z",
+            "sortedDes": "Diurutkan Z-A"
+          }
+        }
+      },
+      "errors": {
+        "description": "Tabel ini kesulitan menampilkan data ini. Harap melihat konsol untuk perincian eror.",
+        "title": "Terjadi masalah"
+      },
+      "indexRow": {
+        "tooltip": {
+          "createRow": "Tambahkan data untuk membuat baris ini",
+          "noData": "Tidak ada barisan yang dapat dipilih. Hanya baris berisi data yang dapat dipilih.",
+          "rowNumber": "Baris {{number}}"
+        }
+      },
+      "maximumMessage": {
+        "plural": "...dan {{hiddenRows}} baris lagi. Tampilan tabel hanya mendukung hingga 500.000 rekaman sekaligus karena keterbatasan peramban. Pencarian, pengurutan, filter, dan tindakan massal akan tetap beroperasi pada semua baris yang tersembunyi dari pandangan.",
+        "singular": "...dan 1 baris lagi. Tampilan tabel hanya mendukung hingga 500.000 rekaman sekaligus karena keterbatasan peramban. Pencarian, pengurutan, filter, dan tindakan massal akan tetap beroperasi pada semua baris yang tersembunyi dari pandangan."
+      },
+      "modals": {
+        "copyAlert": {
+          "cancelButton": "Batal",
+          "description": "Kami lihat Anda coba memilih lebih dari 100 rekaman. Kami membatasi penyalinan hingga 100 rekaman guna menjaga integritas data Anda.",
+          "download": "Anda ingin mengunduh lembar ini sebagai .csv?",
+          "downloadButton": "Unduh",
+          "heading": "Anda ingin mengunduh berkas ini?"
+        },
+        "deleteAlert": {
+          "descriptionEnd": "Rekaman yang Anda lihat dalam Flatfile mungkin urutannya tidak sama persis dengan berkas sumber Anda—Flatfile secara pintar memodifikasi data Anda untuk menghapus rekaman kosong, duplikat, dll. Kami tidak sarankan menempel lebih dari 100 rekaman pada satu waktu.",
+          "descriptionStart": "Kami lihat Anda mencoba menghapus data di lebih dari 100 rekaman. Kami membatasi penghapusan hingga 100 rekaman guna menjaga integritas data Anda.",
+          "dismissButton": "Tutup",
+          "heading": "Anda telah mencapai batas hapus kami!"
+        },
+        "pasteAlert": {
+          "descriptionEnd": "Rekaman yang Anda lihat dalam Flatfile mungkin urutannya tidak sama persis dengan berkas sumber Anda—Flatfile secara pintar memodifikasi data Anda untuk menghapus rekaman kosong, duplikat, dll. Kami tidak sarankan menempel lebih dari 100 rekaman pada satu waktu.",
+          "descriptionStart": "Kami lihat Anda mencoba menempel data di lebih dari 100 rekaman. Kami membatasi penempelan hingga 100 rekaman guna menjaga integritas data Anda.",
+          "dismissButton": "Tutup",
+          "heading": "Anda telah mencapai batas tempel kami!"
+        }
+      }
+    },
+    "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "Tindakan",
+        "placeholder": "Cari atau pilih..."
+      },
+      "buttons": {
+        "delete": {
+          "modal": {
+            "cancelButton": "Batal",
+            "confirmButton": "Hapus rekaman",
+            "description": {
+              "infix": "dipilih",
+              "infixType": {
+                "invalid": "tidak valid",
+                "valid": "valid"
+              },
+              "prefix": "Apakah Anda ingin menghapus",
+              "suffix_other": "rekaman?",
+              "suffix_zero": "rekaman?"
+            },
+            "errorMessage": "Tidak dapat menghapus rekaman. Silakan coba lagi atau ubah pilihan Anda.",
+            "heading_other": "Hapus Rekaman",
+            "heading_zero": "Hapus Rekaman",
+            "inProgress": "Menghapus rekaman..."
+          },
+          "popover": {
+            "successMessage_other": "{{count}} rekaman dihapus",
+            "successMessage_zero": "{{count}} rekaman dihapus",
+            "successMessageNoCount": "Rekaman dihapus"
+          },
+          "tooltip": {
+            "active": "Hapus catatan yang dipilih",
+            "disabled": {
+              "deleteDisabled": "Menghapus catatan dinonaktifkan dalam Lembar ini.",
+              "noRecordsSelected": "Pilih minimal satu catatan untuk menghapusnya"
+            }
+          }
+        },
+        "download": {
+          "modal": {
+            "cancelButton": "Batal",
+            "confirmButton": "Unduh rekaman",
+            "description": {
+              "infix": "dipilih",
+              "infixType": {
+                "invalid": "tidak valid",
+                "valid": "valid"
+              },
+              "prefix": "Apakah Anda ingin mengunduh",
+              "suffix_other": "rekaman?",
+              "suffix_zero": "rekaman?"
+            },
+            "errorMessage": "Tidak dapat mengunduh rekaman. Silakan coba lagi atau ubah pilihan Anda.",
+            "heading_other": "Unduh Rekaman",
+            "heading_zero": "Unduh Rekaman",
+            "inProgress": "Mengunduh rekaman..."
+          },
+          "tooltip": {
+            "active": {
+              "invalidFilterApplied": "Unduh semua catatan yang tidak valid",
+              "noRecordsSelected": "Unduh lembar ini",
+              "recordsSelected": "Unduh catatan yang dipilih",
+              "validFilterApplied": "Unduh semua catatan yang valid"
+            },
+            "disabled": "Tidak ada catatan untuk diunduh"
+          }
+        }
+      },
+      "customActionsDropdown": {
+        "disabledTooltip": {
+          "requireAllValid": "Semua baris harus valid agar tindakan ini dapat dilakukan",
+          "requireSelection": "Silakan pilih satu catatan atau lebih untuk menggunakan tindakan ini"
+        }
+      },
+      "dropdown": {
+        "delete": "Hapus",
+        "download": "Unduh"
+      },
+      "filterByError": {
+        "buttonText": "Filter berdasarkan kesalahan",
+        "dropdownPlaceholder": "Cari atau pilih..."
+      },
+      "filters": {
+        "all": "Semua",
+        "invalid": "Tidak valid",
+        "tooltip": {
+          "filter": {
+            "invalid": "tidak valid",
+            "total": "total",
+            "valid": "valid"
+          },
+          "filtered": "Dataset ini telah difilter untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
+          "filteredByError": "Dataset ini telah difilter melalui filter kesalahan untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
+          "filteredByFFQL": "Dataset ini telah difilter melalui Flatfile Query Language untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
+          "filteredBySearch": "Dataset ini telah difilter melalui pencarian untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
+          "filteredBySearchAndError": "Dataset ini telah difilter melalui pencarian dan filter kesalahan untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
+          "inactiveCount": "{{countString}} catatan {{filter}}, {{filteredCount}} difilter"
+        },
+        "valid": "Valid"
+      },
+      "moreActions": {
+        "buttonText": "Tindakan lainnya",
+        "placeholder": "Cari atau pilih..."
+      },
+      "searchBar": {
+        "placeholder": "Cari...",
+        "tooltip": "Tekan enter untuk mencari"
+      }
+    }
+  },
+  "sidebar": {
+    "addConnection": "Semua Koneksi",
+    "checklist": "Daftar periksa data",
+    "connections": {
+      "tooltips": {
+        "connectionError": "Ada masalah saat memverifikasi metadata koneksi buku kerja ini",
+        "connectionFresh": "Terkoneksi ke {{source}} melalui {{service}}",
+        "connectionStale": "Terakhir kali disinkronkan dengan {{source}} lebih dari 24 jam yang lalu"
+      }
+    },
+    "emptyWorkbook": "Workbook kosong",
+    "files": "File",
+    "readOnlyIconTooltip": "Sheet ini hanya dapat dibaca"
+  },
+  "snapshot": {
+    "accept": {
+      "cancelButton": "Batal",
+      "cancelError": "Perubahan tidak dapat dikembalikan karena terjadi kesalahan yang tidak terduga.",
+      "cancelSuccess": "Perubahan pada lembar Anda berhasil dikembalikan.",
+      "empty": {
+        "createdSince": "Snapshot ini tidak memiliki catatan yang dihapus.",
+        "deletedSince": "Snapshot ini tidak memiliki catatan yang ditambahkan.",
+        "title": "Tidak ada apa-apa!",
+        "updatedSince": "Snapshot ini tidak memiliki catatan yang diubah."
+      },
+      "errorMessage": "Perubahan snapshot tidak dapat diterapkan karena terjadi kesalahan yang tidak terduga.",
+      "filters": {
+        "createdSince": "Dihapus",
+        "deletedSince": "Ditambahkan",
+        "updatedSince": "Diubah"
+      },
+      "message": "Menerima perubahan akan menggabungkan semua nilai baru ke dalam lembar Anda {{name}}.",
+      "submitButton": "Terima perubahan",
+      "submitError": "Perubahan snapshot tidak dapat diterapkan karena terjadi kesalahan yang tidak terduga.",
+      "submitSuccess": "Perubahan pada lembar Anda berhasil diterapkan.",
+      "successMessage": "Perubahan telah diterapkan pada lembar Anda.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} sel di bidang {{name}}",
+            "last": " dan {{cells}} sel di bidang {{name}}",
+            "middle": ", {{cells}} sel di bidang {{name}}"
+          },
+          "singular": {
+            "first": "1 sel di bidang {{name}}",
+            "last": " dan 1 sel di bidang {{name}}",
+            "middle": ", 1 sel di bidang {{name}}"
+          },
+          "start": " Data diubah dalam "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data diubah dalam {{records}} catatan di {{fields}} bidang.",
+            "noFields": "Data diubah dalam {{records}} catatan.",
+            "oneField": "Data diubah dalam {{records}} catatan di 1 bidang."
+          },
+          "singular": {
+            "multipleFields": "Data diubah dalam 1 catatan di {{fields}} bidang.",
+            "noFields": "Data diubah dalam 1 catatan.",
+            "oneField": "Data diubah dalam 1 catatan di 1 bidang."
+          }
+        }
+      },
+      "title": "Perubahan dilakukan di"
+    },
+    "cells": {
+      "messages": {
+        "accept": "Jika Anda menerima perubahan, semua nilai baru akan digabung ke dataset Anda.",
+        "current": "Nilai saat ini: {{value}}",
+        "empty": "tidak ada data",
+        "restore": "Dataset Anda akan dipulihkan ke versi dalam snapshot ini.",
+        "snapshot": "NIlai baru: {{value}}"
+      }
+    },
+    "restore": {
+      "cancelButton": "Batal",
+      "empty": {
+        "createdSince": "Snapshot ini tidak memiliki rekaman yang akan dihapus.",
+        "deletedSince": "Snapshot ini tidak memiliki rekaman yang akan ditambahkan.",
+        "title": "Tidak ada apa-apa!",
+        "updatedSince": "Snapshot ini tidak memiliki rekaman yang akan diubah."
+      },
+      "errorMessage": "Snapshot tidak dapat dipulihkan karena terjadi kesalahan yang tidak terduga.",
+      "filters": {
+        "createdSince": "Hapus",
+        "deletedSince": "Tambah",
+        "updatedSince": "Ubah"
+      },
+      "message": "Lembar Anda {{name}} akan dikembalikan ke versi dalam snapshot ini.",
+      "submitButton": "Kembalikan",
+      "submitError": "Snapshot tidak dapat dipulihkan karena terjadi kesalahan yang tidak terduga.",
+      "submitSuccess": "Lembar Anda dipulihkan ke versi sebelumnya.",
+      "successMessage": "Lembar Anda dipulihkan ke versi sebelumnya.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} sel di bidang {{name}}",
+            "last": " dan {{cells}} sel di bidang {{name}}",
+            "middle": ", {{cells}} sel di bidang {{name}}"
+          },
+          "singular": {
+            "first": "1 sel di bidang {{name}}",
+            "last": " dan 1 sel di bidang {{name}}",
+            "middle": ", 1 sel di bidang {{name}}"
+          },
+          "start": " Data akan diubah dalam "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data akan berubah dalam {{records}} rekaman di {{fields}} bidang.",
+            "noFields": "Data akan berubah dalam {{records}} rekaman.",
+            "oneField": "Data akan berubah dalam {{records}} rekaman di 1 bidang."
+          },
+          "singular": {
+            "multipleFields": "Data akan berubah dalam 1 rekaman di {{fields}} bidang.",
+            "noFields": "Data akan berubah dalam 1 rekaman.",
+            "oneField": "Data akan berubah dalam 1 rekaman di 1 bidang."
+          }
+        }
+      },
+      "title": "Perubahan untuk diterapkan"
+    }
+  },
+  "spaceLoadingMessage": "Menyiapkan Ruang...",
+  "versionHistory": {
+    "modals": {
+      "default": {
+        "description": "Terjadi eror tak terduga—tidak ada tindakan yang sesuai yang diterapkan"
+      },
+      "delete": {
+        "confirm": {
+          "closeButton": "Tutup",
+          "description": "Anda yakin ingin menghapus versi yang dipilih?",
+          "heading": "Hapus Versi",
+          "proceedButton": "Hapus"
+        },
+        "error": {
+          "closeButton": "Tutup",
+          "description": "Versi yang dipilih tidak dapat dihapus karena eror tak terduga—jika masalah berlanjut, hubungi bantuan",
+          "heading": "Tidak dapat menghapus versi",
+          "retryButton": "Coba Lagi"
+        },
+        "success": {
+          "closeButton": "Tutup",
+          "description": "Versi yang dipilih telah dihapus.",
+          "heading": "Versi Dihapus"
+        }
+      },
+      "restore": {
+        "confirm": {
+          "closeButton": "Tutup",
+          "description": "Anda akan memulihkan data lembar Anda ke versi sebelumnya—ingin lanjutkan?",
+          "heading": "Konfirmasi Pemulihan Versi",
+          "proceedButton": "Lanjut"
+        },
+        "success": {
+          "closeButton": "Tutup",
+          "description": "Lembar Anda telah berhasil dipulihkan ke versi lebih lama! Harap infokan para kolaborator dalam lembar ini untuk menyegarkan peramban mereka guna mengurangi risiko masalah",
+          "heading": "Pemulihan Versi Berhasil"
+        }
+      }
+    },
+    "panel": {
+      "empty": "Versi, setelah dibuat, akan muncul di sini. Versi dibuat secara otomatis, sering kali ketika terjadi transformasi data secara massal.",
+      "generatedSnapshot": "Snapshot yang dihasilkan sebelum menerapkan Transformasi AI untuk perintah: ",
+      "heading": "Riwayat Versi",
+      "thisMonth": "Bulan Ini",
+      "versionRestored": "Versi yang dibuat sebelum pemulihan versi sebelumnya"
+    },
+    "pill": {
+      "hoverText": "Riwayat Versi"
+    }
+  }
+}

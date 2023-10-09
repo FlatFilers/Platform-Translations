@@ -731,8 +731,8 @@
     }
   },
   "sidebar": {
-    "checklist": "Daten-Checkliste",
     "addConnection": "Verbindung hinzufügen",
+    "checklist": "Daten-Checkliste",
     "connections": {
       "tooltips": {
         "connectionError": "Es gibt ein Problem beim Überprüfen der Metadaten der Verbindungen dieser Arbeitsmappe",
@@ -797,10 +797,10 @@
     },
     "cells": {
       "messages": {
-        "accept": "Wenn Sie Änderungen akzeptieren, werden alle neuen Werte in Ihren Datensatz eingefügt.",
+        "accept": "Wenn Sie die Änderungen akzeptieren, werden alle neuen Werte in Ihren Datensatz übernommen.",
         "current": "Aktueller Wert: {{value}}",
         "empty": "keine Daten",
-        "restore": "Ihr Datensatz wird auf die Version in diesem Snapshot wiederhergestellt.",
+        "restore": "Ihr Datensatz wird mit der Version in diesem Snapshot wiederhergestellt.",
         "snapshot": "Neuer Wert: {{value}}"
       }
     },
