@@ -42,7 +42,10 @@
           "stepThree": "En",
           "stepTwo": "Escribir"
         },
-        "description": "solicita a IA que escriba una consulta por ti en FFQL",
+        "description": {
+          "branded": "solicita a IA que escriba una consulta por ti en FFQL",
+          "whitelabeled": "pide a la IA que escriba una consulta para ti"
+        },
         "errorBanner": {
           "generalError": "Algo ha ido mal. Vuelve a intentarlo."
         },
@@ -70,6 +73,7 @@
         "review": {
           "codeTitle": "Código",
           "description": "Esto es lo que se me ha ocurrido. Lee la explicación paso a paso y la consulta, y si te parece bien, haz clic abajo para aplicarlo.",
+          "planTitle": "Plan",
           "warning": "Advertencia: Esto transformará tus datos"
         },
         "transforming": {
@@ -84,9 +88,11 @@
     "commands": {
       "filter": {
         "apply": "Aplicar filtro.",
-        "description": "escribe una secuencia FFQL",
-        "learnHow": "más información",
-        "link": "Más información sobre los filtros FFQL"
+        "description": {
+          "branded": "escribe una secuencia FFQL",
+          "whitelabeled": "escribe una secuencia"
+        },
+        "learnHow": "más información"
       },
       "search": {
         "global": {
@@ -100,6 +106,7 @@
         }
       }
     },
+    "itemMessage": "presiona {{icon}} para aplicar",
     "placeholder": "Encuentra o realiza cualquier cosa..."
   },
   "document": {
@@ -212,8 +219,7 @@
           "defaultConfirmButton": "Confirmar",
           "defaultLoadingButton": "Cargando...",
           "isRequired": "{{field}} es obligatorio",
-          "mustBeNumber": "{{field}} tiene que ser un número",
-          "optional": "opcional"
+          "mustBeNumber": "{{field}} tiene que ser un número"
         },
         "defaultJobName": "Trabajo",
         "defaultResourceName": "esta fuente",
@@ -426,6 +432,10 @@
     }
   },
   "sheet": {
+    "embedded": {
+      "untitled": "Hoja sin título",
+      "maxOpenReached": "No se pueden abrir más de {{maxOpenSheets}} hojas incrustadas a la vez. Cierre una hoja incrustada para abrir ésta."
+    },
     "emptyView": {
       "defaultError": {
         "description": "Parece que esta hoja está vacía.",
@@ -544,6 +554,12 @@
           },
           "replaceEmptyValues": "Reemplazar valores vacíos"
         },
+        "filterByValue": {
+          "label": "Filtrar por valor",
+          "moreOptions": "Mostrando las primeras {{pageSize}} opciones. Busca para ver más.",
+          "noData": "sin datos",
+          "placeholder": "Buscar o seleccionar valores..."
+        },
         "pin": {
           "apply": "Fijar columna",
           "remove": "Eliminar fijado",
@@ -602,16 +618,16 @@
           "heading": "¿Quieres descargar este archivo?"
         },
         "deleteAlert": {
-          "descriptionEnd": "Es posible que los registros que veas en Flatfile no estén exactamente en el mismo orden que los de tu archivo fuente. Flatfile modifica inteligentemente los datos para eliminar registros vacíos, duplicados, etc. No recomendamos pegar más de 100 registros a la vez.",
-          "descriptionStart": "Hemos visto que estás intentando eliminar los datos de más de 100 registros. Para mantener la integridad de los mismos, limitamos la eliminación a 100 registros a la vez.",
+          "description": "La eliminación de más de 100 registros existentes no está admitida en este momento. Lo hemos limitado para brindar una mejor experiencia mientras <1>modificamos de manera inteligente</1> sus datos.",
+          "tooltip": "Eliminar registros vacíos, duplicados, etc.",
           "dismissButton": "Descartar",
-          "heading": "¡Has alcanzado nuestro límite de eliminado!"
+          "heading": "Límite de eliminación sobre datos existentes alcanzado"
         },
         "pasteAlert": {
-          "descriptionEnd": "Es posible que los registros que veas en Flatfile no estén exactamente en el mismo orden que los de tu archivo fuente. Flatfile modifica inteligentemente los datos para eliminar registros vacíos, duplicados, etc. No recomendamos pegar más de 100 registros a la vez.",
-          "descriptionStart": "Hemos observado que estás intentando pegar datos de más de 100 registros. Limitamos el pegado a 100 registros para mantener la integridad de tus datos.",
+          "description": "No se admite pegar más de 100 registros existentes en este momento. Lo hemos limitado para proporcionar una mejor experiencia mientras <1>modificamos inteligentemente</1> sus datos.",
+          "tooltip": "Eliminar registros vacíos, duplicados, etc.",
           "dismissButton": "Descartar",
-          "heading": "¡Has alcanzado nuestro límite de pegado!"
+          "heading": "Se alcanzó el límite de pegado sobre datos existentes"
         }
       }
     },
@@ -713,7 +729,10 @@
           },
           "filtered": "Esta base de datos fue filtrada para mostrar {{filteredCount}} de los {{countString}} {{filter}} registros.",
           "filteredByError": "Esta base de datos fue filtrada mediante el filtro de error para mostrar {{filteredCount}} de los {{countString}} {{filter}} registros.",
-          "filteredByFFQL": "Esta base de datos fue filtrada mediante el lenguaje de consulta de Flatfile para mostrar {{filteredCount}} de los {{countString}} {{filter}} registros.",
+          "filteredByFFQL": {
+            "branded": "Esta base de datos fue filtrada mediante el lenguaje de consulta de Flatfile para mostrar {{filteredCount}} de los {{countString}} {{filter}} registros.",
+            "whitelabeled": "Este conjunto de datos ha sido filtrado para mostrar {{filteredCount}} de los {{countString}} registros {{filter}}."
+          },
           "filteredBySearch": "Esta base de datos fue filtrada mediante una búsqueda para mostrar {{filteredCount}} de los {{countString}} {{filter}} registros.",
           "filteredBySearchAndError": "Esta base de datos fue filtrada mediante una búsqueda y el filtro de error para mostrar {{filteredCount}} de los {{countString}} {{filter}} registros.",
           "inactiveCount": "{{countString}} {{filter}} registros {{filteredCount}} filtrados"
@@ -761,6 +780,10 @@
         "deletedSince": "Añadido",
         "updatedSince": "Modificado"
       },
+      "header": {
+        "title": "Se han hecho cambios en",
+        "titleWithMeta": "Cambios realizados en <1>{{sheet}}</1> por <3>{{action}}</3>"
+      },
       "message": "Aceptar los cambios hace que se unifiquen todos los valores nuevos en tu hoja {{name}}.",
       "submitButton": "Aceptar cambios",
       "submitError": "No se han podido aplicar los cambios de la instantánea debido a un error inesperado.",
@@ -792,8 +815,7 @@
             "oneField": "Se han cambiado los datos en 1 registro en 1 casilla."
           }
         }
-      },
-      "title": "Se han hecho cambios en"
+      }
     },
     "cells": {
       "messages": {
@@ -817,6 +839,9 @@
         "createdSince": "Eliminar",
         "deletedSince": "Añadir",
         "updatedSince": "Modificar"
+      },
+      "header": {
+        "title": "Los cambios se aplican en"
       },
       "message": "Tu hoja {{name}} se restablecerá a la versión en esta captura.",
       "submitButton": "Restablecer",
@@ -849,8 +874,10 @@
             "oneField": "Los datos cambiarán en 1 registro en 1 casilla."
           }
         }
-      },
-      "title": "Los cambios se aplican en"
+      }
+    },
+    "tooltips": {
+      "sheet": "{{sheet}} en {{workbook}}"
     }
   },
   "spaceLoadingMessage": "Preparando espacio...",

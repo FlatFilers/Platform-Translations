@@ -42,7 +42,10 @@
           "stepThree": "Tun",
           "stepTwo": "Schreiben"
         },
-        "description": "KI bitten, eine Abfrage in FFQL für Sie zu schreiben",
+        "description": {
+          "branded": "KI bitten, eine Abfrage in FFQL für Sie zu schreiben",
+          "whitelabeled": "Bitte das KI, eine Abfrage für dich zu schreiben"
+        },
         "errorBanner": {
           "generalError": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
         },
@@ -70,6 +73,7 @@
         "review": {
           "codeTitle": "Code",
           "description": "Das habe ich mir ausgedacht. Lesen Sie die Schritt-für-Schritt-Erklärung und die Abfrage, und wenn es gut aussieht, klicken Sie unten, um es anzuwenden.",
+          "planTitle": "Planen",
           "warning": "Warnung! Dies wird Ihre Daten transformieren"
         },
         "transforming": {
@@ -84,9 +88,11 @@
     "commands": {
       "filter": {
         "apply": "Filter anwenden.",
-        "description": "eine FFQL-Anweisung schreiben",
-        "learnHow": "erfahren, wie",
-        "link": "Erfahren Sie mehr über FFQL-Filter"
+        "description": {
+          "branded": "eine FFQL-Anweisung schreiben",
+          "whitelabeled": "schreibe eine Abfrage"
+        },
+        "learnHow": "erfahren, wie"
       },
       "search": {
         "global": {
@@ -100,6 +106,7 @@
         }
       }
     },
+    "itemMessage": "Drücken Sie {{icon}}, um es anzuwenden",
     "placeholder": "Finden oder tun Sie etwas ..."
   },
   "document": {
@@ -212,8 +219,7 @@
           "defaultConfirmButton": "Bestätigen",
           "defaultLoadingButton": "Wird geladen",
           "isRequired": "{{field}} ist erforderlich",
-          "mustBeNumber": "{{field}} muss eine Zahl sein",
-          "optional": "optional"
+          "mustBeNumber": "{{field}} muss eine Zahl sein"
         },
         "defaultJobName": "Job",
         "defaultResourceName": "diese Ressource",
@@ -426,6 +432,10 @@
     }
   },
   "sheet": {
+    "embedded": {
+      "untitled": "Blatt ohne Titel",
+      "maxOpenReached": "Es können nicht mehr als {{maxOpenSheets}} eingebettete Blätter gleichzeitig geöffnet werden. Schließen Sie ein eingebettetes Blatt, um dieses zu öffnen."
+    },
     "emptyView": {
       "defaultError": {
         "description": "Dieses Blatt scheint leer zu sein.",
@@ -544,6 +554,12 @@
           },
           "replaceEmptyValues": "Leere Werte ersetzen"
         },
+        "filterByValue": {
+          "label": "Nach Wert filtern",
+          "moreOptions": "Die ersten {{pageSize}} Optionen werden angezeigt. Suchen Sie, um mehr zu sehen.",
+          "noData": "keine Daten",
+          "placeholder": "Werte suchen oder auswählen..."
+        },
         "pin": {
           "apply": "Spalte anheften",
           "remove": "Nicht mehr anheften",
@@ -602,16 +618,16 @@
           "heading": "Möchten Sie diese Datei herunterladen?"
         },
         "deleteAlert": {
-          "descriptionEnd": "Die Datensätze, die Sie in Flatfile sehen, sind möglicherweise nicht genau in der gleichen Reihenfolge wie Ihre Quelldatei. Flatfile modifiziert Ihre Daten auf intelligente Weise, um leere Datensätze, Duplikate usw. zu entfernen. Wir empfehlen, jeweils nicht mehr als 100 Datensätze einzufügen.",
-          "descriptionStart": "Wir haben festgestellt, dass Sie versuchen Daten aus mehr als 100 Aufzeichnungen zu löschen. Wir begrenzen Löschaktionen auf 100 Aufzeichnungen gleichzeitig, um Ihre Daten zu schützen.",
+          "description": "Das Löschen von mehr als 100 vorhandenen Datensätzen wird derzeit nicht unterstützt. Wir haben es begrenzt, um Ihnen eine bessere Erfahrung zu bieten, während wir Ihre Daten <1>intelligent modifizieren</1>.",
+          "tooltip": "Leere Datensätze, Duplikate usw. entfernen",
           "dismissButton": "Ablehnen",
-          "heading": "Sie haben unser Löschlimit erreicht!"
+          "heading": "Löschlimit für vorhandene Daten erreicht"
         },
         "pasteAlert": {
-          "descriptionEnd": "Die Datensätze, die Sie in Flatfile sehen, sind möglicherweise nicht genau in der gleichen Reihenfolge wie Ihre Quelldatei. Flatfile modifiziert Ihre Daten auf intelligente Weise, um leere Datensätze, Duplikate usw. zu entfernen. Wir empfehlen, jeweils nicht mehr als 100 Datensätze einzufügen.",
-          "descriptionStart": "Wir haben festgestellt, dass Sie versuchen, Daten über mehr als 100 Datensätze einzufügen. Wir beschränken das Einfügen auf 100 Datensätze, um die Integrität Ihrer Daten zu wahren.",
+          "description": "Das Einfügen von mehr als 100 vorhandenen Datensätzen wird derzeit nicht unterstützt. Wir haben es begrenzt, um Ihnen eine bessere Erfahrung zu bieten, während wir Ihre Daten <1>intelligent modifizieren</1>.",
+          "tooltip": "Leere Datensätze, Duplikate usw. entfernen",
           "dismissButton": "Ablehnen",
-          "heading": "Sie haben unser Limit für das Einfügen erreicht!"
+          "heading": "Grenze für das Einfügen von Daten in vorhandene Daten erreicht"
         }
       }
     },
@@ -713,7 +729,10 @@
           },
           "filtered": "Dieser Datensatz wurde gefiltert und zeigt {{filteredCount}} der {{countString}} {{filter}}-Einträge an.",
           "filteredByError": "Dieser Datensatz wurde über den Fehlerfilter gefiltert und zeigt {{filteredCount}} der {{countString}} {{filter}}-Datensätze an.",
-          "filteredByFFQL": "Dieser Datensatz wurde über die Flatfile Query Language gefiltert und zeigt {{filteredCount}} der {{countString}} {{filter}}-Einträge an.",
+          "filteredByFFQL": {
+            "branded": "Dieser Datensatz wurde über die Flatfile Query Language gefiltert und zeigt {{filteredCount}} der {{countString}} {{filter}}-Einträge an.",
+            "whitelabeled": "Dieser Datensatz wurde gefiltert, um {{filteredCount}} der {{countString}} {{filter}} Datensätze anzuzeigen."
+          },
           "filteredBySearch": "Dieser Datensatz wurde über die Suche gefiltert und zeigt {{filteredCount}} der {{countString}} {{filter}}-Einträge an.",
           "filteredBySearchAndError": "Dieser Datensatz wurde über die Suche und den Fehlerfilter gefiltert und zeigt {{filteredCount}} der {{countString}} {{filter}}-Einträge an.",
           "inactiveCount": "{{countString}} {{filter}}-Einträge, {{filteredCount}} gefiltert"
@@ -761,6 +780,10 @@
         "deletedSince": "Hinzugefügt",
         "updatedSince": "Geändert"
       },
+      "header": {
+        "title": "Änderungen vorgenommen in",
+        "titleWithMeta": "Änderungen vorgenommen in <1>{{sheet}}</1> von <3>{{action}}</3>"
+      },
       "message": "Durch das Akzeptieren von Änderungen werden alle neuen Werte in Ihr Blatt {{name}} eingefügt.",
       "submitButton": "Änderungen akzeptieren",
       "submitError": "Die Snapshot-Änderungen konnten aufgrund eines unerwarteten Fehlers nicht übernommen werden.",
@@ -792,8 +815,7 @@
             "oneField": "Daten wurden in 1 Datensatz in 1 Feld geändert."
           }
         }
-      },
-      "title": "Änderungen vorgenommen in"
+      }
     },
     "cells": {
       "messages": {
@@ -817,6 +839,9 @@
         "createdSince": "Entfernen",
         "deletedSince": "Hinzufügen",
         "updatedSince": "Ändern"
+      },
+      "header": {
+        "title": "Die Änderungen sollen angewendet werden auf"
       },
       "message": "Ihr Arbeitsblatt {{name}} wird in der Version dieses Schnappschusses wiederhergestellt.",
       "submitButton": "Wiederherstellen",
@@ -849,8 +874,10 @@
             "oneField": "Die Daten ändern sich in 1 Datensatz in 1 Feld."
           }
         }
-      },
-      "title": "Die Änderungen sollen angewendet werden auf"
+      }
+    },
+    "tooltips": {
+      "sheet": "{{sheet}} im {{workbook}}"
     }
   },
   "spaceLoadingMessage": "Raum wird vorbereitet",

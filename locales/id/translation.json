@@ -42,7 +42,10 @@
           "stepThree": "Melakukan",
           "stepTwo": "Menulis"
         },
-        "description": "minta AI untuk menulis kueri untuk Anda di FFQL",
+        "description": {
+          "branded": "minta AI untuk menulis kueri untuk Anda di FFQL",
+          "whitelabeled": "minta AI menulis query untuk Anda"
+        },
         "errorBanner": {
           "generalError": "Terjadi masalah. Silakan coba lagi."
         },
@@ -70,6 +73,7 @@
         "review": {
           "codeTitle": "Kode",
           "description": "Inilah yang saya temukan. Baca penjelasan langkah demi langkah dan kuerinya, dan jika terlihat bagus, klik di bawah untuk menerapkannya.",
+          "planTitle": "Rencana",
           "warning": "Peringatan: Ini akan mentransformasi data Anda"
         },
         "transforming": {
@@ -84,9 +88,11 @@
     "commands": {
       "filter": {
         "apply": "Terapkan Filter.",
-        "description": "tulis pernyataan FFQL",
-        "learnHow": "pelajari caranya",
-        "link": "Pelajari selengkapnya tentang filter FFQL"
+        "description": {
+          "branded": "tulis pernyataan FFQL",
+          "whitelabeled": "tulis sebuah query"
+        },
+        "learnHow": "pelajari caranya"
       },
       "search": {
         "global": {
@@ -100,6 +106,7 @@
         }
       }
     },
+    "itemMessage": "tekan {{icon}} untuk menerapkan",
     "placeholder": "Temukan atau lakukan sesuatu..."
   },
   "document": {
@@ -208,8 +215,7 @@
           "defaultConfirmButton": "Konfirmasikan",
           "defaultLoadingButton": "Memuat...",
           "isRequired": "{{field}} diperlukan",
-          "mustBeNumber": "{{field}} harus berupa angka",
-          "optional": "opsional"
+          "mustBeNumber": "{{field}} harus berupa angka"
         },
         "defaultJobName": "Pekerjaan",
         "defaultResourceName": "sumber daya ini",
@@ -416,6 +422,10 @@
     }
   },
   "sheet": {
+    "embedded": {
+      "untitled": "Lembar tanpa judul",
+      "maxOpenReached": "Tidak dapat membuka lebih dari {{maxOpenSheets}} lembar tertanam sekaligus. Tutup lembar yang disematkan untuk membuka lembar ini."
+    },
     "emptyView": {
       "defaultError": {
         "description": "Sepertinya lembar ini kosong.",
@@ -587,16 +597,16 @@
           "heading": "Anda ingin mengunduh berkas ini?"
         },
         "deleteAlert": {
-          "descriptionEnd": "Rekaman yang Anda lihat dalam Flatfile mungkin urutannya tidak sama persis dengan berkas sumber Anda—Flatfile secara pintar memodifikasi data Anda untuk menghapus rekaman kosong, duplikat, dll. Kami tidak sarankan menempel lebih dari 100 rekaman pada satu waktu.",
-          "descriptionStart": "Kami lihat Anda mencoba menghapus data di lebih dari 100 rekaman. Kami membatasi penghapusan hingga 100 rekaman guna menjaga integritas data Anda.",
+          "description": "Menghapus lebih dari 100 catatan yang ada tidak didukung saat ini. Kami telah membatasinya untuk memberikan pengalaman yang lebih baik saat kami <1>mengubah data Anda dengan cerdas</1>.",
+          "tooltip": "Hapus catatan kosong, duplikat, dll",
           "dismissButton": "Tutup",
-          "heading": "Anda telah mencapai batas hapus kami!"
+          "heading": "Batas penghapusan atas data yang ada tercapai"
         },
         "pasteAlert": {
-          "descriptionEnd": "Rekaman yang Anda lihat dalam Flatfile mungkin urutannya tidak sama persis dengan berkas sumber Anda—Flatfile secara pintar memodifikasi data Anda untuk menghapus rekaman kosong, duplikat, dll. Kami tidak sarankan menempel lebih dari 100 rekaman pada satu waktu.",
-          "descriptionStart": "Kami lihat Anda mencoba menempel data di lebih dari 100 rekaman. Kami membatasi penempelan hingga 100 rekaman guna menjaga integritas data Anda.",
+          "description": "Menyisipkan lebih dari 100 catatan yang ada tidak didukung saat ini. Kami telah membatasinya untuk memberikan pengalaman yang lebih baik saat kami <1>mengubah data Anda dengan cerdas</1>.",
+          "tooltip": "Hapus catatan kosong, duplikat, dll",
           "dismissButton": "Tutup",
-          "heading": "Anda telah mencapai batas tempel kami!"
+          "heading": "Batas penyisipan pada data yang ada tercapai"
         }
       }
     },
@@ -693,7 +703,10 @@
           },
           "filtered": "Dataset ini telah difilter untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
           "filteredByError": "Dataset ini telah difilter melalui filter kesalahan untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
-          "filteredByFFQL": "Dataset ini telah difilter melalui Flatfile Query Language untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
+          "filteredByFFQL": {
+            "branded": "Dataset ini telah difilter melalui Flatfile Query Language untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
+            "whitelabeled": "Kumpulan data ini telah difilter untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}."
+          },
           "filteredBySearch": "Dataset ini telah difilter melalui pencarian untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
           "filteredBySearchAndError": "Dataset ini telah difilter melalui pencarian dan filter kesalahan untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
           "inactiveCount": "{{countString}} catatan {{filter}}, {{filteredCount}} difilter"
@@ -741,6 +754,10 @@
         "deletedSince": "Ditambahkan",
         "updatedSince": "Diubah"
       },
+      "header": {
+        "title": "Perubahan dilakukan di",
+        "titleWithMeta": "Perubahan dilakukan di <1>{{sheet}}</1> oleh <3>{{action}}</3>"
+      },
       "message": "Menerima perubahan akan menggabungkan semua nilai baru ke dalam lembar Anda {{name}}.",
       "submitButton": "Terima perubahan",
       "submitError": "Perubahan snapshot tidak dapat diterapkan karena terjadi kesalahan yang tidak terduga.",
@@ -772,8 +789,7 @@
             "oneField": "Data diubah dalam 1 catatan di 1 bidang."
           }
         }
-      },
-      "title": "Perubahan dilakukan di"
+      }
     },
     "cells": {
       "messages": {
@@ -797,6 +813,9 @@
         "createdSince": "Hapus",
         "deletedSince": "Tambah",
         "updatedSince": "Ubah"
+      },
+      "header": {
+        "title": "Perubahan untuk diterapkan"
       },
       "message": "Lembar Anda {{name}} akan dikembalikan ke versi dalam snapshot ini.",
       "submitButton": "Kembalikan",
@@ -829,8 +848,10 @@
             "oneField": "Data akan berubah dalam 1 rekaman di 1 bidang."
           }
         }
-      },
-      "title": "Perubahan untuk diterapkan"
+      }
+    },
+    "tooltips": {
+      "sheet": "{{sheet}} di {{workbook}}"
     }
   },
   "spaceLoadingMessage": "Menyiapkan Ruang...",
