@@ -42,7 +42,10 @@
           "stepThree": "Doing",
           "stepTwo": "Writing"
         },
-        "description": "ask AI to write a query for you in FFQL",
+        "description": {
+          "branded": "ask AI to write a query for you in FFQL",
+          "whitelabeled": "ask AI to write a query for you"
+        },
         "errorBanner": {
           "generalError": "Something went wrong. Please try again."
         },
@@ -70,6 +73,7 @@
         "review": {
           "codeTitle": "Code",
           "description": "Here's what I came up with. Read the step by step explanation and the query, and if it looks good, click below to apply it.",
+          "planTitle": "Plan",
           "warning": "Warning: This will transform your data"
         },
         "transforming": {
@@ -84,9 +88,11 @@
     "commands": {
       "filter": {
         "apply": "Apply Filter.",
-        "description": "write an FFQL statement",
-        "learnHow": "learn how",
-        "link": "Learn more about FFQL filters"
+        "description": {
+          "branded": "write an FFQL statement",
+          "whitelabeled": "write a query"
+        },
+        "learnHow": "learn how"
       },
       "search": {
         "global": {
@@ -100,6 +106,7 @@
         }
       }
     },
+    "itemMessage": "press {{icon}} to apply",
     "placeholder": "Find or do anything..."
   },
   "document": {
@@ -208,8 +215,7 @@
           "defaultConfirmButton": "Confirm",
           "defaultLoadingButton": "Loading...",
           "isRequired": "{{field}} is required",
-          "mustBeNumber": "{{field}} must be a number",
-          "optional": "optional"
+          "mustBeNumber": "{{field}} must be a number"
         },
         "defaultJobName": "Job",
         "defaultResourceName": "this resource",
@@ -416,6 +422,10 @@
     }
   },
   "sheet": {
+    "embedded": {
+      "untitled": "Untitled Sheet",
+      "maxOpenReached": "Cannot open more than {{maxOpenSheets}} embedded sheets at once. Close an embedded sheet to open this one."
+    },
     "emptyView": {
       "defaultError": {
         "description": "This sheet appears to be empty.",
@@ -529,6 +539,12 @@
           },
           "replaceEmptyValues": "Replace empty values"
         },
+        "filterByValue": {
+          "label": "Filter by value",
+          "moreOptions": "Showing first {{pageSize}} options. Search to see more.",
+          "noData": "no data",
+          "placeholder": "Search or select values..."
+        },
         "pin": {
           "apply": "Pin column",
           "remove": "Remove pin",
@@ -587,16 +603,16 @@
           "heading": "Would you like to download this file?"
         },
         "deleteAlert": {
-          "descriptionEnd": "The records you see inside Flatfile may not be in the exact same order as your source file -- Flatfile intelligently modifies your data to remove empty records, duplicates, etc. We don't recommend pasting more than 100 records at a time.",
-          "descriptionStart": "We noticed you're trying to delete data over more than 100 records. We limit delete to 100 records at a time in order to maintain the integrity of your data.",
+          "description": "Deleting over more than 100 existing records isn't supported at this time. We've limited it to provide a better experience as we <1>intelligently modify</1> your data.",
+          "tooltip": "Remove empty records, duplicates, etc",
           "dismissButton": "Dismiss",
-          "heading": "You've hit our delete limit!"
+          "heading": "Deleting limit over existing data reached"
         },
         "pasteAlert": {
-          "descriptionEnd": "The records you see inside Flatfile may not be in the exact same order as your source file -- Flatfile intelligently modifies your data to remove empty records, duplicates, etc. We don't recommend pasting more than 100 records at a time.",
-          "descriptionStart": "We noticed you're trying to paste data over more than 100 records. We limit pasting to 100 records in order to maintain the integrity of your data.",
+          "description": "Pasting over more than 100 existing records isn't supported at this time. We've limited it to provide a better experience as we <1>intelligently modify</1> your data.",
+          "tooltip": "Remove empty records, duplicates, etc",
           "dismissButton": "Dismiss",
-          "heading": "You've hit our paste limit!"
+          "heading": "Pasting limit over existing data reached"
         }
       }
     },
@@ -693,7 +709,10 @@
           },
           "filtered": "This dataset has been filtered to show {{filteredCount}} of the {{countString}} {{filter}} records.",
           "filteredByError": "This dataset has been filtered via the error filter to show {{filteredCount}} of the {{countString}} {{filter}} records.",
-          "filteredByFFQL": "This dataset has been filtered via the Flatfile Query Language to show {{filteredCount}} of the {{countString}} {{filter}} records.",
+          "filteredByFFQL": {
+            "branded": "This dataset has been filtered via the Flatfile Query Language to show {{filteredCount}} of the {{countString}} {{filter}} records.",
+            "whitelabeled": "This dataset has been filtered to show {{filteredCount}} of the {{countString}} {{filter}} records."
+          },
           "filteredBySearch": "This dataset has been filtered via search to show {{filteredCount}} of the {{countString}} {{filter}} records.",
           "filteredBySearchAndError": "This dataset has been filtered via search and the error filter to show {{filteredCount}} of the {{countString}} {{filter}} records.",
           "inactiveCount": "{{countString}} {{filter}} records, {{filteredCount}} filtered"
@@ -741,6 +760,10 @@
         "deletedSince": "Added",
         "updatedSince": "Modified"
       },
+      "header": {
+        "title": "Changes made in",
+        "titleWithMeta": "Changes made in <1>{{sheet}}</1> by <3>{{action}}</3>"
+      },
       "message": "Accepting changes merges all new values into your sheet {{name}}.",
       "submitButton": "Accept changes",
       "submitError": "The snapshot changes could not be applied due to an unexpected error.",
@@ -772,8 +795,7 @@
             "oneField": "Data changed in 1 record across 1 field."
           }
         }
-      },
-      "title": "Changes made in"
+      }
     },
     "cells": {
       "messages": {
@@ -797,6 +819,9 @@
         "createdSince": "Remove",
         "deletedSince": "Add",
         "updatedSince": "Modify"
+      },
+      "header": {
+        "title": "Changes to apply in"
       },
       "message": "Your sheet {{name}} will be restored to the version in this snapshot.",
       "submitButton": "Restore",
@@ -829,8 +854,10 @@
             "oneField": "Data will change in 1 record across 1 field."
           }
         }
-      },
-      "title": "Changes to apply in"
+      }
+    },
+    "tooltips": {
+      "sheet": "{{sheet}} in {{workbook}}"
     }
   },
   "spaceLoadingMessage": "Preparing Space...",
