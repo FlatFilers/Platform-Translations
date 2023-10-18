@@ -539,6 +539,12 @@
           },
           "replaceEmptyValues": "Ganti nilai yang kosong"
         },
+        "filterByValue": {
+          "label": "Filter berdasarkan nilai",
+          "moreOptions": "Menampilkan {{pageSize}} opsi pertama. Cari untuk melihat lebih banyak.",
+          "noData": "tidak ada data",
+          "placeholder": "Cari atau pilih nilai..."
+        },
         "pin": {
           "apply": "Sematkan kolom",
           "remove": "Hapus pin",
