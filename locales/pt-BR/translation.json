@@ -43,8 +43,8 @@
           "stepTwo": "Escrevendo"
         },
         "description": {
-          "branded": "peça que a IA escreva uma consulta para você em FFQL",
-          "whitelabeled": "peça para a IA escrever uma consulta para você"
+          "branded": "pedir à IA para escrever uma solicitação para você em FFQL",
+          "whitelabeled": "pedir à IA para escrever uma solicitação para você"
         },
         "errorBanner": {
           "generalError": "Algo deu errado. Tente novamente."
@@ -89,8 +89,8 @@
       "filter": {
         "apply": "Aplicar filtro.",
         "description": {
-          "branded": "escreva uma declaração FFQL",
-          "whitelabeled": "escreva uma consulta"
+          "branded": "escrever uma afirmação FFQL",
+          "whitelabeled": "escrever uma solicitação"
         },
         "learnHow": "saiba como"
       },
@@ -116,6 +116,7 @@
     }
   },
   "errors": {
+    "documentNotFound": "Documento não encontrado",
     "fileNotFound": "Arquivo não encontrado",
     "missingParameter": "Parâmetro não fornecido",
     "notFound": "Não encontrado",
@@ -432,9 +433,18 @@
     }
   },
   "sheet": {
+    "columnManagement": {
+      "noFields": "sem campos",
+      "noMatches": "sem correspondências",
+      "placeholder_one": "Pesquise ou selecione em 1 campo...",
+      "placeholder_other": "Pesquise ou selecione entre {{count}} campos...",
+      "tooltip_one": "1 coluna oculta",
+      "tooltip_other": "{{count}} colunas ocultas",
+      "tooltip_zero": "Gerenciar colunas"
+    },
     "embedded": {
-      "untitled": "Planilha sem título",
-      "maxOpenReached": "Não é possível abrir mais de {{maxOpenSheets}} planilhas incorporadas de uma só vez. Feche uma planilha incorporada para abrir esta.."
+      "maxOpenReached": "Não é possível abrir mais do que {{maxOpenSheets}} planilhas incorporadas de uma vez. Feche uma planilha incorporada para abrir essa nova.",
+      "untitled": "Planilha sem título"
     },
     "emptyView": {
       "defaultError": {
@@ -443,6 +453,10 @@
       },
       "heading": "Vamos começar",
       "manualEntry": "Insira os dados manualmente",
+      "noColumns": {
+        "description": "Você ocultou todas as colunas da visualização.",
+        "heading": "Nada para ver!"
+      },
       "noSheetError": {
         "description": "Essa planilha não parece existir.",
         "heading": "Planilha não encontrada"
@@ -500,6 +514,12 @@
         }
       },
       "contextMenu": {
+        "filterByValue": {
+          "label": "Filtrar por valor",
+          "moreOptions": "Exibido as opções de {{pageSize}} primeiro. Faça uma busca para ver mais.",
+          "noData": "nenhum dado",
+          "placeholder": "Buscar ou selecionar valores..."
+        },
         "findAndReplace": {
           "findAndReplaceValues": "Encontrar e substituir",
           "modal": {
@@ -553,12 +573,6 @@
             "searchResultsCount_zero": "{{count}} correspondências"
           },
           "replaceEmptyValues": "Substituir os valores vazios"
-        },
-        "filterByValue": {
-          "label": "Filtrar por valor",
-          "moreOptions": "Mostrando as primeiras {{pageSize}} opções. Pesquise para ver mais.",
-          "noData": "sem dados",
-          "placeholder": "Pesquisar ou selecionar valores..."
         },
         "pin": {
           "apply": "Fixar coluna",
@@ -618,16 +632,16 @@
           "heading": "Gostaria de baixar este arquivo?"
         },
         "deleteAlert": {
-          "description": "A exclusão de mais de 100 registros existentes não é suportada no momento. Limitamos isso para proporcionar uma melhor experiência enquanto <1>modificamos inteligentemente</1> seus dados.",
-          "tooltip": "Remover registros vazios, duplicados, etc.",
+          "description": "Não é possível apagar mais de 100 registros existentes no momento. Limitamos essa opção para garantir uma melhor experiência enquanto nós <1>modificamos inteligentemente</1> os seus dados.",
           "dismissButton": "Dispensar",
-          "heading": "Limite de exclusão sobre dados existentes alcançado"
+          "heading": "Você atingiu nosso limite de exclusão!",
+          "tooltip": "Remover registros vazios, duplicatas etc."
         },
         "pasteAlert": {
-          "description": "Colar mais de 100 registros existentes não é suportado neste momento. Limitamos isso para proporcionar uma melhor experiência enquanto <1>modificamos inteligentemente</1> seus dados.",
-          "tooltip": "Remover registros vazios, duplicados, etc.",
+          "description": "Não é possível colar mais de 100 registros existentes no momento. Limitamos essa opção para garantir uma melhor experiência enquanto nós <1>modificamos inteligentemente</1> os seus dados.",
           "dismissButton": "Dispensar",
-          "heading": "Limite de colagem sobre dados existentes alcançado"
+          "heading": "Você atingiu nosso limite de colagem!",
+          "tooltip": "Remover registros vazios, duplicatas etc."
         }
       }
     },
@@ -730,8 +744,8 @@
           "filtered": "Esta base de dados foi filtrada para mostrar {{filteredCount}} dos {{countString}} {{filter}} registros.",
           "filteredByError": "Esta base de dados foi filtrada através do erro filtrado para mostrar {{filteredCount}} dos {{countString}} {{filter}} registros.",
           "filteredByFFQL": {
-            "branded": "Esta base de dados foi filtrada através da Flatfile Query Language para mostrar {{filteredCount}} dos {{countString}} {{filter}} registros.",
-            "whitelabeled": "Este conjunto de dados foi filtrado para mostrar {{filteredCount}} dos {{countString}} registros {{filter}}."
+            "branded": "Este conjunto de dados foi filtrado pela Flatfile Query Language para exibir {{filteredCount}} dos {{countString}} registros {{filter}}.",
+            "whitelabeled": "Este conjunto de dados foi filtrado para exibir {{filteredCount}} dos {{countString}} registros {{filter}}."
           },
           "filteredBySearch": "Esta base de dados foi filtrada pela procura para mostrar {{filteredCount}} dos {{countString}} {{filter}} registros.",
           "filteredBySearchAndError": "Esta base de dados foi filtrada através da procura e o erro filtrou para mostrar {{filteredCount}} dos {{countString}} {{filter}} registros.",
@@ -744,6 +758,7 @@
         "placeholder": "Pesquisar ou selecionar..."
       },
       "searchBar": {
+        "expandTooltip": "Abrir pesquisar e AI Assist",
         "placeholder": "Procurar...",
         "tooltip": "Aperte enter para procurar"
       }
@@ -781,7 +796,7 @@
         "updatedSince": "Modificado"
       },
       "header": {
-        "title": "Mudanças feitas em",
+        "title": "Alterações feitas em",
         "titleWithMeta": "Alterações feitas em <1>{{sheet}}</1> por <3>{{action}}</3>"
       },
       "message": "Aceitar as mudanças mescla todos os novos valores dentro de sua folha {{name}}.",
@@ -815,7 +830,8 @@
             "oneField": "Dados mudados em 1 registro através de 1 campo."
           }
         }
-      }
+      },
+      "title": "Mudanças feitas em"
     },
     "cells": {
       "messages": {
@@ -841,7 +857,7 @@
         "updatedSince": "Modificar"
       },
       "header": {
-        "title": "Alterações a serem aplicadas em"
+        "title": "Alterações a aplicar em"
       },
       "message": "Sua planilha {{name}} será restaurada à versão desta imagem.",
       "submitButton": "Restaurar",
@@ -874,13 +890,20 @@
             "oneField": "Dados mudarão em 1 registro através de 1 campo."
           }
         }
-      }
+      },
+      "title": "Alterações a serem aplicadas em"
     },
     "tooltips": {
       "sheet": "{{sheet}} em {{workbook}}"
     }
   },
   "spaceLoadingMessage": "Preparando espaço...",
+  "utils": {
+    "buttons": {
+      "selectAll": "Selecionar tudo",
+      "clearAll": "Limpar tudo"
+    }
+  },
   "versionHistory": {
     "modals": {
       "default": {
@@ -903,19 +926,6 @@
           "closeButton": "Fechar",
           "description": "A versão selecionada foi excluída.",
           "heading": "Versão excluída"
-        }
-      },
-      "restore": {
-        "confirm": {
-          "closeButton": "Fechar",
-          "description": "Você está prestes a restaurar os dados da sua planilha para uma versão anterior. Deseja continuar?",
-          "heading": "Confirmar restauração da versão",
-          "proceedButton": "Continuar"
-        },
-        "success": {
-          "closeButton": "Fechar",
-          "description": "Sua planilha foi restaurada com sucesso para uma versão mais antiga! Informe todos os colaboradores da planilha para atualizarem seus navegadores para minimizar o risco de problemas",
-          "heading": "Versão restaurada com sucesso"
         }
       }
     },

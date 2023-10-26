@@ -116,6 +116,7 @@
     }
   },
   "errors": {
+    "documentNotFound": "Document not found",
     "fileNotFound": "File not found",
     "missingParameter": "Parameter not provided",
     "notFound": "Not found",
@@ -422,9 +423,18 @@
     }
   },
   "sheet": {
+    "columnManagement": {
+      "noFields": "no fields",
+      "noMatches": "no matches",
+      "placeholder_one": "Search or select from 1 field...",
+      "placeholder_other": "Search or select from {{count}} fields...",
+      "tooltip_one": "1 column hidden",
+      "tooltip_other": "{{count}} columns hidden",
+      "tooltip_zero": "Manage columns"
+    },
     "embedded": {
-      "untitled": "Untitled Sheet",
-      "maxOpenReached": "Cannot open more than {{maxOpenSheets}} embedded sheets at once. Close an embedded sheet to open this one."
+      "maxOpenReached": "Cannot open more than {{maxOpenSheets}} embedded sheets at once. Close an embedded sheet to open this one.",
+      "untitled": "Untitled Sheet"
     },
     "emptyView": {
       "defaultError": {
@@ -433,6 +443,10 @@
       },
       "heading": "Let's get started",
       "manualEntry": "Manually enter data",
+      "noColumns": {
+        "description": "You've hidden all columns from view.",
+        "heading": "Nothing to see!"
+      },
       "noSheetError": {
         "description": "This sheet doesn't seem to exist.",
         "heading": "Sheet not found"
@@ -488,6 +502,12 @@
         }
       },
       "contextMenu": {
+        "filterByValue": {
+          "label": "Filter by value",
+          "moreOptions": "Showing first {{pageSize}} options. Search to see more.",
+          "noData": "no data",
+          "placeholder": "Search or select values..."
+        },
         "findAndReplace": {
           "findAndReplaceValues": "Find and replace",
           "modal": {
@@ -538,12 +558,6 @@
             "searchResultsCount_other": "{{count}} matches"
           },
           "replaceEmptyValues": "Replace empty values"
-        },
-        "filterByValue": {
-          "label": "Filter by value",
-          "moreOptions": "Showing first {{pageSize}} options. Search to see more.",
-          "noData": "no data",
-          "placeholder": "Search or select values..."
         },
         "pin": {
           "apply": "Pin column",
@@ -604,15 +618,15 @@
         },
         "deleteAlert": {
           "description": "Deleting over more than 100 existing records isn't supported at this time. We've limited it to provide a better experience as we <1>intelligently modify</1> your data.",
-          "tooltip": "Remove empty records, duplicates, etc",
           "dismissButton": "Dismiss",
-          "heading": "Deleting limit over existing data reached"
+          "heading": "You've hit our delete limit!",
+          "tooltip": "Remove empty records, duplicates, etc"
         },
         "pasteAlert": {
           "description": "Pasting over more than 100 existing records isn't supported at this time. We've limited it to provide a better experience as we <1>intelligently modify</1> your data.",
-          "tooltip": "Remove empty records, duplicates, etc",
           "dismissButton": "Dismiss",
-          "heading": "Pasting limit over existing data reached"
+          "heading": "You've hit our paste limit!",
+          "tooltip": "Remove empty records, duplicates, etc"
         }
       }
     },
@@ -724,6 +738,7 @@
         "placeholder": "Search or select..."
       },
       "searchBar": {
+        "expandTooltip": "Open search and AI Assist",
         "placeholder": "Search...",
         "tooltip": "Hit enter to search"
       }
@@ -795,7 +810,8 @@
             "oneField": "Data changed in 1 record across 1 field."
           }
         }
-      }
+      },
+      "title": "Changes made in"
     },
     "cells": {
       "messages": {
@@ -854,13 +870,20 @@
             "oneField": "Data will change in 1 record across 1 field."
           }
         }
-      }
+      },
+      "title": "Changes to apply in"
     },
     "tooltips": {
       "sheet": "{{sheet}} in {{workbook}}"
     }
   },
   "spaceLoadingMessage": "Preparing Space...",
+  "utils": {
+    "buttons": {
+      "selectAll": "Select All",
+      "clearAll": "Clear All"
+    }
+  },
   "versionHistory": {
     "modals": {
       "default": {
@@ -883,19 +906,6 @@
           "closeButton": "Close",
           "description": "The selected version has been deleted.",
           "heading": "Version Deleted"
-        }
-      },
-      "restore": {
-        "confirm": {
-          "closeButton": "Close",
-          "description": "You are about to restore your sheet data to a previous version - would you like to proceed?",
-          "heading": "Confirm Version Restore",
-          "proceedButton": "Proceed"
-        },
-        "success": {
-          "closeButton": "Close",
-          "description": "Your Sheet has been successfully restored to an older version! Please inform any collaborators within the sheet to refresh their browser to reduce the risk of issues",
-          "heading": "Version Restore Successful"
         }
       }
     },

@@ -43,8 +43,8 @@
           "stepTwo": "Escribir"
         },
         "description": {
-          "branded": "solicita a IA que escriba una consulta por ti en FFQL",
-          "whitelabeled": "pide a la IA que escriba una consulta para ti"
+          "branded": "pide a la IA que escriba una consulta por ti en FFQL",
+          "whitelabeled": "pide a la IA que escriba una consulta por ti"
         },
         "errorBanner": {
           "generalError": "Algo ha ido mal. Vuelve a intentarlo."
@@ -89,8 +89,8 @@
       "filter": {
         "apply": "Aplicar filtro.",
         "description": {
-          "branded": "escribe una secuencia FFQL",
-          "whitelabeled": "escribe una secuencia"
+          "branded": "escribir una sentencia FFQL",
+          "whitelabeled": "escribir una consulta"
         },
         "learnHow": "más información"
       },
@@ -106,7 +106,7 @@
         }
       }
     },
-    "itemMessage": "presiona {{icon}} para aplicar",
+    "itemMessage": "pulsa {{icon}} para aplicar",
     "placeholder": "Encuentra o realiza cualquier cosa..."
   },
   "document": {
@@ -116,6 +116,7 @@
     }
   },
   "errors": {
+    "documentNotFound": "No se ha encontrado el documento",
     "fileNotFound": "Archivo no encontrado",
     "missingParameter": "Parámetro no proporcionado",
     "notFound": "No se ha encontrado",
@@ -432,9 +433,18 @@
     }
   },
   "sheet": {
+    "columnManagement": {
+      "noFields": "sin campos",
+      "noMatches": "no hay coincidencias",
+      "placeholder_one": "Buscar o seleccionar entre 1 campo...",
+      "placeholder_other": "Buscar o seleccionar entre {{count}} campos...",
+      "tooltip_one": "1 columna oculta",
+      "tooltip_other": "{{count}} columnas ocultas",
+      "tooltip_zero": "Administrar columnas"
+    },
     "embedded": {
-      "untitled": "Hoja sin título",
-      "maxOpenReached": "No se pueden abrir más de {{maxOpenSheets}} hojas incrustadas a la vez. Cierre una hoja incrustada para abrir ésta."
+      "maxOpenReached": "No se pueden abrir más de {{maxOpenSheets}} hojas incrustadas a la vez. Cierra una hoja incrustada para abrir esta.",
+      "untitled": "Hoja sin título"
     },
     "emptyView": {
       "defaultError": {
@@ -443,6 +453,10 @@
       },
       "heading": "Comencemos",
       "manualEntry": "Introducir datos manualmente",
+      "noColumns": {
+        "description": "Has ocultado todas las columnas de la vista.",
+        "heading": "¡Nada que ver!"
+      },
       "noSheetError": {
         "description": "Parece que esta hoja no existe.",
         "heading": "No se ha encontrado la hoja"
@@ -500,6 +514,12 @@
         }
       },
       "contextMenu": {
+        "filterByValue": {
+          "label": "Filtrar por valor",
+          "moreOptions": "Mostrando las primeras {{pageSize}} opciones. Busca para ver más.",
+          "noData": "no hay datos",
+          "placeholder": "Buscar o seleccionar valores..."
+        },
         "findAndReplace": {
           "findAndReplaceValues": "Encontrar y reemplazar",
           "modal": {
@@ -553,12 +573,6 @@
             "searchResultsCount_zero": "{{count}} coincidencias"
           },
           "replaceEmptyValues": "Reemplazar valores vacíos"
-        },
-        "filterByValue": {
-          "label": "Filtrar por valor",
-          "moreOptions": "Mostrando las primeras {{pageSize}} opciones. Busca para ver más.",
-          "noData": "sin datos",
-          "placeholder": "Buscar o seleccionar valores..."
         },
         "pin": {
           "apply": "Fijar columna",
@@ -618,16 +632,16 @@
           "heading": "¿Quieres descargar este archivo?"
         },
         "deleteAlert": {
-          "description": "La eliminación de más de 100 registros existentes no está admitida en este momento. Lo hemos limitado para brindar una mejor experiencia mientras <1>modificamos de manera inteligente</1> sus datos.",
-          "tooltip": "Eliminar registros vacíos, duplicados, etc.",
+          "description": "En este momento no es posible eliminar más de 100 registros existentes. Hemos limitado esta opción para ofrecerte una mejor experiencia mientras <1>modificamos</1> tus datos de forma inteligente.",
           "dismissButton": "Descartar",
-          "heading": "Límite de eliminación sobre datos existentes alcanzado"
+          "heading": "¡Has alcanzado nuestro límite de eliminado!",
+          "tooltip": "Eliminar registros vacíos, duplicados, etc."
         },
         "pasteAlert": {
-          "description": "No se admite pegar más de 100 registros existentes en este momento. Lo hemos limitado para proporcionar una mejor experiencia mientras <1>modificamos inteligentemente</1> sus datos.",
-          "tooltip": "Eliminar registros vacíos, duplicados, etc.",
+          "description": "En este momento no es posible pegar más de 100 registros existentes. Hemos limitado esta opción para ofrecerte una mejor experiencia mientras <1>modificamos</1> tus datos de forma inteligente.",
           "dismissButton": "Descartar",
-          "heading": "Se alcanzó el límite de pegado sobre datos existentes"
+          "heading": "¡Has alcanzado nuestro límite de pegado!",
+          "tooltip": "Eliminar registros vacíos, duplicados, etc."
         }
       }
     },
@@ -730,8 +744,8 @@
           "filtered": "Esta base de datos fue filtrada para mostrar {{filteredCount}} de los {{countString}} {{filter}} registros.",
           "filteredByError": "Esta base de datos fue filtrada mediante el filtro de error para mostrar {{filteredCount}} de los {{countString}} {{filter}} registros.",
           "filteredByFFQL": {
-            "branded": "Esta base de datos fue filtrada mediante el lenguaje de consulta de Flatfile para mostrar {{filteredCount}} de los {{countString}} {{filter}} registros.",
-            "whitelabeled": "Este conjunto de datos ha sido filtrado para mostrar {{filteredCount}} de los {{countString}} registros {{filter}}."
+            "branded": "Este conjunto de datos se ha filtrado mediante Flatfile Query Language para mostrar {{filteredCount}} de los {{countString}} registros {{filter}}.",
+            "whitelabeled": "Este conjunto de datos se ha filtrado para mostrar {{filteredCount}} de los {{countString}} registros {{filter}}."
           },
           "filteredBySearch": "Esta base de datos fue filtrada mediante una búsqueda para mostrar {{filteredCount}} de los {{countString}} {{filter}} registros.",
           "filteredBySearchAndError": "Esta base de datos fue filtrada mediante una búsqueda y el filtro de error para mostrar {{filteredCount}} de los {{countString}} {{filter}} registros.",
@@ -744,6 +758,7 @@
         "placeholder": "Buscar o seleccionar..."
       },
       "searchBar": {
+        "expandTooltip": "Abrir buscar y Asistencia de IA",
         "placeholder": "Buscando...",
         "tooltip": "Pulse enter para buscar."
       }
@@ -781,7 +796,7 @@
         "updatedSince": "Modificado"
       },
       "header": {
-        "title": "Se han hecho cambios en",
+        "title": "Cambios realizados en",
         "titleWithMeta": "Cambios realizados en <1>{{sheet}}</1> por <3>{{action}}</3>"
       },
       "message": "Aceptar los cambios hace que se unifiquen todos los valores nuevos en tu hoja {{name}}.",
@@ -815,7 +830,8 @@
             "oneField": "Se han cambiado los datos en 1 registro en 1 casilla."
           }
         }
-      }
+      },
+      "title": "Se han hecho cambios en"
     },
     "cells": {
       "messages": {
@@ -841,7 +857,7 @@
         "updatedSince": "Modificar"
       },
       "header": {
-        "title": "Los cambios se aplican en"
+        "title": "Cambios que se aplicarán en"
       },
       "message": "Tu hoja {{name}} se restablecerá a la versión en esta captura.",
       "submitButton": "Restablecer",
@@ -874,13 +890,20 @@
             "oneField": "Los datos cambiarán en 1 registro en 1 casilla."
           }
         }
-      }
+      },
+      "title": "Los cambios se aplican en"
     },
     "tooltips": {
       "sheet": "{{sheet}} en {{workbook}}"
     }
   },
   "spaceLoadingMessage": "Preparando espacio...",
+  "utils": {
+    "buttons": {
+      "selectAll": "Seleccionar todo",
+      "clearAll": "Borrar todo"
+    }
+  },
   "versionHistory": {
     "modals": {
       "default": {
@@ -904,20 +927,7 @@
           "description": "Se ha eliminado la versión seleccionada.",
           "heading": "Versión eliminada"
         }
-      },
-      "restore": {
-        "confirm": {
-          "closeButton": "Cerrar",
-          "description": "Estás a punto de restaurar los datos de tu hoja a una versión anterior, ¿quieres proceder?",
-          "heading": "Confirmar la restauración de la versión",
-          "proceedButton": "Proceder"
-        },
-        "success": {
-          "closeButton": "Cerrar",
-          "description": "Tu hoja se ha restaurado correctamente a una versión anterior. Informa a todos los colaboradores de la hoja de que actualicen su navegador para reducir el riesgo de problemas.",
-          "heading": "Restauración de versión realizada con éxito"
-        }
-      }
+      }   
     },
     "panel": {
       "empty": "Las versiones, una vez generadas, aparecerán aquí. Normalmente, las versiones se generan automáticamente cuando se produce una transformación masiva de datos.",

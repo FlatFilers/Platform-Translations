@@ -43,8 +43,8 @@
           "stepTwo": "Menulis"
         },
         "description": {
-          "branded": "minta AI untuk menulis kueri untuk Anda di FFQL",
-          "whitelabeled": "minta AI menulis query untuk Anda"
+          "branded": "minta AI untuk menuliskan Anda kueri dalam FFQL",
+          "whitelabeled": "minta AI untuk menuliskan Anda kueri"
         },
         "errorBanner": {
           "generalError": "Terjadi masalah. Silakan coba lagi."
@@ -90,7 +90,7 @@
         "apply": "Terapkan Filter.",
         "description": {
           "branded": "tulis pernyataan FFQL",
-          "whitelabeled": "tulis sebuah query"
+          "whitelabeled": "tulis kueri"
         },
         "learnHow": "pelajari caranya"
       },
@@ -116,6 +116,7 @@
     }
   },
   "errors": {
+    "documentNotFound": "Dokumen tidak ditemukan",
     "fileNotFound": "File tidak ditemukan",
     "missingParameter": "Parameter tidak diberikan",
     "notFound": "Tidak ditemukan",
@@ -422,9 +423,18 @@
     }
   },
   "sheet": {
+    "columnManagement": {
+      "noFields": "tidak ada bidang",
+      "noMatches": "tidak ada kecocokan",
+      "placeholder_one": "Cari atau pilih dari 1 bidang...",
+      "placeholder_other": "Cari atau pilih dari {{count}} bidang...",
+      "tooltip_one": "1 kolom tersembunyi",
+      "tooltip_other": "{{count}} kolom disembunyikan",
+      "tooltip_zero": "Kelola kolom"
+    },
     "embedded": {
-      "untitled": "Lembar tanpa judul",
-      "maxOpenReached": "Tidak dapat membuka lebih dari {{maxOpenSheets}} lembar tertanam sekaligus. Tutup lembar yang disematkan untuk membuka lembar ini."
+      "maxOpenReached": "Tidak dapat membuka lebih dari {{maxOpenSheets}} lembar kerja yang disematkan sekaligus. Tutup lembar yang disematkan untuk membuka lembar ini.",
+      "untitled": "Lembar Tak Berjudul"
     },
     "emptyView": {
       "defaultError": {
@@ -433,6 +443,10 @@
       },
       "heading": "Mari mulai",
       "manualEntry": "Masukkan data secara manual",
+      "noColumns": {
+        "description": "Anda telah menyembunyikan semua kolom dari pandangan.",
+        "heading": "Tidak ada yang bisa dilihat!"
+      },
       "noSheetError": {
         "description": "Lembar ini sepertinya tidak ada.",
         "heading": "Lembar tidak ditemukan"
@@ -488,6 +502,12 @@
         }
       },
       "contextMenu": {
+        "filterByValue": {
+          "label": "Filter berdasarkan nilai",
+          "moreOptions": "Menampilkan opsi {{pageSize}} pertama. Cari untuk melihat lebih banyak.",
+          "noData": "tak ada data",
+          "placeholder": "Cari atau pilih nilai..."
+        },
         "findAndReplace": {
           "findAndReplaceValues": "Temukan dan ganti",
           "modal": {
@@ -538,12 +558,6 @@
             "searchResultsCount_zero": "{{count}} kecocokan"
           },
           "replaceEmptyValues": "Ganti nilai yang kosong"
-        },
-        "filterByValue": {
-          "label": "Filter berdasarkan nilai",
-          "moreOptions": "Menampilkan {{pageSize}} opsi pertama. Cari untuk melihat lebih banyak.",
-          "noData": "tidak ada data",
-          "placeholder": "Cari atau pilih nilai..."
         },
         "pin": {
           "apply": "Sematkan kolom",
@@ -603,16 +617,16 @@
           "heading": "Anda ingin mengunduh berkas ini?"
         },
         "deleteAlert": {
-          "description": "Menghapus lebih dari 100 catatan yang ada tidak didukung saat ini. Kami telah membatasinya untuk memberikan pengalaman yang lebih baik saat kami <1>mengubah data Anda dengan cerdas</1>.",
-          "tooltip": "Hapus catatan kosong, duplikat, dll",
+          "description": "Menghapus lebih dari 100 data yang ada tidak didukung saat ini. Kami telah membatasinya untuk memberikan pengalaman yang lebih baik saat kami <1>memodifikasi secara cerdas</1> data Anda.",
           "dismissButton": "Tutup",
-          "heading": "Batas penghapusan atas data yang ada tercapai"
+          "heading": "Anda telah mencapai batas hapus kami!",
+          "tooltip": "Hapus catatan kosong, duplikat, dll."
         },
         "pasteAlert": {
-          "description": "Menyisipkan lebih dari 100 catatan yang ada tidak didukung saat ini. Kami telah membatasinya untuk memberikan pengalaman yang lebih baik saat kami <1>mengubah data Anda dengan cerdas</1>.",
-          "tooltip": "Hapus catatan kosong, duplikat, dll",
+          "description": "Menempelkan lebih dari 100 data yang ada tidak didukung saat ini. Kami telah membatasinya untuk memberikan pengalaman yang lebih baik saat kami <1>memodifikasi secara cerdas</1> data Anda.",
           "dismissButton": "Tutup",
-          "heading": "Batas penyisipan pada data yang ada tercapai"
+          "heading": "Anda telah mencapai batas tempel kami!",
+          "tooltip": "Hapus catatan kosong, duplikat, dll."
         }
       }
     },
@@ -710,8 +724,8 @@
           "filtered": "Dataset ini telah difilter untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
           "filteredByError": "Dataset ini telah difilter melalui filter kesalahan untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
           "filteredByFFQL": {
-            "branded": "Dataset ini telah difilter melalui Flatfile Query Language untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
-            "whitelabeled": "Kumpulan data ini telah difilter untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}."
+            "branded": "Set data ini telah difilter melalui Flatfile Query Language untuk menampilkan {{filteredCount}} dari catatan {{countString}} {{filter}}.",
+            "whitelabeled": "Kumpulan data ini telah difilter untuk menampilkan {{filteredCount}} dari catatan {{countString}} {{filter}}."
           },
           "filteredBySearch": "Dataset ini telah difilter melalui pencarian untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
           "filteredBySearchAndError": "Dataset ini telah difilter melalui pencarian dan filter kesalahan untuk menampilkan {{filteredCount}} dari {{countString}} catatan {{filter}}.",
@@ -724,6 +738,7 @@
         "placeholder": "Cari atau pilih..."
       },
       "searchBar": {
+        "expandTooltip": "Buka pencarian dan Bantuan AI",
         "placeholder": "Cari...",
         "tooltip": "Tekan enter untuk mencari"
       }
@@ -761,8 +776,8 @@
         "updatedSince": "Diubah"
       },
       "header": {
-        "title": "Perubahan dilakukan di",
-        "titleWithMeta": "Perubahan dilakukan di <1>{{sheet}}</1> oleh <3>{{action}}</3>"
+        "title": "Perubahan yang dibuat di",
+        "titleWithMeta": "Perubahan yang dilakukan di <1>{{sheet}}</1> oleh <3>{{action}}</3"
       },
       "message": "Menerima perubahan akan menggabungkan semua nilai baru ke dalam lembar Anda {{name}}.",
       "submitButton": "Terima perubahan",
@@ -795,7 +810,8 @@
             "oneField": "Data diubah dalam 1 catatan di 1 bidang."
           }
         }
-      }
+      },
+      "title": "Perubahan dilakukan di"
     },
     "cells": {
       "messages": {
@@ -854,13 +870,20 @@
             "oneField": "Data akan berubah dalam 1 rekaman di 1 bidang."
           }
         }
-      }
+      },
+      "title": "Perubahan untuk diterapkan"
     },
     "tooltips": {
-      "sheet": "{{sheet}} di {{workbook}}"
+      "sheet": "{{sheet}}{{workbook}}"
     }
   },
   "spaceLoadingMessage": "Menyiapkan Ruang...",
+  "utils": {
+    "buttons": {
+      "selectAll": "Pilih Semua",
+      "clearAll": "Hapus Semua"
+    }
+  },
   "versionHistory": {
     "modals": {
       "default": {
@@ -883,19 +906,6 @@
           "closeButton": "Tutup",
           "description": "Versi yang dipilih telah dihapus.",
           "heading": "Versi Dihapus"
-        }
-      },
-      "restore": {
-        "confirm": {
-          "closeButton": "Tutup",
-          "description": "Anda akan memulihkan data lembar Anda ke versi sebelumnya—ingin lanjutkan?",
-          "heading": "Konfirmasi Pemulihan Versi",
-          "proceedButton": "Lanjut"
-        },
-        "success": {
-          "closeButton": "Tutup",
-          "description": "Lembar Anda telah berhasil dipulihkan ke versi lebih lama! Harap infokan para kolaborator dalam lembar ini untuk menyegarkan peramban mereka guna mengurangi risiko masalah",
-          "heading": "Pemulihan Versi Berhasil"
         }
       }
     },
