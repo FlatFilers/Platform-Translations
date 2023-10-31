@@ -43,8 +43,8 @@
           "stepTwo": "Écrit"
         },
         "description": {
-          "branded": "demandez à l'IA d'écrire une requête pour vous dans FFQL",
-          "whitelabeled": "demandez à l'IA d'écrire une requête pour vous"
+          "branded": "demander à l'IA d'écrire une requête pour vous en FFQL",
+          "whitelabeled": "demander à l'IA d'écrire une requête pour vous"
         },
         "errorBanner": {
           "generalError": "Une erreur s'est produite. Veuillez réessayer."
@@ -73,7 +73,7 @@
         "review": {
           "codeTitle": "Code",
           "description": "Voilà ce que j'ai trouvé. Lisez l'explication étape par étape ainsi que la requête, et si tout est correct, cliquez ci-dessous pour valider.",
-          "planTitle": "Plan",
+          "planTitle": "Planifier",
           "warning": "Avertissement : vos données seront transformé es"
         },
         "transforming": {
@@ -89,8 +89,8 @@
       "filter": {
         "apply": "Appliquer le filtre.",
         "description": {
-          "branded": "Écrire une requête FFQL",
-          "whitelabeled": "écrivez une requête"
+          "branded": "rédiger une déclaration FFQL",
+          "whitelabeled": "rédiger une requête"
         },
         "learnHow": "découvrez comment"
       },
@@ -106,7 +106,7 @@
         }
       }
     },
-    "itemMessage": "appuyez sur {{icon}} pour postuler",
+    "itemMessage": "appuyer sur {{icon}} pour appliquer",
     "placeholder": "Trouver ou faire quelque chose..."
   },
   "document": {
@@ -116,6 +116,7 @@
     }
   },
   "errors": {
+    "documentNotFound": "Document introuvable",
     "fileNotFound": "Fichier introuvable",
     "missingParameter": "Paramètre non fourni",
     "notFound": "Non trouvé(e)",
@@ -432,9 +433,18 @@
     }
   },
   "sheet": {
+    "columnManagement": {
+      "noFields": "aucun champ",
+      "noMatches": "aucune correspondance",
+      "placeholder_one": "Recherchez ou sélectionnez parmi 1 champ...",
+      "placeholder_other": "Recherchez ou sélectionnez parmi {{count}} champs...",
+      "tooltip_one": "1 colonne masquée",
+      "tooltip_other": "{{count}} colonnes masquées",
+      "tooltip_zero": "Gérer les colonnes"
+    },
     "embedded": {
-      "untitled": "Feuille sans titre",
-      "maxOpenReached": "Impossible d'ouvrir plus de {{maxOpenSheets}} feuilles intégrées à la fois. Fermez une feuille incorporée pour ouvrir celle-ci."
+      "maxOpenReached": "Impossible d'ouvrir simultanément plus de {{maxOpenSheets}} feuilles imbriquées. Fermez une feuille imbriquée pour ouvrir celle-ci.",
+      "untitled": "Feuille sans titre"
     },
     "emptyView": {
       "defaultError": {
@@ -443,6 +453,10 @@
       },
       "heading": "Démarrons",
       "manualEntry": "Saisir manuellement les données",
+      "noColumns": {
+        "description": "Vous avez masqué toutes les colonnes.",
+        "heading": "Rien à voir !"
+      },
       "noSheetError": {
         "description": "Cette feuille ne semble pas exister.",
         "heading": "Feuille non trouvée"
@@ -500,6 +514,12 @@
         }
       },
       "contextMenu": {
+        "filterByValue": {
+          "label": "Filtrer par valeur",
+          "moreOptions": "Afficher les premières options {{pageSize}}. Rechercher pour en voir plus.",
+          "noData": "pas de données",
+          "placeholder": "Rechercher ou sélectionner des valeurs..."
+        },
         "findAndReplace": {
           "findAndReplaceValues": "Rechercher et remplacer",
           "modal": {
@@ -553,12 +573,6 @@
             "searchResultsCount_zero": "{{count}} correspondances"
           },
           "replaceEmptyValues": "Remplacer les valeurs vides"
-        },
-        "filterByValue": {
-          "label": "Filtrer par valeur",
-          "moreOptions": "Affichage des {{pageSize}} premières options. Effectuez une recherche pour en voir plus.",
-          "noData": "aucune donnée",
-          "placeholder": "Rechercher ou sélectionner des valeurs..."
         },
         "pin": {
           "apply": "Colonne d'épingles",
@@ -618,16 +632,16 @@
           "heading": "Souhaitez-vous télécharger ce fichier ?"
         },
         "deleteAlert": {
-          "description": "La suppression de plus de 100 enregistrements existants n'est pas prise en charge pour le moment. Nous l'avons limitée pour vous offrir une meilleure expérience pendant que nous <1>modifions intelligemment</1> vos données.",
-          "tooltip": "Supprimer les enregistrements vides, les doublons, etc.",
+          "description": "La suppression de plus de 100 enregistrements existants n'est pas prise en charge pour le moment. Nous avons limité cette possibilité afin d'offrir une meilleure expérience à mesure que nous <1>modifions intelligemment</1> vos données.",
           "dismissButton": "Supprimer",
-          "heading": "Limite de suppression des données existantes atteinte"
+          "heading": "Vous avez atteint notre limite de suppression !",
+          "tooltip": "Supprimer les enregistrements vides, les doublons, etc."
         },
         "pasteAlert": {
-          "description": "Il n'est pas possible de coller plus de 100 enregistrements existants pour le moment. Nous l'avons limité pour offrir une meilleure expérience alors que nous <1>modifions intelligemment</1> vos données.",
-          "tooltip": "Supprimer les enregistrements vides, les doublons, etc.",
+          "description": "Le collage sur plus de 100 enregistrements existants n'est pas pris en charge pour le moment. Nous l'avons limité afin d'offrir une meilleure expérience à mesure que nous <1>modifions intelligemment</1> vos données.",
           "dismissButton": "Supprimer",
-          "heading": "Limite de collage atteinte sur les données existantes"
+          "heading": "Vous avez atteint notre limite de collage !",
+          "tooltip": "Supprimer les enregistrements vides, les doublons, etc."
         }
       }
     },
@@ -730,8 +744,8 @@
           "filtered": "Cet ensemble de données a été filtré pour afficher {{filteredCount}} des {{countString}} {{filter}} enregistrements.",
           "filteredByError": "Cet ensemble de données a été filtré via le filtre d'erreur pour afficher {{filteredCount}} des {{countString}} {{filter}} enregistrements.",
           "filteredByFFQL": {
-            "whitelabeled": "Cet ensemble de données a été filtré pour afficher {{filteredCount}} des {{countString}} enregistrements {{filter}}.",
-            "branded": "Cet ensemble de données a été filtré via le langage de requête Flatfile pour afficher {{filteredCount}} des {{countString}} {{filter}} enregistrements."
+            "branded": "Cet ensemble de données a été filtré via le Flatfile Query Language pour afficher {{filteredCount}} des {{countString}} enregistrements {{filter}}.",
+            "whitelabeled": "Cet ensemble de données a été filtré pour afficher {{filteredCount}} des {{countString}} enregistrements {{filter}}."
           },
           "filteredBySearch": "Cet ensemble de données a été filtré via la recherche pour afficher {{filteredCount}} des {{countString}} {{filter}} enregistrements.",
           "filteredBySearchAndError": "Cet ensemble de données a été filtré via la recherche et le filtre d'erreur pour afficher {{filteredCount}} des {{countString}} {{filter}} enregistrements.",
@@ -744,6 +758,7 @@
         "placeholder": "Rechercher ou sélectionner..."
       },
       "searchBar": {
+        "expandTooltip": "Ouvrir la recherche et AI Assist",
         "placeholder": "Rechercher...",
         "tooltip": "Appuyez sur Entrée pour lancer la recherche"
       }
@@ -781,8 +796,8 @@
         "updatedSince": "Modifié"
       },
       "header": {
-        "title": "Modifications apportées dans",
-        "titleWithMeta": "Modifications apportées dans <1>{{sheet}}</1> par <3>{{action}}</3>"
+        "title": "Modifications apportées à",
+        "titleWithMeta": "Modifications apportées à <1>{{sheet}}</1> par <3>{{action}}</3>"
       },
       "message": "L'acceptation des modifications fusionne toutes les nouvelles valeurs dans votre feuille {{name}}.",
       "submitButton": "Accepter les modifications",
@@ -815,7 +830,8 @@
             "oneField": "Données modifiées dans un seul enregistrement sur un seul champ."
           }
         }
-      }
+      },
+      "title": "Modifications apportées dans"
     },
     "cells": {
       "messages": {
@@ -841,7 +857,7 @@
         "updatedSince": "Modifier"
       },
       "header": {
-        "title": "Changements à appliquer dans"
+        "title": "Modifications à appliquer dans"
       },
       "message": "Votre feuille {{name}} sera restaurée selon la version de cet instantané.",
       "submitButton": "Restaurer",
@@ -874,13 +890,20 @@
             "oneField": "Les données seront modifiées dans un seul enregistrement sur un seul champ."
           }
         }
-      }
+      },
+      "title": "Changements à appliquer dans"
     },
     "tooltips": {
       "sheet": "{{sheet}} dans {{workbook}}"
     }
   },
   "spaceLoadingMessage": "Préparation de l'espace...",
+  "utils": {
+    "buttons": {
+      "selectAll": "Sélectionner tout",
+      "clearAll": "Effacer tout"
+    }
+  },
   "versionHistory": {
     "modals": {
       "default": {
@@ -903,19 +926,6 @@
           "closeButton": "Fermer",
           "description": "La version sélectionnée a été supprimée.",
           "heading": "Version supprimée"
-        }
-      },
-      "restore": {
-        "confirm": {
-          "closeButton": "Fermer",
-          "description": "Vous êtes sur le point de restaurer les données de votre feuille à une version antérieure – souhaitez-vous continuer ?",
-          "heading": "Confirmer la restauration de la version",
-          "proceedButton": "Continuer"
-        },
-        "success": {
-          "closeButton": "Fermer",
-          "description": "Votre feuille a été restaurée avec succès vers une version antérieure ! Veuillez informer tous les collaborateurs de la feuille de rafraîchir leur navigateur afin de réduire le risque de problèmes.",
-          "heading": "Version restaurée avec succès"
         }
       }
     },
