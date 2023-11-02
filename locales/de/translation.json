@@ -92,6 +92,10 @@
           "branded": "ein FFQL-Statement schreiben",
           "whitelabeled": "eine Query schreiben"
         },
+        "hiddenColumnsWarning_one": "1 Feld wird nach diesem Query nicht länger verborgen sein: {{fields}}",
+        "hiddenColumnsWarning_other": "{{count}} Felder werden nach diesem Query nicht länger verborgen sein: {{fields}}",
+        "hiddenColumnsWarning_zero": "{{count}} Felder werden nach diesem Query nicht länger verborgen sein: {{fields}}",
+        "invalidFFQL": "Ungültiges FFQL-Statement. Erneut versuchen?",
         "learnHow": "erfahren, wie"
       },
       "search": {
@@ -434,13 +438,26 @@
   },
   "sheet": {
     "columnManagement": {
+      "errorColumnTooltip": "Diese Spalte wird nach dem Filtern nach diesem Wert nicht länger verborgen sein",
       "noFields": "keine Felder",
-      "noMatches": "keine Übereinstimmungen",
-      "placeholder_one": "Suchen oder wählen Sie aus 1 Feld …",
-      "placeholder_other": "Suchen oder wählen Sie aus {{count}} Feldern aus …",
-      "tooltip_one": "1 Spalte ausgeblendet",
-      "tooltip_other": "{{count}} Spalten ausgeblendet",
-      "tooltip_zero": "Spalten verwalten"
+      "noMatches": "keine Treffer",
+      "placeholder_one": "Aus 1 Feld auswählen oder durchsuchen …",
+      "placeholder_other": "Aus {{count}} Feldern auswählen oder durchsuchen …",
+      "placeholder_zero": "Aus {{count}} Feldern auswählen oder durchsuchen …",
+      "toast": {
+        "action": "Nicht länger verbergen?",
+        "message_one": "1 Spalte mit Fehlern ist verborgen",
+        "message_other": "{{count}} Spalten mit Fehlern sind verborgen",
+        "message_zero": "{{count}} Spalten mit Fehlern sind verborgen"
+      },
+      "tooltip_one": "1 Spalte verborgen",
+      "tooltip_other": "{{count}} Spalten verborgen",
+      "tooltip_zero": "Spalten verwalten",
+      "unhideToast": {
+        "message_one": "1 Spalte ist wegen dieses Querys nicht länger verborgen",
+        "message_other": "{{count}} Spalten sind wegen dieses Querys nicht länger verborgen",
+        "message_zero": "{{count}} Spalten sind wegen dieses Querys nicht länger verborgen"
+      }
     },
     "embedded": {
       "maxOpenReached": "Es können nicht mehr als {{maxOpenSheets}} eingebettete Tabellen gleichzeitig geöffnet werden. Schließen Sie eine eingebettete Tabelle, um diese zu öffnen.",
@@ -454,8 +471,8 @@
       "heading": "Fangen wir an",
       "manualEntry": "Daten manuell eingeben",
       "noColumns": {
-        "description": "Sie haben alle Spalten ausgeblendet.",
-        "heading": "Nichts zu sehen!"
+        "description": "Alle Spalten wurden verborgen.",
+        "heading": "Hier gibt es nichts zu sehen!"
       },
       "noSheetError": {
         "description": "Dieses Blatt scheint nicht zu existieren.",
@@ -493,6 +510,8 @@
       "errors": {
         "cellUpdateFailed": "Etwas ist schief gelaufen. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut. Sollte dies weiterhin der Fall sein, wenden Sie sich bitte an den Support.",
         "invalidFFQL": "Bitte prüfen Sie Ihre Anfrage",
+        "invalidFFQLSearch": "Ungültiges FFQL-Statement",
+        "learnMore": "Mehr erfahren",
         "recordsLoadFailed": "Datensätze konnten nicht geladen werden"
       }
     },
@@ -758,7 +777,7 @@
         "placeholder": "Suchen oder auswählen …"
       },
       "searchBar": {
-        "expandTooltip": "Suche und AI Assist öffnen",
+        "expandTooltip": "Suche und KI-Unterstützung öffnen",
         "placeholder": "Suchen …",
         "tooltip": "Zum Suchen die Entertaste drücken"
       }
@@ -900,8 +919,8 @@
   "spaceLoadingMessage": "Raum wird vorbereitet",
   "utils": {
     "buttons": {
-      "selectAll": "Alle auswählen",
-      "clearAll": "Alles löschen"
+      "clearAll": "Alles löschen",
+      "selectAll": "Alles auswählen"
     }
   },
   "versionHistory": {

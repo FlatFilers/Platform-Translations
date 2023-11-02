@@ -92,6 +92,9 @@
           "branded": "write an FFQL statement",
           "whitelabeled": "write a query"
         },
+        "hiddenColumnsWarning_one": "1 field will be unhidden by this query: {{fields}}",
+        "hiddenColumnsWarning_other": "{{count}} fields will be unhidden by this query: {{fields}}",
+        "invalidFFQL": "Invalid FFQL statement. Try again?",
         "learnHow": "learn how"
       },
       "search": {
@@ -424,13 +427,23 @@
   },
   "sheet": {
     "columnManagement": {
+      "errorColumnTooltip": "Filtering by this value will unhide this column",
       "noFields": "no fields",
       "noMatches": "no matches",
       "placeholder_one": "Search or select from 1 field...",
       "placeholder_other": "Search or select from {{count}} fields...",
+      "toast": {
+        "action": "Unhide?",
+        "message_one": "1 column with errors is hidden",
+        "message_other": "{{count}} columns with errors are hidden"
+      },
       "tooltip_one": "1 column hidden",
       "tooltip_other": "{{count}} columns hidden",
-      "tooltip_zero": "Manage columns"
+      "tooltip_zero": "Manage columns",
+      "unhideToast": {
+        "message_one": "1 column was unhidden by this query",
+        "message_other": "{{count}} columns were unhidden by this query"
+      }
     },
     "embedded": {
       "maxOpenReached": "Cannot open more than {{maxOpenSheets}} embedded sheets at once. Close an embedded sheet to open this one.",
@@ -481,6 +494,8 @@
       "errors": {
         "cellUpdateFailed": "Something went wrong. Please refresh the page and try again. If this continues, please reach out to support",
         "invalidFFQL": "Please check your query",
+        "invalidFFQLSearch": "Invalid FFQL statement",
+        "learnMore": "Learn more",
         "recordsLoadFailed": "Records failed to load"
       }
     },
@@ -880,8 +895,8 @@
   "spaceLoadingMessage": "Preparing Space...",
   "utils": {
     "buttons": {
-      "selectAll": "Select All",
-      "clearAll": "Clear All"
+      "clearAll": "Clear All",
+      "selectAll": "Select All"
     }
   },
   "versionHistory": {
