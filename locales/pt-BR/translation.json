@@ -92,6 +92,10 @@
           "branded": "escrever uma afirmação FFQL",
           "whitelabeled": "escrever uma solicitação"
         },
+        "hiddenColumnsWarning_one": "1 campo será exibido por esta consulta: {{fields}}",
+        "hiddenColumnsWarning_other": "{{count}} campos serão exibidos por esta consulta: {{fields}}",
+        "hiddenColumnsWarning_zero": "{{count}} campos serão exibidos por esta consulta: {{fields}}",
+        "invalidFFQL": "Instrução FFQL inválida. Tentar novamente?",
         "learnHow": "saiba como"
       },
       "search": {
@@ -434,13 +438,26 @@
   },
   "sheet": {
     "columnManagement": {
+      "errorColumnTooltip": "Filtrar por esse valor irá exibir essa coluna",
       "noFields": "sem campos",
       "noMatches": "sem correspondências",
-      "placeholder_one": "Pesquise ou selecione em 1 campo...",
-      "placeholder_other": "Pesquise ou selecione entre {{count}} campos...",
+      "placeholder_one": "Pesquise ou selecione do 1 campo...",
+      "placeholder_other": "Pesquise ou selecione entre os {{count}} campos...",
+      "placeholder_zero": "Pesquise ou selecione entre os {{count}} campos...",
+      "toast": {
+        "action": "Exibir?",
+        "message_one": "1 coluna com erros está oculta",
+        "message_other": "{{count}} colunas com erros estão ocultas",
+        "message_zero": "{{count}} colunas com erros estão ocultas"
+      },
       "tooltip_one": "1 coluna oculta",
       "tooltip_other": "{{count}} colunas ocultas",
-      "tooltip_zero": "Gerenciar colunas"
+      "tooltip_zero": "Gerenciar colunas",
+      "unhideToast": {
+        "message_one": "1 coluna foi exibida por esta consulta",
+        "message_other": "{{count}} colunas foram exibidas por esta consulta",
+        "message_zero": "{{count}} colunas foram exibidas por esta consulta"
+      }
     },
     "embedded": {
       "maxOpenReached": "Não é possível abrir mais do que {{maxOpenSheets}} planilhas incorporadas de uma vez. Feche uma planilha incorporada para abrir essa nova.",
@@ -455,7 +472,7 @@
       "manualEntry": "Insira os dados manualmente",
       "noColumns": {
         "description": "Você ocultou todas as colunas da visualização.",
-        "heading": "Nada para ver!"
+        "heading": "Nada para visualizar!"
       },
       "noSheetError": {
         "description": "Essa planilha não parece existir.",
@@ -493,6 +510,8 @@
       "errors": {
         "cellUpdateFailed": "Algo deu errado. Atualize a página e tente novamente. Se o problema persistir, contate o suporte",
         "invalidFFQL": "Por favor, verifique sua consulta",
+        "invalidFFQLSearch": "Instrução FFQL inválida",
+        "learnMore": "Saiba mais",
         "recordsLoadFailed": "Falha ao carregar os registros"
       }
     },
@@ -758,7 +777,7 @@
         "placeholder": "Pesquisar ou selecionar..."
       },
       "searchBar": {
-        "expandTooltip": "Abrir pesquisar e AI Assist",
+        "expandTooltip": "Pesquisa aberta e Suporte de IA",
         "placeholder": "Procurar...",
         "tooltip": "Aperte enter para procurar"
       }
@@ -900,8 +919,8 @@
   "spaceLoadingMessage": "Preparando espaço...",
   "utils": {
     "buttons": {
-      "selectAll": "Selecionar tudo",
-      "clearAll": "Limpar tudo"
+      "clearAll": "Limpar Tudo",
+      "selectAll": "Selecionar Tudo"
     }
   },
   "versionHistory": {

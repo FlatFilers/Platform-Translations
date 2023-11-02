@@ -92,6 +92,10 @@
           "branded": "rédiger une déclaration FFQL",
           "whitelabeled": "rédiger une requête"
         },
+        "hiddenColumnsWarning_one": "1 champ sera affiché par cette requête :\n{{fields}}",
+        "hiddenColumnsWarning_other": "{{count}} champs seront affichés par cette requête :\n{{fields}}",
+        "hiddenColumnsWarning_zero": "{{count}} champs seront affichés par cette requête :\n{{fields}}",
+        "invalidFFQL": "Déclaration FFQL invalide. Réessayer ?",
         "learnHow": "découvrez comment"
       },
       "search": {
@@ -434,13 +438,26 @@
   },
   "sheet": {
     "columnManagement": {
+      "errorColumnTooltip": "Filtrer par cette valeur affichera cette colonne",
       "noFields": "aucun champ",
       "noMatches": "aucune correspondance",
-      "placeholder_one": "Recherchez ou sélectionnez parmi 1 champ...",
-      "placeholder_other": "Recherchez ou sélectionnez parmi {{count}} champs...",
-      "tooltip_one": "1 colonne masquée",
-      "tooltip_other": "{{count}} colonnes masquées",
-      "tooltip_zero": "Gérer les colonnes"
+      "placeholder_one": "Rechercher ou sélectionner dans 1 champ...",
+      "placeholder_other": "Rechercher ou sélectionner dans {{count}} champs...",
+      "placeholder_zero": "Rechercher ou sélectionner dans {{count}} champs...",
+      "toast": {
+        "action": "Afficher ?",
+        "message_one": "1 colonne contenant des erreurs est cachée",
+        "message_other": "{{count}} colonnes contenant des erreurs sont cachées",
+        "message_zero": "{{count}} colonnes contenant des erreurs sont cachées"
+      },
+      "tooltip_one": "1 colonne cachée",
+      "tooltip_other": "{{count}} colonnes cachées",
+      "tooltip_zero": "Gérer les colonnes",
+      "unhideToast": {
+        "message_one": "1 colonne a été affichée par cette requête",
+        "message_other": "{{count}}\ncolonnes ont été affichées par cette requête",
+        "message_zero": "{{count}} colonnes contenant des erreurs ont été affichées par cette requête"
+      }
     },
     "embedded": {
       "maxOpenReached": "Impossible d'ouvrir simultanément plus de {{maxOpenSheets}} feuilles imbriquées. Fermez une feuille imbriquée pour ouvrir celle-ci.",
@@ -455,7 +472,7 @@
       "manualEntry": "Saisir manuellement les données",
       "noColumns": {
         "description": "Vous avez masqué toutes les colonnes.",
-        "heading": "Rien à voir !"
+        "heading": "Rien à afficher !"
       },
       "noSheetError": {
         "description": "Cette feuille ne semble pas exister.",
@@ -493,6 +510,8 @@
       "errors": {
         "cellUpdateFailed": "Une erreur s'est produite. Veuillez actualiser la page et réessayer. Si le problème persiste, veuillez contacter le service d'assistance",
         "invalidFFQL": "Veuillez vérifier votre requête",
+        "invalidFFQLSearch": "Déclaration FFQL invalide",
+        "learnMore": "En savoir plus",
         "recordsLoadFailed": "Échec du chargement des enregistrements"
       }
     },
@@ -758,7 +777,7 @@
         "placeholder": "Rechercher ou sélectionner..."
       },
       "searchBar": {
-        "expandTooltip": "Ouvrir la recherche et AI Assist",
+        "expandTooltip": "Recherche libre et assistance IA",
         "placeholder": "Rechercher...",
         "tooltip": "Appuyez sur Entrée pour lancer la recherche"
       }
@@ -900,8 +919,8 @@
   "spaceLoadingMessage": "Préparation de l'espace...",
   "utils": {
     "buttons": {
-      "selectAll": "Sélectionner tout",
-      "clearAll": "Effacer tout"
+      "clearAll": "Tout effacer",
+      "selectAll": "Tout sélectionner"
     }
   },
   "versionHistory": {

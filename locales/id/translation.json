@@ -92,6 +92,9 @@
           "branded": "tulis pernyataan FFQL",
           "whitelabeled": "tulis kueri"
         },
+        "hiddenColumnsWarning_other": "{{count}} kolom akan ditampilkan oleh kueri ini: {{fields}}",
+        "hiddenColumnsWarning_zero": "{{count}} kolom akan ditampilkan oleh kueri ini: {{fields}}",
+        "invalidFFQL": "Pernyataan FFQL tidak valid. Coba lagi?",
         "learnHow": "pelajari caranya"
       },
       "search": {
@@ -116,7 +119,7 @@
     }
   },
   "errors": {
-    "documentNotFound": "Dokumen tidak ditemukan",
+    "documentNotFound": "Dokumen tak ditemukan",
     "fileNotFound": "File tidak ditemukan",
     "missingParameter": "Parameter tidak diberikan",
     "notFound": "Tidak ditemukan",
@@ -424,13 +427,22 @@
   },
   "sheet": {
     "columnManagement": {
-      "noFields": "tidak ada bidang",
+      "errorColumnTooltip": "Memfilter berdasarkan nilai ini akan menampilkan kolom ini",
+      "noFields": "tak ada kolom",
       "noMatches": "tidak ada kecocokan",
-      "placeholder_one": "Cari atau pilih dari 1 bidang...",
-      "placeholder_other": "Cari atau pilih dari {{count}} bidang...",
-      "tooltip_one": "1 kolom tersembunyi",
+      "placeholder_other": "Cari atau pilih dari {{count}} kolom...",
+      "placeholder_zero": "Cari atau pilih dari {{count}} kolom...",
+      "toast": {
+        "action": "Tampilkan?",
+        "message_other": "{{count}} kolom dengan kesalahan disembunyikan",
+        "message_zero": "{{count}} kolom dengan kesalahan disembunyikan"
+      },
       "tooltip_other": "{{count}} kolom disembunyikan",
-      "tooltip_zero": "Kelola kolom"
+      "tooltip_zero": "Kelola kolom",
+      "unhideToast": {
+        "message_other": "{{count}} kolom ditampilkan oleh kueri ini",
+        "message_zero": "{{count}} kolom ditampilkan oleh kueri ini"
+      }
     },
     "embedded": {
       "maxOpenReached": "Tidak dapat membuka lebih dari {{maxOpenSheets}} lembar kerja yang disematkan sekaligus. Tutup lembar yang disematkan untuk membuka lembar ini.",
@@ -445,7 +457,7 @@
       "manualEntry": "Masukkan data secara manual",
       "noColumns": {
         "description": "Anda telah menyembunyikan semua kolom dari pandangan.",
-        "heading": "Tidak ada yang bisa dilihat!"
+        "heading": "Tak ada yang dapat dilihat!"
       },
       "noSheetError": {
         "description": "Lembar ini sepertinya tidak ada.",
@@ -481,6 +493,8 @@
       "errors": {
         "cellUpdateFailed": "Terjadi masalah. Harap segarkan halaman dan coba lagi. Jika ini berlanjut, harap hubungi bantuan",
         "invalidFFQL": "Harap periksa kueri Anda",
+        "invalidFFQLSearch": "Pernyataan FFQL tidak valid",
+        "learnMore": "Pelajari lebih lanjut",
         "recordsLoadFailed": "Rekaman gagal dimuat"
       }
     },
@@ -880,8 +894,8 @@
   "spaceLoadingMessage": "Menyiapkan Ruang...",
   "utils": {
     "buttons": {
-      "selectAll": "Pilih Semua",
-      "clearAll": "Hapus Semua"
+      "clearAll": "Kosongkan Semua",
+      "selectAll": "Pilih Semua"
     }
   },
   "versionHistory": {

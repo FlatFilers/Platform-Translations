@@ -92,6 +92,10 @@
           "branded": "escribir una sentencia FFQL",
           "whitelabeled": "escribir una consulta"
         },
+        "hiddenColumnsWarning_one": "Se revelará 1 celda por esta consulta: {{fields}}",
+        "hiddenColumnsWarning_other": "Se revelarán {{count}} celdas por esta consulta: {{fields}}",
+        "hiddenColumnsWarning_zero": "{{count}} celdas serán reveladas por esta consulta: {{fields}}",
+        "invalidFFQL": "Sentencia FFQL inválida. ¿Volver a Intentarlo?",
         "learnHow": "más información"
       },
       "search": {
@@ -116,7 +120,7 @@
     }
   },
   "errors": {
-    "documentNotFound": "No se ha encontrado el documento",
+    "documentNotFound": "Documento no encontrado.",
     "fileNotFound": "Archivo no encontrado",
     "missingParameter": "Parámetro no proporcionado",
     "notFound": "No se ha encontrado",
@@ -434,13 +438,26 @@
   },
   "sheet": {
     "columnManagement": {
-      "noFields": "sin campos",
-      "noMatches": "no hay coincidencias",
-      "placeholder_one": "Buscar o seleccionar entre 1 campo...",
-      "placeholder_other": "Buscar o seleccionar entre {{count}} campos...",
-      "tooltip_one": "1 columna oculta",
-      "tooltip_other": "{{count}} columnas ocultas",
-      "tooltip_zero": "Administrar columnas"
+      "errorColumnTooltip": "Filtrar por este valor revelará esta columna.",
+      "noFields": "Sin celdas.",
+      "noMatches": "Sin coincidencias.",
+      "placeholder_one": "Buscar o seleccionar desde la celda 1...",
+      "placeholder_other": "Buscar o seleccionar desde los campos {{count}}...",
+      "placeholder_zero": "Buscar o seleccionar desde las celdas {{count}}...",
+      "toast": {
+        "action": "¿Revelar?",
+        "message_one": "Se ocultó 1 columna con errores.",
+        "message_other": "{{count}} columnas con errores se ocultaron.",
+        "message_zero": "Se ocultaron {{count}} columnas con errores."
+      },
+      "tooltip_one": "1 columna oculta.",
+      "tooltip_other": "{{count}} columnas ocultas.",
+      "tooltip_zero": "Gestionar columnas.",
+      "unhideToast": {
+        "message_one": "Se reveló 1 columna por esta consulta.",
+        "message_other": "{{count}} columnas fueron reveladas por esta consulta.",
+        "message_zero": "Se revelaron {{count}} columnas por esta consulta."
+      }
     },
     "embedded": {
       "maxOpenReached": "No se pueden abrir más de {{maxOpenSheets}} hojas incrustadas a la vez. Cierra una hoja incrustada para abrir esta.",
@@ -454,8 +471,8 @@
       "heading": "Comencemos",
       "manualEntry": "Introducir datos manualmente",
       "noColumns": {
-        "description": "Has ocultado todas las columnas de la vista.",
-        "heading": "¡Nada que ver!"
+        "description": "Has ocultado todas las columnas.",
+        "heading": "¡Nada para ver!"
       },
       "noSheetError": {
         "description": "Parece que esta hoja no existe.",
@@ -493,6 +510,8 @@
       "errors": {
         "cellUpdateFailed": "Ha ocurrido un error. Actualiza la página e inténtalo de nuevo. Si el problema persiste, ponte en contacto con el servicio de asistencia",
         "invalidFFQL": "Comprueba tu consulta",
+        "invalidFFQLSearch": "Sentencia FFQL inválida.",
+        "learnMore": "Saber más.",
         "recordsLoadFailed": "No se han podido cargar los registros"
       }
     },
@@ -758,7 +777,7 @@
         "placeholder": "Buscar o seleccionar..."
       },
       "searchBar": {
-        "expandTooltip": "Abrir buscar y Asistencia de IA",
+        "expandTooltip": "Abrir búsqueda y asistente IA.",
         "placeholder": "Buscando...",
         "tooltip": "Pulse enter para buscar."
       }
@@ -900,8 +919,8 @@
   "spaceLoadingMessage": "Preparando espacio...",
   "utils": {
     "buttons": {
-      "selectAll": "Seleccionar todo",
-      "clearAll": "Borrar todo"
+      "clearAll": "Borrar Todo.",
+      "selectAll": "Seleccionar Todo."
     }
   },
   "versionHistory": {
@@ -927,7 +946,7 @@
           "description": "Se ha eliminado la versión seleccionada.",
           "heading": "Versión eliminada"
         }
-      }   
+      }
     },
     "panel": {
       "empty": "Las versiones, una vez generadas, aparecerán aquí. Normalmente, las versiones se generan automáticamente cuando se produce una transformación masiva de datos.",
