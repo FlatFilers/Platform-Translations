@@ -1,2 +1,937 @@
 {
+  "checklist": {
+    "dropdowns": {
+      "headings": {
+        "sheet": "시트",
+        "workbook": "워크북"
+      }
+    },
+    "errors": {
+      "cannotLoadChecklist": "데이터 체크리스트를 로드할 수 없음",
+      "cannotLoadSheet": "시트를 찾을 수 없음",
+      "noWorkbooksDescription": "데이터 체크리스트를 활성화하려면 최소 1개의 워크북이 필요합니다. 개발자에게 구성을 확인하도록 요청하세요. 이 문제가 지속되면 지원팀에 문의하세요.",
+      "noWorkbooksTitle": "워크북 필수"
+    },
+    "table": {
+      "dataTypes": {
+        "boolean": "연산자형",
+        "date": "날짜",
+        "enum": "열거형",
+        "number": "숫자(or 번호)",
+        "reference": "참조",
+        "string": "스트링",
+        "unknown": "알 수 없는"
+      },
+      "fieldTagComputed": "계산형",
+      "fieldTagRequired": "필수",
+      "fieldTagUnique": "유일무이한",
+      "headings": {
+        "dataType": "데이터 유형",
+        "description": "설명",
+        "field": "필드명"
+      }
+    },
+    "title": "데이터 체크리스트"
+  },
+  "commandMenu": {
+    "aiAssist": {
+      "query": {
+        "askingAI": {
+          "stepFour": "마무리",
+          "stepOne": "생각하기",
+          "stepThree": "하기",
+          "stepTwo": "쓰기"
+        },
+        "description": {
+          "branded": "FFQL에서 AI에게 쿼리 작성을 요청하세요",
+          "whitelabeled": "AI에게 쿼리 작성 요청"
+        },
+        "errorBanner": {
+          "generalError": "문제가 발생했습니다. 다시 시도해 주세요."
+        },
+        "instruction": "AI 도우미가 데이터를 어떻게 쿼리하기 원하는지 설명하세요.",
+        "review": {
+          "description": "제가 생각해낸 것은 다음과 같습니다. 단계별 설명과 쿼리를 읽어보시고, 괜찮아 보인다면 아래를 클릭해 적용해 보세요.",
+          "explanationTitle": "설명",
+          "queryTitle": "쿼리"
+        }
+      },
+      "title": "AI로 구축",
+      "transform": {
+        "askingAI": {
+          "stepFour": "마무리",
+          "stepOne": "생각하기",
+          "stepThree": "하기",
+          "stepTwo": "쓰기"
+        },
+        "description": "AI에게 데이터 변환을 요청하세요",
+        "errorBanner": {
+          "generalError": "문제가 발생했습니다. 다시 시도해 주세요.",
+          "versionError": "롤백 버전을 생성할 수 없습니다. AI 변환이 중단되었습니다. 다시 시도해 주세요."
+        },
+        "instruction": "AI 도우미가 데이터를 어떻게 변환하길 원하는지 설명하세요.",
+        "review": {
+          "codeTitle": "코드",
+          "description": "제가 생각해낸 것은 다음과 같습니다. 단계별 설명과 쿼리를 읽어보시고, 괜찮아 보인다면 아래를 클릭해 적용해 보세요.",
+          "planTitle": "계획",
+          "warning": "경고: 이렇게 하면 데이터가 변환됩니다"
+        },
+        "transforming": {
+          "inProgress": "데이터 세트에 적용"
+        }
+      }
+    },
+    "buttons": {
+      "apply": "적용",
+      "cancel": "취소하기"
+    },
+    "commands": {
+      "filter": {
+        "apply": "필터를 적용하세요.",
+        "description": {
+          "branded": "FFQL문 작성",
+          "whitelabeled": "쿼리 작성"
+        },
+        "hiddenColumnsWarning_other": "이 쿼리로 인해 {{count}}개 필드가 숨김 해제됨: {{fields}}",
+        "hiddenColumnsWarning_zero": "이 쿼리로 인해 {{count}}개 필드가 숨김 해제됨: {{fields}}",
+        "invalidFFQL": "FFQL문이 잘못되었습니다. 다시 시도하시겠습니까?",
+        "learnHow": "방법 배우기"
+      },
+      "search": {
+        "global": {
+          "apply": "검색을 적용하세요.",
+          "description": "전체 시트 검색"
+        },
+        "inField": {
+          "apply": "필드 내에서 검색을 적용하세요.",
+          "applyExample": "즉, 'first_name' Jane Do",
+          "description": "필드 내에서 검색"
+        }
+      }
+    },
+    "itemMessage": "적용하려면 {{icon}}(을)를 누르세요.",
+    "placeholder": "찾거나 무엇이든 하세요..."
+  },
+  "document": {
+    "error": {
+      "description": "이 문서는 존재하지 않는 것 같습니다",
+      "title": "문서를 찾을 수 없음"
+    }
+  },
+  "errors": {
+    "documentNotFound": "문서를 찾을 수 없음",
+    "fileNotFound": "파일을 찾을 수 없음",
+    "missingParameter": "매개변수가 제공되지 않음",
+    "notFound": "찾을 수 없음",
+    "refreshButton": "재시도",
+    "refreshPageDescription": "페이지를 새로고침해 다시 시도하세요. 문제가 계속 발생할 경우 지원팀에 문의하세요.",
+    "sheetNotFound": "시트를 찾을 수 없음",
+    "spaceNotFound": "공간을 찾을 수 없음",
+    "unauthorized": "액세스 자격 증명이 유효하지 않습니다.",
+    "unknownError": "문제가 발생했습니다",
+    "workbookNotFound": "통합 문서를 찾을 수 없음"
+  },
+  "files": {
+    "availableDownloadsTab": "가능한 다운로드",
+    "buttons": {
+      "addFile": {
+        "inProgressText": "파일 업로드 중",
+        "text": "파일 추가"
+      },
+      "delete": "삭제",
+      "download": "다운로드"
+    },
+    "contextMenu": {
+      "delete": "삭제",
+      "download": "다운로드"
+    },
+    "counts": "{{total}}의 {{start}}-{{end}}",
+    "deleteModal": {
+      "downloadDescription_other": "다운로드한 이 파일들은 공간에서 삭제됩니다.",
+      "downloadDescription_zero": "다운로드한 이 파일들은 공간에서 삭제됩니다.",
+      "heading_other": "파일 삭제",
+      "heading_zero": "파일 삭제",
+      "subheading_other": "파일:",
+      "subheading_zero": "파일:",
+      "uploadsDescription_other": "가져온 모든 데이터가 저장됩니다. 이렇게 하면 파일은 공간에서 삭제됩니다.",
+      "uploadsDescription_zero": "가져온 모든 데이터가 저장됩니다. 이렇게 하면 파일은 공간에서 삭제됩니다."
+    },
+    "downloadsTable": {
+      "headings": {
+        "createdDate": "생성됨",
+        "name": "이름",
+        "size": "크기",
+        "sourceSheet": "소스 시트"
+      },
+      "processing": "내보내는 중..."
+    },
+    "emptyState": {
+      "downloads": {
+        "description": "다운로드한 데이터가 여기에 표시됩니다",
+        "heading": "다운로드할 수 없음"
+      },
+      "uploads": {
+        "description": "시작하려면 파일을 드래그 앤 드롭하거나 업로드하세요",
+        "heading": "파일 추가"
+      }
+    },
+    "errors": {
+      "loadingError": "파일을 로드할 수 없음",
+      "uploadDisabledDescription": "오류라고 생각되면 지원팀에 문의하세요.",
+      "uploadDisabledHeading": "이 공간은 현재 파일 업로드를 지원하지 않습니다."
+    },
+    "title": "파일",
+    "uploadedFilesTab": "업로드된 파일",
+    "uploadFile": {
+      "popovers": {
+        "errorUploading": "파일 업로드 불가: {{fileName}}",
+        "onDragPopoverConfirmation": "파일을 드롭하는 곳:",
+        "uploadComplete": "업로드됨: {{fileName}}",
+        "uploadInProgress": "업로드 중: {{fileName}}",
+        "uploadsDisabled": "이 공간은 현재 파일 업로드를 지원하지 않습니다."
+      }
+    },
+    "uploadsTables": {
+      "headings": {
+        "name": "이름",
+        "status": "상태",
+        "uploadedDate": "업로드됨"
+      },
+      "importButton": "가져오기",
+      "tooltips": {
+        "cannotImport": "현재 이 파일을 통합 문서로 가져올 수 없습니다",
+        "noExtension": "이 파일에는 확장자가 없습니다. 파일명에 올바른 파일 확장자를 추가하고 파일을 다시 업로드하여 워크북으로 가져오십시오"
+      }
+    }
+  },
+  "guestInvite": {
+    "getNewAccessLink": {
+      "content": "다음 주소로 보안 액세스 링크를 보냈습니다",
+      "finePrint": "이메일을 찾는 데 문제가 있는 경우 스팸 폴더를 확인하거나 이 페이지를 새로 고쳐 다른 액세스 링크를 보내세요. 링크는 5분 동안 작동합니다.",
+      "heading": "받은 편지함을 확인"
+    }
+  },
+  "jobs": {
+    "customActions": {
+      "modals": {
+        "confirmModal": {
+          "cancelButton": "취소하기",
+          "defaultConfirmButton": "확인하기",
+          "defaultLoadingButton": "로드 중...",
+          "isRequired": "{{field}} 필수",
+          "mustBeNumber": "{{field}}는 반드시 숫자여야 함"
+        },
+        "defaultJobName": "작업",
+        "defaultResourceName": "이 리소르",
+        "foregroundJobProgressModal": {
+          "defaultJobName": "작업",
+          "defaultResourceName": "이 리소르",
+          "percentComplete": "{{percent}}% 완료",
+          "runningOn": "에서 실행 중"
+        },
+        "outcomeModals": {
+          "acknowledgementModal": {
+            "defaultContinueButton": "계속하기"
+          },
+          "defaultDownloadLabel": "다운로드",
+          "defaultFileName": "파일",
+          "defaultHeading": {
+            "failed": "작업 실패",
+            "success": "성공!"
+          },
+          "defaultLabel": "리소스 보기",
+          "defaultMessage": {
+            "failed": "{{jobName}}이(가) {{resourceName}}에서 실패함",
+            "success": "{{jobName}}이(가) {{resourceName}}에서 성공적으로 실행됨"
+          },
+          "permanentOutcomeModal": {
+            "defaultContinueButton": "계속하기"
+          }
+        },
+        "startModal": {
+          "confirmButton": "확인하기",
+          "errorMessage": "실행 오류",
+          "loadingText": "로드 중..."
+        }
+      }
+    },
+    "panel": {
+      "action": {
+        "export": "다운로드",
+        "extract": "가져오기",
+        "mapping": "워크북으로 이동"
+      },
+      "empty": "작업이 실행 중이거나 완료되면 여기에 표시됩니다.",
+      "errorLoadingJob": "찾을 수 없음",
+      "heading": "작업",
+      "status": {
+        "default": {
+          "canceled": {
+            "prefix": "작업",
+            "suffix": "취소됨"
+          },
+          "complete": {
+            "prefix": "작업",
+            "suffix": "완료"
+          },
+          "failed": {
+            "prefix": "작업",
+            "suffix": "실패함"
+          },
+          "inProgress": "실행 중인 작업"
+        },
+        "delete": {
+          "cancelled": "취소된 기록 삭제",
+          "complete": "삭제 완료",
+          "failed": "삭제 실패",
+          "inProgress": "기록 삭제 중"
+        },
+        "export": {
+          "canceled": "다운로드 취소됨",
+          "complete": "다운로드가 생성됨",
+          "failed": "다운로드 생성에 실패함",
+          "inProgress": "다운로드 생성 중"
+        },
+        "extract": {
+          "cancelled": "취소된 파일 추출",
+          "complete": "추출된 파일",
+          "failed": "파일 추출 실패",
+          "inProgress": "파일 추출 중"
+        },
+        "mapping": {
+          "canceled": "워크북으로의 매핑이 취소됨",
+          "complete": "워크북에 매핑됨",
+          "failed": "워크북으로의 매핑에 실패함",
+          "inProgress": "워크북으로 매핑"
+        }
+      },
+      "time": {
+        "completed": "에 완료됨",
+        "failed": "이후에 실패함",
+        "remaining": "남아 있는",
+        "started": "{{time}}에 시작됨",
+        "units": {
+          "hour": "시",
+          "minute": "분",
+          "second": "초"
+        }
+      }
+    },
+    "pill": {
+      "hoverText": "작업",
+      "multipleJobsRunning": "작업 {{count}}개 실행 중",
+      "status": {
+        "default": {
+          "complete": "작업 완료",
+          "failed": "작업 실패",
+          "inProgress": "작업 실행 중"
+        },
+        "delete": {
+          "complete": "삭제 완료",
+          "failed": "삭제 실패",
+          "inProgress": "기록 삭제 중..."
+        },
+        "extract": {
+          "complete": "추출 완료",
+          "failed": "추출 실패",
+          "inProgress": "데이터 추출 중..."
+        },
+        "mapping": {
+          "complete": "매핑 완료",
+          "failed": "매핑 실패",
+          "inProgress": "매핑 중..."
+        }
+      }
+    }
+  },
+  "mapping": {
+    "dataPreview": {
+      "heading": "{{previewKey}}에 대한 데이터 미리보기",
+      "noData": "미리보기 데이터 없음"
+    },
+    "headerButtons": {
+      "back": "뒤로가기",
+      "exit": "나가기",
+      "next": "계속하기"
+    },
+    "mapEnums": {
+      "destinationFields": {
+        "dropdownOptions": {
+          "doNotImport": "가져오지 않음",
+          "keepAsIs": "이 값을 그대로 유지",
+          "keepAsIsDisabledTooltip": "이 목록에 새 옵션을 추가하는 것은 지원되지 않습니다. 유효한 옵션이 아닌 값을 가져오면 오류로 표시됩니다."
+        },
+        "heading": "결과 값"
+      },
+      "incomingFields": {
+        "heading": "수신 값",
+        "noData": "데이터가 없는 셀",
+        "noDataTooltip": "유효한 옵션을 선택해 빈 셀을 모두 채울 수 있습니다. 비워 둘 수도 있습니다."
+      },
+      "progressPill_other": "값 {{totalCount}}개 중 {{mappedCount}}개 매핑됨",
+      "progressPill_zero": "값 {{totalCount}}개 중 {{mappedCount}}개 매핑됨",
+      "progressPillAllMapped_other": "값 {{totalCount}}개 매핑됨",
+      "progressPillAllMapped_zero": "값 {{totalCount}}개 매핑됨",
+      "subheading": "이러한 필드에는 유효한 옵션 목록에 매핑되어야 하는 값이 있습니다.",
+      "title": "필드 매핑"
+    },
+    "mapFields": {
+      "destinationFields": {
+        "addNewField": {
+          "description": "시트에 이 필드를 추가하세요",
+          "label": "새 필드로 추가"
+        },
+        "dropdownOptionLabels": {
+          "new": "새로 추가",
+          "unused": "미사용",
+          "used": "사용됨"
+        },
+        "heading": "대상 필드",
+        "progressPill": {
+          "missingRequiredFields": " - {{missingFieldsCount}}개 누락",
+          "text": "{{totalDestinationFields}} 중 {{totalDestinationsMapped}}",
+          "tooltip": {
+            "greaterThanTenMissing": "그리고 {{missingFieldsAfterTen}} 더 있음...",
+            "missingRequiredFields": "필수 필드가 누락됨:",
+            "progress": "대상 시트에서 사용 가능한 {{totalDestinationFields}} 필드 중 {{mappedDestinationFields}}가 다음에 매핑되었습니다."
+          }
+        }
+      },
+      "incomingFields": {
+        "heading": "들어오는 필드",
+        "progressPill": {
+          "text": "{{totalIncomingFields}} 중 {{totalIncomingMapped}}",
+          "tooltip": "데이터세트의 {{totalIncomingFields}}필드 중 {{mappedIncomingFields}}(을)를 대상 시트로 매핑했습니다"
+        }
+      },
+      "subheading": "각 매핑 선택 사항을 검토하고 확인하세요",
+      "title": "필드 매핑"
+    },
+    "sheetSelection": {
+      "cannotLoadFile": "파일 업로드 불가: {{fileName}}",
+      "columns_other": "{{count}}개의 열",
+      "columns_zero": "{{count}}개의 열",
+      "errors_other": "\t\n{{count}}개의 오류",
+      "errors_zero": "{{count}}개의 오류",
+      "importFromHeading": "데이터를 로드할 시트를 선택하세요",
+      "importToHeading": "이 데이터를 가져올 시트를 선택하세요",
+      "lastUpdated": "마지막 업데이트 날짜 {{date}}",
+      "lastUpdatedDateFormat": "연도-월-일(yyyy-mm-dd)",
+      "records_other": "{{count}}개의 기록",
+      "records_zero": "{{count}}개의 기록",
+      "sheetHasNoData": "데이터 없음",
+      "sheets_other": "{{count}}개의 시트",
+      "sheets_zero": "{{count}}개의 시트",
+      "title": "...로 가져오기"
+    }
+  },
+  "sheet": {
+    "columnManagement": {
+      "errorColumnTooltip": "이 값으로 필터링하면 이 열이 숨김 해제됨",
+      "noFields": "필드 없음",
+      "noMatches": "일치하는 결과 없음",
+      "placeholder_other": "{{count}}개 필드에서 검색 또는 선택...",
+      "placeholder_zero": "{{count}}개 필드에서 검색 또는 선택...",
+      "toast": {
+        "action": "숨김을 해제할까요?",
+        "message_other": "오류가 있는 {{count}}개 열이 숨겨짐",
+        "message_zero": "오류가 있는 {{count}}개 열이 숨겨짐"
+      },
+      "tooltip_other": "{{count}}개 열 숨김",
+      "tooltip_zero": "열 관리",
+      "unhideToast": {
+        "message_other": "이 쿼리에 의해 {{count}}개 열이 숨김 해제됨",
+        "message_zero": "이 쿼리에 의해 {{count}}개 열이 숨김 해제됨"
+      }
+    },
+    "embedded": {
+      "maxOpenReached": "한 번에 {{maxOpenSheets}}개 이상의 삽입된 시트를 열 수 없습니다. 이 시트를 열려면 삽입된 시트를 닫으세요.",
+      "untitled": "제목 없는 시트"
+    },
+    "emptyView": {
+      "defaultError": {
+        "description": "이 시트는 비어 있는 것 같습니다.",
+        "heading": "아직 볼 내용이 없습니다!"
+      },
+      "heading": "시작합니다",
+      "manualEntry": "수동으로 데이터 입력",
+      "noColumns": {
+        "description": "보기에서 모든 열을 숨겼습니다.",
+        "heading": "볼 내용이 없습니다!"
+      },
+      "noSheetError": {
+        "description": "이 시트는 존재하지 않는 것 같습니다.",
+        "heading": "시트를 찾을 수 없음"
+      },
+      "readOnly": {
+        "description": "새 행 및/또는 수정 사항을 허용하지 않는 시트는 일반적으로 동적으로 채워진 데이터를 수신합니다. 지금은 취할 수 있는 조치가 없습니다.",
+        "heading": "데이터를 기다리는 중"
+      },
+      "sheetLocked": {
+        "description": "오류라고 생각되면 지원팀에 문의하세요.",
+        "heading": "현재 기록 추가가 비활성화되어 있습니다."
+      },
+      "uploadFile": "시작하려면 파일을 드래그 앤 드롭하거나 업로드하세요"
+    },
+    "errors": {
+      "loading": "통합 문서를 가져올 수 없습니다.",
+      "noSheets": {
+        "description": "통합 문서에는 하나 이상의 시트가 포함되어 있어야 합니다. 시트를 찾을 수 없습니다.",
+        "title": "통합 문서에 시트가 없음"
+      },
+      "notFound": "통합 문서를 찾을 수 없음"
+    },
+    "info": {
+      "copiedPopover": "클립보드에 복사됨",
+      "copyButton": "복사하려면 클릭하세요!"
+    },
+    "popovers": {
+      "copyCell_other": "{{count}}개의 셀이 복사됨",
+      "copyCell_zero": "{{count}}개의 셀이 복사됨",
+      "copyRecord_other": "{{count}}개의 기록이 복사됨",
+      "copyRecord_zero": "{{count}}개의 기록이 복사됨",
+      "errors": {
+        "cellUpdateFailed": "문제가 발생했습니다. 페이지를 새로 고침 한 후 다시 시도해 보세요. 문제가 지속되면 지원 팀에 문의해 주세요",
+        "invalidFFQL": "쿼리를 확인해 주세요",
+        "invalidFFQLSearch": "잘못된 FFQL문",
+        "learnMore": "자세히 알아보기",
+        "recordsLoadFailed": "레코드를 로드하지 못함"
+      }
+    },
+    "table": {
+      "cells": {
+        "enum": {
+          "loading": "옵션 로드 중...",
+          "loadingError": "옵션을 로드할 수 없음",
+          "noMatchesFound": "일치하는 항목을 찾을 수 없음",
+          "placeholder": "여기에 입력...",
+          "seeMore": "검색하여 더 많은 옵션 확인"
+        },
+        "messages": {
+          "autogen": "✨ 자동으로 생성됨",
+          "reference": "참조 표에 값이 존재하지 않습니다",
+          "req": "{{field}} 필수",
+          "transformed": "🪄️ {{originalValue}}에서 변환됨",
+          "unique": "값이 고유하지 않습니다"
+        }
+      },
+      "contextMenu": {
+        "filterByValue": {
+          "label": "값으로 필터링",
+          "moreOptions": "처음 {{pageSize}} 옵션을 표시합니다. 더 보려면 검색하세요.",
+          "noData": "데이터 없음",
+          "placeholder": "값 검색 또는 선택..."
+        },
+        "findAndReplace": {
+          "findAndReplaceValues": "찾아서 바꾸기",
+          "modal": {
+            "cancelButton": "취소하기",
+            "descriptionExactOnly": "이 열의 텍스트를 올바른 값으로 대량 바꿉니다. 정확히 일치하는 항목만 표시합니다",
+            "descriptionPartialAndExact": "이 열의 텍스트를 대량으로 바꿉니다. 저희는 이 데이터에 대해 부분 일치와 정확 일치 모두를 지원합니다",
+            "errors": {
+              "findError": "값을 찾는 중 오류가 발생했습니다",
+              "generalError": "문제가 발생했습니다. 다시 시도해 주세요",
+              "replaceError": "값을 바꾸는 중 오류가 발생했습니다"
+            },
+            "exactMatchesOnly": "정확히 일치하는 항목만 표시",
+            "finding": "모든 인스턴스 찾기",
+            "heading": "{{columnName}}에서 찾아서 바꾸기",
+            "isFiltered": "이 데이터 집합은 필터링되었습니다. '찾아서 바꾸기'는 필터링된 레코드에서만 실행됩니다.",
+            "replaceButton": "모두 바꾸기",
+            "replaceEmpty": {
+              "description": {
+                "addValues": "이렇게 하면 {{columnName}}의 모든 빈 셀이 채워집니다",
+                "addValuesToAll": "{{columnName}}에 빈 셀이 모두 있습니다. 선택한 값으로 이러한 빈 셀을 대량으로 채울 수 있습니다",
+                "addValuesToCount_other": "{{columnName}}에 빈 셀이 {{formattedCount}}개 있습니다. 선택한 값으로 이러한 빈 셀을 대량으로 채울 수 있습니다",
+                "addValuesToCount_zero": "{{columnName}}에 빈 셀이 {{formattedCount}}개 있습니다. 선택한 값으로 이를 대량으로 채울 수 있습니다",
+                "noEmptyValues": "이 필드에서 빈 셀을 찾을 수 없습니다!"
+              },
+              "heading": {
+                "addValues": "{{columnName}}의 빈 셀에 값 추가",
+                "addValuesToAll": "{{columnName}}의 모든 빈 셀에 값을 추가합니다",
+                "addValuesToCount_other": "{{columnName}}의 빈 셀 {{formattedCount}}개에 값을 추가합니다",
+                "addValuesToCount_zero": "{{columnName}}의 빈 셀 {{formattedCount}}개에 값 추가",
+                "noEmptyValues": "빈 값을 찾을 수 없음"
+              }
+            },
+            "replaceEnum": {
+              "moreOptions": "처음 100개의 옵션을 표시합니다. 검색하여 더 많이 확인할 수 있습니다.",
+              "noMatchesFound": "일치하는 항목을 찾을 수 없음",
+              "replaceWith": "다음으로 바꾸기..."
+            },
+            "replaceValue": {
+              "leavingBlank": "이 필드를 비워두면 선택한 값이 삭제됩니다",
+              "noMatchesFound": "값을 찾을 수 없음",
+              "replaceWith": "다음으로 바꾸기..."
+            },
+            "replacing": "값 바꾸기",
+            "runOnAllRecords": "모든 레코드에서 실행",
+            "searchForEmpty": "이 필드를 비워 두면 빈 값을 검색합니다",
+            "searchForText": "텍스트 검색...",
+            "searchResultsCount_other": "{{count}}개 항목 일치",
+            "searchResultsCount_zero": "{{count}}개 항목 일치"
+          },
+          "replaceEmptyValues": "빈 값 바꾸기"
+        },
+        "pin": {
+          "apply": "열 고정",
+          "remove": "고정 제거",
+          "tooltip": {
+            "maxPinned": "최대 3개의 열을 고정할 수 있습니다. 이 열을 고정하려면 기존에 고정된 열 중 하나를 고정 해제합니다",
+            "pin": "이 열을 표 왼쪽에 고정",
+            "unpin": "클릭하여 이 열 고정 해제"
+          }
+        },
+        "searchInField": {
+          "modal": {
+            "cancelButton": "취소하기",
+            "placeholder": "검색...",
+            "searchButton": "검색",
+            "searchWithin": "다음 범위 내에서 검색"
+          },
+          "searchInThisField": "이 필드에서 검색"
+        },
+        "sort": {
+          "ascending": {
+            "apply": "A-Z 정렬",
+            "remove": "A-Z 정렬 제거"
+          },
+          "descending": {
+            "apply": "Z-A 정렬",
+            "remove": "Z-A 정렬 제거"
+          },
+          "tooltip": {
+            "notSorted": "클릭하여 A-Z로 정렬",
+            "sortedAsc": "A-Z로 정렬됨",
+            "sortedDes": "Z-A로 정렬됨"
+          }
+        }
+      },
+      "errors": {
+        "description": "테이블에 이 데이터를 표시하는 데 문제가 있습니다. 오류에 대한 자세한 내용은 콘솔을 참조해 주세요.",
+        "title": "문제가 발생했습니다"
+      },
+      "indexRow": {
+        "tooltip": {
+          "createRow": "데이터를 추가하여 이 행 만들기",
+          "noData": "선택할 수 있는 행이 없습니다. 데이터가 포함된 행만 선택할 수 있습니다.",
+          "rowNumber": "{{number}}행"
+        }
+      },
+      "maximumMessage": {
+        "plural": "...그리고 {{hiddenRows}} 행이 더 있습니다. 테이블 보기는 브라우저 제한으로 인해 한 번에 최대 500,000개의 기록만 지원합니다. 검색, 정렬, 필터, 대량 작업은 보기에서 숨겨진 모든 행에 대해 계속 작동합니다.",
+        "singular": "...그리고 행이 1개 더 있습니다. 테이블 보기는 브라우저 제한으로 인해 한 번에 최대 500,000개의 기록만 지원합니다. 검색, 정렬, 필터, 대량 작업은 보기에서 숨겨진 모든 행에 대해 계속 작동합니다."
+      },
+      "modals": {
+        "copyAlert": {
+          "cancelButton": "취소하기",
+          "description": "100개 이상의 레코드 선택이 확인되었습니다. 데이터의 무결성 유지를 위해 복사를 100개의 레코드로 제한합니다.",
+          "download": "이 시트를 .csv로 다운로드하시겠습니까?",
+          "downloadButton": "다운로드",
+          "heading": "이 파일을 다운로드하시겠습니까?"
+        },
+        "deleteAlert": {
+          "description": "현재 100개 이상의 기존 기록을 삭제하는 기능은 지원되지 않습니다. 저희는 데이터를 <1>지능적으로 수정</1>하므로 더 나은 경험을 제공하기 위해 제한했습니다.",
+          "dismissButton": "해제",
+          "heading": "삭제 한도에 도달했습니다!",
+          "tooltip": "빈 기록, 중복 등 삭제"
+        },
+        "pasteAlert": {
+          "description": "현재 100개 이상의 기존 기록을 붙여넣는 기능은 지원되지 않습니다. 저희는 데이터를 <1>지능적으로 수정</1>하므로 더 나은 경험을 제공하기 위해 제한했습니다.",
+          "dismissButton": "해제",
+          "heading": "붙여넣기 한도에 도달했습니다!",
+          "tooltip": "빈 기록, 중복 등 삭제"
+        }
+      }
+    },
+    "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "실행",
+        "placeholder": "검색하거나 선택하세요..."
+      },
+      "buttons": {
+        "delete": {
+          "modal": {
+            "cancelButton": "취소하기",
+            "confirmButton": "기록 삭제",
+            "description": {
+              "infix": "선택된",
+              "infixType": {
+                "invalid": "무효",
+                "valid": "유효"
+              },
+              "prefix": "삭제하시겠습니까?",
+              "suffix_other": "기록?",
+              "suffix_zero": "기록?"
+            },
+            "errorMessage": "기록을 삭제할 수 없습니다. 다시 시도하거나 선택사항을 수정하십시오.",
+            "heading_other": "기록 삭제",
+            "heading_zero": "기록 삭제",
+            "inProgress": "기록 삭제 중..."
+          },
+          "popover": {
+            "successMessage_other": "{{count}}개의 기록이 삭제됨",
+            "successMessage_zero": "{{count}}개의 기록이 삭제됨",
+            "successMessageNoCount": "기록 삭제됨"
+          },
+          "tooltip": {
+            "active": "선택한 기록 삭제",
+            "disabled": {
+              "deleteDisabled": "이 시트에서는 기록 삭제가 비활성화되어 있습니다.",
+              "noRecordsSelected": "삭제하려면 하나 이상의 기록을 선택하세요"
+            }
+          }
+        },
+        "download": {
+          "modal": {
+            "cancelButton": "취소하기",
+            "confirmButton": "기록 다운로드",
+            "description": {
+              "infix": "선택된",
+              "infixType": {
+                "invalid": "무효",
+                "valid": "유효"
+              },
+              "prefix": "다운로드하시겠습니까?",
+              "suffix_other": "기록?",
+              "suffix_zero": "기록?"
+            },
+            "errorMessage": "기록을 다운로드할 수 없습니다. 다시 시도하거나 선택 사항을 수정하세요.",
+            "heading_other": "기록 다운로드",
+            "heading_zero": "기록 다운로드",
+            "inProgress": "기록 다운로드 중..."
+          },
+          "tooltip": {
+            "active": {
+              "invalidFilterApplied": "모든 무효 기록 다운로드",
+              "noRecordsSelected": "이 시트를 다운로드",
+              "recordsSelected": "선택한 기록 다운로드",
+              "validFilterApplied": "모든 유효 기록 다운로드"
+            },
+            "disabled": "다운로드할 기록이 없음"
+          }
+        }
+      },
+      "customActionsDropdown": {
+        "disabledTooltip": {
+          "requireAllValid": "이 실행을 하려면 선택한 모든 행이 유효해야 합니다",
+          "requireSelection": "이 실행을 사용하려면 하나 이상의 기록을 선택하세요"
+        }
+      },
+      "dropdown": {
+        "delete": "삭제",
+        "download": "다운로드"
+      },
+      "filterByError": {
+        "buttonText": "오류로 필터링",
+        "dropdownPlaceholder": "검색하거나 선택하세요..."
+      },
+      "filters": {
+        "all": "전체",
+        "invalid": "무효",
+        "tooltip": {
+          "filter": {
+            "invalid": "무효",
+            "total": "총",
+            "valid": "유효"
+          },
+          "filtered": "이 데이터세트는 {{filteredCount}}/{{countString}}개 {{filter}} 기록을 표시하도록 필터링됐습니다.",
+          "filteredByError": "이 데이터 세트는 오류 필터를 통해 필터링되어 {{countString}} {{filter}} 기록 중 {{filteredCount}}을(를) 표시합니다.",
+          "filteredByFFQL": {
+            "branded": "이 데이터세트는 {{filteredCount}}/{{countString}}개 {{filter}} 기록을 표시하기 위해 Flatfile 쿼리 언어를 통해 필터링되었습니다.",
+            "whitelabeled": "이 데이터세트는 {{filteredCount}}/{{countString}}개 {{filter}} 기록을 표시하도록 필터링됐습니다."
+          },
+          "filteredBySearch": "이 데이터 세트는 검색 필터를 통해 필터링되어 {{countString}} {{filter}} 기록 중 {{filteredCount}}을(를) 표시합니다.",
+          "filteredBySearchAndError": "이 데이터 세트는 검색 및 오류 필터를 통해 필터링되어 {{countString}} {{filter}} 기록 중 {{filteredCount}}을(를) 표시합니다.",
+          "inactiveCount": "{{countString}} {{filter}} 기록, {{filteredCount}}개 필터링됨"
+        },
+        "valid": "유효"
+      },
+      "moreActions": {
+        "buttonText": "더 많은 실행",
+        "placeholder": "검색하거나 선택하세요..."
+      },
+      "searchBar": {
+        "expandTooltip": "검색 및 AI 지원 열기",
+        "placeholder": "검색...",
+        "tooltip": "Enter 키를 눌러 검색"
+      }
+    }
+  },
+  "sidebar": {
+    "addConnection": "연결 추가",
+    "checklist": "데이터 체크리스트",
+    "connections": {
+      "tooltips": {
+        "connectionError": "이 통합 문서 연결의 메타데이터를 확인하는 데 문제가 있습니다.",
+        "connectionFresh": "{{service}}(을)를 통해 {{source}}에 연결됨",
+        "connectionStale": "{{source}}와(과) 마지막으로 동기화한 지 24시간 이상 지남"
+      }
+    },
+    "emptyWorkbook": "빈 통합 문서",
+    "files": "파일",
+    "readOnlyIconTooltip": "이 시트는 읽기 전용입니다"
+  },
+  "snapshot": {
+    "accept": {
+      "cancelButton": "취소하기",
+      "cancelError": "예상치 못한 오류로 인해 변경 사항을 되돌릴 수 없습니다.",
+      "cancelSuccess": "시트 변경 사항이 성공적으로 되돌려졌습니다.",
+      "empty": {
+        "createdSince": "이 스냅샷에는 삭제된 기록이 없습니다.",
+        "deletedSince": "이 스냅샷에는 추가된 기록이 없습니다.",
+        "title": "볼 내용이 없습니다!",
+        "updatedSince": "이 스냅샷에는 수정된 기록이 없습니다."
+      },
+      "errorMessage": "예상치 못한 오류로 인해 스냅샷 변경 사항을 적용할 수 없습니다.",
+      "filters": {
+        "createdSince": "삭제됨",
+        "deletedSince": "추가됨",
+        "updatedSince": "수정됨"
+      },
+      "header": {
+        "title": "다음의 변경 사항:",
+        "titleWithMeta": "<3>{{action}}</3>에 의한 <1>{{sheet}}</1>의 변경 사항"
+      },
+      "message": "변경 사항을 수락하면 모든 새 값이 시트 {{name}}에 병합됩니다.",
+      "submitButton": "변경 사항 수락",
+      "submitError": "예상치 못한 오류로 인해 스냅샷 변경 사항을 적용할 수 없습니다.",
+      "submitSuccess": "시트 변경 사항이 성공적으로 적용되었습니다.",
+      "successMessage": "해당 시트에 변경 사항이 적용되었습니다.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{name}} 필드의 셀 {{cells}}개",
+            "last": " 및 {{name}} 필드의 셀 {{cells}}개",
+            "middle": ", {{name}} 필드의 셀 {{cells}}개"
+          },
+          "singular": {
+            "first": "{{name}} 필드의 셀 1개",
+            "last": " 및 {{name}} 필드의 셀 1개",
+            "middle": ", {{name}} 필드의 셀 1개"
+          },
+          "start": " 다음의 데이터가 수정되었습니다. "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "{{fields}}개 필드에서 {{records}}개 기록의 데이터가 변경되었습니다.",
+            "noFields": "{{records}}개 기록의 데이터가 변경되었습니다.",
+            "oneField": "1개 필드에서 {{records}}개 기록의 데이터가 변경되었습니다."
+          },
+          "singular": {
+            "multipleFields": "{{fields}}개 필드에서 1개 기록의 데이터가 변경되었습니다.",
+            "noFields": "1개 기록의 데이터가 변경되었습니다.",
+            "oneField": "1개 필드에서 1개 기록의 데이터가 변경되었습니다."
+          }
+        }
+      },
+      "title": "다음의 변경 사항:"
+    },
+    "cells": {
+      "messages": {
+        "accept": "변경 사항을 수락하면 모든 새 값이 데이터세트에 병합됩니다.",
+        "current": "현재 값: {{value}}",
+        "empty": "데이터 없음",
+        "restore": "데이터세트가 이 스냅샷 버전으로 복원됩니다.",
+        "snapshot": "새 값: {{value}}"
+      }
+    },
+    "restore": {
+      "cancelButton": "취소하기",
+      "empty": {
+        "createdSince": "이 스냅샷에는 삭제될 기록이 없습니다.",
+        "deletedSince": "이 스냅샷에는 추가될 기록이 없습니다.",
+        "title": "볼 내용이 없습니다!",
+        "updatedSince": "이 스냅샷에는 수정될 기록이 없습니다."
+      },
+      "errorMessage": "예상치 못한 오류로 인해 스냅샷을 복원할 수 없습니다.",
+      "filters": {
+        "createdSince": "삭제",
+        "deletedSince": "추가",
+        "updatedSince": "수정"
+      },
+      "header": {
+        "title": "다음에 적용할 변경 사항"
+      },
+      "message": "해당 시트 {{name}}(이)가 이 스냅샷의 버전으로 복원됩니다.",
+      "submitButton": "복원",
+      "submitError": "예상치 못한 오류로 인해 스냅샷을 복원할 수 없습니다.",
+      "submitSuccess": "해당 시트가 이전 버전으로 복원되었습니다.",
+      "successMessage": "해당 시트가 이전 버전으로 복원되었습니다.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{name}} 필드의 셀 {{cells}}개",
+            "last": " 및 {{name}} 필드의 셀 {{cells}}개",
+            "middle": ", {{name}} 필드의 셀 {{cells}}개"
+          },
+          "singular": {
+            "first": "{{name}} 필드의 셀 1개",
+            "last": " 및 {{name}} 필드의 셀 1개",
+            "middle": ", {{name}} 필드의 셀 1개"
+          },
+          "start": " 다음의 데이터가 수정됩니다. "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "{{fields}}개 필드에서 {{records}}개 기록의 데이터가 변경됩니다.",
+            "noFields": "{{records}}개 기록의 데이터가 변경됩니다.",
+            "oneField": "1개 필드에서 {{records}}개 기록의 데이터가 변경됩니다."
+          },
+          "singular": {
+            "multipleFields": "{{fields}}개 필드에서 1개 기록의 데이터가 변경됩니다.",
+            "noFields": "1개 기록의 데이터가 변경됩니다.",
+            "oneField": "1개 필드에서 1개 기록의 데이터가 변경됩니다."
+          }
+        }
+      },
+      "title": "다음에 적용할 변경 사항"
+    },
+    "tooltips": {
+      "sheet": "{{workbook}}의 {{sheet}}"
+    }
+  },
+  "spaceLoadingMessage": "공간 준비 중...",
+  "utils": {
+    "buttons": {
+      "clearAll": "모두 지우기",
+      "selectAll": "모두 선택"
+    }
+  },
+  "versionHistory": {
+    "modals": {
+      "default": {
+        "description": "예기치 않은 오류 발생 - 일치하는 작업이 적용되지 않음"
+      },
+      "delete": {
+        "confirm": {
+          "closeButton": "종료",
+          "description": "선택한 버전을 삭제하시겠습니까?",
+          "heading": "버전 삭제",
+          "proceedButton": "삭제"
+        },
+        "error": {
+          "closeButton": "종료",
+          "description": "예기치 않은 오류로 인해 선택한 버전을 삭제할 수 없습니다. 문제가 지속되면 지원 팀에 문의해 주세요",
+          "heading": "버전을 삭제할 수 없음",
+          "retryButton": "다시 시도"
+        },
+        "success": {
+          "closeButton": "종료",
+          "description": "선택한 버전을 삭제했습니다.",
+          "heading": "버전 삭제함"
+        }
+      }
+    },
+    "panel": {
+      "empty": "버전이 생성되면 여기에 표시됩니다. 버전은 데이터의 대량 변환이 발생할 때 자동으로 생성됩니다.",
+      "generatedSnapshot": "AI 변환을 적용하기 전에 생성된 프롬프트용 스냅샷: ",
+      "heading": "버전 기록",
+      "thisMonth": "이번 달",
+      "versionRestored": "이전 버전을 복원하기 전에 생성된 버전"
+    },
+    "pill": {
+      "hoverText": "버전 기록"
+    }
+  }
 }

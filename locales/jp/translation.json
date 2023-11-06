@@ -1,2 +1,937 @@
 {
+  "checklist": {
+    "dropdowns": {
+      "headings": {
+        "sheet": "シート",
+        "workbook": "ワークブック"
+      }
+    },
+    "errors": {
+      "cannotLoadChecklist": "データチェックリストをロードできません",
+      "cannotLoadSheet": "シートが見つかりませんでした",
+      "noWorkbooksDescription": "データ チェックリストをアクティブにするには、少なくとも1つのワークブックが必要です。開発者に設定を確認してもらってください。それでもこの問題が解決しない場合は、サポートにお問い合わせください。",
+      "noWorkbooksTitle": "ワークブックが必要です"
+    },
+    "table": {
+      "dataTypes": {
+        "boolean": "ブール値",
+        "date": "日付",
+        "enum": "列挙型",
+        "number": "数字",
+        "reference": "参照",
+        "string": "ストリング",
+        "unknown": "不明"
+      },
+      "fieldTagComputed": "計算された",
+      "fieldTagRequired": "必須",
+      "fieldTagUnique": "ユニーク",
+      "headings": {
+        "dataType": "データタイプ",
+        "description": "説明",
+        "field": "フィールド名"
+      }
+    },
+    "title": "データチェックリスト"
+  },
+  "commandMenu": {
+    "aiAssist": {
+      "query": {
+        "askingAI": {
+          "stepFour": "終了している",
+          "stepOne": "思考中",
+          "stepThree": "行っている",
+          "stepTwo": "書いています"
+        },
+        "description": {
+          "branded": "AIにFFQLでクエリを作成してもらう",
+          "whitelabeled": "AIにクエリを作成してもらう"
+        },
+        "errorBanner": {
+          "generalError": "何か問題が発生しました。もう一度試してください。"
+        },
+        "instruction": "AIアシスタントにデータをクエリする方法を説明してください。",
+        "review": {
+          "description": "これが私が思いついたものです。ステップバイステップの説明とクエリを読み、問題がなければ以下をクリックして適用してください。",
+          "explanationTitle": "説明",
+          "queryTitle": "クエリ"
+        }
+      },
+      "title": "AIで構築",
+      "transform": {
+        "askingAI": {
+          "stepFour": "終了している",
+          "stepOne": "思考中",
+          "stepThree": "行っている",
+          "stepTwo": "書いています"
+        },
+        "description": "AIにデータの変換をリクエストする",
+        "errorBanner": {
+          "generalError": "何か問題が発生しました。もう一度試してください。",
+          "versionError": "ロールバックバージョンを作成できません - AI変換は中止されました。もう一度試してください。"
+        },
+        "instruction": "AIアシスタントにデータをどのように変換してもらいたいかを説明してください。",
+        "review": {
+          "codeTitle": "コード",
+          "description": "これが私が思いついたものです。ステップバイステップの説明とクエリを読み、問題がなければ以下をクリックして適用してください。",
+          "planTitle": "プラン",
+          "warning": "警告：これによりデータが変換されます"
+        },
+        "transforming": {
+          "inProgress": "データセットへの適用中"
+        }
+      }
+    },
+    "buttons": {
+      "apply": "適用",
+      "cancel": "キャンセル"
+    },
+    "commands": {
+      "filter": {
+        "apply": "フィルターを適用する。",
+        "description": {
+          "branded": "FFQLステートメントを書く",
+          "whitelabeled": "クエリを書く"
+        },
+        "hiddenColumnsWarning_other": "{{count}} のフィールドは、次のクエリによって再表示されます：{{fields}}",
+        "hiddenColumnsWarning_zero": "{{count}} のフィールドは、次のクエリによって再表示されます：{{fields}}",
+        "invalidFFQL": "無効なFFQLステートメントです。もう一度やり直しますか？",
+        "learnHow": "方法を学ぶ"
+      },
+      "search": {
+        "global": {
+          "apply": "検索を適用する。",
+          "description": "シート全体を検索する"
+        },
+        "inField": {
+          "apply": "フィールド内で検索を適用します。",
+          "applyExample": "すなわち、「first_name」ジェーン・ドウ",
+          "description": "フィールド内を検索する"
+        }
+      }
+    },
+    "itemMessage": "{{icon}} を押して適用",
+    "placeholder": "探したり何かしたり..."
+  },
+  "document": {
+    "error": {
+      "description": "このドキュメントは存在しないようです",
+      "title": "ドキュメントが見つかりません"
+    }
+  },
+  "errors": {
+    "documentNotFound": "ドキュメントが見つかりません",
+    "fileNotFound": "ファイルが見つかりません",
+    "missingParameter": "パラメータが提供されていません",
+    "notFound": "見つかりません",
+    "refreshButton": "再試行",
+    "refreshPageDescription": "ページを更新して再試行してください。問題が解決しない場合は、サポートにお問い合わせください。",
+    "sheetNotFound": "シートが見つかりません",
+    "spaceNotFound": "スペースが見つかりません",
+    "unauthorized": "アクセス資格情報が無効です。",
+    "unknownError": "何か問題が発生しました",
+    "workbookNotFound": "ワークブックが見つかりません"
+  },
+  "files": {
+    "availableDownloadsTab": "利用可能なダウンロード",
+    "buttons": {
+      "addFile": {
+        "inProgressText": "ファイルをアップロードしています",
+        "text": "ファイルを追加"
+      },
+      "delete": "削除",
+      "download": "ダウンロード"
+    },
+    "contextMenu": {
+      "delete": "削除",
+      "download": "ダウンロード"
+    },
+    "counts": "{{start}} - {{end}} / {{total}}",
+    "deleteModal": {
+      "downloadDescription_other": "これらのダウンロードされたファイルはスペースから削除されます。",
+      "downloadDescription_zero": "これらのダウンロードされたファイルはスペースから削除されます。",
+      "heading_other": "ファイルの削除",
+      "heading_zero": "ファイルの削除",
+      "subheading_other": "ファイル：",
+      "subheading_zero": "ファイル：",
+      "uploadsDescription_other": "インポートされたすべてのデータは保存されます。 これにより、スペースからファイルが削除されます。",
+      "uploadsDescription_zero": "インポートされたすべてのデータは保存されます。 これにより、スペースからファイルが削除されます。"
+    },
+    "downloadsTable": {
+      "headings": {
+        "createdDate": "生成済み",
+        "name": "名前",
+        "size": "サイズ",
+        "sourceSheet": "ソースシート"
+      },
+      "processing": "エクスポート中..."
+    },
+    "emptyState": {
+      "downloads": {
+        "description": "ダウンロードされたデータはここに表示されます",
+        "heading": "ダウンロードできません"
+      },
+      "uploads": {
+        "description": "開始するには、ファイルをドラッグ＆ドロップするかアップロードしてください",
+        "heading": "ファイルを追加"
+      }
+    },
+    "errors": {
+      "loadingError": "ファイルをロードできません",
+      "uploadDisabledDescription": "これがエラーだと思われる場合は、サポートにお問い合わせください。",
+      "uploadDisabledHeading": "このスペースは現在、ファイルのアップロードをサポートしていません。"
+    },
+    "title": "ファイル",
+    "uploadedFilesTab": "アップロードされたファイル",
+    "uploadFile": {
+      "popovers": {
+        "errorUploading": "以下のファイルをアップロードできません：{{fileName}}",
+        "onDragPopoverConfirmation": "ファイルをドロップ：",
+        "uploadComplete": "アップロードされました：{{fileName}}",
+        "uploadInProgress": "アップロード中：{{fileName}}",
+        "uploadsDisabled": "このスペースは現在、ファイルのアップロードをサポートしていません。"
+      }
+    },
+    "uploadsTables": {
+      "headings": {
+        "name": "名前",
+        "status": "ステータス",
+        "uploadedDate": "アップロード済み"
+      },
+      "importButton": "インポート",
+      "tooltips": {
+        "cannotImport": "現在、このファイルではワークブックへのインポートは利用できません",
+        "noExtension": "このファイルには拡張子がありません。ファイル名に正しいファイル拡張子を追加し、ファイルを再アップロードしてワークブックにインポートしてください"
+      }
+    }
+  },
+  "guestInvite": {
+    "getNewAccessLink": {
+      "content": "安全なアクセスリンクを送信しました",
+      "finePrint": "メールが見つからない場合は、スパムフォルダーを確認するか、このページを更新して別のアクセスリンクを送信してください。リンクは5分間機能します。",
+      "heading": "メールをチェックしてください"
+    }
+  },
+  "jobs": {
+    "customActions": {
+      "modals": {
+        "confirmModal": {
+          "cancelButton": "キャンセル",
+          "defaultConfirmButton": "確認",
+          "defaultLoadingButton": "読み込み中...",
+          "isRequired": "{{field}} が必要です",
+          "mustBeNumber": "{{field}} は数値でなければなりません"
+        },
+        "defaultJobName": "ジョブ",
+        "defaultResourceName": "このリソース",
+        "foregroundJobProgressModal": {
+          "defaultJobName": "ジョブ",
+          "defaultResourceName": "このリソース",
+          "percentComplete": "{{percent}}% 完了",
+          "runningOn": "実行中"
+        },
+        "outcomeModals": {
+          "acknowledgementModal": {
+            "defaultContinueButton": "続行"
+          },
+          "defaultDownloadLabel": "ダウンロード",
+          "defaultFileName": "ファイル",
+          "defaultHeading": {
+            "failed": "ジョブが失敗しました",
+            "success": "成功！"
+          },
+          "defaultLabel": "リソースの表示",
+          "defaultMessage": {
+            "failed": "{{resourceName}} の {{jobName}} が失敗しました",
+            "success": "{{jobName}} が {{resourceName}} で正常に実行されました"
+          },
+          "permanentOutcomeModal": {
+            "defaultContinueButton": "続行"
+          }
+        },
+        "startModal": {
+          "confirmButton": "確認",
+          "errorMessage": "アクションでエラーが発生しました",
+          "loadingText": "読み込み中..."
+        }
+      }
+    },
+    "panel": {
+      "action": {
+        "export": "ダウンロード",
+        "extract": "インポート",
+        "mapping": "ワークブックに移動"
+      },
+      "empty": "ジョブは、実行中または完了するとここに表示されます",
+      "errorLoadingJob": "見つかりません",
+      "heading": "ジョブ",
+      "status": {
+        "default": {
+          "canceled": {
+            "prefix": "ジョブ",
+            "suffix": "キャンセル"
+          },
+          "complete": {
+            "prefix": "ジョブ",
+            "suffix": "完了"
+          },
+          "failed": {
+            "prefix": "ジョブ",
+            "suffix": "失敗"
+          },
+          "inProgress": "実行中のジョブ"
+        },
+        "delete": {
+          "cancelled": "レコードの削除をキャンセルしました",
+          "complete": "削除が完了しました",
+          "failed": "削除に失敗しました",
+          "inProgress": "レコードの削除中"
+        },
+        "export": {
+          "canceled": "ダウンロードがキャンセルされました",
+          "complete": "ダウンロードが生成されました",
+          "failed": "ダウンロードの生成に失敗しました",
+          "inProgress": "ダウンロードを生成しています"
+        },
+        "extract": {
+          "cancelled": "ファイル抽出をキャンセルしました",
+          "complete": "ファイルを抽出しました",
+          "failed": "ファイルの抽出に失敗しました",
+          "inProgress": "ファイルを抽出しています"
+        },
+        "mapping": {
+          "canceled": "ワークブックへのマッピングがキャンセルされました",
+          "complete": "ワークブックにマッピングされました",
+          "failed": "ワークブックへのマッピングに失敗しました",
+          "inProgress": "ワークブックへのマッピング"
+        }
+      },
+      "time": {
+        "completed": "完了：",
+        "failed": "次の後に失敗しました：",
+        "remaining": "残っている",
+        "started": "{{time}}を開始しました",
+        "units": {
+          "hour": "時間",
+          "minute": "分",
+          "second": "秒"
+        }
+      }
+    },
+    "pill": {
+      "hoverText": "ジョブ",
+      "multipleJobsRunning": "{{count}} のジョブが実行中です",
+      "status": {
+        "default": {
+          "complete": "ジョブが完了しました",
+          "failed": "ジョブが失敗しました",
+          "inProgress": "ジョブを実行中"
+        },
+        "delete": {
+          "complete": "削除が完了しました",
+          "failed": "削除に失敗しました",
+          "inProgress": "レコードの削除中..."
+        },
+        "extract": {
+          "complete": "抽出が完了しました",
+          "failed": "抽出が失敗しました",
+          "inProgress": "データを抽出中..."
+        },
+        "mapping": {
+          "complete": "マッピングが完了しました",
+          "failed": "マッピングが失敗しました",
+          "inProgress": "マッピング..."
+        }
+      }
+    }
+  },
+  "mapping": {
+    "dataPreview": {
+      "heading": "{{previewKey}}のデータプレビュー",
+      "noData": "プレビューデータがありません"
+    },
+    "headerButtons": {
+      "back": "戻る",
+      "exit": "終了",
+      "next": "続行"
+    },
+    "mapEnums": {
+      "destinationFields": {
+        "dropdownOptions": {
+          "doNotImport": "インポートしない",
+          "keepAsIs": "この値を次のように維持する：",
+          "keepAsIsDisabledTooltip": "このリストへの新しいオプションの追加はサポートされていません。有効なオプションではない値をインポートすると、エラーが表示されます。"
+        },
+        "heading": "宛先の値"
+      },
+      "incomingFields": {
+        "heading": "受信値",
+        "noData": "データのないセル",
+        "noDataTooltip": "有効なオプションを選択して、すべての空のセルを設定できます。これを空白のままにすることもできます。"
+      },
+      "progressPill_other": "{{mappedCount}}/{{totalCount}} の値がマッピングされました",
+      "progressPill_zero": "{{mappedCount}}/{{totalCount}} の値がマッピングされました",
+      "progressPillAllMapped_other": "{{totalCount}} の値がマッピングされました",
+      "progressPillAllMapped_zero": "{{totalCount}} の値がマッピングされました",
+      "subheading": "これらのフィールドには、有効なオプションのリストにマップする必要がある値が含まれています。",
+      "title": "マップフィールド"
+    },
+    "mapFields": {
+      "destinationFields": {
+        "addNewField": {
+          "description": "このフィールドをシートに追加",
+          "label": "新規フィールドとして追加"
+        },
+        "dropdownOptionLabels": {
+          "new": "新規追加",
+          "unused": "未使用",
+          "used": "使用済み"
+        },
+        "heading": "宛先フィールド",
+        "progressPill": {
+          "missingRequiredFields": " - {{missingFieldsCount}}が見つかりません",
+          "text": "{{totalDestinationFields}}の{{totalDestinationsMapped}}",
+          "tooltip": {
+            "greaterThanTenMissing": "そして{{missingFieldsAfterTen}}ともっと...",
+            "missingRequiredFields": "必須フィールドが見つかりません：",
+            "progress": "対象シート内の{{totalDestinationFields}}個の使用可能フィールドのうち、{{mappedDestinationFields}}がマッピングされました"
+          }
+        }
+      },
+      "incomingFields": {
+        "heading": "受信フィールド",
+        "progressPill": {
+          "text": "{{totalIncomingFields}}の{{totalIncomingMapped}}",
+          "tooltip": "データセット内の{{totalIncomingFields}}フィールドのうち、{{mappedIncomingFields}}を対象シートにマッピングしました"
+        }
+      },
+      "subheading": "各マッピング選択のレビューと確認",
+      "title": "マップフィールド"
+    },
+    "sheetSelection": {
+      "cannotLoadFile": "以下のファイルをアップロードできません：{{fileName}}",
+      "columns_other": "{{count}}列",
+      "columns_zero": "{{count}}列",
+      "errors_other": "{{count}}エラー",
+      "errors_zero": "{{count}}エラー",
+      "importFromHeading": "データをロードするシートを選択",
+      "importToHeading": "このデータをインポートするシートを選択",
+      "lastUpdated": "最終更新日{{date}}",
+      "lastUpdatedDateFormat": "年-月-日",
+      "records_other": "{{count}}レコード",
+      "records_zero": "{{count}}レコード",
+      "sheetHasNoData": "データなし",
+      "sheets_other": "{{count}}シート",
+      "sheets_zero": "{{count}}列",
+      "title": "インポート先"
+    }
+  },
+  "sheet": {
+    "columnManagement": {
+      "errorColumnTooltip": "この値でフィルタリングすると、この列が再表示されます",
+      "noFields": "フィールドがありません",
+      "noMatches": "一致するものがありません",
+      "placeholder_other": "{{count}} のフィールドを検索または選択...",
+      "placeholder_zero": "{{count}} のフィールドを検索または選択...",
+      "toast": {
+        "action": "再表示しますか？",
+        "message_other": "エラーのある {{count}} の列が非表示になります",
+        "message_zero": "エラーのある {{count}} の列が非表示になります"
+      },
+      "tooltip_other": "{{count}} の列を非表示にします",
+      "tooltip_zero": "列の管理",
+      "unhideToast": {
+        "message_other": "{{count}} の列がこのクエリによって再表示されました",
+        "message_zero": "{{count}} の列がこのクエリによって再表示されました"
+      }
+    },
+    "embedded": {
+      "maxOpenReached": "{{maxOpenSheets}} を超える埋め込みシートを一度に開くことはできません。埋め込まれたシートを閉じて、このシートを開いてください。",
+      "untitled": "無題のシート"
+    },
+    "emptyView": {
+      "defaultError": {
+        "description": "このシートは空白のようです。",
+        "heading": "まだ見るものはありません！"
+      },
+      "heading": "始めましょう",
+      "manualEntry": "データを手動で入力する",
+      "noColumns": {
+        "description": "すべての列を非表示にしました。",
+        "heading": "見るべきものは何もありません！"
+      },
+      "noSheetError": {
+        "description": "このシートは存在しないようです。",
+        "heading": "シートが見つかりません"
+      },
+      "readOnly": {
+        "description": "新しい行や編集を受け入れないシートは、通常、動的に入力されたデータを受け取ります。現時点では実行できるアクションはありません。",
+        "heading": "データ待ち"
+      },
+      "sheetLocked": {
+        "description": "これがエラーであると思われる場合は、サポートにお問い合わせください。",
+        "heading": "レコードの追加は現在無効になっています"
+      },
+      "uploadFile": "開始するには、ファイルをドラッグ＆ドロップするかアップロードしてください"
+    },
+    "errors": {
+      "loading": "ワークブックを取得できません。",
+      "noSheets": {
+        "description": "ワークブックには少なくとも1つのシートが含まれている必要があります。何も見つかりませんでした。",
+        "title": "ワークブックにシートが含まれていません"
+      },
+      "notFound": "ワークブックが見つかりません"
+    },
+    "info": {
+      "copiedPopover": "クリップボードにコピーされました",
+      "copyButton": "クリックしてコピーしてください！"
+    },
+    "popovers": {
+      "copyCell_other": "{{count}} のセルがコピーされました",
+      "copyCell_zero": "{{count}} のセルがコピーされました",
+      "copyRecord_other": "{{count}} のレコードがコピーされました",
+      "copyRecord_zero": "{{count}} のレコードがコピーされました",
+      "errors": {
+        "cellUpdateFailed": "何か問題が発生しました。ページを更新してもう一度お試しください。この問題が続く場合は、サポートにご連絡ください",
+        "invalidFFQL": "クエリを確認してください",
+        "invalidFFQLSearch": "無効なFFQLステートメントです",
+        "learnMore": "もっとくわしく",
+        "recordsLoadFailed": "レコードのロードに失敗しました"
+      }
+    },
+    "table": {
+      "cells": {
+        "enum": {
+          "loading": "オプションを読み込んでいます...",
+          "loadingError": "オプションをロードできません",
+          "noMatchesFound": "一致するものが見つかりませんでした",
+          "placeholder": "ここに入力...",
+          "seeMore": "検索してその他のオプションを表示します"
+        },
+        "messages": {
+          "autogen": "✨自動生成されました",
+          "reference": "値が参照テーブルに存在しません",
+          "req": "{{field}} が必要です",
+          "transformed": "🪄️ {{originalValue}} から変換されました",
+          "unique": "値は一意ではありません"
+        }
+      },
+      "contextMenu": {
+        "filterByValue": {
+          "label": "値でフィルタリング",
+          "moreOptions": "最初の {{pageSize}} オプションを表示しています。もっと見るには検索してください。",
+          "noData": "データなし",
+          "placeholder": "値を検索または選択..."
+        },
+        "findAndReplace": {
+          "findAndReplaceValues": "検索して置換",
+          "modal": {
+            "cancelButton": "キャンセル",
+            "descriptionExactOnly": "この列内のテキストを有効な値に一括置換します。 完全一致のみを表示します",
+            "descriptionPartialAndExact": "この列内のテキストを一括置換します。このデータの部分一致と完全一致の両方をサポートしています",
+            "errors": {
+              "findError": "値の検索中にエラーが発生しました",
+              "generalError": "何か問題が発生しました。もう一度試してください",
+              "replaceError": "値の置き換え中にエラーが発生しました"
+            },
+            "exactMatchesOnly": "サーフェスの完全一致のみ",
+            "finding": "すべてのインスタンスの検索",
+            "heading": "{{columnName}} の検索と置換",
+            "isFiltered": "このデータセットはフィルタリングされています。検索と置換は、フィルタリングされたレコードに対してのみ実行されます。",
+            "replaceButton": "すべて置き換え",
+            "replaceEmpty": {
+              "description": {
+                "addValues": "これにより、{{columnName}} の空のセルがすべて入力されます。",
+                "addValuesToAll": "{{columnName}} にはすべて空のセルがあります。これらのセルに選択した値を一括入力できます。",
+                "addValuesToCount_other": "{{formattedCount}} の空のセルが {{columnName}} にあります。これらに選択した値を一括入力できます。",
+                "addValuesToCount_zero": "{{formattedCount}} の空のセルが {{columnName}} にあります。これらに選択した値を一括入力できます。",
+                "noEmptyValues": "このフィールドには空のセルが見つかりませんでした。"
+              },
+              "heading": {
+                "addValues": "{{columnName}} の空のセルに値を追加します",
+                "addValuesToAll": "{{columnName}} 内のすべての空のセルに値を追加します",
+                "addValuesToCount_other": "{{columnName}} の {{formattedCount}} の空のセルに値を追加します",
+                "addValuesToCount_zero": "{{columnName}} の {{formattedCount}} 個の空のセルに値を追加します",
+                "noEmptyValues": "空の値が見つかりません"
+              }
+            },
+            "replaceEnum": {
+              "moreOptions": "最初の100のオプションを表示します。もっと見るには検索してください。",
+              "noMatchesFound": "一致するものが見つかりませんでした",
+              "replaceWith": "以下で置き換え："
+            },
+            "replaceValue": {
+              "leavingBlank": "このフィールドを空白のままにすると、選択した値が削除されます",
+              "noMatchesFound": "値が見つかりません",
+              "replaceWith": "以下で置き換え："
+            },
+            "replacing": "値の置き換え中",
+            "runOnAllRecords": "すべてのレコードに対して実行",
+            "searchForEmpty": "このフィールドが空のままの場合、空の値が検索されます。",
+            "searchForText": "テキストを検索...",
+            "searchResultsCount_other": "{{count}} の一致",
+            "searchResultsCount_zero": "{{count}} の一致"
+          },
+          "replaceEmptyValues": "空の値を置換する"
+        },
+        "pin": {
+          "apply": "ピン列",
+          "remove": "ピンを削除",
+          "tooltip": {
+            "maxPinned": "最大3つの列を固定できます。この列を固定するには、現在固定されている列の1つの固定を解除してください。",
+            "pin": "この列を表の左側に固定します",
+            "unpin": "クリックしてこの列のピンを解除"
+          }
+        },
+        "searchInField": {
+          "modal": {
+            "cancelButton": "キャンセル",
+            "placeholder": "検索...",
+            "searchButton": "検索",
+            "searchWithin": "以下の内を検索："
+          },
+          "searchInThisField": "このフィールドで検索"
+        },
+        "sort": {
+          "ascending": {
+            "apply": "A-Zの並べ替え",
+            "remove": "A-Zの並べ替えを削除"
+          },
+          "descending": {
+            "apply": "Z-Aの並べ替え",
+            "remove": "Z-Aの並べ替えを削除"
+          },
+          "tooltip": {
+            "notSorted": "クリックしてZ-Aの並べ替え",
+            "sortedAsc": "A-Zで並び替え済み",
+            "sortedDes": "Z-Aで並び替え済み"
+          }
+        }
+      },
+      "errors": {
+        "description": "テーブルでこのデータを表示するのに問題が発生しています。エラーの詳細については、コンソールを参照してください。",
+        "title": "何か問題が発生しました"
+      },
+      "indexRow": {
+        "tooltip": {
+          "createRow": "データを追加してこの行を作成します",
+          "noData": "選択できる行がありません。データを含む行のみを選択できます。",
+          "rowNumber": "行 {{number}}"
+        }
+      },
+      "maximumMessage": {
+        "plural": "...あと {{hiddenRows}} 行です。ブラウザの制限により、テーブルビューは一度に最大500,000レコードのみをサポートします。検索、並べ替え、フィルター、および一括アクションは、ビューから非表示になっているすべての行に対して引き続き動作します。",
+        "singular": "...あと1行です。ブラウザの制限により、テーブルビューは一度に最大500,000レコードのみをサポートします。検索、並べ替え、フィルター、および一括アクションは、ビューから非表示になっているすべての行に対して引き続き動作します。"
+      },
+      "modals": {
+        "copyAlert": {
+          "cancelButton": "キャンセル",
+          "description": "100を超えるレコードを選択しようとしていることがわかりました。データの整合性を維持するために、コピーは100レコードに制限されています。",
+          "download": "このシートを .csv としてダウンロードしますか？",
+          "downloadButton": "ダウンロード",
+          "heading": "このファイルをダウンロードしますか？"
+        },
+        "deleteAlert": {
+          "description": "現時点では、100を超える既存レコードの削除はサポートされていません。データを<1>インテリジェントに変更</1>する際に、より良いエクスペリエンスを提供するために制限を設けています。",
+          "dismissButton": "却下",
+          "heading": "削除制限に達しました。",
+          "tooltip": "空のレコードや重複などを削除します。"
+        },
+        "pasteAlert": {
+          "description": "現時点では、100を超える既存のレコードの貼り付けはサポートされていません。データを<1>インテリジェントに変更</1>する際に、より良いエクスペリエンスを提供するために制限を設けています。",
+          "dismissButton": "却下",
+          "heading": "貼り付け制限に達しました。",
+          "tooltip": "空のレコードや重複などを削除します。"
+        }
+      }
+    },
+    "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "アクション",
+        "placeholder": "検索または選択..."
+      },
+      "buttons": {
+        "delete": {
+          "modal": {
+            "cancelButton": "キャンセル",
+            "confirmButton": "レコードの削除",
+            "description": {
+              "infix": "選択済み",
+              "infixType": {
+                "invalid": "無効",
+                "valid": "有効"
+              },
+              "prefix": "以下を削除しますか：",
+              "suffix_other": "レコード？",
+              "suffix_zero": "レコード？"
+            },
+            "errorMessage": "レコードを削除できません。もう一度試すか、選択を変更してください。",
+            "heading_other": "レコードの削除",
+            "heading_zero": "レコードの削除",
+            "inProgress": "レコードの削除中..."
+          },
+          "popover": {
+            "successMessage_other": "{{count}} のレコードが削除されました",
+            "successMessage_zero": "{{count}} のレコードが削除されました",
+            "successMessageNoCount": "レコードが削除されました"
+          },
+          "tooltip": {
+            "active": "選択したレコードを削除",
+            "disabled": {
+              "deleteDisabled": "このシートではレコードの削除が無効になっています。",
+              "noRecordsSelected": "削除するには少なくとも1つのレコードを選択してください"
+            }
+          }
+        },
+        "download": {
+          "modal": {
+            "cancelButton": "キャンセル",
+            "confirmButton": "レコードをダウンロード",
+            "description": {
+              "infix": "選択済み",
+              "infixType": {
+                "invalid": "無効",
+                "valid": "有効"
+              },
+              "prefix": "ダウンロードしますか：",
+              "suffix_other": "レコード？",
+              "suffix_zero": "レコード？"
+            },
+            "errorMessage": "レコードをダウンロードできません。もう一度試すか、選択を変更してください。",
+            "heading_other": "レコードのダウンロード",
+            "heading_zero": "レコードのダウンロード",
+            "inProgress": "レコードをダウンロードしています..."
+          },
+          "tooltip": {
+            "active": {
+              "invalidFilterApplied": "無効なレコードをすべてダウンロードする",
+              "noRecordsSelected": "このシートをダウンロード",
+              "recordsSelected": "選択したレコードをダウンロードする",
+              "validFilterApplied": "有効なレコードをすべてダウンロードする"
+            },
+            "disabled": "ダウンロードするレコードがありません"
+          }
+        }
+      },
+      "customActionsDropdown": {
+        "disabledTooltip": {
+          "requireAllValid": "このアクションでは、選択されたすべての行が有効である必要があります",
+          "requireSelection": "このアクションを使用するには、1つ以上のレコードを選択してください"
+        }
+      },
+      "dropdown": {
+        "delete": "削除",
+        "download": "ダウンロード"
+      },
+      "filterByError": {
+        "buttonText": "エラーによるフィルター",
+        "dropdownPlaceholder": "検索または選択..."
+      },
+      "filters": {
+        "all": "すべて",
+        "invalid": "無効",
+        "tooltip": {
+          "filter": {
+            "invalid": "無効",
+            "total": "合計",
+            "valid": "有効"
+          },
+          "filtered": "このデータセットは、{{countString}} の{{filter}} レコードの {{filteredCount}} を表示するためにフィルタリングされています。",
+          "filteredByError": "このデータセットはエラーフィルターによってフィルターリングされており、{{countString}} {{filter}} レコードの {{filteredCount}} が表示されています。",
+          "filteredByFFQL": {
+            "branded": "このデータセットはフラットファイルクエリ言語を介してフィルタリングされており、{{countString}} {{filter}} レコードの {{filteredCount}} が表示されています。",
+            "whitelabeled": "このデータセットは、{{countString}} の{{filter}} レコードの {{filteredCount}} を表示するためにフィルタリングされています。"
+          },
+          "filteredBySearch": "このデータセットは検索によってフィルタリングされ、{{countString}} {{filter}} レコードの {{filteredCount}} が表示されています。",
+          "filteredBySearchAndError": "このデータセットは検索とエラーフィルターによってフィルタリングされており、{{countString}} {{filter}} レコードの {{filteredCount}} が表示されています。",
+          "inactiveCount": "{{countString}} {{filter}} レコード、{{filteredCount}} がフィルターされました"
+        },
+        "valid": "有効"
+      },
+      "moreActions": {
+        "buttonText": "さらなるアクション",
+        "placeholder": "検索または選択..."
+      },
+      "searchBar": {
+        "expandTooltip": "オープン検索とAIアシスト",
+        "placeholder": "検索...",
+        "tooltip": "Enterキーを押して検索"
+      }
+    }
+  },
+  "sidebar": {
+    "addConnection": "接続の追加",
+    "checklist": "データチェックリスト",
+    "connections": {
+      "tooltips": {
+        "connectionError": "このワークブックの接続のメタデータを検証するときに問題が発生しました",
+        "connectionFresh": "{{service}} 経由で {{source}} に接続しました",
+        "connectionStale": "{{source}} と最後に同期したのは24時間以上前です"
+      }
+    },
+    "emptyWorkbook": "空のワークブック",
+    "files": "ファイル",
+    "readOnlyIconTooltip": "このシートは読み取り専用です"
+  },
+  "snapshot": {
+    "accept": {
+      "cancelButton": "キャンセル",
+      "cancelError": "予期しないエラーのため、変更を元に戻すことができませんでした。",
+      "cancelSuccess": "シートへの変更は正常に元に戻されました。",
+      "empty": {
+        "createdSince": "このスナップショットには削除されたレコードはありません。",
+        "deletedSince": "このスナップショットには追加されたレコードはありません。",
+        "title": "見るべきものは何もありません！",
+        "updatedSince": "このスナップショットには変更されたレコードはありません。"
+      },
+      "errorMessage": "予期しないエラーのため、スナップショットの変更を適用できませんでした。",
+      "filters": {
+        "createdSince": "削除",
+        "deletedSince": "追加",
+        "updatedSince": "修正"
+      },
+      "header": {
+        "title": "行われた変更：",
+        "titleWithMeta": "<1>{{sheet}}</1> で <3>{{action}}</3> によって行われた変更"
+      },
+      "message": "変更を受け入れると、すべての新しい値がシート {{name}} にマージされます。",
+      "submitButton": "変更を受け入れる",
+      "submitError": "予期しないエラーのため、スナップショットの変更を適用できませんでした。",
+      "submitSuccess": "シートへの変更は正常に適用されました。",
+      "successMessage": "変更がシートに適用されました。",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "フィールド {{name}} の {{cells}} のセル",
+            "last": " フィールド {{name}} の {{cells}} のセル",
+            "middle": "、フィールド {{name}} の {{cells}} のセル"
+          },
+          "singular": {
+            "first": "フィールド {{name}} の1つのセル",
+            "last": " フィールド {{name}} の1つのセル",
+            "middle": "、フィールド {{name}} の1つのセル"
+          },
+          "start": " データが変更されました： "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "{{fields}} フィールドの {{records}} レコードのデータが変更されました。",
+            "noFields": "{{records}} レコードのデータが変更されました。",
+            "oneField": "1つのフィールドにわたる {{records}} レコードのデータが変更されました。"
+          },
+          "singular": {
+            "multipleFields": "{{fields}} フィールドにわたる1つのレコードのデータが変更されました。",
+            "noFields": "1レコード内のデータが変更されました。",
+            "oneField": "1つのフィールドにわたる1つのレコードでデータが変更されました。"
+          }
+        }
+      },
+      "title": "行われた変更："
+    },
+    "cells": {
+      "messages": {
+        "accept": "変更を受け入れると、すべての新しい値がデータセットにマージされます。",
+        "current": "現在の値：{{value}}",
+        "empty": "データなし",
+        "restore": "データセットは、このスナップショットのバージョンに復元されます。",
+        "snapshot": "新しい値：{{value}}"
+      }
+    },
+    "restore": {
+      "cancelButton": "キャンセル",
+      "empty": {
+        "createdSince": "このスナップショットには削除されるレコードはありません。",
+        "deletedSince": "このスナップショットには追加されるレコードがありません。",
+        "title": "見るべきものは何もありません！",
+        "updatedSince": "このスナップショットには変更されるレコードはありません。"
+      },
+      "errorMessage": "予期しないエラーのため、スナップショットを復元できませんでした。",
+      "filters": {
+        "createdSince": "削除",
+        "deletedSince": "追加",
+        "updatedSince": "修正"
+      },
+      "header": {
+        "title": "適用する変更："
+      },
+      "message": "シート {{name}} は、このスナップショットのバージョンに復元されます。",
+      "submitButton": "復元",
+      "submitError": "予期しないエラーのため、スナップショットを復元できませんでした。",
+      "submitSuccess": "シートは以前のバージョンに復元されました。",
+      "successMessage": "シートは以前のバージョンに復元されました。",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "フィールド {{name}} の {{cells}} のセル",
+            "last": " フィールド {{name}} の {{cells}} のセル",
+            "middle": "、フィールド {{name}} の {{cells}} のセル"
+          },
+          "singular": {
+            "first": "フィールド {{name}} の1つのセル",
+            "last": " フィールド {{name}} の1つのセル",
+            "middle": "、フィールド {{name}} の1つのセル"
+          },
+          "start": " データが変更されます： "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "データは {{fields}} のフィールドにわたる {{records}} レコードで変更されます。",
+            "noFields": "データは {{records}} レコードで変更されます。",
+            "oneField": "データは1つのフィールドにわたる {{records}} レコードで変更されます。"
+          },
+          "singular": {
+            "multipleFields": "データは {{fields}} フィールドにわたる1レコード内で変更されます。",
+            "noFields": "1レコードでデータが変化します。",
+            "oneField": "データは1フィールドにわたる1レコード内で変更されます。"
+          }
+        }
+      },
+      "title": "適用する変更："
+    },
+    "tooltips": {
+      "sheet": "{{workbook}} の {{sheet}}"
+    }
+  },
+  "spaceLoadingMessage": "スペースを準備しています...",
+  "utils": {
+    "buttons": {
+      "clearAll": "すべて削除",
+      "selectAll": "すべて選択"
+    }
+  },
+  "versionHistory": {
+    "modals": {
+      "default": {
+        "description": "予期しないエラーが発生しました - 一致するアクションは適用されませんでした"
+      },
+      "delete": {
+        "confirm": {
+          "closeButton": "閉じる",
+          "description": "選択したバージョンを削除してもよろしいですか？",
+          "heading": "バージョンの削除",
+          "proceedButton": "削除"
+        },
+        "error": {
+          "closeButton": "閉じる",
+          "description": "予期しないエラーのため、選択したバージョンを削除できませんでした - 問題が解決しない場合は、サポートにお問い合わせください",
+          "heading": "バージョンを削除できません",
+          "retryButton": "もう一度試す"
+        },
+        "success": {
+          "closeButton": "閉じる",
+          "description": "選択したバージョンは削除されました。",
+          "heading": "バージョンが削除されました"
+        }
+      }
+    },
+    "panel": {
+      "empty": "バージョンが生成されると、ここに表示されます。バージョンは多くの場合、データの一括変換が発生したときに自動的に生成されます。",
+      "generatedSnapshot": "AI Transformをプロンプトに適用する前に生成されたスナップショット： ",
+      "heading": "バージョン履歴",
+      "thisMonth": "この月",
+      "versionRestored": "以前のバージョンを復元する前に作成されたバージョン"
+    },
+    "pill": {
+      "hoverText": "バージョン履歴"
+    }
+  }
 }

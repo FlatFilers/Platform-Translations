@@ -1,2 +1,937 @@
 {
+  "checklist": {
+    "dropdowns": {
+      "headings": {
+        "sheet": "Trang tính",
+        "workbook": "Sổ làm việc"
+      }
+    },
+    "errors": {
+      "cannotLoadChecklist": "Không thể tải danh sách kiểm tra dữ liệu",
+      "cannotLoadSheet": "Không thể tìm thấy trang tính",
+      "noWorkbooksDescription": "Danh sách kiểm tra dữ liệu yêu cầu tối thiểu 1 sổ làm việc để hoạt động. Vui lòng yêu cầu nhà phát triển của bạn kiểm tra cấu hình. Nếu vấn đề này vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ.",
+      "noWorkbooksTitle": "Cần có sổ làm việc"
+    },
+    "table": {
+      "dataTypes": {
+        "boolean": "Boolean",
+        "date": "Ngày",
+        "enum": "Enum",
+        "number": "Số",
+        "reference": "Tham chiếu",
+        "string": "Chuỗi",
+        "unknown": "Không xác định"
+      },
+      "fieldTagComputed": "Đã tính toán",
+      "fieldTagRequired": "Bắt buộc",
+      "fieldTagUnique": "Duy nhất",
+      "headings": {
+        "dataType": "Loại dữ liệu",
+        "description": "Mô tả",
+        "field": "Tên trường dữ liệu"
+      }
+    },
+    "title": "Danh sách kiểm tra dữ liệu"
+  },
+  "commandMenu": {
+    "aiAssist": {
+      "query": {
+        "askingAI": {
+          "stepFour": "Đang hoàn tất",
+          "stepOne": "Đang suy nghĩ",
+          "stepThree": "Đang thực hiện",
+          "stepTwo": "Đang viết"
+        },
+        "description": {
+          "branded": "yêu cầu AI viết truy vấn cho bạn bằng FFQL",
+          "whitelabeled": "yêu cầu AI viết truy vấn cho bạn"
+        },
+        "errorBanner": {
+          "generalError": "Đã xảy ra lỗi. Vui lòng thử lại."
+        },
+        "instruction": "Mô tả cách bạn muốn trợ lý AI truy vấn dữ liệu của bạn:",
+        "review": {
+          "description": "Đây là những gì tôi đã nghĩ ra. Hãy đọc nội dung truy vấn và phần giải thích từng bước. Nếu bạn thấy ổn, hãy nhấp vào bên dưới để áp dụng.",
+          "explanationTitle": "Giải thích",
+          "queryTitle": "Truy vấn"
+        }
+      },
+      "title": "Xây dựng với AI",
+      "transform": {
+        "askingAI": {
+          "stepFour": "Đang hoàn tất",
+          "stepOne": "Đang suy nghĩ",
+          "stepThree": "Đang thực hiện",
+          "stepTwo": "Đang viết"
+        },
+        "description": "yêu cầu AI biến đổi dữ liệu của bạn",
+        "errorBanner": {
+          "generalError": "Đã xảy ra lỗi. Vui lòng thử lại.",
+          "versionError": "Không thể tạo phiên bản khôi phục – đã hủy bỏ biến đổi AI. Vui lòng thử lại."
+        },
+        "instruction": "Mô tả cách bạn muốn trợ lý AI biến đổi dữ liệu của mình:",
+        "review": {
+          "codeTitle": "Mã",
+          "description": "Đây là những gì tôi đã nghĩ ra. Hãy đọc nội dung truy vấn và phần giải thích từng bước. Nếu bạn thấy ổn, hãy nhấp vào bên dưới để áp dụng.",
+          "planTitle": "Kế hoạch",
+          "warning": "Cảnh báo: Điều này sẽ biến đổi dữ liệu của bạn"
+        },
+        "transforming": {
+          "inProgress": "Đang áp dụng cho tập dữ liệu của bạn"
+        }
+      }
+    },
+    "buttons": {
+      "apply": "Áp dụng",
+      "cancel": "Hủy"
+    },
+    "commands": {
+      "filter": {
+        "apply": "Áp dụng Bộ lọc.",
+        "description": {
+          "branded": "viết một câu lệnh FFQL",
+          "whitelabeled": "viết một truy vấn"
+        },
+        "hiddenColumnsWarning_other": "{{count}} miền sẽ được hiển thị bởi yêu cầu này: {{fields}}",
+        "hiddenColumnsWarning_zero": "{{count}} miền sẽ được hiển thị bởi yêu cầu này: {{fields}}",
+        "invalidFFQL": "Câu lệnh FFQL không hợp lệ. Thử lại?",
+        "learnHow": "tìm hiểu cách"
+      },
+      "search": {
+        "global": {
+          "apply": "Áp dụng tìm kiếm.",
+          "description": "tìm kiếm toàn bộ trang tính"
+        },
+        "inField": {
+          "apply": "Áp dụng tìm kiếm trong trường dữ liệu.",
+          "applyExample": "tức là \"tên\" Jane Doe",
+          "description": "tìm kiếm trong một trường dữ liệu"
+        }
+      }
+    },
+    "itemMessage": "nhấn {{icon}} để áp dụng",
+    "placeholder": "Tìm hoặc làm bất cứ điều gì..."
+  },
+  "document": {
+    "error": {
+      "description": "Tài liệu này dường như không tồn tại",
+      "title": "Không tìm thấy văn bản"
+    }
+  },
+  "errors": {
+    "documentNotFound": "Không tìm thấy văn bản",
+    "fileNotFound": "Không tìm thấy tệp",
+    "missingParameter": "Chưa cung cấp tham số",
+    "notFound": "Không tìm thấy",
+    "refreshButton": "Thử lại",
+    "refreshPageDescription": "Làm mới trang để thử lại. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với bộ phận hỗ trợ.",
+    "sheetNotFound": "Không tìm thấy trang tính",
+    "spaceNotFound": "Không tìm thấy không gian",
+    "unauthorized": "Thông tin truy cập của bạn không hợp lệ.",
+    "unknownError": "Đã xảy ra lỗi",
+    "workbookNotFound": "Không tìm thấy sổ làm việc"
+  },
+  "files": {
+    "availableDownloadsTab": "Có sẵn bản tải xuống",
+    "buttons": {
+      "addFile": {
+        "inProgressText": "Đang tải tệp lên",
+        "text": "Thêm tệp"
+      },
+      "delete": "Xóa",
+      "download": "Tải xuống"
+    },
+    "contextMenu": {
+      "delete": "Xóa",
+      "download": "Tải xuống"
+    },
+    "counts": "{{start}}-{{end}} trên {{total}}",
+    "deleteModal": {
+      "downloadDescription_other": "Những tệp đã tải xuống này sẽ bị xóa khỏi không gian.",
+      "downloadDescription_zero": "Những tệp đã tải xuống này sẽ bị xóa khỏi không gian.",
+      "heading_other": "Xóa tệp",
+      "heading_zero": "Xóa tệp",
+      "subheading_other": "Tệp:",
+      "subheading_zero": "Tệp:",
+      "uploadsDescription_other": "Tất cả dữ liệu đã nhập sẽ được lưu. Thao tác này sẽ xóa các tệp khỏi không gian.",
+      "uploadsDescription_zero": "Tất cả dữ liệu đã nhập sẽ được lưu. Thao tác này sẽ xóa các tệp khỏi không gian."
+    },
+    "downloadsTable": {
+      "headings": {
+        "createdDate": "Đã tạo",
+        "name": "Tên",
+        "size": "Kích cỡ",
+        "sourceSheet": "Trang tính nguồn"
+      },
+      "processing": "Đang xuất..."
+    },
+    "emptyState": {
+      "downloads": {
+        "description": "Dữ liệu đã tải xuống sẽ xuất hiện ở đây",
+        "heading": "Không có bản tải xuống nào"
+      },
+      "uploads": {
+        "description": "Kéo và thả hoặc tải tệp lên để bắt đầu",
+        "heading": "Thêm tệp"
+      }
+    },
+    "errors": {
+      "loadingError": "Không thể tải các tệp",
+      "uploadDisabledDescription": "Nếu bạn cho rằng đây là lỗi, vui lòng liên hệ với bộ phận hỗ trợ.",
+      "uploadDisabledHeading": "Không gian này hiện không hỗ trợ tải tệp lên."
+    },
+    "title": "Tệp",
+    "uploadedFilesTab": "Tệp đã tải lên",
+    "uploadFile": {
+      "popovers": {
+        "errorUploading": "Không thể tải tệp lên: {{fileName}}",
+        "onDragPopoverConfirmation": "Thả tệp vào:",
+        "uploadComplete": "Đã tải lên: {{fileName}}",
+        "uploadInProgress": "Đang tải lên: {{fileName}}",
+        "uploadsDisabled": "Không gian này hiện không hỗ trợ tải tệp lên."
+      }
+    },
+    "uploadsTables": {
+      "headings": {
+        "name": "Tên",
+        "status": "Trạng thái",
+        "uploadedDate": "Đã tải lên"
+      },
+      "importButton": "Nhập",
+      "tooltips": {
+        "cannotImport": "Tính năng nhập vào sổ làm việc hiện không khả dụng cho tệp này",
+        "noExtension": "Tệp này không có phần mở rộng. Thêm phần mở rộng tệp chính xác vào tên tệp và tải tệp lên lại để nhập tệp vào sổ làm việc"
+      }
+    }
+  },
+  "guestInvite": {
+    "getNewAccessLink": {
+      "content": "Chúng tôi đã gửi liên kết truy cập an toàn tới",
+      "finePrint": "Nếu bạn gặp khó khăn khi tìm kiếm email, hãy kiểm tra thư mục thư rác hoặc làm mới trang này để gửi liên kết truy cập khác. Liên kết sẽ có hiệu lực trong 5 phút.",
+      "heading": "Kiểm tra hộp thư đến của bạn"
+    }
+  },
+  "jobs": {
+    "customActions": {
+      "modals": {
+        "confirmModal": {
+          "cancelButton": "Hủy",
+          "defaultConfirmButton": "Xác nhận",
+          "defaultLoadingButton": "Đang tải...",
+          "isRequired": "{{field}} là nội dung bắt buộc",
+          "mustBeNumber": "{{field}} phải là một số"
+        },
+        "defaultJobName": "Công việc",
+        "defaultResourceName": "tài nguyên này",
+        "foregroundJobProgressModal": {
+          "defaultJobName": "Công việc",
+          "defaultResourceName": "tài nguyên này",
+          "percentComplete": "Hoàn tất {{percent}}%",
+          "runningOn": "đang chạy theo"
+        },
+        "outcomeModals": {
+          "acknowledgementModal": {
+            "defaultContinueButton": "Tiếp tục"
+          },
+          "defaultDownloadLabel": "Tải xuống",
+          "defaultFileName": "tệp",
+          "defaultHeading": {
+            "failed": "Công việc đã thất bại",
+            "success": "Thành công!"
+          },
+          "defaultLabel": "Xem tài nguyên",
+          "defaultMessage": {
+            "failed": "{{jobName}} trên {{resourceName}} đã thất bại",
+            "success": "{{jobName}} đã chạy theo {{resourceName}} thành công"
+          },
+          "permanentOutcomeModal": {
+            "defaultContinueButton": "Tiếp tục"
+          }
+        },
+        "startModal": {
+          "confirmButton": "Xác nhận",
+          "errorMessage": "Lỗi trong hành động",
+          "loadingText": "Đang tải..."
+        }
+      }
+    },
+    "panel": {
+      "action": {
+        "export": "Tải xuống",
+        "extract": "Nhập",
+        "mapping": "Vào sổ làm việc"
+      },
+      "empty": "Các công việc sẽ xuất hiện ở đây khi chúng đang chạy hoặc đã hoàn tất",
+      "errorLoadingJob": "Không tìm thấy",
+      "heading": "Công việc",
+      "status": {
+        "default": {
+          "canceled": {
+            "prefix": "Công việc",
+            "suffix": "đã hủy"
+          },
+          "complete": {
+            "prefix": "Công việc",
+            "suffix": "đã hoàn thành"
+          },
+          "failed": {
+            "prefix": "Công việc",
+            "suffix": "thất bại"
+          },
+          "inProgress": "Đang chạy công việc"
+        },
+        "delete": {
+          "cancelled": "Đã hủy việc xóa bản ghi",
+          "complete": "Xóa hoàn tất",
+          "failed": "Xóa không thành công",
+          "inProgress": "Đang xóa bản ghi"
+        },
+        "export": {
+          "canceled": "Đã hủy tải xuống",
+          "complete": "Đã tạo tệp tải xuống",
+          "failed": "Tạo tệp tải xuống thất bại",
+          "inProgress": "Đang tạo tệp tải xuống"
+        },
+        "extract": {
+          "cancelled": "Đã hủy việc trích xuất tệp",
+          "complete": "Đã giải nén tệp",
+          "failed": "Không thể giải nén tệp",
+          "inProgress": "Đang giải nén tệp"
+        },
+        "mapping": {
+          "canceled": "Đã hủy lập biểu đồ tới sổ làm việc",
+          "complete": "Đã lập biểu đồ tới sổ làm việc",
+          "failed": "Lập biểu đồ tới sổ làm việc thất bại",
+          "inProgress": "Đang lập biểu đồ tới sổ làm việc"
+        }
+      },
+      "time": {
+        "completed": "Đã hoàn thành trong",
+        "failed": "Thất bại sau",
+        "remaining": "còn lại",
+        "started": "Đã bắt đầu {{time}}",
+        "units": {
+          "hour": "giờ",
+          "minute": "phút",
+          "second": "giây"
+        }
+      }
+    },
+    "pill": {
+      "hoverText": "Công việc",
+      "multipleJobsRunning": "{{count}} công việc đang chạy",
+      "status": {
+        "default": {
+          "complete": "Công việc đã hoàn tất",
+          "failed": "Công việc đã thất bại",
+          "inProgress": "Công việc đang chạy"
+        },
+        "delete": {
+          "complete": "Xóa hoàn tất",
+          "failed": "Xóa không thành công",
+          "inProgress": "Đang xóa bản ghi..."
+        },
+        "extract": {
+          "complete": "Trích xuất hoàn tất",
+          "failed": "Trích xuất không thành công",
+          "inProgress": "Đang trích xuất dữ liệu..."
+        },
+        "mapping": {
+          "complete": "Ánh xạ hoàn tất",
+          "failed": "Ánh xạ không thành công",
+          "inProgress": "Đang ánh xạ..."
+        }
+      }
+    }
+  },
+  "mapping": {
+    "dataPreview": {
+      "heading": "Bản xem trước dữ liệu cho {{previewKey}}",
+      "noData": "Không có dữ liệu xem trước"
+    },
+    "headerButtons": {
+      "back": "Quay lại",
+      "exit": "Thoát",
+      "next": "Tiếp tục"
+    },
+    "mapEnums": {
+      "destinationFields": {
+        "dropdownOptions": {
+          "doNotImport": "Không nhập",
+          "keepAsIs": "Giữ nguyên giá trị này",
+          "keepAsIsDisabledTooltip": "Không hỗ trợ thêm tùy chọn mới vào danh sách này. Việc nhập một giá trị không phải là tùy chọn hợp lệ sẽ hiển thị dưới dạng lỗi."
+        },
+        "heading": "Giá trị Đích"
+      },
+      "incomingFields": {
+        "heading": "Giá trị Đến",
+        "noData": "Ô không có dữ liệu",
+        "noDataTooltip": "Bạn có thể chọn một tùy chọn hợp lệ để điền vào tất cả các ô trống. Bạn cũng có thể để trống phần này."
+      },
+      "progressPill_other": "Đã ánh xạ {{mappedCount}} trên {{totalCount}} giá trị",
+      "progressPill_zero": "Đã ánh xạ {{mappedCount}} trên {{totalCount}} giá trị",
+      "progressPillAllMapped_other": "Đã ánh xạ {{totalCount}} giá trị",
+      "progressPillAllMapped_zero": "Đã ánh xạ {{totalCount}} giá trị",
+      "subheading": "Những trường dữ liệu này có giá trị phải được ánh xạ tới danh sách các tùy chọn hợp lệ.",
+      "title": "Ánh xạ Trường dữ liệu"
+    },
+    "mapFields": {
+      "destinationFields": {
+        "addNewField": {
+          "description": "Thêm trường dữ liệu này vào trang tính của bạn",
+          "label": "Thêm làm trường dữ liệu mới"
+        },
+        "dropdownOptionLabels": {
+          "new": "Thêm mới",
+          "unused": "Chưa sử dụng",
+          "used": "Đã sử dụng"
+        },
+        "heading": "Trường dữ liệu Đích",
+        "progressPill": {
+          "missingRequiredFields": " - {{missingFieldsCount}} bị thiếu",
+          "text": "{{totalDestinationsMapped}} trên {{totalDestinationFields}}",
+          "tooltip": {
+            "greaterThanTenMissing": "và {{missingFieldsAfterTen}} khác...",
+            "missingRequiredFields": "Thiếu các trường dữ liệu bắt buộc:",
+            "progress": "{{mappedDestinationFields}} trên {{totalDestinationFields}} trường dữ liệu có sẵn trong trang tính mục tiêu đã được ánh xạ tới"
+          }
+        }
+      },
+      "incomingFields": {
+        "heading": "Trường dữ liệu Đến",
+        "progressPill": {
+          "text": "{{totalIncomingMapped}} trên {{totalIncomingFields}}",
+          "tooltip": "Bạn đã ánh xạ {{mappedIncomingFields}} trên {{totalIncomingFields}} trường dữ liệu trong tập dữ liệu của mình tới trang tính mục tiêu"
+        }
+      },
+      "subheading": "Xem lại và xác nhận từng lựa chọn ánh xạ",
+      "title": "Ánh xạ trường dữ liệu"
+    },
+    "sheetSelection": {
+      "cannotLoadFile": "Không thể tải tệp lên: {{fileName}}",
+      "columns_other": "{{count}} cột",
+      "columns_zero": "{{count}} cột",
+      "errors_other": "{{count}} lỗi",
+      "errors_zero": "{{count}} lỗi",
+      "importFromHeading": "Chọn một trang tính để tải dữ liệu từ đó",
+      "importToHeading": "Chọn một trang tính để nhập dữ liệu này vào",
+      "lastUpdated": "Cập nhật lần cuối {{date}}",
+      "lastUpdatedDateFormat": "dd-mm-yyyy",
+      "records_other": "{{count}} bản ghi",
+      "records_zero": "{{count}} bản ghi",
+      "sheetHasNoData": "Không có dữ liệu",
+      "sheets_other": "{{count}} trang tính",
+      "sheets_zero": "{{count}} trang tính",
+      "title": "Nhập vào..."
+    }
+  },
+  "sheet": {
+    "columnManagement": {
+      "errorColumnTooltip": "Việc lọc theo giá trị này sẽ hiển thị cột này",
+      "noFields": "không có miền nào",
+      "noMatches": "không có kết quả trùng khớp",
+      "placeholder_other": "Tìm kiếm hoặc chọn từ {{count}} miền...",
+      "placeholder_zero": "Tìm kiếm hoặc chọn từ {{count}} miền...",
+      "toast": {
+        "action": "Hiển thị?",
+        "message_other": "{{count}} cột chứa lỗi đã được ẩn đi",
+        "message_zero": "{{count}} cột chứa lỗi đã được ẩn đi"
+      },
+      "tooltip_other": "{{count}} cột được ẩn",
+      "tooltip_zero": "Quản lý cột",
+      "unhideToast": {
+        "message_other": "{{count}} cột đã được hiển thị bởi yêu cầu này",
+        "message_zero": "{{count}} cột đã được hiển thị bởi yêu cầu này"
+      }
+    },
+    "embedded": {
+      "maxOpenReached": "Không thể mở cùng lúc nhiều hơn {{maxOpenSheets}} trang tính được nhúng. Đóng một trang tính được nhúng để mở trang tính này.",
+      "untitled": "Trang tính Không có tiêu đề"
+    },
+    "emptyView": {
+      "defaultError": {
+        "description": "Trang tính này dường như trống.",
+        "heading": "Chưa có gì để xem!"
+      },
+      "heading": "Bắt đầu thôi",
+      "manualEntry": "Nhập dữ liệu thủ công",
+      "noColumns": {
+        "description": "Bạn đã ẩn đi mọi cột.",
+        "heading": "Không có dữ liệu!"
+      },
+      "noSheetError": {
+        "description": "Trang tính này dường như không tồn tại.",
+        "heading": "Không tìm thấy trang tính"
+      },
+      "readOnly": {
+        "description": "Các trang tính không chấp nhận hàng mới và/hoặc các chỉnh sửa thường nhận được dữ liệu được điền động. Bạn không thể thực hiện hành động nào vào lúc này.",
+        "heading": "Đang chờ dữ liệu"
+      },
+      "sheetLocked": {
+        "description": "Nếu bạn cho rằng đây là lỗi, vui lòng liên hệ với bộ phận hỗ trợ.",
+        "heading": "Việc thêm bản ghi hiện bị vô hiệu hóa"
+      },
+      "uploadFile": "Kéo và thả hoặc tải tệp lên để bắt đầu"
+    },
+    "errors": {
+      "loading": "Không thể tìm nạp sổ làm việc.",
+      "noSheets": {
+        "description": "Một sổ làm việc phải có ít nhất một trang tính. Không tìm thấy trang tính nào.",
+        "title": "Sổ làm việc không chứa trang tính nào"
+      },
+      "notFound": "Không tìm thấy sổ làm việc"
+    },
+    "info": {
+      "copiedPopover": "Đã sao chép vào khay nhớ tạm",
+      "copyButton": "Nhấp để sao chép!"
+    },
+    "popovers": {
+      "copyCell_other": "Đã sao chép {{count}} ô",
+      "copyCell_zero": "Đã sao chép {{count}} ô",
+      "copyRecord_other": "Đã sao chép {{count}} bản ghi",
+      "copyRecord_zero": "Đã sao chép {{count}} bản ghi",
+      "errors": {
+        "cellUpdateFailed": "Đã xảy ra lỗi. Vui lòng làm mới trang rồi thử lại. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ",
+        "invalidFFQL": "Vui lòng kiểm tra truy vấn của bạn",
+        "invalidFFQLSearch": "Câu lệnh FFQL không hợp lệ",
+        "learnMore": "Tìm hiểu thêm",
+        "recordsLoadFailed": "Không thể tải bản ghi"
+      }
+    },
+    "table": {
+      "cells": {
+        "enum": {
+          "loading": "Đang tải tùy chọn...",
+          "loadingError": "Không thể tải tùy chọn",
+          "noMatchesFound": "Không tìm thấy kết quả trùng khớp nào",
+          "placeholder": "Gõ vào đây...",
+          "seeMore": "Tìm kiếm để xem thêm tùy chọn"
+        },
+        "messages": {
+          "autogen": "✨ Được tạo tự động",
+          "reference": "Giá trị không tồn tại trong bảng tham chiếu",
+          "req": "{{field}} là nội dung bắt buộc",
+          "transformed": "🪄️ Được biến đổi từ {{originalValue}}",
+          "unique": "Giá trị không phải là duy nhất"
+        }
+      },
+      "contextMenu": {
+        "filterByValue": {
+          "label": "Lọc theo giá trị",
+          "moreOptions": "Đang hiển thị {{pageSize}} tùy chọn đầu tiên. Tìm kiếm để xem thêm.",
+          "noData": "không có dữ liệu",
+          "placeholder": "Tìm kiếm hoặc chọn giá trị..."
+        },
+        "findAndReplace": {
+          "findAndReplaceValues": "Tìm và thay thế",
+          "modal": {
+            "cancelButton": "Hủy",
+            "descriptionExactOnly": "Thay thế hàng loạt bất kỳ văn bản nào trong cột này bằng một giá trị hợp lệ. Chúng tôi chỉ hiển thị các kết quả trùng khớp chính xác",
+            "descriptionPartialAndExact": "Thay thế hàng loạt bất kỳ văn bản nào trong cột này. Chúng tôi hỗ trợ cả kết quả trùng khớp một phần và chính xác cho dữ liệu này",
+            "errors": {
+              "findError": "Đã xảy ra lỗi khi tìm giá trị",
+              "generalError": "Đã xảy ra lỗi. Vui lòng thử lại",
+              "replaceError": "Đã xảy ra lỗi khi thay thế giá trị"
+            },
+            "exactMatchesOnly": "Chỉ hiển thị các kết quả trùng khớp chính xác",
+            "finding": "Tìm tất cả các trường hợp",
+            "heading": "Tìm và thay thế trong {{columnName}}",
+            "isFiltered": "Tập dữ liệu này đã được lọc. Chức năng tìm và thay thế sẽ chỉ thực hiện trên các bản ghi được lọc.",
+            "replaceButton": "Thay thế tất cả",
+            "replaceEmpty": {
+              "description": {
+                "addValues": "Điều này sẽ điền vào tất cả các ô trống trong {{columnName}}",
+                "addValuesToAll": "Có tất cả các ô trống trong {{columnName}}, bạn có thể điền hàng loạt các ô này với giá trị đã chọn",
+                "addValuesToCount_other": "Có {{formattedCount}} ô trống trong {{columnName}}, bạn có thể điền hàng loạt các ô này với giá trị đã chọn",
+                "addValuesToCount_zero": "Có {{formattedCount}} ô trống trong {{columnName}}, bạn có thể điền hàng loạt các ô này với giá trị đã chọn",
+                "noEmptyValues": "Chúng tôi không thể tìm thấy bất kỳ ô trống nào trong trường dữ liệu này!"
+              },
+              "heading": {
+                "addValues": "Thêm giá trị vào các ô trống trong {{columnName}}",
+                "addValuesToAll": "Thêm giá trị vào tất cả các ô trống trong {{columnName}}",
+                "addValuesToCount_other": "Thêm giá trị vào {{formattedCount}} ô trống trong {{columnName}}",
+                "addValuesToCount_zero": "Thêm giá trị vào {{formattedCount}} ô trống trong {{columnName}}",
+                "noEmptyValues": "Không tìm thấy giá trị trống"
+              }
+            },
+            "replaceEnum": {
+              "moreOptions": "Đang hiển thị 100 tùy chọn đầu tiên. Tìm kiếm để xem thêm.",
+              "noMatchesFound": "Không tìm thấy kết quả trùng khớp nào",
+              "replaceWith": "Thay thế bằng..."
+            },
+            "replaceValue": {
+              "leavingBlank": "Việc để trống trường dữ liệu này sẽ xóa các giá trị đã chọn",
+              "noMatchesFound": "Không tìm thấy giá trị nào",
+              "replaceWith": "Thay thế bằng..."
+            },
+            "replacing": "Đang thay thế các giá trị",
+            "runOnAllRecords": "Thực hiện trên tất cả các bản ghi",
+            "searchForEmpty": "Nếu trường dữ liệu này để trống, chúng tôi sẽ tìm kiếm các giá trị trống",
+            "searchForText": "Tìm kiếm văn bản...",
+            "searchResultsCount_other": "{{count}} kết quả trùng khớp",
+            "searchResultsCount_zero": "{{count}} kết quả trùng khớp"
+          },
+          "replaceEmptyValues": "Thay thế các giá trị trống"
+        },
+        "pin": {
+          "apply": "Ghim cột",
+          "remove": "Xóa ghim",
+          "tooltip": {
+            "maxPinned": "Bạn có thể ghim tối đa ba cột, bỏ ghim một trong các cột hiện đang được ghim để ghim cột này",
+            "pin": "Ghim cột này vào bên trái của bảng",
+            "unpin": "Nhấp để bỏ ghim cột này"
+          }
+        },
+        "searchInField": {
+          "modal": {
+            "cancelButton": "Hủy",
+            "placeholder": "Tìm kiếm...",
+            "searchButton": "Tìm kiếm",
+            "searchWithin": "Tìm kiếm trong"
+          },
+          "searchInThisField": "Tìm kiếm trong trường dữ liệu này"
+        },
+        "sort": {
+          "ascending": {
+            "apply": "Sắp xếp A-Z",
+            "remove": "Xóa sắp xếp A-Z"
+          },
+          "descending": {
+            "apply": "Sắp xếp Z-A",
+            "remove": "Xóa sắp xếp Z-A"
+          },
+          "tooltip": {
+            "notSorted": "Nhấp để sắp xếp A-Z",
+            "sortedAsc": "Đã sắp xếp A-Z",
+            "sortedDes": "Đã sắp xếp Z-A"
+          }
+        }
+      },
+      "errors": {
+        "description": "Bảng đang gặp sự cố khi hiển thị dữ liệu này. Vui lòng xem bảng điều khiển để biết chi tiết lỗi.",
+        "title": "Đã xảy ra lỗi"
+      },
+      "indexRow": {
+        "tooltip": {
+          "createRow": "Thêm dữ liệu để tạo hàng này",
+          "noData": "Không có sẵn hàng nào để chọn. Chỉ có thể chọn các hàng chứa dữ liệu.",
+          "rowNumber": "Hàng {{number}}"
+        }
+      },
+      "maximumMessage": {
+        "plural": "... và {{hiddenRows}} hàng nữa. Chế độ xem bảng chỉ hỗ trợ tối đa 500.000 bản ghi cùng một lúc do hạn chế của trình duyệt. Chức năng tìm kiếm, sắp xếp, lọc và thao tác hàng loạt sẽ vẫn hoạt động trên tất cả các hàng bị ẩn khỏi chế độ xem.",
+        "singular": "... và 1 hàng nữa. Chế độ xem bảng chỉ hỗ trợ tối đa 500.000 bản ghi cùng một lúc do hạn chế của trình duyệt. Chức năng tìm kiếm, sắp xếp, lọc và thao tác hàng loạt sẽ vẫn hoạt động trên tất cả các hàng bị ẩn khỏi chế độ xem."
+      },
+      "modals": {
+        "copyAlert": {
+          "cancelButton": "Hủy",
+          "description": "Chúng tôi nhận thấy bạn đang cố gắng chọn hơn 100 bản ghi. Chúng tôi giới hạn việc sao chép tối đa là 100 bản ghi để duy trì tính toàn vẹn của dữ liệu của bạn.",
+          "download": "Bạn có muốn tải trang tính này xuống dưới dạng .csv không?",
+          "downloadButton": "Tải xuống",
+          "heading": "Bạn có muốn tải tệp này xuống không?"
+        },
+        "deleteAlert": {
+          "description": "Việc xóa hơn 100 bản ghi hiện có không được hỗ trợ vào lúc này. Chúng tôi đã giới hạn tính năng này để mang lại trải nghiệm tốt hơn khi chúng tôi <1>sửa đổi thông minh</1> dữ liệu của bạn.",
+          "dismissButton": "Bỏ qua",
+          "heading": "Bạn đã đạt đến giới hạn xóa của chúng tôi!",
+          "tooltip": "Xóa các bản ghi trống, bản ghi trùng lặp, v.v."
+        },
+        "pasteAlert": {
+          "description": "Việc dán hơn 100 bản ghi hiện có không được hỗ trợ vào lúc này. Chúng tôi đã giới hạn tính năng này để mang lại trải nghiệm tốt hơn khi chúng tôi <1>sửa đổi thông minh</1> dữ liệu của bạn.",
+          "dismissButton": "Bỏ qua",
+          "heading": "Bạn đã đạt đến giới hạn dán của chúng tôi!",
+          "tooltip": "Xóa các bản ghi trống, bản ghi trùng lặp, v.v."
+        }
+      }
+    },
+    "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "Hành động",
+        "placeholder": "Tìm kiếm hoặc chọn..."
+      },
+      "buttons": {
+        "delete": {
+          "modal": {
+            "cancelButton": "Hủy",
+            "confirmButton": "Xóa bản ghi",
+            "description": {
+              "infix": "đã chọn",
+              "infixType": {
+                "invalid": "không hợp lệ",
+                "valid": "hợp lệ"
+              },
+              "prefix": "Bạn có muốn xóa",
+              "suffix_other": "bản ghi?",
+              "suffix_zero": "bản ghi?"
+            },
+            "errorMessage": "Không thể xóa bản ghi. Vui lòng thử lại hoặc sửa đổi lựa chọn của bạn.",
+            "heading_other": "Xóa Bản ghi",
+            "heading_zero": "Xóa Bản ghi",
+            "inProgress": "Đang xóa bản ghi..."
+          },
+          "popover": {
+            "successMessage_other": "Đã xóa {{count}} bản ghi",
+            "successMessage_zero": "Đã xóa {{count}} bản ghi",
+            "successMessageNoCount": "Đã xóa bản ghi"
+          },
+          "tooltip": {
+            "active": "Xóa bản ghi đã chọn",
+            "disabled": {
+              "deleteDisabled": "Tính năng xóa bản ghi bị vô hiệu hóa trong Trang tính này.",
+              "noRecordsSelected": "Chọn ít nhất một bản ghi để xóa"
+            }
+          }
+        },
+        "download": {
+          "modal": {
+            "cancelButton": "Hủy",
+            "confirmButton": "Tải bản ghi xuống",
+            "description": {
+              "infix": "đã chọn",
+              "infixType": {
+                "invalid": "không hợp lệ",
+                "valid": "hợp lệ"
+              },
+              "prefix": "Bạn có muốn tải xuống",
+              "suffix_other": "bản ghi?",
+              "suffix_zero": "bản ghi?"
+            },
+            "errorMessage": "Không thể tải bản ghi xuống. Vui lòng thử lại hoặc sửa đổi lựa chọn của bạn.",
+            "heading_other": "Tải xuống Bản ghi",
+            "heading_zero": "Tải xuống Bản ghi",
+            "inProgress": "Đang tải bản ghi xuống..."
+          },
+          "tooltip": {
+            "active": {
+              "invalidFilterApplied": "Tải xuống tất cả bản ghi không hợp lệ",
+              "noRecordsSelected": "Tải trang tính này xuống",
+              "recordsSelected": "Tải xuống bản ghi đã chọn",
+              "validFilterApplied": "Tải xuống tất cả bản ghi hợp lệ"
+            },
+            "disabled": "Không có bản ghi nào để tải xuống"
+          }
+        }
+      },
+      "customActionsDropdown": {
+        "disabledTooltip": {
+          "requireAllValid": "Hành động này đòi hỏi tất cả các hàng đã chọn phải hợp lệ",
+          "requireSelection": "Vui lòng chọn một hoặc nhiều bản ghi để sử dụng hành động này"
+        }
+      },
+      "dropdown": {
+        "delete": "Xóa",
+        "download": "Tải xuống"
+      },
+      "filterByError": {
+        "buttonText": "Lọc theo lỗi",
+        "dropdownPlaceholder": "Tìm kiếm hoặc chọn..."
+      },
+      "filters": {
+        "all": "Tất cả",
+        "invalid": "Không hợp lệ",
+        "tooltip": {
+          "filter": {
+            "invalid": "không hợp lệ",
+            "total": "tổng cộng",
+            "valid": "hợp lệ"
+          },
+          "filtered": "Bộ dữ liệu này đã được lọc để hiển thị {{filteredCount}} trên {{countString}} {{filter}} hồ sơ.",
+          "filteredByError": "Tập dữ liệu này đã được lọc qua bộ lọc lỗi để hiển thị {{filteredCount}} trên {{countString}} {{filter}} bản ghi.",
+          "filteredByFFQL": {
+            "branded": "Tập dữ liệu này đã được lọc qua Ngôn ngữ Truy vấn Flatfile để hiển thị {{filteredCount}} trên {{countString}} {{filter}} bản ghi.",
+            "whitelabeled": "Bộ dữ liệu này đã được lọc để hiển thị {{filteredCount}} trên {{countString}} {{filter}} hồ sơ."
+          },
+          "filteredBySearch": "Tập dữ liệu này đã được lọc thông qua chức năng tìm kiếm để hiển thị {{filteredCount}} trên {{countString}} {{filter}} bản ghi.",
+          "filteredBySearchAndError": "Tập dữ liệu này đã được lọc thông qua chức năng tìm kiếm và bộ lọc lỗi để hiển thị {{filteredCount}} trên {{countString}} {{filter}} bản ghi.",
+          "inactiveCount": "{{countString}} {{filter}} bản ghi, {{filteredCount}} đã lọc"
+        },
+        "valid": "Hợp lệ"
+      },
+      "moreActions": {
+        "buttonText": "Hành động khác",
+        "placeholder": "Tìm kiếm hoặc chọn..."
+      },
+      "searchBar": {
+        "expandTooltip": "Mở tìm kiếm và Hỗ trợ AI",
+        "placeholder": "Tìm kiếm...",
+        "tooltip": "Nhấn enter để tìm kiếm"
+      }
+    }
+  },
+  "sidebar": {
+    "addConnection": "Thêm Kết nối",
+    "checklist": "Danh sách kiểm tra dữ liệu",
+    "connections": {
+      "tooltips": {
+        "connectionError": "Đã xảy ra sự cố khi xác minh siêu dữ liệu về các kết nối của sổ làm việc này",
+        "connectionFresh": "Đã kết nối với {{source}} qua {{service}}",
+        "connectionStale": "Đồng bộ hóa lần cuối với {{source}} hơn 24 giờ trước"
+      }
+    },
+    "emptyWorkbook": "Sổ làm việc trống",
+    "files": "Tệp",
+    "readOnlyIconTooltip": "Trang tính này ở chế độ chỉ đọc"
+  },
+  "snapshot": {
+    "accept": {
+      "cancelButton": "Hủy",
+      "cancelError": "Không thể hoàn nguyên các thay đổi do xảy ra lỗi không mong muốn.",
+      "cancelSuccess": "Đã hoàn nguyên thành công các thay đổi đối với trang tính của bạn.",
+      "empty": {
+        "createdSince": "Ảnh chụp nhanh này không có bản ghi nào bị xóa.",
+        "deletedSince": "Ảnh chụp nhanh này không có bản ghi nào được thêm vào.",
+        "title": "Không có dữ liệu!",
+        "updatedSince": "Ảnh chụp nhanh này không có bản ghi nào bị sửa đổi."
+      },
+      "errorMessage": "Không thể áp dụng các thay đổi ảnh chụp nhanh do xảy ra lỗi không mong muốn.",
+      "filters": {
+        "createdSince": "Đã xóa",
+        "deletedSince": "Đã thêm",
+        "updatedSince": "Đã sửa đổi"
+      },
+      "header": {
+        "title": "Thay đổi được thực hiện trong",
+        "titleWithMeta": "Thay đổi được thực hiện trong <1>{{sheet}}</1> bởi <3>{{action}}</3>"
+      },
+      "message": "Việc chấp nhận các thay đổi sẽ hợp nhất tất cả các giá trị mới vào trang tính {{name}} của bạn.",
+      "submitButton": "Chấp nhận các thay đổi",
+      "submitError": "Không thể áp dụng các thay đổi ảnh chụp nhanh do xảy ra lỗi không mong muốn.",
+      "submitSuccess": "Đã áp dụng thành công các thay đổi đối với trang tính của bạn.",
+      "successMessage": "Đã áp dụng các thay đổi cho trang tính của bạn.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} ô trong trường dữ liệu {{name}}",
+            "last": " và {{cells}} ô trong trường dữ liệu {{name}}",
+            "middle": ", {{cells}} ô trong trường dữ liệu {{name}}"
+          },
+          "singular": {
+            "first": "1 ô trong trường dữ liệu {{name}}",
+            "last": " và 1 ô trong trường dữ liệu {{name}}",
+            "middle": ", 1 ô trong trường dữ liệu {{name}}"
+          },
+          "start": " Dữ liệu đã được sửa đổi trong "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Dữ liệu đã thay đổi trong {{records}} bản ghi trên {{fields}} trường dữ liệu.",
+            "noFields": "Dữ liệu đã thay đổi trong {{records}} bản ghi.",
+            "oneField": "Dữ liệu đã thay đổi trong {{records}} bản ghi trên 1 trường dữ liệu."
+          },
+          "singular": {
+            "multipleFields": "Dữ liệu đã thay đổi trong 1 bản ghi trên {{fields}} trường dữ liệu.",
+            "noFields": "Dữ liệu đã thay đổi trong 1 bản ghi.",
+            "oneField": "Dữ liệu đã thay đổi trong 1 bản ghi trên 1 trường dữ liệu."
+          }
+        }
+      },
+      "title": "Thay đổi được thực hiện trong"
+    },
+    "cells": {
+      "messages": {
+        "accept": "Nếu bạn chấp nhận các thay đổi, tất cả giá trị mới sẽ được hợp nhất vào tập dữ liệu của bạn.",
+        "current": "Giá trị hiện tại: {{value}}",
+        "empty": "không có dữ liệu",
+        "restore": "Tập dữ liệu của bạn sẽ được khôi phục về phiên bản trong ảnh chụp nhanh này.",
+        "snapshot": "Giá trị mới: {{value}}"
+      }
+    },
+    "restore": {
+      "cancelButton": "Hủy",
+      "empty": {
+        "createdSince": "Ảnh chụp nhanh này không có bản ghi nào sẽ bị xóa.",
+        "deletedSince": "Ảnh chụp nhanh này không có bản ghi nào sẽ được thêm vào.",
+        "title": "Không có dữ liệu!",
+        "updatedSince": "Ảnh chụp nhanh này không có bản ghi nào sẽ được sửa đổi."
+      },
+      "errorMessage": "Không thể khôi phục ảnh chụp nhanh do xảy ra lỗi không mong muốn.",
+      "filters": {
+        "createdSince": "Xóa",
+        "deletedSince": "Thêm",
+        "updatedSince": "Sửa đổi"
+      },
+      "header": {
+        "title": "Thay đổi để áp dụng trong"
+      },
+      "message": "Trang tính {{name}} của bạn sẽ được khôi phục về phiên bản trong ảnh chụp nhanh này.",
+      "submitButton": "Khôi phục",
+      "submitError": "Không thể khôi phục ảnh chụp nhanh do xảy ra lỗi không mong muốn.",
+      "submitSuccess": "Trang tính của bạn đã được khôi phục về phiên bản cũ hơn.",
+      "successMessage": "Trang tính của bạn đã được khôi phục về phiên bản cũ hơn.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} ô trong trường dữ liệu {{name}}",
+            "last": " và {{cells}} ô trong trường dữ liệu {{name}}",
+            "middle": ", {{cells}} ô trong trường dữ liệu {{name}}"
+          },
+          "singular": {
+            "first": "1 ô trong trường dữ liệu {{name}}",
+            "last": " và 1 ô trong trường dữ liệu {{name}}",
+            "middle": ", 1 ô trong trường dữ liệu {{name}}"
+          },
+          "start": " Dữ liệu sẽ được sửa đổi trong "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Dữ liệu sẽ thay đổi trong {{records}} bản ghi trên {{fields}} trường dữ liệu.",
+            "noFields": "Dữ liệu sẽ thay đổi trong {{records}} bản ghi.",
+            "oneField": "Dữ liệu sẽ thay đổi trong {{records}} bản ghi trên 1 trường dữ liệu."
+          },
+          "singular": {
+            "multipleFields": "Dữ liệu sẽ thay đổi trong 1 bản ghi trên {{fields}} trường dữ liệu.",
+            "noFields": "Dữ liệu sẽ thay đổi trong 1 bản ghi.",
+            "oneField": "Dữ liệu sẽ thay đổi trong 1 bản ghi trên 1 trường dữ liệu."
+          }
+        }
+      },
+      "title": "Thay đổi để áp dụng trong"
+    },
+    "tooltips": {
+      "sheet": "{{sheet}} trong {{workbook}}"
+    }
+  },
+  "spaceLoadingMessage": "Đang chuẩn bị Không gian...",
+  "utils": {
+    "buttons": {
+      "clearAll": "Xóa tất cả",
+      "selectAll": "Chọn tất cả"
+    }
+  },
+  "versionHistory": {
+    "modals": {
+      "default": {
+        "description": "Đã xảy ra lỗi không mong muốn - không áp dụng hành động phù hợp nào"
+      },
+      "delete": {
+        "confirm": {
+          "closeButton": "Đóng",
+          "description": "Bạn có chắc chắn muốn xóa phiên bản đã chọn không?",
+          "heading": "Xóa Phiên bản",
+          "proceedButton": "Xóa"
+        },
+        "error": {
+          "closeButton": "Đóng",
+          "description": "Không thể xóa phiên bản đã chọn do lỗi không mong muốn - nếu sự cố vẫn tiếp diễn, hãy liên hệ với bộ phận hỗ trợ",
+          "heading": "Không thể xóa phiên bản",
+          "retryButton": "Thử Lại"
+        },
+        "success": {
+          "closeButton": "Đóng",
+          "description": "Đã xóa phiên bản được chọn.",
+          "heading": "Đã xóa Phiên bản"
+        }
+      }
+    },
+    "panel": {
+      "empty": "Sau khi được tạo, các phiên bản sẽ hiển thị ở đây. Chúng được tạo ra một cách tự động, thường là khi xảy ra chuyển đổi dữ liệu hàng loạt.",
+      "generatedSnapshot": "Đã tạo ảnh chụp trước khi áp dụng Chuyển đổi AI cho câu lệnh: ",
+      "heading": "Lịch sử phiên bản",
+      "thisMonth": "Tháng này",
+      "versionRestored": "Phiên bản được tạo ra trước khi khôi phục một phiên bản trước đó"
+    },
+    "pill": {
+      "hoverText": "Lịch sử phiên bản"
+    }
+  }
 }
