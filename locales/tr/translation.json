@@ -1,2 +1,962 @@
 {
+  "checklist": {
+    "dropdowns": {
+      "headings": {
+        "sheet": "Sayfa",
+        "workbook": "Çalışma kitabı"
+      }
+    },
+    "errors": {
+      "cannotLoadChecklist": "Veri kontrol listesi yüklenemiyor",
+      "cannotLoadSheet": "Sayfa bulunamadı",
+      "noWorkbooksDescription": "Veri kontrol listesi, en az 1 çalışma kitabının aktif olmasını gerektirir. Lütfen geliştiricinizin yapılandırmayı kontrol etmesini sağlayın. Sorun devam ederse lütfen destekle iletişime geçin.",
+      "noWorkbooksTitle": "Çalışma kitabı gerekli"
+    },
+    "table": {
+      "dataTypes": {
+        "boolean": "Boole",
+        "date": "Tarih",
+        "enum": "Sabit listesi",
+        "number": "Sayı",
+        "reference": "Referans",
+        "string": "Dize",
+        "unknown": "Bilinmeyen"
+      },
+      "fieldTagComputed": "Hesaplandı",
+      "fieldTagRequired": "Gerekli",
+      "fieldTagUnique": "Benzersiz",
+      "headings": {
+        "dataType": "Veri türü",
+        "description": "Açıklama",
+        "field": "Alan adı"
+      }
+    },
+    "title": "Veri kontrol listesi"
+  },
+  "commandMenu": {
+    "aiAssist": {
+      "query": {
+        "askingAI": {
+          "stepFour": "Tamamlıyor",
+          "stepOne": "Düşünüyor",
+          "stepThree": "Yapıyor",
+          "stepTwo": "Yazıyor"
+        },
+        "description": {
+          "branded": "Yapay zekâdan sizin için FFQL'de bir sorgu yazmasını isteyin",
+          "whitelabeled": "Yapay zekâdan senin için bir sorgu yazmasını iste"
+        },
+        "errorBanner": {
+          "generalError": "Bir şeyler ters gitti. Lütfen tekrar deneyin."
+        },
+        "instruction": "Yapay zekâ destekli yardımcının verilerinizi nasıl sorgulamasını istediğinizi tarif edin:",
+        "review": {
+          "description": "İşte ulaştığım sonuç. Adım adım açıklamayı ve sorguyu okuyun ve iyi görünüyorsa uygulamak için aşağıya tıklayın.",
+          "explanationTitle": "Açıklama",
+          "queryTitle": "Sorgu"
+        }
+      },
+      "title": "Yapay zekâ ile oluşturuldu",
+      "transform": {
+        "askingAI": {
+          "stepFour": "Tamamlıyor",
+          "stepOne": "Düşünüyor",
+          "stepThree": "Yapıyor",
+          "stepTwo": "Yazıyor"
+        },
+        "description": "Yapay zekâdan verilerinizi dönüştürmesini isteyin",
+        "errorBanner": {
+          "generalError": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+          "versionError": "Bir geri alma sürümü oluşturulamıyor. Yapay zekâ destekli dönüştürme durduruldu. Lütfen tekrar deneyin."
+        },
+        "instruction": "Yapay zekâ destekli yardımcının verilerinizi nasıl dönüştürmesini istediğini tarif edin:",
+        "review": {
+          "codeTitle": "Kod",
+          "description": "İşte ulaştığım sonuç. Adım adım açıklamayı ve sorguyu okuyun ve iyi görünüyorsa uygulamak için aşağıya tıklayın.",
+          "planTitle": "Plan",
+          "warning": "Uyarı: Bu işlem verilerinizi dönüştürecek"
+        },
+        "transforming": {
+          "inProgress": "Veri kümenize uygulanıyor"
+        }
+      }
+    },
+    "buttons": {
+      "apply": "Uygula",
+      "cancel": "İptal"
+    },
+    "commands": {
+      "filter": {
+        "apply": "Filtre Uygula.",
+        "description": {
+          "branded": "bir FFQL beyanı yaz",
+          "whitelabeled": "bir sorgu yaz"
+        },
+        "hiddenColumnsWarning_one": "1 alan bu sorgu tarafından gösterilecek: {{fields}}",
+        "hiddenColumnsWarning_other": "{{count}} alan bu sorgu tarafından gösterilecek: {{fields}}",
+        "hiddenColumnsWarning_zero": "{{count}} alan bu sorgu tarafından gösterilecek: {{fields}}",
+        "invalidFFQL": "Geçersiz FFQL beyanı. Tekrar denensin mi?",
+        "learnHow": "nasıl olduğunu öğrenin"
+      },
+      "search": {
+        "global": {
+          "apply": "Arama uygula.",
+          "description": "Tüm sayfayı arat"
+        },
+        "inField": {
+          "apply": "Aramayı alanda uygula.",
+          "applyExample": "başka bir deyişle \"ad\" Gizem Doğa",
+          "description": "Bir alanda arat"
+        }
+      }
+    },
+    "itemMessage": "başvurmak için {{icon}} simgesine bas",
+    "placeholder": "Bulun veya bir şey yapın..."
+  },
+  "document": {
+    "error": {
+      "description": "Bu belge mevcut görünmüyor",
+      "title": "Belge bulunamadı"
+    }
+  },
+  "errors": {
+    "documentNotFound": "Belge bulunamadı",
+    "fileNotFound": "Dosya bulunamadı",
+    "missingParameter": "Parametre sağlanmadı",
+    "notFound": "Bulunamadı",
+    "refreshButton": "Yeniden dene",
+    "refreshPageDescription": "Tekrar denemek için sayfayı yenileyin. Sorun devam ederse destek ekimize başvurun.",
+    "sheetNotFound": "Çalışma sayfası bulunamadı",
+    "spaceNotFound": "Alan bulunamadı",
+    "unauthorized": "Erişim bilgileriniz geçersiz.",
+    "unknownError": "Bir şeyler ters gitti",
+    "workbookNotFound": "Çalışma kitabı bulunamadı"
+  },
+  "files": {
+    "availableDownloadsTab": "Kullanılabilir indirmeler",
+    "buttons": {
+      "addFile": {
+        "inProgressText": "Dosya yükleniyor",
+        "text": "Dosya ekle"
+      },
+      "delete": "Sil",
+      "download": "İndir"
+    },
+    "contextMenu": {
+      "delete": "Sil",
+      "download": "İndir"
+    },
+    "counts": "{{start}}-{{end}} / {{total}}",
+    "deleteModal": {
+      "downloadDescription_one": "İndirilen bu dosya alandan silinecek.",
+      "downloadDescription_other": "İndirilen bu dosyalar alandan silinecek.",
+      "downloadDescription_zero": "İndirilen bu dosyalar alandan silinecek.",
+      "heading_one": "Dosyayı sil",
+      "heading_other": "Dosyaları sil",
+      "heading_zero": "Dosyaları sil",
+      "subheading_one": "Dosya:",
+      "subheading_other": "Dosyalar:",
+      "subheading_zero": "Dosyalar:",
+      "uploadsDescription_one": "İçe aktarılan tüm veriler kaydedilecektir. Bu, dosyayı alandan silecektir.",
+      "uploadsDescription_other": "İçe aktarılan tüm veriler kaydedilecektir. Bu, dosyaları alandan silecektir.",
+      "uploadsDescription_zero": "İçe aktarılan tüm veriler kaydedilecek. Bu işlem, dosyaları alandan silecek."
+    },
+    "downloadsTable": {
+      "headings": {
+        "createdDate": "Oluşturuldu",
+        "name": "Ad",
+        "size": "Boyut",
+        "sourceSheet": "Kaynak sayfası"
+      },
+      "processing": "Dışa aktarılıyor..."
+    },
+    "emptyState": {
+      "downloads": {
+        "description": "İndirilen veriler burada görünecek",
+        "heading": "Hiçbir indirme mevcut değil"
+      },
+      "uploads": {
+        "description": "Başlamak için bir dosyayı sürükleyip bırak veya yükle",
+        "heading": "Dosya Ekle"
+      }
+    },
+    "errors": {
+      "loadingError": "Dosyalar yüklenemiyor",
+      "uploadDisabledDescription": "Bunun bir hata olduğunu düşünüyorsanız lütfen destek birimiyle görüşün.",
+      "uploadDisabledHeading": "Bu alan şu anda dosya yüklemelerini desteklemiyor."
+    },
+    "title": "Dosyalar",
+    "uploadedFilesTab": "Yüklenen dosyalar",
+    "uploadFile": {
+      "popovers": {
+        "errorUploading": "Dosya yüklenemiyor: {{fileName}}",
+        "onDragPopoverConfirmation": "Dosyayı bırakıyorum:",
+        "uploadComplete": "Yüklendi: {{fileName}}",
+        "uploadInProgress": "Yükleniyor: {{fileName}}",
+        "uploadsDisabled": "Bu alan şu anda dosya yüklemelerini desteklemiyor."
+      }
+    },
+    "uploadsTables": {
+      "headings": {
+        "name": "Ad",
+        "status": "Durum",
+        "uploadedDate": "Yüklendi"
+      },
+      "importButton": "İçe aktar",
+      "tooltips": {
+        "cannotImport": "Şu anda bir çalışma kitabına aktarma işlemi bu dosya için kullanılamıyor",
+        "noExtension": "Bu dosyanın uzantısı yok. Dosya adına doğru dosya uzantısını ekleyin ve bir çalışma kitabına aktarmak için dosyayı tekrar yükleyin"
+      }
+    }
+  },
+  "guestInvite": {
+    "getNewAccessLink": {
+      "content": "Şuraya güvenli bir erişim bağlantısı gönderdik",
+      "finePrint": "E-postayı bulmakta sorun yaşıyorsanız istenmeyen posta klasörünüzü kontrol edin veya başka bir erişim bağlantısı göndermek için bu sayfayı yenileyin. Bağlantı 5 dakika boyunca çalışacaktır.",
+      "heading": "Gelen kutunuzu kontrol edin"
+    }
+  },
+  "jobs": {
+    "customActions": {
+      "modals": {
+        "confirmModal": {
+          "cancelButton": "İptal",
+          "defaultConfirmButton": "Onayla",
+          "defaultLoadingButton": "Yükleniyor...",
+          "isRequired": "{{field}} gereklidir",
+          "mustBeNumber": "{{field}} bir sayı olmalıdır"
+        },
+        "defaultJobName": "İş",
+        "defaultResourceName": "bu kaynak",
+        "foregroundJobProgressModal": {
+          "defaultJobName": "İş",
+          "defaultResourceName": "bu kaynak",
+          "percentComplete": "%{{percent}} tamamlandı",
+          "runningOn": "çalışma yeri"
+        },
+        "outcomeModals": {
+          "acknowledgementModal": {
+            "defaultContinueButton": "Devam et"
+          },
+          "defaultDownloadLabel": "İndir",
+          "defaultFileName": "dosya",
+          "defaultHeading": {
+            "failed": "Görev başarısız oldu",
+            "success": "Başarılı!"
+          },
+          "defaultLabel": "Kaynağı Görüntüle",
+          "defaultMessage": {
+            "failed": "{{jobName}}, {{resourceName}} üzerinde başarısız oldu",
+            "success": "{{jobName}}, {{resourceName}} üzerinde başarıyla çalıştırıldı"
+          },
+          "permanentOutcomeModal": {
+            "defaultContinueButton": "Devam et"
+          }
+        },
+        "startModal": {
+          "confirmButton": "Onayla",
+          "errorMessage": "Eylemde hata",
+          "loadingText": "Yükleniyor..."
+        }
+      }
+    },
+    "panel": {
+      "action": {
+        "export": "İndir",
+        "extract": "İçe aktar",
+        "mapping": "Çalışma kitabına git"
+      },
+      "empty": "Devam ederlerken veya tamamlandıklarında görevler burada görünecek",
+      "errorLoadingJob": "Bulunamadı",
+      "heading": "İşler",
+      "status": {
+        "default": {
+          "canceled": {
+            "prefix": "İş",
+            "suffix": "iptal edildi"
+          },
+          "complete": {
+            "prefix": "İş",
+            "suffix": "tam"
+          },
+          "failed": {
+            "prefix": "İş",
+            "suffix": "başarısız oldu"
+          },
+          "inProgress": "Devam eden görev"
+        },
+        "delete": {
+          "cancelled": "Kayıt silme iptal edildi",
+          "complete": "Silme işlemi tamamlandı",
+          "failed": "Silme işlemi başarısız oldu",
+          "inProgress": "Kayıtları silme"
+        },
+        "export": {
+          "canceled": "İndirme iptal edildi",
+          "complete": "İndirme oluşturuldu",
+          "failed": "İndirmenin oluşturulması başarısız oldu",
+          "inProgress": "İndirme oluşturuluyor"
+        },
+        "extract": {
+          "cancelled": "Dosya ayıklama iptal edildi",
+          "complete": "Ayıklanan dosya",
+          "failed": "Dosya ayıklama başarısız oldu",
+          "inProgress": "Dosya ayıklanıyor"
+        },
+        "mapping": {
+          "canceled": "Çalışma kitabına eşleştirme iptal edildi",
+          "complete": "Çalışma kitabına eşleştirildi",
+          "failed": "Çalışma kitabına eşleştirme başarısız oldu",
+          "inProgress": "Çalışma kitabına eşleştiriliyor"
+        }
+      },
+      "time": {
+        "completed": "Tamamlandı",
+        "failed": "Sonrasında başarısız oldu",
+        "remaining": "kalan",
+        "started": "Başladı: {{time}}",
+        "units": {
+          "hour": "sa.",
+          "minute": "dk.",
+          "second": "sn."
+        }
+      }
+    },
+    "pill": {
+      "hoverText": "İşler",
+      "multipleJobsRunning": "{{count}} iş devam ediyor",
+      "status": {
+        "default": {
+          "complete": "İş tamamlandı",
+          "failed": "Görev başarısız oldu",
+          "inProgress": "İş devam ediyor"
+        },
+        "delete": {
+          "complete": "Silme işlemi tamamlandı",
+          "failed": "Silme işlemi başarısız oldu",
+          "inProgress": "Kayıtlar siliniyor..."
+        },
+        "extract": {
+          "complete": "Çıkarma işlemi tamamlandı",
+          "failed": "Çıkarma başarısız oldu",
+          "inProgress": "Veriler çıkarılıyor..."
+        },
+        "mapping": {
+          "complete": "Eşleme tamamlandı",
+          "failed": "Eşleme başarısız oldu",
+          "inProgress": "Eşleniyor..."
+        }
+      }
+    }
+  },
+  "mapping": {
+    "dataPreview": {
+      "heading": "{{previewKey}} için veri önizlemesi",
+      "noData": "Önizleme verisi yok"
+    },
+    "headerButtons": {
+      "back": "Geri",
+      "exit": "Çık",
+      "next": "Devam et"
+    },
+    "mapEnums": {
+      "destinationFields": {
+        "dropdownOptions": {
+          "doNotImport": "İçe aktarılmasın",
+          "keepAsIs": "Bu değeri olduğu gibi tutun",
+          "keepAsIsDisabledTooltip": "Bu listeye yeni bir seçenek eklenmesi desteklenmiyor. Geçerli bir seçenek olmayan bir değerin içe aktarılması hata olarak görünecektir."
+        },
+        "heading": "Hedef Değerler"
+      },
+      "incomingFields": {
+        "heading": "Gelen Değerler",
+        "noData": "Veri içermeyen hücreler",
+        "noDataTooltip": "Tüm boş hücreleri doldurmak için geçerli bir seçenek belirleyebilirsiniz. Burayı boş da bırakabilirsiniz."
+      },
+      "progressPill_one": "{{mappedCount}} / {{totalCount}} değer eşlendi",
+      "progressPill_other": "{{mappedCount}} / {{totalCount}} değer eşlendi",
+      "progressPill_zero": "{{mappedCount}} / {{totalCount}} değer eşlendi",
+      "progressPillAllMapped_one": "{{totalCount}} değer eşlendi",
+      "progressPillAllMapped_other": "{{totalCount}} değer eşlendi",
+      "progressPillAllMapped_zero": "{{totalCount}} değer eşlendi",
+      "subheading": "Bu alanlar, geçerli seçenekler listesiyle eşleştirilmesi gereken değerlere sahip.",
+      "title": "Harita Alanları"
+    },
+    "mapFields": {
+      "destinationFields": {
+        "addNewField": {
+          "description": "Bu alanı sayfanıza ekleyin",
+          "label": "Yeni alan olarak ekle"
+        },
+        "dropdownOptionLabels": {
+          "new": "Yeni ekle",
+          "unused": "Kullanılmamış",
+          "used": "Kullanıldı"
+        },
+        "heading": "Hedef Alanları",
+        "progressPill": {
+          "missingRequiredFields": " - {{missingFieldsCount}} eksik",
+          "text": "{{totalDestinationsMapped}} / {{totalDestinationFields}}",
+          "tooltip": {
+            "greaterThanTenMissing": "ve {{missingFieldsAfterTen}} daha...",
+            "missingRequiredFields": "Gerekli alanlar eksik:",
+            "progress": "Hedef sayfadaki {{totalDestinationFields}} kullanılabilir alanların {{mappedDestinationFields}}'si şu şekilde eşlendi:"
+          }
+        }
+      },
+      "incomingFields": {
+        "heading": "Gelen Alanlar",
+        "progressPill": {
+          "text": "{{totalIncomingMapped}} / {{totalIncomingFields}}",
+          "tooltip": "Veri kümenizdeki {{mappedIncomingFields}} / {{totalIncomingFields}} alanlarını hedef sayfayla eşlediniz"
+        }
+      },
+      "subheading": "Her eşleme seçeneğini inceleyin ve onaylayın",
+      "title": "Harita alanları"
+    },
+    "sheetSelection": {
+      "cannotLoadFile": "Dosya yüklenemiyor: {{fileName}}",
+      "columns_one": "1 sütun",
+      "columns_other": "{{count}} sütunlar",
+      "columns_zero": "{{count}} sütunlar",
+      "errors_one": "1 hata",
+      "errors_other": "{{count}} hatalar",
+      "errors_zero": "{{count}} hatalar",
+      "importFromHeading": "Verilerin yükleneceği sayfayı seçin",
+      "importToHeading": "Bu verileri içe aktarmak için bir sayfa seçin",
+      "lastUpdated": "Son güncelleme {{date}}",
+      "lastUpdatedDateFormat": "yyyy-aa-gg",
+      "records_one": "1 kayıt",
+      "records_other": "{{count}} kayıtlar",
+      "records_zero": "{{count}} kayıtlar",
+      "sheetHasNoData": "Veri yok",
+      "sheets_one": "1 sayfa",
+      "sheets_other": "{{count}} sayfalar",
+      "sheets_zero": "{{count}} sayfalar",
+      "title": "Şuraya aktar:"
+    }
+  },
+  "sheet": {
+    "columnManagement": {
+      "errorColumnTooltip": "Bu değere göre filtrelemek bu sütunu gösterecek",
+      "noFields": "alan yok",
+      "noMatches": "eşleşme yok",
+      "placeholder_one": "1 alanı ara veya alan arasından seçim yap...",
+      "placeholder_other": "{{count}} alanı ara veya alan arasından seçim yap...",
+      "placeholder_zero": "{{count}} alanı ara veya alan arasından seçim yap...",
+      "toast": {
+        "action": "Gösterilsin mi?",
+        "message_one": "Hata içeren 1 sütun gizlendi",
+        "message_other": "Hata içeren {{count}} sütun gizlendi",
+        "message_zero": "Hata içeren {{count}} sütun gizlendi"
+      },
+      "tooltip_one": "1 sütun gizlendi",
+      "tooltip_other": "{{count}} sütun gizlendi",
+      "tooltip_zero": "Sütunları yönet",
+      "unhideToast": {
+        "message_one": "1 sütun bu sorgu tarafından gösterilecek",
+        "message_other": "{{count}} sütun bu sorgu ile gizlenmedi",
+        "message_zero": "{{count}} sütun bu sorgu tarafından gösterilecek"
+      }
+    },
+    "embedded": {
+      "maxOpenReached": "Aynı anda {{maxOpenSheets}} adetten fazla gömülü sayfa açılamıyor. Bunu açmak için gömülü bir sayfayı kapat.",
+      "untitled": "Başlıksız Sayfa"
+    },
+    "emptyView": {
+      "defaultError": {
+        "description": "Bu çalışma sayfası boş gözüküyor.",
+        "heading": "Henüz görecek bir şey yok!"
+      },
+      "heading": "Haydi başlayalım",
+      "manualEntry": "Verileri manuel olarak gir",
+      "noColumns": {
+        "description": "Tüm sütunları görünümden gizledin.",
+        "heading": "Görecek hiçbir şey yok!"
+      },
+      "noSheetError": {
+        "description": "Bu çalışma sayfası mevcut gibi gözükmüyor.",
+        "heading": "Çalışma sayfası bulunamadı"
+      },
+      "readOnly": {
+        "description": "Yeni satırları ve/veya düzenlemeleri kabul etmeyen çalışma sayfaları genellikle dinamik olarak doldurulmuş veri alır. Şu an yapabileceğiniz bir eylem bulunmamaktadır.",
+        "heading": "Veri bekleniyor"
+      },
+      "sheetLocked": {
+        "description": "Bunun bir hata olduğunu düşünüyorsanız lütfen desteğe ulaşın.",
+        "heading": "Kayıt eklemek şu an devre dışıdır"
+      },
+      "uploadFile": "Başlamak için bir dosyayı sürükleyip bırak veya yükle"
+    },
+    "errors": {
+      "loading": "Çalışma kitabı getirilemiyor.",
+      "noSheets": {
+        "description": "Bir çalışma kitabı, en az bir sayfa içermelidir. Hiçbiri bulunamadı.",
+        "title": "Çalışma kitabında sayfa yok"
+      },
+      "notFound": "Çalışma kitabı bulunamadı"
+    },
+    "info": {
+      "copiedPopover": "Panoya kopyalandı",
+      "copyButton": "Kopyalamak için tıkla!"
+    },
+    "popovers": {
+      "copyCell_one": "{{count}} hücre kopyalandı",
+      "copyCell_other": "{{count}} hücre kopyalandı",
+      "copyCell_zero": "{{count}} hücre kopyalandı",
+      "copyRecord_one": "{{count}} kayıt kopyalandı",
+      "copyRecord_other": "{{count}} kayıt kopyalandı",
+      "copyRecord_zero": "{{count}} kayıt kopyalandı",
+      "errors": {
+        "cellUpdateFailed": "Bir şeyler ters gitti. Lütfen sayfayı yenileyip tekrar deneyin. Bu durum devam ederse lütfen destek ekibine ulaşın.",
+        "invalidFFQL": "Lütfen sorgunuzu kontrol edin",
+        "invalidFFQLSearch": "Geçersiz FFQL beyanı",
+        "learnMore": "Daha fazla bilgi alın",
+        "recordsLoadFailed": "Kayıtlar yüklenemedi"
+      }
+    },
+    "table": {
+      "cells": {
+        "enum": {
+          "loading": "Seçenekler yükleniyor...",
+          "loadingError": "Seçenekler yüklenemiyor",
+          "noMatchesFound": "Eşleşme bulunamadı",
+          "placeholder": "Buraya yazın...",
+          "seeMore": "Daha fazla seçenek görmek için arama yapın"
+        },
+        "messages": {
+          "autogen": "✨ Otomatik olarak oluşturuldu",
+          "reference": "Değer, referans tablosunda mevcut değil",
+          "req": "{{field}} gereklidir",
+          "transformed": "🪄️ {{originalValue}} değerinden dönüştürüldü",
+          "unique": "Değer benzersiz değil"
+        }
+      },
+      "contextMenu": {
+        "filterByValue": {
+          "label": "Değere göre filtrele",
+          "moreOptions": "İlk {{pageSize}} seçenekleri gösteriliyor. Daha fazlasını görmek için ara.",
+          "noData": "veri yok",
+          "placeholder": "Değerleri ara veya seç..."
+        },
+        "findAndReplace": {
+          "findAndReplaceValues": "Bul ve değiştir",
+          "modal": {
+            "cancelButton": "İptal",
+            "descriptionExactOnly": "Bu sütundaki herhangi bir metni toplu olarak geçerli bir değerle değiştirin. Yalnızca tam eşleşmeleri ortaya çıkarıyoruz",
+            "descriptionPartialAndExact": "Bu sütundaki herhangi bir metni toplu olarak değiştirin. Bu veriler için hem kısmi hem de tam eşleşmeleri destekliyoruz",
+            "errors": {
+              "findError": "Değerler bulunurken bir hata oluştu",
+              "generalError": "Bir şeyler yanlış gitti. Lütfen tekrar deneyin",
+              "replaceError": "Değerler değiştirilirken bir hata oluştu"
+            },
+            "exactMatchesOnly": "Sadece tam eşleşmeleri ortaya çıkar",
+            "finding": "Tüm örnekleri bulma",
+            "heading": "{{columnName}} içinde bul ve değiştir",
+            "isFiltered": "Bu veri kümesi filtrelendi. Bul ve değiştir yalnızca filtrelenmiş kayıtlarda çalışır.",
+            "replaceButton": "Hepsini değiştir",
+            "replaceEmpty": {
+              "description": {
+                "addValues": "Bu, {{columnName}} içindeki tüm boş hücreleri dolduracaktır",
+                "addValuesToAll": "{{columnName}} sütunundaki hücrelerin hepsi boş, bunları seçili bir değerle toplu olarak doldurabilirsiniz",
+                "addValuesToCount_one": "{{columnName}} içinde {{formattedCount}} boş hücre var, bunu seçilen bir değerle toplu olarak doldurabilirsiniz\n\n\n\n\n",
+                "addValuesToCount_other": "{{columnName}} içinde {{formattedCount}} boş hücre var, bunları seçili bir değerle toplu olarak doldurabilirsiniz",
+                "addValuesToCount_zero": "{{columnName}} içinde {{formattedCount}} boş hücre var, bunları seçili bir değerle toplu olarak doldurabilirsiniz",
+                "noEmptyValues": "Bu alanda boş hücre bulamadık!"
+              },
+              "heading": {
+                "addValues": "{{columnName}} sütunundaki boş hücrelere bir değer ekleyin",
+                "addValuesToAll": "{{columnName}} sütunundaki tüm boş hücrelere bir değer ekleyin",
+                "addValuesToCount_one": "{{columnName}} içindeki boş {{formattedCount}} hücreye bir değer ekleyin",
+                "addValuesToCount_other": "{{columnName}} içindeki boş {{formattedCount}} hücreye bir değer ekleyin",
+                "addValuesToCount_zero": "{{columnName}} içindeki boş {{formattedCount}} hücreye bir değer ekleyin",
+                "noEmptyValues": "Boş değer bulunamadı"
+              }
+            },
+            "replaceEnum": {
+              "moreOptions": "İlk 100 seçenek gösteriliyor. Daha fazlasını görmek için arayın.",
+              "noMatchesFound": "Eşleşme bulunamadı",
+              "replaceWith": "... ile değiştir"
+            },
+            "replaceValue": {
+              "leavingBlank": "Bu alanın boş bırakılması seçilen değerlerin silinmesine neden olacaktır",
+              "noMatchesFound": "Değer bulunamadı",
+              "replaceWith": "... ile değiştir"
+            },
+            "replacing": "Değerler değiştiriliyor",
+            "runOnAllRecords": "Tüm kayıtlarda çalıştır",
+            "searchForEmpty": "Bu alan boş bırakılırsa boş değerleri arayacağız",
+            "searchForText": "Metin ara...",
+            "searchResultsCount_one": "{{count}} eşleşme",
+            "searchResultsCount_other": "{{count}} eşleşme",
+            "searchResultsCount_zero": "{{count}} eşleşme"
+          },
+          "replaceEmptyValues": "Boş değerleri değiştirin"
+        },
+        "pin": {
+          "apply": "Sütunu sabitle",
+          "remove": "Sabiti kaldır",
+          "tooltip": {
+            "maxPinned": "En fazla üç sütun sabitleyebilirsiniz, bu sütunu sabitlemek için mevcut sabitlenmiş sütunlardan birini sabitlemeyi kaldırın.",
+            "pin": "Bu sütunu tablonun soluna sabitleyin",
+            "unpin": "Bu sütunun sabitlemesini kaldırmak için tıklayın"
+          }
+        },
+        "searchInField": {
+          "modal": {
+            "cancelButton": "İptal",
+            "placeholder": "Ara...",
+            "searchButton": "Ara",
+            "searchWithin": "Içinde ara"
+          },
+          "searchInThisField": "Bu alanda ara"
+        },
+        "sort": {
+          "ascending": {
+            "apply": "A-Z şeklinde sırala",
+            "remove": "A-Z sıralamasını kaldır"
+          },
+          "descending": {
+            "apply": "Z-A şeklinde sırala",
+            "remove": "Z-A sıralamasını kaldır"
+          },
+          "tooltip": {
+            "notSorted": "A-Z şeklinde sıralamak için tıkla",
+            "sortedAsc": "A-Z şeklinde sıralandı",
+            "sortedDes": "Z-A şeklinde sıralandı"
+          }
+        }
+      },
+      "errors": {
+        "description": "Bu tablo, bu verileri görüntülemede sorun yaşıyor. Hata ayrıntıları için lütfen konsola bakın.",
+        "title": "Bir şeyler ters gitti"
+      },
+      "indexRow": {
+        "tooltip": {
+          "createRow": "Bu satırı oluşturmak için veri ekleyin",
+          "noData": "Seçilebilecek satır yok. Yalnızca veri içeren satırlar seçilebilir.",
+          "rowNumber": "{{number}}. Satır"
+        }
+      },
+      "maximumMessage": {
+        "plural": "...ve {{hiddenRows}} satır daha. Tablo görünümleri, tarayıcı kısıtlamaları nedeniyle tek seferde yalnızca 500.000'e kadar olan kayıtları desteklemektedir. Arama, sıralama, filtreler ve toplu eylemler görünümden gizlenen tüm satırlarda çalışmaya devam eder.",
+        "singular": "...ve 1 satır daha. Tablo görünümleri, tarayıcı kısıtlamaları nedeniyle tek seferde yalnızca 500.000'e kadar olan kayıtları desteklemektedir. Arama, sıralama, filtreler ve toplu eylemler görünümden gizlenen tüm satırlarda çalışmaya devam eder."
+      },
+      "modals": {
+        "copyAlert": {
+          "cancelButton": "İptal",
+          "description": "100+ kayıt seçmeye çalıştığınızı fark ettik. Verilerinizin bütünlüğünü korumak için kopyalamayı 100 kayıtla sınırlandırıyoruz.",
+          "download": "Bu sayfayı .csv olarak indirmek ister misiniz?",
+          "downloadButton": "İndir",
+          "heading": "Bu dosyayı indirmek ister misiniz?"
+        },
+        "deleteAlert": {
+          "description": "Mevcut 100'den fazla kaydın silinmesi şu anda desteklenmemektedir. Verilerini <1>akıllıca değiştirirken</1> daha iyi bir deneyim sağlamak için bunu sınırladık.",
+          "dismissButton": "Vazgeç",
+          "heading": "Silme sınırımıza ulaştınız!",
+          "tooltip": "Boş kayıtları, kopyaları vb. kaldır"
+        },
+        "pasteAlert": {
+          "description": "100'den fazla mevcut kaydın yapıştırılması şu anda desteklenmemektedir. Verilerini <1>akıllıca değiştirirken</1> daha iyi bir deneyim sağlamak için bunu sınırladık.",
+          "dismissButton": "Vazgeç",
+          "heading": "Yapıştırma sınırımıza ulaştınız!",
+          "tooltip": "Boş kayıtları, kopyaları vb. kaldır"
+        }
+      }
+    },
+    "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "Eylemler",
+        "placeholder": "Aratın veya seçin..."
+      },
+      "buttons": {
+        "delete": {
+          "modal": {
+            "cancelButton": "İptal",
+            "confirmButton": "Kayıtları sil",
+            "description": {
+              "infix": "seçili",
+              "infixType": {
+                "invalid": "geçersiz",
+                "valid": "geçerli"
+              },
+              "prefix": "Şunları silmek ister misiniz:",
+              "suffix_one": "kayıt?",
+              "suffix_other": "kayıtlar?",
+              "suffix_zero": "kayıtlar?"
+            },
+            "errorMessage": "Kayıtlar silinemiyor. Lütfen tekrar deneyin veya seçiminizi değiştirin.",
+            "heading_one": "Kaydı Sil",
+            "heading_other": "Kayıtları Sil",
+            "heading_zero": "Kayıtları Sil",
+            "inProgress": "Kayıtlar siliniyor..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} kayıt silindi",
+            "successMessage_other": "{{count}} kayıt silindi",
+            "successMessage_zero": "{{count}} kayıt silindi",
+            "successMessageNoCount": "Kayıtlar silindi"
+          },
+          "tooltip": {
+            "active": "Seçili kayıtları sil",
+            "disabled": {
+              "deleteDisabled": "Bu Sayfada kayıtların silinmesi devre dışı bırakıldı.",
+              "noRecordsSelected": "Silmek için en az bir kayıt seçin"
+            }
+          }
+        },
+        "download": {
+          "modal": {
+            "cancelButton": "İptal",
+            "confirmButton": "Kayıtları indir",
+            "description": {
+              "infix": "seçili",
+              "infixType": {
+                "invalid": "geçersiz",
+                "valid": "geçerli"
+              },
+              "prefix": "İndirmek ister misiniz",
+              "suffix_one": "kaydı?",
+              "suffix_other": "kayıtları?",
+              "suffix_zero": "kayıtları?"
+            },
+            "errorMessage": "Kayıtlar indirilemiyor. Lütfen tekrar deneyin veya seçiminizi değiştirin.",
+            "heading_one": "Kaydı İndir",
+            "heading_other": "Kayıtları İndir",
+            "heading_zero": "Kayıtları İndir",
+            "inProgress": "Kayıtlar indiriliyor..."
+          },
+          "tooltip": {
+            "active": {
+              "invalidFilterApplied": "Geçersiz tüm kayıtları indir",
+              "noRecordsSelected": "Bu sayfayı indir",
+              "recordsSelected": "Seçili kayıtları indir",
+              "validFilterApplied": "Geçerli tüm kayıtları indir"
+            },
+            "disabled": "İndirilecek kayıt yok"
+          }
+        }
+      },
+      "customActionsDropdown": {
+        "disabledTooltip": {
+          "requireAllValid": "Bu eylem, seçili tüm satırların geçerli olmasını gerektirir",
+          "requireSelection": "Bu eylemi kullanması için lütfen bir veya daha fazla kayıt seçin"
+        }
+      },
+      "dropdown": {
+        "delete": "Sil",
+        "download": "İndir"
+      },
+      "filterByError": {
+        "buttonText": "Hataya göre filtrele",
+        "dropdownPlaceholder": "Aratın veya seçin..."
+      },
+      "filters": {
+        "all": "Tümü",
+        "invalid": "Geçersiz",
+        "tooltip": {
+          "filter": {
+            "invalid": "geçersiz",
+            "total": "toplam",
+            "valid": "geçerli"
+          },
+          "filtered": "Bu veri kümesi, {{countString}} {{filter}} kayıtlarının {{filteredCount}} kaydını gösterecek şekilde filtrelendi.",
+          "filteredByError": "Bu veri seti, {{countString}} {{filter}} kaydın {{filteredCount}} tanesini gösterecek şekilde hata filtresi aracılığıyla fitrelendi.",
+          "filteredByFFQL": {
+            "branded": "Bu veri kümesi, {{countString}} {{filter}} kayıtlarının {{filteredCount}} kaydını göstermek için Düz Dosya Sorgu Dili aracılığıyla filtrelendi.",
+            "whitelabeled": "Bu veri kümesi, {{countString}} {{filter}} kayıtlarının {{filteredCount}} kaydını gösterecek şekilde filtrelendi."
+          },
+          "filteredBySearch": "Bu veri seti, {{countString}} {{filter}} kaydın {{filteredCount}} tanesini gösterecek şekilde arama aracılığıyla filtrelendi.",
+          "filteredBySearchAndError": "Bu veri seti, {{countString}} {{filter}} kaydın {{filteredCount}} tanesini gösterecek şekilde arama ve hata filtresi aracılığıyla filtrelendi.",
+          "inactiveCount": "{{countString}} {{filter}} kayıt, {{filteredCount}} filtrelendi"
+        },
+        "valid": "Geçerli"
+      },
+      "moreActions": {
+        "buttonText": "Daha fazla eylem",
+        "placeholder": "Aratın veya seçin..."
+      },
+      "searchBar": {
+        "expandTooltip": "Aramayı ve Yapay Zeka Yardımını aç",
+        "placeholder": "Ara...",
+        "tooltip": "Aramak için enter tuşuna basın"
+      }
+    }
+  },
+  "sidebar": {
+    "addConnection": "Bağlantı Ekle",
+    "checklist": "Veri kontrol listesi",
+    "connections": {
+      "tooltips": {
+        "connectionError": "Bu çalışma kitabının bağlantılarının metaverisini doğrulamada bir hata mevcut",
+        "connectionFresh": "{{source}} kaynağına {{service}} ile bağlanıldı",
+        "connectionStale": "{{source}} ile en son 24 saatten daha önce eşitlendi"
+      }
+    },
+    "emptyWorkbook": "Boş çalışma kitabı",
+    "files": "Dosyalar",
+    "readOnlyIconTooltip": "Bu Sayfa salt okunurdur"
+  },
+  "snapshot": {
+    "accept": {
+      "cancelButton": "İptal",
+      "cancelError": "Beklenmedik bir hata nedeniyle değişiklikler eski haline döndürülemedi.",
+      "cancelSuccess": "Çalışma sayfanızdaki değişiklikler başarıyla eski haline döndürüldü.",
+      "empty": {
+        "createdSince": "Bu anlık görüntü hiçbir kaldırılmış kayda sahip değil.",
+        "deletedSince": "Bu anlık görüntü hiçbir eklenmiş kayda sahip değil.",
+        "title": "Görecek hiçbir şey yok!",
+        "updatedSince": "Bu anlık görüntü hiçbir değiştirilmiş kayda sahip değil."
+      },
+      "errorMessage": "Anlık görüntü değişiklikleri beklenmeyen bir hata nedeniyle uygulanamadı.",
+      "filters": {
+        "createdSince": "Kaldırılmış",
+        "deletedSince": "Eklenmiş",
+        "updatedSince": "Değiştirilmiş"
+      },
+      "header": {
+        "title": "Şurada yapılan değişiklikler:",
+        "titleWithMeta": "<1>{{sheet}}</1> sayfasında <3>{{action}}</3> tarafından yapılan değişiklikler"
+      },
+      "message": "Değişiklikleri kabul etmek tüm yeni değerleri {{name}} çalışma sayfanız içine birleştirir.",
+      "submitButton": "Değişiklikleri kabul et",
+      "submitError": "Anlık görüntü değişiklikleri beklenmeyen bir hata nedeniyle uygulanamadı.",
+      "submitSuccess": "Çalışma sayfanızdaki değişiklikler başarıyla uygulandı.",
+      "successMessage": "Değişiklikler çalışma sayfanıza uygulandı.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{name}} alanındaki {{cells}} hücre",
+            "last": " ve {{name}} alanındaki {{cells}} hücre",
+            "middle": ", {{name}} alanındaki {{cells}} hücre"
+          },
+          "singular": {
+            "first": "{{name}} alanındaki 1 hücre",
+            "last": " ve {{name}} alanındaki 1 hücre",
+            "middle": ", {{name}} alanındaki 1 hücre"
+          },
+          "start": " Veri değiştirildi "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Veri {{fields}} alan içersinde {{records}} kayıtta değişti.",
+            "noFields": "Veri {{records}} kayıtta değişti.",
+            "oneField": "Veri 1 alan içersinde {{records}} kayıtta değişti."
+          },
+          "singular": {
+            "multipleFields": "Veri, {{fields}} alanları içersinde 1 kayıtta değişti.",
+            "noFields": "Veri 1 kayıtta değişti.",
+            "oneField": "Veri, 1 alan içersinde 1 kayıtta değişti."
+          }
+        }
+      },
+      "title": "Şurada yapılan değişiklikler:"
+    },
+    "cells": {
+      "messages": {
+        "accept": "Değişiklikleri kabul ederseniz, tüm yeni değerler veri setiniz içinde birleştirilecektir.",
+        "current": "Mevcut değer: {{value}}",
+        "empty": "veri yok",
+        "restore": "Veri kümen bu anlık görüntüdeki sürüme geri yüklenecek.",
+        "snapshot": "Yeni değer: {{value}}"
+      }
+    },
+    "restore": {
+      "cancelButton": "İptal",
+      "empty": {
+        "createdSince": "Bu anlık görüntüde kaldırılacak kayıt yok.",
+        "deletedSince": "Bu anlık görüntüde eklenecek kayıt yok.",
+        "title": "Görecek hiçbir şey yok!",
+        "updatedSince": "Bu anlık görüntüde değiştirilecek kayıt yok."
+      },
+      "errorMessage": "Beklenmeyen bir hata nedeniyle anlık görüntü geri yüklenemedi.",
+      "filters": {
+        "createdSince": "Kaldır",
+        "deletedSince": "Ekle",
+        "updatedSince": "Değiştir"
+      },
+      "header": {
+        "title": "Şurada uygulanacak değişiklikler:"
+      },
+      "message": "Sayfanız {{name}} bu anlık görüntüdeki sürüme geri yüklenecek.",
+      "submitButton": "Geri Yükle",
+      "submitError": "Beklenmeyen bir hata nedeniyle anlık görüntü geri yüklenemedi.",
+      "submitSuccess": "Sayfanız daha önceki bir sürüme geri yüklendi.",
+      "successMessage": "Sayfanız daha önceki bir sürüme geri yüklendi.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{name}} alanındaki {{cells}} hücre",
+            "last": " ve {{name}} alanındaki {{cells}} hücre",
+            "middle": ", {{name}} alanındaki {{cells}} hücre"
+          },
+          "singular": {
+            "first": "{{name}} alanındaki 1 hücre",
+            "last": " ve {{name}} alanındaki 1 hücre",
+            "middle": ", {{name}} alanındaki 1 hücre"
+          },
+          "start": " Verilerin değiştirileceği yer "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Veriler {{fields}} alandaki {{records}} kayıtta değişecektir.",
+            "noFields": "Veriler {{records}} kayıtta değişecektir.",
+            "oneField": "Veriler 1 alandaki {{records}} kayıtta değişecektir."
+          },
+          "singular": {
+            "multipleFields": "Veriler, {{fields}} alandaki 1 kayıtta değişecektir.",
+            "noFields": "Veriler 1 kayıtta değişecektir.",
+            "oneField": "Veriler 1 alandaki 1 kayıtta değişecektir."
+          }
+        }
+      },
+      "title": "Şurada uygulanacak değişiklikler:"
+    },
+    "tooltips": {
+      "sheet": "{{workbook}} içinde {{sheet}}"
+    }
+  },
+  "spaceLoadingMessage": "Alan Hazırlanıyor...",
+  "utils": {
+    "buttons": {
+      "clearAll": "Tümünü Temizle",
+      "selectAll": "Tümünü Seç"
+    }
+  },
+  "versionHistory": {
+    "modals": {
+      "default": {
+        "description": "Beklenmeyen bir hata oluştu - eşleşen bir işlem uygulanmadı"
+      },
+      "delete": {
+        "confirm": {
+          "closeButton": "Kapat",
+          "description": "Seçilen sürümü silmek istediğinize emin misiniz?",
+          "heading": "Sürümü Sil",
+          "proceedButton": "Sil"
+        },
+        "error": {
+          "closeButton": "Kapat",
+          "description": "Beklenmeyen bir hata nedeniyle seçilen sürüm silinemedi - sorun devam ederse desteğe ulaşın",
+          "heading": "Sürüm silinemiyor",
+          "retryButton": "Tekrar Dene"
+        },
+        "success": {
+          "closeButton": "Kapat",
+          "description": "Seçilen sürüm silindi.",
+          "heading": "Sürüm Silindi"
+        }
+      }
+    },
+    "panel": {
+      "empty": "Sürümler oluşturulduktan sonra burada görünecektir. Sürümler, genellikle verilerde toplu dönüşüm gerçekleştiğinde otomatik olarak oluşturulur.",
+      "generatedSnapshot": "Bilgi mesajı için YZ Dönüşümü uygulanmadan önce oluşturulan anlık görüntü: ",
+      "heading": "Sürüm Geçmişi",
+      "thisMonth": "Bu Ay",
+      "versionRestored": "Önceki bir sürümün geri yüklenmesi öncesi oluşturulan sürüm"
+    },
+    "pill": {
+      "hoverText": "Sürüm Geçmişi"
+    }
+  }
 }

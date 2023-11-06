@@ -897,6 +897,13 @@
     "buttons": {
       "clearAll": "Clear All",
       "selectAll": "Select All"
+    },
+    "modals": {
+      "sizeWarning": {
+        "title": "Screen too small",
+        "body": "Please use a device with a larger screen to be able to access all features. We cannot guarantee that all features will work as expected at this screen size.",
+        "button": "Continue anyway"
+      }
     }
   },
   "versionHistory": {

@@ -1,2 +1,962 @@
 {
+  "checklist": {
+    "dropdowns": {
+      "headings": {
+        "sheet": "Foglio",
+        "workbook": "Cartella di lavoro"
+      }
+    },
+    "errors": {
+      "cannotLoadChecklist": "Impossibile caricare l’elenco di controllo dati",
+      "cannotLoadSheet": "Impossibile trovare il foglio",
+      "noWorkbooksDescription": "L’elenco di controllo dati richiede almeno 1 cartella di lavoro attiva. Richiedi che il team di sviluppo verifichi la configurazione. Se il problema persiste, contatta l’assistenza clienti.",
+      "noWorkbooksTitle": "Cartella di lavoro richiesta"
+    },
+    "table": {
+      "dataTypes": {
+        "boolean": "Booleano",
+        "date": "Data",
+        "enum": "Enumerazione",
+        "number": "Numero",
+        "reference": "Riferimento",
+        "string": "Stringa",
+        "unknown": "Sconosciuto"
+      },
+      "fieldTagComputed": "Elaborato",
+      "fieldTagRequired": "Richiesto",
+      "fieldTagUnique": "Univoco",
+      "headings": {
+        "dataType": "Tipo di dati",
+        "description": "Descrizione",
+        "field": "Nome campo"
+      }
+    },
+    "title": "Lista dei dati"
+  },
+  "commandMenu": {
+    "aiAssist": {
+      "query": {
+        "askingAI": {
+          "stepFour": "Finendo",
+          "stepOne": "Pensando",
+          "stepThree": "Facendo",
+          "stepTwo": "Scrivendo"
+        },
+        "description": {
+          "branded": "chiedi all'IA di scrivere una query per te in FFQL",
+          "whitelabeled": "chiedi all'IA di scrivere una richiesta per te"
+        },
+        "errorBanner": {
+          "generalError": "Qualcosa è andato storto. Riprova."
+        },
+        "instruction": "Descrivi come vorresti che l'assistente IA esegua la query dei tuoi dati:",
+        "review": {
+          "description": "Ecco cosa ho prodotto. Leggi la spiegazione dettagliata e la query e, se sembra buona, fai clic di sotto per applicarla.",
+          "explanationTitle": "Spiegazione",
+          "queryTitle": "Query"
+        }
+      },
+      "title": "Costruisci con IA",
+      "transform": {
+        "askingAI": {
+          "stepFour": "Finendo",
+          "stepOne": "Pensando",
+          "stepThree": "Facendo",
+          "stepTwo": "Scrivendo"
+        },
+        "description": "chiedi all'IA di trasformare i tuoi dati",
+        "errorBanner": {
+          "generalError": "Qualcosa è andato storto. Riprova.",
+          "versionError": "Impossibile creare una versione di rollback: trasformazione IA interrotta. Riprova."
+        },
+        "instruction": "Descrivi come vorresti che l'assistente IA trasformasse i tuoi dati:",
+        "review": {
+          "codeTitle": "Codice",
+          "description": "Ecco cosa ho prodotto. Leggi la spiegazione dettagliata e la query e, se sembra buona, fai clic di sotto per applicarla.",
+          "planTitle": "Piano",
+          "warning": "Attenzione: questo trasformerà i tuoi dati"
+        },
+        "transforming": {
+          "inProgress": "Applicazione al tuo dataset in corso"
+        }
+      }
+    },
+    "buttons": {
+      "apply": "Applica",
+      "cancel": "Annulla"
+    },
+    "commands": {
+      "filter": {
+        "apply": "Applica filtro.",
+        "description": {
+          "branded": "scrivi una dichiarazione FFQL",
+          "whitelabeled": "scrivi una richiesta"
+        },
+        "hiddenColumnsWarning_one": "1 campo sarà mostrati di nuovo tramite questa richiesta: {{fields}}",
+        "hiddenColumnsWarning_other": "{{count}} campi saranno mostrati di nuovo tramite questa richiesta: {{fields}}",
+        "hiddenColumnsWarning_zero": "{{count}} campi saranno mostrati di nuovo tramite questa richiesta: {{fields}}",
+        "invalidFFQL": "Dichiarazione FFQL non valida. Riprovare?",
+        "learnHow": "impara come"
+      },
+      "search": {
+        "global": {
+          "apply": "Applica ricerca.",
+          "description": "cerca in tutto il foglio"
+        },
+        "inField": {
+          "apply": "Applica la ricerca all'interno di un campo.",
+          "applyExample": "cioè \"nome\" Jane Doe",
+          "description": "cerca all'interno di un campo"
+        }
+      }
+    },
+    "itemMessage": "premi {{icon}} per applicare",
+    "placeholder": "Trova o fai qualsiasi cosa..."
+  },
+  "document": {
+    "error": {
+      "description": "Il documento sembra essere inesistente",
+      "title": "Documento non trovato"
+    }
+  },
+  "errors": {
+    "documentNotFound": "Documento non trovato",
+    "fileNotFound": "File non trovato",
+    "missingParameter": "Parametro non fornito",
+    "notFound": "Non trovato",
+    "refreshButton": "Riprova",
+    "refreshPageDescription": "Aggiorna la pagina per riprovare. Se il problema persiste, contatta il supporto.",
+    "sheetNotFound": "Foglio non trovato",
+    "spaceNotFound": "Spazio non trovato",
+    "unauthorized": "Le tue credenziali di accesso non sono valide.",
+    "unknownError": "Qualcosa è andato storto",
+    "workbookNotFound": "Cartella di lavoro non trovata"
+  },
+  "files": {
+    "availableDownloadsTab": "Download disponibili",
+    "buttons": {
+      "addFile": {
+        "inProgressText": "Caricamento file",
+        "text": "Aggiungi file"
+      },
+      "delete": "Elimina",
+      "download": "Scarica"
+    },
+    "contextMenu": {
+      "delete": "Elimina",
+      "download": "Scarica"
+    },
+    "counts": "{{start}}-{{end}} di {{total}}",
+    "deleteModal": {
+      "downloadDescription_one": "Questo file scaricato sarà eliminato dallo spazio.",
+      "downloadDescription_other": "Questi file scaricati saranno eliminati dallo spazio.",
+      "downloadDescription_zero": "Questi file scaricati saranno eliminati dallo spazio.",
+      "heading_one": "Elimina file",
+      "heading_other": "Elimina file",
+      "heading_zero": "Elimina file",
+      "subheading_one": "File:",
+      "subheading_other": "File:",
+      "subheading_zero": "File:",
+      "uploadsDescription_one": "Tutti i dati importati saranno salvati. Questo eliminerà il file dallo spazio.",
+      "uploadsDescription_other": "Tutti i dati importati saranno salvati. Questo eliminerà i file dallo spazio.",
+      "uploadsDescription_zero": "Tutti i dati importati saranno salvati. I file verranno eliminati dallo spazio."
+    },
+    "downloadsTable": {
+      "headings": {
+        "createdDate": "Generato",
+        "name": "Nome",
+        "size": "Dimensioni",
+        "sourceSheet": "Foglio di origine"
+      },
+      "processing": "Esportazione in corso..."
+    },
+    "emptyState": {
+      "downloads": {
+        "description": "I dati scaricati compariranno qui",
+        "heading": "Nessun download disponibile"
+      },
+      "uploads": {
+        "description": "Trascina e rilascia o carica un file per iniziare",
+        "heading": "Aggiungi file:"
+      }
+    },
+    "errors": {
+      "loadingError": "Impossibile caricare i file",
+      "uploadDisabledDescription": "Se ritieni che si sia verificato un errore, contatta l’assistenza clienti.",
+      "uploadDisabledHeading": "Questo spazio al momento non supporta il caricamento di file."
+    },
+    "title": "File",
+    "uploadedFilesTab": "File caricati",
+    "uploadFile": {
+      "popovers": {
+        "errorUploading": "Impossibile caricare il file: {{fileName}}",
+        "onDragPopoverConfirmation": "Rilasciare il file in:",
+        "uploadComplete": "Caricato: {{fileName}}",
+        "uploadInProgress": "In caricamento: {{fileName}}",
+        "uploadsDisabled": "Questo spazio al momento non supporta il caricamento di file."
+      }
+    },
+    "uploadsTables": {
+      "headings": {
+        "name": "Nome",
+        "status": "Stato",
+        "uploadedDate": "Caricato"
+      },
+      "importButton": "Importa",
+      "tooltips": {
+        "cannotImport": "L’importazione di una cartella di lavoro non è al momento disponibile per questo file",
+        "noExtension": "Il file non ha un’estensione. Aggiungi l’estensione corretta al nome del file e ricaricalo per importarlo nella cartella di lavoro."
+      }
+    }
+  },
+  "guestInvite": {
+    "getNewAccessLink": {
+      "content": "Abbiamo inviato un link di accesso sicuro a",
+      "finePrint": "Se non riesci a trovare l'email, controlla la cartella spam o aggiorna questa pagina per inviare un altro link di accesso. Il link funzionerà per 5 minuti.",
+      "heading": "Controlla la tua casella di posta"
+    }
+  },
+  "jobs": {
+    "customActions": {
+      "modals": {
+        "confirmModal": {
+          "cancelButton": "Annulla",
+          "defaultConfirmButton": "Conferma",
+          "defaultLoadingButton": "In caricamento",
+          "isRequired": "{{field}} è richiesto",
+          "mustBeNumber": "{{field}} dev'essere un numero"
+        },
+        "defaultJobName": "Lavoro",
+        "defaultResourceName": "questa risorsa",
+        "foregroundJobProgressModal": {
+          "defaultJobName": "Lavoro",
+          "defaultResourceName": "questa risorsa",
+          "percentComplete": "{{percent}}% completo",
+          "runningOn": "funzionando su"
+        },
+        "outcomeModals": {
+          "acknowledgementModal": {
+            "defaultContinueButton": "Continua"
+          },
+          "defaultDownloadLabel": "Scarica",
+          "defaultFileName": "file",
+          "defaultHeading": {
+            "failed": "Lavoro fallito",
+            "success": "Riuscito!"
+          },
+          "defaultLabel": "Visualizza risorse",
+          "defaultMessage": {
+            "failed": "{{jobName}} su {{resourceName}} fallito",
+            "success": "{{jobName}} è stato eseguito su {{resourceName}} con successo"
+          },
+          "permanentOutcomeModal": {
+            "defaultContinueButton": "Continua"
+          }
+        },
+        "startModal": {
+          "confirmButton": "Conferma",
+          "errorMessage": "Errore durante l'azione",
+          "loadingText": "In caricamento"
+        }
+      }
+    },
+    "panel": {
+      "action": {
+        "export": "Scarica",
+        "extract": "Importa",
+        "mapping": "Vai alla cartella di lavoro"
+      },
+      "empty": "I lavori vengono visualizzati qui quando sono in esecuzione o completati.",
+      "errorLoadingJob": "Non trovato",
+      "heading": "Lavori",
+      "status": {
+        "default": {
+          "canceled": {
+            "prefix": "Lavoro",
+            "suffix": "annullato"
+          },
+          "complete": {
+            "prefix": "Lavoro",
+            "suffix": "completato"
+          },
+          "failed": {
+            "prefix": "Lavoro",
+            "suffix": "fallito"
+          },
+          "inProgress": "Lavoro in esecuzione"
+        },
+        "delete": {
+          "cancelled": "Eliminazione del record annullata",
+          "complete": "Eliminazione completata",
+          "failed": "Eliminazione non riuscita",
+          "inProgress": "Eliminazione dei record"
+        },
+        "export": {
+          "canceled": "Download annullato",
+          "complete": "Download generato",
+          "failed": "Impossibile creare il download",
+          "inProgress": "Creazione del download"
+        },
+        "extract": {
+          "cancelled": "Estrazione di file annullata",
+          "complete": "File estratto",
+          "failed": "Estrazione del file non riuscita",
+          "inProgress": "Estrazione del file"
+        },
+        "mapping": {
+          "canceled": "Mappatura su cartella di lavoro annullata",
+          "complete": "Mappato su cartella di lavoro",
+          "failed": "Impossibile mappare su cartella di lavoro",
+          "inProgress": "Mappatura su cartella di lavoro"
+        }
+      },
+      "time": {
+        "completed": "Completato in",
+        "failed": "Fallito dopo",
+        "remaining": "rimanente",
+        "started": "Iniziato a {{time}}",
+        "units": {
+          "hour": "ora",
+          "minute": "min",
+          "second": "sec"
+        }
+      }
+    },
+    "pill": {
+      "hoverText": "Lavori",
+      "multipleJobsRunning": "{{count}} lavori in esecuzione",
+      "status": {
+        "default": {
+          "complete": "Lavoro completato",
+          "failed": "Lavoro fallito",
+          "inProgress": "Lavoro in corso"
+        },
+        "delete": {
+          "complete": "Eliminazione completata",
+          "failed": "Eliminazione non riuscita",
+          "inProgress": "Cancellazione record..."
+        },
+        "extract": {
+          "complete": "Estrazione completata",
+          "failed": "Estrazione fallita",
+          "inProgress": "Estrazione dei dati..."
+        },
+        "mapping": {
+          "complete": "Mappatura completata",
+          "failed": "Mappatura fallita",
+          "inProgress": "Mappatura..."
+        }
+      }
+    }
+  },
+  "mapping": {
+    "dataPreview": {
+      "heading": "Anteprima dei dati per {{previewKey}}",
+      "noData": "Nessun dato in anteprima"
+    },
+    "headerButtons": {
+      "back": "Indietro",
+      "exit": "Esci",
+      "next": "Continua"
+    },
+    "mapEnums": {
+      "destinationFields": {
+        "dropdownOptions": {
+          "doNotImport": "Non importare",
+          "keepAsIs": "Mantieni questo valore così com'è",
+          "keepAsIsDisabledTooltip": "Aggiungere una nuova opzione a questa lista non è supportato. Importare un valore che non è un'opzione valida verrà mostrato come errore."
+        },
+        "heading": "Valori di destinazione"
+      },
+      "incomingFields": {
+        "heading": "Valori in arrivo",
+        "noData": "Celle senza dati",
+        "noDataTooltip": "Puoi selezionare un'opzione valida per popolare tutte le celle vuote. Puoi anche lasciare questo spazio vuoto."
+      },
+      "progressPill_one": "{{mappedCount}} di {{totalCount}} valore mappato",
+      "progressPill_other": "{{mappedCount}} di {{totalCount}} valori mappati",
+      "progressPill_zero": "{{mappedCount}} di {{totalCount}} valori mappati",
+      "progressPillAllMapped_one": "{{totalCount}} valori mappati",
+      "progressPillAllMapped_other": "{{totalCount}} valore mappato",
+      "progressPillAllMapped_zero": "{{totalCount}} valore mappato",
+      "subheading": "Questi campi hanno valori che devono essere mappati su una lista di opzioni valide.",
+      "title": "Mappa i campi"
+    },
+    "mapFields": {
+      "destinationFields": {
+        "addNewField": {
+          "description": "Aggiungi questo campo al tuo foglio",
+          "label": "Aggiungi come nuovo campo"
+        },
+        "dropdownOptionLabels": {
+          "new": "Aggiungi nuovo",
+          "unused": "Non utilizzato",
+          "used": "Usato"
+        },
+        "heading": "Campi di destinazione",
+        "progressPill": {
+          "missingRequiredFields": " - {{missingFieldsCount}} mancanti",
+          "text": "{{totalDestinationsMapped}} di {{totalDestinationFields}}",
+          "tooltip": {
+            "greaterThanTenMissing": "e {{missingFieldsAfterTen}} altri...",
+            "missingRequiredFields": "Campi obbligatori mancanti:",
+            "progress": "{{mappedDestinationFields}} dei {{totalDestinationFields}} campi disponibili nel foglio di destinazione sono stati mappati verso"
+          }
+        }
+      },
+      "incomingFields": {
+        "heading": "Campi in entrata",
+        "progressPill": {
+          "text": "{{totalIncomingMapped}} di {{totalIncomingFields}}",
+          "tooltip": "Hai mappato {{mappedIncomingFields}} di {{totalIncomingFields}} campi del gruppo di dati verso il foglio di destinazione"
+        }
+      },
+      "subheading": "Revisiona e conferma ciascuna scelta di mappatura",
+      "title": "Mappa i campi"
+    },
+    "sheetSelection": {
+      "cannotLoadFile": "Impossibile caricare il file: {{fileName}}",
+      "columns_one": "1 colonna",
+      "columns_other": "{{count}} colonne",
+      "columns_zero": "{{count}} colonne",
+      "errors_one": "1 errore",
+      "errors_other": "{{count}} errore",
+      "errors_zero": "{{count}} errori",
+      "importFromHeading": "Seleziona un foglio da cui caricare i dati",
+      "importToHeading": "Seleziona un foglio verso cui importare questi dati",
+      "lastUpdated": "Ultimo aggiornamento il {{date}}",
+      "lastUpdatedDateFormat": "aaaa-mm-gg",
+      "records_one": "1 voce",
+      "records_other": "{{count}} voci",
+      "records_zero": "{{count}} voci",
+      "sheetHasNoData": "Nessun dato",
+      "sheets_one": "1 foglio",
+      "sheets_other": "{{count}} fogli",
+      "sheets_zero": "{{count}} fogli",
+      "title": "Importa verso..."
+    }
+  },
+  "sheet": {
+    "columnManagement": {
+      "errorColumnTooltip": "Filtrando tramite questo valore mostrerà di nuovo questa colonna",
+      "noFields": "nessun campo",
+      "noMatches": "nessuna corrispondenza",
+      "placeholder_one": "Cerca o seleziona da un campo...",
+      "placeholder_other": "Cerca o seleziona da {{count}} campi...",
+      "placeholder_zero": "Cerca o seleziona da {{count}} campi...",
+      "toast": {
+        "action": "Mostrare di nuovo?",
+        "message_one": "1 colonna contenenti errori è nascosta",
+        "message_other": "{{count}} colonne contenenti errori sono nascoste",
+        "message_zero": "{{count}} colonne contenenti errori sono nascoste"
+      },
+      "tooltip_one": "1 colonna nascosta",
+      "tooltip_other": "{{count}} colonne nascoste",
+      "tooltip_zero": "Gestisci colonne",
+      "unhideToast": {
+        "message_one": "1 colonna è stata mostrata di nuovo da questa richiesta",
+        "message_other": "{{count}} colonne sono state scoperte da questa query",
+        "message_zero": "{{count}} colonne sono state mostrate di nuovo da questa richiesta"
+      }
+    },
+    "embedded": {
+      "maxOpenReached": "Non è possibile aprire più di {{maxOpenSheets}} fogli incorporati contemporaneamente. Chiudere un foglio incorporato per aprire questo.",
+      "untitled": "Foglio senza titolo"
+    },
+    "emptyView": {
+      "defaultError": {
+        "description": "Questo foglio sembra essere vuoto.",
+        "heading": "Niente da vedere ancora!"
+      },
+      "heading": "Iniziamo",
+      "manualEntry": "Inserisci manualmente i dati",
+      "noColumns": {
+        "description": "Hai nascosto dalla visuale tutte le colonne",
+        "heading": "Niente da vedere!"
+      },
+      "noSheetError": {
+        "description": "Questo foglio non sembra esistere.",
+        "heading": "Foglio non trovato"
+      },
+      "readOnly": {
+        "description": "I fogli che non accettano nuove righe e/o modifiche ricevono comunemente dati popolati dinamicamente. Non c'è azione che puoi intraprendere in questo momento.",
+        "heading": "In attesa di dati"
+      },
+      "sheetLocked": {
+        "description": "Se pensi che questo sia un errore, contatta il supporto.",
+        "heading": "L'aggiunta di record è attualmente disabilitata"
+      },
+      "uploadFile": "Trascina e rilascia o carica un file per iniziare"
+    },
+    "errors": {
+      "loading": "Impossibile recuperare la cartella di lavoro.",
+      "noSheets": {
+        "description": "Una cartella di lavoro deve contenere almeno un foglio. Non ne è stato trovato nessuno.",
+        "title": "La cartella di lavoro non contiene fogli"
+      },
+      "notFound": "Cartella di lavoro non trovata"
+    },
+    "info": {
+      "copiedPopover": "Copiato negli appunti",
+      "copyButton": "Clicca per copiare!"
+    },
+    "popovers": {
+      "copyCell_one": "{{count}} casella copiata",
+      "copyCell_other": "{{count}} caselle copiate",
+      "copyCell_zero": "{{count}} caselle copiate",
+      "copyRecord_one": "{{count}} record copiato",
+      "copyRecord_other": "{{count}} record copiati",
+      "copyRecord_zero": "{{count}} record copiati",
+      "errors": {
+        "cellUpdateFailed": "Qualcosa è andato storto. Ricarica la pagina e riprova. Se il problema persiste, contatta l'assistenza",
+        "invalidFFQL": "Controlla la tua domanda",
+        "invalidFFQLSearch": "Dichiarazione FFQL non valida",
+        "learnMore": "Scopri di più",
+        "recordsLoadFailed": "Impossibile caricare i registri"
+      }
+    },
+    "table": {
+      "cells": {
+        "enum": {
+          "loading": "Caricamento delle opzioni...",
+          "loadingError": "Impossibile caricare le opzioni",
+          "noMatchesFound": "Non sono state trovate corrispondenze",
+          "placeholder": "Digita qui...",
+          "seeMore": "Cerca per vedere più opzioni"
+        },
+        "messages": {
+          "autogen": "✨ Generato automaticamente",
+          "reference": "Il valore non esiste nella tabella di riferimento",
+          "req": "{{field}} è richiesto",
+          "transformed": "🪄️ Trasformato da {{originalValue}}",
+          "unique": "Il valore non è unico"
+        }
+      },
+      "contextMenu": {
+        "filterByValue": {
+          "label": "Filtra per valore",
+          "moreOptions": "Sono mostrate le prime {{pageSize}} opzioni. Cerca per vederne di più.",
+          "noData": "nessun dato",
+          "placeholder": "Cerca o seleziona valori..."
+        },
+        "findAndReplace": {
+          "findAndReplaceValues": "Trova e sostituisci",
+          "modal": {
+            "cancelButton": "Annulla",
+            "descriptionExactOnly": "Sostituisci in blocco qualsiasi testo in questa colonna con un valore valido. Vengono visualizzate solo le corrispondenze esatte",
+            "descriptionPartialAndExact": "Sostituisci in blocco qualsiasi testo in questa colonna. Per questi dati vengono visualizzate sia le corrispondenze parziali che quelle esatte",
+            "errors": {
+              "findError": "Si è verificato un errore durante la ricerca dei valori",
+              "generalError": "Si è verificato un errore. Riprova",
+              "replaceError": "Si è verificato un errore durante la sostituzione dei valori"
+            },
+            "exactMatchesOnly": "Vengono visualizzate solo le corrispondenze esatte",
+            "finding": "Ricerca di tutte le occorrenze",
+            "heading": "Trova e sostituisci in {{columnName}}",
+            "isFiltered": "Questo insieme di dati è stato filtrato. Il comando Trova e sostituisci verrà eseguito solo sui record filtrati.",
+            "replaceButton": "Sostituisci tutto",
+            "replaceEmpty": {
+              "description": {
+                "addValues": "Ciò compilerà tutte le celle vuote in {{columnName}}",
+                "addValuesToAll": "Ci sono tutte le celle vuote in {{columnName}}, puoi compilarle in blocco con un valore selezionato",
+                "addValuesToCount_one": "C'è {{formattedCount}} cella vuota in {{columnName}}, puoi compilarla in blocco con un valore selezionato",
+                "addValuesToCount_other": "Ci sono {{formattedCount}} celle vuote in {{columnName}}, puoi compilarle in blocco con un valore selezionato",
+                "addValuesToCount_zero": "Ci sono {{formattedCount}} celle vuote in {{columnName}}, puoi compilarle in blocco con un valore selezionato",
+                "noEmptyValues": "Non sono state trovate celle vuote in questo campo!"
+              },
+              "heading": {
+                "addValues": "Aggiungi un valore alle celle vuote in {{columnName}}",
+                "addValuesToAll": "Aggiungi un valore a tutte le celle vuote in {{columnName}}",
+                "addValuesToCount_one": "Aggiungi un valore a {{formattedCount}} cella vuota in {{columnName}}",
+                "addValuesToCount_other": "Aggiungi un valore a {{formattedCount}} celle vuote in {{columnName}}",
+                "addValuesToCount_zero": "Aggiungi un valore a {{formattedCount}} celle vuote in {{columnName}}",
+                "noEmptyValues": "Non sono stati trovati valori vuoti"
+              }
+            },
+            "replaceEnum": {
+              "moreOptions": "Visualizzazione delle prime 100 opzioni. Ricerca per vedere di più.",
+              "noMatchesFound": "Non sono state trovate corrispondenze",
+              "replaceWith": "Sostituisci con..."
+            },
+            "replaceValue": {
+              "leavingBlank": "Se lasci vuoto questo campo, verranno eliminati i valori selezionati",
+              "noMatchesFound": "Non sono stati trovati valori",
+              "replaceWith": "Sostituisci con..."
+            },
+            "replacing": "Sostituzione dei valori",
+            "runOnAllRecords": "Esegui su tutti i record",
+            "searchForEmpty": "Se lasci vuoto questo campo, verranno ricercati i valori vuoti",
+            "searchForText": "Ricerca di testo...",
+            "searchResultsCount_one": "{{count}} corrispondenza",
+            "searchResultsCount_other": "{{count}} corrispondenze",
+            "searchResultsCount_zero": "{{count}} corrispondenze"
+          },
+          "replaceEmptyValues": "Sostituisci i valori vuoti"
+        },
+        "pin": {
+          "apply": "Blocca la colonna",
+          "remove": "Rimuovi il blocco",
+          "tooltip": {
+            "maxPinned": "Puoi bloccare massimo tre colonne; sbloccane una per bloccare questa",
+            "pin": "Blocca questa colonna a sinistra della tabella",
+            "unpin": "Fai clic per sbloccare questa colonna"
+          }
+        },
+        "searchInField": {
+          "modal": {
+            "cancelButton": "Annulla",
+            "placeholder": "Ricerca...",
+            "searchButton": "Ricerca",
+            "searchWithin": "Ricerca all'interno"
+          },
+          "searchInThisField": "Ricerca in questo campo"
+        },
+        "sort": {
+          "ascending": {
+            "apply": "Ordina dalla A alla Z",
+            "remove": "Rimuovi l'ordinamento dalla A alla Z"
+          },
+          "descending": {
+            "apply": "Ordina dalla Z alla A",
+            "remove": "Rimuovi l'ordinamento dalla Z alla A"
+          },
+          "tooltip": {
+            "notSorted": "Fai clic per ordinare dalla A alla Z",
+            "sortedAsc": "Ordinati dalla A alla Z",
+            "sortedDes": "Ordinati dalla Z alla A"
+          }
+        }
+      },
+      "errors": {
+        "description": "La tabella ha problemi a visualizzare questi dati. Consulta la console per i dettagli dell'errore.",
+        "title": "Qualcosa è andato storto"
+      },
+      "indexRow": {
+        "tooltip": {
+          "createRow": "Aggiungi i dati per creare questa riga",
+          "noData": "Non ci sono righe disponibili da selezionare. Puoi selezionare solo le righe contenenti dati.",
+          "rowNumber": "Riga {{number}}"
+        }
+      },
+      "maximumMessage": {
+        "plural": "...e {{hiddenRows}} altre righe. Le visualizzazioni tabella supportano solo fino a 500.000 record alla volta a causa delle limitazioni del browser. La ricerca, l'ordinamento, i filtri e le azioni in blocco continueranno a funzionare su tutte le righe nascoste alla vista.",
+        "singular": "...e un'altra riga. Le visualizzazioni tabella supportano solo fino a 500.000 record alla volta a causa delle limitazioni del browser. La ricerca, l'ordinamento, i filtri e le azioni in blocco continueranno a funzionare su tutte le righe nascoste alla vista."
+      },
+      "modals": {
+        "copyAlert": {
+          "cancelButton": "Annulla",
+          "description": "Abbiamo notato che stai tentando di selezionare più di 100 record. Limitiamo la copia a 100 record per mantenere l'integrità dei tuoi dati.",
+          "download": "Vuoi scaricare questo foglio in formato .csv?",
+          "downloadButton": "Scarica",
+          "heading": "Vuoi scaricare questo file?"
+        },
+        "deleteAlert": {
+          "description": "L'eliminazione di oltre 100 voci esistenti non è attualmente supportata. L'abbiamo limitata per offrire un'esperienza migliore durante la nostra <1>modifica intelligente</1> dei vostri dati.",
+          "dismissButton": "Chiudi",
+          "heading": "Hai raggiunto il limite di eliminazione!",
+          "tooltip": "Rimuovi voci vuote, duplicati, eccetera"
+        },
+        "pasteAlert": {
+          "description": "Copiare oltre 100 voci esistenti non è attualmente supportato. Abbiamo limitato la funzione per offrire un'esperienza migliore durante la nostra <1>modifica intelligente</1> dei vostri dati.",
+          "dismissButton": "Chiudi",
+          "heading": "Hai raggiunto il limite di incolla!",
+          "tooltip": "Rimuovi voci vuote, duplicati, eccetera"
+        }
+      }
+    },
+    "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "Azioni",
+        "placeholder": "Cerca o seleziona..."
+      },
+      "buttons": {
+        "delete": {
+          "modal": {
+            "cancelButton": "Annulla",
+            "confirmButton": "Cancella i record",
+            "description": {
+              "infix": "selezionato",
+              "infixType": {
+                "invalid": "non valido",
+                "valid": "valido"
+              },
+              "prefix": "Vuoi eliminare il",
+              "suffix_one": "record?",
+              "suffix_other": "records?",
+              "suffix_zero": "record?"
+            },
+            "errorMessage": "Impossibile cancellare i record. Si prega di riprovare o modificare la propria selezione.",
+            "heading_one": "Elimina il record",
+            "heading_other": "Elimina i record",
+            "heading_zero": "Elimina i record",
+            "inProgress": "Cancellazione record..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} record cancellato",
+            "successMessage_other": "{{count}} record cancellati",
+            "successMessage_zero": "{{count}} record cancellati",
+            "successMessageNoCount": "Record cancellati"
+          },
+          "tooltip": {
+            "active": "Elimina le voci selezionate",
+            "disabled": {
+              "deleteDisabled": "L'eliminazione delle voci è disabilitata su questo foglio.",
+              "noRecordsSelected": "Seleziona almeno una voce per eliminarla"
+            }
+          }
+        },
+        "download": {
+          "modal": {
+            "cancelButton": "Annulla",
+            "confirmButton": "Scarica i record",
+            "description": {
+              "infix": "selezionato",
+              "infixType": {
+                "invalid": "non valido",
+                "valid": "valido"
+              },
+              "prefix": "Vorresti scaricare i",
+              "suffix_one": "record?",
+              "suffix_other": "record?",
+              "suffix_zero": "record?"
+            },
+            "errorMessage": "Impossibile scaricare i record. Si prega di riprovare o modificare la propria selezione.",
+            "heading_one": "Scarica i record",
+            "heading_other": "Scarica i record",
+            "heading_zero": "Scarica i record",
+            "inProgress": "Scaricamento record..."
+          },
+          "tooltip": {
+            "active": {
+              "invalidFilterApplied": "Scarica tutte le voci non valide",
+              "noRecordsSelected": "Scarica questo foglio",
+              "recordsSelected": "Scarica le voci selezionate",
+              "validFilterApplied": "Scarica tutte le voci valide"
+            },
+            "disabled": "Nessuna voce da scaricare"
+          }
+        }
+      },
+      "customActionsDropdown": {
+        "disabledTooltip": {
+          "requireAllValid": "Quest'azione richiede che tutte le righe selezionate siano valide",
+          "requireSelection": "Seleziona una o più voci per utilizzare quest'azione"
+        }
+      },
+      "dropdown": {
+        "delete": "Elimina",
+        "download": "Scarica"
+      },
+      "filterByError": {
+        "buttonText": "Filtra tramite errore",
+        "dropdownPlaceholder": "Cerca o seleziona..."
+      },
+      "filters": {
+        "all": "Tutte",
+        "invalid": "Non valide",
+        "tooltip": {
+          "filter": {
+            "invalid": "non valido",
+            "total": "totale",
+            "valid": "valido"
+          },
+          "filtered": "Questo gruppo di dati è stato filtrato per mostrare {{filteredCount}} delle {{countString}} voci {{filter}}.",
+          "filteredByError": "Questo gruppo di dati è stato filtrato tramite il filtro \"errore\" per mostrare {{filteredCount}} delle {{countString}} voci {{filter}}.",
+          "filteredByFFQL": {
+            "branded": "Questo gruppo di dati è stato filtrato tramite Linguaggio d'interrogazione per Flatfile per mostrare {{filteredCount}} delle {{countString}} voci {{filter}}.",
+            "whitelabeled": "Questo gruppo di dati è stato filtrato per mostrare {{filteredCount}} delle {{countString}} voci {{filter}}."
+          },
+          "filteredBySearch": "Questo gruppo di dati è stato filtrato tramite la ricerca per mostrare {{filteredCount}} delle {{countString}} voci {{filter}}.",
+          "filteredBySearchAndError": "Questo gruppo di dati è stato filtrato tramite ricerca e il filtro \"errore\" per mostrare {{filteredCount}} delle {{countString}} voci {{filter}}.",
+          "inactiveCount": "{{countString}} voci {{filter}}, {{filteredCount}} filtrate"
+        },
+        "valid": "Valide"
+      },
+      "moreActions": {
+        "buttonText": "Più azioni",
+        "placeholder": "Cerca o seleziona..."
+      },
+      "searchBar": {
+        "expandTooltip": "Apri la ricerca e l'assistente IA",
+        "placeholder": "Ricerca...",
+        "tooltip": "Premi invio per cercare"
+      }
+    }
+  },
+  "sidebar": {
+    "addConnection": "Aggiungi connessione",
+    "checklist": "Lista dei dati",
+    "connections": {
+      "tooltips": {
+        "connectionError": "C'è un problema nella verifica dei metadati delle connessioni di questo workbook",
+        "connectionFresh": "Connesso a {{source}} tramite {{service}}",
+        "connectionStale": "Ultima sincronizzazione con {{source}} più di 24 ore fa"
+      }
+    },
+    "emptyWorkbook": "Foglio di lavoro vuoto",
+    "files": "File",
+    "readOnlyIconTooltip": "Questo foglio è di sola lettura"
+  },
+  "snapshot": {
+    "accept": {
+      "cancelButton": "Annulla",
+      "cancelError": "Le modifiche non hanno potuto essere annullate a causa di un errore imprevisto.",
+      "cancelSuccess": "Le modifiche al tuo foglio sono state annullate con successo.",
+      "empty": {
+        "createdSince": "Questo snapshot non ha record rimossi.",
+        "deletedSince": "Questo snapshot non ha record aggiunti.",
+        "title": "Niente da vedere!",
+        "updatedSince": "Questo snapshot non ha record modificati."
+      },
+      "errorMessage": "Non è stato possibile applicare le modifiche dello snapshot a causa di un errore imprevisto.",
+      "filters": {
+        "createdSince": "Rimosso",
+        "deletedSince": "Aggiunto",
+        "updatedSince": "Modificato"
+      },
+      "header": {
+        "title": "Modifiche effettuate in",
+        "titleWithMeta": "Modifiche effettuate in <1>{{sheet}}</1> tramite <3>{{action}}</3>"
+      },
+      "message": "Accettando le modifiche, tutti i nuovi valori verranno uniti al tuo foglio {{name}}.",
+      "submitButton": "Accetta modifiche",
+      "submitError": "Non è stato possibile applicare le modifiche dello snapshot a causa di un errore imprevisto.",
+      "submitSuccess": "Le modifiche al tuo foglio sono state applicate con successo.",
+      "successMessage": "Le modifiche sono state applicate al tuo foglio.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} celle nel campo {{name}}",
+            "last": " e {{cells}} celle nel campo {{name}}",
+            "middle": ", {{cells}} celle nel campo {{name}}"
+          },
+          "singular": {
+            "first": "1 cella nel campo {{name}}",
+            "last": " e 1 cella nel campo {{name}}",
+            "middle": ", 1 cella nel campo {{name}}"
+          },
+          "start": " I dati sono stati modificati in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Dati modificati in {{records}} record attraverso {{fields}} campi.",
+            "noFields": "Dati modificati in {{records}} record.",
+            "oneField": "Dati modificati in {{records}} record attraverso 1 campo."
+          },
+          "singular": {
+            "multipleFields": "Dati modificati in 1 record attraverso {{fields}} campi.",
+            "noFields": "Dati modificati in 1 record.",
+            "oneField": "Dati modificati in 1 record attraverso 1 campo."
+          }
+        }
+      },
+      "title": "Modifiche effettuate in"
+    },
+    "cells": {
+      "messages": {
+        "accept": "Se accetti le modifiche, tutti i nuovi valori verranno uniti al tuo dataset.",
+        "current": "Valore attuale: {{value}}",
+        "empty": "nessun dato",
+        "restore": "Il tuo gruppo di dati sarà ripristinato alla versione contenuta in questa istantanea.",
+        "snapshot": "Nuovo valore: {{value}}"
+      }
+    },
+    "restore": {
+      "cancelButton": "Annulla",
+      "empty": {
+        "createdSince": "Questa immagine non ha record che verranno rimossi.",
+        "deletedSince": "Questa immagine non ha record che verranno aggiunti.",
+        "title": "Niente da vedere!",
+        "updatedSince": "Questa immagine non ha record che verranno modificati."
+      },
+      "errorMessage": "Il snapshot non ha potuto essere ripristinato a causa di un errore imprevisto.",
+      "filters": {
+        "createdSince": "Rimuovi",
+        "deletedSince": "Aggiungi",
+        "updatedSince": "Modifica"
+      },
+      "header": {
+        "title": "Modifiche da applicare a"
+      },
+      "message": "Il tuo foglio {{name}} verrà ripristinato alla versione in questa immagine.",
+      "submitButton": "Ripristina",
+      "submitError": "Il snapshot non ha potuto essere ripristinato a causa di un errore imprevisto.",
+      "submitSuccess": "Il tuo foglio è stato ripristinato a una versione precedente.",
+      "successMessage": "Il tuo foglio è stato ripristinato a una versione precedente.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} celle nel campo {{name}}",
+            "last": " e {{cells}} celle nel campo {{name}}",
+            "middle": ", {{cells}} celle nel campo {{name}}"
+          },
+          "singular": {
+            "first": "1 cella nel campo {{name}}",
+            "last": " e 1 cella nel campo {{name}}",
+            "middle": ", 1 cella nel campo {{name}}"
+          },
+          "start": " I dati verranno modificati in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "I dati cambieranno nei record {{records}} all'interno dei campi {{fields}}.",
+            "noFields": "I dati cambieranno nei record {{records}}.",
+            "oneField": "I dati cambieranno nei record {{records}} all'interno di 1 campo."
+          },
+          "singular": {
+            "multipleFields": "I dati cambieranno in 1 record all'interno dei campi {{fields}}.",
+            "noFields": "I dati cambieranno in 1 record.",
+            "oneField": "I dati cambieranno in 1 record all'interno di un campo."
+          }
+        }
+      },
+      "title": "Modifiche da applicare a"
+    },
+    "tooltips": {
+      "sheet": "{{sheet}} all'interno di {{workbook}}"
+    }
+  },
+  "spaceLoadingMessage": "Preparando lo spazio...",
+  "utils": {
+    "buttons": {
+      "clearAll": "Elimina tutto",
+      "selectAll": "Seleziona tutto"
+    }
+  },
+  "versionHistory": {
+    "modals": {
+      "default": {
+        "description": "Si è verificato un errore imprevisto: non è stata applicata alcuna azione corrispondente"
+      },
+      "delete": {
+        "confirm": {
+          "closeButton": "Chiudi",
+          "description": "Sei sicuro di voler eliminare la versione selezionata?",
+          "heading": "Elimina versione",
+          "proceedButton": "Elimina"
+        },
+        "error": {
+          "closeButton": "Chiudi",
+          "description": "Impossibile eliminare la versione selezionata a causa di un errore imprevisto; se il problema persiste, contatta l'assistenza",
+          "heading": "Impossibile eliminare versione",
+          "retryButton": "Prova di nuovo"
+        },
+        "success": {
+          "closeButton": "Chiudi",
+          "description": "La versione selezionata è stata eliminata.",
+          "heading": "Versione eliminata"
+        }
+      }
+    },
+    "panel": {
+      "empty": "Le versioni, una volta generate, verranno visualizzate qui. Le versioni vengono generate automaticamente, spesso quando si verifica una trasformazione di massa dei dati.",
+      "generatedSnapshot": "Istantanea generata prima dell'applicazione di AI Transform per il prompt: ",
+      "heading": "Cronologia versioni",
+      "thisMonth": "Questo mese",
+      "versionRestored": "Versione creata prima del ripristino di una versione precedente"
+    },
+    "pill": {
+      "hoverText": "Cronologia versioni"
+    }
+  }
 }
