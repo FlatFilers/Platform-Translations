@@ -1,0 +1,6 @@
+{
+  "myDocument": {
+    "title": "あなたのローカライゼーションスペース！",
+    "body": "# Flatfileスペースの言語とテキストをカスタマイズしましょう\n\n---\n\nFlatfileのローカライゼーションサポートを使って、簡単にスペースの翻訳、カスタマイズ、テキストの上書きを有効にします。\n\n## ここでできること\n\nさまざまな言語を試して、選択した言語に基づいてマークダウンページが動的に更新されるのを見てください!! 🌍\n\nURLの最後に`?lng=en`（英語用）、`?lng=es`（スペイン語用）を追加してEnterを押してください。サポートされている言語とそのコードの完全なリストは[こちら](https://flatfile.com/docs/guides/localization#available-languages)をご覧ください\n\n私たちの[翻訳はこちら](https://github.com/FlatFilers/Platform-Translations/blob/demo-structure/locales/en/translation.json)でチェックできます。このスペースのソースコードは[Typescript](https://github.com/FlatFilers/flatfile-docs-kitchen-sink/blob/main/typescript/localization/index.ts)と[Javascript](https://github.com/FlatFilers/flatfile-docs-kitchen-sink/blob/main/javascript/localization/index.js)で確認できます。\n\n## このスペースの作成\n\nこのスペースは、ローカライゼーションオプションを用いて設定されています。\n\nそれを作成するために使用されたコードを見てみましょう：\n\n```jsx\nimport api from \"@flatfile/api\";\nimport { Client, FlatfileEvent, FlatfileListener } from \"@flatfile/listener\";\n\nexport default function flatfileEventListener(listener: Client) {...}\n```\n\n## その他のドキュメント\n\nスペーステキストのカスタマイズについてもっと読む [ここ](https://flatfile.com/docs/guides/localization).\n\nFlatfileについてもっと学ぶために[他のデモを試してみてください](https://platform.flatfile.com/getting-started)\n"
+  }
+}
