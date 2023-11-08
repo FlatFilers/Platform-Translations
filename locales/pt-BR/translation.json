@@ -1,56 +1,6 @@
 {
-  "checklist": {
-    "dropdowns": {
-      "headings": {
-        "sheet": "Planilha Aconchego",
-        "workbook": "Livro de Brincadeiras para Cãezinhos"
-      }
-    },
-    "errors": {
-      "cannotLoadChecklist": "Não é possível carregar a lista de preparação para filhotes",
-      "cannotLoadSheet": "A planilha está escondida (não pode ser encontrada)",
-      "noWorkbooksDescription": "Nossa lista de filhotes precisa de pelo menos um livro de brincadeiras para ficar ativa. Por favor, peça ao seu desenvolvedor para buscar as configurações corretas. Se esta cauda continuar abanando, entre em contato com o suporte.",
-      "noWorkbooksTitle": "Livro de Brincadeiras Ausente!"
-    },
-    "table": {
-      "dataTypes": {
-        "boolean": "Booluf",
-        "date": "Data de Brincadeira",
-        "enum": "Enumeração de Ossos",
-        "number": "Contagem de Patas",
-        "reference": "Referência ao Veterinário",
-        "string": "Cordão de Salsichas",
-        "unknown": "Cão Mistério"
-      },
-      "fieldTagComputed": "Cálculos de Cãozinho",
-      "fieldTagRequired": "Necessário com Patinhas",
-      "fieldTagUnique": "Único",
-      "headings": {
-        "dataType": "Tipo de Raça",
-        "description": "Perfil de Cachorro",
-        "field": "Campo Peludo"
-      }
-    },
-    "title": "Lista de Pré-requisitos para Filhotes"
-  },
-  "sidebar": {
-    "checklist": "Lista de Pré-requisitos para Filhotes",
-    "emptyWorkbook": "Local de Escavação Vazio",
-    "files": "Brinquedos de Morder",
-    "readOnlyIconTooltip": "Este Marcador de Cheiro é somente leitura"
-  },
   "myDocument": {
-    "title": "Seu primeiro Espaço para Cachorros!",
-    "body": "# Personalize o idioma e o texto em seus Espaços Flatfile\n\n---\n\nHabilite traduções, personalizações e substituições de texto para seus Espaços facilmente com o suporte de localização da Flatfile.\n\n## Coisas que você pode fazer aqui\n\nExperimente Diferentes Idiomas para um Pouco de Diversão com Cachorros! 🌍\n\nNão seria incrível se os cachorros pudessem falar todos os idiomas? Bem, aqui em nosso Playground de Localização para Cachorros, você pode experimentar exatamente isso!\n\n🐕 Experimente:\n\n- **Inglês**: Basta adicionar `?lng=en` ao URL e recarregar a página para uma experiência adequada ao Pointer Inglês!\n- **Alemão**: Acrescente `?lng=de` ao final do URL e pressione Enter para uma experiência alemã incrível.\n- **Francês**: Use `?lng=fr` para uma encantadora tradução francesa que até os poodles franceses aprovariam!\n- **Espanhol**: Quer latir em espanhol? Basta adicionar `?lng=es` ao URL.\n- **Português Brasileiro**: Adicione `?lng=pt-BR` ao final do URL para ver o mundo através dos olhos do Terrier Brasileiro. /n- **indonésio**: Pronto para trotar na Indonésia? Anexe `?lng=id` à coleira do seu URL e embarque em uma aventura canina indonésia!\n\nNão estamos ensinando cachorros a traduzir, mas nosso arquivo mágico de tradução.json faz o truque. A melhor parte? Nossa página de Markdown se atualiza dinamicamente com base no idioma selecionado! Nenhuma codificação rígida necessária. 🪄\n\nEntão, enquanto você navega pelo nosso Playground de Localização para Cachorros, observe como as palavras se transformam no idioma que você escolhe. 🌟\n\nVá em frente, experimente! Explore o mundo dos cachorros em diferentes idiomas e veja como a localização torna a web um lugar incrível para todos! 🌐\n\nConfira nossas [traduções personalizadas aqui](https://github.com/FlatFilers/Platform-Translations/blob/demo-structure/locales/en/translation.json). Você também pode conferir o código-fonte deste espaço em [TypeScript](https://github.com/FlatFilers/flatfile-docs-kitchen-sink/blob/main/typescript/localization/index.ts) e em [JavaScript](https://github.com/FlatFilers/flatfile-docs-kitchen-sink/blob/main/javascript/localization/index.js).\n\n## Criando este Espaço\n\nEste Espaço foi configurado com opções de localização.\n\nAqui está uma olhada no código que foi usado para criá-lo:\n\n```jsx\nimport api from \"@flatfile/api\";\nimport { Client, FlatfileEvent, FlatfileListener } from \"@flatfile/listener\";\n\nexport default function flatfileEventListener(listener: Client) {\n  listener.filter({ job: \"space:configure\" }, (configure: FlatfileListener) => {\n    configure.on(\n      \"job:ready\",\n      async ({ context: { spaceId, environmentId, jobId } }: FlatfileEvent) => {\n        try {\n          await api.jobs.ack(jobId, {\n            info: \"Job started.\",\n            progress: 10,\n          });\n\n          // Documents are using translation keys instead of hardcoding strings\n          const document = await api.documents.create(spaceId, {\n            title: \"myDocument.title\",\n            body: \"myDocument.body\",\n          });\n\n          // Setting the translation path for the space\n          await api.spaces.update(spaceId, {\n            metadata: {\n              sidebarConfig: {\n                defaultPage: {\n                  documentId: document.data.id,\n                },\n              },\n            },\n            translationsPath:\n              \"https://raw.githubusercontent.com/FlatFilers/Platform-Translations/kitchen-sink/locales/en/translation.json\",\n          });\n\n\n          await api.workbooks.create({\n            spaceId,\n            environmentId,\n            ...\n          });\n\n          await api.jobs.complete(jobId, {\n            outcome: {\n              message: \"Job completed.\",\n            },\n          });\n        } catch (error: any) {\n          console.error(\"Error: \", error.stack);\n\n          await api.jobs.fail(jobId, {\n            outcome: {\n              message: \"Job error.\",\n            },\n          });\n        }\n      }\n    );\n  });\n}\n```\n\n## Documentação Adicional\n\nSaiba mais sobre como personalizar o texto do seu Espaço [aqui](https://flatfile.com/docs/guides/localization).\n\n## Saiba mais sobre a Flatfile experimentando nossas [outras demonstrações](https://platform.flatfile.com/getting-started)\n"
-  },
-  "mySubmitAction": {
-    "label": "Enviar",
-    "description": "Concluiu a marcação de todas as árvores? Clique em enviar para enviar seus dados de cheirar",
-    "tooltip": "Enviar seus dados de cheirar",
-    "outcome": {
-      "heading": "Importação de Patinhas Incrível!",
-      "message": "Todos os dados de cheirar foram enviados! Agora você pode clicar no link abaixo.",
-      "urlLabel": "Voltar à casinha"
-    }
+    "title": "Seu Espaço de Localização!",
+    "body": "# Personalize a linguagem e o texto nos seus Espaços Flatfile\n\n---\n\nAtive traduções, customizações e sobreposições de texto para os seus Espaços facilmente com o apoio de localização do Flatfile.\n\n## Coisas que você pode fazer aqui\n\nExperimente diferentes idiomas e observe nossa página de markdown se atualizando dinamicamente baseada no idioma selecionado!! 🌍\n\nSó adicione `?lng=en` (para inglês), `?lng=es` (para espanhol) no final da URL e pressione enter. Veja a lista completa de idiomas suportados e seus códigos [aqui](https://flatfile.com/docs/guides/localization#available-languages)\n\nConfira as nossas [traduções aqui](https://github.com/FlatFilers/Platform-Translations/blob/demo-structure/locales/en/translation.json). Você também pode verificar o código-fonte para este espaço em [Typescript](https://github.com/FlatFilers/flatfile-docs-kitchen-sink/blob/main/typescript/localization/index.ts) e em [Javascript](https://github.com/FlatFilers/flatfile-docs-kitchen-sink/blob/main/javascript/localization/index.js).\n\n## Criando este Espaço\n\nEste Espaço foi configurado com opções de localização.\n\nAqui está um vislumbre do código que foi usado para criá-lo:\n\n```jsx\nimport api from \"@flatfile/api\";\nimport { Client, FlatfileEvent, FlatfileListener } from \"@flatfile/listener\";\n\nexport default function flatfileEventListener(listener: Client) { jsx\nimport api from \"@flatfile/api\";\nimport { Client, FlatfileEvent, FlatfileListener } from \"@flatfile/listener\";\n\nexport default function flatfileEventListener(listener: Client) {\n  listener.filter({ job: \"space:configure\" }, (configure: FlatfileListener) => {\n    configure.on(\n      \"job:ready\",\n      async ({ context: { spaceId, environmentId, jobId } }: FlatfileEvent) => {\n        try {\n          await api.jobs.ack(jobId, {\n            info: \"Job started.\",\n            progress: 10,\n          });\n\n          //Documents are using translation keys instead of hardcoding strings\n          const document = await api.documents.create(spaceId, {\n            title: \"myDocument.title\",\n            body: \"myDocument.body\",\n          });\n\n          //Setting the translation path for the space\n          await api.spaces.update(spaceId, {\n            metadata: {\n              sidebarConfig: {\n                defaultPage: {\n                  documentId: document.data.id,\n                },\n              },\n            },\n            translationsPath:\n              \"https://raw.githubusercontent.com/FlatFilers/Platform-Translations/demo-structure/locales/en/translation.json\",\n          });\n\n\n          await api.workbooks.create({\n            spaceId,\n            environmentId,\n            ...\n          });\n\n          await api.jobs.complete(jobId, {\n            outcome: {\n              message: \"Job completed.\",\n            },\n          });\n        } catch (error: any) {\n          console.error(\"Error: \", error.stack);\n\n          await api.jobs.fail(jobId, {\n            outcome: {\n              message: \"Job error.\",\n            },\n          });\n        }\n      }\n    );\n  });\n}\n}\n```\n\n## Documentação adicional\n\nLeia mais sobre como personalizar o texto do seu Espaço [aqui](https://flatfile.com/docs/guides/localization).\n\n## Saiba mais sobre o Flatfile experimentando [outras demonstrações](https://platform.flatfile.com/getting-started)\n"
   }
 }
