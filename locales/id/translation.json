@@ -896,7 +896,15 @@
     "buttons": {
       "clearAll": "Kosongkan Semua",
       "selectAll": "Pilih Semua"
-    }
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "Silakan gunakan perangkat dengan layar lebih besar untuk dapat mengakses semua fitur.  Kami tidak dapat menjamin bahwa semua fitur akan berfungsi seperti diharapkan pada ukuran layar ini.",
+        "button": "Lanjutkan saja",
+        "title": "Layar terlalu kecil"
+      }
+    },
+    "poweredByFlatfile": "Didukung oleh Flatfile"
   },
   "versionHistory": {
     "modals": {

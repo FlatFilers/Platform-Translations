@@ -921,7 +921,15 @@
     "buttons": {
       "clearAll": "Tümünü Temizle",
       "selectAll": "Tümünü Seç"
-    }
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "Tüm özelliklere erişebilmek için lütfen daha büyük ekranlı bir cihaz kullanın. Bu ekran boyutunda tüm özelliklerin beklendiği gibi çalışacağını garanti edemeyiz.",
+        "button": "Her halükarda devam et",
+        "title": "Ekran çok küçük"
+      }
+    },
+    "poweredByFlatfile": "Flatfile tarafından desteklenmektedir"
   },
   "versionHistory": {
     "modals": {

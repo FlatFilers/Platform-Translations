@@ -896,7 +896,15 @@
     "buttons": {
       "clearAll": "Xóa tất cả",
       "selectAll": "Chọn tất cả"
-    }
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "Vui lòng sử dụng thiết bị có màn hình lớn hơn để có thể truy cập tất cả các tính năng. Chúng tôi không thể đảm bảo rằng tất cả các tính năng sẽ hoạt động như mong đợi ở kích thước màn hình này.",
+        "button": "Vẫn tiếp tục",
+        "title": "Màn hình quá nhỏ"
+      }
+    },
+    "poweredByFlatfile": "Được Flatfile cung cấp"
   },
   "versionHistory": {
     "modals": {
