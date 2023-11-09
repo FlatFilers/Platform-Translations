@@ -921,7 +921,15 @@
     "buttons": {
       "clearAll": "Tout effacer",
       "selectAll": "Tout sélectionner"
-    }
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "Pour pouvoir accéder à toutes les fonctionnalités, veuillez utiliser un appareil avec un écran plus grand. Nous ne pouvons pas garantir que toutes les fonctionnalités marcheront comme prévu sur un écran de cette taille.",
+        "button": "Continuer quand même",
+        "title": "Écran trop petit"
+      }
+    },
+    "poweredByFlatfile": "Fonctionne avec Flatfile"
   },
   "versionHistory": {
     "modals": {

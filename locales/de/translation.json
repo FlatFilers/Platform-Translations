@@ -921,7 +921,15 @@
     "buttons": {
       "clearAll": "Alles löschen",
       "selectAll": "Alles auswählen"
-    }
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "Bitte verwenden Sie ein Gerät mit einem größeren Bildschirm, um alle Funktionen nutzen zu können. Wir können nicht garantieren, dass alle Funktionen bei dieser Bildschirmgröße wie erwartet funktionieren.",
+        "button": "Trotzdem fortfahren",
+        "title": "Bildschirm zu klein"
+      }
+    },
+    "poweredByFlatfile": "Unterstützt von Flatfile"
   },
   "versionHistory": {
     "modals": {

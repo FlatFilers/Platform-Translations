@@ -921,7 +921,15 @@
     "buttons": {
       "clearAll": "Borrar Todo.",
       "selectAll": "Seleccionar Todo."
-    }
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "Por favor, utiliza un dispositivo con una pantalla más grande para poder acceder a todas las funcionalidades. No podemos garantizar que todas las funcionalidades funcionen como se espera en este tamaño de pantalla.",
+        "button": "Continuar de todos modos",
+        "title": "Pantalla demasiado pequeña"
+      }
+    },
+    "poweredByFlatfile": "Desarrollado por Flatfile"
   },
   "versionHistory": {
     "modals": {

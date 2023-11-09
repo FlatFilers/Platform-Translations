@@ -921,7 +921,15 @@
     "buttons": {
       "clearAll": "Limpar tudo",
       "selectAll": "Selecionar tudo"
-    }
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "Use um dispositivo com um ecrã mais largo para ter acesso a todas as funcionalidades. Não podemos garantir que todas as funcionalidades funcionem como esperado num ecrã com este tamanho.",
+        "button": "Continuar na mesma",
+        "title": "Ecrã demasiado pequeno"
+      }
+    },
+    "poweredByFlatfile": "Distribuído por Flatfile"
   },
   "versionHistory": {
     "modals": {

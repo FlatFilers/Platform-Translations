@@ -921,7 +921,15 @@
     "buttons": {
       "clearAll": "Limpar Tudo",
       "selectAll": "Selecionar Tudo"
-    }
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "Use um dispositivo com uma tela maior para poder acessar todos os recursos. Não podemos garantir que todos os recursos funcionarão da maneira esperada nesse tamanho de tela.",
+        "button": "Continuar mesmo assim",
+        "title": "Tela muito pequena"
+      }
+    },
+    "poweredByFlatfile": "Com tecnologia da Flatfile"
   },
   "versionHistory": {
     "modals": {

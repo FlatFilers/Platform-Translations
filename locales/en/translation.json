@@ -900,9 +900,9 @@
     },
     "modals": {
       "sizeWarning": {
-        "title": "Screen too small",
         "body": "Please use a device with a larger screen to be able to access all features. We cannot guarantee that all features will work as expected at this screen size.",
-        "button": "Continue anyway"
+        "button": "Continue anyway",
+        "title": "Screen too small"
       }
     },
     "poweredByFlatfile": "Powered by Flatfile"

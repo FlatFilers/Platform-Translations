@@ -921,7 +921,15 @@
     "buttons": {
       "clearAll": "Elimina tutto",
       "selectAll": "Seleziona tutto"
-    }
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "Si prega di usare un dispositivo con uno schermo più grande per poter accedere a tutte le funzioni. Non è possibile garantire che tutte le funzioni vengano eseguite correttamente su uno schermo di queste dimensioni.",
+        "button": "Continua lo stesso",
+        "title": "Schermo troppo piccolo"
+      }
+    },
+    "poweredByFlatfile": "Offerto da Flatfile"
   },
   "versionHistory": {
     "modals": {
