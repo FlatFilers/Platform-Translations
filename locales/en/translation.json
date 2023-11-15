@@ -757,6 +757,11 @@
         "placeholder": "Search...",
         "tooltip": "Hit enter to search"
       }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "requireAllValid": "This action requires all rows in all sheets to be valid"
+      }
     }
   },
   "sidebar": {
