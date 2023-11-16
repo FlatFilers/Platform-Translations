@@ -781,6 +781,11 @@
         "placeholder": "Procurar...",
         "tooltip": "Aperte enter para procurar"
       }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "requireAllValid": "Esta ação exige que todas as linhas de todas as planilhas sejam válidas"
+      }
     }
   },
   "sidebar": {

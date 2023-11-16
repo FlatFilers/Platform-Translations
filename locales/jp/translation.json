@@ -756,6 +756,11 @@
         "placeholder": "検索...",
         "tooltip": "Enterキーを押して検索"
       }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "requireAllValid": "この操作では、すべてのシートのすべての行が有効である必要があります"
+      }
     }
   },
   "sidebar": {

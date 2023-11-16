@@ -781,6 +781,11 @@
         "placeholder": "Ricerca...",
         "tooltip": "Premi invio per cercare"
       }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "requireAllValid": "Questa azione richiede che tutte le righe in tutti i fogli siano valide"
+      }
     }
   },
   "sidebar": {

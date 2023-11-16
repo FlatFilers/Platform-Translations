@@ -756,6 +756,11 @@
         "placeholder": "검색...",
         "tooltip": "Enter 키를 눌러 검색"
       }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "requireAllValid": "이 작업을 수행하려면 모든 시트의 모든 행이 유효해야 합니다"
+      }
     }
   },
   "sidebar": {

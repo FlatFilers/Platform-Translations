@@ -781,6 +781,11 @@
         "placeholder": "Rechercher...",
         "tooltip": "Appuyez sur Entrée pour lancer la recherche"
       }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "requireAllValid": "Cette action requiert que toutes les lignes de tous les tableurs soient valides."
+      }
     }
   },
   "sidebar": {

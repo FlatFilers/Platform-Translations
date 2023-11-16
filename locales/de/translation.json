@@ -781,6 +781,11 @@
         "placeholder": "Suchen …",
         "tooltip": "Zum Suchen die Entertaste drücken"
       }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "requireAllValid": "Für diese Aktion müssen alle Zeilen in allen Blättern gültig sein"
+      }
     }
   },
   "sidebar": {

@@ -781,6 +781,11 @@
         "placeholder": "Ara...",
         "tooltip": "Aramak için enter tuşuna basın"
       }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "requireAllValid": "Bu eylem tüm sayfalardaki tüm satırların geçerli olmasını gerektiriyor."
+      }
     }
   },
   "sidebar": {

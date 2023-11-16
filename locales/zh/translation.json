@@ -756,6 +756,11 @@
         "placeholder": "搜索……",
         "tooltip": "按回车键搜索"
       }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "requireAllValid": "此操作要求所有工作表中的所有行都有效"
+      }
     }
   },
   "sidebar": {

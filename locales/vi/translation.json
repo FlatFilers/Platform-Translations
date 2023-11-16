@@ -756,6 +756,11 @@
         "placeholder": "Tìm kiếm...",
         "tooltip": "Nhấn enter để tìm kiếm"
       }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "requireAllValid": "Hành động này yêu cầu mọi hàng trong tất cả các trang tính phải hợp lệ"
+      }
     }
   },
   "sidebar": {

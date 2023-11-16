@@ -781,6 +781,11 @@
         "placeholder": "Buscando...",
         "tooltip": "Pulse enter para buscar."
       }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "requireAllValid": "Esta acción requiere que todas las filas de todas las hojas sean válidas"
+      }
     }
   },
   "sidebar": {
