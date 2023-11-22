@@ -260,6 +260,9 @@
         }
       }
     },
+    "errors": {
+      "timeout": "İş zaman aşımına uğradı."
+    },
     "panel": {
       "action": {
         "export": "İndir",

@@ -255,6 +255,9 @@
         }
       }
     },
+    "errors": {
+      "timeout": "Công việc đã hết hạn."
+    },
     "panel": {
       "action": {
         "export": "Tải xuống",

@@ -260,6 +260,9 @@
         }
       }
     },
+    "errors": {
+      "timeout": "El trabajo ha finalizado."
+    },
     "panel": {
       "action": {
         "export": "Descargar",

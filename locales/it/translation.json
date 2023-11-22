@@ -260,6 +260,9 @@
         }
       }
     },
+    "errors": {
+      "timeout": "lavoro scaduto."
+    },
     "panel": {
       "action": {
         "export": "Scarica",

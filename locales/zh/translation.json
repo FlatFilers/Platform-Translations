@@ -255,6 +255,9 @@
         }
       }
     },
+    "errors": {
+      "timeout": "工作已超时。"
+    },
     "panel": {
       "action": {
         "export": "下载",

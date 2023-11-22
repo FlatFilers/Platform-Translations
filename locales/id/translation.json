@@ -255,6 +255,9 @@
         }
       }
     },
+    "errors": {
+      "timeout": "Pekerjaan telah habis waktunya."
+    },
     "panel": {
       "action": {
         "export": "Unduh",

@@ -255,6 +255,9 @@
         }
       }
     },
+    "errors": {
+      "timeout": "Job timed out."
+    },
     "panel": {
       "action": {
         "export": "Download",
@@ -342,9 +345,6 @@
           "inProgress": "Mapping..."
         }
       }
-    },
-    "errors": {
-      "timeout": "Job timed out."
     }
   },
   "mapping": {

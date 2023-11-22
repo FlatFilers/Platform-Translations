@@ -260,6 +260,9 @@
         }
       }
     },
+    "errors": {
+      "timeout": "Auftrag abgebrochen."
+    },
     "panel": {
       "action": {
         "export": "Herunterladen",
