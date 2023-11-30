@@ -244,6 +244,7 @@
             "failed": "{{jobName}} on {{resourceName}} failed",
             "success": "{{jobName}} ran on {{resourceName}} successfully"
           },
+          "defaultRetryLabel": "Retry",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continue"
           }
