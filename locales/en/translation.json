@@ -345,6 +345,11 @@
           "inProgress": "Mapping..."
         }
       }
+    },
+    "download": {
+      "downloadStartedHeading": "Download started",
+      "downloadStartedMessage": "The download should have started automatically.",
+      "seeAllDownloads": "See all downloads"
     }
   },
   "mapping": {
