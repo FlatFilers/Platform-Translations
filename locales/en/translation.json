@@ -765,6 +765,10 @@
         "expandTooltip": "Open search and AI Assist",
         "placeholder": "Search...",
         "tooltip": "Hit enter to search"
+      },
+      "tooltips": {
+        "lockedUntilJobCompletes": "The toolbar will be available after the current job completes",
+        "lockedUntilHookCompletes": "The toolbar will be available after all hooks finish running"
       }
     },
     "workbookActions": {
