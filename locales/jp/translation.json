@@ -244,6 +244,7 @@
             "failed": "{{resourceName}} の {{jobName}} が失敗しました",
             "success": "{{jobName}} が {{resourceName}} で正常に実行されました"
           },
+          "defaultRetryLabel": "再試行",
           "permanentOutcomeModal": {
             "defaultContinueButton": "続行"
           }
@@ -254,6 +255,11 @@
           "loadingText": "読み込み中..."
         }
       }
+    },
+    "download": {
+      "downloadStartedHeading": "ダウンロードが開始されました",
+      "downloadStartedMessage": "ダウンロードは自動的に開始されているはずです。",
+      "seeAllDownloads": "すべてのダウンロードを表示する"
     },
     "errors": {
       "timeout": "ジョブがタイムアウトしました。"
@@ -758,6 +764,10 @@
         "expandTooltip": "オープン検索とAIアシスト",
         "placeholder": "検索...",
         "tooltip": "Enterキーを押して検索"
+      },
+      "tooltips": {
+        "lockedUntilHookCompletes": "ツールバーは、すべてのフックの実行が終了した後に利用可能になります",
+        "lockedUntilJobCompletes": "ツールバーは、現在のジョブが完了した後に利用可能になります"
       }
     },
     "workbookActions": {

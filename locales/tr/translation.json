@@ -249,6 +249,7 @@
             "failed": "{{jobName}}, {{resourceName}} üzerinde başarısız oldu",
             "success": "{{jobName}}, {{resourceName}} üzerinde başarıyla çalıştırıldı"
           },
+          "defaultRetryLabel": "Yeniden dene",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Devam et"
           }
@@ -259,6 +260,11 @@
           "loadingText": "Yükleniyor..."
         }
       }
+    },
+    "download": {
+      "downloadStartedHeading": "İndirme başladı",
+      "downloadStartedMessage": "İndirme otomatik olarak başlamış olmalıdır.",
+      "seeAllDownloads": "Tüm indirmeleri gör"
     },
     "errors": {
       "timeout": "İş zaman aşımına uğradı."
@@ -783,6 +789,10 @@
         "expandTooltip": "Aramayı ve Yapay Zeka Yardımını aç",
         "placeholder": "Ara...",
         "tooltip": "Aramak için enter tuşuna basın"
+      },
+      "tooltips": {
+        "lockedUntilHookCompletes": "Araç çubuğu tüm kancaların çalışması bittikten sonra kullanılabilir olacaktır",
+        "lockedUntilJobCompletes": "Araç çubuğu mevcut iş tamamlandıktan sonra kullanılabilir olacaktır"
       }
     },
     "workbookActions": {

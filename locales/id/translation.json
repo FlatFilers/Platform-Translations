@@ -244,6 +244,7 @@
             "failed": "{{jobName}} di {{resourceName}} gagal",
             "success": "{{jobName}} berhasil dijalankan di {{resourceName}}"
           },
+          "defaultRetryLabel": "Coba lagi",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Lanjutkan"
           }
@@ -254,6 +255,11 @@
           "loadingText": "Memuat..."
         }
       }
+    },
+    "download": {
+      "downloadStartedHeading": "Mulai mengunduh",
+      "downloadStartedMessage": "Pengunduhan seharusnya dimulai secara otomatis.",
+      "seeAllDownloads": "Lihat semua unduhan"
     },
     "errors": {
       "timeout": "Pekerjaan telah habis waktunya."
@@ -758,6 +764,10 @@
         "expandTooltip": "Buka pencarian dan Bantuan AI",
         "placeholder": "Cari...",
         "tooltip": "Tekan enter untuk mencari"
+      },
+      "tooltips": {
+        "lockedUntilHookCompletes": "Bilah alat akan tersedia setelah semua hook selesai berjalan",
+        "lockedUntilJobCompletes": "Bilah alat akan tersedia setelah tugas saat ini selesai"
       }
     },
     "workbookActions": {

@@ -244,6 +244,7 @@
             "failed": "{{jobName}} trên {{resourceName}} đã thất bại",
             "success": "{{jobName}} đã chạy theo {{resourceName}} thành công"
           },
+          "defaultRetryLabel": "Thử lại",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Tiếp tục"
           }
@@ -254,6 +255,11 @@
           "loadingText": "Đang tải..."
         }
       }
+    },
+    "download": {
+      "downloadStartedHeading": "Đã bắt đầu tải xuống",
+      "downloadStartedMessage": "Quá trình tải xuống thường tự động bắt đầu.",
+      "seeAllDownloads": "Xem mọi lượt tải xuống"
     },
     "errors": {
       "timeout": "Công việc đã hết hạn."
@@ -758,6 +764,10 @@
         "expandTooltip": "Mở tìm kiếm và Hỗ trợ AI",
         "placeholder": "Tìm kiếm...",
         "tooltip": "Nhấn enter để tìm kiếm"
+      },
+      "tooltips": {
+        "lockedUntilHookCompletes": "Thanh công cụ sẽ khả dụng sau khi tất cả các hook chạy xong",
+        "lockedUntilJobCompletes": "Thanh công cụ sẽ khả dụng sau khi công việc hiện tại hoàn thành"
       }
     },
     "workbookActions": {

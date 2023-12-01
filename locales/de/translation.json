@@ -249,6 +249,7 @@
             "failed": "{{jobName}} auf {{resourceName}} fehlgeschlagen",
             "success": "{{jobName}} lief erfolgreich auf {{resourceName}}"
           },
+          "defaultRetryLabel": "Wiederholen",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Weiter"
           }
@@ -259,6 +260,11 @@
           "loadingText": "Wird geladen"
         }
       }
+    },
+    "download": {
+      "downloadStartedHeading": "Download begonnen",
+      "downloadStartedMessage": "Der Download sollte automatisch begonnen haben.",
+      "seeAllDownloads": "Alle Downloads ansehen"
     },
     "errors": {
       "timeout": "Auftrag abgebrochen."
@@ -783,6 +789,10 @@
         "expandTooltip": "Suche und KI-Unterstützung öffnen",
         "placeholder": "Suchen …",
         "tooltip": "Zum Suchen die Entertaste drücken"
+      },
+      "tooltips": {
+        "lockedUntilHookCompletes": "Die Symbolleiste ist erst wieder verfügbar, wenn alle Hooks ausgeführt wurden.",
+        "lockedUntilJobCompletes": "Die Symbolleiste wird nach Abschluss des aktuellen Auftrags verfügbar sein"
       }
     },
     "workbookActions": {

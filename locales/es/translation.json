@@ -249,6 +249,7 @@
             "failed": "{{jobName}} fallido en {{resourceName}}",
             "success": "{{jobName}} se ha ejecutado en {{resourceName}} correctamente"
           },
+          "defaultRetryLabel": "Reintentar",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continuar"
           }
@@ -259,6 +260,11 @@
           "loadingText": "Cargando..."
         }
       }
+    },
+    "download": {
+      "downloadStartedHeading": "Descarga iniciada",
+      "downloadStartedMessage": "La descarga debería haber iniciado automáticamente.",
+      "seeAllDownloads": "Ver todas las descargas"
     },
     "errors": {
       "timeout": "El trabajo ha finalizado."
@@ -783,6 +789,10 @@
         "expandTooltip": "Abrir búsqueda y asistente IA.",
         "placeholder": "Buscando...",
         "tooltip": "Pulse enter para buscar."
+      },
+      "tooltips": {
+        "lockedUntilHookCompletes": "La barra de herramientas estará disponible después de que todos los ganchos terminen de ejecutarse.",
+        "lockedUntilJobCompletes": "La barra de herramientas estará disponible después de completarse el trabajo actual"
       }
     },
     "workbookActions": {

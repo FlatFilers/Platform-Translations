@@ -244,6 +244,7 @@
             "failed": "{{jobName}} 在 {{resourceName}} 上失败",
             "success": "{{jobName}} 在 {{resourceName}} 上成功运行"
           },
+          "defaultRetryLabel": "重试",
           "permanentOutcomeModal": {
             "defaultContinueButton": "继续"
           }
@@ -254,6 +255,11 @@
           "loadingText": "正在加载……"
         }
       }
+    },
+    "download": {
+      "downloadStartedHeading": "下载已开始",
+      "downloadStartedMessage": "下载应该已经自动开始。",
+      "seeAllDownloads": "查看全部下载内容"
     },
     "errors": {
       "timeout": "工作已超时。"
@@ -758,6 +764,10 @@
         "expandTooltip": "开放搜索和 AI 辅助",
         "placeholder": "搜索……",
         "tooltip": "按回车键搜索"
+      },
+      "tooltips": {
+        "lockedUntilHookCompletes": "工具栏将在所有钩子完成运行后可用",
+        "lockedUntilJobCompletes": "工具栏将在当前作业完成后可用"
       }
     },
     "workbookActions": {

@@ -256,6 +256,11 @@
         }
       }
     },
+    "download": {
+      "downloadStartedHeading": "Download started",
+      "downloadStartedMessage": "The download should have started automatically.",
+      "seeAllDownloads": "See all downloads"
+    },
     "errors": {
       "timeout": "Job timed out."
     },
@@ -346,11 +351,6 @@
           "inProgress": "Mapping..."
         }
       }
-    },
-    "download": {
-      "downloadStartedHeading": "Download started",
-      "downloadStartedMessage": "The download should have started automatically.",
-      "seeAllDownloads": "See all downloads"
     }
   },
   "mapping": {
@@ -767,8 +767,8 @@
         "tooltip": "Hit enter to search"
       },
       "tooltips": {
-        "lockedUntilJobCompletes": "The toolbar will be available after the current job completes",
-        "lockedUntilHookCompletes": "The toolbar will be available after all hooks finish running"
+        "lockedUntilHookCompletes": "The toolbar will be available after all hooks finish running",
+        "lockedUntilJobCompletes": "The toolbar will be available after the current job completes"
       }
     },
     "workbookActions": {
