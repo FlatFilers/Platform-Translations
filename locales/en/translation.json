@@ -315,6 +315,7 @@
         }
       },
       "time": {
+        "calculating": "Calculating time remaining...",
         "completed": "Completed in",
         "failed": "Failed after",
         "remaining": "remaining",
