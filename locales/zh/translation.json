@@ -315,6 +315,7 @@
         }
       },
       "time": {
+        "calculating": "正在计算剩余时间……",
         "completed": "……后完成",
         "failed": "……后失败",
         "remaining": "剩余",

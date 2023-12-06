@@ -315,6 +315,7 @@
         }
       },
       "time": {
+        "calculating": "Đang tính toán thời gian còn lại...",
         "completed": "Đã hoàn thành trong",
         "failed": "Thất bại sau",
         "remaining": "còn lại",

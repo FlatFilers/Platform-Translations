@@ -320,6 +320,7 @@
         }
       },
       "time": {
+        "calculating": "Kalan süre hesaplanıyor...",
         "completed": "Tamamlandı",
         "failed": "Sonrasında başarısız oldu",
         "remaining": "kalan",

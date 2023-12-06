@@ -315,6 +315,7 @@
         }
       },
       "time": {
+        "calculating": "남은 시간 계산 중...",
         "completed": "에 완료됨",
         "failed": "이후에 실패함",
         "remaining": "남아 있는",

@@ -320,6 +320,7 @@
         }
       },
       "time": {
+        "calculating": "Calcolo del tempo rimanente in corso...",
         "completed": "Completato in",
         "failed": "Fallito dopo",
         "remaining": "rimanente",

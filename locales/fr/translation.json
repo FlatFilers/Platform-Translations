@@ -320,6 +320,7 @@
         }
       },
       "time": {
+        "calculating": "Calcul du temps restant...",
         "completed": "Terminé en",
         "failed": "Échec après",
         "remaining": "restant",

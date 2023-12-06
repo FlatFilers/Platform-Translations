@@ -315,6 +315,7 @@
         }
       },
       "time": {
+        "calculating": "残り時間を計算しています...",
         "completed": "完了：",
         "failed": "次の後に失敗しました：",
         "remaining": "残っている",

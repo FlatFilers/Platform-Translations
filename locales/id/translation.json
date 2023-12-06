@@ -315,6 +315,7 @@
         }
       },
       "time": {
+        "calculating": "Menghitung sisa waktu...",
         "completed": "Selesai dalam",
         "failed": "Gagal setelah",
         "remaining": "tersisa",

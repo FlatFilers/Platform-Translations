@@ -320,6 +320,7 @@
         }
       },
       "time": {
+        "calculating": "Verbleibende Zeit wird berechnet",
         "completed": "Abgeschlossen in:",
         "failed": "Gescheitert nach:",
         "remaining": "verbleibend",
