@@ -856,6 +856,58 @@
         "snapshot": "New value: {{value}}"
       }
     },
+    "preview": {
+      "cancelButton": "Cancel",
+      "empty": {
+        "createdSince": "This preview has no records that will be removed.",
+        "deletedSince": "This preview has no records that will be added.",
+        "title": "Nothing to see!",
+        "updatedSince": "This preview has no records that will be modified."
+      },
+      "errorMessage": "The changes could not be previewed due to an unexpected error.",
+      "filters": {
+        "createdSince": "Remove",
+        "deletedSince": "Add",
+        "updatedSince": "Modify"
+      },
+      "header": {
+        "title": "Changes made in",
+        "titleWithMeta": "Preview changes made in <1>{{sheet}}</1> by <3>{{aiAction}}</3> prompt"
+      },
+      "message": "Your sheet {{name}} will be restored to the version in this snapshot.",
+      "submitButton": "Transform Data",
+      "submitError": "The data could not be transformed due to an unexpected error.",
+      "submitSuccess": "Changes to your sheet were successfully applied.",
+      "successMessage": "Changes were applied to your sheet.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} cells in field {{name}}",
+            "last": " and {{cells}} cells in field {{name}}",
+            "middle": ", {{cells}} cells in field {{name}}"
+          },
+          "singular": {
+            "first": "1 cell in field {{name}}",
+            "last": " and 1 cell in field {{name}}",
+            "middle": ", 1 cell in field {{name}}"
+          },
+          "start": " Data will be modified in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data will change in {{records}} records across {{fields}} fields.",
+            "noFields": "Data will change in {{records}} records.",
+            "oneField": "Data will change in {{records}} records across 1 field."
+          },
+          "singular": {
+            "multipleFields": "Data will change in 1 record across {{fields}} fields.",
+            "noFields": "Data will change in 1 record.",
+            "oneField": "Data will change in 1 record across 1 field."
+          }
+        }
+      },
+      "title": "Preview changes made in"
+    },
     "restore": {
       "cancelButton": "Cancel",
       "empty": {
