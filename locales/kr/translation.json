@@ -855,6 +855,58 @@
         "snapshot": "새 값: {{value}}"
       }
     },
+    "preview": {
+      "cancelButton": "취소",
+      "empty": {
+        "createdSince": "이 미리보기에는 삭제될 레코드가 없습니다.",
+        "deletedSince": "이 미리보기에는 추가될 레코드가 없습니다.",
+        "title": "확인할 항목이 없습니다!",
+        "updatedSince": "이 미리보기에는 수정될 레코드가 없습니다."
+      },
+      "errorMessage": "예상치 못한 에러로 인해 변경사항에 대한 미리보기를 수행할 수 없었습니다.",
+      "filters": {
+        "createdSince": "삭제",
+        "deletedSince": "제거",
+        "updatedSince": "수정"
+      },
+      "header": {
+        "title": "다음에서 수정:",
+        "titleWithMeta": "<3>{{aiAction}}</3> 지시어에 의해 <1>{{sheet}}</1>에서 수행된 수정사항 미리보기"
+      },
+      "message": "귀하의 시트 {{name}}이(가) 이 스냅샷 버전으로 복원됩니다.",
+      "submitButton": "데이터 트랜스폼",
+      "submitError": "예상치 못한 에러로 인해 해당 데이터에 대한 트랜스폼을 수행하지 못했습니다.",
+      "submitSuccess": "귀하의 시트에 대한 변경사항이 성공적으로 적용되었습니다.",
+      "successMessage": "변경사항이 귀하의 시트에 적용되었습니다.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "필드 {{name}} 내에 {{cells}}개 셀",
+            "last": " 그리고 필드 {{name}} 내에 {{cells}}개 셀",
+            "middle": "필드 {{name}} 내에 {{cells}}개 셀"
+          },
+          "singular": {
+            "first": "필드 {{name}} 내에 1개 셀",
+            "last": " 그리고 필드 {{name}} 내에 1개 셀",
+            "middle": ", 필드 {{name}} 내에 1개 셀"
+          },
+          "start": " 다음에서 데이터 수정 예정: "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "{{fields}}개 필드에 걸쳐 {{records}}개 레코드에서 데이터가 변경됩니다.",
+            "noFields": "{{records}}개 레코드에서 데이터가 변경됩니다.",
+            "oneField": "1개 필드에 걸쳐 {{records}}개 레코드에서 데이터가 변경됩니다."
+          },
+          "singular": {
+            "multipleFields": "{{fields}}개 필드에 걸쳐 1개 레코드에서 데이터가 변경됩니다.",
+            "noFields": "1개 레코드에서 데이터가 변경됩니다.",
+            "oneField": "1개 필드에 걸쳐 1개 레코드에서 데이터가 변경됩니다."
+          }
+        }
+      },
+      "title": "다음에서 수행된 미리보기 변경사항:"
+    },
     "restore": {
       "cancelButton": "취소하기",
       "empty": {

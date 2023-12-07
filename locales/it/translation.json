@@ -880,6 +880,58 @@
         "snapshot": "Nuovo valore: {{value}}"
       }
     },
+    "preview": {
+      "cancelButton": "Cancella",
+      "empty": {
+        "createdSince": "Questa anteprima non ha record che saranno eliminati.",
+        "deletedSince": "Questa anteprima non ha record che saranno aggiunti.",
+        "title": "Niente da vedere!",
+        "updatedSince": "Questa anteprima non ha record che saranno modificati."
+      },
+      "errorMessage": "Impossibile vedere un'anteprima delle modifiche a causa di un errore inaspettato.",
+      "filters": {
+        "createdSince": "Elimina",
+        "deletedSince": "Aggiungi",
+        "updatedSince": "Modifica"
+      },
+      "header": {
+        "title": "Modifiche effettuate in",
+        "titleWithMeta": "Vedi anteprima delle modifiche effettuate in <1>{{sheet}}</1> dal prompt <3>{{aiAction}}</3>"
+      },
+      "message": "Il tuo foglio {{name}} verrà ripristinato alla versione in questa istantanea.",
+      "submitButton": "Converti i dati",
+      "submitError": "Impossibile convertire i dati a causa di un errore inaspettato.",
+      "submitSuccess": "Le modifiche al foglio sono state apportate con successo.",
+      "successMessage": "Le modifiche sono state apportate al tuo foglio.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} celle nel campo {{name}}",
+            "last": " e {{cells}} celle nel campo {{name}}",
+            "middle": ", {{cells}} celle nel campo {{name}}"
+          },
+          "singular": {
+            "first": "1 cella nel campo{{name}}",
+            "last": " e 1 cella nel campo {{name}}",
+            "middle": ", 1cella nel campo {{name}}"
+          },
+          "start": " I dati verranno modificati in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "I dati cambieranno in {{records}} record in {{fields}} fields.",
+            "noFields": "I dati cambieranno in {{records}} record.",
+            "oneField": "I dati cambieranno in {{records}} record in 1 campo."
+          },
+          "singular": {
+            "multipleFields": "I dati cambieranno in 1 record in {{fields}} campi.",
+            "noFields": "I dati cambieranno in 1 record.",
+            "oneField": "I dati cambieranno in 1 record  in 1 campo."
+          }
+        }
+      },
+      "title": "Vedi anteprima delle modifiche effettuate in"
+    },
     "restore": {
       "cancelButton": "Annulla",
       "empty": {

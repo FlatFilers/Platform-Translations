@@ -880,6 +880,58 @@
         "snapshot": "Nouvelle valeur : {{value}}"
       }
     },
+    "preview": {
+      "cancelButton": "Annuler",
+      "empty": {
+        "createdSince": "Cet aperçu ne contient aucun enregistrement qui sera supprimé.",
+        "deletedSince": "Cet aperçu ne contient aucun enregistrement qui sera ajouté.",
+        "title": "Il n'y a rien à voir !",
+        "updatedSince": "Cet aperçu ne contient aucun enregistrement qui sera modifié."
+      },
+      "errorMessage": "Les modifications n'ont pas pu être visualisées en raison d'une erreur inattendue.",
+      "filters": {
+        "createdSince": "Supprimer",
+        "deletedSince": "Ajouter",
+        "updatedSince": "Modifier"
+      },
+      "header": {
+        "title": "Modifications effectuées dans",
+        "titleWithMeta": "Prévisualiser les modifications apportées dans <1>{{sheet}}</1> par <3>{{aiAction}}</3> invite"
+      },
+      "message": "Votre feuille {{name}} sera restaurée à la version de cet instantané.",
+      "submitButton": "Transformer les données",
+      "submitError": "Les données n'ont pas pu être transformées en raison d'une erreur inattendue.",
+      "submitSuccess": "Les modifications apportées à votre feuille ont été appliquées avec succès.",
+      "successMessage": "Les modifications ont été appliquées à votre feuille.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} cellules dans le champ {{name}}",
+            "last": " et {{cells}} cellules dans le champ {{name}}",
+            "middle": ", {{cells}} cellules dans le champ {{name}}"
+          },
+          "singular": {
+            "first": "1 cellule dans le champ {{name}}",
+            "last": " et 1 cellule dans le champ {{name}}",
+            "middle": ", 1 cellule dans le champ {{name}}"
+          },
+          "start": " Les données seront modifiées en "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Les données seront modifiées dans les enregistrements {{records}} pour les champs {{fields}}.",
+            "noFields": "Les données seront modifiées dans {{records}} enregistrements.",
+            "oneField": "Les données seront modifiées dans {{records}} enregistrements pour 1 champ."
+          },
+          "singular": {
+            "multipleFields": "Les données seront modifiées dans 1 enregistrements pour {{fields}} champ.",
+            "noFields": "Les données seront modifiées dans 1 enregistrement.",
+            "oneField": "Les données seront modifiées dans 1 enregistrement pour 1 champ."
+          }
+        }
+      },
+      "title": "Prévisualiser les modifications apportées dans"
+    },
     "restore": {
       "cancelButton": "Annuler",
       "empty": {

@@ -855,6 +855,58 @@
         "snapshot": "新しい値：{{value}}"
       }
     },
+    "preview": {
+      "cancelButton": "キャンセル",
+      "empty": {
+        "createdSince": "このプレビューには削除されるレコードはありません。",
+        "deletedSince": "このプレビューには追加されるレコードはありません。",
+        "title": "何も表示するものがありません！",
+        "updatedSince": "このプレビューには変更されるレコードはありません。"
+      },
+      "errorMessage": "予期しないエラーのため、変更をプレビューできませんでした。",
+      "filters": {
+        "createdSince": "削除する",
+        "deletedSince": "追加する",
+        "updatedSince": "変更する"
+      },
+      "header": {
+        "title": "で加えられた変更",
+        "titleWithMeta": "<3>{{aiAction}}</3>プロンプトによって<1>{{sheet}}</1>に加えられた変更をプレビューする"
+      },
+      "message": "あなたのシート{{name}}は、このスナップショットのバージョンに復元されます。",
+      "submitButton": "データを変換する",
+      "submitError": "予期しないエラーのため、データを変換できませんでした。",
+      "submitSuccess": "シートへの変更が正常に適用されました。",
+      "successMessage": "変更がシートに適用されました。",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "フィールド{{name}}の{{cells}}セル",
+            "last": " およびフィールド{{name}}の{{cells}}セル",
+            "middle": "、フィールド{{name}}の{{cells}}セル"
+          },
+          "singular": {
+            "first": "フィールド{{name}}の1セル",
+            "last": " およびフィールド{{name}}の1セル",
+            "middle": "、フィールド{{name}}の1セル"
+          },
+          "start": " データが変更されます "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "データは{{fields}}フィールドにわたる{{records}}レコードで変更されます。",
+            "noFields": "データは{{records}}レコードで変更されます。",
+            "oneField": "データは1フィールドにわたる{{records}}レコードで変更されます。"
+          },
+          "singular": {
+            "multipleFields": "データは{{fields}}フィールドにわたる1レコードで変更されます。",
+            "noFields": "データは1レコードで変更されます。",
+            "oneField": "データは1フィールドにわたる1レコードで変更されます。"
+          }
+        }
+      },
+      "title": "で加えられた変更をプレビューする"
+    },
     "restore": {
       "cancelButton": "キャンセル",
       "empty": {

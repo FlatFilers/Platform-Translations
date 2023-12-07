@@ -880,6 +880,58 @@
         "snapshot": "Neuer Wert: {{value}}"
       }
     },
+    "preview": {
+      "cancelButton": "Abbrechen",
+      "empty": {
+        "createdSince": "Diese Vorschau hat keine Einträge, die entfernt werden.",
+        "deletedSince": "Diese Vorschau hat keine Einträge, die hinzugefügt werden.",
+        "title": "Nichts zu sehen!",
+        "updatedSince": "Diese Vorschau hat keine Einträge, die modifiziert werden."
+      },
+      "errorMessage": "Aufgrund eines unerwarteten Fehlers konnten die Änderungen nicht in der Vorschau angezeigt werden.",
+      "filters": {
+        "createdSince": "Entfernen",
+        "deletedSince": "Hinzufügen",
+        "updatedSince": "Modifizieren"
+      },
+      "header": {
+        "title": "Änderungen vorgenommen in",
+        "titleWithMeta": "Änderungen, die in <1>{{sheet}}</1> vorgenommen wurden, durch <3>{{aiAction}}</3>-Abfrage in der Vorschau anzeigen"
+      },
+      "message": "Dein Blatt {{name}} wird in der Version dieser Momentaufnahme wiederhergestellt werden.",
+      "submitButton": "Daten umwandeln",
+      "submitError": "Aufgrund eines unerwarteten Fehlers konnten die Daten nicht umgewandelt werden.",
+      "submitSuccess": "Die Änderungen an deinem Blatt wurden erfolgreich angewendet.",
+      "successMessage": "Die Änderungen wurden auf dein Blatt angewendet.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} Zellen in Feld {{name}}",
+            "last": " und {{cells}} Zellen in Feld {{name}}",
+            "middle": ", {{cells}} Zellen in Feld {{name}}"
+          },
+          "singular": {
+            "first": "1 Zelle in Feld {{name}}",
+            "last": " und 1 Zelle in Feld {{name}}",
+            "middle": ", 1 Zelle in Feld {{name}}"
+          },
+          "start": " Daten werden modifiziert in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Daten werden sich in {{records}} Einträgen über {{fields}} Felder hinweg ändern.",
+            "noFields": "Daten werden sich in {{records}} Einträgen ändern.",
+            "oneField": "Daten werden sich in {{records}} Einträgen über ein Feld hinweg ändern."
+          },
+          "singular": {
+            "multipleFields": "Daten werden sich in einem Eintrag über {{fields}} Felder hinweg ändern.",
+            "noFields": "Daten werden sich in einem Eintrag ändern.",
+            "oneField": "Daten werden sich in einem Eintrag über ein Feld hinweg ändern."
+          }
+        }
+      },
+      "title": "In der Vorschau die Änderungen anzeigen, die vorgenommen wurden in"
+    },
     "restore": {
       "cancelButton": "Abbrechen",
       "empty": {

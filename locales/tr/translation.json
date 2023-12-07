@@ -880,6 +880,58 @@
         "snapshot": "Yeni değer: {{value}}"
       }
     },
+    "preview": {
+      "cancelButton": "İptal Et",
+      "empty": {
+        "createdSince": "Bu önizlemede kaldırılacak kayıt yok.",
+        "deletedSince": "Bu önizlemede eklenecek kayıt yok.",
+        "title": "Görülecek hiçbir şey yok!",
+        "updatedSince": "Bu önizlemede değiştirilecek kayıt yok."
+      },
+      "errorMessage": "Beklenmeyen bir hata nedeniyle değişikliklerin önizlemesi yapılamadı.",
+      "filters": {
+        "createdSince": "Kaldır",
+        "deletedSince": "Ekle",
+        "updatedSince": "Değiştir"
+      },
+      "header": {
+        "title": "Yapılan değişiklikler",
+        "titleWithMeta": "<1>{{sheet}}</1> dosyasında <3>{{aiAction}}</3> istemiyle yapılan değişiklikleri önizleyin"
+      },
+      "message": "Sayfanız {{name}} bu anlık görüntüdeki sürüme geri yüklenecek.",
+      "submitButton": "Verileri Dönüştür",
+      "submitError": "Beklenmeyen bir hata nedeniyle veriler dönüştürülemedi.",
+      "submitSuccess": "Sayfanızda yapılan değişiklikler başarıyla uygulandı.",
+      "successMessage": "Değişiklikler sayfanıza uygulandı.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} alanındaki hücreler {{name}}",
+            "last": " ve {{name}} alanındaki {{cells}} hücreler",
+            "middle": ", {{cells}} alanındaki hücreler {{name}}"
+          },
+          "singular": {
+            "first": "{{name}} alanında 1 hücre",
+            "last": " ve {{name}} alanında 1 hücre",
+            "middle": ", {{name}} alanında 1 hücre"
+          },
+          "start": " Veriler şu tarihte değiştirilecek: "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Veriler, {{fields}} alanlarındaki {{records}} kayıtlardaki veriler değişecek.",
+            "noFields": "{{records}} kayıtlardaki veriler değişecek.",
+            "oneField": "1 alandaki {{records}} kayıtlardaki veriler değişecek."
+          },
+          "singular": {
+            "multipleFields": "Veriler, {{fields}} alanlardaki 1 kayıtta değişecek.",
+            "noFields": "Veriler 1 kayıtta değişecek.",
+            "oneField": "Veriler 1 alanda 1 kayıtta değişecek."
+          }
+        }
+      },
+      "title": "Şurada yapılan değişiklikleri önizleyin:"
+    },
     "restore": {
       "cancelButton": "İptal",
       "empty": {

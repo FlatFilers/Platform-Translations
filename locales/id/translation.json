@@ -855,6 +855,58 @@
         "snapshot": "NIlai baru: {{value}}"
       }
     },
+    "preview": {
+      "cancelButton": "Batal",
+      "empty": {
+        "createdSince": "Pratinjau ini tidak memiliki rekord yang akan dihapus.",
+        "deletedSince": "Pratinjau ini tidak memiliki rekord yang akan ditambahkan.",
+        "title": "Tidak ada yang bisa dilihat!",
+        "updatedSince": "Pratinjau ini tidak memiliki rekord yang akan dimodifikasi."
+      },
+      "errorMessage": "Perubahan tidak dapat dilihat pratinjaunya akibat kesalahan yang tidak terduga.",
+      "filters": {
+        "createdSince": "Hapus",
+        "deletedSince": "Tambah",
+        "updatedSince": "Modifikasi"
+      },
+      "header": {
+        "title": "Perubahan yang dibuat di",
+        "titleWithMeta": "Lihat pratinjau perubahan yang dibuat di <1>{{sheet}}</1> oleh perintah <3>{{aiAction}}</3>"
+      },
+      "message": "Sheet Anda {{name}} akan dikembalikan ke versi dalam cuplikan ini.",
+      "submitButton": "Transformasi Data",
+      "submitError": "Data tidak dapat ditransformasi akibat kesalahan yang tidak terduga.",
+      "submitSuccess": "Perubahan pada sheet Anda berhasil diterapkan.",
+      "successMessage": "Perubahan telah diterapkan pada sheet Anda.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} cell dalam field {{name}}",
+            "last": " dan {{cells}} cell dalam field {{name}}",
+            "middle": ", {{cells}} cell dalam field {{name}}"
+          },
+          "singular": {
+            "first": "1 cell dalam field {{name}}",
+            "last": " dan 1 cell dalam field {{name}}",
+            "middle": ", 1 cell dalam field {{name}}"
+          },
+          "start": " Data akan dimodifikasi dalam "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data akan berubah dalam {{records}} rekord di seluruh {{fields}} field.",
+            "noFields": "Data akan berubah dalam {{records}} rekord.",
+            "oneField": "Data akan berubah dalam {{records}} rekord di 1 field."
+          },
+          "singular": {
+            "multipleFields": "Data akan berubah dalam 1 rekord di seluruh {{fields}} field.",
+            "noFields": "Data akan berubah dalam 1 rekord.",
+            "oneField": "Data akan berubah dalam 1 rekord di 1 field"
+          }
+        }
+      },
+      "title": "Pratinjau perubahan yang dibuat di"
+    },
     "restore": {
       "cancelButton": "Batal",
       "empty": {

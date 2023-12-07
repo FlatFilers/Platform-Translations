@@ -855,6 +855,58 @@
         "snapshot": "新值：{{value}}"
       }
     },
+    "preview": {
+      "cancelButton": "取消",
+      "empty": {
+        "createdSince": "此预览没有将要移除的记录。",
+        "deletedSince": "此预览没有将要添加的记录。",
+        "title": "没有可查看的内容！",
+        "updatedSince": "此预览没有将要修改的记录。"
+      },
+      "errorMessage": "由于意外错误，无法预览更改。",
+      "filters": {
+        "createdSince": "移除",
+        "deletedSince": "添加",
+        "updatedSince": "修改"
+      },
+      "header": {
+        "title": "所做更改",
+        "titleWithMeta": "通过<3>{{aiAction}}</3>提示预览<1>{{sheet}}</1>中所做的更改"
+      },
+      "message": "您的工作表 {{name}} 将恢复为此快照中的版本。",
+      "submitButton": "转换数据",
+      "submitError": "由于意外错误，无法转换数据。",
+      "submitSuccess": "对工作表的更改已成功应用。",
+      "successMessage": "更改已应用到您的工作表。",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{name}} 字段中的 {{cells}} 单元格",
+            "last": " 以及 {{name}} 字段中的 {{cells}} 单元格",
+            "middle": "，{{name}} 字段中的 {{cells}} 单元格"
+          },
+          "singular": {
+            "first": "{{name}} 字段中的 1 个单元格",
+            "last": " 以及 {{name}} 字段中的 1 个单元格",
+            "middle": "，{{name}} 字段中的 1 个单元格"
+          },
+          "start": " 数据将被修改 "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "{{fields}} 个字段的 {{records}} 条记录中的数据将发生变化。",
+            "noFields": "{{records}} 条记录中的数据将发生变化。",
+            "oneField": "1 个字段的 {{records}} 条记录中的数据将发生变化。"
+          },
+          "singular": {
+            "multipleFields": "{{fields}} 个字段的 1 条记录中的数据将发生变化。",
+            "noFields": "1 条记录中的数据将发生变化。",
+            "oneField": "1 个字段的 1 条记录中的数据将发生变化。"
+          }
+        }
+      },
+      "title": "预览所做的更改"
+    },
     "restore": {
       "cancelButton": "取消",
       "empty": {

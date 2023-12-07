@@ -855,6 +855,58 @@
         "snapshot": "Giá trị mới: {{value}}"
       }
     },
+    "preview": {
+      "cancelButton": "Hủy bỏ",
+      "empty": {
+        "createdSince": "Bản xem trước này không có bản ghi nào sẽ bị xóa.",
+        "deletedSince": "Bản xem trước này không có bản ghi nào sẽ được thêm vào.",
+        "title": "Không có gì để xem!",
+        "updatedSince": "Bản xem trước này không có bản ghi nào sẽ được sửa đổi."
+      },
+      "errorMessage": "Không thể xem trước các thay đổi do xảy ra lỗi không mong muốn.",
+      "filters": {
+        "createdSince": "Xóa",
+        "deletedSince": "Thêm",
+        "updatedSince": "Sửa đổi"
+      },
+      "header": {
+        "title": "Thay đổi được thực hiện trong",
+        "titleWithMeta": "Xem trước các thay đổi được thực hiện trong <1>{{sheet}}</1> bởi lời nhắc <3>{{aiAction}}</3>"
+      },
+      "message": "Trang tính {{name}} của bạn sẽ được khôi phục về phiên bản trong bản lưu nhanh này.",
+      "submitButton": "Chuyển đổi Dữ liệu",
+      "submitError": "Không thể chuyển đổi dữ liệu do xảy ra lỗi không mong muốn.",
+      "submitSuccess": "Đã áp dụng thành công các thay đổi đối với trang tính của bạn.",
+      "successMessage": "Đã áp dụng các thay đổi đối với trang tính của bạn.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} ô trong trường {{name}}",
+            "last": " và {{cells}} ô trong trường {{name}}",
+            "middle": ", {{cells}} ô trong trường {{name}}"
+          },
+          "singular": {
+            "first": "1 ô trong trường {{name}}",
+            "last": " và 1 ô trong trường {{name}}",
+            "middle": ", 1 ô trong trường {{name}}"
+          },
+          "start": " Dữ liệu sẽ được sửa đổi trong "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Dữ liệu sẽ thay đổi trong {{records}} bản ghi trong {{fields}} trường.",
+            "noFields": "Dữ liệu sẽ thay đổi trong {{records}} bản ghi.",
+            "oneField": "Dữ liệu sẽ thay đổi trong {{records}} bản ghi trong 1 trường."
+          },
+          "singular": {
+            "multipleFields": "Dữ liệu sẽ thay đổi trong 1 bản ghi trong {{fields}} trường.",
+            "noFields": "Dữ liệu sẽ thay đổi trong 1 bản ghi.",
+            "oneField": "Dữ liệu sẽ thay đổi trong 1 bản ghi trong 1 trường."
+          }
+        }
+      },
+      "title": "Xem trước các thay đổi được thực hiện trong"
+    },
     "restore": {
       "cancelButton": "Hủy",
       "empty": {

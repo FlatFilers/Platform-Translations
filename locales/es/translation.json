@@ -880,6 +880,58 @@
         "snapshot": "Nuevo valor: {{value}}"
       }
     },
+    "preview": {
+      "cancelButton": "Cancelar",
+      "empty": {
+        "createdSince": "Esta vista previa no tiene registros que vayan a eliminarse.",
+        "deletedSince": "Esta vista previa no tiene registros que vayan a añadirse.",
+        "title": "No hay nada que ver.",
+        "updatedSince": "Esta vista previa no tiene registros que vayan a modificarse."
+      },
+      "errorMessage": "No se han podido previsualizar los cambios debido a un error inesperado.",
+      "filters": {
+        "createdSince": "Eliminar",
+        "deletedSince": "Añadir",
+        "updatedSince": "Modificar"
+      },
+      "header": {
+        "title": "Cambios realizados en",
+        "titleWithMeta": "Previsualizar los cambios realizados en <1>{{sheet}}</1> por <3>{{aiAction}}</3> prompt"
+      },
+      "message": "Tu hoja {{name}} se restaurará a la versión de esta captura.",
+      "submitButton": "Transformar datos",
+      "submitError": "No se han podido transformar los datos debido a un error inesperado.",
+      "submitSuccess": "Los cambios en tu hoja se han aplicado correctamente.",
+      "successMessage": "Los cambios se han aplicado a tu hoja.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} celdas en el campo {{name}}",
+            "last": " y {{cells}} celdas en el campo {{name}}",
+            "middle": "{{cells}} celdas en el campo {{name}}"
+          },
+          "singular": {
+            "first": "1 celda en el campo {{name}}",
+            "last": " y 1 celda en el campo {{name}}",
+            "middle": "1 celda en el campo {{name}}"
+          },
+          "start": " Se modificarán los datos en "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Los datos cambiarán en {{records}} registros a través de {{fields}} campos.",
+            "noFields": "Los datos cambiarán en {{records}} registros.",
+            "oneField": "Los datos cambiarán en {{records}} registros a través de 1 campo."
+          },
+          "singular": {
+            "multipleFields": "Los datos cambiarán en 1 registro a través de {{fields}} campos.",
+            "noFields": "Los datos cambiarán en 1 registro.",
+            "oneField": "Los datos cambiarán en 1 registro a través de 1 campo."
+          }
+        }
+      },
+      "title": "Previsualizar los cambios realizados en"
+    },
     "restore": {
       "cancelButton": "Cancelar",
       "empty": {
