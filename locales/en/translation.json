@@ -67,7 +67,8 @@
         "description": "ask AI to transform your data",
         "errorBanner": {
           "generalError": "Something went wrong. Please try again.",
-          "versionError": "Unable to create a rollback version - AI transform aborted. Please try again."
+          "versionError": "Unable to create a rollback version - AI transform aborted. Please try again.",
+          "readOnlyError": "This sheet is currently set to ‘Read-Only’ mode, which prevents any data transformation actions. Please ensure you have edit permissions or switch to a modifiable sheet to perform this operation."
         },
         "instruction": "Describe how you'd like the AI assistant to transform your data:",
         "review": {
