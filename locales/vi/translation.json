@@ -67,6 +67,7 @@
         "description": "yêu cầu AI biến đổi dữ liệu của bạn",
         "errorBanner": {
           "generalError": "Đã xảy ra lỗi. Vui lòng thử lại.",
+          "readOnlyError": "Trang tính hiện đang được đặt ở chế độ “Chỉ đọc”, điều này ngăn các hành động chuyển hóa dữ liệu. Vui lòng đảm bảo rằng bạn có quyền sửa hoặc chuyển sang một trang tính có cho phép chỉnh sửa để thực hiện tác vụ này.",
           "versionError": "Không thể tạo phiên bản khôi phục – đã hủy bỏ biến đổi AI. Vui lòng thử lại."
         },
         "instruction": "Mô tả cách bạn muốn trợ lý AI biến đổi dữ liệu của mình:",

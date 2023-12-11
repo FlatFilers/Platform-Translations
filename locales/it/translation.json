@@ -67,6 +67,7 @@
         "description": "chiedi all'IA di trasformare i tuoi dati",
         "errorBanner": {
           "generalError": "Qualcosa è andato storto. Riprova.",
+          "readOnlyError": "Questo foglio è attualmente impostato sulla modalità \"Sola lettura\", il che impedisce qualsiasi azione di trasformazione dei dati. Assicurati di disporre delle autorizzazioni di modifica o passa ad un foglio modificabile per eseguire questa operazione.",
           "versionError": "Impossibile creare una versione di rollback: trasformazione IA interrotta. Riprova."
         },
         "instruction": "Descrivi come vorresti che l'assistente IA trasformasse i tuoi dati:",

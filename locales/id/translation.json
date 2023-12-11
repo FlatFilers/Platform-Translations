@@ -67,6 +67,7 @@
         "description": "minta AI untuk mentransformasi data Anda",
         "errorBanner": {
           "generalError": "Terjadi masalah. Silakan coba lagi.",
+          "readOnlyError": "Lembar ini saat ini diatur ke mode 'Hanya-Baca', yang mencegah tindakan transformasi data apa pun. Pastikan Anda memiliki izin untuk mengedit atau beralih ke lembar yang dapat dimodifikasi untuk melakukan operasi ini.",
           "versionError": "Tidak dapat membuat versi rollback - transformasi AI dibatalkan. Silakan coba lagi."
         },
         "instruction": "Jelaskan bagaimana Anda ingin asisten AI mentransformasi data Anda:",

@@ -67,6 +67,7 @@
         "description": "Yapay zekâdan verilerinizi dönüştürmesini isteyin",
         "errorBanner": {
           "generalError": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+          "readOnlyError": "Bu sayfa, şu anda \"Salt Okunur\" moduna ayarlı ve bu, herhangi bir veri dönüştürme işlemini engellemektedir. Bu işlemi gerçekleştirmek için lütfen düzenleme izinlerine sahip olduğunuza emin olun veya değiştirilebilir bir sayfaya geçin.",
           "versionError": "Bir geri alma sürümü oluşturulamıyor. Yapay zekâ destekli dönüştürme durduruldu. Lütfen tekrar deneyin."
         },
         "instruction": "Yapay zekâ destekli yardımcının verilerinizi nasıl dönüştürmesini istediğini tarif edin:",

@@ -67,6 +67,7 @@
         "description": "peça que a IA transforme seus dados",
         "errorBanner": {
           "generalError": "Algo deu errado. Tente novamente.",
+          "readOnlyError": "Esta planilha está atualmente configurada para o modo ‘Somente leitura’, o que impede qualquer alteração de dados. Certifique-se de ter permissões para edição ou altere para uma planilha editável para realizar esta ação.",
           "versionError": "Não foi possível criar uma versão de reversão - transformação de IA abortada. Tente novamente."
         },
         "instruction": "Descreva como você gostaria que o assistente de IA transformasse seus dados:",

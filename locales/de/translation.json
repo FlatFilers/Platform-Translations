@@ -67,6 +67,7 @@
         "description": "KI mit der Transformation Ihrer Daten beauftragen",
         "errorBanner": {
           "generalError": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+          "readOnlyError": "Dieses Tabellenblatt ist derzeit auf den Nur-Lese-Modus eingestellt, weshalb an den Daten keine Änderungen vorgenommen werden können. Bitte vergewissern Sie sich, dass Sie über Bearbeitungsrechte verfügen, oder wechseln Sie zu einem bearbeitbaren Tabellenblatt, um diesen Vorgang durchzuführen.",
           "versionError": "Es kann keine Rollback-Version erstellt werden – KI-Transformation abgebrochen. Bitte versuchen Sie es erneut."
         },
         "instruction": "Beschreiben Sie, wie Sie möchten, dass der KI-Assistent Ihre Daten transformiert:",

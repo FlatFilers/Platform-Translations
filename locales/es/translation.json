@@ -67,6 +67,7 @@
         "description": "solicitar a la IA que transforme los datos",
         "errorBanner": {
           "generalError": "Algo ha ido mal. Vuelve a intentarlo.",
+          "readOnlyError": "Esta hoja está actualmente configurada en modo «Solo lectura», lo que impide cualquier acción de transformación de datos. Por favor, asegúrate de tener permisos de edición o cambia a una hoja modificable para realizar esta operación.",
           "versionError": "No se ha podido crear una versión de reversión - Transformación IIA cancelada. Vuelve a intentarlo."
         },
         "instruction": "Describe cómo te gustaría que el asistente de IA transformara tus datos:",

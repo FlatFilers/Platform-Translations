@@ -67,6 +67,7 @@
         "description": "让 AI 转换你的数据",
         "errorBanner": {
           "generalError": "出了些问题。请再试一次。",
+          "readOnlyError": "此工作表目前设置为“只读”模式，这将会阻止任何数据转换操作。请确保您有编辑权限或者切换到可修改的工作表来执行此操作。",
           "versionError": "无法创建回滚版本——AI 转换已中止。请再试一次。"
         },
         "instruction": "描述你希望 AI 助手如何转换你的数据：",

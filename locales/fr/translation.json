@@ -67,6 +67,7 @@
         "description": "demander à l'IA de transformer vos données",
         "errorBanner": {
           "generalError": "Une erreur s'est produite. Veuillez réessayer.",
+          "readOnlyError": "Cette feuille est actuellement paramétrée en mode « Lecture seule », ce qui rend impossible toute action de transformation des données. Veuillez vous assurer d'avoir les autorisations nécessaires pour modifier, ou basculez vers une feuille modifiable pour effectuer cette opération.",
           "versionError": "Impossible de créer une version de restauration - transformation par l'IA abandonnée. Veuillez réessayer."
         },
         "instruction": "Décrivez la façon dont vous souhaitez que l'assistant IA transforme vos données :",
