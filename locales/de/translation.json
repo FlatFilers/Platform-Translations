@@ -799,6 +799,8 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "lockedUntilHookCompletes": "Diese Aktion ist verfügbar, nachdem alle Hooks ausgeführt wurden",
+        "lockedUntilJobCompletes": "Diese Aktion ist verfügbar, wenn der aktuelle Auftrag abgeschlossen ist.",
         "requireAllValid": "Für diese Aktion müssen alle Zeilen in allen Blättern gültig sein"
       }
     }

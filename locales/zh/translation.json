@@ -774,6 +774,8 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "lockedUntilHookCompletes": "所有钩子运行完成后即可进行此操作",
+        "lockedUntilJobCompletes": "当前工作完成后即可进行此操作",
         "requireAllValid": "此操作要求所有工作表中的所有行都有效"
       }
     }

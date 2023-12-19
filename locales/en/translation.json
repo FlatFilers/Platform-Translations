@@ -775,9 +775,9 @@
     },
     "workbookActions": {
       "disabledTooltip": {
-        "requireAllValid": "This action requires all rows in all sheets to be valid",
+        "lockedUntilHookCompletes": "This action will be available after all hooks finish running",
         "lockedUntilJobCompletes": "This action will be available after the current job completes",
-        "lockedUntilHookCompletes": "This action will be available after all hooks finish running"
+        "requireAllValid": "This action requires all rows in all sheets to be valid"
       }
     }
   },

@@ -774,6 +774,8 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "lockedUntilHookCompletes": "Hành động này sẽ khả dụng sau khi mọi hook đã chạy xong",
+        "lockedUntilJobCompletes": "Hành động này sẽ khả dụng sau khi công việc hiện tại được hoàn tất",
         "requireAllValid": "Hành động này yêu cầu mọi hàng trong tất cả các trang tính phải hợp lệ"
       }
     }

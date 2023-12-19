@@ -774,6 +774,8 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "lockedUntilHookCompletes": "Tindakan ini akan tersedia setelah semua pengait selesai dijalankan",
+        "lockedUntilJobCompletes": "Tindakan ini akan tersedia setelah pekerjaan saat ini selesai",
         "requireAllValid": "Tindakan ini mengharuskan semua baris di semua lembar valid"
       }
     }

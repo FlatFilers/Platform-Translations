@@ -774,6 +774,8 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "lockedUntilHookCompletes": "このアクションは、すべてのフックの実行が完了した後に使用可能になります。",
+        "lockedUntilJobCompletes": "このアクションは、現在のジョブが完了した後に使用可能になります",
         "requireAllValid": "この操作では、すべてのシートのすべての行が有効である必要があります"
       }
     }

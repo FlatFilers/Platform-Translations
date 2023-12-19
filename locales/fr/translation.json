@@ -799,6 +799,8 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "lockedUntilHookCompletes": "Cette action sera disponible une fois que tous les hooks auront été exécutés",
+        "lockedUntilJobCompletes": "Cette action sera disponible après la fin du travail en cours",
         "requireAllValid": "Cette action requiert que toutes les lignes de tous les tableurs soient valides."
       }
     }

@@ -799,6 +799,8 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "lockedUntilHookCompletes": "Esta acción estará disponible después de que todos los ganchos hayan terminado de ejecutarse.",
+        "lockedUntilJobCompletes": "Esta acción estará disponible después de que el trabajo actual se complete.",
         "requireAllValid": "Esta acción requiere que todas las filas de todas las hojas sean válidas"
       }
     }

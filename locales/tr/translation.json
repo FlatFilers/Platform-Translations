@@ -799,6 +799,8 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "lockedUntilHookCompletes": "Bu eylem, tüm kancaların çalışması bittikten sonra kullanılabilir olacak",
+        "lockedUntilJobCompletes": "Bu eylem, geçerli iş tamamlandıktan sonra kullanılabilir olacak",
         "requireAllValid": "Bu eylem tüm sayfalardaki tüm satırların geçerli olmasını gerektiriyor."
       }
     }
