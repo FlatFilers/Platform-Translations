@@ -189,7 +189,13 @@
         "onDragPopoverConfirmation": "Dropping file in:",
         "uploadComplete": "Uploaded: {{fileName}}",
         "uploadInProgress": "Uploading: {{fileName}}",
-        "uploadsDisabled": "This space does not currently support file uploads."
+        "uploadsDisabled": "This space does not currently support file uploads.",
+        "waitingForExtraction": "Waiting for file extraction...",
+        "extracting": "Extracting file...",
+        "unsupportedFile": "Unsupported file type. Try another file type or reach out to Support.",
+        "unsupportedFileInfo": "We did not detect data in this file. It's available for download if needed.",
+        "extractionFailed": "Extraction failed. Try again or reach out to Support.",
+        "extractionCompleted": "Extraction completed."
       }
     },
     "uploadsTables": {
