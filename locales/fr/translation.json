@@ -191,10 +191,16 @@
     "uploadFile": {
       "popovers": {
         "errorUploading": "Impossible de télécharger le fichier : {{fileName}}",
+        "extracting": "Extraction du fichier...",
+        "extractionCompleted": "Extraction terminée.",
+        "extractionFailed": "L'extraction a échoué. Réessayez ou contactez l'assistance.",
         "onDragPopoverConfirmation": "Déposer le fichier dans :",
+        "unsupportedFile": "Type de fichier non pris en charge. Essayez un autre type de fichier ou contactez l'assistance.",
+        "unsupportedFileInfo": "Nous n'avons pas détecté de données dans ce fichier. Il peut être téléchargé si nécessaire.",
         "uploadComplete": "Téléchargé : {{fileName}}",
         "uploadInProgress": "Téléchargement : {{fileName}}",
-        "uploadsDisabled": "Cet espace ne permet pas actuellement le téléchargement de fichiers."
+        "uploadsDisabled": "Cet espace ne permet pas actuellement le téléchargement de fichiers.",
+        "waitingForExtraction": "En attente de l'extraction du fichier..."
       }
     },
     "uploadsTables": {

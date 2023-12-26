@@ -186,16 +186,16 @@
     "uploadFile": {
       "popovers": {
         "errorUploading": "Unable to upload file: {{fileName}}",
+        "extracting": "Extracting file...",
+        "extractionCompleted": "Extraction completed.",
+        "extractionFailed": "Extraction failed. Try again or reach out to Support.",
         "onDragPopoverConfirmation": "Dropping file in:",
+        "unsupportedFile": "Unsupported file type. Try another file type or reach out to Support.",
+        "unsupportedFileInfo": "We did not detect data in this file. It's available for download if needed.",
         "uploadComplete": "Uploaded: {{fileName}}",
         "uploadInProgress": "Uploading: {{fileName}}",
         "uploadsDisabled": "This space does not currently support file uploads.",
-        "waitingForExtraction": "Waiting for file extraction...",
-        "extracting": "Extracting file...",
-        "unsupportedFile": "Unsupported file type. Try another file type or reach out to Support.",
-        "unsupportedFileInfo": "We did not detect data in this file. It's available for download if needed.",
-        "extractionFailed": "Extraction failed. Try again or reach out to Support.",
-        "extractionCompleted": "Extraction completed."
+        "waitingForExtraction": "Waiting for file extraction..."
       }
     },
     "uploadsTables": {

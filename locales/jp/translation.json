@@ -186,10 +186,16 @@
     "uploadFile": {
       "popovers": {
         "errorUploading": "以下のファイルをアップロードできません：{{fileName}}",
+        "extracting": "ファイルを抽出しています…",
+        "extractionCompleted": "抽出が完了しました。",
+        "extractionFailed": "抽出に失敗しました。再試行するか、サポートにお問い合わせください。",
         "onDragPopoverConfirmation": "ファイルをドロップ：",
+        "unsupportedFile": "サポートされていないファイル形式です。別のファイル形式を試すか、サポートにお問い合わせください。",
+        "unsupportedFileInfo": "このファイルのデータは検出されませんでした。必要に応じてダウンロードできます。",
         "uploadComplete": "アップロードされました：{{fileName}}",
         "uploadInProgress": "アップロード中：{{fileName}}",
-        "uploadsDisabled": "このスペースは現在、ファイルのアップロードをサポートしていません。"
+        "uploadsDisabled": "このスペースは現在、ファイルのアップロードをサポートしていません。",
+        "waitingForExtraction": "ファイルの抽出を待っています..."
       }
     },
     "uploadsTables": {

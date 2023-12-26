@@ -186,10 +186,16 @@
     "uploadFile": {
       "popovers": {
         "errorUploading": "无法上传文件：{{fileName}}",
+        "extracting": "正在提取文件……",
+        "extractionCompleted": "提取完成。",
+        "extractionFailed": "提取失败。请重试或联系客服人员。",
         "onDragPopoverConfirmation": "将文件拖放到：",
+        "unsupportedFile": "不支持的文件类型。尝试其他文件类型或联系客服人员。",
+        "unsupportedFileInfo": "我们没有检测到该文件中的数据。如果需要，您可以下载。",
         "uploadComplete": "已上传：{{fileName}}",
         "uploadInProgress": "正在上传：{{fileName}}",
-        "uploadsDisabled": "该空间目前不支持文件上传。"
+        "uploadsDisabled": "该空间目前不支持文件上传。",
+        "waitingForExtraction": "等待文件提取……"
       }
     },
     "uploadsTables": {

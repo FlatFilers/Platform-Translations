@@ -186,10 +186,16 @@
     "uploadFile": {
       "popovers": {
         "errorUploading": "Tidak dapat mengunggah file: {{fileName}}",
+        "extracting": "Mengekstrak file...",
+        "extractionCompleted": "Ekstraksi selesai.",
+        "extractionFailed": "Ekstraksi gagal. Coba lagi atau hubungi Dukungan.",
         "onDragPopoverConfirmation": "Jatuhkan berkas di:",
+        "unsupportedFile": "Jenis file tidak didukung. Coba jenis file lain atau hubungi Dukungan.",
+        "unsupportedFileInfo": "Kami tidak mendeteksi data dalam file ini. File tersebut tersedia untuk diunduh jika diperlukan.",
         "uploadComplete": "Diunggah: {{fileName}}",
         "uploadInProgress": "Mengunggah: {{fileName}}",
-        "uploadsDisabled": "Ruang ini saat ini tidak mendukung pengunggahan berkas."
+        "uploadsDisabled": "Ruang ini saat ini tidak mendukung pengunggahan berkas.",
+        "waitingForExtraction": "Menunggu ekstraksi file..."
       }
     },
     "uploadsTables": {

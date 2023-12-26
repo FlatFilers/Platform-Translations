@@ -191,10 +191,16 @@
     "uploadFile": {
       "popovers": {
         "errorUploading": "Dosya yüklenemiyor: {{fileName}}",
+        "extracting": "Dosya ayıklanıyor...",
+        "extractionCompleted": "Ayıklama tamamlandı.",
+        "extractionFailed": "Ayıklama başarısız. Tekrar deneyin veya Destek birimine ulaşın.",
         "onDragPopoverConfirmation": "Dosyayı bırakıyorum:",
+        "unsupportedFile": "Desteklenmeyen dosya türü. Başka bir dosya türü deneyin veya Destek birimine ulaşın.",
+        "unsupportedFileInfo": "Bu dosyada veri algılamadık. Dosya gerekirse indirmeye hazırdır.",
         "uploadComplete": "Yüklendi: {{fileName}}",
         "uploadInProgress": "Yükleniyor: {{fileName}}",
-        "uploadsDisabled": "Bu alan şu anda dosya yüklemelerini desteklemiyor."
+        "uploadsDisabled": "Bu alan şu anda dosya yüklemelerini desteklemiyor.",
+        "waitingForExtraction": "Dosya ayıklama bekleniyor..."
       }
     },
     "uploadsTables": {

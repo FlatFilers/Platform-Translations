@@ -186,10 +186,16 @@
     "uploadFile": {
       "popovers": {
         "errorUploading": "Không thể tải tệp lên: {{fileName}}",
+        "extracting": "Đang giải nén tệp...",
+        "extractionCompleted": "Giải nén hoàn tất.",
+        "extractionFailed": "Giải nén không thành công. Hãy thử lại hoặc liên hệ với bộ phận Hỗ trợ.",
         "onDragPopoverConfirmation": "Thả tệp vào:",
+        "unsupportedFile": "Loại tệp không được hỗ trợ. Hãy thử loại tệp khác hoặc liên hệ với bộ phận Hỗ trợ.",
+        "unsupportedFileInfo": "Chúng tôi không phát hiện thấy dữ liệu trong tệp này. Tệp đã sẵn sàng để tải xuống nếu cần.",
         "uploadComplete": "Đã tải lên: {{fileName}}",
         "uploadInProgress": "Đang tải lên: {{fileName}}",
-        "uploadsDisabled": "Không gian này hiện không hỗ trợ tải tệp lên."
+        "uploadsDisabled": "Không gian này hiện không hỗ trợ tải tệp lên.",
+        "waitingForExtraction": "Đang chờ giải nén tệp..."
       }
     },
     "uploadsTables": {

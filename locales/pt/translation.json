@@ -191,10 +191,16 @@
     "uploadFile": {
       "popovers": {
         "errorUploading": "Não foi possível carregar o ficheiro: {{fileName}}",
+        "extracting": "A extrair ficheiro...",
+        "extractionCompleted": "Extração concluída.",
+        "extractionFailed": "A extração falhou. Tente novamente ou contacte o apoio técnico.",
         "onDragPopoverConfirmation": "Soltar ficheiro em:",
+        "unsupportedFile": "Tipo de ficheiro não suportado. Experimente outro tipo de ficheiro ou contacte o apoio técnico.",
+        "unsupportedFileInfo": "Não detetámos dados neste ficheiro. Está disponível para descarregar, se necessário.",
         "uploadComplete": "Carregado: {{fileName}}",
         "uploadInProgress": "A carregar: {{fileName}}",
-        "uploadsDisabled": "Este espaço não suporta atualmente o carregamento de ficheiros."
+        "uploadsDisabled": "Este espaço não suporta atualmente o carregamento de ficheiros.",
+        "waitingForExtraction": "A aguardar a extração do ficheiro..."
       }
     },
     "uploadsTables": {

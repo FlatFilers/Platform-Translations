@@ -191,10 +191,16 @@
     "uploadFile": {
       "popovers": {
         "errorUploading": "Impossível fazer upload de arquivo: {{fileName}}",
+        "extracting": "Extraindo o arquivo...",
+        "extractionCompleted": "Extração finalizada.",
+        "extractionFailed": "Falha na extração. Tente novamente ou entre em contato com o suporte.",
         "onDragPopoverConfirmation": "Soltando arquivo em:",
+        "unsupportedFile": "Tipo de arquivo não suportado. Tente outro tipo de arquivo ou entre em contato com o Suporte.",
+        "unsupportedFileInfo": "Não detectamos dados nesse arquivo. Ele está disponível para ser baixado, se necessário.",
         "uploadComplete": "Carregado: {{fileName}}",
         "uploadInProgress": "Fazendo Upload: {{fileName}}",
-        "uploadsDisabled": "Este espaço atualmente não suporta envios de arquivos."
+        "uploadsDisabled": "Este espaço atualmente não suporta envios de arquivos.",
+        "waitingForExtraction": "Aguardando a extração do arquivo..."
       }
     },
     "uploadsTables": {

@@ -191,10 +191,16 @@
     "uploadFile": {
       "popovers": {
         "errorUploading": "No se puede subir el archivo: {{fileName}}",
+        "extracting": "Extrayendo archivo...",
+        "extractionCompleted": "Extracción completada.",
+        "extractionFailed": "Extracción errónea. Inténtalo de nuevo o contacta con el equipo de asistencia.",
         "onDragPopoverConfirmation": "Soltando archivo en:",
+        "unsupportedFile": "Tipo de archivo no compatible. Inténtalo con otro tipo de archivo o contacta con el equipo de asistencia.",
+        "unsupportedFileInfo": "No hemos detectado información en este archivo. Está disponible para descargar si es necesario.",
         "uploadComplete": "Subido: {{fileName}}",
         "uploadInProgress": "Subiendo: {{fileName}}",
-        "uploadsDisabled": "Este espacio no admite actualmente la subida de archivos."
+        "uploadsDisabled": "Este espacio no admite actualmente la subida de archivos.",
+        "waitingForExtraction": "Esperando a la extracción del archivo..."
       }
     },
     "uploadsTables": {

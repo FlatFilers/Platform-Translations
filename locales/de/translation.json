@@ -191,10 +191,16 @@
     "uploadFile": {
       "popovers": {
         "errorUploading": "Datei kann nicht hochgeladen werden: {{fileName}}",
+        "extracting": "Datei wird extrahiert",
+        "extractionCompleted": "Extraktion abgeschlossen.",
+        "extractionFailed": "Extraktion fehlgeschlagen. Versuchen Sie es erneut oder wenden Sie sich an den Support.",
         "onDragPopoverConfirmation": "Datei ablegen in:",
+        "unsupportedFile": "Nicht unterstützter Dateityp. Versuchen Sie einen anderen Dateityp oder wenden Sie sich an den Support.",
+        "unsupportedFileInfo": "Wir haben keine Daten in dieser Datei gefunden. Falls erforderlich, steht diese Datei zum Download bereit.",
         "uploadComplete": "Hochgeladen: {{fileName}}",
         "uploadInProgress": "Hochladen: {{fileName}}",
-        "uploadsDisabled": "Dieser Speicherort unterstützt derzeit keine Datei-Uploads."
+        "uploadsDisabled": "Dieser Speicherort unterstützt derzeit keine Datei-Uploads.",
+        "waitingForExtraction": "Auf Dateiextraktion warten"
       }
     },
     "uploadsTables": {
