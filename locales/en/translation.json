@@ -68,7 +68,11 @@
         "errorBanner": {
           "generalError": "Something went wrong. Please try again.",
           "readOnlyError": "This sheet is currently set to ‘Read-Only’ mode, which prevents any data transformation actions. Please ensure you have edit permissions or switch to a modifiable sheet to perform this operation.",
-          "versionError": "Unable to create a rollback version - AI transform aborted. Please try again."
+          "versionError": "Unable to create a rollback version - AI transform aborted. Please try again.",
+          "invalidFunctionError": "Sorry, the AI assistant is unable to perform that transformation. Most likely you asked it to do something invalid.",
+          "keysModifiedError": "Sorry, the AI assistant can only modify the values of existing fields. It cannot remove fields or add new ones.",
+          "generateMutationError": "Unable to reach the AI. Please try again later.",
+          "noFunctionError": "I didn't understand your request. Try phrasing it differently."
         },
         "instruction": "Describe how you'd like the AI assistant to transform your data:",
         "review": {
