@@ -787,7 +787,7 @@
           "filteredBySearchAndError": "Esta base de datos fue filtrada mediante una búsqueda y el filtro de error para mostrar {{filteredCount}} de los {{countString}} {{filter}} registros.",
           "inactiveCount": "{{countString}} {{filter}} registros {{filteredCount}} filtrados"
         },
-        "valid": "Validar"
+        "valid": "Válido"
       },
       "moreActions": {
         "buttonText": "Más acciones",
