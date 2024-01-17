@@ -67,6 +67,10 @@
         "description": "solicitar a la IA que transforme los datos",
         "errorBanner": {
           "generalError": "Algo ha ido mal. Vuelve a intentarlo.",
+          "generateMutationError": "No se ha podido contactar con la IA. Por favor, inténtelo más tarde.",
+          "invalidFunctionError": "Lo sentimos, el asistente por IA no puede realizar esa transformación. Lo más probable es que le hayas pedido que haga algo no válido.",
+          "keysModifiedError": "Lo sentimos, el asistente por IA solo puede modificar los valores de los campos existentes. No puede eliminar campos ni añadir otros nuevos.",
+          "noFunctionError": "No he entendido tu petición. Intenta formularla de manera diferente.",
           "readOnlyError": "Esta hoja está actualmente configurada en modo «Solo lectura», lo que impide cualquier acción de transformación de datos. Por favor, asegúrate de tener permisos de edición o cambia a una hoja modificable para realizar esta operación.",
           "versionError": "No se ha podido crear una versión de reversión - Transformación IIA cancelada. Vuelve a intentarlo."
         },
@@ -787,7 +791,7 @@
           "filteredBySearchAndError": "Esta base de datos fue filtrada mediante una búsqueda y el filtro de error para mostrar {{filteredCount}} de los {{countString}} {{filter}} registros.",
           "inactiveCount": "{{countString}} {{filter}} registros {{filteredCount}} filtrados"
         },
-        "valid": "Válido"
+        "valid": "Validar"
       },
       "moreActions": {
         "buttonText": "Más acciones",

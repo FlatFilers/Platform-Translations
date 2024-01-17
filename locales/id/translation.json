@@ -67,6 +67,10 @@
         "description": "minta AI untuk mentransformasi data Anda",
         "errorBanner": {
           "generalError": "Terjadi masalah. Silakan coba lagi.",
+          "generateMutationError": "Tidak dapat menghubungi AI. Silakan coba lagi nanti.",
+          "invalidFunctionError": "Maaf, asisten AI tidak dapat melakukan transformasi tersebut. Kemungkinan besar Anda memintanya untuk melakukan sesuatu yang tidak valid.",
+          "keysModifiedError": "Maaf, asisten AI hanya dapat mengubah nilai bidang yang sudah ada. Asisten AI tidak dapat menghapus bidang atau menambahkan bidang baru.",
+          "noFunctionError": "Saya tidak memahami permintaan Anda. Coba ucapkan dengan kalimat yang berbeda.",
           "readOnlyError": "Lembar ini saat ini diatur ke mode 'Hanya-Baca', yang mencegah tindakan transformasi data apa pun. Pastikan Anda memiliki izin untuk mengedit atau beralih ke lembar yang dapat dimodifikasi untuk melakukan operasi ini.",
           "versionError": "Tidak dapat membuat versi rollback - transformasi AI dibatalkan. Silakan coba lagi."
         },

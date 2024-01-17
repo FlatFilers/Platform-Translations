@@ -67,6 +67,10 @@
         "description": "Yapay zekâdan verilerinizi dönüştürmesini isteyin",
         "errorBanner": {
           "generalError": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+          "generateMutationError": "YZ'ye ulaşılamıyor. Lütfen daha sonra tekrar deneyin.",
+          "invalidFunctionError": "Maalesef YZ asistanı bu dönüşümü gerçekleştiremiyor. Büyük olasılıkla geçersiz bir şey yapmasını istediniz.",
+          "keysModifiedError": "Maalesef YZ asistanı yalnızca mevcut alanların değerlerini değiştirebilir. Alanları kaldıramaz veya yenilerini ekleyemez.",
+          "noFunctionError": "Talebinizi anlamadım. Farklı bir şekilde ifade etmeyi deneyin.",
           "readOnlyError": "Bu sayfa, şu anda \"Salt Okunur\" moduna ayarlı ve bu, herhangi bir veri dönüştürme işlemini engellemektedir. Bu işlemi gerçekleştirmek için lütfen düzenleme izinlerine sahip olduğunuza emin olun veya değiştirilebilir bir sayfaya geçin.",
           "versionError": "Bir geri alma sürümü oluşturulamıyor. Yapay zekâ destekli dönüştürme durduruldu. Lütfen tekrar deneyin."
         },

@@ -67,6 +67,10 @@
         "description": "peça que a IA transforme seus dados",
         "errorBanner": {
           "generalError": "Algo deu errado. Tente novamente.",
+          "generateMutationError": "Não foi possível entrar em contato com a IA. Tente novamente mais tarde.",
+          "invalidFunctionError": "Desculpe, o assistente de IA não pode realizar essa transformação. Provavelmente você solicitou que ele fizesse algo inválido.",
+          "keysModifiedError": "Desculpe, o assistente de IA só pode modificar os valores dos campos existentes. Ele não pode remover campos ou adicionar novos.",
+          "noFunctionError": "Não entendi sua solicitação. Tente dizer de outra forma.",
           "readOnlyError": "Esta planilha está atualmente configurada para o modo ‘Somente leitura’, o que impede qualquer alteração de dados. Certifique-se de ter permissões para edição ou altere para uma planilha editável para realizar esta ação.",
           "versionError": "Não foi possível criar uma versão de reversão - transformação de IA abortada. Tente novamente."
         },

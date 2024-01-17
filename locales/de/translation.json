@@ -67,6 +67,10 @@
         "description": "KI mit der Transformation Ihrer Daten beauftragen",
         "errorBanner": {
           "generalError": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+          "generateMutationError": "Die KI ist nicht erreichbar. Bitte versuchen Sie es später noch einmal.",
+          "invalidFunctionError": "Entschuldigung, der KI-Assistent kann diese Transformierung nicht durchführen. Wahrscheinlich haben Sie ihn aufgefordert, etwas Unzulässiges zu tun.",
+          "keysModifiedError": "Entschuldigung, der KI-Assistent kann nur die Werte existierender Felder modifizieren. Er kann keine Felder entfernen oder neue hinzufügen.",
+          "noFunctionError": "Ich habe Ihre Anfrage nicht verstanden. Versuchen Sie sie anders zu formulieren.",
           "readOnlyError": "Dieses Tabellenblatt ist derzeit auf den Nur-Lese-Modus eingestellt, weshalb an den Daten keine Änderungen vorgenommen werden können. Bitte vergewissern Sie sich, dass Sie über Bearbeitungsrechte verfügen, oder wechseln Sie zu einem bearbeitbaren Tabellenblatt, um diesen Vorgang durchzuführen.",
           "versionError": "Es kann keine Rollback-Version erstellt werden – KI-Transformation abgebrochen. Bitte versuchen Sie es erneut."
         },

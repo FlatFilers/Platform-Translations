@@ -67,6 +67,10 @@
         "description": "peça à IA para transformar os seus dados",
         "errorBanner": {
           "generalError": "Algo correu mal. Tente novamente.",
+          "generateMutationError": "Não é possível contactar a IA. Tente novamente mais tarde.",
+          "invalidFunctionError": "Lamentamos, mas o assistente de IA não pode efetuar essa transformação. O mais provável é que lhe tenha pedido para fazer algo inválido.",
+          "keysModifiedError": "Lamento, mas o assistente de IA só pode modificar os valores de campos existentes. Não pode remover campos ou adicionar novos.",
+          "noFunctionError": "Não percebi o seu pedido. Tente formulá-lo de forma diferente.",
           "readOnlyError": "Esta folha está atualmente definida para o modo \"Apenas leitura\", o que impede quaisquer ações de transformação de dados. Certifique-se de que tem permissões de edição ou mude para uma folha modificável para efetuar esta operação.",
           "versionError": "Não é possível criar uma versão de retorno - transformação IA abortada. Tente novamente."
         },
