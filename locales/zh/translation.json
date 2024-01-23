@@ -735,6 +735,7 @@
       },
       "customActionsDropdown": {
         "disabledTooltip": {
+          "hasData": "此操作将在该工作表上有至少一条记录后可用。",
           "requireAllValid": "该操作要求所有选定的行都有效",
           "requireSelection": "请选择一条或多条记录，以便使用该操作"
         }
@@ -784,6 +785,7 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "hasData": "此操作将在该工作簿上有至少一条记录后可用。",
         "lockedUntilHookCompletes": "所有钩子运行完成后即可进行此操作",
         "lockedUntilJobCompletes": "当前工作完成后即可进行此操作",
         "requireAllValid": "此操作要求所有工作表中的所有行都有效"

@@ -760,6 +760,7 @@
       },
       "customActionsDropdown": {
         "disabledTooltip": {
+          "hasData": "Esta ação estará disponível assim que houver pelo menos um registo nesta Folha.",
           "requireAllValid": "Esta ação requer que todas as linhas selecionadas sejam válidas",
           "requireSelection": "Selecione um ou mais registos para usar esta ação"
         }
@@ -809,6 +810,7 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "hasData": "Esta ação estará disponível assim que houver pelo menos um registo nesta Livro.",
         "lockedUntilHookCompletes": "Esta ação estará disponível depois de todos os ganchos terminarem a sua execução",
         "lockedUntilJobCompletes": "Esta ação estará disponível após a conclusão do trabalho atual",
         "requireAllValid": "Esta ação requer que todas as linhas em todas as folhas sejam válidas"

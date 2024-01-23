@@ -760,6 +760,7 @@
       },
       "customActionsDropdown": {
         "disabledTooltip": {
+          "hasData": "Bu eylem, bu Çalışma Sayfasında en az bir kayıt olduğunda geçerli olacaktır.",
           "requireAllValid": "Bu eylem, seçili tüm satırların geçerli olmasını gerektirir",
           "requireSelection": "Bu eylemi kullanması için lütfen bir veya daha fazla kayıt seçin"
         }
@@ -809,6 +810,7 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "hasData": "Bu eylem, bu Çalışma Kitabında en az bir kayıt olduğunda geçerli olacaktır.",
         "lockedUntilHookCompletes": "Bu eylem, tüm kancaların çalışması bittikten sonra kullanılabilir olacak",
         "lockedUntilJobCompletes": "Bu eylem, geçerli iş tamamlandıktan sonra kullanılabilir olacak",
         "requireAllValid": "Bu eylem tüm sayfalardaki tüm satırların geçerli olmasını gerektiriyor."

@@ -760,6 +760,7 @@
       },
       "customActionsDropdown": {
         "disabledTooltip": {
+          "hasData": "Diese Aktion ist verfügbar, sobald in dieser Tabelle mindestens ein Eintrag vorhanden ist.",
           "requireAllValid": "Für diese Aktion müssen alle ausgewählten Zeilen gültig sein",
           "requireSelection": "Für diese Aktion bitte einen oder mehrere Einträge auswählen"
         }
@@ -809,6 +810,7 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "hasData": "Diese Aktion ist verfügbar, sobald in dieser Arbeitsmappe mindestens ein Eintrag vorhanden ist.",
         "lockedUntilHookCompletes": "Diese Aktion ist verfügbar, nachdem alle Hooks ausgeführt wurden",
         "lockedUntilJobCompletes": "Diese Aktion ist verfügbar, wenn der aktuelle Auftrag abgeschlossen ist.",
         "requireAllValid": "Für diese Aktion müssen alle Zeilen in allen Blättern gültig sein"

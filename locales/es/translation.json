@@ -760,6 +760,7 @@
       },
       "customActionsDropdown": {
         "disabledTooltip": {
+          "hasData": "Esta acción estará disponible una vez que haya al menos un registro en esta hoja.",
           "requireAllValid": "Esta acción requiere que todas las filas seleccionadas sean válidas.",
           "requireSelection": "Seleccione uno o más registros para acceder a esta acción."
         }
@@ -809,6 +810,7 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "hasData": "Esta acción estará disponible una vez que haya al menos un registro en este libro.",
         "lockedUntilHookCompletes": "Esta acción estará disponible después de que todos los ganchos hayan terminado de ejecutarse.",
         "lockedUntilJobCompletes": "Esta acción estará disponible después de que el trabajo actual se complete.",
         "requireAllValid": "Esta acción requiere que todas las filas de todas las hojas sean válidas"

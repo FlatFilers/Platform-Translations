@@ -735,6 +735,7 @@
       },
       "customActionsDropdown": {
         "disabledTooltip": {
+          "hasData": "Bạn sẽ có thể thực hiện hành động này khi Bảng tính này có ít nhất một bản ghi.",
           "requireAllValid": "Hành động này đòi hỏi tất cả các hàng đã chọn phải hợp lệ",
           "requireSelection": "Vui lòng chọn một hoặc nhiều bản ghi để sử dụng hành động này"
         }
@@ -784,6 +785,7 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "hasData": "Bạn sẽ có thể thực hiện hành động này khi Sổ làm việc này có ít nhất một bản ghi.",
         "lockedUntilHookCompletes": "Hành động này sẽ khả dụng sau khi mọi hook đã chạy xong",
         "lockedUntilJobCompletes": "Hành động này sẽ khả dụng sau khi công việc hiện tại được hoàn tất",
         "requireAllValid": "Hành động này yêu cầu mọi hàng trong tất cả các trang tính phải hợp lệ"

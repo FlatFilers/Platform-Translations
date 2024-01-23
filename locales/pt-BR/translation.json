@@ -760,6 +760,7 @@
       },
       "customActionsDropdown": {
         "disabledTooltip": {
+          "hasData": "Esta ação estará disponível quando houver pelo menos um registro nesta Planilha.",
           "requireAllValid": "Esta ação requer que todas as linhas selecionadas sejam válidas",
           "requireSelection": "Por favor, selecione um ou mais registros para usar esta ação"
         }
@@ -809,6 +810,7 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "hasData": "Esta ação estará disponível quando houver pelo menos um registro nesta Pasta de Trabalho.",
         "lockedUntilHookCompletes": "Esta ação ficará disponível depois que todos os ganchos terminarem de rodar",
         "lockedUntilJobCompletes": "Esta ação ficará disponível depois que a tarefa atual for concluída",
         "requireAllValid": "Esta ação exige que todas as linhas de todas as planilhas sejam válidas"

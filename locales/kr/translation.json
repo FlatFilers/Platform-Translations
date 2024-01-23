@@ -735,6 +735,7 @@
       },
       "customActionsDropdown": {
         "disabledTooltip": {
+          "hasData": "이 작업은 이 시트에 하나 이상의 기록이 있는 경우 진행할 수 있습니다.",
           "requireAllValid": "이 실행을 하려면 선택한 모든 행이 유효해야 합니다",
           "requireSelection": "이 실행을 사용하려면 하나 이상의 기록을 선택하세요"
         }
@@ -784,6 +785,7 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "hasData": "이 작업은 이 통합 문서에 하나 이상의 기록이 있는 경우 진행할 수 있습니다.",
         "lockedUntilHookCompletes": "이 작업은 모든 후크가 실행을 마친 후에 실행할 수 있습니다.",
         "lockedUntilJobCompletes": "이 작업은 현재 작업이 완료된 후에 실행할 수 있습니다.",
         "requireAllValid": "이 작업을 수행하려면 모든 시트의 모든 행이 유효해야 합니다"

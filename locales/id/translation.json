@@ -735,6 +735,7 @@
       },
       "customActionsDropdown": {
         "disabledTooltip": {
+          "hasData": "Tindakan ini akan tersedia setelah ada setidaknya satu catatan di Lembar ini.",
           "requireAllValid": "Semua baris harus valid agar tindakan ini dapat dilakukan",
           "requireSelection": "Silakan pilih satu catatan atau lebih untuk menggunakan tindakan ini"
         }
@@ -784,6 +785,7 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "hasData": "Tindakan ini akan tersedia setelah ada setidaknya satu catatan di Buku Kerja ini.",
         "lockedUntilHookCompletes": "Tindakan ini akan tersedia setelah semua pengait selesai dijalankan",
         "lockedUntilJobCompletes": "Tindakan ini akan tersedia setelah pekerjaan saat ini selesai",
         "requireAllValid": "Tindakan ini mengharuskan semua baris di semua lembar valid"

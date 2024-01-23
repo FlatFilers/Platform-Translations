@@ -760,6 +760,7 @@
       },
       "customActionsDropdown": {
         "disabledTooltip": {
+          "hasData": "Cette action sera disponible dès lors qu'il y aura au moins un enregistrement sur cette feuille.",
           "requireAllValid": "Cette action nécessite que toutes les lignes sélectionnées soient valides",
           "requireSelection": "Veuillez sélectionner au moins un enregistrement pour utiliser cette action"
         }
@@ -809,6 +810,7 @@
     },
     "workbookActions": {
       "disabledTooltip": {
+        "hasData": "Cette action sera disponible dès lors qu'il y aura au moins un enregistrement dans ce classeur.",
         "lockedUntilHookCompletes": "Cette action sera disponible une fois que tous les hooks auront été exécutés",
         "lockedUntilJobCompletes": "Cette action sera disponible après la fin du travail en cours",
         "requireAllValid": "Cette action requiert que toutes les lignes de tous les tableurs soient valides."
