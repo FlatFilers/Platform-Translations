@@ -737,7 +737,8 @@
       "customActionsDropdown": {
         "disabledTooltip": {
           "requireAllValid": "This action requires all selected rows to be valid",
-          "requireSelection": "Please select one or more records to use this action"
+          "requireSelection": "Please select one or more records to use this action",
+          "hasData": "This action will be available once there is at least one record in this Sheet."
         }
       },
       "dropdown": {
@@ -787,7 +788,8 @@
       "disabledTooltip": {
         "lockedUntilHookCompletes": "This action will be available after all hooks finish running",
         "lockedUntilJobCompletes": "This action will be available after the current job completes",
-        "requireAllValid": "This action requires all rows in all sheets to be valid"
+        "requireAllValid": "This action requires all rows in all sheets to be valid",
+        "hasData": "This action will be available once there is at least one record in this Workbook."
       }
     }
   },
