@@ -792,19 +792,20 @@
       }
     }
   },
+
   "sidebar": {
-    "addConnection": "添加连接",
-    "checklist": "数据清单",
+    "addConnection": "添加呼噜朋友",
+    "checklist": "小猫玩耍清单",
     "connections": {
       "tooltips": {
-        "connectionError": "验证此工作簿连接的元数据时出现问题",
-        "connectionFresh": "通过 {{service}} 连接到 {{source}}",
-        "connectionStale": "上次与 {{source}} 同步已超过 24 小时"
+        "connectionError": "找不到猫薄荷！检查元数据连接。",
+        "connectionFresh": "最近通过{{service}}连接到{{source}}，就像猫追逐激光指针",
+        "connectionStale": "超过24小时未与{{source}}亲密接触，是时候拥抱了！"
       }
     },
-    "emptyWorkbook": "空工作簿",
-    "files": "文件",
-    "readOnlyIconTooltip": "此工作表为只读"
+    "emptyWorkbook": "这里没有小猫在玩耍",
+    "files": "抓板",
+    "readOnlyIconTooltip": "这张表单就像猫咪最喜欢的睡觉地点一样不可更改"
   },
   "snapshot": {
     "accept": {

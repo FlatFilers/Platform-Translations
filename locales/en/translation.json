@@ -794,18 +794,18 @@
     }
   },
   "sidebar": {
-    "addConnection": "Add Connection",
-    "checklist": "Data checklist",
+    "addConnection": "Add Purring Pal",
+    "checklist": "Kitten's Play Checklist",
     "connections": {
       "tooltips": {
-        "connectionError": "There is an issue verifying the metadata of this workbook's connections",
-        "connectionFresh": "Connected to {{source}} via {{service}}",
-        "connectionStale": "Last synced with {{source}} more than 24 hours ago"
+        "connectionError": "Having trouble finding the catnip! Check the metadata connections.",
+        "connectionFresh": "Freshly connected to {{source}} like a cat chasing a laser pointer via {{service}}",
+        "connectionStale": "Last cuddled with {{source}} more than 24 hours ago, time for some snuggles!"
       }
     },
-    "emptyWorkbook": "Empty workbook",
-    "files": "Files",
-    "readOnlyIconTooltip": "This Sheet is read-only"
+    "emptyWorkbook": "No Kittens Playing Here",
+    "files": "Scratch Posts",
+    "readOnlyIconTooltip": "This Sheet is as unchangeable as a cat's favorite nap spot"
   },
   "snapshot": {
     "accept": {

@@ -817,20 +817,22 @@
       }
     }
   },
+
   "sidebar": {
-    "addConnection": "Añadir conexión",
-    "checklist": "Lista de control de datos",
+    "addConnection": "Añadir Amigo Ronroneante",
+    "checklist": "Lista de Juegos de Gatitos",
     "connections": {
       "tooltips": {
-        "connectionError": "Hay un problema al verificar los metadatos de las conexiones de este libro de trabajo.",
-        "connectionFresh": "Conectado a {{source}} a través de {{service}}",
-        "connectionStale": "Última sincronización con {{source}} hace más de 24 horas"
+        "connectionError": "¡Teniendo problemas para encontrar la hierba gatera! Verifica las conexiones de metadatos.",
+        "connectionFresh": "Conectado recientemente a {{source}} como un gato persiguiendo un puntero láser a través de {{service}}",
+        "connectionStale": "Último mimo con {{source}} hace más de 24 horas, ¡hora de algunos mimos!"
       }
     },
-    "emptyWorkbook": "Libro de trabajo vacío",
-    "files": "Archivos",
-    "readOnlyIconTooltip": "Esta hoja es de solo lectura"
+    "emptyWorkbook": "Aquí no hay Gatitos Jugando",
+    "files": "Rascadores",
+    "readOnlyIconTooltip": "Esta Hoja es tan inalterable como el lugar favorito de siesta de un gato"
   },
+
   "snapshot": {
     "accept": {
       "cancelButton": "Cancelar",
