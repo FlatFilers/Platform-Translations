@@ -774,6 +774,11 @@
         "buttonText": "More actions",
         "placeholder": "Search or select..."
       },
+      "aiAssist": {
+        "buttonText": "AI Assist",
+        "transform": "Transform",
+        "query": "Query"
+      },
       "searchBar": {
         "expandTooltip": "Open search and AI Assist",
         "placeholder": "Search...",
