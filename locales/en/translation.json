@@ -449,7 +449,6 @@
   "sheet": {
     "columnManagement": {
       "errorColumnTooltip": "Filtering by this value will unhide this column",
-      "hideEmptyFields": "Hide columns with no data",
       "noFields": "no fields",
       "noMatches": "no matches",
       "placeholder_one": "Search or select from 1 field...",
