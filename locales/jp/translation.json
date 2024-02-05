@@ -670,6 +670,11 @@
         "buttonText": "アクション",
         "placeholder": "検索または選択..."
       },
+      "aiAssist": {
+        "buttonText": "AIアシスト",
+        "query": "クエリ",
+        "transform": "トランスフォーム"
+      },
       "buttons": {
         "delete": {
           "modal": {

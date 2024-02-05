@@ -670,6 +670,11 @@
         "buttonText": "操作",
         "placeholder": "搜索或选择……"
       },
+      "aiAssist": {
+        "buttonText": "人工智能辅助",
+        "query": "查询",
+        "transform": "转换"
+      },
       "buttons": {
         "delete": {
           "modal": {

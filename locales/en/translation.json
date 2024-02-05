@@ -671,6 +671,11 @@
         "buttonText": "Actions",
         "placeholder": "Search or select..."
       },
+      "aiAssist": {
+        "buttonText": "AI Assist",
+        "query": "Query",
+        "transform": "Transform"
+      },
       "buttons": {
         "delete": {
           "modal": {
@@ -773,11 +778,6 @@
       "moreActions": {
         "buttonText": "More actions",
         "placeholder": "Search or select..."
-      },
-      "aiAssist": {
-        "buttonText": "AI Assist",
-        "transform": "Transform",
-        "query": "Query"
       },
       "searchBar": {
         "expandTooltip": "Open search and AI Assist",

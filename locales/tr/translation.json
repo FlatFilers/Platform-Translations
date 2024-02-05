@@ -690,6 +690,11 @@
         "buttonText": "Eylemler",
         "placeholder": "Aratın veya seçin..."
       },
+      "aiAssist": {
+        "buttonText": "Yapay Zeka Desteği",
+        "query": "Soru",
+        "transform": "Dönüştür"
+      },
       "buttons": {
         "delete": {
           "modal": {

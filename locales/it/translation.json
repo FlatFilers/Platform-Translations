@@ -690,6 +690,11 @@
         "buttonText": "Azioni",
         "placeholder": "Cerca o seleziona..."
       },
+      "aiAssist": {
+        "buttonText": "Assistenza IA",
+        "query": "Richiesta",
+        "transform": "Trasforma"
+      },
       "buttons": {
         "delete": {
           "modal": {

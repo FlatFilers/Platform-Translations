@@ -670,6 +670,11 @@
         "buttonText": "Tindakan",
         "placeholder": "Cari atau pilih..."
       },
+      "aiAssist": {
+        "buttonText": "Bantuan AI",
+        "query": "Pertanyaan",
+        "transform": "Ubah"
+      },
       "buttons": {
         "delete": {
           "modal": {

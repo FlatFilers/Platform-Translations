@@ -690,6 +690,11 @@
         "buttonText": "Aktionen",
         "placeholder": "Suchen oder auswählen …"
       },
+      "aiAssist": {
+        "buttonText": "KI-Assistent",
+        "query": "Abfrage",
+        "transform": "Transformieren"
+      },
       "buttons": {
         "delete": {
           "modal": {

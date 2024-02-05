@@ -670,6 +670,11 @@
         "buttonText": "Hành động",
         "placeholder": "Tìm kiếm hoặc chọn..."
       },
+      "aiAssist": {
+        "buttonText": "Trợ giúp AI",
+        "query": "Yêu cầu",
+        "transform": "Chuyển hóa"
+      },
       "buttons": {
         "delete": {
           "modal": {
