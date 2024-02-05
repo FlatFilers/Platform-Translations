@@ -462,6 +462,7 @@
       "tooltip_one": "1 column hidden",
       "tooltip_other": "{{count}} columns hidden",
       "tooltip_zero": "Manage columns",
+      "clear_empty": "Clear empty columns",
       "unhideToast": {
         "message_one": "1 column was unhidden by this query",
         "message_other": "{{count}} columns were unhidden by this query"
