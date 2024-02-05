@@ -449,6 +449,7 @@
   "sheet": {
     "columnManagement": {
       "errorColumnTooltip": "按此值筛选将解除隐藏此列",
+      "hideEmptyFields": "隐藏没有数据的列",
       "noFields": "没有字段",
       "noMatches": "没有匹配项",
       "placeholder_other": "从 {{count}} 个字段中搜索或选择……",

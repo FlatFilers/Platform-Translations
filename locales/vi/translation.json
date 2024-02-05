@@ -449,6 +449,7 @@
   "sheet": {
     "columnManagement": {
       "errorColumnTooltip": "Việc lọc theo giá trị này sẽ hiển thị cột này",
+      "hideEmptyFields": "Ẩn các cột không chứa dữ liệu",
       "noFields": "không có miền nào",
       "noMatches": "không có kết quả trùng khớp",
       "placeholder_other": "Tìm kiếm hoặc chọn từ {{count}} miền...",

@@ -449,6 +449,7 @@
   "sheet": {
     "columnManagement": {
       "errorColumnTooltip": "この値でフィルタリングすると、この列が再表示されます",
+      "hideEmptyFields": "データのない列を隠す",
       "noFields": "フィールドがありません",
       "noMatches": "一致するものがありません",
       "placeholder_other": "{{count}} のフィールドを検索または選択...",

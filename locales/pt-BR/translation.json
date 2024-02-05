@@ -460,6 +460,7 @@
   "sheet": {
     "columnManagement": {
       "errorColumnTooltip": "Filtrar por esse valor irá exibir essa coluna",
+      "hideEmptyFields": "Ocultar colunas sem dados",
       "noFields": "sem campos",
       "noMatches": "sem correspondências",
       "placeholder_one": "Pesquise ou selecione do 1 campo...",

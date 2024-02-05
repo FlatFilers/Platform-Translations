@@ -460,6 +460,7 @@
   "sheet": {
     "columnManagement": {
       "errorColumnTooltip": "Diese Spalte wird nach dem Filtern nach diesem Wert nicht länger verborgen sein",
+      "hideEmptyFields": "Spalten ohne Daten ausblenden",
       "noFields": "keine Felder",
       "noMatches": "keine Treffer",
       "placeholder_one": "Aus 1 Feld auswählen oder durchsuchen …",

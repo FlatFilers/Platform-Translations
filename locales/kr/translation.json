@@ -449,6 +449,7 @@
   "sheet": {
     "columnManagement": {
       "errorColumnTooltip": "이 값으로 필터링하면 이 열이 숨김 해제됨",
+      "hideEmptyFields": "데이터가 없는 열 숨기기",
       "noFields": "필드 없음",
       "noMatches": "일치하는 결과 없음",
       "placeholder_other": "{{count}}개 필드에서 검색 또는 선택...",

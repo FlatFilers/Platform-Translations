@@ -460,6 +460,7 @@
   "sheet": {
     "columnManagement": {
       "errorColumnTooltip": "Bu değere göre filtrelemek bu sütunu gösterecek",
+      "hideEmptyFields": "Veri içermeyen sütunları gizle",
       "noFields": "alan yok",
       "noMatches": "eşleşme yok",
       "placeholder_one": "1 alanı ara veya alan arasından seçim yap...",

@@ -460,6 +460,7 @@
   "sheet": {
     "columnManagement": {
       "errorColumnTooltip": "Filtrando tramite questo valore mostrerà di nuovo questa colonna",
+      "hideEmptyFields": "Nascondi le colonne prive di dati",
       "noFields": "nessun campo",
       "noMatches": "nessuna corrispondenza",
       "placeholder_one": "Cerca o seleziona da un campo...",
