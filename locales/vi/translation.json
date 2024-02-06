@@ -448,6 +448,7 @@
   },
   "sheet": {
     "columnManagement": {
+      "clear_empty": "Xóa các cột trống",
       "errorColumnTooltip": "Việc lọc theo giá trị này sẽ hiển thị cột này",
       "hideEmptyFields": "Ẩn các cột không chứa dữ liệu",
       "noFields": "không có miền nào",

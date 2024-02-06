@@ -459,6 +459,7 @@
   },
   "sheet": {
     "columnManagement": {
+      "clear_empty": "Boş sütunları boşalt",
       "errorColumnTooltip": "Bu değere göre filtrelemek bu sütunu gösterecek",
       "hideEmptyFields": "Veri içermeyen sütunları gizle",
       "noFields": "alan yok",

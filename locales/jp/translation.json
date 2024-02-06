@@ -448,6 +448,7 @@
   },
   "sheet": {
     "columnManagement": {
+      "clear_empty": "空白列を消去",
       "errorColumnTooltip": "この値でフィルタリングすると、この列が再表示されます",
       "hideEmptyFields": "データのない列を隠す",
       "noFields": "フィールドがありません",

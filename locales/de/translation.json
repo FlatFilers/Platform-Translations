@@ -459,6 +459,7 @@
   },
   "sheet": {
     "columnManagement": {
+      "clear_empty": "Leere Spalten löschen",
       "errorColumnTooltip": "Diese Spalte wird nach dem Filtern nach diesem Wert nicht länger verborgen sein",
       "hideEmptyFields": "Spalten ohne Daten ausblenden",
       "noFields": "keine Felder",

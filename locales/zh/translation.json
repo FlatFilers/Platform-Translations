@@ -448,6 +448,7 @@
   },
   "sheet": {
     "columnManagement": {
+      "clear_empty": "清除空白列",
       "errorColumnTooltip": "按此值筛选将解除隐藏此列",
       "hideEmptyFields": "隐藏没有数据的列",
       "noFields": "没有字段",

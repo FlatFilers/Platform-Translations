@@ -459,6 +459,7 @@
   },
   "sheet": {
     "columnManagement": {
+      "clear_empty": "Limpar colunas vazias",
       "errorColumnTooltip": "Filtrar por este valor irá revelar esta coluna",
       "hideEmptyFields": "Ocultar colunas sem dados",
       "noFields": "sem campos",

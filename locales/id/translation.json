@@ -448,6 +448,7 @@
   },
   "sheet": {
     "columnManagement": {
+      "clear_empty": "Hapus kolom kosong",
       "errorColumnTooltip": "Memfilter berdasarkan nilai ini akan menampilkan kolom ini",
       "hideEmptyFields": "Sembunyikan kolom tanpa data",
       "noFields": "tak ada kolom",
