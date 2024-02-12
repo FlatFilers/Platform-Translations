@@ -280,6 +280,10 @@
     "errors": {
       "timeout": "El trabajo ha finalizado."
     },
+    "info": {
+      "copiedPopover": "Identificación del trabajo copiada",
+      "copyIdTooltip": "Copiar la identificación del trabajo"
+    },
     "panel": {
       "action": {
         "export": "Descargar",

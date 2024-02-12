@@ -275,6 +275,10 @@
     "errors": {
       "timeout": "Pekerjaan telah habis waktunya."
     },
+    "info": {
+      "copiedPopover": "ID Pekerjaan Disalin",
+      "copyIdTooltip": "Salin ID Pekerjaan"
+    },
     "panel": {
       "action": {
         "export": "Unduh",

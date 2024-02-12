@@ -280,6 +280,10 @@
     "errors": {
       "timeout": "İş zaman aşımına uğradı."
     },
+    "info": {
+      "copiedPopover": "İş ID'si Kopyalandı",
+      "copyIdTooltip": "İş ID'sini Kopyala"
+    },
     "panel": {
       "action": {
         "export": "İndir",

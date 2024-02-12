@@ -280,6 +280,10 @@
     "errors": {
       "timeout": "O trabalho expirou."
     },
+    "info": {
+      "copiedPopover": "ID de tarefa copiado",
+      "copyIdTooltip": "Copiar ID de tarefa"
+    },
     "panel": {
       "action": {
         "export": "Descarregar",

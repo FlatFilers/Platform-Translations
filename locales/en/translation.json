@@ -275,6 +275,10 @@
     "errors": {
       "timeout": "Job timed out."
     },
+    "info": {
+      "copiedPopover": "Copied Job ID",
+      "copyIdTooltip": "Copy Job ID"
+    },
     "panel": {
       "action": {
         "export": "Download",
@@ -363,10 +367,6 @@
           "inProgress": "Mapping..."
         }
       }
-    },
-    "info": {
-      "copiedPopover": "Copied Job ID",
-      "copyIdTooltip": "Copy Job ID"
     }
   },
   "mapping": {

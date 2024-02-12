@@ -280,6 +280,10 @@
     "errors": {
       "timeout": "Le travail a été interrompu."
     },
+    "info": {
+      "copiedPopover": "ID du travail copié",
+      "copyIdTooltip": "Copier l'ID du travail"
+    },
     "panel": {
       "action": {
         "export": "Télécharger",

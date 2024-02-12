@@ -275,6 +275,10 @@
     "errors": {
       "timeout": "ジョブがタイムアウトしました。"
     },
+    "info": {
+      "copiedPopover": "ジョブIDをコピーしました",
+      "copyIdTooltip": "ジョブIDのコピー"
+    },
     "panel": {
       "action": {
         "export": "ダウンロード",

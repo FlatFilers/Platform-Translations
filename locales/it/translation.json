@@ -280,6 +280,10 @@
     "errors": {
       "timeout": "lavoro scaduto."
     },
+    "info": {
+      "copiedPopover": "ID lavoro copiato",
+      "copyIdTooltip": "Copia ID lavoro"
+    },
     "panel": {
       "action": {
         "export": "Scarica",
