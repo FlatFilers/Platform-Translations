@@ -363,6 +363,10 @@
           "inProgress": "Mapping..."
         }
       }
+    },
+    "info": {
+      "copiedPopover": "Copied Job ID",
+      "copyIdTooltip": "Copy Job ID"
     }
   },
   "mapping": {
