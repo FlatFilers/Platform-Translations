@@ -128,6 +128,7 @@
     "fileNotFound": "File not found",
     "missingParameter": "Parameter not provided",
     "notFound": "Not found",
+    "notFoundPageDescription": "No page exists at this URL. If this is unexpected, please contact support.",
     "refreshButton": "Retry",
     "refreshPageDescription": "Refresh the page to try again. If the problem persists, contact support.",
     "sheetNotFound": "Sheet not found",
