@@ -129,6 +129,7 @@
     "fileNotFound": "Archivo no encontrado",
     "missingParameter": "Parámetro no proporcionado",
     "notFound": "No se ha encontrado",
+    "notFoundPageDescription": "No existe ninguna página en esta dirección URL. Si esto es inesperado, póngase en contacto con el servicio de asistencia.",
     "refreshButton": "Reintentar",
     "refreshPageDescription": "Actualice la página para volver a intentarlo. Si el problema persiste, póngase en contacto con el servicio de asistencia.",
     "sheetNotFound": "Hoja no encontrada",

@@ -129,6 +129,7 @@
     "fileNotFound": "Dosya bulunamadı",
     "missingParameter": "Parametre sağlanmadı",
     "notFound": "Bulunamadı",
+    "notFoundPageDescription": "Bu URL'de sayfa bulunmuyor. Bu beklenmedik bir durumsa lütfen destek ekibiyle iletişime geçin.",
     "refreshButton": "Yeniden dene",
     "refreshPageDescription": "Tekrar denemek için sayfayı yenileyin. Sorun devam ederse destek ekimize başvurun.",
     "sheetNotFound": "Çalışma sayfası bulunamadı",

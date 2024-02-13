@@ -128,6 +128,7 @@
     "fileNotFound": "ファイルが見つかりません",
     "missingParameter": "パラメータが提供されていません",
     "notFound": "見つかりません",
+    "notFoundPageDescription": "このURLにはページが存在しません。これが予期しないことである場合は、サポートにお問い合わせください。",
     "refreshButton": "再試行",
     "refreshPageDescription": "ページを更新して再試行してください。問題が解決しない場合は、サポートにお問い合わせください。",
     "sheetNotFound": "シートが見つかりません",

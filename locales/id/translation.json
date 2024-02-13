@@ -128,6 +128,7 @@
     "fileNotFound": "File tidak ditemukan",
     "missingParameter": "Parameter tidak diberikan",
     "notFound": "Tidak ditemukan",
+    "notFoundPageDescription": "Tidak ada halaman di URL ini. Jika ini tidak terduga, silakan hubungi bantuan.",
     "refreshButton": "Coba lagi",
     "refreshPageDescription": "Perbarui halaman untuk mencoba lagi. Jika masalah terus berlanjur, hubungi dukungan.",
     "sheetNotFound": "Lembar tidak ditemukan",

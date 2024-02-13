@@ -128,6 +128,7 @@
     "fileNotFound": "파일을 찾을 수 없음",
     "missingParameter": "매개변수가 제공되지 않음",
     "notFound": "찾을 수 없음",
+    "notFoundPageDescription": "이 URL 페이지는 존재하지 않습니다. 예상치 못한 결과인 경우 지원팀에 문의하세요.",
     "refreshButton": "재시도",
     "refreshPageDescription": "페이지를 새로고침해 다시 시도하세요. 문제가 계속 발생할 경우 지원팀에 문의하세요.",
     "sheetNotFound": "시트를 찾을 수 없음",

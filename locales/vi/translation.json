@@ -128,6 +128,7 @@
     "fileNotFound": "Không tìm thấy tệp",
     "missingParameter": "Chưa cung cấp tham số",
     "notFound": "Không tìm thấy",
+    "notFoundPageDescription": "Không có trang nào tồn tại tại URL này. Nếu đây là vấn đề ngoài dự kiến, vui lòng liên hệ bộ phận hỗ trợ.",
     "refreshButton": "Thử lại",
     "refreshPageDescription": "Làm mới trang để thử lại. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với bộ phận hỗ trợ.",
     "sheetNotFound": "Không tìm thấy trang tính",

@@ -128,6 +128,7 @@
     "fileNotFound": "未找到文件",
     "missingParameter": "未提供参数",
     "notFound": "未找到",
+    "notFoundPageDescription": "此 URL 上不存在任何页面。如果这是意外情况，请联系支持人员。",
     "refreshButton": "重试",
     "refreshPageDescription": "刷新页面重试。如果问题仍然存在，请联系支持人员。",
     "sheetNotFound": "未找到工作表",
