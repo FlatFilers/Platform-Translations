@@ -131,6 +131,7 @@
     "notFoundPageDescription": "このURLにはページが存在しません。これが予期しないことである場合は、サポートにお問い合わせください。",
     "refreshButton": "再試行",
     "refreshPageDescription": "ページを更新して再試行してください。問題が解決しない場合は、サポートにお問い合わせください。",
+    "sessionExpired": "セッションは期限切れとなりました",
     "sheetNotFound": "シートが見つかりません",
     "spaceNotFound": "スペースが見つかりません",
     "unauthorized": "アクセス資格情報が無効です。",

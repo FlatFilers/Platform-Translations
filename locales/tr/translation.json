@@ -132,6 +132,7 @@
     "notFoundPageDescription": "Bu URL'de sayfa bulunmuyor. Bu beklenmedik bir durumsa lütfen destek ekibiyle iletişime geçin.",
     "refreshButton": "Yeniden dene",
     "refreshPageDescription": "Tekrar denemek için sayfayı yenileyin. Sorun devam ederse destek ekimize başvurun.",
+    "sessionExpired": "Oturumun süresi doldu",
     "sheetNotFound": "Çalışma sayfası bulunamadı",
     "spaceNotFound": "Alan bulunamadı",
     "unauthorized": "Erişim bilgileriniz geçersiz.",

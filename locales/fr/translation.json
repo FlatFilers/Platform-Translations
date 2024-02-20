@@ -132,6 +132,7 @@
     "notFoundPageDescription": "Aucune page n'existe à cette URL. Si ce résultat est inattendu, veuillez contacter le service d'assistance.",
     "refreshButton": "Réessayer",
     "refreshPageDescription": "Actualiser la page pour réessayer. Si le problème persiste, contactez l'assistance.",
+    "sessionExpired": "La session a expiré",
     "sheetNotFound": "Feuille introuvable",
     "spaceNotFound": "Espace introuvable",
     "unauthorized": "Vos identifiants de connexion sont incorrects.",

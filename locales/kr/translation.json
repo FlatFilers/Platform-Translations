@@ -131,6 +131,7 @@
     "notFoundPageDescription": "이 URL 페이지는 존재하지 않습니다. 예상치 못한 결과인 경우 지원팀에 문의하세요.",
     "refreshButton": "재시도",
     "refreshPageDescription": "페이지를 새로고침해 다시 시도하세요. 문제가 계속 발생할 경우 지원팀에 문의하세요.",
+    "sessionExpired": "세션이 만료됨",
     "sheetNotFound": "시트를 찾을 수 없음",
     "spaceNotFound": "공간을 찾을 수 없음",
     "unauthorized": "액세스 자격 증명이 유효하지 않습니다.",

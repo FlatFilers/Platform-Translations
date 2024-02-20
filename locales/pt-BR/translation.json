@@ -132,6 +132,7 @@
     "notFoundPageDescription": "Não existe nenhuma página neste URL. Se isto for inesperado, entre em contato com o suporte.",
     "refreshButton": "Tentar novamente",
     "refreshPageDescription": "Atualize a página para tentar novamente. Se o problema persistir, entre em contato com o suporte.",
+    "sessionExpired": "A sessão expirou",
     "sheetNotFound": "Planilha não encontrada",
     "spaceNotFound": "Espaço não encontrado",
     "unauthorized": "Suas credenciais de acesso são inválidas.",
