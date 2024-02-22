@@ -400,12 +400,9 @@
         "noData": "Cellules vides",
         "noDataTooltip": "Vous pouvez sélectionner une option valide pour remplir toutes les cellules vides. Vous pouvez également laisser ce champ vide."
       },
-      "progressPill_one": "{{mappedCount}} de {{totalCount}} valeur mise en correspondance",
-      "progressPill_other": "{{mappedCount}} de {{totalCount}} valeurs mises en correspondance",
-      "progressPill_zero": "{{mappedCount}} de {{totalCount}} valeurs mises en correspondance",
-      "progressPillAllMapped_one": "{{totalCount}} valeurs mises en correspondance",
-      "progressPillAllMapped_other": "{{totalCount}} valeur mise en correspondance",
-      "progressPillAllMapped_zero": "{{totalCount}} valeur mise en correspondance",
+      "progressPill_one": "{{mappedCount}} de {{count}} valeur mise en correspondance",
+      "progressPill_other": "{{mappedCount}} de {{count}} valeurs mises en correspondance",
+      "progressPill_zero": "{{mappedCount}} de {{count}} valeurs mises en correspondance",
       "subheading": "Ces champs contiennent des valeurs qui doivent être mises en correspondance avec une liste d'options valides.",
       "title": "Mettre les champs en correspondance"
     },

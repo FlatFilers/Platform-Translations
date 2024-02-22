@@ -395,10 +395,8 @@
         "noData": "无数据的单元格",
         "noDataTooltip": "您可以选择一个有效的选项来填充所有空白单元格。您也可以将此项留空。"
       },
-      "progressPill_other": "已映射的{{totalCount}}个值中的{{mappedCount}}",
-      "progressPill_zero": "已映射的{{totalCount}}个值中的{{mappedCount}}",
-      "progressPillAllMapped_other": "已映射的{{totalCount}}个值",
-      "progressPillAllMapped_zero": "已映射的{{totalCount}}个值",
+      "progressPill_other": "已映射的{{count}}个值中的{{mappedCount}}",
+      "progressPill_zero": "已映射的{{count}}个值中的{{mappedCount}}",
       "subheading": "这些字段的值必须映射到有效选项的列表中。",
       "title": "映射字段"
     },

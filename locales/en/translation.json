@@ -376,6 +376,9 @@
       "heading": "Data preview for {{previewKey}}",
       "noData": "No preview data"
     },
+    "dropdown": {
+      "placeholder": "Select..."
+    },
     "headerButtons": {
       "back": "Back",
       "exit": "Exit",
@@ -395,10 +398,8 @@
         "noData": "Cells with no data",
         "noDataTooltip": "You can select a valid option to populate all empty cells. You can also leave this blank."
       },
-      "progressPill_one": "{{mappedCount}} of {{totalCount}} value mapped",
-      "progressPill_other": "{{mappedCount}} of {{totalCount}} values mapped",
-      "progressPillAllMapped_one": "{{totalCount}} values mapped",
-      "progressPillAllMapped_other": "{{totalCount}} value mapped",
+      "progressPill_one": "{{mappedCount}} of {{count}} value mapped",
+      "progressPill_other": "{{mappedCount}} of {{count}} values mapped",
       "subheading": "These fields have values that must be mapped to a list of valid options.",
       "title": "Map Fields"
     },
@@ -542,7 +543,8 @@
           "reference": "Value does not exist in the reference table",
           "req": "{{field}} is required",
           "transformed": "🪄️ Transformed from {{originalValue}}",
-          "unique": "Value is not unique"
+          "unique": "Value is not unique",
+          "compositeUnique": "🧑‍🍳 Composite {{name}} is not unique"
         }
       },
       "contextMenu": {

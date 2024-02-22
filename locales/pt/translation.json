@@ -400,12 +400,9 @@
         "noData": "Células sem dados",
         "noDataTooltip": "Pode selecionar uma opção válida para popular todas as células em branco. Pode também deixá-la em branco."
       },
-      "progressPill_one": "{{mappedCount}} de {{totalCount}} valor mapeado",
-      "progressPill_other": "{{mappedCount}} de {{totalCount}} valores mapeados",
-      "progressPill_zero": "{{mappedCount}} de {{totalCount}} valores mapeados",
-      "progressPillAllMapped_one": "{{totalCount}} valores mapeados",
-      "progressPillAllMapped_other": "{{totalCount}} valor mapeado",
-      "progressPillAllMapped_zero": "{{totalCount}} valor mapeado",
+      "progressPill_one": "{{mappedCount}} de {{count}} valor mapeado",
+      "progressPill_other": "{{mappedCount}} de {{count}} valores mapeados",
+      "progressPill_zero": "{{mappedCount}} de {{count}} valores mapeados",
       "subheading": "Estes campos têm valores que têm de ser mapeados para uma lista de opções válidas.",
       "title": "Campos do Mapa"
     },

@@ -400,12 +400,9 @@
         "noData": "Celdas sin datos",
         "noDataTooltip": "Puede seleccionar una opción válida para rellenar todas las celdas vacías. También puede dejarlo en blanco."
       },
-      "progressPill_one": "{{mappedCount}} de {{totalCount}} valores asignados",
-      "progressPill_other": "{{mappedCount}} de {{totalCount}} valores asignados",
-      "progressPill_zero": "{{mappedCount}} de {{totalCount}} valores asignados",
-      "progressPillAllMapped_one": "{{totalCount}} valores asignados",
-      "progressPillAllMapped_other": "{{totalCount}} valor asignado",
-      "progressPillAllMapped_zero": "{{totalCount}} value mapped",
+      "progressPill_one": "{{mappedCount}} de {{count}} valores asignados",
+      "progressPill_other": "{{mappedCount}} de {{count}} valores asignados",
+      "progressPill_zero": "{{mappedCount}} de {{count}} valores asignados",
       "subheading": "Estos campos tienen valores que se deben asignar a una lista de opciones válidas.",
       "title": "Campos del mapa"
     },

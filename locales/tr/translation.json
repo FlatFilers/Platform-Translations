@@ -400,12 +400,9 @@
         "noData": "Veri içermeyen hücreler",
         "noDataTooltip": "Tüm boş hücreleri doldurmak için geçerli bir seçenek belirleyebilirsiniz. Burayı boş da bırakabilirsiniz."
       },
-      "progressPill_one": "{{mappedCount}} / {{totalCount}} değer eşlendi",
-      "progressPill_other": "{{mappedCount}} / {{totalCount}} değer eşlendi",
-      "progressPill_zero": "{{mappedCount}} / {{totalCount}} değer eşlendi",
-      "progressPillAllMapped_one": "{{totalCount}} değer eşlendi",
-      "progressPillAllMapped_other": "{{totalCount}} değer eşlendi",
-      "progressPillAllMapped_zero": "{{totalCount}} değer eşlendi",
+      "progressPill_one": "{{mappedCount}} / {{count}} değer eşlendi",
+      "progressPill_other": "{{mappedCount}} / {{count}} değer eşlendi",
+      "progressPill_zero": "{{mappedCount}} / {{count}} değer eşlendi",
       "subheading": "Bu alanlar, geçerli seçenekler listesiyle eşleştirilmesi gereken değerlere sahip.",
       "title": "Harita Alanları"
     },

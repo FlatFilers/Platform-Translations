@@ -400,12 +400,9 @@
         "noData": "Zellen ohne Daten",
         "noDataTooltip": "Sie können eine gültige Option auswählen, um alle leeren Zellen auszufüllen. Dieses Feld kann auch leer gelassen werden."
       },
-      "progressPill_one": "{{mappedCount}} von {{totalCount}} Wert zugeordnet",
-      "progressPill_other": "{{mappedCount}} von {{totalCount}} Werten zugeordnet",
-      "progressPill_zero": "{{mappedCount}} von {{totalCount}} Werten zugeordnet",
-      "progressPillAllMapped_one": "{{totalCount}} Werte zugeordnet",
-      "progressPillAllMapped_other": "{{totalCount}} Wert zugeordnet",
-      "progressPillAllMapped_zero": "{{totalCount}} Wert zugeordnet",
+      "progressPill_one": "{{mappedCount}} von {{count}} Wert zugeordnet",
+      "progressPill_other": "{{mappedCount}} von {{count}} Werten zugeordnet",
+      "progressPill_zero": "{{mappedCount}} von {{count}} Werten zugeordnet",
       "subheading": "Diese Felder haben Werte, die einer Liste gültiger Optionen zugeordnet werden müssen.",
       "title": "Felder zuordnen"
     },
