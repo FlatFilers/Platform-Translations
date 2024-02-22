@@ -794,7 +794,8 @@
       },
       "tooltips": {
         "lockedUntilHookCompletes": "The toolbar will be available after all hooks finish running",
-        "lockedUntilJobCompletes": "The toolbar will be available after the current job completes"
+        "lockedUntilJobCompletes": "The toolbar will be available after the current job completes",
+        "lockedUntilEditingCompletes": "The toolbar will be available when the sheet is no longer being edited"
       }
     },
     "workbookActions": {
@@ -802,6 +803,7 @@
         "hasData": "This action will be available once there is at least one record in this Workbook.",
         "lockedUntilHookCompletes": "This action will be available after all hooks finish running",
         "lockedUntilJobCompletes": "This action will be available after the current job completes",
+        "lockedUntilEditingCompletes": "The action will be available when the sheet is no longer being edited",
         "requireAllValid": "This action requires all rows in all sheets to be valid"
       }
     }
