@@ -381,6 +381,9 @@
       "heading": "{{previewKey}} için veri önizlemesi",
       "noData": "Önizleme verisi yok"
     },
+    "dropdown": {
+      "placeholder": "Seç..."
+    },
     "headerButtons": {
       "back": "Geri",
       "exit": "Çık",
@@ -400,9 +403,12 @@
         "noData": "Veri içermeyen hücreler",
         "noDataTooltip": "Tüm boş hücreleri doldurmak için geçerli bir seçenek belirleyebilirsiniz. Burayı boş da bırakabilirsiniz."
       },
-      "progressPill_one": "{{mappedCount}} / {{count}} değer eşlendi",
-      "progressPill_other": "{{mappedCount}} / {{count}} değer eşlendi",
-      "progressPill_zero": "{{mappedCount}} / {{count}} değer eşlendi",
+      "progressPill_one": "{{mappedCount}} / {{totalCount}} değer eşlendi",
+      "progressPill_other": "{{mappedCount}} / {{totalCount}} değer eşlendi",
+      "progressPill_zero": "{{mappedCount}} / {{totalCount}} değer eşlendi",
+      "progressPillAllMapped_one": "{{totalCount}} değer eşlendi",
+      "progressPillAllMapped_other": "{{totalCount}} değer eşlendi",
+      "progressPillAllMapped_zero": "{{totalCount}} değer eşlendi",
       "subheading": "Bu alanlar, geçerli seçenekler listesiyle eşleştirilmesi gereken değerlere sahip.",
       "title": "Harita Alanları"
     },
@@ -552,6 +558,7 @@
         },
         "messages": {
           "autogen": "✨ Otomatik olarak oluşturuldu",
+          "compositeUnique": "🧑‍🍳 Kompozit {{name}} benzersiz değil",
           "reference": "Değer, referans tablosunda mevcut değil",
           "req": "{{field}} gereklidir",
           "transformed": "🪄️ {{originalValue}} değerinden dönüştürüldü",
@@ -814,6 +821,7 @@
         "tooltip": "Aramak için enter tuşuna basın"
       },
       "tooltips": {
+        "lockedUntilEditingCompletes": "Araç çubuğu, sayfa artık düzenlenmediğinde kullanılabilir olacaktır",
         "lockedUntilHookCompletes": "Araç çubuğu tüm kancaların çalışması bittikten sonra kullanılabilir olacaktır",
         "lockedUntilJobCompletes": "Araç çubuğu mevcut iş tamamlandıktan sonra kullanılabilir olacaktır"
       }
@@ -821,6 +829,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "Bu eylem, bu Çalışma Kitabında en az bir kayıt olduğunda geçerli olacaktır.",
+        "lockedUntilEditingCompletes": "Eylem, sayfa artık düzenlenmediğinde kullanılabilir olacaktır",
         "lockedUntilHookCompletes": "Bu eylem, tüm kancaların çalışması bittikten sonra kullanılabilir olacak",
         "lockedUntilJobCompletes": "Bu eylem, geçerli iş tamamlandıktan sonra kullanılabilir olacak",
         "requireAllValid": "Bu eylem tüm sayfalardaki tüm satırların geçerli olmasını gerektiriyor."

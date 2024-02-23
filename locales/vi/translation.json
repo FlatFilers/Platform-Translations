@@ -376,6 +376,9 @@
       "heading": "Bản xem trước dữ liệu cho {{previewKey}}",
       "noData": "Không có dữ liệu xem trước"
     },
+    "dropdown": {
+      "placeholder": "Chọn..."
+    },
     "headerButtons": {
       "back": "Quay lại",
       "exit": "Thoát",
@@ -395,8 +398,10 @@
         "noData": "Ô không có dữ liệu",
         "noDataTooltip": "Bạn có thể chọn một tùy chọn hợp lệ để điền vào tất cả các ô trống. Bạn cũng có thể để trống phần này."
       },
-      "progressPill_other": "Đã ánh xạ {{mappedCount}} trên {{count}} giá trị",
-      "progressPill_zero": "Đã ánh xạ {{mappedCount}} trên {{count}} giá trị",
+      "progressPill_other": "Đã ánh xạ {{mappedCount}} trên {{totalCount}} giá trị",
+      "progressPill_zero": "Đã ánh xạ {{mappedCount}} trên {{totalCount}} giá trị",
+      "progressPillAllMapped_other": "Đã ánh xạ {{totalCount}} giá trị",
+      "progressPillAllMapped_zero": "Đã ánh xạ {{totalCount}} giá trị",
       "subheading": "Những trường dữ liệu này có giá trị phải được ánh xạ tới danh sách các tùy chọn hợp lệ.",
       "title": "Ánh xạ Trường dữ liệu"
     },
@@ -536,6 +541,7 @@
         },
         "messages": {
           "autogen": "✨ Được tạo tự động",
+          "compositeUnique": "🧑‍🍳 Hỗn hợp {{name}} không độc nhất",
           "reference": "Giá trị không tồn tại trong bảng tham chiếu",
           "req": "{{field}} là nội dung bắt buộc",
           "transformed": "🪄️ Được biến đổi từ {{originalValue}}",
@@ -790,6 +796,7 @@
         "tooltip": "Nhấn enter để tìm kiếm"
       },
       "tooltips": {
+        "lockedUntilEditingCompletes": "Thanh công cụ sẽ khả dụng khi bạn ngừng chỉnh sửa trang tính",
         "lockedUntilHookCompletes": "Thanh công cụ sẽ khả dụng sau khi tất cả các hook chạy xong",
         "lockedUntilJobCompletes": "Thanh công cụ sẽ khả dụng sau khi công việc hiện tại hoàn thành"
       }
@@ -797,6 +804,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "Bạn sẽ có thể thực hiện hành động này khi Sổ làm việc này có ít nhất một bản ghi.",
+        "lockedUntilEditingCompletes": "Hành động sẽ khả dụng khi bạn ngừng chỉnh sửa trang tính",
         "lockedUntilHookCompletes": "Hành động này sẽ khả dụng sau khi mọi hook đã chạy xong",
         "lockedUntilJobCompletes": "Hành động này sẽ khả dụng sau khi công việc hiện tại được hoàn tất",
         "requireAllValid": "Hành động này yêu cầu mọi hàng trong tất cả các trang tính phải hợp lệ"

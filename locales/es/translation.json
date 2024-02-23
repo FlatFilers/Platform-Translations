@@ -381,6 +381,9 @@
       "heading": "Vista previa de los datos para {{previewKey}}",
       "noData": "Sin datos previos"
     },
+    "dropdown": {
+      "placeholder": "Seleccionar..."
+    },
     "headerButtons": {
       "back": "Atrás",
       "exit": "Salir",
@@ -400,9 +403,12 @@
         "noData": "Celdas sin datos",
         "noDataTooltip": "Puede seleccionar una opción válida para rellenar todas las celdas vacías. También puede dejarlo en blanco."
       },
-      "progressPill_one": "{{mappedCount}} de {{count}} valores asignados",
-      "progressPill_other": "{{mappedCount}} de {{count}} valores asignados",
-      "progressPill_zero": "{{mappedCount}} de {{count}} valores asignados",
+      "progressPill_one": "{{mappedCount}} de {{totalCount}} valores asignados",
+      "progressPill_other": "{{mappedCount}} de {{totalCount}} valores asignados",
+      "progressPill_zero": "{{mappedCount}} de {{totalCount}} valores asignados",
+      "progressPillAllMapped_one": "{{totalCount}} valores asignados",
+      "progressPillAllMapped_other": "{{totalCount}} valor asignado",
+      "progressPillAllMapped_zero": "{{totalCount}} value mapped",
       "subheading": "Estos campos tienen valores que se deben asignar a una lista de opciones válidas.",
       "title": "Campos del mapa"
     },
@@ -552,6 +558,7 @@
         },
         "messages": {
           "autogen": "✨ Generado automáticamente",
+          "compositeUnique": "🧑‍🍳 Compuesto {{name}} no es único",
           "reference": "Ese valor no existe en la tabla de referencia.",
           "req": "Se requiere {{field}}.",
           "transformed": "🪄️ Transformado desde {{originalValue}}",
@@ -814,6 +821,7 @@
         "tooltip": "Pulse enter para buscar."
       },
       "tooltips": {
+        "lockedUntilEditingCompletes": "La barra de herramientas estará disponible cuando la hoja ya no se esté editando",
         "lockedUntilHookCompletes": "La barra de herramientas estará disponible después de que todos los ganchos terminen de ejecutarse.",
         "lockedUntilJobCompletes": "La barra de herramientas estará disponible después de completarse el trabajo actual"
       }
@@ -821,6 +829,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "Esta acción estará disponible una vez que haya al menos un registro en este libro.",
+        "lockedUntilEditingCompletes": "La acción estará disponible cuando la hoja ya no se esté editando",
         "lockedUntilHookCompletes": "Esta acción estará disponible después de que todos los ganchos hayan terminado de ejecutarse.",
         "lockedUntilJobCompletes": "Esta acción estará disponible después de que el trabajo actual se complete.",
         "requireAllValid": "Esta acción requiere que todas las filas de todas las hojas sean válidas"

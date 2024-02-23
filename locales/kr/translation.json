@@ -376,6 +376,9 @@
       "heading": "{{previewKey}}에 대한 데이터 미리보기",
       "noData": "미리보기 데이터 없음"
     },
+    "dropdown": {
+      "placeholder": "선택..."
+    },
     "headerButtons": {
       "back": "뒤로가기",
       "exit": "나가기",
@@ -395,8 +398,10 @@
         "noData": "데이터가 없는 셀",
         "noDataTooltip": "유효한 옵션을 선택해 빈 셀을 모두 채울 수 있습니다. 비워 둘 수도 있습니다."
       },
-      "progressPill_other": "값 {{count}}개 중 {{mappedCount}}개 매핑됨",
-      "progressPill_zero": "값 {{count}}개 중 {{mappedCount}}개 매핑됨",
+      "progressPill_other": "값 {{totalCount}}개 중 {{mappedCount}}개 매핑됨",
+      "progressPill_zero": "값 {{totalCount}}개 중 {{mappedCount}}개 매핑됨",
+      "progressPillAllMapped_other": "값 {{totalCount}}개 매핑됨",
+      "progressPillAllMapped_zero": "값 {{totalCount}}개 매핑됨",
       "subheading": "이러한 필드에는 유효한 옵션 목록에 매핑되어야 하는 값이 있습니다.",
       "title": "필드 매핑"
     },
@@ -536,6 +541,7 @@
         },
         "messages": {
           "autogen": "✨ 자동으로 생성됨",
+          "compositeUnique": "🧑‍🍳 복합 {{name}}(이)가 고유하지 않습니다.",
           "reference": "참조 표에 값이 존재하지 않습니다",
           "req": "{{field}} 필수",
           "transformed": "🪄️ {{originalValue}}에서 변환됨",
@@ -790,6 +796,7 @@
         "tooltip": "Enter 키를 눌러 검색"
       },
       "tooltips": {
+        "lockedUntilEditingCompletes": "시트가 더 이상 편집되지 않으면 도구 모음을 사용할 수 있습니다.",
         "lockedUntilHookCompletes": "모든 후크 실행이 끝나면 도구 모음을 사용할 수 있습니다",
         "lockedUntilJobCompletes": "현재 작업이 완료된 후 도구 모음을 사용할 수 있습니다"
       }
@@ -797,6 +804,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "이 작업은 이 통합 문서에 하나 이상의 기록이 있는 경우 진행할 수 있습니다.",
+        "lockedUntilEditingCompletes": "시트가 더 이상 편집되지 않으면 작업을 사용할 수 있습니다.",
         "lockedUntilHookCompletes": "이 작업은 모든 후크가 실행을 마친 후에 실행할 수 있습니다.",
         "lockedUntilJobCompletes": "이 작업은 현재 작업이 완료된 후에 실행할 수 있습니다.",
         "requireAllValid": "이 작업을 수행하려면 모든 시트의 모든 행이 유효해야 합니다"

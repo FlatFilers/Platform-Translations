@@ -381,6 +381,9 @@
       "heading": "Pré-visualização de dados para {{previewKey}}",
       "noData": "Sem dados para pré-visualização"
     },
+    "dropdown": {
+      "placeholder": "Selecionar..."
+    },
     "headerButtons": {
       "back": "Anterior",
       "exit": "Sair",
@@ -400,9 +403,12 @@
         "noData": "Células sem dados",
         "noDataTooltip": "Pode selecionar uma opção válida para popular todas as células em branco. Pode também deixá-la em branco."
       },
-      "progressPill_one": "{{mappedCount}} de {{count}} valor mapeado",
-      "progressPill_other": "{{mappedCount}} de {{count}} valores mapeados",
-      "progressPill_zero": "{{mappedCount}} de {{count}} valores mapeados",
+      "progressPill_one": "{{mappedCount}} de {{totalCount}} valor mapeado",
+      "progressPill_other": "{{mappedCount}} de {{totalCount}} valores mapeados",
+      "progressPill_zero": "{{mappedCount}} de {{totalCount}} valores mapeados",
+      "progressPillAllMapped_one": "{{totalCount}} valores mapeados",
+      "progressPillAllMapped_other": "{{totalCount}} valor mapeado",
+      "progressPillAllMapped_zero": "{{totalCount}} valor mapeado",
       "subheading": "Estes campos têm valores que têm de ser mapeados para uma lista de opções válidas.",
       "title": "Campos do Mapa"
     },
@@ -552,6 +558,7 @@
         },
         "messages": {
           "autogen": "✨ Gerado automaticamente",
+          "compositeUnique": "🧑‍🍳 O composto {{name}} não é único",
           "reference": "O valor não existe na tabela de referência",
           "req": "{{field}} obrigatório",
           "transformed": "🪄️ Transformado de {{originalValue}}",
@@ -814,6 +821,7 @@
         "tooltip": "Prima Enter para procurar"
       },
       "tooltips": {
+        "lockedUntilEditingCompletes": "A barra de ferramentas estará disponível quando a folha já não estiver a ser editada",
         "lockedUntilHookCompletes": "A barra de ferramentas estará disponível assim que todos os ganchos terminarem a corrida",
         "lockedUntilJobCompletes": "A barra de ferramentas estará disponível assim que o trabalho atual for concluído"
       }
@@ -821,6 +829,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "Esta ação estará disponível assim que houver pelo menos um registo nesta Livro.",
+        "lockedUntilEditingCompletes": "A ação estará disponível quando a folha já não estiver a ser editada",
         "lockedUntilHookCompletes": "Esta ação estará disponível depois de todos os ganchos terminarem a sua execução",
         "lockedUntilJobCompletes": "Esta ação estará disponível após a conclusão do trabalho atual",
         "requireAllValid": "Esta ação requer que todas as linhas em todas as folhas sejam válidas"

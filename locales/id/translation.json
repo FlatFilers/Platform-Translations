@@ -376,6 +376,9 @@
       "heading": "Pratinjau data untuk {{previewKey}}",
       "noData": "Tidak ada data pratinjau"
     },
+    "dropdown": {
+      "placeholder": "Pilih..."
+    },
     "headerButtons": {
       "back": "Kembali",
       "exit": "Keluar",
@@ -395,8 +398,10 @@
         "noData": "Sel tanpa data",
         "noDataTooltip": "Anda dapat memilih opsi yang valid untuk mengisi semua sel. Anda juga dapat mengosongkannya."
       },
-      "progressPill_other": "{{mappedCount}} dari {{count}} nilai dipetakan",
-      "progressPill_zero": "{{mappedCount}} dari {{count}} nilai dipetakan",
+      "progressPill_other": "{{mappedCount}} dari {{totalCount}} nilai dipetakan",
+      "progressPill_zero": "{{mappedCount}} dari {{totalCount}} nilai dipetakan",
+      "progressPillAllMapped_other": "{{totalCount}} nilai dipetakan",
+      "progressPillAllMapped_zero": "{{totalCount}} nilai dipetakan",
       "subheading": "Bidang ini memiliki nilai yang harus dipetakan ke daftar opsi yang valid.",
       "title": "Bidang Peta"
     },
@@ -536,6 +541,7 @@
         },
         "messages": {
           "autogen": "✨ Dibuat secara otomatis",
+          "compositeUnique": "🧑‍🍳 Komposit {{name}} tidak unik",
           "reference": "Nilai tidak ada dalam tabel referensi",
           "req": "{{field}} diperlukan",
           "transformed": "🪄️ Diubah dari {{originalValue}}",
@@ -790,6 +796,7 @@
         "tooltip": "Tekan enter untuk mencari"
       },
       "tooltips": {
+        "lockedUntilEditingCompletes": "Bilah alat akan tersedia ketika sheet tidak lagi diedit",
         "lockedUntilHookCompletes": "Bilah alat akan tersedia setelah semua hook selesai berjalan",
         "lockedUntilJobCompletes": "Bilah alat akan tersedia setelah tugas saat ini selesai"
       }
@@ -797,6 +804,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "Tindakan ini akan tersedia setelah ada setidaknya satu catatan di Buku Kerja ini.",
+        "lockedUntilEditingCompletes": "Tindakan akan tersedia ketika sheet tidak lagi diedit",
         "lockedUntilHookCompletes": "Tindakan ini akan tersedia setelah semua pengait selesai dijalankan",
         "lockedUntilJobCompletes": "Tindakan ini akan tersedia setelah pekerjaan saat ini selesai",
         "requireAllValid": "Tindakan ini mengharuskan semua baris di semua lembar valid"

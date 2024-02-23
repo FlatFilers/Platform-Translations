@@ -381,6 +381,9 @@
       "heading": "Aperçu des données pour {{previewKey}}",
       "noData": "Aucune donnée d'aperçu"
     },
+    "dropdown": {
+      "placeholder": "Sélectionner..."
+    },
     "headerButtons": {
       "back": "Retour",
       "exit": "Quitter",
@@ -400,9 +403,12 @@
         "noData": "Cellules vides",
         "noDataTooltip": "Vous pouvez sélectionner une option valide pour remplir toutes les cellules vides. Vous pouvez également laisser ce champ vide."
       },
-      "progressPill_one": "{{mappedCount}} de {{count}} valeur mise en correspondance",
-      "progressPill_other": "{{mappedCount}} de {{count}} valeurs mises en correspondance",
-      "progressPill_zero": "{{mappedCount}} de {{count}} valeurs mises en correspondance",
+      "progressPill_one": "{{mappedCount}} de {{totalCount}} valeur mise en correspondance",
+      "progressPill_other": "{{mappedCount}} de {{totalCount}} valeurs mises en correspondance",
+      "progressPill_zero": "{{mappedCount}} de {{totalCount}} valeurs mises en correspondance",
+      "progressPillAllMapped_one": "{{totalCount}} valeurs mises en correspondance",
+      "progressPillAllMapped_other": "{{totalCount}} valeur mise en correspondance",
+      "progressPillAllMapped_zero": "{{totalCount}} valeur mise en correspondance",
       "subheading": "Ces champs contiennent des valeurs qui doivent être mises en correspondance avec une liste d'options valides.",
       "title": "Mettre les champs en correspondance"
     },
@@ -552,6 +558,7 @@
         },
         "messages": {
           "autogen": "✨ Générée automatiquement",
+          "compositeUnique": "🧑‍🍳 Le composite {{name}} n'est pas unique",
           "reference": "La valeur n'existe pas dans le tableau de référence",
           "req": "{{field}} est obligatoire",
           "transformed": "🪄️ Transformée à partir de {{originalValue}}",
@@ -814,6 +821,7 @@
         "tooltip": "Appuyez sur Entrée pour lancer la recherche"
       },
       "tooltips": {
+        "lockedUntilEditingCompletes": "La barre d'outils sera disponible lorsque la feuille ne sera plus en cours de modification",
         "lockedUntilHookCompletes": "La barre d'outils sera disponible une fois que tous les hooks auront été exécutés",
         "lockedUntilJobCompletes": "La barre d'outils sera disponible une fois que le travail en cours sera terminé"
       }
@@ -821,6 +829,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "Cette action sera disponible dès lors qu'il y aura au moins un enregistrement dans ce classeur.",
+        "lockedUntilEditingCompletes": "L'action sera disponible lorsque la feuille ne sera plus en cours de modification",
         "lockedUntilHookCompletes": "Cette action sera disponible une fois que tous les hooks auront été exécutés",
         "lockedUntilJobCompletes": "Cette action sera disponible après la fin du travail en cours",
         "requireAllValid": "Cette action requiert que toutes les lignes de tous les tableurs soient valides."

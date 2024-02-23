@@ -376,6 +376,9 @@
       "heading": "{{previewKey}}のデータプレビュー",
       "noData": "プレビューデータがありません"
     },
+    "dropdown": {
+      "placeholder": "選択.."
+    },
     "headerButtons": {
       "back": "戻る",
       "exit": "終了",
@@ -395,8 +398,10 @@
         "noData": "データのないセル",
         "noDataTooltip": "有効なオプションを選択して、すべての空のセルを設定できます。これを空白のままにすることもできます。"
       },
-      "progressPill_other": "{{mappedCount}}/{{count}} の値がマッピングされました",
-      "progressPill_zero": "{{mappedCount}}/{{count}} の値がマッピングされました",
+      "progressPill_other": "{{mappedCount}}/{{totalCount}} の値がマッピングされました",
+      "progressPill_zero": "{{mappedCount}}/{{totalCount}} の値がマッピングされました",
+      "progressPillAllMapped_other": "{{totalCount}} の値がマッピングされました",
+      "progressPillAllMapped_zero": "{{totalCount}} の値がマッピングされました",
       "subheading": "これらのフィールドには、有効なオプションのリストにマップする必要がある値が含まれています。",
       "title": "マップフィールド"
     },
@@ -536,6 +541,7 @@
         },
         "messages": {
           "autogen": "✨自動生成されました",
+          "compositeUnique": "🧑‍🍳 複合 {{name}} は一意ではありません",
           "reference": "値が参照テーブルに存在しません",
           "req": "{{field}} が必要です",
           "transformed": "🪄️ {{originalValue}} から変換されました",
@@ -790,6 +796,7 @@
         "tooltip": "Enterキーを押して検索"
       },
       "tooltips": {
+        "lockedUntilEditingCompletes": "ツールバーは、シートが編集されていないときに使用できるようになります。",
         "lockedUntilHookCompletes": "ツールバーは、すべてのフックの実行が終了した後に利用可能になります",
         "lockedUntilJobCompletes": "ツールバーは、現在のジョブが完了した後に利用可能になります"
       }
@@ -797,6 +804,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "このアクションは、このワークブックに少なくとも1つのレコードが存在すると使用可能になります。",
+        "lockedUntilEditingCompletes": "このアクションは、シートが編集されていないときに使用可能になります。",
         "lockedUntilHookCompletes": "このアクションは、すべてのフックの実行が完了した後に使用可能になります。",
         "lockedUntilJobCompletes": "このアクションは、現在のジョブが完了した後に使用可能になります",
         "requireAllValid": "この操作では、すべてのシートのすべての行が有効である必要があります"

@@ -411,8 +411,10 @@
         "noData": "Cells with no data",
         "noDataTooltip": "You can select a valid option to populate all empty cells. You can also leave this blank."
       },
-      "progressPill_one": "{{mappedCount}} of {{count}} value mapped",
-      "progressPill_other": "{{mappedCount}} of {{count}} values mapped",
+      "progressPill_one": "{{mappedCount}} of {{totalCount}} value mapped",
+      "progressPill_other": "{{mappedCount}} of {{totalCount}} values mapped",
+      "progressPillAllMapped_one": "{{totalCount}} values mapped",
+      "progressPillAllMapped_other": "{{totalCount}} value mapped",
       "subheading": "These fields have values that must be mapped to a list of valid options.",
       "title": "Map Fields"
     },
@@ -553,11 +555,11 @@
         },
         "messages": {
           "autogen": "✨ Automatically generated",
+          "compositeUnique": "🧑‍🍳 Composite {{name}} is not unique",
           "reference": "Value does not exist in the reference table",
           "req": "{{field}} is required",
           "transformed": "🪄️ Transformed from {{originalValue}}",
-          "unique": "Value is not unique",
-          "compositeUnique": "🧑‍🍳 Composite {{name}} is not unique"
+          "unique": "Value is not unique"
         }
       },
       "contextMenu": {
@@ -808,17 +810,17 @@
         "tooltip": "Hit enter to search"
       },
       "tooltips": {
+        "lockedUntilEditingCompletes": "The toolbar will be available when the sheet is no longer being edited",
         "lockedUntilHookCompletes": "The toolbar will be available after all hooks finish running",
-        "lockedUntilJobCompletes": "The toolbar will be available after the current job completes",
-        "lockedUntilEditingCompletes": "The toolbar will be available when the sheet is no longer being edited"
+        "lockedUntilJobCompletes": "The toolbar will be available after the current job completes"
       }
     },
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "This action will be available once there is at least one record in this Workbook.",
+        "lockedUntilEditingCompletes": "The action will be available when the sheet is no longer being edited",
         "lockedUntilHookCompletes": "This action will be available after all hooks finish running",
         "lockedUntilJobCompletes": "This action will be available after the current job completes",
-        "lockedUntilEditingCompletes": "The action will be available when the sheet is no longer being edited",
         "requireAllValid": "This action requires all rows in all sheets to be valid"
       }
     }

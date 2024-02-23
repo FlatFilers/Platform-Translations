@@ -376,6 +376,9 @@
       "heading": "{{previewKey}} 的数据预览",
       "noData": "没有预览数据"
     },
+    "dropdown": {
+      "placeholder": "选择……"
+    },
     "headerButtons": {
       "back": "后退",
       "exit": "退出",
@@ -395,8 +398,10 @@
         "noData": "无数据的单元格",
         "noDataTooltip": "您可以选择一个有效的选项来填充所有空白单元格。您也可以将此项留空。"
       },
-      "progressPill_other": "已映射的{{count}}个值中的{{mappedCount}}",
-      "progressPill_zero": "已映射的{{count}}个值中的{{mappedCount}}",
+      "progressPill_other": "已映射的{{totalCount}}个值中的{{mappedCount}}",
+      "progressPill_zero": "已映射的{{totalCount}}个值中的{{mappedCount}}",
+      "progressPillAllMapped_other": "已映射的{{totalCount}}个值",
+      "progressPillAllMapped_zero": "已映射的{{totalCount}}个值",
       "subheading": "这些字段的值必须映射到有效选项的列表中。",
       "title": "映射字段"
     },
@@ -536,6 +541,7 @@
         },
         "messages": {
           "autogen": "✨自动生成",
+          "compositeUnique": "🧑‍🍳 组合 {{name}} 不唯一",
           "reference": "引用表中不存在值",
           "req": "{{field}} 为必填",
           "transformed": "🪄️从{{originalValue}}转换而来",
@@ -790,6 +796,7 @@
         "tooltip": "按回车键搜索"
       },
       "tooltips": {
+        "lockedUntilEditingCompletes": "无人再编辑此工作表时才可使用此工具栏",
         "lockedUntilHookCompletes": "工具栏将在所有钩子完成运行后可用",
         "lockedUntilJobCompletes": "工具栏将在当前作业完成后可用"
       }
@@ -797,6 +804,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "此操作将在该工作簿上有至少一条记录后可用。",
+        "lockedUntilEditingCompletes": "无人再编辑此工作表时才可使用此操作",
         "lockedUntilHookCompletes": "所有钩子运行完成后即可进行此操作",
         "lockedUntilJobCompletes": "当前工作完成后即可进行此操作",
         "requireAllValid": "此操作要求所有工作表中的所有行都有效"
