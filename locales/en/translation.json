@@ -1,4 +1,17 @@
 {
+  "blocks": {
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "Unable to create Embedded Sheet due to missing Sheet or Workbook ID."
+      }
+    },
+    "embeddedDiff": {
+      "errors": {
+        "missingIds": "Unable to create Embedded Diff due to missing Sheet, Workbook, or Snapshot ID",
+        "invalidDirection": "Unable to create Embedded Diff due to invalid 'direction' property. Valid values are: 'sheet_to_snapshot', 'snapshot_to_sheet'"
+      }
+    }
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -885,8 +898,59 @@
         "current": "Current value: {{value}}",
         "empty": "no data",
         "restore": "Your dataset will be restored to the version in this snapshot.",
-        "snapshot": "New value: {{value}}"
+        "snapshot": "New value: {{value}}",
+        "none": "Your dataset will be modified to the values shown."
       }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "No records will be removed.",
+        "deletedSince": "No records will be added.",
+        "title": "Nothing to see!",
+        "updatedSince": "No records will be modified."
+      },
+      "errorMessage": "The changes could not be previewed due to an unexpected error.",
+      "filters": {
+        "createdSince": "Remove",
+        "deletedSince": "Add",
+        "updatedSince": "Modify"
+      },
+      "header": {
+        "title": "Changes made in",
+        "titleWithMeta": "Review changes to <1>{{sheet}}</1>"
+      },
+      "message": "The table below shows the changes to your sheet {{name}}.",
+      "submitError": "The data could not be transformed due to an unexpected error.",
+      "submitSuccess": "Changes to your sheet were successfully applied.",
+      "successMessage": "Changes were applied to your sheet.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} cells in field {{name}}",
+            "last": " and {{cells}} cells in field {{name}}",
+            "middle": ", {{cells}} cells in field {{name}}"
+          },
+          "singular": {
+            "first": "1 cell in field {{name}}",
+            "last": " and 1 cell in field {{name}}",
+            "middle": ", 1 cell in field {{name}}"
+          },
+          "start": " Data will be modified in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data will change in {{records}} records across {{fields}} fields.",
+            "noFields": "Data will change in {{records}} records.",
+            "oneField": "Data will change in {{records}} records across 1 field."
+          },
+          "singular": {
+            "multipleFields": "Data will change in 1 record across {{fields}} fields.",
+            "noFields": "Data will change in 1 record.",
+            "oneField": "Data will change in 1 record across 1 field."
+          }
+        }
+      },
+      "title": "Preview changes made in"
     },
     "preview": {
       "cancelButton": "Cancel",
