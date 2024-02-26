@@ -1,4 +1,17 @@
 {
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "No se ha podido crear la Diff integrada debido a que la propiedad de la 'dirección' no es válida. Los valores válidos son: 'hoja_a_foto', 'foto_a_hoja'",
+        "missingIds": "No se ha podido crear la Diff integrada debido a que falta la identificación por Hoja, Cuaderno o Foto"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "No se ha podido crear la Hoja integrada debido a que falta la identificación por Hoja o Cuaderno."
+      }
+    }
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -910,9 +923,60 @@
         "accept": "Si acepta los cambios, todos los valores nuevos se fusionarán en su conjunto de datos.",
         "current": "Valor actual: {{value}}",
         "empty": "sin datos",
+        "none": "Tu conjunto de datos se modificará a los valores mostrados.",
         "restore": "Su conjunto de datos se restaurará a la versión de esta captura.",
         "snapshot": "Nuevo valor: {{value}}"
       }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "No se eliminará ningún registro.",
+        "deletedSince": "No se añadirá ningún registro.",
+        "title": "¡No hay nada que ver!",
+        "updatedSince": "No se modificará ningún registro."
+      },
+      "errorMessage": "No se ha podido mostrar una vista preliminar de los cambios debido a un error inesperado.",
+      "filters": {
+        "createdSince": "Eliminar",
+        "deletedSince": "Añadir",
+        "updatedSince": "Modificar"
+      },
+      "header": {
+        "title": "Cambios hechos en",
+        "titleWithMeta": "Revisar los cambios en <1>{{sheet}}</1>"
+      },
+      "message": "La tabla de abajo muestra los cambios en tu hoja {{name}}.",
+      "submitError": "No se han podido transformar los datos debido a un error inesperado.",
+      "submitSuccess": "Se han aplicado correctamente los cambios en tu hoja.",
+      "successMessage": "Se han aplicado los cambios en tu hoja.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} celdas en el campo {{name}}",
+            "last": " y {{cells}} celdas en el campo {{name}}",
+            "middle": ", {{cells}} celdas en el campo {{name}}"
+          },
+          "singular": {
+            "first": "1 celda en el campo {{name}}",
+            "last": " y 1 celda en el campo {{name}}",
+            "middle": ", 1 celda en el campo {{name}}"
+          },
+          "start": " Los datos se modificarán en "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Los datos cambiarán en {{records}} registros en {{fields}} campos.",
+            "noFields": "Los datos cambiarán en {{records}} registros.",
+            "oneField": "Los datos cambiarán en {{records}} registros en 1 campo."
+          },
+          "singular": {
+            "multipleFields": "Los datos cambiarán en 1 registro en {{fields}} campos.",
+            "noFields": "Los datos cambiarán en 1 registro.",
+            "oneField": "Los datos cambiarán en 1 registro en 1 campo."
+          }
+        }
+      },
+      "title": "Mostrar una vista preliminar de los cambios hechos en"
     },
     "preview": {
       "cancelButton": "Cancelar",

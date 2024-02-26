@@ -1,4 +1,17 @@
 {
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "Impossibile creare Embedded Diff a causa di un valore 'direction' non valido. I valori validi sono: 'sheet_to_snapshot', 'snapshot_to_sheet'",
+        "missingIds": "Impossibile creare Embedded Diff a causa dell'assenza dell'ID del Foglio, del Workbook o dello Snapshot"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "Impossibile creare Embedded Sheet a causa dell'assenza dell'ID del Foglio o del Workbook."
+      }
+    }
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -910,9 +923,60 @@
         "accept": "Se accetti le modifiche, tutti i nuovi valori verranno uniti al tuo dataset.",
         "current": "Valore attuale: {{value}}",
         "empty": "nessun dato",
+        "none": "Il tuo dataset verrà modificato ai valori mostrati.",
         "restore": "Il tuo gruppo di dati sarà ripristinato alla versione contenuta in questa istantanea.",
         "snapshot": "Nuovo valore: {{value}}"
       }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "Nessun record verrà rimosso.",
+        "deletedSince": "Nessun record verrà aggiunto.",
+        "title": "Niente da vedere!",
+        "updatedSince": "Nessun record verrà modificato."
+      },
+      "errorMessage": "Le modifiche non hanno potuto essere visualizzate a causa di un errore inaspettato.",
+      "filters": {
+        "createdSince": "Rimuovi",
+        "deletedSince": "Aggiungi",
+        "updatedSince": "Modifica"
+      },
+      "header": {
+        "title": "Modifiche effettuate in",
+        "titleWithMeta": "Rivedi le modifiche a <1>{{sheet}}</1>"
+      },
+      "message": "La tabella sottostante mostra le modifiche al tuo foglio {{name}}.",
+      "submitError": "I dati non hanno potuto essere trasformati a causa di un errore inaspettato.",
+      "submitSuccess": "Le modifiche al tuo foglio sono state applicate con successo.",
+      "successMessage": "Le modifiche sono state applicate al tuo foglio.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} celle nel campo {{name}}",
+            "last": " e {{cells}} celle nel campo {{name}}",
+            "middle": ", {{cells}} celle nel campo {{name}}"
+          },
+          "singular": {
+            "first": "1 cella nel campo {{name}}",
+            "last": " e 1 cella nel campo {{name}}",
+            "middle": ", 1 cella nel campo {{name}}"
+          },
+          "start": " I dati verranno modificati in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "I dati cambieranno in {{records}} record attraverso {{fields}} campi.",
+            "noFields": "I dati cambieranno in {{records}} record.",
+            "oneField": "I dati cambieranno in {{records}} record attraverso 1 campo."
+          },
+          "singular": {
+            "multipleFields": "I dati cambieranno in 1 record attraverso {{fields}} campi.",
+            "noFields": "I dati cambieranno in 1 record.",
+            "oneField": "I dati cambieranno in 1 record attraverso 1 campo."
+          }
+        }
+      },
+      "title": "Anteprima delle modifiche effettuate in"
     },
     "preview": {
       "cancelButton": "Cancella",

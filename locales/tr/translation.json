@@ -1,4 +1,17 @@
 {
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "Geçersiz 'yön' özelliği nedeniyle Embedded Diff oluşturulamıyor. Geçerli değerler şunlardır: 'sheet_to_snapshot', 'snapshot_to_sheet'",
+        "missingIds": "Eksik Sayfa, Çalışma Kitabı veya Anlık Görüntü NO nedeniyle Embedded Diff oluşturulamıyor"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "Eksik Sayfa veya Çalışma Kitabı NO nedeniyle Ekli Sayfa oluşturulamıyor."
+      }
+    }
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -910,9 +923,60 @@
         "accept": "Değişiklikleri kabul ederseniz, tüm yeni değerler veri setiniz içinde birleştirilecektir.",
         "current": "Mevcut değer: {{value}}",
         "empty": "veri yok",
+        "none": "Veri kümeniz gösterilen değerlere göre değiştirilecektir.",
         "restore": "Veri kümen bu anlık görüntüdeki sürüme geri yüklenecek.",
         "snapshot": "Yeni değer: {{value}}"
       }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "Hiçbir kayıt kaldırılmayacaktır.",
+        "deletedSince": "Hiçbir kayıt eklenmeyecektir.",
+        "title": "Görülecek hiçbirşey yok!",
+        "updatedSince": "Hiçbir kayıt değiştirilmeyecektir."
+      },
+      "errorMessage": "Beklenmeyen bir hata nedeniyle değişikliklerin ön izlemesi yapılamadı.",
+      "filters": {
+        "createdSince": "Kaldır",
+        "deletedSince": "Ekle",
+        "updatedSince": "Değiştir"
+      },
+      "header": {
+        "title": "Şurada yapılan değişiklikler:",
+        "titleWithMeta": "<1>{{sheet}}</1> sayfasındaki değişiklikleri incele"
+      },
+      "message": "Aşağıdaki tablo, {{name}} sayfanızdaki değişiklikleri göstermektedir.",
+      "submitError": "Beklenmeyen bir hata nedeniyle veriler dönüştürülemedi.",
+      "submitSuccess": "Sayfanızda yapılan değişiklikler başarıyla uygulandı.",
+      "successMessage": "Değişiklikler sayfanıza uygulandı.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{name}} alanındaki {{cells}} hücre",
+            "last": " ve {{name}} alanındaki {{cells}} hücre",
+            "middle": ", {{name}} alanındaki {{cells}} hücre"
+          },
+          "singular": {
+            "first": "{{name}} alanında 1 hücre",
+            "last": " ve {{name}} alanında 1 hücre",
+            "middle": ", {{name}} alanında 1 hücre"
+          },
+          "start": " Veriler şurada değiştirilecek: "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "{{fields}} alan {{records}} kayıttaki veriler değişecek.",
+            "noFields": "{{records}} kayıttaki veriler değişecek.",
+            "oneField": "1 alandaki {{records}} kayıttaki veriler değişecek."
+          },
+          "singular": {
+            "multipleFields": "Veriler, {{fields}} alanda 1 kayıtta değişecek.",
+            "noFields": "Veriler 1 kayıtta değişecek.",
+            "oneField": "Veriler 1 alanda 1 kayıtta değişecek."
+          }
+        }
+      },
+      "title": "Şurada yapılan değişiklikleri ön izle:"
     },
     "preview": {
       "cancelButton": "İptal Et",

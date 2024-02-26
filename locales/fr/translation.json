@@ -1,4 +1,17 @@
 {
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "Impossible de créer un différentiel intégré en raison d'une propriété 'direction' invalide. Les valeurs valides sont : 'sheet_to_snapshot', 'snapshot_to_sheet'",
+        "missingIds": "Impossible de créer une comparaison intégrée en raison d'un identifiant de feuille, de classeur ou d'instantané manquant"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "Impossible de créer une feuille intégrée en raison d'un identifiant de feuille ou de classeur manquant."
+      }
+    }
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -910,9 +923,60 @@
         "accept": "Si vous acceptez les modifications, les nouvelles valeurs seront fusionnées dans votre ensemble de données.",
         "current": "Valeur actuelle :{{value}}",
         "empty": "aucune donnée",
+        "none": "Votre ensemble de données sera modifié selon les valeurs affichées.",
         "restore": "Votre ensemble de données sera restauré à la version dans cette image.",
         "snapshot": "Nouvelle valeur : {{value}}"
       }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "Aucune ligne de données ne sera supprimée.",
+        "deletedSince": "Aucune ligne de données ne sera ajoutée.",
+        "title": "Rien à voir ici !",
+        "updatedSince": "Aucune ligne de données ne sera modifiée."
+      },
+      "errorMessage": "Les modifications n'ont pas pu être prévisualisées en raison d'une erreur inattendue.",
+      "filters": {
+        "createdSince": "Supprimer",
+        "deletedSince": "Ajouter",
+        "updatedSince": "Modifier"
+      },
+      "header": {
+        "title": "Modifications apportées dans",
+        "titleWithMeta": "Examiner les modifications apportées à <1>{{sheet}}</1>"
+      },
+      "message": "Le tableau ci-dessous montre les modifications apportées à votre feuille {{name}}.",
+      "submitError": "Les données n'ont pas pu être transformées en raison d'une erreur inattendue.",
+      "submitSuccess": "Les modifications apportées à votre feuille ont été appliquées avec succès.",
+      "successMessage": "Les modifications ont été appliquées à votre feuille.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} cellules dans le champ {{name}}",
+            "last": " et {{cells}} cellules dans le champ {{name}}",
+            "middle": ", {{cells}} cellules dans le champ {{name}}"
+          },
+          "singular": {
+            "first": "1 cellule dans le champ {{name}}",
+            "last": " et 1 cellule dans le champ {{name}}",
+            "middle": ", 1 cellule dans le champ {{name}}"
+          },
+          "start": " Les données seront modifiées dans "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Les données changeront dans les lignes de données {{records}} dans les champs {{fields}}.",
+            "noFields": "Les données changeront dans les lignes de données {{records}}.",
+            "oneField": "Les données changeront dans les lignes de données {{records}} dans un champ."
+          },
+          "singular": {
+            "multipleFields": "Les données changeront dans une ligne de données dans les champs {{fields}}.",
+            "noFields": "Les données changeront dans une ligne de données.",
+            "oneField": "Les données changeront dans une ligne de données dans un champ."
+          }
+        }
+      },
+      "title": "Aperçu des modifications apportées dans"
     },
     "preview": {
       "cancelButton": "Annuler",

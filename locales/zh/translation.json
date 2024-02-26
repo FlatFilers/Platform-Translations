@@ -1,4 +1,17 @@
 {
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "由于“方向”属性无效，无法创建嵌入式差异。有效值为：“sheet_to_snapshot”、“snapshot_to_sheet”",
+        "missingIds": "由于缺少工作表、工作簿或快照 ID，无法创建嵌入式差异"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "由于缺少工作表或工作簿 ID，无法创建嵌入式工作表。"
+      }
+    }
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -885,9 +898,60 @@
         "accept": "如果您接受更改，所有新值将合并到您的数据集中。",
         "current": "当前值：{{value}}",
         "empty": "没有数据",
+        "none": "您的数据集将修改为所显示的值。",
         "restore": "您的数据集将恢复成此快照中的版本。",
         "snapshot": "新值：{{value}}"
       }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "不会移除任何记录。",
+        "deletedSince": "不会添加任何记录。",
+        "title": "什么都看不到！",
+        "updatedSince": "不会修改任何记录。"
+      },
+      "errorMessage": "由于发生意外错误，更改无法预览。",
+      "filters": {
+        "createdSince": "移除",
+        "deletedSince": "添加",
+        "updatedSince": "修改"
+      },
+      "header": {
+        "title": "在下列位置所做的更改",
+        "titleWithMeta": "查看 <1>{{sheet}}</1> 的改动"
+      },
+      "message": "下表显示了工作表 {{name}} 的改动。",
+      "submitError": "由于发生意外错误，数据无法转换。",
+      "submitSuccess": "对工作表的更改已成功应用。",
+      "successMessage": "对工作表的更改已应用。",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "字段 {{name}} 中的 {{cells}} 个单元格",
+            "last": " 和字段 {{name}} 中的 {{cells}} 个单元格",
+            "middle": "，字段 {{name}} 中的 {{cells}} 个单元格"
+          },
+          "singular": {
+            "first": "字段 {{name}} 中的 1 个单元格",
+            "last": " 和字段 {{name}} 中的 1 个单元格",
+            "middle": "，字段 {{name}} 中的 1 个单元格"
+          },
+          "start": " 下列位置的数据将会修改 "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "{{fields}} 个字段的 {{records}} 条记录中的数据将会更改。",
+            "noFields": "{{records}} 条记录中的数据将会更改。",
+            "oneField": "1 个字段的 {{records}} 条记录中的数据将会更改。"
+          },
+          "singular": {
+            "multipleFields": "{{fields}} 个字段的 1 条记录中的数据将会更改。",
+            "noFields": "1 条记录中的数据将发会更改。",
+            "oneField": "1 个字段的 1 条记录中的数据将会更改。"
+          }
+        }
+      },
+      "title": "预览下列位置所做的更改"
     },
     "preview": {
       "cancelButton": "取消",

@@ -1,4 +1,17 @@
 {
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "Tidak dapat membuat Embedded Diff karena properti 'direction' tidak valid. Nilai yang valid adalah: 'sheet_to_snapshot', 'snapshot_to_sheet'",
+        "missingIds": "Tidak dapat membuat Embedded Diff karena Sheet, Workbook, atau ID Snapshot tidak ada"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "Tidak dapat membuat Embedded Sheet karena Sheet atau ID Workbook tidak ada."
+      }
+    }
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -885,9 +898,60 @@
         "accept": "Jika Anda menerima perubahan, semua nilai baru akan digabung ke dataset Anda.",
         "current": "Nilai saat ini: {{value}}",
         "empty": "tidak ada data",
+        "none": "Kumpulan data Anda akan diubah sesuai nilai yang ditampilkan.",
         "restore": "Dataset Anda akan dipulihkan ke versi dalam snapshot ini.",
         "snapshot": "NIlai baru: {{value}}"
       }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "Catatan tidak akan dihapus.",
+        "deletedSince": "Catatan tidak akan ditambahkan.",
+        "title": "Tidak ada yang dapat dilihat!",
+        "updatedSince": "Catatan tidak akan diubah."
+      },
+      "errorMessage": "Perubahan tidak akan dipratinjau karena ada kesalahan yang tidak terduga.",
+      "filters": {
+        "createdSince": "Hapus",
+        "deletedSince": "Tambah",
+        "updatedSince": "Ubah"
+      },
+      "header": {
+        "title": "Perubahan dilakukan di",
+        "titleWithMeta": "Tinjau perubahan pada <1>{{sheet}}</1>"
+      },
+      "message": "Tabel di bawah ini menampilkan perubahan pada sheet Anda {{name}}.",
+      "submitError": "Data tidak dapat diubah karena ada kesalahan yang tidak terduga.",
+      "submitSuccess": "Perubahan pada sheet Anda berhasil diterapkan.",
+      "successMessage": "Perubahan diterapkan pada sheet Anda.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} sel di kolom {{name}}",
+            "last": " dan {{cells}} sel di kolom {{name}}",
+            "middle": ", {{cells}} sel di kolom {{name}}"
+          },
+          "singular": {
+            "first": "1 sel di kolom {{name}}",
+            "last": " dan 1 sel di kolom {{name}}",
+            "middle": ", 1 sel di kolom {{name}}"
+          },
+          "start": " Data akan diubah di "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data akan diubah di  {{records}} catatan di {{fields}} kolom.",
+            "noFields": "Data akan diubah di {{records}} catatan.",
+            "oneField": "Data akan diubah di {{records}} catatan di 1 kolom."
+          },
+          "singular": {
+            "multipleFields": "Data akan diubah di 1 catatan di {{fields}} kolom.",
+            "noFields": "Data akan diubah di 1 catatan.",
+            "oneField": "Data akan diubah di 1 catatan di 1 kolom."
+          }
+        }
+      },
+      "title": "Perubahan pratinjau dilakukan di"
     },
     "preview": {
       "cancelButton": "Batal",

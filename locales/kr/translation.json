@@ -1,4 +1,17 @@
 {
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "잘못된 'direction' 속성으로 인해 \b내장된 Diff를 생성할 수 없습니다. 유효한 값은 'sheet_to_snapshot', 'snapshot_to_sheet'입니다.",
+        "missingIds": "시트, 통합 문서 또는 스냅샷 ID가 누락되어 포함된 Diff를 생성할 수 없습니다."
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "시트 또는 통합 문서 ID가 누락되어 포함된 시트를 생성할 수 없습니다."
+      }
+    }
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -885,9 +898,60 @@
         "accept": "변경 사항을 수락하면 모든 새 값이 데이터세트에 병합됩니다.",
         "current": "현재 값: {{value}}",
         "empty": "데이터 없음",
+        "none": "데이터 세트가 표시된 값으로 수정됩니다.",
         "restore": "데이터세트가 이 스냅샷 버전으로 복원됩니다.",
         "snapshot": "새 값: {{value}}"
       }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "기록이 삭제되지 않습니다.",
+        "deletedSince": "기록이 추가되지 않습니다.",
+        "title": "볼 내용이 없습니다!",
+        "updatedSince": "기록이 수정되지 않습니다."
+      },
+      "errorMessage": "예상치 못한 오류로 인해 변경 사항을 미리 볼 수 없습니다.",
+      "filters": {
+        "createdSince": "삭제",
+        "deletedSince": "추가",
+        "updatedSince": "수정"
+      },
+      "header": {
+        "title": "변경 사항",
+        "titleWithMeta": "<1>{{sheet}}</1> 변경 사항 검토"
+      },
+      "message": "아래 표는 시트 {{name}} 변경 사항을 보여줍니다.",
+      "submitError": "예상치 못한 오류로 인해 데이터를 변환할 수 없습니다.",
+      "submitSuccess": "시트 변경 사항이 성공적으로 적용되었습니다.",
+      "successMessage": "변경 사항이 시트에 적용되었습니다.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "필드 {{name}}의 셀 {{cells}}개",
+            "last": " 및 필드 {{name}}의 셀 {{cells}}개",
+            "middle": ", 필드 {{name}}의 셀 {{cells}}개"
+          },
+          "singular": {
+            "first": "필드 {{name}}의 셀 1개",
+            "last": " 및 필드 {{name}}의 셀 1개",
+            "middle": ", 필드 {{name}}의 셀 1개"
+          },
+          "start": " 다음에서 데이터가 수정됩니다. "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "{{fields}}개 필드의 {{records}}개 기록에서 데이터가 변경됩니다.",
+            "noFields": "{{records}}개 기록에서 데이터가 변경됩니다.",
+            "oneField": "1개 필드의 {{records}}개 기록에서 데이터가 변경됩니다."
+          },
+          "singular": {
+            "multipleFields": "{{fields}}개 필드의 1개 기록에서 데이터가 변경됩니다.",
+            "noFields": "1개의 기록에서 데이터가 변경됩니다.",
+            "oneField": "1개 필드의 1개 기록에서 데이터가 변경됩니다."
+          }
+        }
+      },
+      "title": "다음의 변경 사항 미리보기"
     },
     "preview": {
       "cancelButton": "취소",

@@ -1,4 +1,17 @@
 {
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "Não é possível criar \"Embedded Diff\" devido a propriedade 'direction' inválida. Os valores válidos são: 'sheet_to_snapshot', 'snapshot_to_sheet'",
+        "missingIds": "Não é possível criar \"Embedded Diff\" devido à falta de ID de Folha de cálculo, Livro ou 'Snapshot'"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "Não é possível criar \"Embedded Sheet\" devido à falta de ID da Folha de cálculo ou do Livro."
+      }
+    }
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -910,9 +923,60 @@
         "accept": "Se aceitar as alterações, todos os novos valores serão combinados no seu conjunto de dados.",
         "current": "Valor atual: {{value}}",
         "empty": "sem dados",
+        "none": "O seu conjunto de dados será modificado para os valores apresentados.",
         "restore": "O seu conjunto de dados será restaurado para versão nesta imagem.",
         "snapshot": "Novo valor: {{value}}"
       }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "Não será removido nenhum registo.",
+        "deletedSince": "Não será adicionado nenhum registo.",
+        "title": "Não há nada para ver!",
+        "updatedSince": "Não será modificado nenhum registo."
+      },
+      "errorMessage": "Não foi possível pré-visualizar as alterações devido a um erro inesperado.",
+      "filters": {
+        "createdSince": "Remover",
+        "deletedSince": "Adicionar",
+        "updatedSince": "Modificar"
+      },
+      "header": {
+        "title": "Alterações feitas em",
+        "titleWithMeta": "Rever alterações a <1>{{sheet}}</1>"
+      },
+      "message": "A tabela abaixo mostra as alterações à sua folha {{name}}.",
+      "submitError": "Não foi possível transformar os dados devido a um erro inesperado.",
+      "submitSuccess": "As alterações à sua folha foram aplicadas com sucesso.",
+      "successMessage": "As alterações foram aplicadas à sua folha.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} células no campo {{name}}",
+            "last": " e {{cells}} células no campo {{name}}",
+            "middle": ", {{cells}} células no campo {{name}}"
+          },
+          "singular": {
+            "first": "1 célula no campo {{name}}",
+            "last": " e 1 célula no campo {{name}}",
+            "middle": ", 1 célula no campo {{name}}"
+          },
+          "start": " Os dados serão modificados em "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Os dados serão modificados em {{records}} registos de {{fields}} campos.",
+            "noFields": "Os dados serão alterados em {{records}} registos.",
+            "oneField": "Os dados serão alterados em {{records}} registos de 1 campo."
+          },
+          "singular": {
+            "multipleFields": "Os dados serão alterados em 1 registo de {{fields}} campos.",
+            "noFields": "Os dados serão alterados em 1 registo.",
+            "oneField": "Os dados serão alterados em 1 registo de 1 campo."
+          }
+        }
+      },
+      "title": "Pré-visualizar alterações efetuadas em"
     },
     "preview": {
       "cancelButton": "Cancelar",

@@ -1,4 +1,17 @@
 {
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "Không thể tạo Điểm khác biệt nhúng do thuộc tính 'direction' không hợp lệ. Các giá trị hợp lệ là: 'sheet_to_snapshot', 'snapshot_to_sheet'",
+        "missingIds": "Không thể tạo Điểm khác biệt nhúng do thiếu ID trang tính, sổ làm việc hoặc ảnh chụp"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "Không thể tạo Trang tính nhúng do thiếu ID trang tính hoặc sổ làm việc."
+      }
+    }
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -885,9 +898,60 @@
         "accept": "Nếu bạn chấp nhận các thay đổi, tất cả giá trị mới sẽ được hợp nhất vào tập dữ liệu của bạn.",
         "current": "Giá trị hiện tại: {{value}}",
         "empty": "không có dữ liệu",
+        "none": "Bộ dữ liệu của bạn sẽ được điều chỉnh theo những giá trị được hiển thị.",
         "restore": "Tập dữ liệu của bạn sẽ được khôi phục về phiên bản trong ảnh chụp nhanh này.",
         "snapshot": "Giá trị mới: {{value}}"
       }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "Không bản ghi nào sẽ bị xóa.",
+        "deletedSince": "Không bản ghi nào sẽ được bổ sung.",
+        "title": "Không có gì cả!",
+        "updatedSince": "Không bản ghi nào sẽ được điều chỉnh."
+      },
+      "errorMessage": "Không thể xem trước thay đổi do xảy ra lỗi ngoài dự kiến.",
+      "filters": {
+        "createdSince": "Xóa",
+        "deletedSince": "Thêm",
+        "updatedSince": "Điều chỉnh"
+      },
+      "header": {
+        "title": "Các thay đổi đã thực hiện trong",
+        "titleWithMeta": "Xem lại các thay đổi trong <1>{{sheet}}</1>"
+      },
+      "message": "Bảng dưới hiển thị những thay đổi đã được thực hiện trên trang tính {{name}} của bạn.",
+      "submitError": "Không thể chuyển đổi dữ liệu do xảy ra lỗi ngoài dự kiến.",
+      "submitSuccess": "Đã áp dụng thay đổi trên trang tính của bạn thành công.",
+      "successMessage": "Đã áp dụng thay đổi trên trang tính của bạn.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} ô trong miền {{name}}",
+            "last": " và {{cells}} ô trong miền {{name}}",
+            "middle": ", {{cells}} ô trong miền {{name}}"
+          },
+          "singular": {
+            "first": "1 ô trong miền {{name}}",
+            "last": " và 1 ô trong miền {{name}}",
+            "middle": ", 1 ô trong miền {{name}}"
+          },
+          "start": " Dữ liệu sẽ được điều chỉnh trong "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Dữ liệu sẽ thay đổi trong {{records}} bản ghi trên {{fields}} miền.",
+            "noFields": "Dữ liệu sẽ thay đổi trong {{records}} bản ghi.",
+            "oneField": "Dữ liệu sẽ thay đổi trong {{records}} bản ghi trên 1 miền."
+          },
+          "singular": {
+            "multipleFields": "Dữ liệu sẽ thay đổi trong 1 bản ghi trên {{fields}} miền.",
+            "noFields": "Dữ liệu sẽ thay đổi trong 1 bản ghi.",
+            "oneField": "Dữ liệu sẽ thay đổi trong 1 bản ghi trên 1 miền."
+          }
+        }
+      },
+      "title": "Xem trước những thay đổi được thực hiện trong"
     },
     "preview": {
       "cancelButton": "Hủy bỏ",

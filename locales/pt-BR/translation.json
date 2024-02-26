@@ -1,4 +1,17 @@
 {
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "Não foi possível criar Diferença Incorporada devido à propriedade \"direction\" inválida. Os valores válidos são: \"sheet_to_snapshot\", \"snapshot_to_sheet\"",
+        "missingIds": "Não é possível criar diferença incorporada devido à falta de ID de foto instantânea, pasta de trabalho ou planilha"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "Não é possível criar a planilha incorporada devido à falta do ID da pasta de trabalho ou planilha."
+      }
+    }
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -910,9 +923,60 @@
         "accept": "Se você aceitar as alterações, todos os novos valores serão mesclados em seu conjunto de dados.",
         "current": "Valor atual: {{value}}",
         "empty": "sem dados",
+        "none": "Seu conjunto de dados será modificado para os valores mostrados.",
         "restore": "Seu conjunto de dados será restaurado para a versão deste resumo.",
         "snapshot": "Novo valor: {{value}}"
       }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "Nenhum registro será removido.",
+        "deletedSince": "Nenhum registro será adicionado.",
+        "title": "Nada para ver!",
+        "updatedSince": "Nenhum registro será modificado."
+      },
+      "errorMessage": "As alterações não puderam ser visualizadas devido a um erro inesperado.",
+      "filters": {
+        "createdSince": "Remover",
+        "deletedSince": "Adicionar",
+        "updatedSince": "Modificar"
+      },
+      "header": {
+        "title": "Alterações feitas em",
+        "titleWithMeta": "Revise as alterações para <1>{{sheet}}</1>"
+      },
+      "message": "A tabela abaixo mostra as alterações em sua planilha {{name}}.",
+      "submitError": "Os dados não puderam ser transformados devido a um erro inesperado.",
+      "submitSuccess": "As alterações na sua planilha foram aplicadas com sucesso.",
+      "successMessage": "As alterações foram aplicadas à sua planilha.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} células no campo {{name}}",
+            "last": " e {{cells}} células no campo {{name}}",
+            "middle": ", {{cells}} células no campo {{name}}"
+          },
+          "singular": {
+            "first": "1 célula no campo {{name}}",
+            "last": " e 1 célula no campo {{name}}",
+            "middle": ", 1 célula no campo {{name}}"
+          },
+          "start": " Os dados serão modificados em "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Os dados serão alterados em {{records}} registros em {{fields}} campos.",
+            "noFields": "Os dados serão alterados em {{records}} registros.",
+            "oneField": "Os dados serão alterados em {{records}} registros em 1 campo."
+          },
+          "singular": {
+            "multipleFields": "Os dados serão alterados em 1 registro em {{fields}} campos.",
+            "noFields": "Os dados serão alterados em 1 registro.",
+            "oneField": "Os dados serão alterados em 1 registro em 1 campo."
+          }
+        }
+      },
+      "title": "Visualizar alterações feitas em"
     },
     "preview": {
       "cancelButton": "Cancelar",

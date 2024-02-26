@@ -1,4 +1,17 @@
 {
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "Eingebettetes Diff kann nicht erstellt werden, da die Eigenschaft „Richtung“ ungültig ist. Gültige Werte sind: „Blatt_zu_Snapshot“, „Snapshot_zu_Blatt“.",
+        "missingIds": "Eingebetteter Diff kann wegen fehlender Blatt-, Arbeitsmappen- oder Snapshot-ID nicht erstellt werden."
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "Eingebettetes Blatt kann nicht erstellt werden, da die Blatt- oder Arbeitsmappen-ID fehlt."
+      }
+    }
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -910,9 +923,60 @@
         "accept": "Wenn Sie die Änderungen akzeptieren, werden alle neuen Werte in Ihren Datensatz übernommen.",
         "current": "Aktueller Wert: {{value}}",
         "empty": "keine Daten",
+        "none": "Ihr Datensatz wird mit den angezeigten Werten geändert.",
         "restore": "Ihr Datensatz wird mit der Version in diesem Snapshot wiederhergestellt.",
         "snapshot": "Neuer Wert: {{value}}"
       }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "Es werden keine Datensätze entfernt.",
+        "deletedSince": "Es werden keine Datensätze hinzugefügt.",
+        "title": "Nichts zu sehen!",
+        "updatedSince": "Es werden keine Datensätze geändert."
+      },
+      "errorMessage": "Die Änderungen konnten aufgrund eines unerwarteten Fehlers nicht in der Vorschau angezeigt werden.",
+      "filters": {
+        "createdSince": "Entfernen",
+        "deletedSince": "Hinzufügen",
+        "updatedSince": "Ändern"
+      },
+      "header": {
+        "title": "Änderungen vorgenommen in",
+        "titleWithMeta": "Überprüfen Sie die Änderungen an <1>{{sheet}}</1>"
+      },
+      "message": "Die folgende Tabelle zeigt die Änderungen an Ihrem Blatt {{name}}.",
+      "submitError": "Die Daten konnten aufgrund eines unerwarteten Fehlers nicht transformiert werden.",
+      "submitSuccess": "Die Änderungen an Ihrem Blatt wurden erfolgreich angewendet.",
+      "successMessage": "Die Änderungen wurden auf Ihr Blatt angewendet.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} Zellen im Feld {{name}}",
+            "last": " und {{cells}} Zellen in Feld {{name}}",
+            "middle": ", {{cells}} Zellen in Feld {{name}}"
+          },
+          "singular": {
+            "first": "1 Zelle in Feld {{name}}",
+            "last": " und 1 Zelle in Feld {{name}}",
+            "middle": ", 1 Zelle in Feld {{name}}"
+          },
+          "start": " Daten werden geändert in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Daten ändern sich in {{records}} Datensätzen über {{fields}} Felder.",
+            "noFields": "Daten ändern sich in {{records}} Datensätzen.",
+            "oneField": "Daten ändern sich in {{records}} Datensätzen über 1 Feld."
+          },
+          "singular": {
+            "multipleFields": "Daten ändern sich in 1 Datensatz über {{fields}} Felder.",
+            "noFields": "Daten ändern sich in 1 Datensatz.",
+            "oneField": "Daten ändern sich in 1 Datensatz in 1 Feld."
+          }
+        }
+      },
+      "title": "Vorschau der Änderungen in"
     },
     "preview": {
       "cancelButton": "Abbrechen",

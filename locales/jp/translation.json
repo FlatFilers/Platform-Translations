@@ -1,4 +1,17 @@
 {
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "'direction' プロパティが無効なため、埋め込みDiffを作成できません。有効な値は：'sheet_to_snapshot'、'snapshot_to_sheet' です。",
+        "missingIds": "シート、ワークブック、またはスナップショットIDが見つからないため、埋め込みDiffを作成できません"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "シートまたはワークブックIDが見つからないため、埋め込みシートを作成できません。"
+      }
+    }
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -885,9 +898,60 @@
         "accept": "変更を受け入れると、すべての新しい値がデータセットにマージされます。",
         "current": "現在の値：{{value}}",
         "empty": "データなし",
+        "none": "データセットは表示された値に変更されます。",
         "restore": "データセットは、このスナップショットのバージョンに復元されます。",
         "snapshot": "新しい値：{{value}}"
       }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "記録は削除されません。",
+        "deletedSince": "記録は追加されません。",
+        "title": "見るべきものは何もありません！",
+        "updatedSince": "記録は変更されません。"
+      },
+      "errorMessage": "予期せぬエラーにより、変更をプレビューできませんでした。",
+      "filters": {
+        "createdSince": "削除",
+        "deletedSince": "追加",
+        "updatedSince": "変更"
+      },
+      "header": {
+        "title": "以下における変更点：",
+        "titleWithMeta": "<1>{{sheet}}</1>の変更を見直す"
+      },
+      "message": "以下の表は、{{name}}シートの変更点を示しています。",
+      "submitError": "予期せぬエラーにより、データを変換できませんでした。",
+      "submitSuccess": "シートの変更が正常に適用されました。",
+      "successMessage": "変更がシートに適用されました。",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "フィールド{{name}}の{{cells}}セル",
+            "last": " とフィールド{{name}}の{{cells}}セル",
+            "middle": "、フィールド{{name}}の{{cells}}セル"
+          },
+          "singular": {
+            "first": "フィールド{{name}}の1セル",
+            "last": " とフィールド{{name}}の1セル",
+            "middle": "、フィールド{{name}}の1セル"
+          },
+          "start": " データは以下において変更されます： "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "データは{{fields}}フィールドにわたって{{records}}件の記録で変更されます。",
+            "noFields": "データは{{records}}件の記録で変更されます。",
+            "oneField": "データは1フィールドにわたって{{records}}件の記録で変更されます。"
+          },
+          "singular": {
+            "multipleFields": "データは{{fields}}フィールドにわたって1件の記録で変更されます。",
+            "noFields": "データは1件の記録で変更されます。",
+            "oneField": "データは1フィールドにわたって1件の記録で変更されます。"
+          }
+        }
+      },
+      "title": "以下で行った変更をプレビューする："
     },
     "preview": {
       "cancelButton": "キャンセル",

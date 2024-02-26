@@ -1,14 +1,14 @@
 {
   "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "Unable to create Embedded Diff due to invalid 'direction' property. Valid values are: 'sheet_to_snapshot', 'snapshot_to_sheet'",
+        "missingIds": "Unable to create Embedded Diff due to missing Sheet, Workbook, or Snapshot ID"
+      }
+    },
     "embeddedSheet": {
       "errors": {
         "missingIds": "Unable to create Embedded Sheet due to missing Sheet or Workbook ID."
-      }
-    },
-    "embeddedDiff": {
-      "errors": {
-        "missingIds": "Unable to create Embedded Diff due to missing Sheet, Workbook, or Snapshot ID",
-        "invalidDirection": "Unable to create Embedded Diff due to invalid 'direction' property. Valid values are: 'sheet_to_snapshot', 'snapshot_to_sheet'"
       }
     }
   },
@@ -899,9 +899,9 @@
         "accept": "If you accept changes, all new values will be merged into your dataset.",
         "current": "Current value: {{value}}",
         "empty": "no data",
+        "none": "Your dataset will be modified to the values shown.",
         "restore": "Your dataset will be restored to the version in this snapshot.",
-        "snapshot": "New value: {{value}}",
-        "none": "Your dataset will be modified to the values shown."
+        "snapshot": "New value: {{value}}"
       }
     },
     "none": {
