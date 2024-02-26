@@ -411,10 +411,10 @@
         "noData": "Cells with no data",
         "noDataTooltip": "You can select a valid option to populate all empty cells. You can also leave this blank."
       },
-      "progressPill_one": "{{mappedCount}} of {{totalCount}} value mapped",
-      "progressPill_other": "{{mappedCount}} of {{totalCount}} values mapped",
-      "progressPillAllMapped_one": "{{totalCount}} values mapped",
-      "progressPillAllMapped_other": "{{totalCount}} value mapped",
+      "progressPill_one": "{{mappedCount}} of {{count}} value mapped",
+      "progressPill_other": "{{mappedCount}} of {{count}} values mapped",
+      "progressPillAllMapped_one": "{{count}} values mapped",
+      "progressPillAllMapped_other": "{{count}} value mapped",
       "subheading": "These fields have values that must be mapped to a list of valid options.",
       "title": "Map Fields"
     },

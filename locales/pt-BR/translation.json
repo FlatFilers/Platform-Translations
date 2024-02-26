@@ -403,12 +403,12 @@
         "noData": "Células sem dados",
         "noDataTooltip": "Você pode selecionar uma opção válida para preencher todas as células vazias. Você também pode deixar isto em branco."
       },
-      "progressPill_one": "{{mappedCount}} de {{totalCount}} valores mapeados",
-      "progressPill_other": "{{mappedCount}} de {{totalCount}} valores mapeados",
-      "progressPill_zero": "{{mappedCount}} de {{totalCount}} valores mapeados",
-      "progressPillAllMapped_one": "{{totalCount}} valores mapeados",
-      "progressPillAllMapped_other": "{{totalCount}} valor mapeado",
-      "progressPillAllMapped_zero": "{{totalCount}} valor mapeado",
+      "progressPill_one": "{{mappedCount}} de {{count}} valores mapeados",
+      "progressPill_other": "{{mappedCount}} de {{count}} valores mapeados",
+      "progressPill_zero": "{{mappedCount}} de {{count}} valores mapeados",
+      "progressPillAllMapped_one": "{{count}} valores mapeados",
+      "progressPillAllMapped_other": "{{count}} valor mapeado",
+      "progressPillAllMapped_zero": "{{count}} valor mapeado",
       "subheading": "Estes campos têm valores que devem ser mapeados em uma lista de opções válidas.",
       "title": "Campos de mapas"
     },

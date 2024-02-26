@@ -398,10 +398,10 @@
         "noData": "データのないセル",
         "noDataTooltip": "有効なオプションを選択して、すべての空のセルを設定できます。これを空白のままにすることもできます。"
       },
-      "progressPill_other": "{{mappedCount}}/{{totalCount}} の値がマッピングされました",
-      "progressPill_zero": "{{mappedCount}}/{{totalCount}} の値がマッピングされました",
-      "progressPillAllMapped_other": "{{totalCount}} の値がマッピングされました",
-      "progressPillAllMapped_zero": "{{totalCount}} の値がマッピングされました",
+      "progressPill_other": "{{mappedCount}}/{{count}} の値がマッピングされました",
+      "progressPill_zero": "{{mappedCount}}/{{count}} の値がマッピングされました",
+      "progressPillAllMapped_other": "{{count}} の値がマッピングされました",
+      "progressPillAllMapped_zero": "{{count}} の値がマッピングされました",
       "subheading": "これらのフィールドには、有効なオプションのリストにマップする必要がある値が含まれています。",
       "title": "マップフィールド"
     },

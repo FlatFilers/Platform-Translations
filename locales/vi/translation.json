@@ -398,10 +398,10 @@
         "noData": "Ô không có dữ liệu",
         "noDataTooltip": "Bạn có thể chọn một tùy chọn hợp lệ để điền vào tất cả các ô trống. Bạn cũng có thể để trống phần này."
       },
-      "progressPill_other": "Đã ánh xạ {{mappedCount}} trên {{totalCount}} giá trị",
-      "progressPill_zero": "Đã ánh xạ {{mappedCount}} trên {{totalCount}} giá trị",
-      "progressPillAllMapped_other": "Đã ánh xạ {{totalCount}} giá trị",
-      "progressPillAllMapped_zero": "Đã ánh xạ {{totalCount}} giá trị",
+      "progressPill_other": "Đã ánh xạ {{mappedCount}} trên {{count}} giá trị",
+      "progressPill_zero": "Đã ánh xạ {{mappedCount}} trên {{count}} giá trị",
+      "progressPillAllMapped_other": "Đã ánh xạ {{count}} giá trị",
+      "progressPillAllMapped_zero": "Đã ánh xạ {{count}} giá trị",
       "subheading": "Những trường dữ liệu này có giá trị phải được ánh xạ tới danh sách các tùy chọn hợp lệ.",
       "title": "Ánh xạ Trường dữ liệu"
     },

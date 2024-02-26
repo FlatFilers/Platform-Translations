@@ -398,10 +398,10 @@
         "noData": "Sel tanpa data",
         "noDataTooltip": "Anda dapat memilih opsi yang valid untuk mengisi semua sel. Anda juga dapat mengosongkannya."
       },
-      "progressPill_other": "{{mappedCount}} dari {{totalCount}} nilai dipetakan",
-      "progressPill_zero": "{{mappedCount}} dari {{totalCount}} nilai dipetakan",
-      "progressPillAllMapped_other": "{{totalCount}} nilai dipetakan",
-      "progressPillAllMapped_zero": "{{totalCount}} nilai dipetakan",
+      "progressPill_other": "{{mappedCount}} dari {{count}} nilai dipetakan",
+      "progressPill_zero": "{{mappedCount}} dari {{count}} nilai dipetakan",
+      "progressPillAllMapped_other": "{{count}} nilai dipetakan",
+      "progressPillAllMapped_zero": "{{count}} nilai dipetakan",
       "subheading": "Bidang ini memiliki nilai yang harus dipetakan ke daftar opsi yang valid.",
       "title": "Bidang Peta"
     },
