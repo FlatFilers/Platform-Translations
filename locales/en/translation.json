@@ -556,6 +556,8 @@
         "messages": {
           "autogen": "✨ Automatically generated",
           "compositeUnique": "🧑‍🍳 Composite {{name}} is not unique",
+          "invalidOption": "Invalid option",
+          "invalidValue": "Value is not a valid option",
           "reference": "Value does not exist in the reference table",
           "req": "{{field}} is required",
           "transformed": "🪄️ Transformed from {{originalValue}}",
