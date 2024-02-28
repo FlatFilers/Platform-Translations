@@ -572,6 +572,8 @@
         "messages": {
           "autogen": "✨ Automatisch generiert",
           "compositeUnique": "🧑‍🍳 Das Kompositum {{name}} ist nicht einzigartig",
+          "invalidOption": "Unzulässige Option",
+          "invalidValue": "Der Wert ist keine zulässige Option",
           "reference": "Der Wert existiert in der Referenztabelle nicht",
           "req": "{{field}} ist erforderlich",
           "transformed": "🪄️ Transformiert aus {{originalValue}}",

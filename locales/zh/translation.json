@@ -555,6 +555,8 @@
         "messages": {
           "autogen": "✨自动生成",
           "compositeUnique": "🧑‍🍳 组合 {{name}} 不唯一",
+          "invalidOption": "无效选项",
+          "invalidValue": "值不是有效选项",
           "reference": "引用表中不存在值",
           "req": "{{field}} 为必填",
           "transformed": "🪄️从{{originalValue}}转换而来",

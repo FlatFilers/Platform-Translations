@@ -555,6 +555,8 @@
         "messages": {
           "autogen": "✨ Dibuat secara otomatis",
           "compositeUnique": "🧑‍🍳 Komposit {{name}} tidak unik",
+          "invalidOption": "Opsi tidak valid",
+          "invalidValue": "Nilai tersebut bukan opsi valid",
           "reference": "Nilai tidak ada dalam tabel referensi",
           "req": "{{field}} diperlukan",
           "transformed": "🪄️ Diubah dari {{originalValue}}",

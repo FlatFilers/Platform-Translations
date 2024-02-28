@@ -572,6 +572,8 @@
         "messages": {
           "autogen": "✨ Automaticamente gerado",
           "compositeUnique": "🧑‍🍳 A composição {{name}} não é única",
+          "invalidOption": "Opção inválida",
+          "invalidValue": "O valor não é uma opção válida",
           "reference": "Valor não existe na tabela de referência",
           "req": "{{field}} é obrigatório",
           "transformed": "🪄️ Transformado de {{originalValue}}",

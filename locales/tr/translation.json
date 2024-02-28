@@ -572,6 +572,8 @@
         "messages": {
           "autogen": "✨ Otomatik olarak oluşturuldu",
           "compositeUnique": "🧑‍🍳 Kompozit {{name}} benzersiz değil",
+          "invalidOption": "Geçersiz seçenek",
+          "invalidValue": "Değer, geçerli bir seçenek değil",
           "reference": "Değer, referans tablosunda mevcut değil",
           "req": "{{field}} gereklidir",
           "transformed": "🪄️ {{originalValue}} değerinden dönüştürüldü",
