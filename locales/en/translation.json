@@ -915,8 +915,8 @@
       },
       "errorMessage": "The changes could not be previewed due to an unexpected error.",
       "filters": {
-        "createdSince": "Remove",
-        "deletedSince": "Add",
+        "createdSince": "Add",
+        "deletedSince": "Remove",
         "updatedSince": "Modify"
       },
       "header": {
