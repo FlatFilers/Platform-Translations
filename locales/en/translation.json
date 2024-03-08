@@ -84,6 +84,7 @@
           "invalidFunctionError": "Sorry, the AI assistant is unable to perform that transformation. Most likely you asked it to do something invalid.",
           "keysModifiedError": "Sorry, the AI assistant can only modify the values of existing fields. It cannot remove fields or add new ones.",
           "noFunctionError": "I didn't understand your request. Try phrasing it differently.",
+          "noRecordsFoundError": "You must have some records in your (filtered) sheet in order to use the AI assistant.",
           "readOnlyError": "This sheet is currently set to ‘Read-Only’ mode, which prevents any data transformation actions. Please ensure you have edit permissions or switch to a modifiable sheet to perform this operation.",
           "versionError": "Unable to create a rollback version - AI transform aborted. Please try again."
         },
