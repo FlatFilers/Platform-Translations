@@ -159,6 +159,7 @@
         "inProgressText": "Uploading file",
         "text": "Add file"
       },
+      "googleDrive": "Add file from Google Drive",
       "delete": "Delete",
       "download": "Download"
     },
@@ -213,9 +214,14 @@
         "unsupportedFile": "Unsupported file type. Try another file type or reach out to Support.",
         "unsupportedFileInfo": "We did not detect data in this file. It's available for download if needed.",
         "uploadComplete": "Uploaded: {{fileName}}",
+        "uploadCompleteMany": "Uploaded {{count}} files",
         "uploadInProgress": "Uploading: {{fileName}}",
+        "uploadInProgressMany": "Uploading {{count}} files",
         "uploadsDisabled": "This space does not currently support file uploads.",
-        "waitingForExtraction": "Waiting for file extraction..."
+        "waitingForExtraction": "Waiting for file extraction...",
+        "uploadingMany": "Uploading {{count}} files",
+        "uploadError": "Error uploading {{fileName}}",
+        "uploadErrorMany": "Error uploading {{count}} files"
       }
     },
     "uploadsTables": {
