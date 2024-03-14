@@ -84,6 +84,7 @@
           "invalidFunctionError": "Maaf, asisten AI tidak dapat melakukan transformasi tersebut. Kemungkinan besar Anda memintanya untuk melakukan sesuatu yang tidak valid.",
           "keysModifiedError": "Maaf, asisten AI hanya dapat mengubah nilai bidang yang sudah ada. Asisten AI tidak dapat menghapus bidang atau menambahkan bidang baru.",
           "noFunctionError": "Saya tidak memahami permintaan Anda. Coba ucapkan dengan kalimat yang berbeda.",
+          "noRecordsFoundError": "Anda harus memiliki sejumlah data di sheet Anda (yang difilter) untuk menggunakan asisten AI.",
           "readOnlyError": "Lembar ini saat ini diatur ke mode 'Hanya-Baca', yang mencegah tindakan transformasi data apa pun. Pastikan Anda memiliki izin untuk mengedit atau beralih ke lembar yang dapat dimodifikasi untuk melakukan operasi ini.",
           "versionError": "Tidak dapat membuat versi rollback - transformasi AI dibatalkan. Silakan coba lagi."
         },
@@ -159,7 +160,8 @@
         "text": "Tambah berkas"
       },
       "delete": "Hapus",
-      "download": "Unduh"
+      "download": "Unduh",
+      "googleDrive": "Tambahkan file dari Google Drive"
     },
     "contextMenu": {
       "delete": "Hapus",
@@ -212,7 +214,12 @@
         "unsupportedFile": "Jenis file tidak didukung. Coba jenis file lain atau hubungi Dukungan.",
         "unsupportedFileInfo": "Kami tidak mendeteksi data dalam file ini. File tersebut tersedia untuk diunduh jika diperlukan.",
         "uploadComplete": "Diunggah: {{fileName}}",
+        "uploadCompleteMany": "Unggah {{count}} file",
+        "uploadError": "Terjadi kesalahan saat mengunggah {{fileName}}",
+        "uploadErrorMany": "Terjadi kesalahan saat mengunggah {{count}} file",
+        "uploadingMany": "Unggah {{count}} file",
         "uploadInProgress": "Mengunggah: {{fileName}}",
+        "uploadInProgressMany": "Unggah {{count}} file",
         "uploadsDisabled": "Ruang ini saat ini tidak mendukung pengunggahan berkas.",
         "waitingForExtraction": "Menunggu ekstraksi file..."
       }

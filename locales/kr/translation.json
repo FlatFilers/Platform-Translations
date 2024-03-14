@@ -84,6 +84,7 @@
           "invalidFunctionError": "죄송합니다. AI 도우미가 해당 변환을 수행할 수 없습니다. 아마도 잘못된 작업을 요청했을 수 있습니다.",
           "keysModifiedError": "죄송합니다. AI 도우미는 기존 필드 값만 수정할 수 있습니다. 필드를 제거하거나 새 필드를 추가할 수는 없습니다.",
           "noFunctionError": "요청을 이해하지 못했습니다. 다르게 작성해 보세요.",
+          "noRecordsFoundError": "AI 어시스턴트를 사용하려면 (필터링된) 시트에 일부 기록이 있어야 합니다.",
           "readOnlyError": "이 시트는 현재 '읽기 전용' 모드로 설정되어 있어 데이터 변환 작업이 불가능합니다. 이 작업을 수행하려면 편집 권한이 있는지 확인하거나 수정 가능한 시트로 전환하세요.",
           "versionError": "롤백 버전을 생성할 수 없습니다. AI 변환이 중단되었습니다. 다시 시도해 주세요."
         },
@@ -159,7 +160,8 @@
         "text": "파일 추가"
       },
       "delete": "삭제",
-      "download": "다운로드"
+      "download": "다운로드",
+      "googleDrive": "Google 드라이브에서 파일 추가"
     },
     "contextMenu": {
       "delete": "삭제",
@@ -212,7 +214,12 @@
         "unsupportedFile": "지원되지 않는 파일 형식입니다. 다른 파일 형식으로 시도해 보시거나 지원팀에 문의해 주세요.",
         "unsupportedFileInfo": "이 파일에서 데이터를 감지하지 못했습니다. 필요한 경우 다운로드할 수 있습니다.",
         "uploadComplete": "업로드됨: {{fileName}}",
+        "uploadCompleteMany": "{{count}}개 파일 업로드함",
+        "uploadError": "{{fileName}} 업로드 중 오류 발생",
+        "uploadErrorMany": "{{count}}개 파일 업로드 중 오류 발생",
+        "uploadingMany": "{{count}}개 파일 업로드 중",
         "uploadInProgress": "업로드 중: {{fileName}}",
+        "uploadInProgressMany": "{{count}}개 파일 업로드 중",
         "uploadsDisabled": "이 공간은 현재 파일 업로드를 지원하지 않습니다.",
         "waitingForExtraction": "파일 추출 대기 중..."
       }

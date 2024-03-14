@@ -84,6 +84,7 @@
           "invalidFunctionError": "Entschuldigung, der KI-Assistent kann diese Transformierung nicht durchführen. Wahrscheinlich haben Sie ihn aufgefordert, etwas Unzulässiges zu tun.",
           "keysModifiedError": "Entschuldigung, der KI-Assistent kann nur die Werte existierender Felder modifizieren. Er kann keine Felder entfernen oder neue hinzufügen.",
           "noFunctionError": "Ich habe Ihre Anfrage nicht verstanden. Versuchen Sie sie anders zu formulieren.",
+          "noRecordsFoundError": "Sie müssen einige Datensätze in Ihrem (gefilterten) Blatt haben, um den KI-Assistenten nutzen zu können.",
           "readOnlyError": "Dieses Tabellenblatt ist derzeit auf den Nur-Lese-Modus eingestellt, weshalb an den Daten keine Änderungen vorgenommen werden können. Bitte vergewissern Sie sich, dass Sie über Bearbeitungsrechte verfügen, oder wechseln Sie zu einem bearbeitbaren Tabellenblatt, um diesen Vorgang durchzuführen.",
           "versionError": "Es kann keine Rollback-Version erstellt werden – KI-Transformation abgebrochen. Bitte versuchen Sie es erneut."
         },
@@ -160,7 +161,8 @@
         "text": "Datei hinzufügen"
       },
       "delete": "Löschen",
-      "download": "Herunterladen"
+      "download": "Herunterladen",
+      "googleDrive": "Datei aus Google Drive hinzufügen"
     },
     "contextMenu": {
       "delete": "Löschen",
@@ -217,7 +219,12 @@
         "unsupportedFile": "Nicht unterstützter Dateityp. Versuchen Sie einen anderen Dateityp oder wenden Sie sich an den Support.",
         "unsupportedFileInfo": "Wir haben keine Daten in dieser Datei gefunden. Falls erforderlich, steht diese Datei zum Download bereit.",
         "uploadComplete": "Hochgeladen: {{fileName}}",
+        "uploadCompleteMany": "{{count}} Dateien hochgeladen",
+        "uploadError": "Fehler beim Hochladen von {{fileName}}",
+        "uploadErrorMany": "Fehler beim Hochladen von {{count}} Dateien",
+        "uploadingMany": "{{count}} Dateien werden hochgeladen",
         "uploadInProgress": "Hochladen: {{fileName}}",
+        "uploadInProgressMany": "{{count}} Dateien werden hochgeladen",
         "uploadsDisabled": "Dieser Speicherort unterstützt derzeit keine Datei-Uploads.",
         "waitingForExtraction": "Auf Dateiextraktion warten"
       }

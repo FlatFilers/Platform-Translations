@@ -84,6 +84,7 @@
           "invalidFunctionError": "Rất tiếc, trợ lý AI không thể thực hiện phép biến đổi đó. Rất có thể bạn đã yêu cầu trợ lý AI làm điều gì đó không hợp lệ.",
           "keysModifiedError": "Rất tiếc, trợ lý AI chỉ có thể sửa đổi giá trị của các trường dữ liệu hiện có. Trợ lý AI không thể xóa trường dữ liệu hoặc thêm trường dữ liệu mới.",
           "noFunctionError": "Tôi không hiểu yêu cầu của bạn. Hãy thử diễn đạt theo cách khác.",
+          "noRecordsFoundError": "Bạn phải có một vài bản ghi trong trang tính (đã lọc) của mình để sử dụng trợ lý AI.",
           "readOnlyError": "Trang tính hiện đang được đặt ở chế độ “Chỉ đọc”, điều này ngăn các hành động chuyển hóa dữ liệu. Vui lòng đảm bảo rằng bạn có quyền sửa hoặc chuyển sang một trang tính có cho phép chỉnh sửa để thực hiện tác vụ này.",
           "versionError": "Không thể tạo phiên bản khôi phục – đã hủy bỏ biến đổi AI. Vui lòng thử lại."
         },
@@ -159,7 +160,8 @@
         "text": "Thêm tệp"
       },
       "delete": "Xóa",
-      "download": "Tải xuống"
+      "download": "Tải xuống",
+      "googleDrive": "Thêm tập tin từ Google Drive"
     },
     "contextMenu": {
       "delete": "Xóa",
@@ -212,7 +214,12 @@
         "unsupportedFile": "Loại tệp không được hỗ trợ. Hãy thử loại tệp khác hoặc liên hệ với bộ phận Hỗ trợ.",
         "unsupportedFileInfo": "Chúng tôi không phát hiện thấy dữ liệu trong tệp này. Tệp đã sẵn sàng để tải xuống nếu cần.",
         "uploadComplete": "Đã tải lên: {{fileName}}",
+        "uploadCompleteMany": "Đã tải lên {{count}} tập tin",
+        "uploadError": "Lỗi tải lên {{fileName}}",
+        "uploadErrorMany": "Lỗi tải lên {{count}} tập tin",
+        "uploadingMany": "Đang tải lên {{count}} tập tin",
         "uploadInProgress": "Đang tải lên: {{fileName}}",
+        "uploadInProgressMany": "Đang tải lên {{count}} tập tin",
         "uploadsDisabled": "Không gian này hiện không hỗ trợ tải tệp lên.",
         "waitingForExtraction": "Đang chờ giải nén tệp..."
       }

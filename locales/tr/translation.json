@@ -84,6 +84,7 @@
           "invalidFunctionError": "Maalesef YZ asistanı bu dönüşümü gerçekleştiremiyor. Büyük olasılıkla geçersiz bir şey yapmasını istediniz.",
           "keysModifiedError": "Maalesef YZ asistanı yalnızca mevcut alanların değerlerini değiştirebilir. Alanları kaldıramaz veya yenilerini ekleyemez.",
           "noFunctionError": "Talebinizi anlamadım. Farklı bir şekilde ifade etmeyi deneyin.",
+          "noRecordsFoundError": "YZ asistanı kullanabilmeniz için (filtrelenmiş) sayfanızda bazı kayıtların olması gerekir.",
           "readOnlyError": "Bu sayfa, şu anda \"Salt Okunur\" moduna ayarlı ve bu, herhangi bir veri dönüştürme işlemini engellemektedir. Bu işlemi gerçekleştirmek için lütfen düzenleme izinlerine sahip olduğunuza emin olun veya değiştirilebilir bir sayfaya geçin.",
           "versionError": "Bir geri alma sürümü oluşturulamıyor. Yapay zekâ destekli dönüştürme durduruldu. Lütfen tekrar deneyin."
         },
@@ -160,7 +161,8 @@
         "text": "Dosya ekle"
       },
       "delete": "Sil",
-      "download": "İndir"
+      "download": "İndir",
+      "googleDrive": "Google Drive'dan dosya ekle"
     },
     "contextMenu": {
       "delete": "Sil",
@@ -217,7 +219,12 @@
         "unsupportedFile": "Desteklenmeyen dosya türü. Başka bir dosya türü deneyin veya Destek birimine ulaşın.",
         "unsupportedFileInfo": "Bu dosyada veri algılamadık. Dosya gerekirse indirmeye hazırdır.",
         "uploadComplete": "Yüklendi: {{fileName}}",
+        "uploadCompleteMany": "{{count}} dosya yüklendi",
+        "uploadError": "{{fileName}} yüklenirken hata oluştu",
+        "uploadErrorMany": "{{count}} dosya yüklenirken hata oluştu",
+        "uploadingMany": "{{count}} dosya yükleniyor",
         "uploadInProgress": "Yükleniyor: {{fileName}}",
+        "uploadInProgressMany": "{{count}} dosya yükleniyor",
         "uploadsDisabled": "Bu alan şu anda dosya yüklemelerini desteklemiyor.",
         "waitingForExtraction": "Dosya ayıklama bekleniyor..."
       }

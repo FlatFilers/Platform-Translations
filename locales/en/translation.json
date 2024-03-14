@@ -161,7 +161,8 @@
       },
       "googleDrive": "Add file from Google Drive",
       "delete": "Delete",
-      "download": "Download"
+      "download": "Download",
+      "googleDrive": "Add file from Google Drive"
     },
     "contextMenu": {
       "delete": "Delete",

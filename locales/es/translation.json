@@ -84,6 +84,7 @@
           "invalidFunctionError": "Lo sentimos, el asistente por IA no puede realizar esa transformación. Lo más probable es que le hayas pedido que haga algo no válido.",
           "keysModifiedError": "Lo sentimos, el asistente por IA solo puede modificar los valores de los campos existentes. No puede eliminar campos ni añadir otros nuevos.",
           "noFunctionError": "No he entendido tu petición. Intenta formularla de manera diferente.",
+          "noRecordsFoundError": "Debe tener algunos registros en su hoja (filtrada) para poder utilizar el asistente de IA.",
           "readOnlyError": "Esta hoja está actualmente configurada en modo «Solo lectura», lo que impide cualquier acción de transformación de datos. Por favor, asegúrate de tener permisos de edición o cambia a una hoja modificable para realizar esta operación.",
           "versionError": "No se ha podido crear una versión de reversión - Transformación IIA cancelada. Vuelve a intentarlo."
         },
@@ -160,7 +161,8 @@
         "text": "Añadir archivo"
       },
       "delete": "Eliminar",
-      "download": "Descargar"
+      "download": "Descargar",
+      "googleDrive": "Añadir archivo desde Google Drive"
     },
     "contextMenu": {
       "delete": "Eliminar",
@@ -217,7 +219,12 @@
         "unsupportedFile": "Tipo de archivo no compatible. Inténtalo con otro tipo de archivo o contacta con el equipo de asistencia.",
         "unsupportedFileInfo": "No hemos detectado información en este archivo. Está disponible para descargar si es necesario.",
         "uploadComplete": "Subido: {{fileName}}",
+        "uploadCompleteMany": "{{count}} archivos subidos",
+        "uploadError": "Error al subir {{fileName}}",
+        "uploadErrorMany": "Error al subir {{count}} archivos",
+        "uploadingMany": "Subiendo {{count}} archivos",
         "uploadInProgress": "Subiendo: {{fileName}}",
+        "uploadInProgressMany": "Subiendo {{count}} archivos",
         "uploadsDisabled": "Este espacio no admite actualmente la subida de archivos.",
         "waitingForExtraction": "Esperando a la extracción del archivo..."
       }

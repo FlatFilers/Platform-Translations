@@ -84,6 +84,7 @@
           "invalidFunctionError": "すみません、AIアシスタントはその変換を実行できません。あなたが何か無効な要求を行った可能性が高いとみられます。",
           "keysModifiedError": "すみません、AIアシスタントに可能なのは既存のフィールド値の修正のみです。フィールドの削除または新規の追加は行えません。",
           "noFunctionError": "あなたのリクエストを理解できませんでした。別の言い回しをお試しください。",
+          "noRecordsFoundError": "AIアシスタントを使用するには、（フィルタリングされた）シートにいくつかのレコードが必要です。",
           "readOnlyError": "このシートは現在 「読み取り専用」 モードに設定されており、これによりデータ変換操作ができません。 この操作を実行するには、編集権限があることを確認するか、変更可能なシートに切り替えてください。",
           "versionError": "ロールバックバージョンを作成できません - AI変換は中止されました。もう一度試してください。"
         },
@@ -159,7 +160,8 @@
         "text": "ファイルを追加"
       },
       "delete": "削除",
-      "download": "ダウンロード"
+      "download": "ダウンロード",
+      "googleDrive": "Google ドライブからファイルを追加する"
     },
     "contextMenu": {
       "delete": "削除",
@@ -212,7 +214,12 @@
         "unsupportedFile": "サポートされていないファイル形式です。別のファイル形式を試すか、サポートにお問い合わせください。",
         "unsupportedFileInfo": "このファイルのデータは検出されませんでした。必要に応じてダウンロードできます。",
         "uploadComplete": "アップロードされました：{{fileName}}",
+        "uploadCompleteMany": "{{count}} 個のファイルをアップロードしました",
+        "uploadError": "{{fileName}} のアップロード中にエラーが発生しました",
+        "uploadErrorMany": "{{count}} 個のファイルのアップロード中にエラーが発生しました",
+        "uploadingMany": "{{count}} 個のファイルをアップロードしています",
         "uploadInProgress": "アップロード中：{{fileName}}",
+        "uploadInProgressMany": "{{count}} 個のファイルをアップロードしています",
         "uploadsDisabled": "このスペースは現在、ファイルのアップロードをサポートしていません。",
         "waitingForExtraction": "ファイルの抽出を待っています..."
       }

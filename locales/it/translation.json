@@ -84,6 +84,7 @@
           "invalidFunctionError": "Siamo spiacenti, l'assistente IA non è in grado di eseguire questa trasformazione. Molto probabilmente gli hai chiesto di fare qualcosa di non valido.",
           "keysModifiedError": "Siamo spiacenti, l'assistente IA può modificare solo i valori dei campi esistenti. Non può rimuovere campi o aggiungerne di nuovi.",
           "noFunctionError": "Non ho capito la tua richiesta. Prova a formularla diversamente.",
+          "noRecordsFoundError": "Devi avere dati nel tuo foglio di calcolo (filtrato) per poter utilizzare l'assistente IA.",
           "readOnlyError": "Questo foglio è attualmente impostato sulla modalità \"Sola lettura\", il che impedisce qualsiasi azione di trasformazione dei dati. Assicurati di disporre delle autorizzazioni di modifica o passa ad un foglio modificabile per eseguire questa operazione.",
           "versionError": "Impossibile creare una versione di rollback: trasformazione IA interrotta. Riprova."
         },
@@ -160,7 +161,8 @@
         "text": "Aggiungi file"
       },
       "delete": "Elimina",
-      "download": "Scarica"
+      "download": "Scarica",
+      "googleDrive": "Aggiungi file da Google Drive"
     },
     "contextMenu": {
       "delete": "Elimina",
@@ -217,7 +219,12 @@
         "unsupportedFile": "Tipo di file non supportato. Prova con un altro tipo di file o contatta l'assistenza.",
         "unsupportedFileInfo": "Non abbiamo rilevato dati in questo file. È disponibile per il download, se necessario.",
         "uploadComplete": "Caricato: {{fileName}}",
+        "uploadCompleteMany": "{{count}} file caricati",
+        "uploadError": "Errore nel caricamento di {{fileName}}",
+        "uploadErrorMany": "Errore nel caricamento di {{count}} file",
+        "uploadingMany": "{{count}} file in caricamento",
         "uploadInProgress": "In caricamento: {{fileName}}",
+        "uploadInProgressMany": "{{count}} file in caricamento",
         "uploadsDisabled": "Questo spazio al momento non supporta il caricamento di file.",
         "waitingForExtraction": "Estrazione del file in corso..."
       }

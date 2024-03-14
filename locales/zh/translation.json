@@ -84,6 +84,7 @@
           "invalidFunctionError": "抱歉，AI助手无法执行该转换。您要求它做的事情很可能是无效的。",
           "keysModifiedError": "抱歉，AI助手只能修改现有字段的值。它无法删除字段或添加新字段。",
           "noFunctionError": "我不明白您的请求。请尝试用不同的措辞表达。",
+          "noRecordsFoundError": "要使用AI助手，您（筛选后的）工作表中必须存有一定的记录。",
           "readOnlyError": "此工作表目前设置为“只读”模式，这将会阻止任何数据转换操作。请确保您有编辑权限或者切换到可修改的工作表来执行此操作。",
           "versionError": "无法创建回滚版本——AI 转换已中止。请再试一次。"
         },
@@ -159,7 +160,8 @@
         "text": "添加文件"
       },
       "delete": "删除",
-      "download": "下载"
+      "download": "下载",
+      "googleDrive": "从 Google 云端硬盘添加文件"
     },
     "contextMenu": {
       "delete": "删除",
@@ -212,7 +214,12 @@
         "unsupportedFile": "不支持的文件类型。尝试其他文件类型或联系客服人员。",
         "unsupportedFileInfo": "我们没有检测到该文件中的数据。如果需要，您可以下载。",
         "uploadComplete": "已上传：{{fileName}}",
+        "uploadCompleteMany": "已上传 {{count}} 个文件",
+        "uploadError": "上传 {{fileName}} 时出错",
+        "uploadErrorMany": "上传 {{count}} 个文件时出错",
+        "uploadingMany": "正在上传 {{count}} 个文件",
         "uploadInProgress": "正在上传：{{fileName}}",
+        "uploadInProgressMany": "正在上传 {{count}} 个文件",
         "uploadsDisabled": "该空间目前不支持文件上传。",
         "waitingForExtraction": "等待文件提取……"
       }

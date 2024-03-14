@@ -84,6 +84,7 @@
           "invalidFunctionError": "Desculpe, o assistente de IA não pode realizar essa transformação. Provavelmente você solicitou que ele fizesse algo inválido.",
           "keysModifiedError": "Desculpe, o assistente de IA só pode modificar os valores dos campos existentes. Ele não pode remover campos ou adicionar novos.",
           "noFunctionError": "Não entendi sua solicitação. Tente dizer de outra forma.",
+          "noRecordsFoundError": "Você deve possuir alguns registros em sua planilha (filtrada) para utilizar o assistente de IA.",
           "readOnlyError": "Esta planilha está atualmente configurada para o modo ‘Somente leitura’, o que impede qualquer alteração de dados. Certifique-se de ter permissões para edição ou altere para uma planilha editável para realizar esta ação.",
           "versionError": "Não foi possível criar uma versão de reversão - transformação de IA abortada. Tente novamente."
         },
@@ -160,7 +161,8 @@
         "text": "Adicionar arquivo"
       },
       "delete": "Excluir",
-      "download": "Download"
+      "download": "Download",
+      "googleDrive": "Adicionar arquivo do Google Drive"
     },
     "contextMenu": {
       "delete": "Excluir",
@@ -217,7 +219,12 @@
         "unsupportedFile": "Tipo de arquivo não suportado. Tente outro tipo de arquivo ou entre em contato com o Suporte.",
         "unsupportedFileInfo": "Não detectamos dados nesse arquivo. Ele está disponível para ser baixado, se necessário.",
         "uploadComplete": "Carregado: {{fileName}}",
+        "uploadCompleteMany": "{{count}} arquivos carregados",
+        "uploadError": "Erro ao carregar {{fileName}}",
+        "uploadErrorMany": "Erro ao carregar {{count}} arquivos",
+        "uploadingMany": "Carregando {{count}} arquivos",
         "uploadInProgress": "Fazendo Upload: {{fileName}}",
+        "uploadInProgressMany": "Carregando {{count}} arquivos",
         "uploadsDisabled": "Este espaço atualmente não suporta envios de arquivos.",
         "waitingForExtraction": "Aguardando a extração do arquivo..."
       }
