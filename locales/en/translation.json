@@ -157,12 +157,23 @@
     "buttons": {
       "addFile": {
         "inProgressText": "Uploading file",
-        "text": "Add file"
+        "text": "Upload file"
       },
-      "googleDrive": "Add file from Google Drive",
+      "addFileFrom": {
+        "text": "Add file from…",
+        "googleDrive": "Google Drive",
+        "box": "Box"
+      },
       "delete": "Delete",
-      "download": "Download",
-      "googleDrive": "Add file from Google Drive"
+      "download": "Download"
+    },
+    "connectionsModal": {
+      "heading": "Manage your connections",
+      "subtext": " Click the buttons below to sign into or out of your accounts.",
+      "googleDrive": "Google Drive",
+      "box": "Box",
+      "manage": "Manage",
+      "close": "Close"
     },
     "contextMenu": {
       "delete": "Delete",
