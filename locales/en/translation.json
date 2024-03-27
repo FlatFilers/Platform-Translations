@@ -157,7 +157,7 @@
     "buttons": {
       "addFile": {
         "inProgressText": "Uploading file",
-        "text": "Add file"
+        "text": "Upload file"
       },
       "addFileFrom": {
         "box": "Box",
