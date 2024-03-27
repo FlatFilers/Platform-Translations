@@ -159,9 +159,22 @@
         "inProgressText": "正在上传文件",
         "text": "添加文件"
       },
+      "addFileFrom": {
+        "box": "Box",
+        "googleDrive": "Google Drive",
+        "text": "从以下位置添加文件……"
+      },
       "delete": "删除",
       "download": "下载",
       "googleDrive": "从 Google 云端硬盘添加文件"
+    },
+    "connectionsModal": {
+      "box": "Box",
+      "close": "关闭",
+      "googleDrive": "Google Drive",
+      "heading": "管理您的连接",
+      "manage": "管理",
+      "subtext": " 点击下方按钮登录或登出账户。"
     },
     "contextMenu": {
       "delete": "删除",

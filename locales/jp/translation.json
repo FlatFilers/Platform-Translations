@@ -159,9 +159,22 @@
         "inProgressText": "ファイルをアップロードしています",
         "text": "ファイルを追加"
       },
+      "addFileFrom": {
+        "box": "Box",
+        "googleDrive": "Googleドライブ",
+        "text": "ファイルを追加…"
+      },
       "delete": "削除",
       "download": "ダウンロード",
       "googleDrive": "Google ドライブからファイルを追加する"
+    },
+    "connectionsModal": {
+      "box": "Box",
+      "close": "閉じる",
+      "googleDrive": "Googleドライブ",
+      "heading": "接続を管理",
+      "manage": "管理",
+      "subtext": " アカウントにサインインまたはサインアウトするには、下のボタンをクリックしてください。"
     },
     "contextMenu": {
       "delete": "削除",

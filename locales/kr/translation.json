@@ -159,9 +159,22 @@
         "inProgressText": "파일 업로드 중",
         "text": "파일 추가"
       },
+      "addFileFrom": {
+        "box": "Box",
+        "googleDrive": "Google Drive",
+        "text": "다음에서 파일 추가..."
+      },
       "delete": "삭제",
       "download": "다운로드",
       "googleDrive": "Google 드라이브에서 파일 추가"
+    },
+    "connectionsModal": {
+      "box": "Box",
+      "close": "닫기",
+      "googleDrive": "Google Drive",
+      "heading": "연결 관리",
+      "manage": "관리",
+      "subtext": " 아래에 있는 버튼을 클릭해 계정에 로그인하거나 로그아웃하세요."
     },
     "contextMenu": {
       "delete": "삭제",

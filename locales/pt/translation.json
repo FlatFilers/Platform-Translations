@@ -160,9 +160,22 @@
         "inProgressText": "A carregar ficheiro",
         "text": "Adicionar ficheiro"
       },
+      "addFileFrom": {
+        "box": "Box",
+        "googleDrive": "Google Drive",
+        "text": "Adicionar ficheiro de..."
+      },
       "delete": "Eliminar",
       "download": "Descarregar",
       "googleDrive": "Adicionar ficheiro do Google Drive"
+    },
+    "connectionsModal": {
+      "box": "Box",
+      "close": "Fechar",
+      "googleDrive": "Google Drive",
+      "heading": "Faça a gestão das suas conexões",
+      "manage": "Gerir",
+      "subtext": " Clique nos botões abaixo para iniciar ou terminar sessão das suas contas."
     },
     "contextMenu": {
       "delete": "Eliminar",

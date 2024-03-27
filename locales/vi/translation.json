@@ -159,9 +159,22 @@
         "inProgressText": "Đang tải tệp lên",
         "text": "Thêm tệp"
       },
+      "addFileFrom": {
+        "box": "Box",
+        "googleDrive": "Google Drive",
+        "text": "Thêm tập tin từ..."
+      },
       "delete": "Xóa",
       "download": "Tải xuống",
       "googleDrive": "Thêm tập tin từ Google Drive"
+    },
+    "connectionsModal": {
+      "box": "Box",
+      "close": "Đóng",
+      "googleDrive": "Google Drive",
+      "heading": "Quản lý các kết nối của bạn",
+      "manage": "Quản lý",
+      "subtext": " Nhấn vào các nút bên dưới để đăng nhập hoặc đăng xuất khỏi tài khoản của bạn."
     },
     "contextMenu": {
       "delete": "Xóa",

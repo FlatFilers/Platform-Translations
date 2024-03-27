@@ -159,9 +159,22 @@
         "inProgressText": "Mengunggah berkas",
         "text": "Tambah berkas"
       },
+      "addFileFrom": {
+        "box": "Box",
+        "googleDrive": "Google Drive",
+        "text": "Tambahkan file dari...."
+      },
       "delete": "Hapus",
       "download": "Unduh",
       "googleDrive": "Tambahkan file dari Google Drive"
+    },
+    "connectionsModal": {
+      "box": "Box",
+      "close": "Tutup",
+      "googleDrive": "Google Drive",
+      "heading": "Kelola koneksi Anda",
+      "manage": "Kelola",
+      "subtext": " Klik tombol-tombol di bawah ini untuk masuk atau keluar dari akun Anda."
     },
     "contextMenu": {
       "delete": "Hapus",

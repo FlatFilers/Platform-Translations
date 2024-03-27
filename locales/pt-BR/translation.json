@@ -160,9 +160,22 @@
         "inProgressText": "Enviando arquivo",
         "text": "Adicionar arquivo"
       },
+      "addFileFrom": {
+        "box": "Box",
+        "googleDrive": "Google Drive",
+        "text": "Adicionar arquivo de..."
+      },
       "delete": "Excluir",
       "download": "Download",
       "googleDrive": "Adicionar arquivo do Google Drive"
+    },
+    "connectionsModal": {
+      "box": "Box",
+      "close": "Fechar",
+      "googleDrive": "Google Drive",
+      "heading": "Gerenciar suas conexões",
+      "manage": "Gerenciar",
+      "subtext": " Clique nos botões abaixo para entrar ou sair de suas contas."
     },
     "contextMenu": {
       "delete": "Excluir",

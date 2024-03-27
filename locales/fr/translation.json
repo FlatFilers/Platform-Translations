@@ -160,9 +160,22 @@
         "inProgressText": "Téléchargement du fichier",
         "text": "Ajouter un fichier"
       },
+      "addFileFrom": {
+        "box": "Box",
+        "googleDrive": "Google Drive",
+        "text": "Ajouter un fichier depuis..."
+      },
       "delete": "Supprimer",
       "download": "Télécharger",
       "googleDrive": "Ajouter un fichier à partir de Google Drive"
+    },
+    "connectionsModal": {
+      "box": "Box",
+      "close": "Fermer",
+      "googleDrive": "Google Drive",
+      "heading": "Gérer vos connexions",
+      "manage": "Gérer",
+      "subtext": " Cliquez sur les boutons ci-dessous pour vous connecter à vos comptes ou vous en déconnecter."
     },
     "contextMenu": {
       "delete": "Supprimer",

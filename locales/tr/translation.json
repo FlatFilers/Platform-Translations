@@ -160,9 +160,22 @@
         "inProgressText": "Dosya yükleniyor",
         "text": "Dosya ekle"
       },
+      "addFileFrom": {
+        "box": "Box",
+        "googleDrive": "Google Drive",
+        "text": "Şuradan dosya ekle:"
+      },
       "delete": "Sil",
       "download": "İndir",
       "googleDrive": "Google Drive'dan dosya ekle"
+    },
+    "connectionsModal": {
+      "box": "Box",
+      "close": "Kapat",
+      "googleDrive": "Google Drive",
+      "heading": "Bağlantılarınızı yönetin",
+      "manage": "Yönet",
+      "subtext": " Hesaplarınızda oturum açmak veya kapatmak için aşağıdaki düğmelere tıklayın."
     },
     "contextMenu": {
       "delete": "Sil",

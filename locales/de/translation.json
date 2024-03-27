@@ -160,9 +160,22 @@
         "inProgressText": "Datei wird hochgeladen",
         "text": "Datei hinzufügen"
       },
+      "addFileFrom": {
+        "box": "Box",
+        "googleDrive": "Google Drive",
+        "text": "Datei hinzufügen von ..."
+      },
       "delete": "Löschen",
       "download": "Herunterladen",
       "googleDrive": "Datei aus Google Drive hinzufügen"
+    },
+    "connectionsModal": {
+      "box": "Box",
+      "close": "Schließen",
+      "googleDrive": "Google Drive",
+      "heading": "Verwalten Sie Ihre Verbindungen",
+      "manage": "Verwalten",
+      "subtext": " Klicken Sie auf die Schaltflächen unten, um sich bei Ihren Konten an- oder abzumelden."
     },
     "contextMenu": {
       "delete": "Löschen",

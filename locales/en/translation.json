@@ -157,23 +157,24 @@
     "buttons": {
       "addFile": {
         "inProgressText": "Uploading file",
-        "text": "Upload file"
+        "text": "Add file"
       },
       "addFileFrom": {
-        "text": "Add file from…",
+        "box": "Box",
         "googleDrive": "Google Drive",
-        "box": "Box"
+        "text": "Add file from…"
       },
       "delete": "Delete",
-      "download": "Download"
+      "download": "Download",
+      "googleDrive": "Add file from Google Drive"
     },
     "connectionsModal": {
-      "heading": "Manage your connections",
-      "subtext": " Click the buttons below to sign into or out of your accounts.",
-      "googleDrive": "Google Drive",
       "box": "Box",
+      "close": "Close",
+      "googleDrive": "Google Drive",
+      "heading": "Manage your connections",
       "manage": "Manage",
-      "close": "Close"
+      "subtext": " Click the buttons below to sign into or out of your accounts."
     },
     "contextMenu": {
       "delete": "Delete",
@@ -227,13 +228,13 @@
         "unsupportedFileInfo": "We did not detect data in this file. It's available for download if needed.",
         "uploadComplete": "Uploaded: {{fileName}}",
         "uploadCompleteMany": "Uploaded {{count}} files",
+        "uploadError": "Error uploading {{fileName}}",
+        "uploadErrorMany": "Error uploading {{count}} files",
+        "uploadingMany": "Uploading {{count}} files",
         "uploadInProgress": "Uploading: {{fileName}}",
         "uploadInProgressMany": "Uploading {{count}} files",
         "uploadsDisabled": "This space does not currently support file uploads.",
-        "waitingForExtraction": "Waiting for file extraction...",
-        "uploadingMany": "Uploading {{count}} files",
-        "uploadError": "Error uploading {{fileName}}",
-        "uploadErrorMany": "Error uploading {{count}} files"
+        "waitingForExtraction": "Waiting for file extraction..."
       }
     },
     "uploadsTables": {
