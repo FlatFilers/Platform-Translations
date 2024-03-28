@@ -530,7 +530,7 @@
         "heading": "Sheet not found"
       },
       "readOnly": {
-        "description": "Sheets that don't accept new rows and/or edits commonly receive dynamically populated data. There is no action you can take at take at this time.",
+        "description": "Sheets that don't accept new rows and/or edits commonly receive dynamically populated data. There is no action you can take at this time.",
         "heading": "Awaiting data"
       },
       "sheetLocked": {
