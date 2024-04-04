@@ -69,34 +69,12 @@
           "queryTitle": "查询"
         }
       },
-      "title": "用人工智能构建",
       "transform": {
         "askingAI": {
           "stepFour": "完成",
           "stepOne": "思考",
           "stepThree": "行动",
           "stepTwo": "编写"
-        },
-        "description": "让 AI 转换你的数据",
-        "errorBanner": {
-          "generalError": "出了些问题。请再试一次。",
-          "generateMutationError": "无法连接AI。请稍后再试。",
-          "invalidFunctionError": "抱歉，AI助手无法执行该转换。您要求它做的事情很可能是无效的。",
-          "keysModifiedError": "抱歉，AI助手只能修改现有字段的值。它无法删除字段或添加新字段。",
-          "noFunctionError": "我不明白您的请求。请尝试用不同的措辞表达。",
-          "noRecordsFoundError": "要使用AI助手，您（筛选后的）工作表中必须存有一定的记录。",
-          "readOnlyError": "此工作表目前设置为“只读”模式，这将会阻止任何数据转换操作。请确保您有编辑权限或者切换到可修改的工作表来执行此操作。",
-          "versionError": "无法创建回滚版本——AI 转换已中止。请再试一次。"
-        },
-        "instruction": "描述你希望 AI 助手如何转换你的数据：",
-        "review": {
-          "codeTitle": "代码",
-          "description": "以下就是我的想法。阅读分步说明和查询，如果看起来不错，请点击下面应用它。",
-          "planTitle": "计划",
-          "warning": "警告：这将转换你的数据"
-        },
-        "transforming": {
-          "inProgress": "应用于您的数据集"
         }
       }
     },

@@ -69,34 +69,12 @@
           "queryTitle": "Requête"
         }
       },
-      "title": "Créer à l'aide de l'IA",
       "transform": {
         "askingAI": {
           "stepFour": "Termine",
           "stepOne": "Pense",
           "stepThree": "Exécute",
           "stepTwo": "Écrit"
-        },
-        "description": "demander à l'IA de transformer vos données",
-        "errorBanner": {
-          "generalError": "Une erreur s'est produite. Veuillez réessayer.",
-          "generateMutationError": "Impossible de joindre l'IA. Veuillez réessayer plus tard.",
-          "invalidFunctionError": "Désolé, l'assistant IA n'est pas en mesure d'effectuer cette transformation. Il est probable que vous lui ayez demandé de faire quelque chose d'invalide.",
-          "keysModifiedError": "Désolé, l'assistant IA ne peut modifier que les valeurs des champs existants. Il ne peut pas supprimer des champs ou en ajouter de nouveaux.",
-          "noFunctionError": "Je n'ai pas compris votre demande. Essayez de la formuler différemment.",
-          "noRecordsFoundError": "Vous devez avoir des enregistrements sur votre feuille (filtrée) pour pouvoir utiliser l'assistant IA.",
-          "readOnlyError": "Cette feuille est actuellement paramétrée en mode « Lecture seule », ce qui rend impossible toute action de transformation des données. Veuillez vous assurer d'avoir les autorisations nécessaires pour modifier, ou basculez vers une feuille modifiable pour effectuer cette opération.",
-          "versionError": "Impossible de créer une version de restauration - transformation par l'IA abandonnée. Veuillez réessayer."
-        },
-        "instruction": "Décrivez la façon dont vous souhaitez que l'assistant IA transforme vos données :",
-        "review": {
-          "codeTitle": "Code",
-          "description": "Voilà ce que j'ai trouvé. Lisez l'explication étape par étape ainsi que la requête, et si tout est correct, cliquez ci-dessous pour valider.",
-          "planTitle": "Planifier",
-          "warning": "Avertissement : vos données seront transformé es"
-        },
-        "transforming": {
-          "inProgress": "Application à votre jeu de données"
         }
       }
     },

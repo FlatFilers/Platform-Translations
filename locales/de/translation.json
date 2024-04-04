@@ -69,34 +69,12 @@
           "queryTitle": "Abfrage"
         }
       },
-      "title": "Erstellen mit KI",
       "transform": {
         "askingAI": {
           "stepFour": "Beenden",
           "stepOne": "Nachdenken",
           "stepThree": "Tun",
           "stepTwo": "Schreiben"
-        },
-        "description": "KI mit der Transformation Ihrer Daten beauftragen",
-        "errorBanner": {
-          "generalError": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
-          "generateMutationError": "Die KI ist nicht erreichbar. Bitte versuchen Sie es später noch einmal.",
-          "invalidFunctionError": "Entschuldigung, der KI-Assistent kann diese Transformierung nicht durchführen. Wahrscheinlich haben Sie ihn aufgefordert, etwas Unzulässiges zu tun.",
-          "keysModifiedError": "Entschuldigung, der KI-Assistent kann nur die Werte existierender Felder modifizieren. Er kann keine Felder entfernen oder neue hinzufügen.",
-          "noFunctionError": "Ich habe Ihre Anfrage nicht verstanden. Versuchen Sie sie anders zu formulieren.",
-          "noRecordsFoundError": "Sie müssen einige Datensätze in Ihrem (gefilterten) Blatt haben, um den KI-Assistenten nutzen zu können.",
-          "readOnlyError": "Dieses Tabellenblatt ist derzeit auf den Nur-Lese-Modus eingestellt, weshalb an den Daten keine Änderungen vorgenommen werden können. Bitte vergewissern Sie sich, dass Sie über Bearbeitungsrechte verfügen, oder wechseln Sie zu einem bearbeitbaren Tabellenblatt, um diesen Vorgang durchzuführen.",
-          "versionError": "Es kann keine Rollback-Version erstellt werden – KI-Transformation abgebrochen. Bitte versuchen Sie es erneut."
-        },
-        "instruction": "Beschreiben Sie, wie Sie möchten, dass der KI-Assistent Ihre Daten transformiert:",
-        "review": {
-          "codeTitle": "Code",
-          "description": "Das habe ich mir ausgedacht. Lesen Sie die Schritt-für-Schritt-Erklärung und die Abfrage, und wenn es gut aussieht, klicken Sie unten, um es anzuwenden.",
-          "planTitle": "Plan",
-          "warning": "Warnung! Dies wird Ihre Daten transformieren"
-        },
-        "transforming": {
-          "inProgress": "Anwenden auf Ihren Datensatz"
         }
       }
     },

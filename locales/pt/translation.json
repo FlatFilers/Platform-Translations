@@ -69,34 +69,12 @@
           "queryTitle": "Consulta"
         }
       },
-      "title": "Criar com IA",
       "transform": {
         "askingAI": {
           "stepFour": "Terminar",
           "stepOne": "Pensar",
           "stepThree": "Fazer",
           "stepTwo": "Escrever"
-        },
-        "description": "peça à IA para transformar os seus dados",
-        "errorBanner": {
-          "generalError": "Algo correu mal. Tente novamente.",
-          "generateMutationError": "Não é possível contactar a IA. Tente novamente mais tarde.",
-          "invalidFunctionError": "Lamentamos, mas o assistente de IA não pode efetuar essa transformação. O mais provável é que lhe tenha pedido para fazer algo inválido.",
-          "keysModifiedError": "Lamento, mas o assistente de IA só pode modificar os valores de campos existentes. Não pode remover campos ou adicionar novos.",
-          "noFunctionError": "Não percebi o seu pedido. Tente formulá-lo de forma diferente.",
-          "noRecordsFoundError": "Tem de ter alguns registos na sua folha (filtrada) para poder utilizar o assistente de IA.",
-          "readOnlyError": "Esta folha está atualmente definida para o modo \"Apenas leitura\", o que impede quaisquer ações de transformação de dados. Certifique-se de que tem permissões de edição ou mude para uma folha modificável para efetuar esta operação.",
-          "versionError": "Não é possível criar uma versão de retorno - transformação IA abortada. Tente novamente."
-        },
-        "instruction": "Descreva como gostaria que o assistente de IA transformasse os seus dados.",
-        "review": {
-          "codeTitle": "Código",
-          "description": "Aqui está o que criei. Leia a explicação passo-a-passo e a consulta e, se parecer bem, clique em baixo para aplicar.",
-          "planTitle": "Plano",
-          "warning": "Aviso: isto irá transformar os seus dados"
-        },
-        "transforming": {
-          "inProgress": "A aplicar ao seu conjunto de dados"
         }
       }
     },

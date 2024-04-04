@@ -69,34 +69,12 @@
           "queryTitle": "Query"
         }
       },
-      "title": "Costruisci con IA",
       "transform": {
         "askingAI": {
           "stepFour": "Finendo",
           "stepOne": "Pensando",
           "stepThree": "Facendo",
           "stepTwo": "Scrivendo"
-        },
-        "description": "chiedi all'IA di trasformare i tuoi dati",
-        "errorBanner": {
-          "generalError": "Qualcosa è andato storto. Riprova.",
-          "generateMutationError": "Impossibile raggiungere l'IA. Si prega di riprovare più tardi.",
-          "invalidFunctionError": "Siamo spiacenti, l'assistente IA non è in grado di eseguire questa trasformazione. Molto probabilmente gli hai chiesto di fare qualcosa di non valido.",
-          "keysModifiedError": "Siamo spiacenti, l'assistente IA può modificare solo i valori dei campi esistenti. Non può rimuovere campi o aggiungerne di nuovi.",
-          "noFunctionError": "Non ho capito la tua richiesta. Prova a formularla diversamente.",
-          "noRecordsFoundError": "Devi avere dati nel tuo foglio di calcolo (filtrato) per poter utilizzare l'assistente IA.",
-          "readOnlyError": "Questo foglio è attualmente impostato sulla modalità \"Sola lettura\", il che impedisce qualsiasi azione di trasformazione dei dati. Assicurati di disporre delle autorizzazioni di modifica o passa ad un foglio modificabile per eseguire questa operazione.",
-          "versionError": "Impossibile creare una versione di rollback: trasformazione IA interrotta. Riprova."
-        },
-        "instruction": "Descrivi come vorresti che l'assistente IA trasformasse i tuoi dati:",
-        "review": {
-          "codeTitle": "Codice",
-          "description": "Ecco cosa ho prodotto. Leggi la spiegazione dettagliata e la query e, se sembra buona, fai clic di sotto per applicarla.",
-          "planTitle": "Piano",
-          "warning": "Attenzione: questo trasformerà i tuoi dati"
-        },
-        "transforming": {
-          "inProgress": "Applicazione al tuo dataset in corso"
         }
       }
     },

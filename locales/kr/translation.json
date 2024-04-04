@@ -69,34 +69,12 @@
           "queryTitle": "쿼리"
         }
       },
-      "title": "AI로 구축",
       "transform": {
         "askingAI": {
           "stepFour": "마무리",
           "stepOne": "생각하기",
           "stepThree": "하기",
           "stepTwo": "쓰기"
-        },
-        "description": "AI에게 데이터 변환을 요청하세요",
-        "errorBanner": {
-          "generalError": "문제가 발생했습니다. 다시 시도해 주세요.",
-          "generateMutationError": "AI에 접근할 수 없습니다. 나중에 다시 시도해 주십시오.",
-          "invalidFunctionError": "죄송합니다. AI 도우미가 해당 변환을 수행할 수 없습니다. 아마도 잘못된 작업을 요청했을 수 있습니다.",
-          "keysModifiedError": "죄송합니다. AI 도우미는 기존 필드 값만 수정할 수 있습니다. 필드를 제거하거나 새 필드를 추가할 수는 없습니다.",
-          "noFunctionError": "요청을 이해하지 못했습니다. 다르게 작성해 보세요.",
-          "noRecordsFoundError": "AI 어시스턴트를 사용하려면 (필터링된) 시트에 일부 기록이 있어야 합니다.",
-          "readOnlyError": "이 시트는 현재 '읽기 전용' 모드로 설정되어 있어 데이터 변환 작업이 불가능합니다. 이 작업을 수행하려면 편집 권한이 있는지 확인하거나 수정 가능한 시트로 전환하세요.",
-          "versionError": "롤백 버전을 생성할 수 없습니다. AI 변환이 중단되었습니다. 다시 시도해 주세요."
-        },
-        "instruction": "AI 도우미가 데이터를 어떻게 변환하길 원하는지 설명하세요.",
-        "review": {
-          "codeTitle": "코드",
-          "description": "제가 생각해낸 것은 다음과 같습니다. 단계별 설명과 쿼리를 읽어보시고, 괜찮아 보인다면 아래를 클릭해 적용해 보세요.",
-          "planTitle": "계획",
-          "warning": "경고: 이렇게 하면 데이터가 변환됩니다"
-        },
-        "transforming": {
-          "inProgress": "데이터 세트에 적용"
         }
       }
     },
