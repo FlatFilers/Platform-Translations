@@ -807,7 +807,7 @@
         "tooltip": {
           "filter": {
             "invalid": "invalid",
-            "total": "total",
+            "total": "lalala",
             "valid": "valid"
           },
           "filtered": "This dataset has been filtered to show {{filteredCount}} of the {{countString}} {{filter}} records.",
