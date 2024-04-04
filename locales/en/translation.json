@@ -579,7 +579,7 @@
           "invalidOption": "Invalid option",
           "invalidValue": "Value is not a valid option",
           "reference": "Value does not exist in the reference table",
-          "req": "{{field}} is required",
+          "req": "{{field}} is super duper required",
           "transformed": "🪄️ Transformed from {{originalValue}}",
           "unique": "Value is not unique"
         }
