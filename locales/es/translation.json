@@ -842,6 +842,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "Esta acción estará disponible una vez que haya al menos un registro en este libro.",
+        "hasPendingValidation": "La validación de tu cuaderno de ejercicios está actualmente en curso...",
         "lockedUntilEditingCompletes": "La acción estará disponible cuando la hoja ya no se esté editando",
         "lockedUntilHookCompletes": "Esta acción estará disponible después de que todos los ganchos hayan terminado de ejecutarse.",
         "lockedUntilJobCompletes": "Esta acción estará disponible después de que el trabajo actual se complete.",

@@ -890,8 +890,8 @@
     },
     "workbookActions": {
       "disabledTooltip": {
-        "hasPendingValidation": "Validation of your workbook is currently in progress...",
         "hasData": "This action will be available once there is at least one record in this Workbook.",
+        "hasPendingValidation": "Validation of your workbook is currently in progress...",
         "lockedUntilEditingCompletes": "The action will be available when the sheet is no longer being edited",
         "lockedUntilHookCompletes": "This action will be available after all hooks finish running",
         "lockedUntilJobCompletes": "This action will be available after the current job completes",

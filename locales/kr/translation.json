@@ -817,6 +817,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "이 작업은 이 통합 문서에 하나 이상의 기록이 있는 경우 진행할 수 있습니다.",
+        "hasPendingValidation": "현재 작업 일지의 유효성 검사가 진행 중입니다.",
         "lockedUntilEditingCompletes": "시트가 더 이상 편집되지 않으면 작업을 사용할 수 있습니다.",
         "lockedUntilHookCompletes": "이 작업은 모든 후크가 실행을 마친 후에 실행할 수 있습니다.",
         "lockedUntilJobCompletes": "이 작업은 현재 작업이 완료된 후에 실행할 수 있습니다.",

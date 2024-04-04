@@ -842,6 +842,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "Esta ação estará disponível quando houver pelo menos um registro nesta Pasta de Trabalho.",
+        "hasPendingValidation": "A validação da sua apostila está em andamento...",
         "lockedUntilEditingCompletes": "A ação estará disponível quando a planilha não estiver mais sendo editada",
         "lockedUntilHookCompletes": "Esta ação ficará disponível depois que todos os ganchos terminarem de rodar",
         "lockedUntilJobCompletes": "Esta ação ficará disponível depois que a tarefa atual for concluída",

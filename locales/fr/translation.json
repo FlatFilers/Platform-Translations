@@ -842,6 +842,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "Cette action sera disponible dès lors qu'il y aura au moins un enregistrement dans ce classeur.",
+        "hasPendingValidation": "La validation de votre cahier est en cours...",
         "lockedUntilEditingCompletes": "L'action sera disponible lorsque la feuille ne sera plus en cours de modification",
         "lockedUntilHookCompletes": "Cette action sera disponible une fois que tous les hooks auront été exécutés",
         "lockedUntilJobCompletes": "Cette action sera disponible après la fin du travail en cours",

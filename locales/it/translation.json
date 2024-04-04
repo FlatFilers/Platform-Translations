@@ -842,6 +842,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "Tale azione diventerà disponibile quando ci sarà almeno un record in questa cartella di lavoro.",
+        "hasPendingValidation": "La convalida della tua cartella di lavoro è attualmente in corso...",
         "lockedUntilEditingCompletes": "L'azione sarà disponibile quando il foglio non sarà più modificato",
         "lockedUntilHookCompletes": "Questa azione sarà disponibile dopo che tutti i ganci avranno terminato l'esecuzione.",
         "lockedUntilJobCompletes": "Questa azione sarà disponibile dopo il completamento del lavoro corrente.",

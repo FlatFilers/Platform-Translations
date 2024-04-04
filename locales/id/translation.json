@@ -817,6 +817,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "Tindakan ini akan tersedia setelah ada setidaknya satu catatan di Buku Kerja ini.",
+        "hasPendingValidation": "Validasi buku kerja Anda sedang berlangsung...",
         "lockedUntilEditingCompletes": "Tindakan akan tersedia ketika sheet tidak lagi diedit",
         "lockedUntilHookCompletes": "Tindakan ini akan tersedia setelah semua pengait selesai dijalankan",
         "lockedUntilJobCompletes": "Tindakan ini akan tersedia setelah pekerjaan saat ini selesai",

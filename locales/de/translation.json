@@ -842,6 +842,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "Diese Aktion ist verfügbar, sobald in dieser Arbeitsmappe mindestens ein Eintrag vorhanden ist.",
+        "hasPendingValidation": "Die Prüfung Ihrer Arbeitsmappe ist gerade im Gange ...",
         "lockedUntilEditingCompletes": "Die Aktion steht zur Verfügung, wenn das Blatt nicht mehr bearbeitet wird",
         "lockedUntilHookCompletes": "Diese Aktion ist verfügbar, nachdem alle Hooks ausgeführt wurden",
         "lockedUntilJobCompletes": "Diese Aktion ist verfügbar, wenn der aktuelle Auftrag abgeschlossen ist.",

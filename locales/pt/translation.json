@@ -842,6 +842,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "Esta ação estará disponível assim que houver pelo menos um registo nesta Livro.",
+        "hasPendingValidation": "A validação do seu livro de serviço está neste momento em curso...",
         "lockedUntilEditingCompletes": "A ação estará disponível quando a folha já não estiver a ser editada",
         "lockedUntilHookCompletes": "Esta ação estará disponível depois de todos os ganchos terminarem a sua execução",
         "lockedUntilJobCompletes": "Esta ação estará disponível após a conclusão do trabalho atual",

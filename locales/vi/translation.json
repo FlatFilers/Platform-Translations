@@ -817,6 +817,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "Bạn sẽ có thể thực hiện hành động này khi Sổ làm việc này có ít nhất một bản ghi.",
+        "hasPendingValidation": "Đang xác thực sổ làm việc của bạn...",
         "lockedUntilEditingCompletes": "Hành động sẽ khả dụng khi bạn ngừng chỉnh sửa trang tính",
         "lockedUntilHookCompletes": "Hành động này sẽ khả dụng sau khi mọi hook đã chạy xong",
         "lockedUntilJobCompletes": "Hành động này sẽ khả dụng sau khi công việc hiện tại được hoàn tất",

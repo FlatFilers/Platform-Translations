@@ -817,6 +817,7 @@
     "workbookActions": {
       "disabledTooltip": {
         "hasData": "このアクションは、このワークブックに少なくとも1つのレコードが存在すると使用可能になります。",
+        "hasPendingValidation": "ワークブックの検証が現在進行中です...",
         "lockedUntilEditingCompletes": "このアクションは、シートが編集されていないときに使用可能になります。",
         "lockedUntilHookCompletes": "このアクションは、すべてのフックの実行が完了した後に使用可能になります。",
         "lockedUntilJobCompletes": "このアクションは、現在のジョブが完了した後に使用可能になります",
