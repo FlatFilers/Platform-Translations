@@ -582,7 +582,7 @@
           "invalidOption": "Option invalide",
           "invalidValue": "La valeur n'est pas une option valable",
           "reference": "La valeur n'existe pas dans le tableau de référence",
-          "req": "{{field}} est obligatoire",
+          "req": "{{field}} est  super duper obligatoire",
           "transformed": "🪄️ Transformée à partir de {{originalValue}}",
           "unique": "La valeur n'est pas unique"
         }
