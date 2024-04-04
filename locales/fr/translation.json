@@ -160,22 +160,9 @@
         "inProgressText": "Téléchargement du fichier",
         "text": "Ajouter un fichier"
       },
-      "addFileFrom": {
-        "box": "Box",
-        "googleDrive": "Google Drive",
-        "text": "Ajouter un fichier depuis..."
-      },
       "delete": "Supprimer",
       "download": "Télécharger",
       "googleDrive": "Ajouter un fichier à partir de Google Drive"
-    },
-    "connectionsModal": {
-      "box": "Box",
-      "close": "Fermer",
-      "googleDrive": "Google Drive",
-      "heading": "Gérer vos connexions",
-      "manage": "Gérer",
-      "subtext": " Cliquez sur les boutons ci-dessous pour vous connecter à vos comptes ou vous en déconnecter."
     },
     "contextMenu": {
       "delete": "Supprimer",
@@ -278,7 +265,7 @@
           "defaultJobName": "Emploi",
           "defaultResourceName": "cette ressource",
           "percentComplete": "{{percent}} % terminé",
-          "runningOn": "en exécution sur"
+          "runningOn": ":"
         },
         "outcomeModals": {
           "acknowledgementModal": {
@@ -288,7 +275,7 @@
           "defaultFileName": "fichier",
           "defaultHeading": {
             "failed": "La tâche a échoué",
-            "success": "Succès !"
+            "success": "Félicitation !"
           },
           "defaultLabel": "Voir la ressource",
           "defaultMessage": {
@@ -591,7 +578,7 @@
         },
         "messages": {
           "autogen": "✨ Générée automatiquement",
-          "compositeUnique": "🧑‍🍳 Le composite {{name}} n'est pas unique",
+          "compositeUnique": "Ce produit est renseigné plusieurs fois alors qu’il doit être unique",
           "invalidOption": "Option invalide",
           "invalidValue": "La valeur n'est pas une option valable",
           "reference": "La valeur n'existe pas dans le tableau de référence",
@@ -1156,6 +1143,16 @@
     },
     "pill": {
       "hoverText": "Historique des versions"
+    }
+  },
+  "submitAction": {
+    "label": "Importer",
+    "description": "Vous êtes sur le point d’importer vos données. Voulez-vous continuer ?",
+    "tooltip": "Importer vos données",
+    "info": "Test info message",
+    "outcome": {
+      "heading": "Félicitation !",
+      "message": "Les données ont bien été reçues. Le traitement de votre demande a commencé."
     }
   }
 }
