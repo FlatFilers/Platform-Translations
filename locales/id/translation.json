@@ -1,4 +1,67 @@
 {
+  "aiTransform": {
+    "changedColumnsText_other": "{{count}} kolom dengan data yang diubah",
+    "changedColumnsText_zero": "{{count}} kolom dengan data yang diubah",
+    "errors": {
+      "entilementError": {
+        "content": "Jika Anda merasa ini adalah eror, harap menghubungi bantuan pelanggan.",
+        "title": "Maaf! Anda tidak punya akses ke fitur ini."
+      },
+      "generalError": {
+        "title": "Terjadi masalah. Harap coba lagi."
+      },
+      "generateMutationError": {
+        "title": "Tidak dapat menghubungi AI. Harap coba lagi nanti."
+      },
+      "invalidFunctionError": {
+        "content": "Kemungkinan besar Anda memintanya melakukan hal yang tidak valid.",
+        "title": "Maaf, asisten AI tidak dapat melakukan transformasi tersebut."
+      },
+      "keysModifiedError": {
+        "title": "Maaf, asisten AI hanya dapat memodifikasi nilai dari kolom yang ada. Ia tidak dapat menghapus kolom atau menambahkan kolom baru."
+      },
+      "noFunctionError": {
+        "content": "Coba gunakan frasa berbeda. Prompt yang mencantumkan nama kolom cenderung lebih berhasil.",
+        "title": "Kami tidak memahami prompt Anda."
+      },
+      "noRecordsFoundError": {
+        "content": "Tidak menemukan rekaman untuk permintaan yang diberikan. Harap coba lagi.",
+        "title": "Tidak menemukan rekaman"
+      },
+      "noresultsError": {
+        "content": "Coba gunakan frasa berbeda. Prompt yang mencantumkan nama kolom cenderung lebih berhasil.",
+        "title": "Prompt Anda tidak mentransformasi data apa pun."
+      },
+      "prompttoolongError": {
+        "content": "Coba persingkat prompt Anda atau urai prompt menjadi beberapa langkah dan coba lagi.",
+        "title": "Maaf! Prompt Anda agak terlalu panjang."
+      },
+      "versionError": {
+        "content": "Tidak dapat membuat versi pembatalan.",
+        "title": "Terjadi masalah. Harap coba lagi."
+      }
+    },
+    "exitConfirmation": {
+      "body": "Anda yakin ingin keluar?",
+      "header": "Konfirmasi Keluar",
+      "label": "Keluar"
+    },
+    "jobCompleteHeading": "Pekerjaan AI Transformation Selesai",
+    "jobCompleteMessage": "Rekaman telah ditransformasi",
+    "promptBar": {
+      "categoricalWarning": "Kolom ini punya terlalu banyak opsi untuk diproses oleh AI Transform.",
+      "transformButton": {
+        "tooltip": {
+          "active": "Jabarkan bagaimana Anda ingin data dalam suatu kolom ditransformasi berdasarkan suatu logika, termasuk data pada kolom",
+          "disabled": "Anda harus memiliki rekaman pada sheet (yang difilter) untuk dapat menggunakan asisten AI."
+        }
+      },
+      "warning": "Catatan: Sebagian kolom kategori dalam dataset Anda punya banyak opsi yang dikonfigurasi. Menggunakan kolom-kolom tersebut, seperti @{{fieldName}}, dalam prompt Anda mungkin tidak bekerja sesuai harapan."
+    },
+    "sampleMessage": "Pratinjau {{number}} rekaman",
+    "scrollInfoText": "Gulir ke kolom berikutnya yang berubah",
+    "toggleLabel": "Tampilkan hanya data yang dimodifikasi"
+  },
   "blocks": {
     "embeddedDiff": {
       "errors": {
@@ -340,6 +403,12 @@
           "complete": "Dipetakan ke buku kerja",
           "failed": "Gagal memetakan ke buku kerja",
           "inProgress": "Memetakan ke buku kerja"
+        },
+        "mutate-records": {
+          "canceled": "Membatalkan AI Transform",
+          "complete": "AI Transform selesai",
+          "failed": "AI Transform gagal",
+          "inProgress": "Mentransformasi Rekaman dengan AI"
         }
       },
       "time": {

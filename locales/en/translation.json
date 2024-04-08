@@ -1,4 +1,71 @@
 {
+  "aiTransform": {
+    "changedColumnsText_one": "1 column with data changed",
+    "changedColumnsText_other": "{{count}} columns with data changed",
+    "errors": {
+      "entilementError": {
+        "content": "If you think this is in error, please reach out to customer support.",
+        "title": "Sorry! You don't have access to this feature."
+      },
+      "generalError": {
+        "content": "",
+        "title": "Something went wrong. Please try again."
+      },
+      "generateMutationError": {
+        "content": "",
+        "title": "Unable to reach the AI. Please try again later."
+      },
+      "invalidFunctionError": {
+        "content": "Most likely you asked it to do something invalid.",
+        "title": "Sorry, the AI assistant is unable to perform that transformation."
+      },
+      "keysModifiedError": {
+        "content": "",
+        "title": "Sorry, the AI assistant can only modify the values of existing fields. It cannot remove fields or add new ones."
+      },
+      "noFunctionError": {
+        "content": "Try phrasing it differently. Prompts that include field names tend to be more successful.",
+        "title": "We couldn’t understand your prompt."
+      },
+      "noRecordsFoundError": {
+        "content": "No records were found for the given query. Please try again.",
+        "title": "No records found"
+      },
+      "noresultsError": {
+        "content": "Try phrasing it differently. Prompts that include field names tend to be more successful.",
+        "title": "Your prompt didn't transform any data."
+      },
+      "prompttoolongError": {
+        "content": "Try shortening your prompt or breaking your prompt into multiple steps and try again.",
+        "title": "Sorry! Your prompt was a little too long."
+      },
+      "versionError": {
+        "content": "Unable to create a rollback version.",
+        "title": "Something went wrong. Please try again."
+      }
+    },
+    "exitConfirmation": {
+      "body": "Are you sure you want to exit?",
+      "header": "Exit Confirmation",
+      "label": "Exit"
+    },
+    "jobCompleteHeading": "AI Transformation Job Complete",
+    "jobCompleteMessage": "The records have been transformed",
+    "promptBar": {
+      "categoricalWarning": "This field has too many options for AI Transform to process.",
+      "fieldTooltip": "{{key}}: {{description}}",
+      "transformButton": {
+        "tooltip": {
+          "active": "Describe how you want data in a field to be transformed based on any logic, including data in any field",
+          "disabled": "You must have some records in your (filtered) sheet in order to use the AI assistant."
+        }
+      },
+      "warning": "Note: Some categorical fields in your dataset have a lot of configured options. Using those fields, like @{{fieldName}}, in your prompt might not work as expected."
+    },
+    "sampleMessage": "Preview of {{number}} records",
+    "scrollInfoText": "Scroll to next changed column",
+    "toggleLabel": "Show only modified data"
+  },
   "blocks": {
     "embeddedDiff": {
       "errors": {
@@ -45,73 +112,6 @@
       }
     },
     "title": "Data checklist"
-  },
-  "aiTransform": {
-    "sampleMessage": "Preview of {{number}} records",
-    "toggleLabel": "Show only modified data",
-    "scrollInfoText": "Scroll to next changed column",
-    "changedColumnsText_one": "1 column with data changed",
-    "changedColumnsText_other": "{{count}} columns with data changed",
-    "exitConfirmation": {
-      "body": "Are you sure you want to exit?",
-      "label": "Exit",
-      "header": "Exit Confirmation"
-    },
-    "promptBar": {
-      "fieldTooltip": "{{key}}: {{description}}",
-      "categoricalWarning": "This field has too many options for AI Transform to process.",
-      "warning": "Note: Some categorical fields in your dataset have a lot of configured options. Using those fields, like @{{fieldName}}, in your prompt might not work as expected.",
-      "transformButton": {
-        "tooltip": {
-          "active": "Describe how you want data in a field to be transformed based on any logic, including data in any field",
-          "disabled": "You must have some records in your (filtered) sheet in order to use the AI assistant."
-        }
-      }
-    },
-    "jobCompleteHeading": "AI Transformation Job Complete",
-    "jobCompleteMessage": "The records have been transformed",
-    "errors": {
-      "generalError": {
-        "title": "Something went wrong. Please try again.",
-        "content": ""
-      },
-      "invalidFunctionError": {
-        "title": "Sorry, the AI assistant is unable to perform that transformation.",
-        "content": "Most likely you asked it to do something invalid."
-      },
-      "noFunctionError": {
-        "title": "We couldn’t understand your prompt.",
-        "content": "Try phrasing it differently. Prompts that include field names tend to be more successful."
-      },
-      "generateMutationError": {
-        "title": "Unable to reach the AI. Please try again later.",
-        "content": ""
-      },
-      "keysModifiedError": {
-        "title": "Sorry, the AI assistant can only modify the values of existing fields. It cannot remove fields or add new ones.",
-        "content": ""
-      },
-      "noRecordsFoundError": {
-        "title": "No records found",
-        "content": "No records were found for the given query. Please try again."
-      },
-      "entilementError": {
-        "title": "Sorry! You don't have access to this feature.",
-        "content": "If you think this is in error, please reach out to customer support."
-      },
-      "versionError": {
-        "title": "Something went wrong. Please try again.",
-        "content": "Unable to create a rollback version."
-      },
-      "noresultsError": {
-        "title": "Your prompt didn't transform any data.",
-        "content": "Try phrasing it differently. Prompts that include field names tend to be more successful."
-      },
-      "prompttoolongError": {
-        "title": "Sorry! Your prompt was a little too long.",
-        "content": "Try shortening your prompt or breaking your prompt into multiple steps and try again."
-      }
-    }
   },
   "commandMenu": {
     "aiAssist": {
@@ -772,7 +772,7 @@
       "aiAssist": {
         "buttonText": "AI Assist",
         "query": "Query",
-        "transform": "AI Transform"
+        "transform": "Transform"
       },
       "buttons": {
         "delete": {

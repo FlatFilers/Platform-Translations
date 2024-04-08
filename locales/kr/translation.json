@@ -1,4 +1,67 @@
 {
+  "aiTransform": {
+    "changedColumnsText_other": "데이터가 변경된 열 {{count}}개",
+    "changedColumnsText_zero": "데이터가 변경된 열 {{count}}개",
+    "errors": {
+      "entilementError": {
+        "content": "오류라고 생각하시면 고객 지원팀에 문의해 주세요.",
+        "title": "죄송합니다! 이 기능에 액세스할 수 없습니다."
+      },
+      "generalError": {
+        "title": "문제가 발생했습니다. 다시 시도해 주세요."
+      },
+      "generateMutationError": {
+        "title": "AI에 접근할 수 없습니다. 나중에 다시 시도해 주세요."
+      },
+      "invalidFunctionError": {
+        "content": "잘못된 작업을 요청하신 것 같습니다.",
+        "title": "죄송합니다. AI 도우미가 해당 변환을 수행할 수 없습니다."
+      },
+      "keysModifiedError": {
+        "title": "죄송합니다. AI 도우미는 기존 필드의 값만 수정할 수 있습니다. 필드를 제거하거나 새 필드를 추가할 수는 없습니다."
+      },
+      "noFunctionError": {
+        "content": "표현을 다르게 해 보세요. 필드 이름을  포함하는 프롬프트가 더 성공적일 수 있습니다.",
+        "title": "사용자의 프롬프트를 이해할 수 없습니다."
+      },
+      "noRecordsFoundError": {
+        "content": "해당 쿼리에 대한 기록을 찾을 수 없습니다. 다시 시도해 주세요.",
+        "title": "기록을 찾을 수 없음"
+      },
+      "noresultsError": {
+        "content": "표현을 다르게 해 보세요. 필드 이름을  포함하는 프롬프트가 더 성공적일 수 있습니다.",
+        "title": "프롬프트가 데이터를 변환하지 않았습니다."
+      },
+      "prompttoolongError": {
+        "content": "프롬프트를 줄이거나 여러 단계로 나누어 다시 시도해 보세요.",
+        "title": "죄송합니다! 프롬프트가 너무 깁니다."
+      },
+      "versionError": {
+        "content": "롤백 버전을 생성할 수 없습니다.",
+        "title": "문제가 발생했습니다. 다시 시도해 주세요."
+      }
+    },
+    "exitConfirmation": {
+      "body": "정말로 종료하시겠습니까?",
+      "header": "종료 확인",
+      "label": "종료"
+    },
+    "jobCompleteHeading": "AI 변환 작업 완료",
+    "jobCompleteMessage": "기록이 변환되었습니다",
+    "promptBar": {
+      "categoricalWarning": "이 필드에는 AI 변환이 처리할 수 있는 옵션이 너무 많습니다.",
+      "transformButton": {
+        "tooltip": {
+          "active": "모든 필드의 데이터를 포함하여 모든 논리를 기반으로 필드의 데이터를 변환하는 방법을 설명합니다",
+          "disabled": "AI 도우미를 사용하려면 (필터링된) 시트에 일부 기록이 있어야 합니다."
+        }
+      },
+      "warning": "참고: 데이터 세트의 일부 범주형 필드에는 구성된 옵션이 많이 있습니다. @{{fieldName}} 같은 필드를 프롬프트에서 사용하면 예상대로 작동하지 않을 수 있습니다."
+    },
+    "sampleMessage": "기록 {{number}}개 미리 보기",
+    "scrollInfoText": "변경된 다음 열로 스크롤",
+    "toggleLabel": "수정된 데이터만 표시"
+  },
   "blocks": {
     "embeddedDiff": {
       "errors": {
@@ -340,6 +403,12 @@
           "complete": "워크북에 매핑됨",
           "failed": "워크북으로의 매핑에 실패함",
           "inProgress": "워크북으로 매핑"
+        },
+        "mutate-records": {
+          "canceled": "취소된 AI 변환",
+          "complete": "AI 변환 완료",
+          "failed": "AI 변환 실패",
+          "inProgress": "AI를 통한 기록 변환"
         }
       },
       "time": {

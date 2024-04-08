@@ -1,4 +1,68 @@
 {
+  "aiTransform": {
+    "changedColumnsText_one": "1 coluna com dados foi alterada",
+    "changedColumnsText_other": "{{count}} colunas com dados foram alteradas",
+    "changedColumnsText_zero": "{{count}} colunas com dados foram alteradas",
+    "errors": {
+      "entilementError": {
+        "content": "Se achar que se trata de um erro, contacte o suporte ao cliente.",
+        "title": "Pedimos desculpa! Não tem acesso a esta funcionalidade."
+      },
+      "generalError": {
+        "title": "Algo correu mal. Tente de novo."
+      },
+      "generateMutationError": {
+        "title": "Não foi possível contactar a IA. Tente de novo mais tarde."
+      },
+      "invalidFunctionError": {
+        "content": "Muito provavelmente, pediu-lhe para fazer qualquer coisa inválida.",
+        "title": "Lamentamos, mas o assistente de IA não consegue executar essa transformação."
+      },
+      "keysModifiedError": {
+        "title": "Lamentamos, mas o assistente de IA só pode modificar os valores de campos existentes. Não pode remover campos ou adicionar novos."
+      },
+      "noFunctionError": {
+        "content": "Tente construir a frase de outra forma. Tendencialmente, as instruções com mais êxito são aquelas que incluem nomes de campos.",
+        "title": "Não conseguimos compreender a sua instrução."
+      },
+      "noRecordsFoundError": {
+        "content": "Não foram encontrados quaisquer registos para a consulta indicada. Tente de novo.",
+        "title": "Nenhum registo encontrado"
+      },
+      "noresultsError": {
+        "content": "Tente construir a frase de outra forma. Tendencialmente, as instruções com mais êxito são aquelas que incluem nomes de campos.",
+        "title": "O seu aviso não transformou qualquer dado."
+      },
+      "prompttoolongError": {
+        "content": "Experimente encurtar a sua instrução ou dividi-la em vários passos e tente de novo.",
+        "title": "Pedimos desculpa! A sua instrução era um pouco longa de mais."
+      },
+      "versionError": {
+        "content": "Não foi possível criar uma versão de reversão.",
+        "title": "Algo correu mal. Tente de novo."
+      }
+    },
+    "exitConfirmation": {
+      "body": "Tem a certeza de que deseja sair?",
+      "header": "Confirmação de saída",
+      "label": "Sair"
+    },
+    "jobCompleteHeading": "Trabalho de transformação de IA concluído",
+    "jobCompleteMessage": "Os registos foram transformados",
+    "promptBar": {
+      "categoricalWarning": "Este campo tem demasiadas opções para serem processadas pela AI Transform.",
+      "transformButton": {
+        "tooltip": {
+          "active": "Descreva como é que quer que os dados de certo campo sejam transformados, com base em qualquer lógica, incluindo os dados de qualquer campo.",
+          "disabled": "Para poder utilizar o assistente de IA, tem de ter alguns registos na sua folha (filtrada)."
+        }
+      },
+      "warning": "Nota: alguns campos categóricos do seu conjunto de dados têm muitas opções configuradas. A utilização desses campos, como, por exemplo, @{{fieldName}}, na sua instrução pode não funcionar de acordo com as expetativas."
+    },
+    "sampleMessage": "Pré-visualização de {{number}} registos",
+    "scrollInfoText": "Desloque-se para a próxima coluna alterada",
+    "toggleLabel": "Mostrar apenas dados modificados"
+  },
   "blocks": {
     "embeddedDiff": {
       "errors": {
@@ -345,6 +409,12 @@
           "complete": "Mapeado para livro de trabalho",
           "failed": "Falha ao mapear para livro de trabalho",
           "inProgress": "A mapear para livro de trabalho"
+        },
+        "mutate-records": {
+          "canceled": "Tarefa da AI Transform cancelada",
+          "complete": "Tarefa da AI Transform concluída",
+          "failed": "Falha na tarefa da AI Transform",
+          "inProgress": "Transformar registos com IA"
         }
       },
       "time": {

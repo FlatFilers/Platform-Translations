@@ -1,4 +1,67 @@
 {
+  "aiTransform": {
+    "changedColumnsText_other": "{{count}} 列数据已更改",
+    "changedColumnsText_zero": "{{count}} 列数据已更改",
+    "errors": {
+      "entilementError": {
+        "content": "如果你认为这是个错误，请联系客户支持。",
+        "title": "对不起！你没有这个功能的访问权限。"
+      },
+      "generalError": {
+        "title": "出了些问题。请重试。"
+      },
+      "generateMutationError": {
+        "title": "无法连接到 AI。请稍后再试。"
+      },
+      "invalidFunctionError": {
+        "content": "你很可能在要求它做无效的事情。",
+        "title": "对不起，AI 助手无法执行该转换。"
+      },
+      "keysModifiedError": {
+        "title": "对不起，AI 助手只能修改已有字段的值。它无法移除字段或添加新字段。"
+      },
+      "noFunctionError": {
+        "content": "换个说法试试。包含字段名称的提示词更有可能成功。",
+        "title": "我们无法理解你的提示词。"
+      },
+      "noRecordsFoundError": {
+        "content": "没有找到针对指定查询的记录。请重试。",
+        "title": "没有找到记录"
+      },
+      "noresultsError": {
+        "content": "换个说法试试。包含字段名称的提示词更有可能成功。",
+        "title": "你的提示词没有转换任何数据。"
+      },
+      "prompttoolongError": {
+        "content": "试着缩短提示词或将提示词分成几步，然后重试。",
+        "title": "对不起！你的提示词有点太长了。"
+      },
+      "versionError": {
+        "content": "无法创建回滚版本。",
+        "title": "出了些问题。请重试。"
+      }
+    },
+    "exitConfirmation": {
+      "body": "你确定要退出吗？",
+      "header": "退出确认",
+      "label": "退出"
+    },
+    "jobCompleteHeading": "AI 转换工作完成",
+    "jobCompleteMessage": "记录已被转换",
+    "promptBar": {
+      "categoricalWarning": "该字段有太多可供 AI Transform 处理的选项。",
+      "transformButton": {
+        "tooltip": {
+          "active": "描述你希望如何根据任何逻辑转换某字段中的数据，这包括任何字段中的数据",
+          "disabled": "你的（过滤后的）工作表中必须要有记录才能使用 AI 助手。"
+        }
+      },
+      "warning": "注意：数据集中的某些分类字段有很多配置选项。在提示词中使用这些字段（如 @{{fieldName}}）可能无法达到预期效果。"
+    },
+    "sampleMessage": "{{number}} 条记录的预览",
+    "scrollInfoText": "滚动到下一个已更改的列",
+    "toggleLabel": "只显示修改后的数据"
+  },
   "blocks": {
     "embeddedDiff": {
       "errors": {
@@ -340,6 +403,12 @@
           "complete": "已映射到工作簿",
           "failed": "未能映射到工作簿",
           "inProgress": "正在映射到工作簿"
+        },
+        "mutate-records": {
+          "canceled": "取消了 AI Transfrom",
+          "complete": "AI Transfrom 完成",
+          "failed": "AI Transfrom 失败",
+          "inProgress": "正在用 AI 转换记录"
         }
       },
       "time": {

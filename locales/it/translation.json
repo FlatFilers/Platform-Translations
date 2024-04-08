@@ -1,4 +1,68 @@
 {
+  "aiTransform": {
+    "changedColumnsText_one": "1 colonna con dati modificati",
+    "changedColumnsText_other": "{{count}} colonne con dati modificati",
+    "changedColumnsText_zero": "{{count}} colonne con dati modificati",
+    "errors": {
+      "entilementError": {
+        "content": "Se ritieni che si tratti di un errore, contatta l'assistenza clienti.",
+        "title": "Spiacente! Non hai accesso a questa funzionalità."
+      },
+      "generalError": {
+        "title": "Qualcosa è andato storto. Riprova."
+      },
+      "generateMutationError": {
+        "title": "Impossibile raggiungere l'IA. Riprova più tardi."
+      },
+      "invalidFunctionError": {
+        "content": "Molto probabilmente gli hai chiesto di fare qualcosa di non valido.",
+        "title": "Spiacenti, l'assistente IA non è in grado di eseguire questa trasformazione."
+      },
+      "keysModifiedError": {
+        "title": "Spiacente, l'assistente IA può modificare solo i valori dei campi esistenti. Non può rimuovere campi o aggiungerne di nuovi."
+      },
+      "noFunctionError": {
+        "content": "Prova a formularlo diversamente. I prompt che includono nomi di campo tendono ad avere più successo.",
+        "title": "Non siamo riusciti a comprendere il tuo prompt."
+      },
+      "noRecordsFoundError": {
+        "content": "Nessun record trovato per la query specificata. Riprova.",
+        "title": "Nessun record trovato"
+      },
+      "noresultsError": {
+        "content": "Prova a formularlo diversamente. I prompt che includono nomi di campo tendono ad avere più successo.",
+        "title": "Il tuo prompt non ha trasformato alcun dato."
+      },
+      "prompttoolongError": {
+        "content": "Prova ad abbreviare il tuo prompt o a suddividerlo in più passaggi e riprova.",
+        "title": "Spiacente! Il tuo prompt era un po' troppo lungo."
+      },
+      "versionError": {
+        "content": "Impossibile creare una versione di rollback.",
+        "title": "Qualcosa è andato storto. Riprova."
+      }
+    },
+    "exitConfirmation": {
+      "body": "Sei sicuro di voler uscire?",
+      "header": "Conferma uscita",
+      "label": "Esci"
+    },
+    "jobCompleteHeading": "Lavoro di trasformazione IA completato",
+    "jobCompleteMessage": "I record sono stati trasformati",
+    "promptBar": {
+      "categoricalWarning": "Questo campo ha troppe opzioni per essere elaborate da una trasformazione IA.",
+      "transformButton": {
+        "tooltip": {
+          "active": "Descrivi come vuoi che i dati in un campo vengano trasformati in base a qualsiasi logica, inclusi i dati in qualsiasi campo",
+          "disabled": "Devi avere alcuni record nel tuo foglio (filtrato) per poter utilizzare l'assistente IA."
+        }
+      },
+      "warning": "Nota: alcuni campi categoriali nel set di dati hanno molte opzioni configurate. L'utilizzo di questi campi, come @{{fieldName}}, nel tuo prompt potrebbe non funzionare come previsto."
+    },
+    "sampleMessage": "Anteprima dei {{number}} record",
+    "scrollInfoText": "Scorri fino alla colonna modificata successiva",
+    "toggleLabel": "Mostra solo i dati modificati"
+  },
   "blocks": {
     "embeddedDiff": {
       "errors": {
@@ -345,6 +409,12 @@
           "complete": "Mappato su cartella di lavoro",
           "failed": "Impossibile mappare su cartella di lavoro",
           "inProgress": "Mappatura su cartella di lavoro"
+        },
+        "mutate-records": {
+          "canceled": "Trasformazione IA annullata",
+          "complete": "Trasformazione IA completata",
+          "failed": "Trasformazione IA non riuscita",
+          "inProgress": "Trasformare i record con l'IA"
         }
       },
       "time": {

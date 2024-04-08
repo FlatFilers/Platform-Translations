@@ -1,4 +1,68 @@
 {
+  "aiTransform": {
+    "changedColumnsText_one": "1 columna con datos cambiados",
+    "changedColumnsText_other": "{{count}} columnas con datos cambiados",
+    "changedColumnsText_zero": "{{count}} columnas con datos cambiados",
+    "errors": {
+      "entilementError": {
+        "content": "Si crees que esto es un error, por favor contacta al servicio de atención al cliente.",
+        "title": "¡Lo siento! No tienes acceso a esta característica."
+      },
+      "generalError": {
+        "title": "Algo salió mal. Por favor, inténtalo de nuevo."
+      },
+      "generateMutationError": {
+        "title": "No se puede alcanzar a la IA. Por favor, inténtalo más tarde."
+      },
+      "invalidFunctionError": {
+        "content": "Probablemente le pediste que hiciera algo inválido.",
+        "title": "Lo siento, el asistente de IA no puede realizar esa transformación."
+      },
+      "keysModifiedError": {
+        "title": "Lo siento, el asistente de IA solo puede modificar los valores de los campos existentes. No puede eliminar campos ni añadir nuevos."
+      },
+      "noFunctionError": {
+        "content": "Intenta formularla de manera diferente. Las indicaciones que incluyen nombres de campos tienden a tener más éxito.",
+        "title": "No pudimos entender tu indicación."
+      },
+      "noRecordsFoundError": {
+        "content": "No se encontraron registros para la consulta dada. Por favor, inténtalo de nuevo.",
+        "title": "No se encontraron registros"
+      },
+      "noresultsError": {
+        "content": "Intenta formularla de manera diferente. Las indicaciones que incluyen nombres de campos tienden a tener más éxito.",
+        "title": "Tu indicación no transformó ningún dato."
+      },
+      "prompttoolongError": {
+        "content": "Intenta acortar tu indicación o dividir tu indicación en varios pasos e inténtalo de nuevo.",
+        "title": "¡Lo siento! Tu indicación fue un poco larga."
+      },
+      "versionError": {
+        "content": "No se pudo crear una versión para revertir.",
+        "title": "Algo salió mal. Por favor, inténtalo de nuevo."
+      }
+    },
+    "exitConfirmation": {
+      "body": "¿Estás seguro de que quieres salir?",
+      "header": "Confirmación de salida",
+      "label": "Salir"
+    },
+    "jobCompleteHeading": "Trabajo de Transformación por IA completado",
+    "jobCompleteMessage": "Los registros han sido transformados",
+    "promptBar": {
+      "categoricalWarning": "Este campo tiene demasiadas opciones para que la Transformación por IA lo procese.",
+      "transformButton": {
+        "tooltip": {
+          "active": "Describe cómo quieres que los datos de un campo sean transformados basándose en cualquier lógica, incluyendo datos en cualquier campo",
+          "disabled": "Debes tener algunos registros en tu hoja (filtrada) para usar el asistente de IA."
+        }
+      },
+      "warning": "Nota: Algunos campos categóricos en tu conjunto de datos tienen muchas opciones configuradas. Usar esos campos, como @{{fieldName}}, en tu indicación podría no funcionar como esperas."
+    },
+    "sampleMessage": "Vista previa de {{number}} registros",
+    "scrollInfoText": "Desplazarse a la siguiente columna cambiada",
+    "toggleLabel": "Mostrar solo datos modificados"
+  },
   "blocks": {
     "embeddedDiff": {
       "errors": {
@@ -345,6 +409,12 @@
           "complete": "Mapeado al cuaderno de trabajo",
           "failed": "Fallo al mapear al cuaderno de trabajo",
           "inProgress": "Mapeando al cuaderno de trabajo"
+        },
+        "mutate-records": {
+          "canceled": "Transformación por IA cancelada",
+          "complete": "Transformación por IA completada",
+          "failed": "La transformación por IA falló",
+          "inProgress": "Transformando registros con IA"
         }
       },
       "time": {

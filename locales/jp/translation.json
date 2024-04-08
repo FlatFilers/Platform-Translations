@@ -1,4 +1,67 @@
 {
+  "aiTransform": {
+    "changedColumnsText_other": "{{count}}列のデータ変更列",
+    "changedColumnsText_zero": "{{count}}列のデータ変更列",
+    "errors": {
+      "entilementError": {
+        "content": "誤りがあると思われる場合は、カスタマーサポートにお問い合わせください。",
+        "title": "残念ながら、この機能にはアクセスできません。"
+      },
+      "generalError": {
+        "title": "何らかの問題が発生しました。もう一度試してください。"
+      },
+      "generateMutationError": {
+        "title": "AIにリーチできません。後でもう一度試してください。"
+      },
+      "invalidFunctionError": {
+        "content": "無効な操作の要求が原因である可能性が高いです。",
+        "title": "申し訳ありませんが、AIアシスタントはそのトランスフォメーションを実行できません。"
+      },
+      "keysModifiedError": {
+        "title": "申し訳ありませんが、AIアシスタントが変更できるのは、既存のフィールドの値のみです。フィールドを削除したり、新しいフィールドを追加したりすることはできません。"
+      },
+      "noFunctionError": {
+        "content": "フレーズを変えてみてください。プロンプトにフィールド名を含めると成功しやすくなります。",
+        "title": "プロンプトを理解できませんでした。"
+      },
+      "noRecordsFoundError": {
+        "content": "指定のクエリの記録が見つかりませんでした。もう一度試してください。",
+        "title": "記録が見つかりません"
+      },
+      "noresultsError": {
+        "content": "フレーズを変えてみてください。プロンプトにフィールド名を含めると成功しやすくなります。",
+        "title": "このプロンプトでは一切データのトランスフォメーションはできませんでした。"
+      },
+      "prompttoolongError": {
+        "content": "プロンプトを短くする、またはプロンプトを複数段階に分割して、もう一度試してください。",
+        "title": "残念ですが、プロンプトが少し長すぎました。"
+      },
+      "versionError": {
+        "content": "ロールバックバージョンを作成できません。",
+        "title": "何らかの問題が発生しました。もう一度試してください。"
+      }
+    },
+    "exitConfirmation": {
+      "body": "ほんとうに終了しますか？",
+      "header": "終了の確認",
+      "label": "終了する"
+    },
+    "jobCompleteHeading": "AIトランスフォメーションのジョブの完了",
+    "jobCompleteMessage": "この記録はトランスフォメーション済みです",
+    "promptBar": {
+      "categoricalWarning": "このフィールドにはAIトランスフォームの処理対象のオプションが多すぎます。",
+      "transformButton": {
+        "tooltip": {
+          "active": "任意のロジックに基づいて、フィールドのデータを、他のフィールドにあるデータも含めてどのようにトランスフォメーションしたいかを記述してください",
+          "disabled": "AIアシスタントを使うには、（フィルターをかけた）シートに記録がいくつか必要です。"
+        }
+      },
+      "warning": "注意：このデータセット内の一部のカテゴリフィールドには、設定オプションが多数含まれています。プロンプトの中でこれらのフィールド（@{{fieldName}}など）を使用すると、期待どおりに動作しない可能性があります。"
+    },
+    "sampleMessage": "{{number}}点の記録のプレビュー",
+    "scrollInfoText": "次の変更列までスクロールする",
+    "toggleLabel": "修正したデータのみを表示する"
+  },
   "blocks": {
     "embeddedDiff": {
       "errors": {
@@ -340,6 +403,12 @@
           "complete": "ワークブックにマッピングされました",
           "failed": "ワークブックへのマッピングに失敗しました",
           "inProgress": "ワークブックへのマッピング"
+        },
+        "mutate-records": {
+          "canceled": "中止したAIトランスフォーム",
+          "complete": "AIトランスフォームの完了",
+          "failed": "AIトランスフォームに失敗しました",
+          "inProgress": "AIを使って記録をトランスフォメーションする"
         }
       },
       "time": {

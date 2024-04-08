@@ -1,4 +1,68 @@
 {
+  "aiTransform": {
+    "changedColumnsText_one": "Verileri değiştirilmiş 1 sütun",
+    "changedColumnsText_other": "Verileri değiştirilmiş {{count}} sütun",
+    "changedColumnsText_zero": "Verileri değiştirilmiş {{count}} sütun",
+    "errors": {
+      "entilementError": {
+        "content": "Bunun bir hata olduğunu düşünüyorsanız lütfen müşteri desteğine başvurun.",
+        "title": "Üzgünüm! Bu özelliğe erişiminiz yok."
+      },
+      "generalError": {
+        "title": "Bir şeyler ters gitti. Lütfen tekrar deneyin."
+      },
+      "generateMutationError": {
+        "title": "YZ'ye ulaşılamıyor. Lütfen daha sonra tekrar deneyin."
+      },
+      "invalidFunctionError": {
+        "content": "Büyük olasılıkla geçersiz bir şey yapmasını istediniz.",
+        "title": "Maalesef YZ asistanı bu dönüşümü gerçekleştiremiyor."
+      },
+      "keysModifiedError": {
+        "title": "Maalesef YZ asistanı yalnızca mevcut alanların değerlerini değiştirebilir. Alanları kaldıramaz veya yenilerini ekleyemez."
+      },
+      "noFunctionError": {
+        "content": "Farklı bir şekilde ifade etmeyi deneyin. Alan adlarını içeren istemler daha başarılı olma eğilimindedir.",
+        "title": "İsteminizi anlayamadık."
+      },
+      "noRecordsFoundError": {
+        "content": "Belirtilen sorguya ait kayıt bulunamadı. Lütfen tekrar deneyin.",
+        "title": "Kayıt bulunamadı"
+      },
+      "noresultsError": {
+        "content": "Farklı bir şekilde ifade etmeyi deneyin. Alan adlarını içeren istemler daha başarılı olma eğilimindedir.",
+        "title": "İsteminiz veriyi dönüştürmedi."
+      },
+      "prompttoolongError": {
+        "content": "İsteminizi kısaltmayı deneyin veya isteminizi birden fazla adıma bölüp tekrar deneyin.",
+        "title": "Üzgünüm! İsteminiz biraz fazla uzundu."
+      },
+      "versionError": {
+        "content": "Geri alma sürümü oluşturulamıyor.",
+        "title": "Bir şeyler ters gitti. Lütfen tekrar deneyin."
+      }
+    },
+    "exitConfirmation": {
+      "body": "Çıkmak istediğinize emin misiniz?",
+      "header": "Onaydan Çık",
+      "label": "Çık"
+    },
+    "jobCompleteHeading": "YZ Dönüşümü İşi Tamamlandı",
+    "jobCompleteMessage": "Kayıtlar dönüştürüldü",
+    "promptBar": {
+      "categoricalWarning": "Bu alanda YZ Dönüştür'ün işleyemeyeceği kadar çok seçenek var.",
+      "transformButton": {
+        "tooltip": {
+          "active": "Herhangi bir alandaki veriler de dahil herhangi bir mantığa dayalı olarak bir alandaki verilerin nasıl dönüştürülmesini istediğinizi açıklayın",
+          "disabled": "YZ asistanını kullanabilmeniz için (filtrelenmiş) sayfanızda bazı kayıtların olması gerekir."
+        }
+      },
+      "warning": "Not: Veri kümenizdeki bazı kategorik alanlarda çok sayıda yapılandırılmış seçenek bulunur. İsteminizde @{{fieldName}} gibi alanları kullanmak beklendiği gibi çalışmayabilir."
+    },
+    "sampleMessage": "{{number}} kaydın ön izlemesi",
+    "scrollInfoText": "Sonraki değiştirilen sütuna kaydır",
+    "toggleLabel": "Yalnızca değiştirilmiş verileri göster"
+  },
   "blocks": {
     "embeddedDiff": {
       "errors": {
@@ -345,6 +409,12 @@
           "complete": "Çalışma kitabına eşleştirildi",
           "failed": "Çalışma kitabına eşleştirme başarısız oldu",
           "inProgress": "Çalışma kitabına eşleştiriliyor"
+        },
+        "mutate-records": {
+          "canceled": "YZ Dönüşümü iptal edildi",
+          "complete": "YZ Dönüşümü tamamlandı",
+          "failed": "YZ Dönüşümü başarısız",
+          "inProgress": "Kayıtları YZ ile Dönüştürmek"
         }
       },
       "time": {

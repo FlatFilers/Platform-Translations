@@ -1,4 +1,67 @@
 {
+  "aiTransform": {
+    "changedColumnsText_other": "{{count}} cột có dữ liệu đã thay đổi",
+    "changedColumnsText_zero": "{{count}} cột có dữ liệu đã thay đổi",
+    "errors": {
+      "entilementError": {
+        "content": "Nếu bạn cho rằng đây là lỗi, vui lòng liên hệ với bộ phận hỗ trợ khách hàng.",
+        "title": "Rất tiếc! Bạn không có quyền truy cập vào tính năng này."
+      },
+      "generalError": {
+        "title": "Đã xảy ra lỗi. Vui lòng thử lại."
+      },
+      "generateMutationError": {
+        "title": "Không thể truy cập AI. Vui lòng thử lại sau."
+      },
+      "invalidFunctionError": {
+        "content": "Rất có thể bạn đã yêu cầu trợ lý AI làm điều gì đó không hợp lệ.",
+        "title": "Rất tiếc, trợ lý AI không thể thực hiện việc chuyển đổi đó."
+      },
+      "keysModifiedError": {
+        "title": "Rất tiếc, trợ lý AI chỉ có thể sửa đổi giá trị của các trường dữ liệu hiện có. Trợ lý AI không thể xóa các trường dữ liệu hoặc thêm trường dữ liệu mới."
+      },
+      "noFunctionError": {
+        "content": "Hãy thử diễn đạt theo cách khác. Câu lệnh bao gồm tên trường dữ liệu có khả năng sẽ thành công cao hơn.",
+        "title": "Chúng tôi không hiểu được câu lệnh của bạn."
+      },
+      "noRecordsFoundError": {
+        "content": "Không tìm thấy bản ghi nào với truy vấn đã cung cấp. Vui lòng thử lại.",
+        "title": "Không tìm thấy bản ghi"
+      },
+      "noresultsError": {
+        "content": "Hãy thử diễn đạt theo cách khác. Câu lệnh bao gồm tên trường dữ liệu có khả năng sẽ thành công cao hơn.",
+        "title": "Câu lệnh của bạn không chuyển đổi bất kỳ dữ liệu nào."
+      },
+      "prompttoolongError": {
+        "content": "Hãy thử rút ngắn câu lệnh hoặc chia câu lệnh thành nhiều bước rồi thử lại.",
+        "title": "Rất tiếc! Câu lệnh của bạn hơi dài."
+      },
+      "versionError": {
+        "content": "Không thể tạo phiên bản khôi phục.",
+        "title": "Đã xảy ra lỗi. Vui lòng thử lại."
+      }
+    },
+    "exitConfirmation": {
+      "body": "Bạn có chắc chắn muốn thoát không?",
+      "header": "Xác nhận Thoát",
+      "label": "Thoát"
+    },
+    "jobCompleteHeading": "Công việc Chuyển đổi AI Đã hoàn tất",
+    "jobCompleteMessage": "Các bản ghi đã được chuyển đổi",
+    "promptBar": {
+      "categoricalWarning": "Trường dữ liệu này có quá nhiều tùy chọn để Chuyển đổi AI xử lý.",
+      "transformButton": {
+        "tooltip": {
+          "active": "Mô tả cách bạn muốn chuyển đổi dữ liệu trong một trường dữ liệu dựa trên bất kỳ logic nào, bao gồm dữ liệu trong bất kỳ trường dữ liệu nào",
+          "disabled": "Bạn phải có một số bản ghi trong trang tính (đã lọc) của mình để sử dụng trợ lý AI."
+        }
+      },
+      "warning": "Lưu ý: Một số trường phân loại trong tập dữ liệu của bạn có rất nhiều tùy chọn được định cấu hình. Việc sử dụng các trường đó, như @{{fieldName}}, trong câu lệnh của bạn có thể sẽ không hoạt động như mong đợi."
+    },
+    "sampleMessage": "Xem trước {{number}} bản ghi",
+    "scrollInfoText": "Cuộn đến cột đã thay đổi tiếp theo",
+    "toggleLabel": "Chỉ hiển thị dữ liệu đã sửa đổi"
+  },
   "blocks": {
     "embeddedDiff": {
       "errors": {
@@ -340,6 +403,12 @@
           "complete": "Đã lập biểu đồ tới sổ làm việc",
           "failed": "Lập biểu đồ tới sổ làm việc thất bại",
           "inProgress": "Đang lập biểu đồ tới sổ làm việc"
+        },
+        "mutate-records": {
+          "canceled": "Chuyển đổi AI đã bị hủy",
+          "complete": "Chuyển đổi AI đã hoàn tất",
+          "failed": "Chuyển đổi AI không thành công",
+          "inProgress": "Đang chuyển đổi Bản ghi bằng AI"
         }
       },
       "time": {

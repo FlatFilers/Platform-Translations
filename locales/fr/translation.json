@@ -1,4 +1,68 @@
 {
+  "aiTransform": {
+    "changedColumnsText_one": "Une colonne dont les données ont été modifiées",
+    "changedColumnsText_other": "{{count}} colonnes dont les données ont été modifiées",
+    "changedColumnsText_zero": "{{count}} colonnes dont les données ont été modifiées",
+    "errors": {
+      "entilementError": {
+        "content": "Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le service clientèle.",
+        "title": "Désolé, vous n'avez pas accès à cette fonctionnalité."
+      },
+      "generalError": {
+        "title": "Une erreur s'est produite. Veuillez réessayer."
+      },
+      "generateMutationError": {
+        "title": "Impossible de joindre l'IA. Veuillez réessayer plus tard."
+      },
+      "invalidFunctionError": {
+        "content": "Il est probable que vous lui ayez demandé de faire quelque chose de non valide.",
+        "title": "Désolé, l'assistant IA n'est pas en mesure d'effectuer cette transformation."
+      },
+      "keysModifiedError": {
+        "title": "Désolé, l'assistant IA ne peut modifier que les valeurs des champs existants. Il ne peut pas supprimer de champs ni en ajouter de nouveaux."
+      },
+      "noFunctionError": {
+        "content": "Essayez de la formuler différemment. Les invites qui incluent des noms de champs ont tendance à être plus efficaces.",
+        "title": "Nous n'avons pas compris votre invite."
+      },
+      "noRecordsFoundError": {
+        "content": "Aucune entrée n'a été trouvée pour la requête donnée. Veuillez réessayer.",
+        "title": "Aucune entrée n'a été trouvée"
+      },
+      "noresultsError": {
+        "content": "Essayez de la formuler différemment. Les invites qui incluent des noms de champs ont tendance à être plus efficaces.",
+        "title": "Votre invite n'a transformé aucune donnée."
+      },
+      "prompttoolongError": {
+        "content": "Essayez de raccourcir votre invite ou de la diviser en plusieurs étapes et réessayez.",
+        "title": "Désolé, votre invite était un peu trop longue."
+      },
+      "versionError": {
+        "content": "Impossible de créer une version antérieure.",
+        "title": "Une erreur s'est produite. Veuillez réessayer."
+      }
+    },
+    "exitConfirmation": {
+      "body": "Êtes-vous sûr de vouloir quitter ?",
+      "header": "Confirmation de sortie",
+      "label": "Quitter"
+    },
+    "jobCompleteHeading": "Travail de transformation par l'IA terminé",
+    "jobCompleteMessage": "Les entrées ont été transformées",
+    "promptBar": {
+      "categoricalWarning": "Ce champ contient trop d'options pour que la transformation par l'IA puisse les traiter.",
+      "transformButton": {
+        "tooltip": {
+          "active": "Décrivez comment vous souhaitez que les données d'un champ soient transformées en fonction de n'importe quelle logique, y compris les données de n'importe quel champ",
+          "disabled": "Votre feuille (filtrée) doit contenir des entrées pour que vous puissiez utiliser l'assistant AI."
+        }
+      },
+      "warning": "Remarque : Certains champs catégoriels de votre ensemble de données comportent un grand nombre d'options configurées. L'utilisation de ces champs, tels que @{{fieldName}}, dans votre invite peut ne pas donner les résultats escomptés."
+    },
+    "sampleMessage": "Aperçu de {{number}} entrées",
+    "scrollInfoText": "Défiler jusqu'à la colonne modifiée suivante",
+    "toggleLabel": "Afficher uniquement les données modifiées"
+  },
   "blocks": {
     "embeddedDiff": {
       "errors": {
@@ -345,6 +409,12 @@
           "complete": "Mis en correspondance vers le classeur",
           "failed": "Échec de la mise en correspondance avec le classeur",
           "inProgress": "Correspondance avec le classeur en cours"
+        },
+        "mutate-records": {
+          "canceled": "Transformation par l'IA annulée",
+          "complete": "Transformation par l'IA terminée",
+          "failed": "Échec de la transformation par l'IA",
+          "inProgress": "Transformation d'entrées par l'IA"
         }
       },
       "time": {

@@ -1,4 +1,68 @@
 {
+  "aiTransform": {
+    "changedColumnsText_one": "1 coluna com dados alterada",
+    "changedColumnsText_other": "{{count}} colunas com dados alteradas",
+    "changedColumnsText_zero": "{{count}} colunas com dados alteradas",
+    "errors": {
+      "entilementError": {
+        "content": "Se você acha que isso é um erro, entre em contato com o serviço de atendimento ao cliente.",
+        "title": "Desculpe! Você não tem acesso a este recurso."
+      },
+      "generalError": {
+        "title": "Ocorreu algo errado. Tente novamente."
+      },
+      "generateMutationError": {
+        "title": "Não foi possível entrar em contato com a IA. Tente novamente mais tarde."
+      },
+      "invalidFunctionError": {
+        "content": "Provavelmente você pediu para ele fazer algo inválido.",
+        "title": "Desculpe, o assistente de IA não pode realizar esta transformação."
+      },
+      "keysModifiedError": {
+        "title": "Desculpe, o assistente de IA só pode modificar os valores de campos existentes. Ele não pode remover campos nem adicionar novos."
+      },
+      "noFunctionError": {
+        "content": "Tente recolocar a frase. Prompts que incluam nomes de campos tendem a ter mais sucesso.",
+        "title": "Não conseguimos entender o seu prompt."
+      },
+      "noRecordsFoundError": {
+        "content": "Nenhum registro foi encontrado segundo a pesquisa feita. Tente novamente.",
+        "title": "Nenhum registro encontrado"
+      },
+      "noresultsError": {
+        "content": "Tente recolocar a frase. Prompts que incluam nomes de campos tendem a ter mais sucesso.",
+        "title": "O seu prompt não transformou nenhum dado."
+      },
+      "prompttoolongError": {
+        "content": "Tente encurtar o seu prompt ou separar o seu prompt em várias etapas e tente novamente.",
+        "title": "Desculpe! O seu prompt foi um pouco longo."
+      },
+      "versionError": {
+        "content": "Não foi possível criar uma versão reversa.",
+        "title": "Ocorreu algo errado. Tente novamente."
+      }
+    },
+    "exitConfirmation": {
+      "body": "Tem certeza de que deseja sair?",
+      "header": "Confirmação de saída",
+      "label": "Sair"
+    },
+    "jobCompleteHeading": "Trabalho de transformação de IA completo",
+    "jobCompleteMessage": "Os registros foram transformados",
+    "promptBar": {
+      "categoricalWarning": "Este campo tem opções demais para a IA Transform processar.",
+      "transformButton": {
+        "tooltip": {
+          "active": "Descreva como você quer os dados em um campo para que eles sejam transformados com base em qualquer lógica, incluindo dados em qualquer campo.",
+          "disabled": "É necessário haver alguns registros na sua planilha (filtrada) para utilizar o assistente de IA."
+        }
+      },
+      "warning": "Observação: alguns campos de categorias no seu dataset têm muitas opções configuradas. Usar esses campos, como @{{fieldName}}, no seu prompt não funcionária conforme o esperado."
+    },
+    "sampleMessage": "Pré-visualização de {{number}} registros",
+    "scrollInfoText": "Rolar para a próxima coluna alterada",
+    "toggleLabel": "Exibir apenas dados modificados"
+  },
   "blocks": {
     "embeddedDiff": {
       "errors": {
@@ -345,6 +409,12 @@
           "complete": "Mapeado para pasta de trabalho",
           "failed": "Falha ao mapear para pasta de trabalho",
           "inProgress": "Mapeamento para pasta de trabalho"
+        },
+        "mutate-records": {
+          "canceled": "Transformação de IA cancelada",
+          "complete": "Transformação de IA completa",
+          "failed": "Falha na transformação de IA",
+          "inProgress": "Transformando registros com IA"
         }
       },
       "time": {
