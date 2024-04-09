@@ -489,6 +489,12 @@
       "subheading": "These fields have values that must be mapped to a list of valid options.",
       "title": "Map Fields"
     },
+    "clearFields": {
+      "modalHeader": "Clear Destination Fields",
+      "modalText": "All existing mappings for this import will be cleared",
+      "modalLabel": "Clear",
+      "modalTooltip": "Clear Destination Fields"
+    },
     "mapFields": {
       "destinationFields": {
         "addNewField": {
