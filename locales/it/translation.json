@@ -458,6 +458,12 @@
     }
   },
   "mapping": {
+    "clearFields": {
+      "modalHeader": "Cancella i campi di destinazione",
+      "modalLabel": "Cancella",
+      "modalText": "Tutte le mappature esistenti per questa importazione saranno cancellate",
+      "modalTooltip": "Cancella i campi di destinazione"
+    },
     "dataPreview": {
       "heading": "Anteprima dei dati per {{previewKey}}",
       "noData": "Nessun dato in anteprima"

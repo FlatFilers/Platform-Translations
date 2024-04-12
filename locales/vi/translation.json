@@ -452,6 +452,12 @@
     }
   },
   "mapping": {
+    "clearFields": {
+      "modalHeader": "Xóa các miền điểm đến",
+      "modalLabel": "Xóa",
+      "modalText": "Mọi biểu đồ hiện có đối với lần nhập này sẽ bị xóa",
+      "modalTooltip": "Xóa các miền điểm đến"
+    },
     "dataPreview": {
       "heading": "Bản xem trước dữ liệu cho {{previewKey}}",
       "noData": "Không có dữ liệu xem trước"

@@ -452,6 +452,12 @@
     }
   },
   "mapping": {
+    "clearFields": {
+      "modalHeader": "清除目的地字段",
+      "modalLabel": "清除",
+      "modalText": "此导入的所有现有映射都将被清除",
+      "modalTooltip": "清除目的地字段"
+    },
     "dataPreview": {
       "heading": "{{previewKey}} 的数据预览",
       "noData": "没有预览数据"

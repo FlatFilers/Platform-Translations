@@ -452,6 +452,12 @@
     }
   },
   "mapping": {
+    "clearFields": {
+      "modalHeader": "宛先フィールドをクリアする",
+      "modalLabel": "クリア",
+      "modalText": "このインポートの既存のマッピングはすべてクリアされます",
+      "modalTooltip": "宛先フィールドをクリアする"
+    },
     "dataPreview": {
       "heading": "{{previewKey}}のデータプレビュー",
       "noData": "プレビューデータがありません"

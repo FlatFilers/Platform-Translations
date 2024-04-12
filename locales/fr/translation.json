@@ -458,6 +458,12 @@
     }
   },
   "mapping": {
+    "clearFields": {
+      "modalHeader": "Effacer les champs de destination",
+      "modalLabel": "Effacer",
+      "modalText": "Toutes les correspondances existantes pour cette importation seront effacées",
+      "modalTooltip": "Effacer les champs de destination"
+    },
     "dataPreview": {
       "heading": "Aperçu des données pour {{previewKey}}",
       "noData": "Aucune donnée d'aperçu"

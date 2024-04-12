@@ -452,6 +452,12 @@
     }
   },
   "mapping": {
+    "clearFields": {
+      "modalHeader": "대상 필드 지우기",
+      "modalLabel": "지우기",
+      "modalText": "이 가져오기에 대한 모든 기존 매핑이 지워집니다",
+      "modalTooltip": "대상 필드 지우기"
+    },
     "dataPreview": {
       "heading": "{{previewKey}}에 대한 데이터 미리보기",
       "noData": "미리보기 데이터 없음"

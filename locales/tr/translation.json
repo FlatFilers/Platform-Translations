@@ -458,6 +458,12 @@
     }
   },
   "mapping": {
+    "clearFields": {
+      "modalHeader": "Hedef Alanlarını Temizle",
+      "modalLabel": "Temizle",
+      "modalText": "Bu içe aktarmayla ilgili mevcut tüm eşlemeler temizlenecek",
+      "modalTooltip": "Hedef Alanlarını Temizle"
+    },
     "dataPreview": {
       "heading": "{{previewKey}} için veri önizlemesi",
       "noData": "Önizleme verisi yok"

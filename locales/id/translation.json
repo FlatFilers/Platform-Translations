@@ -452,6 +452,12 @@
     }
   },
   "mapping": {
+    "clearFields": {
+      "modalHeader": "Kosongkan Kolom Tujuan",
+      "modalLabel": "Kosongkan",
+      "modalText": "Semua pemetaan yang ada untuk impor ini akan dikosongkan",
+      "modalTooltip": "Kosongkan Kolom Tujuan"
+    },
     "dataPreview": {
       "heading": "Pratinjau data untuk {{previewKey}}",
       "noData": "Tidak ada data pratinjau"

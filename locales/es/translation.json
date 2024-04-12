@@ -458,6 +458,12 @@
     }
   },
   "mapping": {
+    "clearFields": {
+      "modalHeader": "Borrar campos de destino",
+      "modalLabel": "Borrar",
+      "modalText": "Se borrarán todas las asignaciones existentes para esta importación",
+      "modalTooltip": "Borrar campos de destino"
+    },
     "dataPreview": {
       "heading": "Vista previa de los datos para {{previewKey}}",
       "noData": "Sin datos previos"

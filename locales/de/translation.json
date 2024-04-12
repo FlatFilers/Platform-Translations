@@ -458,6 +458,12 @@
     }
   },
   "mapping": {
+    "clearFields": {
+      "modalHeader": "Zielfelder löschen",
+      "modalLabel": "Löschen",
+      "modalText": "Alle existierenden Zuordnungen für diesen Import werden gelöscht",
+      "modalTooltip": "Zielfelder löschen"
+    },
     "dataPreview": {
       "heading": "Datenvorschau für {{previewKey}}",
       "noData": "Keine Vorschaudaten"
