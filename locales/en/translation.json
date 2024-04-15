@@ -864,6 +864,8 @@
             "total": "total",
             "valid": "valid"
           },
+          "countsError": "Error loading counts",
+          "countsErrorRetry": "Click to Retry",
           "filtered": "This dataset has been filtered to show {{filteredCount}} of the {{countString}} {{filter}} records.",
           "filteredByError": "This dataset has been filtered via the error filter to show {{filteredCount}} of the {{countString}} {{filter}} records.",
           "filteredByFFQL": {
