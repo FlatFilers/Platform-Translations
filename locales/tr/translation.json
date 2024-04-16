@@ -883,6 +883,8 @@
         "all": "Tümü",
         "invalid": "Geçersiz",
         "tooltip": {
+          "countsError": "Sayılar yüklenirken hata oluştu",
+          "countsErrorRetry": "Tekrar Denemek için Tıklayın",
           "filter": {
             "invalid": "geçersiz",
             "total": "toplam",

@@ -857,6 +857,8 @@
         "all": "すべて",
         "invalid": "無効",
         "tooltip": {
+          "countsError": "読み込みエラー数",
+          "countsErrorRetry": "クリックして再試行",
           "filter": {
             "invalid": "無効",
             "total": "合計",

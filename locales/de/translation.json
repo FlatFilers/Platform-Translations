@@ -883,6 +883,8 @@
         "all": "Alles",
         "invalid": "Ungültig",
         "tooltip": {
+          "countsError": "Fehler beim Laden der Zählungen",
+          "countsErrorRetry": "Zum Wiederholen klicken",
           "filter": {
             "invalid": "ungültig",
             "total": "insgesamt",

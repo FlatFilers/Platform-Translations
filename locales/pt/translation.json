@@ -883,6 +883,8 @@
         "all": "Tudo",
         "invalid": "Inválido",
         "tooltip": {
+          "countsError": "Erro ao carregar contas",
+          "countsErrorRetry": "Clique para tentar novamente",
           "filter": {
             "invalid": "inválido",
             "total": "total",

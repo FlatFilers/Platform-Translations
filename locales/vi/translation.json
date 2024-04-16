@@ -857,6 +857,8 @@
         "all": "Tất cả",
         "invalid": "Không hợp lệ",
         "tooltip": {
+          "countsError": "Đã xảy ra lỗi khi tải lượng đếm",
+          "countsErrorRetry": "Nhấp để thử lại",
           "filter": {
             "invalid": "không hợp lệ",
             "total": "tổng cộng",

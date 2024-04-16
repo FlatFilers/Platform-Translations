@@ -857,6 +857,8 @@
         "all": "전체",
         "invalid": "무효",
         "tooltip": {
+          "countsError": "개수 로딩 중 오류 발생",
+          "countsErrorRetry": "다시 시도하려면 클릭",
           "filter": {
             "invalid": "무효",
             "total": "총",

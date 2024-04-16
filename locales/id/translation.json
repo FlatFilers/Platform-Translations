@@ -857,6 +857,8 @@
         "all": "Semua",
         "invalid": "Tidak valid",
         "tooltip": {
+          "countsError": "Jumlah pemuatan kesalahan",
+          "countsErrorRetry": "Klik untuk Mencoba Lagi",
           "filter": {
             "invalid": "tidak valid",
             "total": "total",

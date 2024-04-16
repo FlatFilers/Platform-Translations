@@ -857,6 +857,8 @@
         "all": "全部",
         "invalid": "无效",
         "tooltip": {
+          "countsError": "加载计数错误",
+          "countsErrorRetry": "点击重试",
           "filter": {
             "invalid": "无效",
             "total": "总计",

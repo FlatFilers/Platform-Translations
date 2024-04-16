@@ -883,6 +883,8 @@
         "all": "Tutte",
         "invalid": "Non valide",
         "tooltip": {
+          "countsError": "Errore durante il caricamento delle somme",
+          "countsErrorRetry": "Fai clic per riprovare",
           "filter": {
             "invalid": "non valido",
             "total": "totale",
