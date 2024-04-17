@@ -555,7 +555,6 @@
   },
   "sheet": {
     "columnManagement": {
-      "clear_empty": "Leere Spalten löschen",
       "errorColumnTooltip": "Diese Spalte wird nach dem Filtern nach diesem Wert nicht länger verborgen sein",
       "hideEmptyFields": "Spalten ohne Daten ausblenden",
       "noFields": "keine Felder",
@@ -1166,10 +1165,7 @@
   },
   "spaceLoadingMessage": "Raum wird vorbereitet",
   "utils": {
-    "buttons": {
-      "clearAll": "Alles löschen",
-      "selectAll": "Alles auswählen"
-    },
+    "buttons": {},
     "modals": {
       "sizeWarning": {
         "body": "Bitte verwenden Sie ein Gerät mit einem größeren Bildschirm, um alle Funktionen nutzen zu können. Wir können nicht garantieren, dass alle Funktionen bei dieser Bildschirmgröße wie erwartet funktionieren.",

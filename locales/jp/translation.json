@@ -543,7 +543,6 @@
   },
   "sheet": {
     "columnManagement": {
-      "clear_empty": "空白列を消去",
       "errorColumnTooltip": "この値でフィルタリングすると、この列が再表示されます",
       "hideEmptyFields": "データのない列を隠す",
       "noFields": "フィールドがありません",
@@ -1140,10 +1139,7 @@
   },
   "spaceLoadingMessage": "スペースを準備しています...",
   "utils": {
-    "buttons": {
-      "clearAll": "すべて削除",
-      "selectAll": "すべて選択"
-    },
+    "buttons": {},
     "modals": {
       "sizeWarning": {
         "body": "すべての機能にアクセスするには、より大きな画面のデバイスをご利用ください。この画面サイズでは、すべての機能が期待通りに動作することを保証することはできません。",

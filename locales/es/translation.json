@@ -555,7 +555,6 @@
   },
   "sheet": {
     "columnManagement": {
-      "clear_empty": "Borrar columnas vacías",
       "errorColumnTooltip": "Filtrar por este valor revelará esta columna.",
       "hideEmptyFields": "Ocultar columnas sin datos",
       "noFields": "Sin celdas.",
@@ -1166,10 +1165,7 @@
   },
   "spaceLoadingMessage": "Preparando espacio...",
   "utils": {
-    "buttons": {
-      "clearAll": "Borrar Todo.",
-      "selectAll": "Seleccionar Todo."
-    },
+    "buttons": {},
     "modals": {
       "sizeWarning": {
         "body": "Por favor, utiliza un dispositivo con una pantalla más grande para poder acceder a todas las funcionalidades. No podemos garantizar que todas las funcionalidades funcionen como se espera en este tamaño de pantalla.",

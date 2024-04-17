@@ -543,7 +543,6 @@
   },
   "sheet": {
     "columnManagement": {
-      "clear_empty": "빈 열 지우기",
       "errorColumnTooltip": "이 값으로 필터링하면 이 열이 숨김 해제됨",
       "hideEmptyFields": "데이터가 없는 열 숨기기",
       "noFields": "필드 없음",
@@ -1140,10 +1139,7 @@
   },
   "spaceLoadingMessage": "공간 준비 중...",
   "utils": {
-    "buttons": {
-      "clearAll": "모두 지우기",
-      "selectAll": "모두 선택"
-    },
+    "buttons": {},
     "modals": {
       "sizeWarning": {
         "body": "모든 기능에 액세스하려면 더 큰 스크린의 기기를 사용하세요. 이 크기 스크린에서 모든 기능이 제대로 작동한다고 보장할 수 없습니다.",

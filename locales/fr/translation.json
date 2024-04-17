@@ -555,7 +555,6 @@
   },
   "sheet": {
     "columnManagement": {
-      "clear_empty": "Effacer les colonnes vides",
       "errorColumnTooltip": "Filtrer par cette valeur affichera cette colonne",
       "hideEmptyFields": "Masquer les colonnes sans données",
       "noFields": "aucun champ",
@@ -1166,10 +1165,7 @@
   },
   "spaceLoadingMessage": "Préparation de l'espace...",
   "utils": {
-    "buttons": {
-      "clearAll": "Tout effacer",
-      "selectAll": "Tout sélectionner"
-    },
+    "buttons": {},
     "modals": {
       "sizeWarning": {
         "body": "Pour pouvoir accéder à toutes les fonctionnalités, veuillez utiliser un appareil avec un écran plus grand. Nous ne pouvons pas garantir que toutes les fonctionnalités marcheront comme prévu sur un écran de cette taille.",

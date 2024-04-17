@@ -543,7 +543,6 @@
   },
   "sheet": {
     "columnManagement": {
-      "clear_empty": "Xóa các cột trống",
       "errorColumnTooltip": "Việc lọc theo giá trị này sẽ hiển thị cột này",
       "hideEmptyFields": "Ẩn các cột không chứa dữ liệu",
       "noFields": "không có miền nào",
@@ -1140,10 +1139,7 @@
   },
   "spaceLoadingMessage": "Đang chuẩn bị Không gian...",
   "utils": {
-    "buttons": {
-      "clearAll": "Xóa tất cả",
-      "selectAll": "Chọn tất cả"
-    },
+    "buttons": {},
     "modals": {
       "sizeWarning": {
         "body": "Vui lòng sử dụng thiết bị có màn hình lớn hơn để có thể truy cập tất cả các tính năng. Chúng tôi không thể đảm bảo rằng tất cả các tính năng sẽ hoạt động như mong đợi ở kích thước màn hình này.",
