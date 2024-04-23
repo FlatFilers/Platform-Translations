@@ -544,9 +544,10 @@
   },
   "sheet": {
     "columnManagement": {
-      "hideEmpty": "Hide empty columns",
-      "hideAll": "Hide all",
+      "clear_empty": "Clear empty columns",
       "errorColumnTooltip": "Filtering by this value will unhide this column",
+      "hideAll": "Hide all",
+      "hideEmpty": "Hide empty columns",
       "hideEmptyFields": "Hide columns with no data",
       "noFields": "no fields",
       "noMatches": "no matches",
@@ -1144,7 +1145,9 @@
   "spaceLoadingMessage": "Preparing Space...",
   "utils": {
     "buttons": {
+      "clearAll": "Clear All",
       "clearAllLabel": "Clear all",
+      "selectAll": "Select All",
       "selectAllLabel": "Select all"
     },
     "modals": {

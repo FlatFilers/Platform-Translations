@@ -555,7 +555,10 @@
   },
   "sheet": {
     "columnManagement": {
+      "clear_empty": "Elimina le colonne vuote",
       "errorColumnTooltip": "Filtrando tramite questo valore mostrerà di nuovo questa colonna",
+      "hideAll": "Nascondi tutto",
+      "hideEmpty": "Nascondi colonne vuote",
       "hideEmptyFields": "Nascondi le colonne prive di dati",
       "noFields": "nessun campo",
       "noMatches": "nessuna corrispondenza",
@@ -1165,7 +1168,12 @@
   },
   "spaceLoadingMessage": "Preparando lo spazio...",
   "utils": {
-    "buttons": {},
+    "buttons": {
+      "clearAll": "Elimina tutto",
+      "clearAllLabel": "Cancella tutto",
+      "selectAll": "Seleziona tutto",
+      "selectAllLabel": "Seleziona tutto"
+    },
     "modals": {
       "sizeWarning": {
         "body": "Si prega di usare un dispositivo con uno schermo più grande per poter accedere a tutte le funzioni. Non è possibile garantire che tutte le funzioni vengano eseguite correttamente su uno schermo di queste dimensioni.",

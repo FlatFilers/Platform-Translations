@@ -555,7 +555,10 @@
   },
   "sheet": {
     "columnManagement": {
+      "clear_empty": "Leere Spalten löschen",
       "errorColumnTooltip": "Diese Spalte wird nach dem Filtern nach diesem Wert nicht länger verborgen sein",
+      "hideAll": "Alles ausblenden",
+      "hideEmpty": "Leere Spalten ausblenden",
       "hideEmptyFields": "Spalten ohne Daten ausblenden",
       "noFields": "keine Felder",
       "noMatches": "keine Treffer",
@@ -1165,7 +1168,12 @@
   },
   "spaceLoadingMessage": "Raum wird vorbereitet",
   "utils": {
-    "buttons": {},
+    "buttons": {
+      "clearAll": "Alles löschen",
+      "clearAllLabel": "Alles löschen",
+      "selectAll": "Alles auswählen",
+      "selectAllLabel": "Alles auswählen"
+    },
     "modals": {
       "sizeWarning": {
         "body": "Bitte verwenden Sie ein Gerät mit einem größeren Bildschirm, um alle Funktionen nutzen zu können. Wir können nicht garantieren, dass alle Funktionen bei dieser Bildschirmgröße wie erwartet funktionieren.",

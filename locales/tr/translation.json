@@ -555,7 +555,10 @@
   },
   "sheet": {
     "columnManagement": {
+      "clear_empty": "Boş sütunları boşalt",
       "errorColumnTooltip": "Bu değere göre filtrelemek bu sütunu gösterecek",
+      "hideAll": "Hepsini sakla",
+      "hideEmpty": "Boş sütunları sakla",
       "hideEmptyFields": "Veri içermeyen sütunları gizle",
       "noFields": "alan yok",
       "noMatches": "eşleşme yok",
@@ -1165,7 +1168,12 @@
   },
   "spaceLoadingMessage": "Alan Hazırlanıyor...",
   "utils": {
-    "buttons": {},
+    "buttons": {
+      "clearAll": "Tümünü Temizle",
+      "clearAllLabel": "Hepsini temizle",
+      "selectAll": "Tümünü Seç",
+      "selectAllLabel": "Hepsini seç"
+    },
     "modals": {
       "sizeWarning": {
         "body": "Tüm özelliklere erişebilmek için lütfen daha büyük ekranlı bir cihaz kullanın. Bu ekran boyutunda tüm özelliklerin beklendiği gibi çalışacağını garanti edemeyiz.",

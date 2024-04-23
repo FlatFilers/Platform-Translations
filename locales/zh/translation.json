@@ -543,7 +543,10 @@
   },
   "sheet": {
     "columnManagement": {
+      "clear_empty": "清除空白列",
       "errorColumnTooltip": "按此值筛选将解除隐藏此列",
+      "hideAll": "全部隐藏",
+      "hideEmpty": "隐藏空白列",
       "hideEmptyFields": "隐藏没有数据的列",
       "noFields": "没有字段",
       "noMatches": "没有匹配项",
@@ -1139,7 +1142,12 @@
   },
   "spaceLoadingMessage": "正在准备空间……",
   "utils": {
-    "buttons": {},
+    "buttons": {
+      "clearAll": "全部清除",
+      "clearAllLabel": "全部清除",
+      "selectAll": "全选",
+      "selectAllLabel": "全选"
+    },
     "modals": {
       "sizeWarning": {
         "body": "建议使用屏幕较大的设备以便能够访问所有功能。我们不能保证所有功能都能在这个屏幕尺寸下正常工作。",

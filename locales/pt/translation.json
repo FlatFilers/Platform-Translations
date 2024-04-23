@@ -555,7 +555,10 @@
   },
   "sheet": {
     "columnManagement": {
+      "clear_empty": "Limpar colunas vazias",
       "errorColumnTooltip": "Filtrar por este valor irá revelar esta coluna",
+      "hideAll": "Ocultar todas",
+      "hideEmpty": "Ocultar colunas vazias",
       "hideEmptyFields": "Ocultar colunas sem dados",
       "noFields": "sem campos",
       "noMatches": "sem correspondências",
@@ -1165,7 +1168,12 @@
   },
   "spaceLoadingMessage": "A preparar o espaço...",
   "utils": {
-    "buttons": {},
+    "buttons": {
+      "clearAll": "Limpar tudo",
+      "clearAllLabel": "Limpar todas",
+      "selectAll": "Selecionar tudo",
+      "selectAllLabel": "Selecionar todas"
+    },
     "modals": {
       "sizeWarning": {
         "body": "Use um dispositivo com um ecrã mais largo para ter acesso a todas as funcionalidades. Não podemos garantir que todas as funcionalidades funcionem como esperado num ecrã com este tamanho.",

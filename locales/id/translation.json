@@ -543,7 +543,10 @@
   },
   "sheet": {
     "columnManagement": {
+      "clear_empty": "Hapus kolom kosong",
       "errorColumnTooltip": "Memfilter berdasarkan nilai ini akan menampilkan kolom ini",
+      "hideAll": "Sembunyikan semua",
+      "hideEmpty": "Sembunyikan kolom kosong",
       "hideEmptyFields": "Sembunyikan kolom tanpa data",
       "noFields": "tak ada kolom",
       "noMatches": "tidak ada kecocokan",
@@ -1139,7 +1142,12 @@
   },
   "spaceLoadingMessage": "Menyiapkan Ruang...",
   "utils": {
-    "buttons": {},
+    "buttons": {
+      "clearAll": "Kosongkan Semua",
+      "clearAllLabel": "Bersihkan semua",
+      "selectAll": "Pilih Semua",
+      "selectAllLabel": "Pilih semua"
+    },
     "modals": {
       "sizeWarning": {
         "body": "Silakan gunakan perangkat dengan layar lebih besar untuk dapat mengakses semua fitur.  Kami tidak dapat menjamin bahwa semua fitur akan berfungsi seperti diharapkan pada ukuran layar ini.",
