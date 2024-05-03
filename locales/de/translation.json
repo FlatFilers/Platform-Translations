@@ -51,6 +51,7 @@
     "jobCompleteMessage": "Die Datensätze sind umgewandelt worden",
     "promptBar": {
       "categoricalWarning": "Dieses Feld hat zu viele Optionen, um von AI Transform verarbeitet zu werden.",
+      "fieldTooltip": "{{key}}: {{description}}",
       "transformButton": {
         "tooltip": {
           "active": "Beschreiben Sie, wie die Daten in einem Feld basierend auf einer beliebigen Logik umgewandelt werden sollen, einschließlich der Daten in einem beliebigen Feld",

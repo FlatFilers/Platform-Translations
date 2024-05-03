@@ -50,6 +50,7 @@
     "jobCompleteMessage": "记录已被转换",
     "promptBar": {
       "categoricalWarning": "该字段有太多可供 AI Transform 处理的选项。",
+      "fieldTooltip": "{{key}}: {{description}}",
       "transformButton": {
         "tooltip": {
           "active": "描述你希望如何根据任何逻辑转换某字段中的数据，这包括任何字段中的数据",

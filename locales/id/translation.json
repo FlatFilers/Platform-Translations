@@ -50,6 +50,7 @@
     "jobCompleteMessage": "Rekaman telah ditransformasi",
     "promptBar": {
       "categoricalWarning": "Kolom ini punya terlalu banyak opsi untuk diproses oleh AI Transform.",
+      "fieldTooltip": "{{key}}: {{description}}",
       "transformButton": {
         "tooltip": {
           "active": "Jabarkan bagaimana Anda ingin data dalam suatu kolom ditransformasi berdasarkan suatu logika, termasuk data pada kolom",

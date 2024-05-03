@@ -51,6 +51,7 @@
     "jobCompleteMessage": "Os registros foram transformados",
     "promptBar": {
       "categoricalWarning": "Este campo tem opções demais para a IA Transform processar.",
+      "fieldTooltip": "{{key}}: {{description}}",
       "transformButton": {
         "tooltip": {
           "active": "Descreva como você quer os dados em um campo para que eles sejam transformados com base em qualquer lógica, incluindo dados em qualquer campo.",

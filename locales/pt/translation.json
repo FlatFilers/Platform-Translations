@@ -51,6 +51,7 @@
     "jobCompleteMessage": "Os registos foram transformados",
     "promptBar": {
       "categoricalWarning": "Este campo tem demasiadas opções para serem processadas pela AI Transform.",
+      "fieldTooltip": "{{key}}: {{description}}",
       "transformButton": {
         "tooltip": {
           "active": "Descreva como é que quer que os dados de certo campo sejam transformados, com base em qualquer lógica, incluindo os dados de qualquer campo.",

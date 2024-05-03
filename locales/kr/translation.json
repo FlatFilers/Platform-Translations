@@ -50,6 +50,7 @@
     "jobCompleteMessage": "기록이 변환되었습니다",
     "promptBar": {
       "categoricalWarning": "이 필드에는 AI 변환이 처리할 수 있는 옵션이 너무 많습니다.",
+      "fieldTooltip": "{{key}}: {{description}}",
       "transformButton": {
         "tooltip": {
           "active": "모든 필드의 데이터를 포함하여 모든 논리를 기반으로 필드의 데이터를 변환하는 방법을 설명합니다",

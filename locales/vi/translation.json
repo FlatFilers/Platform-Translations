@@ -50,6 +50,7 @@
     "jobCompleteMessage": "Các bản ghi đã được chuyển đổi",
     "promptBar": {
       "categoricalWarning": "Trường dữ liệu này có quá nhiều tùy chọn để Chuyển đổi AI xử lý.",
+      "fieldTooltip": "{{key}}: {{description}}",
       "transformButton": {
         "tooltip": {
           "active": "Mô tả cách bạn muốn chuyển đổi dữ liệu trong một trường dữ liệu dựa trên bất kỳ logic nào, bao gồm dữ liệu trong bất kỳ trường dữ liệu nào",

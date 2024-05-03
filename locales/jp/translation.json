@@ -50,6 +50,7 @@
     "jobCompleteMessage": "この記録はトランスフォメーション済みです",
     "promptBar": {
       "categoricalWarning": "このフィールドにはAIトランスフォームの処理対象のオプションが多すぎます。",
+      "fieldTooltip": "{{key}}: {{description}}",
       "transformButton": {
         "tooltip": {
           "active": "任意のロジックに基づいて、フィールドのデータを、他のフィールドにあるデータも含めてどのようにトランスフォメーションしたいかを記述してください",

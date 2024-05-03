@@ -51,6 +51,7 @@
     "jobCompleteMessage": "Kayıtlar dönüştürüldü",
     "promptBar": {
       "categoricalWarning": "Bu alanda YZ Dönüştür'ün işleyemeyeceği kadar çok seçenek var.",
+      "fieldTooltip": "{{key}}: {{description}}",
       "transformButton": {
         "tooltip": {
           "active": "Herhangi bir alandaki veriler de dahil herhangi bir mantığa dayalı olarak bir alandaki verilerin nasıl dönüştürülmesini istediğinizi açıklayın",
