@@ -938,7 +938,7 @@
   },
   "sidebar": {
     "addConnection": "Add Connection",
-    "checklist": "Data checklist",
+    "checklist": "Data choooklist",
     "connections": {
       "tooltips": {
         "connectionError": "There is an issue verifying the metadata of this workbook's connections",
