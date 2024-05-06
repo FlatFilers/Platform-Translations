@@ -385,37 +385,43 @@
             "prefix": "Emploi",
             "suffix": "échec"
           },
-          "inProgress": "Tâche en cours d'exécution"
+          "inProgress": "Tâche en cours d'exécution",
+          "waiting": "En attente :"
         },
         "delete": {
           "cancelled": "Annulation de la suppression d'enregistrements",
           "complete": "Suppression terminée",
           "failed": "Échec de la suppression",
-          "inProgress": "Suppression d'enregistrements en cours"
+          "inProgress": "Suppression d'enregistrements en cours",
+          "waiting": "En attente de suppression des enregistrements"
         },
         "export": {
           "canceled": "Téléchargement annulé",
           "complete": "Téléchargement généré",
           "failed": "Échec de la génération du téléchargement",
-          "inProgress": "Génération du téléchargement en cours"
+          "inProgress": "Génération du téléchargement en cours",
+          "waiting": "En attente de génération du téléchargement"
         },
         "extract": {
           "cancelled": "Extraction du fichier annulée",
           "complete": "Fichier extrait",
           "failed": "Échec de l'extraction du fichier",
-          "inProgress": "Extraction du fichier en cours"
+          "inProgress": "Extraction du fichier en cours",
+          "waiting": "En attente de l'extraction du fichier"
         },
         "mapping": {
           "canceled": "Annulation de la mise en correspondance avec le classeur",
           "complete": "Mis en correspondance vers le classeur",
           "failed": "Échec de la mise en correspondance avec le classeur",
-          "inProgress": "Correspondance avec le classeur en cours"
+          "inProgress": "Correspondance avec le classeur en cours",
+          "waiting": "En attente de mappage sur le classeur"
         },
         "mutate-records": {
           "canceled": "Transformation par l'IA annulée",
           "complete": "Transformation par l'IA terminée",
           "failed": "Échec de la transformation par l'IA",
-          "inProgress": "Transformation d'entrées par l'IA"
+          "inProgress": "Transformation d'entrées par l'IA",
+          "waiting": "En attente de transformation des enregistrements avec l'IA"
         }
       },
       "time": {

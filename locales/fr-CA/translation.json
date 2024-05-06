@@ -384,37 +384,43 @@
             "prefix": "Travail",
             "suffix": "échoué"
           },
-          "inProgress": "Travail en cours d’exécution"
+          "inProgress": "Travail en cours d’exécution",
+          "waiting": "En attente :"
         },
         "delete": {
           "cancelled": "Suppression d'un enregistrement annulée",
           "complete": "Suppression terminée",
           "failed": "Échec de la suppression",
-          "inProgress": "Suppression des enregistrements"
+          "inProgress": "Suppression des enregistrements",
+          "waiting": "En attente de la suppression des enregistrements"
         },
         "export": {
           "canceled": "Téléchargement annulé",
           "complete": "Téléchargement généré",
           "failed": "Échec de la génération du téléchargement",
-          "inProgress": "Génération d'un téléchargement en cours"
+          "inProgress": "Génération d'un téléchargement en cours",
+          "waiting": "En attente de générer le téléchargement"
         },
         "extract": {
           "cancelled": "Extraction de fichier annulée",
           "complete": "Fichier extrait",
           "failed": "Échec de l’extraction du fichier",
-          "inProgress": "Extraction du fichier en cours"
+          "inProgress": "Extraction du fichier en cours",
+          "waiting": "En attente de l’extraction du fichier"
         },
         "mapping": {
           "canceled": "Annulation de la cartographie vers le classeur",
           "complete": "Cartographié vers le classeur",
           "failed": "Échec de la cartographie vers le classeur",
-          "inProgress": "Cartographie en cours vers le classeur"
+          "inProgress": "Cartographie en cours vers le classeur",
+          "waiting": "En attente de la cartographie vers le classeur"
         },
         "mutate-records": {
           "canceled": "Transformation de l'IA annulées",
           "complete": "Transformation de l'IA terminée",
           "failed": "Échec de la transformation par l'IA",
-          "inProgress": "Transformer les enregistrements avec l'IA"
+          "inProgress": "Transformer les enregistrements avec l'IA",
+          "waiting": "En attendant de transformer les dossiers grâce à l’IA"
         }
       },
       "time": {

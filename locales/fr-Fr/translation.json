@@ -384,37 +384,43 @@
             "prefix": "Tâche",
             "suffix": "annulé"
           },
-          "inProgress": "Tâche en cours d'exécution"
+          "inProgress": "Tâche en cours d'exécution",
+          "waiting": "En attente :"
         },
         "delete": {
           "cancelled": "Annulation de la suppression d'un enregistrement",
           "complete": "Suppression terminée",
           "failed": "Échec de la suppression",
-          "inProgress": "Suppression d'enregistrements"
+          "inProgress": "Suppression d'enregistrements",
+          "waiting": "En attente de la suppression des entrées"
         },
         "export": {
           "canceled": "Téléchargement annulé",
           "complete": "Téléchargement généré",
           "failed": "Échec de la génération du téléchargement",
-          "inProgress": "Génération du téléchargement"
+          "inProgress": "Génération du téléchargement",
+          "waiting": "En attente de la génération du téléchargement"
         },
         "extract": {
           "cancelled": "Extraction du fichier annulée",
           "complete": "Fichier extrait",
           "failed": "Échec de l'extraction du fichier",
-          "inProgress": "Extraction du fichier en cours"
+          "inProgress": "Extraction du fichier en cours",
+          "waiting": "En attente de l'extraction du fichier"
         },
         "mapping": {
           "canceled": "Mappage annulé sur le classeur",
           "complete": "Mappé sur un classeur",
           "failed": "Échec du mappage sur le classeur",
-          "inProgress": "Mappage sur le classeur"
+          "inProgress": "Mappage sur le classeur",
+          "waiting": "En attente du mappage vers le tableur"
         },
         "mutate-records": {
           "canceled": "AI Transform annulé",
           "complete": "AI Transform terminé",
           "failed": "Échec de l'AI Transform",
-          "inProgress": "Transformer les enregistrements avec l'IA"
+          "inProgress": "Transformer les enregistrements avec l'IA",
+          "waiting": "En attente de la transformation des entrées avec l'IA"
         }
       },
       "time": {

@@ -384,37 +384,43 @@
             "prefix": "Job",
             "suffix": "failed"
           },
-          "inProgress": "Running job"
+          "inProgress": "Running job",
+          "waiting": "Waiting:"
         },
         "delete": {
           "cancelled": "Cancelled record deletion",
           "complete": "Deletion completed",
           "failed": "Deletion failed",
-          "inProgress": "Deleting records"
+          "inProgress": "Deleting records",
+          "waiting": "Waiting to delete records"
         },
         "export": {
           "canceled": "Download cancelled",
           "complete": "Download generated",
           "failed": "Failed to generate download",
-          "inProgress": "Generating download"
+          "inProgress": "Generating download",
+          "waiting": "Waiting to generate download"
         },
         "extract": {
           "cancelled": "Cancelled file extraction",
           "complete": "Extracted file",
           "failed": "Failed to extract file",
-          "inProgress": "Extracting file"
+          "inProgress": "Extracting file",
+          "waiting": "Waiting to extract file"
         },
         "mapping": {
           "canceled": "Cancelled mapping to workbook",
           "complete": "Mapped to workbook",
           "failed": "Failed to map to workbook",
-          "inProgress": "Mapping to workbook"
+          "inProgress": "Mapping to workbook",
+          "waiting": "Waiting to map to workbook"
         },
         "mutate-records": {
           "canceled": "Cancelled AI Transform",
           "complete": "AI Transform complete",
           "failed": "AI Transfrom failed",
-          "inProgress": "Transforming Records with AI"
+          "inProgress": "Transforming Records with AI",
+          "waiting": "Waiting to transform records with AI"
         }
       },
       "time": {

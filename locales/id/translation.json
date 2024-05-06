@@ -379,37 +379,43 @@
             "prefix": "Pekerjaan",
             "suffix": "gagal"
           },
-          "inProgress": "Menjalankan pekerjaan"
+          "inProgress": "Menjalankan pekerjaan",
+          "waiting": "Menunggu"
         },
         "delete": {
           "cancelled": "Penghapusan entri yang dibatalkan",
           "complete": "Penghapusan selesai",
           "failed": "Penghapusan gagal",
-          "inProgress": "Menghapus entri"
+          "inProgress": "Menghapus entri",
+          "waiting": "Menunggu untuk menghapus catatan"
         },
         "export": {
           "canceled": "Pengunduhan dibatalkan",
           "complete": "Unduhan dihasilkan",
           "failed": "Gagal menghasilkan unduhan",
-          "inProgress": "Menghasilkan unduhan"
+          "inProgress": "Menghasilkan unduhan",
+          "waiting": "Menunggu untuk menghasilkan unduhan"
         },
         "extract": {
           "cancelled": "Ekstraksi file yang dibatalkan",
           "complete": "File diekstrak",
           "failed": "Gagal mengekstrak file",
-          "inProgress": "Mengekstrak file"
+          "inProgress": "Mengekstrak file",
+          "waiting": "Menunggu untuk mengekstrak file"
         },
         "mapping": {
           "canceled": "Membatalkan pemetaan ke buku kerja",
           "complete": "Dipetakan ke buku kerja",
           "failed": "Gagal memetakan ke buku kerja",
-          "inProgress": "Memetakan ke buku kerja"
+          "inProgress": "Memetakan ke buku kerja",
+          "waiting": "Menunggu untuk memetakan ke workbook"
         },
         "mutate-records": {
           "canceled": "Membatalkan AI Transform",
           "complete": "AI Transform selesai",
           "failed": "AI Transform gagal",
-          "inProgress": "Mentransformasi Rekaman dengan AI"
+          "inProgress": "Mentransformasi Rekaman dengan AI",
+          "waiting": "Menunggu untuk mengubah catatan dengan AI"
         }
       },
       "time": {

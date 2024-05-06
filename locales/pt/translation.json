@@ -385,37 +385,43 @@
             "prefix": "Trabalho",
             "suffix": "falhou"
           },
-          "inProgress": "Tarefa a decorrer"
+          "inProgress": "Tarefa a decorrer",
+          "waiting": "À espera:"
         },
         "delete": {
           "cancelled": "Eliminação de registo cancelada",
           "complete": "Eliminação completa",
           "failed": "A eliminação falhou",
-          "inProgress": "A eliminar registos"
+          "inProgress": "A eliminar registos",
+          "waiting": "À espera para eliminar registos"
         },
         "export": {
           "canceled": "Transferência cancelada",
           "complete": "Transferência criada",
           "failed": "Falha ao criar transferência",
-          "inProgress": "A criar transferência"
+          "inProgress": "A criar transferência",
+          "waiting": "À espera para gerar transferência"
         },
         "extract": {
           "cancelled": "Extração de ficheiro cancelada",
           "complete": "Ficheiro extraído",
           "failed": "Falha ao extrair ficheiro",
-          "inProgress": "A extrair ficheiro"
+          "inProgress": "A extrair ficheiro",
+          "waiting": "À espera para extrair ficheiro"
         },
         "mapping": {
           "canceled": "Mapeamento para livro de trabalho cancelado",
           "complete": "Mapeado para livro de trabalho",
           "failed": "Falha ao mapear para livro de trabalho",
-          "inProgress": "A mapear para livro de trabalho"
+          "inProgress": "A mapear para livro de trabalho",
+          "waiting": "À espera para mapear para o livro de trabalho"
         },
         "mutate-records": {
           "canceled": "Tarefa da AI Transform cancelada",
           "complete": "Tarefa da AI Transform concluída",
           "failed": "Falha na tarefa da AI Transform",
-          "inProgress": "Transformar registos com IA"
+          "inProgress": "Transformar registos com IA",
+          "waiting": "À espera para transformar registos com IA"
         }
       },
       "time": {

@@ -385,37 +385,43 @@
             "prefix": "İş",
             "suffix": "başarısız oldu"
           },
-          "inProgress": "Devam eden görev"
+          "inProgress": "Devam eden görev",
+          "waiting": "Bekleniyor:"
         },
         "delete": {
           "cancelled": "Kayıt silme iptal edildi",
           "complete": "Silme işlemi tamamlandı",
           "failed": "Silme işlemi başarısız oldu",
-          "inProgress": "Kayıtları silme"
+          "inProgress": "Kayıtları silme",
+          "waiting": "Kayıtların silinmesi bekleniyor"
         },
         "export": {
           "canceled": "İndirme iptal edildi",
           "complete": "İndirme oluşturuldu",
           "failed": "İndirmenin oluşturulması başarısız oldu",
-          "inProgress": "İndirme oluşturuluyor"
+          "inProgress": "İndirme oluşturuluyor",
+          "waiting": "İndirmenin oluşturulması bekleniyor"
         },
         "extract": {
           "cancelled": "Dosya ayıklama iptal edildi",
           "complete": "Ayıklanan dosya",
           "failed": "Dosya ayıklama başarısız oldu",
-          "inProgress": "Dosya ayıklanıyor"
+          "inProgress": "Dosya ayıklanıyor",
+          "waiting": "Dosyanın ayıklanması bekleniyor"
         },
         "mapping": {
           "canceled": "Çalışma kitabına eşleştirme iptal edildi",
           "complete": "Çalışma kitabına eşleştirildi",
           "failed": "Çalışma kitabına eşleştirme başarısız oldu",
-          "inProgress": "Çalışma kitabına eşleştiriliyor"
+          "inProgress": "Çalışma kitabına eşleştiriliyor",
+          "waiting": "Çalışma kitabıyla eşleştirilmesi bekleniyor"
         },
         "mutate-records": {
           "canceled": "YZ Dönüşümü iptal edildi",
           "complete": "YZ Dönüşümü tamamlandı",
           "failed": "YZ Dönüşümü başarısız",
-          "inProgress": "Kayıtları YZ ile Dönüştürmek"
+          "inProgress": "Kayıtları YZ ile Dönüştürmek",
+          "waiting": "Kayıtların yapay zekâyla dönüştürülmesi bekleniyor"
         }
       },
       "time": {

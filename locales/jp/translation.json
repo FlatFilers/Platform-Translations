@@ -379,37 +379,43 @@
             "prefix": "ジョブ",
             "suffix": "失敗"
           },
-          "inProgress": "実行中のジョブ"
+          "inProgress": "実行中のジョブ",
+          "waiting": "待機中："
         },
         "delete": {
           "cancelled": "レコードの削除をキャンセルしました",
           "complete": "削除が完了しました",
           "failed": "削除に失敗しました",
-          "inProgress": "レコードの削除中"
+          "inProgress": "レコードの削除中",
+          "waiting": "レコードの削除を待機しています"
         },
         "export": {
           "canceled": "ダウンロードがキャンセルされました",
           "complete": "ダウンロードが生成されました",
           "failed": "ダウンロードの生成に失敗しました",
-          "inProgress": "ダウンロードを生成しています"
+          "inProgress": "ダウンロードを生成しています",
+          "waiting": "ダウンロードの生成を待機しています"
         },
         "extract": {
           "cancelled": "ファイル抽出をキャンセルしました",
           "complete": "ファイルを抽出しました",
           "failed": "ファイルの抽出に失敗しました",
-          "inProgress": "ファイルを抽出しています"
+          "inProgress": "ファイルを抽出しています",
+          "waiting": "ファイルの抽出を待機しています"
         },
         "mapping": {
           "canceled": "ワークブックへのマッピングがキャンセルされました",
           "complete": "ワークブックにマッピングされました",
           "failed": "ワークブックへのマッピングに失敗しました",
-          "inProgress": "ワークブックへのマッピング"
+          "inProgress": "ワークブックへのマッピング",
+          "waiting": "ワークブックへのマッピングを待機しています"
         },
         "mutate-records": {
           "canceled": "中止したAIトランスフォーム",
           "complete": "AIトランスフォームの完了",
           "failed": "AIトランスフォームに失敗しました",
-          "inProgress": "AIを使って記録をトランスフォメーションする"
+          "inProgress": "AIを使って記録をトランスフォメーションする",
+          "waiting": "AIによるレコードの変換を待機しています"
         }
       },
       "time": {

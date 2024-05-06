@@ -379,37 +379,43 @@
             "prefix": "작업",
             "suffix": "실패함"
           },
-          "inProgress": "실행 중인 작업"
+          "inProgress": "실행 중인 작업",
+          "waiting": "대기 중:"
         },
         "delete": {
           "cancelled": "취소된 기록 삭제",
           "complete": "삭제 완료",
           "failed": "삭제 실패",
-          "inProgress": "기록 삭제 중"
+          "inProgress": "기록 삭제 중",
+          "waiting": "기록 삭제 대기 중"
         },
         "export": {
           "canceled": "다운로드 취소됨",
           "complete": "다운로드가 생성됨",
           "failed": "다운로드 생성에 실패함",
-          "inProgress": "다운로드 생성 중"
+          "inProgress": "다운로드 생성 중",
+          "waiting": "다운로드 생성 대기 중"
         },
         "extract": {
           "cancelled": "취소된 파일 추출",
           "complete": "추출된 파일",
           "failed": "파일 추출 실패",
-          "inProgress": "파일 추출 중"
+          "inProgress": "파일 추출 중",
+          "waiting": "파일 추출 대기 중"
         },
         "mapping": {
           "canceled": "워크북으로의 매핑이 취소됨",
           "complete": "워크북에 매핑됨",
           "failed": "워크북으로의 매핑에 실패함",
-          "inProgress": "워크북으로 매핑"
+          "inProgress": "워크북으로 매핑",
+          "waiting": "워크북에 매핑 대기 중"
         },
         "mutate-records": {
           "canceled": "취소된 AI 변환",
           "complete": "AI 변환 완료",
           "failed": "AI 변환 실패",
-          "inProgress": "AI를 통한 기록 변환"
+          "inProgress": "AI를 통한 기록 변환",
+          "waiting": "AI로 기록 변환 대기 중"
         }
       },
       "time": {

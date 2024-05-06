@@ -385,37 +385,43 @@
             "prefix": "Job",
             "suffix": "fehlgeschlagen"
           },
-          "inProgress": "Laufender Auftrag"
+          "inProgress": "Laufender Auftrag",
+          "waiting": "Warten:"
         },
         "delete": {
           "cancelled": "Datensatzlöschung abgebrochen",
           "complete": "Löschvorgang abgeschlossen",
           "failed": "Löschvorgang fehlgeschlagen",
-          "inProgress": "Datensätze löschen"
+          "inProgress": "Datensätze löschen",
+          "waiting": "Warten auf das Löschen von Datensätzen"
         },
         "export": {
           "canceled": "Download abgebrochen",
           "complete": "Download generiert",
           "failed": "Download konnte nicht generiert werden",
-          "inProgress": "Download wird generiert"
+          "inProgress": "Download wird generiert",
+          "waiting": "Warten auf die Erstellung des Downloads"
         },
         "extract": {
           "cancelled": "Dateiextraktion abgebrochen",
           "complete": "Extrahierte Datei",
           "failed": "Datei konnte nicht extrahiert werden",
-          "inProgress": "Datei extrahieren"
+          "inProgress": "Datei extrahieren",
+          "waiting": "Warten auf das Extrahieren der Datei"
         },
         "mapping": {
           "canceled": "Zuordnung zur Arbeitsmappe abgebrochen",
           "complete": "Der Arbeitsmappe zugeordnet",
           "failed": "Zuordnung zur Arbeitsmappe fehlgeschlagen",
-          "inProgress": "Zuordnung zur Arbeitsmappe"
+          "inProgress": "Zuordnung zur Arbeitsmappe",
+          "waiting": "Warten auf die Zuordnung zur Arbeitsmappe"
         },
         "mutate-records": {
           "canceled": "AI Transform abgebrochen",
           "complete": "AI Transform abgeschlossen",
           "failed": "AI Transfrom fehlgeschlagen",
-          "inProgress": "Datensätze mit KI transformieren"
+          "inProgress": "Datensätze mit KI transformieren",
+          "waiting": "Warten auf die Umwandlung von Datensätzen mit KI"
         }
       },
       "time": {

@@ -379,37 +379,43 @@
             "prefix": "作业",
             "suffix": "失败"
           },
-          "inProgress": "正在运行作业"
+          "inProgress": "正在运行作业",
+          "waiting": "等待："
         },
         "delete": {
           "cancelled": "已取消记录删除",
           "complete": "提取已完成",
           "failed": "删除失败",
-          "inProgress": "正在删除记录"
+          "inProgress": "正在删除记录",
+          "waiting": "等待删除记录"
         },
         "export": {
           "canceled": "下载已取消",
           "complete": "下载已生成",
           "failed": "未能生成下载",
-          "inProgress": "正在生成下载"
+          "inProgress": "正在生成下载",
+          "waiting": "等待生成下载"
         },
         "extract": {
           "cancelled": "已取消文件提取",
           "complete": "已提取文件",
           "failed": "提取文件失败",
-          "inProgress": "正在提取文件"
+          "inProgress": "正在提取文件",
+          "waiting": "等待提取文件"
         },
         "mapping": {
           "canceled": "已取消映射到工作簿",
           "complete": "已映射到工作簿",
           "failed": "未能映射到工作簿",
-          "inProgress": "正在映射到工作簿"
+          "inProgress": "正在映射到工作簿",
+          "waiting": "等待映射至工作簿"
         },
         "mutate-records": {
           "canceled": "取消了 AI Transfrom",
           "complete": "AI Transfrom 完成",
           "failed": "AI Transfrom 失败",
-          "inProgress": "正在用 AI 转换记录"
+          "inProgress": "正在用 AI 转换记录",
+          "waiting": "等待使用AI转换记录"
         }
       },
       "time": {

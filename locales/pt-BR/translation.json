@@ -385,37 +385,43 @@
             "prefix": "Trabalho",
             "suffix": "falhou"
           },
-          "inProgress": "Trabalho em execução"
+          "inProgress": "Trabalho em execução",
+          "waiting": "Aguardando:"
         },
         "delete": {
           "cancelled": "Exclusão de registro cancelada",
           "complete": "Exclusão concluída",
           "failed": "Falha na exclusão",
-          "inProgress": "Excluindo registros"
+          "inProgress": "Excluindo registros",
+          "waiting": "Aguardando para excluir registros"
         },
         "export": {
           "canceled": "Download cancelado",
           "complete": "Download gerado",
           "failed": "Falha ao gerar download",
-          "inProgress": "Gerando download"
+          "inProgress": "Gerando download",
+          "waiting": "Aguardando para gerar download"
         },
         "extract": {
           "cancelled": "Extração de arquivo cancelada",
           "complete": "Arquivo extraído",
           "failed": "Falha ao extrair o arquivo",
-          "inProgress": "Extraindo arquivo"
+          "inProgress": "Extraindo arquivo",
+          "waiting": "Aguardando para extrair o arquivo"
         },
         "mapping": {
           "canceled": "Mapeamento cancelado para pasta de trabalho",
           "complete": "Mapeado para pasta de trabalho",
           "failed": "Falha ao mapear para pasta de trabalho",
-          "inProgress": "Mapeamento para pasta de trabalho"
+          "inProgress": "Mapeamento para pasta de trabalho",
+          "waiting": "Aguardando para mapear para a pasta de trabalho"
         },
         "mutate-records": {
           "canceled": "Transformação de IA cancelada",
           "complete": "Transformação de IA completa",
           "failed": "Falha na transformação de IA",
-          "inProgress": "Transformando registros com IA"
+          "inProgress": "Transformando registros com IA",
+          "waiting": "Aguardando para transformar registros com IA"
         }
       },
       "time": {

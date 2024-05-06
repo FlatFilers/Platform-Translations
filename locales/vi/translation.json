@@ -379,37 +379,43 @@
             "prefix": "Công việc",
             "suffix": "thất bại"
           },
-          "inProgress": "Đang chạy công việc"
+          "inProgress": "Đang chạy công việc",
+          "waiting": "Đang chờ:"
         },
         "delete": {
           "cancelled": "Đã hủy việc xóa bản ghi",
           "complete": "Xóa hoàn tất",
           "failed": "Xóa không thành công",
-          "inProgress": "Đang xóa bản ghi"
+          "inProgress": "Đang xóa bản ghi",
+          "waiting": "Đang chờ xóa bản ghi"
         },
         "export": {
           "canceled": "Đã hủy tải xuống",
           "complete": "Đã tạo tệp tải xuống",
           "failed": "Tạo tệp tải xuống thất bại",
-          "inProgress": "Đang tạo tệp tải xuống"
+          "inProgress": "Đang tạo tệp tải xuống",
+          "waiting": "Đang chờ tạo tệp tải xuống"
         },
         "extract": {
           "cancelled": "Đã hủy việc trích xuất tệp",
           "complete": "Đã giải nén tệp",
           "failed": "Không thể giải nén tệp",
-          "inProgress": "Đang giải nén tệp"
+          "inProgress": "Đang giải nén tệp",
+          "waiting": "Đang chờ trích xuất tệp"
         },
         "mapping": {
           "canceled": "Đã hủy lập biểu đồ tới sổ làm việc",
           "complete": "Đã lập biểu đồ tới sổ làm việc",
           "failed": "Lập biểu đồ tới sổ làm việc thất bại",
-          "inProgress": "Đang lập biểu đồ tới sổ làm việc"
+          "inProgress": "Đang lập biểu đồ tới sổ làm việc",
+          "waiting": "Đang chờ lập sơ đồ vào sổ làm việc"
         },
         "mutate-records": {
           "canceled": "Chuyển đổi AI đã bị hủy",
           "complete": "Chuyển đổi AI đã hoàn tất",
           "failed": "Chuyển đổi AI không thành công",
-          "inProgress": "Đang chuyển đổi Bản ghi bằng AI"
+          "inProgress": "Đang chuyển đổi Bản ghi bằng AI",
+          "waiting": "Đang chờ chuyển đổi bản ghi bằng AI"
         }
       },
       "time": {

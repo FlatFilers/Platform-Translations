@@ -385,37 +385,43 @@
             "prefix": "Trabajo",
             "suffix": "fallido"
           },
-          "inProgress": "Ejecutando trabajo"
+          "inProgress": "Ejecutando trabajo",
+          "waiting": "Esperando:"
         },
         "delete": {
           "cancelled": "Cancelado borrado de registros",
           "complete": "Supresión completada",
           "failed": "Borrado fallido",
-          "inProgress": "Borrando registros"
+          "inProgress": "Borrando registros",
+          "waiting": "Esperando a eliminar los registros"
         },
         "export": {
           "canceled": "Descarga cancelada",
           "complete": "Descarga generada",
           "failed": "Fallo al generar descarga",
-          "inProgress": "Generando descarga"
+          "inProgress": "Generando descarga",
+          "waiting": "Esperando a generar descarga"
         },
         "extract": {
           "cancelled": "Cancelada extracción de archivo",
           "complete": "Archivo extraído",
           "failed": "Fallo al extraer archivo",
-          "inProgress": "Extrayendo archivo"
+          "inProgress": "Extrayendo archivo",
+          "waiting": "Esperando a extraer el archivo"
         },
         "mapping": {
           "canceled": "Cancelado mapeado al cuaderno de trabajo",
           "complete": "Mapeado al cuaderno de trabajo",
           "failed": "Fallo al mapear al cuaderno de trabajo",
-          "inProgress": "Mapeando al cuaderno de trabajo"
+          "inProgress": "Mapeando al cuaderno de trabajo",
+          "waiting": "Esperando al mapa al cuaderno"
         },
         "mutate-records": {
           "canceled": "Transformación por IA cancelada",
           "complete": "Transformación por IA completada",
           "failed": "La transformación por IA falló",
-          "inProgress": "Transformando registros con IA"
+          "inProgress": "Transformando registros con IA",
+          "waiting": "Esperando a transformar registros con IA"
         }
       },
       "time": {
