@@ -867,6 +867,54 @@
         "buttonText": "Filter by error",
         "dropdownPlaceholder": "Search or select..."
       },
+      "savedViews": {
+        "buttonText": "Views",
+        "modalHeader": "Saved Views",
+        "modalSubheader": "Select a saved view to apply to this Sheet.",
+        "searchPlaceholder": "Search or select...",
+        "viewAppliedPopover": "Your view was and copied to the clipboard!",
+        "tooltip": "Apply View and Copy Link",
+        "groups": {
+          "myViews": "MY VIEWS",
+          "allViews": "ALL VIEWS"
+        }
+      },
+      "saveView": {
+        "headings": {
+          "saveHeader": "Save view",
+          "saveSubheader": "Choose a name that reflects the purpose of this view. This will help users easily identify its use.",
+          "shareHeader": "Share"
+        },
+        "nameViewInput": {
+          "label": "name",
+          "helperText": "Remember, this view will be visible to everyone who has access to this Sheet.",
+          "placeholder": "View from {{timestamp}}"
+        },
+        "buttons": {
+          "save": {
+            "label": "Save view",
+            "labelActive": "Saving view"
+          },
+          "copy": {
+            "label": "Copy to share",
+            "successLabel": "Copied to clipboard!",
+            "warningTooltip": "Only people with access to this Space can open with the link."
+          }
+        },
+        "summary": {
+          "title": "Summary",
+          "filter": "records that are",
+          "filterFieldpt1": "if",
+          "filterFieldpt2": "has error",
+          "searchValue": "any field that contains",
+          "q": "where",
+          "invalid": "Invalid",
+          "valid": "Valid"
+        },
+        "error": {
+          "saveText": "Unable to save view - please try again."
+        }
+      },
       "filters": {
         "all": "All",
         "invalid": "Invalid",
