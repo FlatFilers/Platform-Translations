@@ -55,7 +55,11 @@
       "transformButton": {
         "tooltip": {
           "active": "Descreva como você quer os dados em um campo para que eles sejam transformados com base em qualquer lógica, incluindo dados em qualquer campo.",
-          "disabled": "É necessário haver alguns registros na sua planilha (filtrada) para utilizar o assistente de IA."
+          "disabled": "É necessário haver alguns registros na sua planilha (filtrada) para utilizar o assistente de IA.",
+          "locked": "A planilha está bloqueada.",
+          "noRows": "Você deve ter alguns registros em sua planilha (com filtro) para usar o assistente de IA.",
+          "readOnly": "A planilha é somente de leitura.",
+          "tooManyRows": "A planilha tem muitas linhas (mais de 1 milhão)."
         }
       },
       "warning": "Observação: alguns campos de categorias no seu dataset têm muitas opções configuradas. Usar esses campos, como @{{fieldName}}, no seu prompt não funcionária conforme o esperado."

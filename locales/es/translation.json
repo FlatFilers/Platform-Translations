@@ -55,7 +55,11 @@
       "transformButton": {
         "tooltip": {
           "active": "Describe cómo quieres que los datos de un campo sean transformados basándose en cualquier lógica, incluyendo datos en cualquier campo",
-          "disabled": "Debes tener algunos registros en tu hoja (filtrada) para usar el asistente de IA."
+          "disabled": "Debes tener algunos registros en tu hoja (filtrada) para usar el asistente de IA.",
+          "locked": "La hoja está bloqueada.",
+          "noRows": "Para usar el ayudante de IA, debes tener registros en tu hoja (filtrada).",
+          "readOnly": "La hoja es de solo lectura.",
+          "tooManyRows": "La hoja tiene demasiadas filas (más de 1 millón)."
         }
       },
       "warning": "Nota: Algunos campos categóricos en tu conjunto de datos tienen muchas opciones configuradas. Usar esos campos, como @{{fieldName}}, en tu indicación podría no funcionar como esperas."

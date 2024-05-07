@@ -55,7 +55,11 @@
       "transformButton": {
         "tooltip": {
           "active": "Descreva como é que quer que os dados de certo campo sejam transformados, com base em qualquer lógica, incluindo os dados de qualquer campo.",
-          "disabled": "Para poder utilizar o assistente de IA, tem de ter alguns registos na sua folha (filtrada)."
+          "disabled": "Para poder utilizar o assistente de IA, tem de ter alguns registos na sua folha (filtrada).",
+          "locked": "A folha de cálculo está bloqueada.",
+          "noRows": "Precisa de ter algumas linhas de dados na sua folha de cálculo (filtrada) para poder usar o assistente de IA.",
+          "readOnly": "A folha de cálculo é apenas de leitura.",
+          "tooManyRows": "A folha de cálculo tem demasiadas linhas (mais de um milhão)."
         }
       },
       "warning": "Nota: alguns campos categóricos do seu conjunto de dados têm muitas opções configuradas. A utilização desses campos, como, por exemplo, @{{fieldName}}, na sua instrução pode não funcionar de acordo com as expetativas."

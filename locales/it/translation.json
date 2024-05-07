@@ -55,7 +55,11 @@
       "transformButton": {
         "tooltip": {
           "active": "Descrivi come vuoi che i dati in un campo vengano trasformati in base a qualsiasi logica, inclusi i dati in qualsiasi campo",
-          "disabled": "Devi avere alcuni record nel tuo foglio (filtrato) per poter utilizzare l'assistente IA."
+          "disabled": "Devi avere alcuni record nel tuo foglio (filtrato) per poter utilizzare l'assistente IA.",
+          "locked": "Il foglio è bloccato.",
+          "noRows": "Per poter utilizzare l'assistente IA, è necessario che ci siano dei record nel foglio (filtrato).",
+          "readOnly": "Il foglio è in modalità di sola lettura.",
+          "tooManyRows": "Il foglio contiene troppe righe (oltre 1 milione)."
         }
       },
       "warning": "Nota: alcuni campi categoriali nel set di dati hanno molte opzioni configurate. L'utilizzo di questi campi, come @{{fieldName}}, nel tuo prompt potrebbe non funzionare come previsto."

@@ -56,9 +56,9 @@
           "active": "Describe how you want data in a field to be transformed based on any logic, including data in any field",
           "disabled": "You must have some records in your (filtered) sheet in order to use the AI assistant.",
           "locked": "The sheet is locked.",
+          "noRows": "You must have some records in your (filtered) sheet in order to use the AI assistant.",
           "readOnly": "The sheet is read-only.",
-          "tooManyRows": "The sheet has too many rows (over 1 million).",
-          "noRows": "You must have some records in your (filtered) sheet in order to use the AI assistant."
+          "tooManyRows": "The sheet has too many rows (over 1 million)."
         }
       },
       "warning": "Note: Some categorical fields in your dataset have a lot of configured options. Using those fields, like @{{fieldName}}, in your prompt might not work as expected."
@@ -867,54 +867,6 @@
         "buttonText": "Filter by error",
         "dropdownPlaceholder": "Search or select..."
       },
-      "savedViews": {
-        "buttonText": "Views",
-        "modalHeader": "Saved Views",
-        "modalSubheader": "Select a saved view to apply to this Sheet.",
-        "searchPlaceholder": "Search or select...",
-        "viewAppliedPopover": "Your view was and copied to the clipboard!",
-        "tooltip": "Apply View and Copy Link",
-        "groups": {
-          "myViews": "MY VIEWS",
-          "allViews": "ALL VIEWS"
-        }
-      },
-      "saveView": {
-        "headings": {
-          "saveHeader": "Save view",
-          "saveSubheader": "Choose a name that reflects the purpose of this view. This will help users easily identify its use.",
-          "shareHeader": "Share"
-        },
-        "nameViewInput": {
-          "label": "name",
-          "helperText": "Remember, this view will be visible to everyone who has access to this Sheet.",
-          "placeholder": "View from {{timestamp}}"
-        },
-        "buttons": {
-          "save": {
-            "label": "Save view",
-            "labelActive": "Saving view"
-          },
-          "copy": {
-            "label": "Copy to share",
-            "successLabel": "Copied to clipboard!",
-            "warningTooltip": "Only people with access to this Space can open with the link."
-          }
-        },
-        "summary": {
-          "title": "Summary",
-          "filter": "records that are",
-          "filterFieldpt1": "if",
-          "filterFieldpt2": "has error",
-          "searchValue": "any field that contains",
-          "q": "where",
-          "invalid": "Invalid",
-          "valid": "Valid"
-        },
-        "error": {
-          "saveText": "Unable to save view - please try again."
-        }
-      },
       "filters": {
         "all": "All",
         "invalid": "Invalid",
@@ -941,6 +893,54 @@
       "moreActions": {
         "buttonText": "More actions",
         "placeholder": "Search or select..."
+      },
+      "savedViews": {
+        "buttonText": "Views",
+        "groups": {
+          "allViews": "ALL VIEWS",
+          "myViews": "MY VIEWS"
+        },
+        "modalHeader": "Saved Views",
+        "modalSubheader": "Select a saved view to apply to this Sheet.",
+        "searchPlaceholder": "Search or select...",
+        "tooltip": "Apply View and Copy Link",
+        "viewAppliedPopover": "Your view was and copied to the clipboard!"
+      },
+      "saveView": {
+        "buttons": {
+          "copy": {
+            "label": "Copy to share",
+            "successLabel": "Copied to clipboard!",
+            "warningTooltip": "Only people with access to this Space can open with the link."
+          },
+          "save": {
+            "label": "Save view",
+            "labelActive": "Saving view"
+          }
+        },
+        "error": {
+          "saveText": "Unable to save view - please try again."
+        },
+        "headings": {
+          "saveHeader": "Save view",
+          "saveSubheader": "Choose a name that reflects the purpose of this view. This will help users easily identify its use.",
+          "shareHeader": "Share"
+        },
+        "nameViewInput": {
+          "helperText": "Remember, this view will be visible to everyone who has access to this Sheet.",
+          "label": "name",
+          "placeholder": "View from {{timestamp}}"
+        },
+        "summary": {
+          "filter": "records that are",
+          "filterFieldpt1": "if",
+          "filterFieldpt2": "has error",
+          "invalid": "Invalid",
+          "q": "where",
+          "searchValue": "any field that contains",
+          "title": "Summary",
+          "valid": "Valid"
+        }
       },
       "searchBar": {
         "expandTooltip": "Open search and AI Assist",

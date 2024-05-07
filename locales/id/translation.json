@@ -54,7 +54,11 @@
       "transformButton": {
         "tooltip": {
           "active": "Jabarkan bagaimana Anda ingin data dalam suatu kolom ditransformasi berdasarkan suatu logika, termasuk data pada kolom",
-          "disabled": "Anda harus memiliki rekaman pada sheet (yang difilter) untuk dapat menggunakan asisten AI."
+          "disabled": "Anda harus memiliki rekaman pada sheet (yang difilter) untuk dapat menggunakan asisten AI.",
+          "locked": "Lembaran ini terkunci",
+          "noRows": "Anda harus memiliki catatan (record) di lembaran (berfilter) Anda untuk dapat menggunakan asisten AI.",
+          "readOnly": "Lembaran ini hanya untuk dibaca",
+          "tooManyRows": "Lembaran ini memiliki terlalu banyak baris  (melebihi 1 juta)."
         }
       },
       "warning": "Catatan: Sebagian kolom kategori dalam dataset Anda punya banyak opsi yang dikonfigurasi. Menggunakan kolom-kolom tersebut, seperti @{{fieldName}}, dalam prompt Anda mungkin tidak bekerja sesuai harapan."

@@ -54,7 +54,11 @@
       "transformButton": {
         "tooltip": {
           "active": "Mô tả cách bạn muốn chuyển đổi dữ liệu trong một trường dữ liệu dựa trên bất kỳ logic nào, bao gồm dữ liệu trong bất kỳ trường dữ liệu nào",
-          "disabled": "Bạn phải có một số bản ghi trong trang tính (đã lọc) của mình để sử dụng trợ lý AI."
+          "disabled": "Bạn phải có một số bản ghi trong trang tính (đã lọc) của mình để sử dụng trợ lý AI.",
+          "locked": "Bảng tính này đã bị khóa.",
+          "noRows": "Bạn phải có một vài bản ghi trong bảng tính (được lọc) của mình để có thể sử dụng tính năng Trợ lý AI.",
+          "readOnly": "Bảng tính này có thuộc tính chỉ đọc.",
+          "tooManyRows": "Bảng tính này có quá nhiều hàng (hơn 1 triệu)."
         }
       },
       "warning": "Lưu ý: Một số trường phân loại trong tập dữ liệu của bạn có rất nhiều tùy chọn được định cấu hình. Việc sử dụng các trường đó, như @{{fieldName}}, trong câu lệnh của bạn có thể sẽ không hoạt động như mong đợi."

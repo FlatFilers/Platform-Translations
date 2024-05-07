@@ -55,7 +55,11 @@
       "transformButton": {
         "tooltip": {
           "active": "Herhangi bir alandaki veriler de dahil herhangi bir mantığa dayalı olarak bir alandaki verilerin nasıl dönüştürülmesini istediğinizi açıklayın",
-          "disabled": "YZ asistanını kullanabilmeniz için (filtrelenmiş) sayfanızda bazı kayıtların olması gerekir."
+          "disabled": "YZ asistanını kullanabilmeniz için (filtrelenmiş) sayfanızda bazı kayıtların olması gerekir.",
+          "locked": "Tablo kilitli.",
+          "noRows": "AI asistanını kullanabilmeniz için (filtrelenmiş) tablonuzda bazı kayıtların olması gerekir.",
+          "readOnly": "Tablo salt okunur.",
+          "tooManyRows": "Tabloda çok fazla satır var (1 milyondan fazla)."
         }
       },
       "warning": "Not: Veri kümenizdeki bazı kategorik alanlarda çok sayıda yapılandırılmış seçenek bulunur. İsteminizde @{{fieldName}} gibi alanları kullanmak beklendiği gibi çalışmayabilir."

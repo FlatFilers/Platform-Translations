@@ -55,7 +55,11 @@
       "transformButton": {
         "tooltip": {
           "active": "Beschreiben Sie, wie die Daten in einem Feld basierend auf einer beliebigen Logik umgewandelt werden sollen, einschließlich der Daten in einem beliebigen Feld",
-          "disabled": "Sie müssen einige Datensätze in Ihrem (gefilterten) Blatt haben, um den KI-Assistenten verwenden zu können."
+          "disabled": "Sie müssen einige Datensätze in Ihrem (gefilterten) Blatt haben, um den KI-Assistenten verwenden zu können.",
+          "locked": "Die Tabelle ist gesperrt.",
+          "noRows": "Sie müssen einige Datensätze in Ihrer (gefilterten) Tabelle haben, um den KI-Assistenten verwenden zu können.",
+          "readOnly": "Die Tabelle ist schreibgeschützt.",
+          "tooManyRows": "Die Tabelle hat zu viele Zeilen (über 1 Million)."
         }
       },
       "warning": "Hinweis: Einige kategorische Felder in Ihrem Datensatz haben eine Menge konfigurierter Optionen. Die Verwendung dieser Felder, wie @{{fieldName}}, in Ihrer Eingabeaufforderung funktioniert möglicherweise nicht wie erwartet."

@@ -54,7 +54,11 @@
       "transformButton": {
         "tooltip": {
           "active": "Décrivez comment vous souhaitez que les données d'un champ soient transformées en fonction de n'importe quelle logique, y compris les données de n'importe quel champ.",
-          "disabled": "Vous devez avoir des enregistrements dans votre feuille (filtrée) pour pouvoir utiliser l'assistant AI."
+          "disabled": "Vous devez avoir des enregistrements dans votre feuille (filtrée) pour pouvoir utiliser l'assistant AI.",
+          "locked": "La feuille est verrouillée.",
+          "noRows": "Vous devez avoir des enregistrements dans votre feuille (filtrée) pour pouvoir utiliser l'assistant IA.",
+          "readOnly": "La feuille est en lecture seule.",
+          "tooManyRows": "La feuille comporte trop de lignes (plus d'un million)."
         }
       },
       "warning": "Remarque : certains champs catégoriels de votre ensemble de données comportent de nombreuses options configurées. L'utilisation de ces champs, comme @{{fieldName}} dans votre message, peut ne pas fonctionner comme prévu."

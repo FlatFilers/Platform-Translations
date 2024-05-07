@@ -54,7 +54,11 @@
       "transformButton": {
         "tooltip": {
           "active": "Describe how you want data in a field to be transformed based on any logic, including data in any field",
-          "disabled": "You must have some records in your (filtered) sheet in order to use the AI assistant."
+          "disabled": "You must have some records in your (filtered) sheet in order to use the AI assistant.",
+          "locked": "The sheet is locked.",
+          "noRows": "You must have some records in your (filtered) sheet in order to use the AI assistant.",
+          "readOnly": "The sheet is read-only.",
+          "tooManyRows": "The sheet has too many rows (over 1 million)."
         }
       },
       "warning": "Note: Some categorical fields in your dataset have a lot of configured options. Using those fields, like @{{fieldName}}, in your prompt might not work as expected."
