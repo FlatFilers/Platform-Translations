@@ -552,6 +552,14 @@
       "title": "Import to..."
     }
   },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenFailed": "Event stream disconnected - Please refresh to reconnect",
+        "refreshTokenActionLabel": "Refresh"
+      }
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Clear empty columns",
