@@ -615,7 +615,16 @@
     },
     "info": {
       "copiedPopover": "Copied to clipboard",
-      "copyButton": "Click to copy!"
+      "copyButton": "Click to copy!",
+      "space": "Space",
+      "workbook": "Workbook",
+      "sheet": "Sheet",
+      "environment": "Environment",
+      "browser": "Browser",
+      "inFrame": "In iframe",
+      "referrer": "Referrer",
+      "date": "Date",
+      "release": "Current release"
     },
     "popovers": {
       "copyCell_one": "{{count}} cell copied",
@@ -751,6 +760,12 @@
           "createRow": "Add data to create this row",
           "noData": "There are no rows available to select. Only rows containing data can be selected.",
           "rowNumber": "Row {{number}}"
+        }
+      },
+      "header": {
+        "tooltip": {
+          "key": "key: {{key}}",
+          "label": "label: {{label}}"
         }
       },
       "maximumMessage": {
@@ -965,6 +980,10 @@
     }
   },
   "sidebar": {
+    "toggle": {
+      "hide": "Hide sidebar",
+      "show": "Show sidebar"
+    },
     "addConnection": "Add Connection",
     "checklist": "Data checklist",
     "connections": {
@@ -976,7 +995,10 @@
     },
     "emptyWorkbook": "Empty workbook",
     "files": "Files",
-    "readOnlyIconTooltip": "This Sheet is read-only"
+    "readOnlyIconTooltip": "This Sheet is read-only",
+    "spaceSwitcher": {
+      "placeholder": "Search or select a Space..."
+    }
   },
   "snapshot": {
     "accept": {
