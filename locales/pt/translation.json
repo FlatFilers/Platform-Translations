@@ -564,6 +564,14 @@
       "title": "Importar para..."
     }
   },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "Atualizar",
+        "refreshTokenFailed": "Transmissão de evento interrompida - Atualize para restabelecer a ligação"
+      }
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Limpar colunas vazias",
@@ -629,8 +637,17 @@
       "notFound": "Pasta de trabalho não encontrada"
     },
     "info": {
+      "browser": "Navegador",
       "copiedPopover": "Copiado para a área de transferência",
-      "copyButton": "Clique para copiar!"
+      "copyButton": "Clique para copiar!",
+      "date": "Data",
+      "environment": "Ambiente",
+      "inFrame": "Em iframe",
+      "referrer": "Referenciador",
+      "release": "Versão atual",
+      "sheet": "Folha",
+      "space": "Espaço",
+      "workbook": "Livro de exercícios"
     },
     "popovers": {
       "copyCell_one": "{{count}} célula copiada",
@@ -765,6 +782,12 @@
       "errors": {
         "description": "Esta tabela está a ter problemas em apresentar estes dados. Consulte a consola para ver detalhes do erro.",
         "title": "Algo correu mal"
+      },
+      "header": {
+        "tooltip": {
+          "key": "chave: {{key}}",
+          "label": "etiqueta: {{label}}"
+        }
       },
       "indexRow": {
         "tooltip": {
@@ -919,6 +942,54 @@
         "buttonText": "Mais ações",
         "placeholder": "Procurar ou selecionar..."
       },
+      "savedViews": {
+        "buttonText": "Vistas",
+        "groups": {
+          "allViews": "TODAS AS VISTAS",
+          "myViews": "AS MINHAS VISTAS"
+        },
+        "modalHeader": "Vistas guardadas",
+        "modalSubheader": "Selecione uma vista guardada para aplicar a esta folha.",
+        "searchPlaceholder": "Pesquisar ou selecionar...",
+        "tooltip": "Aplicar vista e copiar ligação",
+        "viewAppliedPopover": "A sua vista foi e copiada para a área de transferência!"
+      },
+      "saveView": {
+        "buttons": {
+          "copy": {
+            "label": "Copiar para partilhar",
+            "successLabel": "Copiada para a área de transferência",
+            "warningTooltip": "Só as pessoas com acesso a este Espaço podem abrir com a ligação."
+          },
+          "save": {
+            "label": "Guardar vista",
+            "labelActive": "A guardar vista"
+          }
+        },
+        "error": {
+          "saveText": "Não foi possível guardar a vista - tente novamente."
+        },
+        "headings": {
+          "saveHeader": "Guardar vista",
+          "saveSubheader": "Escolha um nome que reflita o objetivo desta vista. Isto ajudará os utilizadores a identificar facilmente a sua utilização.",
+          "shareHeader": "Partilhar"
+        },
+        "nameViewInput": {
+          "helperText": "Lembre-se de que esta vista ficará visível para todos os que têm acesso a esta folha.",
+          "label": "nome",
+          "placeholder": "Vista de {{timestamp}}"
+        },
+        "summary": {
+          "filter": "registos que são",
+          "filterFieldpt1": "se",
+          "filterFieldpt2": "tem erro",
+          "invalid": "Inválido(a)",
+          "q": "onde",
+          "searchValue": "qualquer campo que contenha",
+          "title": "Resumo",
+          "valid": "Válido(a)"
+        }
+      },
       "searchBar": {
         "expandTooltip": "Abrir pesquisa e Assistência IA",
         "placeholder": "Procurar...",
@@ -953,7 +1024,14 @@
     },
     "emptyWorkbook": "Pasta de trabalho vazia",
     "files": "Ficheiros",
-    "readOnlyIconTooltip": "Esta lista é apenas para leitura"
+    "readOnlyIconTooltip": "Esta lista é apenas para leitura",
+    "spaceSwitcher": {
+      "placeholder": "Pesquisar ou selecionar um Espaço..."
+    },
+    "toggle": {
+      "hide": "Ocultar barra lateral",
+      "show": "Mostrar barra lateral"
+    }
   },
   "snapshot": {
     "accept": {

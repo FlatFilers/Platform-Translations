@@ -552,6 +552,14 @@
       "title": "インポート先"
     }
   },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "リフレッシュする",
+        "refreshTokenFailed": "イベントストリームが切断されました - 再接続するにはリフレッシュしてください"
+      }
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "空白列を消去",
@@ -613,8 +621,17 @@
       "notFound": "ワークブックが見つかりません"
     },
     "info": {
+      "browser": "ブラウザー",
       "copiedPopover": "クリップボードにコピーされました",
-      "copyButton": "クリックしてコピーしてください！"
+      "copyButton": "クリックしてコピーしてください！",
+      "date": "日付",
+      "environment": "環境",
+      "inFrame": "iframe内",
+      "referrer": "リファラー",
+      "release": "現在のリリース",
+      "sheet": "シート",
+      "space": "スペース",
+      "workbook": "ワークブック"
     },
     "popovers": {
       "copyCell_other": "{{count}} のセルがコピーされました",
@@ -744,6 +761,12 @@
       "errors": {
         "description": "テーブルでこのデータを表示するのに問題が発生しています。エラーの詳細については、コンソールを参照してください。",
         "title": "何か問題が発生しました"
+      },
+      "header": {
+        "tooltip": {
+          "key": "キー：{{key}}",
+          "label": "ラベル：{{label}}"
+        }
       },
       "indexRow": {
         "tooltip": {
@@ -893,6 +916,54 @@
         "buttonText": "さらなるアクション",
         "placeholder": "検索または選択..."
       },
+      "savedViews": {
+        "buttonText": "ビュー",
+        "groups": {
+          "allViews": "すべてのビュー",
+          "myViews": "マイビュー"
+        },
+        "modalHeader": "保存済みビュー",
+        "modalSubheader": "このシートに適用する保存済みビューを選択します。",
+        "searchPlaceholder": "検索または選択...",
+        "tooltip": "ビューを適用してリンクをコピーする",
+        "viewAppliedPopover": "ビューがクリップボードにコピーされました！"
+      },
+      "saveView": {
+        "buttons": {
+          "copy": {
+            "label": "コピーして共有",
+            "successLabel": "クリップボードにコピーしました！",
+            "warningTooltip": "このスペースへのアクセス権を持つユーザーのみがリンクを使用して開くことができます。"
+          },
+          "save": {
+            "label": "ビューを保存する",
+            "labelActive": "ビューの保存"
+          }
+        },
+        "error": {
+          "saveText": "ビューを保存できません。再試行してください。"
+        },
+        "headings": {
+          "saveHeader": "ビューを保存する",
+          "saveSubheader": "このビューの目的を反映した名前を選択します。 これにより、ユーザーはその用途を簡単に識別できるようになります。",
+          "shareHeader": "共有"
+        },
+        "nameViewInput": {
+          "helperText": "このビューは、このシートにアクセスできるすべての人に表示されることを忘れないでください。",
+          "label": "名前",
+          "placeholder": "{{timestamp}}からのビュー"
+        },
+        "summary": {
+          "filter": "であるレコード",
+          "filterFieldpt1": "もし",
+          "filterFieldpt2": "エラーがある",
+          "invalid": "無効",
+          "q": "場合",
+          "searchValue": "を含む任意のフィールド",
+          "title": "概要",
+          "valid": "有効"
+        }
+      },
       "searchBar": {
         "expandTooltip": "オープン検索とAIアシスト",
         "placeholder": "検索...",
@@ -927,7 +998,14 @@
     },
     "emptyWorkbook": "空のワークブック",
     "files": "ファイル",
-    "readOnlyIconTooltip": "このシートは読み取り専用です"
+    "readOnlyIconTooltip": "このシートは読み取り専用です",
+    "spaceSwitcher": {
+      "placeholder": "スペースを検索または選択する..."
+    },
+    "toggle": {
+      "hide": "サイドバーを非表示にする",
+      "show": "サイドバーを表示する"
+    }
   },
   "snapshot": {
     "accept": {

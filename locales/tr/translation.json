@@ -564,6 +564,14 @@
       "title": "Şuraya aktar:"
     }
   },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "Yenile",
+        "refreshTokenFailed": "Etkinlik akışının bağlantısı kesildi - Yeniden bağlanmak için lütfen sayfayı yenile"
+      }
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Boş sütunları boşalt",
@@ -629,8 +637,17 @@
       "notFound": "Çalışma kitabı bulunamadı"
     },
     "info": {
+      "browser": "Tarayıcı",
       "copiedPopover": "Panoya kopyalandı",
-      "copyButton": "Kopyalamak için tıkla!"
+      "copyButton": "Kopyalamak için tıkla!",
+      "date": "Tarih",
+      "environment": "Çevre",
+      "inFrame": "iframe'de",
+      "referrer": "Yönlendirici",
+      "release": "Geçerli sürüm",
+      "sheet": "Kağıt",
+      "space": "Uzay",
+      "workbook": "Çalışma kitabı"
     },
     "popovers": {
       "copyCell_one": "{{count}} hücre kopyalandı",
@@ -765,6 +782,12 @@
       "errors": {
         "description": "Bu tablo, bu verileri görüntülemede sorun yaşıyor. Hata ayrıntıları için lütfen konsola bakın.",
         "title": "Bir şeyler ters gitti"
+      },
+      "header": {
+        "tooltip": {
+          "key": "anahtar: {{key}}",
+          "label": "etiket: {{label}}"
+        }
       },
       "indexRow": {
         "tooltip": {
@@ -919,6 +942,54 @@
         "buttonText": "Daha fazla eylem",
         "placeholder": "Aratın veya seçin..."
       },
+      "savedViews": {
+        "buttonText": "Görünümler",
+        "groups": {
+          "allViews": "TÜM GÖRÜNÜMLER",
+          "myViews": "GÖRÜNÜMLERİM"
+        },
+        "modalHeader": "Kayıtlı Görünümler",
+        "modalSubheader": "Bu Sayfaya uygulanacak kayıtlı bir görünümü seçin.",
+        "searchPlaceholder": "Arayın veya seçin...",
+        "tooltip": "Görünümü Uygula ve Bağlantıyı Kopyala",
+        "viewAppliedPopover": "Görünümünüz panoya kopyalandı!"
+      },
+      "saveView": {
+        "buttons": {
+          "copy": {
+            "label": "Paylaşmak için kopyala",
+            "successLabel": "Panoya kopyalandı!",
+            "warningTooltip": "Bağlantıyı yalnızca bu Alana erişimi olan kişiler açabilir."
+          },
+          "save": {
+            "label": "Görünümü kaydet",
+            "labelActive": "Görünüm kaydediliyor"
+          }
+        },
+        "error": {
+          "saveText": "Görünüm kaydedilemiyor - lütfen tekrar deneyin."
+        },
+        "headings": {
+          "saveHeader": "Görünümü kaydet",
+          "saveSubheader": "Bu görünümün amacını yansıtan bir ad seçin. Bu, kullanıcıların kullanımını kolayca tanımlamalarına yardımcı olacaktır.",
+          "shareHeader": "Paylaş"
+        },
+        "nameViewInput": {
+          "helperText": "Bu görünümün, bu Sayfaya erişimi olan herkesin görebileceğini unutmayın.",
+          "label": "ad",
+          "placeholder": "{{timestamp}} tarihinden görünüm"
+        },
+        "summary": {
+          "filter": "olan kayıtlar",
+          "filterFieldpt1": "eğer",
+          "filterFieldpt2": "hata var",
+          "invalid": "Geçersiz",
+          "q": "nerede",
+          "searchValue": "içeren herhangi bir alan",
+          "title": "Özet",
+          "valid": "Geçerli"
+        }
+      },
       "searchBar": {
         "expandTooltip": "Aramayı ve Yapay Zeka Yardımını aç",
         "placeholder": "Ara...",
@@ -953,7 +1024,14 @@
     },
     "emptyWorkbook": "Boş çalışma kitabı",
     "files": "Dosyalar",
-    "readOnlyIconTooltip": "Bu Sayfa salt okunurdur"
+    "readOnlyIconTooltip": "Bu Sayfa salt okunurdur",
+    "spaceSwitcher": {
+      "placeholder": "Ara veya bir Alan ara..."
+    },
+    "toggle": {
+      "hide": "Kenar çubuğunu gizle",
+      "show": "Kenar çubuğunu göster"
+    }
   },
   "snapshot": {
     "accept": {

@@ -552,6 +552,14 @@
       "title": "...로 가져오기"
     }
   },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "새로고침",
+        "refreshTokenFailed": "이벤트 스트림 연결 해제됨 - 다시 연결하려면 새로고침 하세요"
+      }
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "빈 열 지우기",
@@ -613,8 +621,17 @@
       "notFound": "통합 문서를 찾을 수 없음"
     },
     "info": {
+      "browser": "브라우저",
       "copiedPopover": "클립보드에 복사됨",
-      "copyButton": "복사하려면 클릭하세요!"
+      "copyButton": "복사하려면 클릭하세요!",
+      "date": "날짜",
+      "environment": "환경",
+      "inFrame": "iframe 내부",
+      "referrer": "참조",
+      "release": "현재 릴리스",
+      "sheet": "시트",
+      "space": "공간",
+      "workbook": "워크북"
     },
     "popovers": {
       "copyCell_other": "{{count}}개의 셀이 복사됨",
@@ -744,6 +761,12 @@
       "errors": {
         "description": "테이블에 이 데이터를 표시하는 데 문제가 있습니다. 오류에 대한 자세한 내용은 콘솔을 참조해 주세요.",
         "title": "문제가 발생했습니다"
+      },
+      "header": {
+        "tooltip": {
+          "key": "키: {{key}}",
+          "label": "라벨: {{label}}"
+        }
       },
       "indexRow": {
         "tooltip": {
@@ -893,6 +916,54 @@
         "buttonText": "더 많은 실행",
         "placeholder": "검색하거나 선택하세요..."
       },
+      "savedViews": {
+        "buttonText": "보기",
+        "groups": {
+          "allViews": "모든 보기",
+          "myViews": "내 보기"
+        },
+        "modalHeader": "저장된 보기",
+        "modalSubheader": "이 시트에 적용할 저장된 보기를 선택하세요.",
+        "searchPlaceholder": "검색 또는 선택...",
+        "tooltip": "보기 적용 및 링크 복사",
+        "viewAppliedPopover": "보기가 클립보드에 복사되었습니다!"
+      },
+      "saveView": {
+        "buttons": {
+          "copy": {
+            "label": "복사하여 공유",
+            "successLabel": "클립보드에 복사되었습니다!",
+            "warningTooltip": "이 스페이스에 대한 액세스 권한이 있는 사람만 링크를 통해 열 수 있습니다."
+          },
+          "save": {
+            "label": "보기 저장",
+            "labelActive": "보기 저장 중"
+          }
+        },
+        "error": {
+          "saveText": "보기를 저장할 수 없습니다. 다시 시도하세요."
+        },
+        "headings": {
+          "saveHeader": "보기 저장",
+          "saveSubheader": "이 보기의 목적을 반영하는 이름을 선택하세요. 이를 통해 사용자가 해당 용도를 쉽게 식별하게 됩니다.",
+          "shareHeader": "공유"
+        },
+        "nameViewInput": {
+          "helperText": "이 보기는 이 시트에 액세스할 수 있는 모든 사람에게 표시된다는 점을 기억하세요.",
+          "label": "이름",
+          "placeholder": "{{timestamp}}의 보기"
+        },
+        "summary": {
+          "filter": "다음과 같은 기록",
+          "filterFieldpt1": "만약",
+          "filterFieldpt2": "오류가 있음",
+          "invalid": "무효",
+          "q": "장소",
+          "searchValue": "다음을 포함하는 모든 필드",
+          "title": "요약",
+          "valid": "유효"
+        }
+      },
       "searchBar": {
         "expandTooltip": "검색 및 AI 지원 열기",
         "placeholder": "검색...",
@@ -927,7 +998,14 @@
     },
     "emptyWorkbook": "빈 통합 문서",
     "files": "파일",
-    "readOnlyIconTooltip": "이 시트는 읽기 전용입니다"
+    "readOnlyIconTooltip": "이 시트는 읽기 전용입니다",
+    "spaceSwitcher": {
+      "placeholder": "공간을 검색하거나 선택하세요..."
+    },
+    "toggle": {
+      "hide": "사이드바 숨김",
+      "show": "사이드바 표시"
+    }
   },
   "snapshot": {
     "accept": {

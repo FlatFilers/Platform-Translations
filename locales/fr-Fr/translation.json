@@ -563,6 +563,14 @@
       "title": "Importer vers..."
     }
   },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "Actualiser",
+        "refreshTokenFailed": "Le flux de l'événement est déconnecté – bien vouloir actualiser pour vous reconnecter"
+      }
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Effacer les colonnes vides",
@@ -628,8 +636,17 @@
       "notFound": "Classeur introuvable"
     },
     "info": {
+      "browser": "Navigateur",
       "copiedPopover": "Copié dans le presse-papiers",
-      "copyButton": "Cliquer pour copier !"
+      "copyButton": "Cliquer pour copier !",
+      "date": "Date",
+      "environment": "Environnement",
+      "inFrame": "Dans iframe",
+      "referrer": "Référent",
+      "release": "Version actuelle",
+      "sheet": "Feuille",
+      "space": "Espace",
+      "workbook": "Cahier d'exercices"
     },
     "popovers": {
       "copyCell_one": "{{count}} cellule copiée",
@@ -764,6 +781,12 @@
       "errors": {
         "description": "Le tableau rencontre des difficultés à afficher ces données. Veuillez consulter la console pour plus de détails sur l'erreur.",
         "title": "Une erreur est survenue"
+      },
+      "header": {
+        "tooltip": {
+          "key": "clé : {{key}}",
+          "label": "étiquette : {{label}}"
+        }
       },
       "indexRow": {
         "tooltip": {
@@ -918,6 +941,54 @@
         "buttonText": "Autres actions",
         "placeholder": "Recherchez ou sélectionnez..."
       },
+      "savedViews": {
+        "buttonText": "Vues",
+        "groups": {
+          "allViews": "TOUTES LES VUES",
+          "myViews": "MES VUES"
+        },
+        "modalHeader": "Vues sauvegardées",
+        "modalSubheader": "Sélectionnez une vue sauvegardée à appliquer à cette feuille.",
+        "searchPlaceholder": "Rechercher ou sélectionner...",
+        "tooltip": "Appliquer la vue et copier le lien",
+        "viewAppliedPopover": "Votre vue a été copiée dans le presse-papiers !"
+      },
+      "saveView": {
+        "buttons": {
+          "copy": {
+            "label": "Copier pour partager",
+            "successLabel": "Copié dans le presse-papiers !",
+            "warningTooltip": "Seules les personnes ayant accès à cet espace peuvent ouvrir le lien."
+          },
+          "save": {
+            "label": "Enregistrer la vue",
+            "labelActive": "Sauvegarde de la vue"
+          }
+        },
+        "error": {
+          "saveText": "Impossible d'enregistrer la vue – veuillez réessayer."
+        },
+        "headings": {
+          "saveHeader": "Enregistrer la vue",
+          "saveSubheader": "Choisissez un nom qui correspond à l'objectif de cette vue. Cela permettra aux utilisateurs d'identifier facilement son utilisation.",
+          "shareHeader": "Partager"
+        },
+        "nameViewInput": {
+          "helperText": "N'oubliez pas que cette vue sera visible par toutes les personnes ayant accès à cette feuille.",
+          "label": "nom",
+          "placeholder": "Voir à partir de {{timestamp}}"
+        },
+        "summary": {
+          "filter": "les enregistrements ayant",
+          "filterFieldpt1": "si",
+          "filterFieldpt2": "a une erreur",
+          "invalid": "Non valide",
+          "q": "où",
+          "searchValue": "tout champ contenant",
+          "title": "Résumé",
+          "valid": "Valide"
+        }
+      },
       "searchBar": {
         "expandTooltip": "Recherche ouverte et assistant IA",
         "placeholder": "Rechercher...",
@@ -952,7 +1023,14 @@
     },
     "emptyWorkbook": "Manuel de travail vide",
     "files": "Fichiers",
-    "readOnlyIconTooltip": "Cette feuille est en lecture seule"
+    "readOnlyIconTooltip": "Cette feuille est en lecture seule",
+    "spaceSwitcher": {
+      "placeholder": "Rechercher ou sélectionner un espace..."
+    },
+    "toggle": {
+      "hide": "Masquer la barre latérale",
+      "show": "Afficher la barre latérale"
+    }
   },
   "snapshot": {
     "accept": {

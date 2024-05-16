@@ -552,6 +552,14 @@
       "title": "Nhập vào..."
     }
   },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "Tải lại",
+        "refreshTokenFailed": "Đã mất kết nối với buổi phát sự kiện - Vui lòng tải lại để tái kết nối"
+      }
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Xóa các cột trống",
@@ -613,8 +621,17 @@
       "notFound": "Không tìm thấy sổ làm việc"
     },
     "info": {
+      "browser": "Trình duyệt",
       "copiedPopover": "Đã sao chép vào khay nhớ tạm",
-      "copyButton": "Nhấp để sao chép!"
+      "copyButton": "Nhấp để sao chép!",
+      "date": "Ngày",
+      "environment": "Môi trường",
+      "inFrame": "Trong iframe",
+      "referrer": "Người giới thiệu",
+      "release": "Bản phát hành hiện tại",
+      "sheet": "Trang tính",
+      "space": "Không gian",
+      "workbook": "Sổ làm việc"
     },
     "popovers": {
       "copyCell_other": "Đã sao chép {{count}} ô",
@@ -744,6 +761,12 @@
       "errors": {
         "description": "Bảng đang gặp sự cố khi hiển thị dữ liệu này. Vui lòng xem bảng điều khiển để biết chi tiết lỗi.",
         "title": "Đã xảy ra lỗi"
+      },
+      "header": {
+        "tooltip": {
+          "key": "khóa: {{key}}",
+          "label": "nhãn: {{label}}"
+        }
       },
       "indexRow": {
         "tooltip": {
@@ -893,6 +916,54 @@
         "buttonText": "Hành động khác",
         "placeholder": "Tìm kiếm hoặc chọn..."
       },
+      "savedViews": {
+        "buttonText": "Chế độ xem",
+        "groups": {
+          "allViews": "TẤT CẢ CÁC CHẾ ĐỘ XEM",
+          "myViews": "CHẾ ĐỘ XEM CỦA TÔI"
+        },
+        "modalHeader": "Chế độ xem đã lưu",
+        "modalSubheader": "Chọn chế độ xem đã lưu để áp dụng cho Bảng tính này.",
+        "searchPlaceholder": "Tìm kiếm hoặc chọn...",
+        "tooltip": "Áp dụng chế độ xem và sao chép liên kết",
+        "viewAppliedPopover": "Đã sao chép chế độ xem của bạn vào bộ nhớ tạm!"
+      },
+      "saveView": {
+        "buttons": {
+          "copy": {
+            "label": "Sao chép để chia sẻ",
+            "successLabel": "Đã sao chép vào bộ nhớ tạm!",
+            "warningTooltip": "Chỉ những người có quyền truy cập Không gian này mới có thể mở bằng liên kết."
+          },
+          "save": {
+            "label": "Lưu chế độ xem",
+            "labelActive": "Đang lưu chế độ xem"
+          }
+        },
+        "error": {
+          "saveText": "Không thể lưu chế độ xem - vui lòng thử lại."
+        },
+        "headings": {
+          "saveHeader": "Lưu chế độ xem",
+          "saveSubheader": "Chọn tên để thể hiện mục đích của chế độ xem này. Điều này sẽ giúp người dùng dễ dàng xác định mục đích sử dụng.",
+          "shareHeader": "Chia sẻ"
+        },
+        "nameViewInput": {
+          "helperText": "Hãy nhớ rằng tất cả những người có quyền truy cập Bảng tính này đều có thể nhìn thấy chế độ xem này.",
+          "label": "tên",
+          "placeholder": "Xem từ {{timestamp}}"
+        },
+        "summary": {
+          "filter": "bản ghi",
+          "filterFieldpt1": "nếu",
+          "filterFieldpt2": "có lỗi",
+          "invalid": "Không hợp lệ",
+          "q": "trong đó",
+          "searchValue": "bất kỳ trường nào chứa",
+          "title": "Tóm tắt",
+          "valid": "Hợp lệ"
+        }
+      },
       "searchBar": {
         "expandTooltip": "Mở tìm kiếm và Hỗ trợ AI",
         "placeholder": "Tìm kiếm...",
@@ -927,7 +998,14 @@
     },
     "emptyWorkbook": "Sổ làm việc trống",
     "files": "Tệp",
-    "readOnlyIconTooltip": "Trang tính này ở chế độ chỉ đọc"
+    "readOnlyIconTooltip": "Trang tính này ở chế độ chỉ đọc",
+    "spaceSwitcher": {
+      "placeholder": "Tìm kiếm hoặc chọn một Không gian..."
+    },
+    "toggle": {
+      "hide": "Ẩn thanh bên",
+      "show": "Hiện thanh bên"
+    }
   },
   "snapshot": {
     "accept": {

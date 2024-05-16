@@ -552,6 +552,14 @@
       "title": "Impor ke..."
     }
   },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "Muat ulang",
+        "refreshTokenFailed": "Aliran acara putus koneksi - Muat ulang untuk menyambung kembali"
+      }
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Hapus kolom kosong",
@@ -613,8 +621,17 @@
       "notFound": "Buku kerja tidak ditemukan"
     },
     "info": {
+      "browser": "Peramban",
       "copiedPopover": "Disalin ke papan klip",
-      "copyButton": "Klik untuk menyalin!"
+      "copyButton": "Klik untuk menyalin!",
+      "date": "Tanggal",
+      "environment": "Lingkungan",
+      "inFrame": "Dalam iframe",
+      "referrer": "Perujuk",
+      "release": "Rilis saat ini",
+      "sheet": "Lembar",
+      "space": "Ruang",
+      "workbook": "Buku kerja"
     },
     "popovers": {
       "copyCell_other": "{{count}} sel disalin",
@@ -744,6 +761,12 @@
       "errors": {
         "description": "Tabel ini kesulitan menampilkan data ini. Harap melihat konsol untuk perincian eror.",
         "title": "Terjadi masalah"
+      },
+      "header": {
+        "tooltip": {
+          "key": "kunci: {{key}}",
+          "label": "label: {{label}}"
+        }
       },
       "indexRow": {
         "tooltip": {
@@ -893,6 +916,54 @@
         "buttonText": "Tindakan lainnya",
         "placeholder": "Cari atau pilih..."
       },
+      "savedViews": {
+        "buttonText": "tampilan",
+        "groups": {
+          "allViews": "semua tampilan",
+          "myViews": "Tampilan saya"
+        },
+        "modalHeader": "Tampilan tersimpan",
+        "modalSubheader": "Pilih tampilan tersimpan untuk diterapkan pada lembar ini.",
+        "searchPlaceholder": "Cari atau pilih…",
+        "tooltip": "terapkan tampilan dan salin tautan",
+        "viewAppliedPopover": "Tampilan anda telah tersimpan dan disalin pada papan klip!"
+      },
+      "saveView": {
+        "buttons": {
+          "copy": {
+            "label": "salin untuk membagikan",
+            "successLabel": "Disalin ke papan klip!",
+            "warningTooltip": "Hanya orang dengan akses pada ruang ini yang dapat membuka dengan tautan."
+          },
+          "save": {
+            "label": "simpan tampilan",
+            "labelActive": "menyimpan tampilan"
+          }
+        },
+        "error": {
+          "saveText": "Tidak dapat melihat tampilan - silakan coba lagi."
+        },
+        "headings": {
+          "saveHeader": "simpan tampilan",
+          "saveSubheader": "Pilihlah nama yang mencerminkan tujuan dari tampilan ini. Hal ini akan membantu pengguna mengidientifikasi penggunaannya dengan mudah.",
+          "shareHeader": "bagikan"
+        },
+        "nameViewInput": {
+          "helperText": "Ingat, tampilan ini akan tampilan oleh semua orang yang mengakses lembar ini.",
+          "label": "nama",
+          "placeholder": "Tampilan daei {{timestamp}}"
+        },
+        "summary": {
+          "filter": "rekaman yang",
+          "filterFieldpt1": "jika",
+          "filterFieldpt2": "ada kesalahan",
+          "invalid": "absah",
+          "q": "dimana",
+          "searchValue": "bidang apapun yang memiliki",
+          "title": "ringkasan",
+          "valid": "tidak absah"
+        }
+      },
       "searchBar": {
         "expandTooltip": "Buka pencarian dan Bantuan AI",
         "placeholder": "Cari...",
@@ -927,7 +998,14 @@
     },
     "emptyWorkbook": "Workbook kosong",
     "files": "File",
-    "readOnlyIconTooltip": "Sheet ini hanya dapat dibaca"
+    "readOnlyIconTooltip": "Sheet ini hanya dapat dibaca",
+    "spaceSwitcher": {
+      "placeholder": "Cari atau pilih suatu Ruang..."
+    },
+    "toggle": {
+      "hide": "Sembunyikan bilah sisi",
+      "show": "Tampilkan bilah sisi"
+    }
   },
   "snapshot": {
     "accept": {

@@ -564,6 +564,14 @@
       "title": "Importar para..."
     }
   },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "Atualizar",
+        "refreshTokenFailed": "Stream de eventos desconectado — Por favor, atualize para reconectar"
+      }
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Limpar colunas vazias",
@@ -629,8 +637,17 @@
       "notFound": "A pasta de trabalho não encontrada"
     },
     "info": {
+      "browser": "Navegador",
       "copiedPopover": "Copiado para a área de transferência",
-      "copyButton": "Clique para copiar!"
+      "copyButton": "Clique para copiar!",
+      "date": "Data",
+      "environment": "Ambiente",
+      "inFrame": "Dentro do iframe",
+      "referrer": "Referente",
+      "release": "Versão atual",
+      "sheet": "Folha",
+      "space": "Espaço",
+      "workbook": "Pasta de trabalho"
     },
     "popovers": {
       "copyCell_one": "{{count}} célula copiada",
@@ -765,6 +782,12 @@
       "errors": {
         "description": "A tabela está tendo problemas para exibir esses dados. Consulte o painel para obter detalhes do erro.",
         "title": "Algo deu errado"
+      },
+      "header": {
+        "tooltip": {
+          "key": "chave: {{key}}",
+          "label": "rótulo: {{label}}"
+        }
       },
       "indexRow": {
         "tooltip": {
@@ -919,6 +942,54 @@
         "buttonText": "Mais ações",
         "placeholder": "Pesquisar ou selecionar..."
       },
+      "savedViews": {
+        "buttonText": "Exibições",
+        "groups": {
+          "allViews": "TODAS EXIBIÇÕES",
+          "myViews": "MINHAS EXIBIÇÕES"
+        },
+        "modalHeader": "Exibições Salvas",
+        "modalSubheader": "Selecione uma exibição salva para aplicar a esta Planilha.",
+        "searchPlaceholder": "Pesquisar ou escolher...",
+        "tooltip": "Aplicar Exibição e Copiar o Link",
+        "viewAppliedPopover": "Sua exibição foi salva e copiada para a área de transferência!"
+      },
+      "saveView": {
+        "buttons": {
+          "copy": {
+            "label": "Copiar para compartilhar",
+            "successLabel": "Copiada para a área de transferência!",
+            "warningTooltip": "Somente pessoas com acesso a este Espaço podem abrir o link."
+          },
+          "save": {
+            "label": "Salvar exibição",
+            "labelActive": "Salvando exibição"
+          }
+        },
+        "error": {
+          "saveText": "Não foi possível salvar a exibição — tente novamente."
+        },
+        "headings": {
+          "saveHeader": "Salvar exibição",
+          "saveSubheader": "Escolha um nome que reflete o propósito desta exibição. Isso ajudará os usuários a identificar o uso dela facilmente.",
+          "shareHeader": "Compartilhar"
+        },
+        "nameViewInput": {
+          "helperText": "Lembre-se, esta exibição ficará visível para todos que possuem acesso a esta Planilha.",
+          "label": "nome",
+          "placeholder": "Exibição de {{timestamp}}"
+        },
+        "summary": {
+          "filter": "registros que são",
+          "filterFieldpt1": "se",
+          "filterFieldpt2": "possui um erro",
+          "invalid": "Inválido",
+          "q": "onde",
+          "searchValue": "qualquer campo que contenha",
+          "title": "Resumo",
+          "valid": "Válido"
+        }
+      },
       "searchBar": {
         "expandTooltip": "Pesquisa aberta e Suporte de IA",
         "placeholder": "Procurar...",
@@ -953,7 +1024,14 @@
     },
     "emptyWorkbook": "Pasta de trabalho vazia",
     "files": "Arquivos",
-    "readOnlyIconTooltip": "Esta Planilha é somente leitura"
+    "readOnlyIconTooltip": "Esta Planilha é somente leitura",
+    "spaceSwitcher": {
+      "placeholder": "Pesquise ou selecione um espaço..."
+    },
+    "toggle": {
+      "hide": "Ocultar barra lateral",
+      "show": "Mostrar barra lateral"
+    }
   },
   "snapshot": {
     "accept": {

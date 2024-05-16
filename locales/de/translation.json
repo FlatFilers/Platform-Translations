@@ -564,6 +564,14 @@
       "title": "Importieren nach"
     }
   },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "Neu laden",
+        "refreshTokenFailed": "Der Eventstream wurde getrennt – bitte laden Sie ihn neu, um sich wieder zu verbinden"
+      }
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Leere Spalten löschen",
@@ -629,8 +637,17 @@
       "notFound": "Arbeitsmappe nicht gefunden"
     },
     "info": {
+      "browser": "Browser",
       "copiedPopover": "In die Zwischenablage kopiert",
-      "copyButton": "Klicken Sie zum Kopieren!"
+      "copyButton": "Klicken Sie zum Kopieren!",
+      "date": "Datum",
+      "environment": "Umgebung",
+      "inFrame": "Im iFrame",
+      "referrer": "Referrer",
+      "release": "Aktuelle Ausgabe",
+      "sheet": "Folie",
+      "space": "Platz",
+      "workbook": "Arbeitsmappe"
     },
     "popovers": {
       "copyCell_one": "{{count}} Zelle kopiert",
@@ -765,6 +782,12 @@
       "errors": {
         "description": "Die Tabelle hat Probleme, diese Daten anzuzeigen. Bitte sehen Sie in der Konsole nach, ob ein Fehler vorliegt.",
         "title": "Etwas ist schief gelaufen"
+      },
+      "header": {
+        "tooltip": {
+          "key": "Schlüssel: {{key}}",
+          "label": "Label: {{label}}"
+        }
       },
       "indexRow": {
         "tooltip": {
@@ -919,6 +942,54 @@
         "buttonText": "Weitere Aktionen",
         "placeholder": "Suchen oder auswählen …"
       },
+      "savedViews": {
+        "buttonText": "Ansichten",
+        "groups": {
+          "allViews": "ALLE ANSICHTEN",
+          "myViews": "MEINE ANSICHTEN"
+        },
+        "modalHeader": "Gespeicherte Ansichten",
+        "modalSubheader": "Wählen Sie eine gespeicherte Ansicht aus, um sie auf dieses Blatt anzuwenden.",
+        "searchPlaceholder": "Suchen oder auswählen ...",
+        "tooltip": "Betrachtung anwenden und Link kopieren",
+        "viewAppliedPopover": "Ihre Ansicht wurde angewendet und in die Zwischenablage kopiert!"
+      },
+      "saveView": {
+        "buttons": {
+          "copy": {
+            "label": "Zum Teilen kopieren",
+            "successLabel": "In die Zwischenablage kopiert!",
+            "warningTooltip": "Nur Personen mit Zugriff auf diesen Raum können diesen Link öffnen."
+          },
+          "save": {
+            "label": "Ansicht speichern",
+            "labelActive": "Die Ansicht wird gespeichert"
+          }
+        },
+        "error": {
+          "saveText": "Die Ansicht konnte nicht gespeichert werden – bitte versuchen Sie es noch einmal."
+        },
+        "headings": {
+          "saveHeader": "Ansicht speichern",
+          "saveSubheader": "Wählen Sie einen Namen aus, der den Zweck dieser Ansicht wiedergibt. Das hilft den Nutzern, ihre Verwendung leicht zu identifizieren.",
+          "shareHeader": "Teilen"
+        },
+        "nameViewInput": {
+          "helperText": "Denken Sie daran, dass diese Ansicht für jeden sichtbar ist, der auf dieses Blatt zugreifen kann.",
+          "label": "Name",
+          "placeholder": "Ansicht von {{timestamp}}"
+        },
+        "summary": {
+          "filter": "Aufzeichnungen, die",
+          "filterFieldpt1": "wenn",
+          "filterFieldpt2": "beinhaltet einen Fehler",
+          "invalid": "Ungültig",
+          "q": "wo",
+          "searchValue": "jedes Feld, das Folgendes enthält",
+          "title": "Zusammenfassung",
+          "valid": "Gültig"
+        }
+      },
       "searchBar": {
         "expandTooltip": "Suche und KI-Unterstützung öffnen",
         "placeholder": "Suchen …",
@@ -953,7 +1024,14 @@
     },
     "emptyWorkbook": "Leeres Arbeitsbuch",
     "files": "Dateien",
-    "readOnlyIconTooltip": "Dieses Arbeitsblatt ist schreibgeschützt"
+    "readOnlyIconTooltip": "Dieses Arbeitsblatt ist schreibgeschützt",
+    "spaceSwitcher": {
+      "placeholder": "Suchen oder wählen Sie einen Platz ..."
+    },
+    "toggle": {
+      "hide": "Seitenleiste verstecken",
+      "show": "Seitenleiste anzeigen"
+    }
   },
   "snapshot": {
     "accept": {

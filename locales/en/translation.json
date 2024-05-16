@@ -622,17 +622,17 @@
       "notFound": "Workbook not found"
     },
     "info": {
+      "browser": "Browser",
       "copiedPopover": "Copied to clipboard",
       "copyButton": "Click to copy!",
-      "space": "Space",
-      "workbook": "Workbook",
-      "sheet": "Sheet",
+      "date": "Date",
       "environment": "Environment",
-      "browser": "Browser",
       "inFrame": "In iframe",
       "referrer": "Referrer",
-      "date": "Date",
-      "release": "Current release"
+      "release": "Current release",
+      "sheet": "Sheet",
+      "space": "Space",
+      "workbook": "Workbook"
     },
     "popovers": {
       "copyCell_one": "{{count}} cell copied",
@@ -762,6 +762,12 @@
       "errors": {
         "description": "The table is having trouble displaying this data. Please see the console for error details.",
         "title": "Something went wrong"
+      },
+      "header": {
+        "tooltip": {
+          "key": "key: {{key}}",
+          "label": "label: {{label}}"
+        }
       },
       "indexRow": {
         "tooltip": {
@@ -1007,6 +1013,10 @@
     "readOnlyIconTooltip": "This Sheet is read-only",
     "spaceSwitcher": {
       "placeholder": "Search or select a Space..."
+    },
+    "toggle": {
+      "hide": "Hide sidebar",
+      "show": "Show sidebar"
     }
   },
   "snapshot": {

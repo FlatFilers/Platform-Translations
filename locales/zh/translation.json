@@ -552,6 +552,14 @@
       "title": "导入到……"
     }
   },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "刷新",
+        "refreshTokenFailed": "事件流已断开连接——请刷新以重新连接"
+      }
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "清除空白列",
@@ -613,8 +621,17 @@
       "notFound": "未找到工作簿"
     },
     "info": {
+      "browser": "浏览器",
       "copiedPopover": "已复制到剪贴板",
-      "copyButton": "点击复制！"
+      "copyButton": "点击复制！",
+      "date": "日期",
+      "environment": "环境",
+      "inFrame": "在 iframe 中",
+      "referrer": "访问来源",
+      "release": "当前发行版",
+      "sheet": "工作表",
+      "space": "空间",
+      "workbook": "工作簿"
     },
     "popovers": {
       "copyCell_other": "已复制 {{count}} 个单元格",
@@ -744,6 +761,12 @@
       "errors": {
         "description": "表格在显示此数据时出现问题。请查看控制台了解错误详情。",
         "title": "出错"
+      },
+      "header": {
+        "tooltip": {
+          "key": "键：{{key}}",
+          "label": "标签：{{label}}"
+        }
       },
       "indexRow": {
         "tooltip": {
@@ -893,6 +916,54 @@
         "buttonText": "更多操作",
         "placeholder": "搜索或选择……"
       },
+      "savedViews": {
+        "buttonText": "视图",
+        "groups": {
+          "allViews": "所有视图",
+          "myViews": "我的视图"
+        },
+        "modalHeader": "已保存视图",
+        "modalSubheader": "选择要应用至该工作表的视图。",
+        "searchPlaceholder": "搜索或选择……",
+        "tooltip": "应用视图并复制链接",
+        "viewAppliedPopover": "您的视图已复制至剪贴板！"
+      },
+      "saveView": {
+        "buttons": {
+          "copy": {
+            "label": "复制至分享",
+            "successLabel": "已复制至剪贴板！",
+            "warningTooltip": "只有具有该空间访问权限的人才能打开该链接。"
+          },
+          "save": {
+            "label": "保存视图",
+            "labelActive": "正在保存视图"
+          }
+        },
+        "error": {
+          "saveText": "无法保存视图——请重试。"
+        },
+        "headings": {
+          "saveHeader": "保存视图",
+          "saveSubheader": "选择能反映该视图用途的名称，这能帮助用户轻松识别其用途。",
+          "shareHeader": "分享"
+        },
+        "nameViewInput": {
+          "helperText": "请记住，该视图将对有该工作表访问权限的所有人可见。",
+          "label": "名称",
+          "placeholder": "自 {{timestamp}} 起的视图"
+        },
+        "summary": {
+          "filter": "符合以下条件的记录",
+          "filterFieldpt1": "如果",
+          "filterFieldpt2": "有错误",
+          "invalid": "无效",
+          "q": "何处",
+          "searchValue": "包含以下内容的所有字段",
+          "title": "概览",
+          "valid": "有效"
+        }
+      },
       "searchBar": {
         "expandTooltip": "开放搜索和 AI 辅助",
         "placeholder": "搜索……",
@@ -927,7 +998,14 @@
     },
     "emptyWorkbook": "空工作簿",
     "files": "文件",
-    "readOnlyIconTooltip": "此工作表为只读"
+    "readOnlyIconTooltip": "此工作表为只读",
+    "spaceSwitcher": {
+      "placeholder": "搜索或选择一个空间……"
+    },
+    "toggle": {
+      "hide": "隐藏侧边栏",
+      "show": "显示侧边栏"
+    }
   },
   "snapshot": {
     "accept": {

@@ -563,6 +563,14 @@
       "title": "Importer vers..."
     }
   },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "Actualiser",
+        "refreshTokenFailed": "Flux d'événements déconnecté - Veuillez actualiser pour vous reconnecter"
+      }
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Effacer les colonnes vides",
@@ -628,8 +636,17 @@
       "notFound": "Le cahier d'exercices n'a pas été trouvé"
     },
     "info": {
+      "browser": "Navigateur",
       "copiedPopover": "Copié dans le presse-papiers",
-      "copyButton": "Cliquez pour copier!"
+      "copyButton": "Cliquez pour copier!",
+      "date": "Date",
+      "environment": "Environnement",
+      "inFrame": "Dans l'iFrame",
+      "referrer": "Référent",
+      "release": "Version actuelle",
+      "sheet": "Feuille",
+      "space": "Espace",
+      "workbook": "Classeur"
     },
     "popovers": {
       "copyCell_one": "{{count}} cellule copiée",
@@ -764,6 +781,12 @@
       "errors": {
         "description": "La table a des difficultés à afficher ces données. Veuillez consulter la console pour connaître les détails de l'erreur.",
         "title": "Quelque chose n'a pas fonctionné"
+      },
+      "header": {
+        "tooltip": {
+          "key": "clé : {{key}}",
+          "label": "étiquette : {{label}}"
+        }
       },
       "indexRow": {
         "tooltip": {
@@ -918,6 +941,54 @@
         "buttonText": "Plus d’actions",
         "placeholder": "Rechercher ou sélectionner..."
       },
+      "savedViews": {
+        "buttonText": "Vues",
+        "groups": {
+          "allViews": "TOUTES LES VUES",
+          "myViews": "MES VUES"
+        },
+        "modalHeader": "Vues enregistrées",
+        "modalSubheader": "Choisissez une vue enregistrée à appliquer à cette feuille.",
+        "searchPlaceholder": "Rechercher ou sélectionner...",
+        "tooltip": "Appliquer la vue et copier le lien",
+        "viewAppliedPopover": "Votre vue a été copiée dans le presse-papiers!"
+      },
+      "saveView": {
+        "buttons": {
+          "copy": {
+            "label": "Copier pour partager",
+            "successLabel": "Copié dans le presse-papiers!",
+            "warningTooltip": "Seules les personnes ayant accès à cet espace peuvent ouvrir le lien."
+          },
+          "save": {
+            "label": "Enregistrer la vue",
+            "labelActive": "Enregistrement de la vue"
+          }
+        },
+        "error": {
+          "saveText": "Impossible d’enregistrer la vue - veuillez réessayer."
+        },
+        "headings": {
+          "saveHeader": "Enregistrer la vue",
+          "saveSubheader": "Choisissez un nom qui reflète l’objectif de cette vue. Cela permettra aux utilisateurs d’identifier facilement son utilisation.",
+          "shareHeader": "Partager"
+        },
+        "nameViewInput": {
+          "helperText": "N’oubliez pas que cette vue sera visible par toutes les personnes ayant accès à cette feuille.",
+          "label": "nom",
+          "placeholder": "Vue à partir de {{timestamp}}"
+        },
+        "summary": {
+          "filter": "les enregistrements qui sont",
+          "filterFieldpt1": "si",
+          "filterFieldpt2": "contient l'erreur",
+          "invalid": "Invalide",
+          "q": "où",
+          "searchValue": "tout champ contenant",
+          "title": "Résumé",
+          "valid": "Valide"
+        }
+      },
       "searchBar": {
         "expandTooltip": "Ouvrir la recherche et l'assistant IA",
         "placeholder": "Rechercher...",
@@ -952,7 +1023,14 @@
     },
     "emptyWorkbook": "Classeur vide",
     "files": "Fichiers",
-    "readOnlyIconTooltip": "Cette feuille est en lecture seule"
+    "readOnlyIconTooltip": "Cette feuille est en lecture seule",
+    "spaceSwitcher": {
+      "placeholder": "Recherchez ou sélectionnez un espace..."
+    },
+    "toggle": {
+      "hide": "Masquer la barre latérale",
+      "show": "Afficher la barre latérale"
+    }
   },
   "snapshot": {
     "accept": {
