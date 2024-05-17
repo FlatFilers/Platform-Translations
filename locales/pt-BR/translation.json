@@ -956,6 +956,7 @@
       },
       "saveView": {
         "buttons": {
+          "cancel": "Cancelar",
           "copy": {
             "label": "Copiar para compartilhar",
             "successLabel": "Copiada para a área de transferência!",

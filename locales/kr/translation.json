@@ -930,6 +930,7 @@
       },
       "saveView": {
         "buttons": {
+          "cancel": "취소",
           "copy": {
             "label": "복사하여 공유",
             "successLabel": "클립보드에 복사되었습니다!",

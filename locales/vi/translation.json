@@ -930,6 +930,7 @@
       },
       "saveView": {
         "buttons": {
+          "cancel": "Hủy",
           "copy": {
             "label": "Sao chép để chia sẻ",
             "successLabel": "Đã sao chép vào bộ nhớ tạm!",

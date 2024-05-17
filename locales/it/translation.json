@@ -956,6 +956,7 @@
       },
       "saveView": {
         "buttons": {
+          "cancel": "Annulla",
           "copy": {
             "label": "Copia per condividere",
             "successLabel": "Copiato negli appunti!",

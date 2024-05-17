@@ -930,6 +930,7 @@
       },
       "saveView": {
         "buttons": {
+          "cancel": "キャンセル",
           "copy": {
             "label": "コピーして共有",
             "successLabel": "クリップボードにコピーしました！",

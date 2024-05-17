@@ -956,6 +956,7 @@
       },
       "saveView": {
         "buttons": {
+          "cancel": "Abbrechen",
           "copy": {
             "label": "Zum Teilen kopieren",
             "successLabel": "In die Zwischenablage kopiert!",

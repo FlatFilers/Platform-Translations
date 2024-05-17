@@ -930,6 +930,7 @@
       },
       "saveView": {
         "buttons": {
+          "cancel": "Batal",
           "copy": {
             "label": "salin untuk membagikan",
             "successLabel": "Disalin ke papan klip!",

@@ -930,6 +930,7 @@
       },
       "saveView": {
         "buttons": {
+          "cancel": "取消",
           "copy": {
             "label": "复制至分享",
             "successLabel": "已复制至剪贴板！",

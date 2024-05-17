@@ -955,6 +955,7 @@
       },
       "saveView": {
         "buttons": {
+          "cancel": "Annuler",
           "copy": {
             "label": "Copier pour partager",
             "successLabel": "Copié dans le presse-papiers !",

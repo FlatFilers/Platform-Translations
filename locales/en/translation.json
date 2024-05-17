@@ -555,8 +555,8 @@
   "platform": {
     "pubnub": {
       "errors": {
-        "refreshTokenFailed": "Event stream disconnected - Please refresh to reconnect",
-        "refreshTokenActionLabel": "Refresh"
+        "refreshTokenActionLabel": "Refresh",
+        "refreshTokenFailed": "Event stream disconnected - Please refresh to reconnect"
       }
     }
   },
@@ -776,12 +776,6 @@
           "rowNumber": "Row {{number}}"
         }
       },
-      "header": {
-        "tooltip": {
-          "key": "key: {{key}}",
-          "label": "label: {{label}}"
-        }
-      },
       "maximumMessage": {
         "plural": "...and {{hiddenRows}} more rows. Table views only support up to 500,000 records at a time due to browser limitations. Search, sort, filters, and bulk actions will still operate on all rows hidden from view.",
         "singular": "...and 1 more row. Table views only support up to 500,000 records at a time due to browser limitations. Search, sort, filters, and bulk actions will still operate on all rows hidden from view."
@@ -995,10 +989,6 @@
     }
   },
   "sidebar": {
-    "toggle": {
-      "hide": "Hide sidebar",
-      "show": "Show sidebar"
-    },
     "addConnection": "Add Connection",
     "checklist": "Data checklist",
     "connections": {

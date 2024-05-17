@@ -956,6 +956,7 @@
       },
       "saveView": {
         "buttons": {
+          "cancel": "Cancelar",
           "copy": {
             "label": "Copiar para compartir",
             "successLabel": "¡Copiado al portapapeles!",

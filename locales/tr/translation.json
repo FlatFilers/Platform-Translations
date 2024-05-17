@@ -956,6 +956,7 @@
       },
       "saveView": {
         "buttons": {
+          "cancel": "İptal",
           "copy": {
             "label": "Paylaşmak için kopyala",
             "successLabel": "Panoya kopyalandı!",

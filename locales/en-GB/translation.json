@@ -955,6 +955,7 @@
       },
       "saveView": {
         "buttons": {
+          "cancel": "Cancel",
           "copy": {
             "label": "Copy to share",
             "successLabel": "Copied to clipboard!",
