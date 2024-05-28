@@ -337,7 +337,6 @@
             "success": "{{jobName}} ran on {{resourceName}} successfully"
           },
           "defaultRetryLabel": "Retry",
-          "defaultViewLabel": "  Update view",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continue"
           }
