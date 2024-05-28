@@ -553,7 +553,6 @@
       "importFromHeading": "Wählen Sie ein Blatt aus, aus dem Daten geladen werden sollen.",
       "importToHeading": "Wählen Sie ein Blatt aus, in das diese Daten importiert werden sollen.",
       "lastUpdated": "Zuletzt aktualisiert am: {{date}}",
-      "lastUpdatedDateFormat": "JJJJ-MM-TT",
       "records_one": "1 Datensatz\n",
       "records_other": "{{count}} Datensätze\n",
       "records_zero": "{{count}} Datensätze",

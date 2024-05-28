@@ -543,7 +543,6 @@
       "importFromHeading": "Pilih lembar untuk memuat data dari",
       "importToHeading": "Pilih lembar untuk mengimpor data ini ke",
       "lastUpdated": "Terakhir diperbarui {{date}}",
-      "lastUpdatedDateFormat": "yyyy-mm-dd",
       "records_other": "{{count}} rekaman",
       "records_zero": "{{count}} rekaman",
       "sheetHasNoData": "Tidak ada data",

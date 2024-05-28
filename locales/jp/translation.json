@@ -543,7 +543,6 @@
       "importFromHeading": "データをロードするシートを選択",
       "importToHeading": "このデータをインポートするシートを選択",
       "lastUpdated": "最終更新日{{date}}",
-      "lastUpdatedDateFormat": "年-月-日",
       "records_other": "{{count}}レコード",
       "records_zero": "{{count}}レコード",
       "sheetHasNoData": "データなし",

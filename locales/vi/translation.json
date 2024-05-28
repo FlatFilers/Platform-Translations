@@ -543,7 +543,6 @@
       "importFromHeading": "Chọn một trang tính để tải dữ liệu từ đó",
       "importToHeading": "Chọn một trang tính để nhập dữ liệu này vào",
       "lastUpdated": "Cập nhật lần cuối {{date}}",
-      "lastUpdatedDateFormat": "dd-mm-yyyy",
       "records_other": "{{count}} bản ghi",
       "records_zero": "{{count}} bản ghi",
       "sheetHasNoData": "Không có dữ liệu",

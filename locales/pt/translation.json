@@ -553,7 +553,6 @@
       "importFromHeading": "Selecione uma folha a partir da qual carregar os dados",
       "importToHeading": "Selecione uma folha para a qual importar estes dados",
       "lastUpdated": "Última atualização: {{date}}",
-      "lastUpdatedDateFormat": "aaaa-mm-dd",
       "records_one": "1 registo",
       "records_other": "{{count}} registos",
       "records_zero": "{{count}} registos",

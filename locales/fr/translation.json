@@ -553,7 +553,6 @@
       "importFromHeading": "Sélectionnez une feuille à partir de laquelle vous souhaitez charger des données",
       "importToHeading": "Sélectionnez une feuille dans laquelle importer ces données",
       "lastUpdated": "Dernière mise à jour le {{date}}",
-      "lastUpdatedDateFormat": "aaaa - mm - jj",
       "records_one": "1 dossier",
       "records_other": "{{count}} dossiers",
       "records_zero": "{{count}} dossiers",

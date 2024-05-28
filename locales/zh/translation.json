@@ -543,7 +543,6 @@
       "importFromHeading": "选择表格以从中加载数据",
       "importToHeading": "选择表格以将该数据导入表格",
       "lastUpdated": "上次更新 {{date}}",
-      "lastUpdatedDateFormat": "yyyy-mm-dd",
       "records_other": "{{count}} 个记录",
       "records_zero": "{{count}} 个记录",
       "sheetHasNoData": "没有数据",

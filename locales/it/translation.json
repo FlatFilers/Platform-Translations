@@ -553,7 +553,6 @@
       "importFromHeading": "Seleziona un foglio da cui caricare i dati",
       "importToHeading": "Seleziona un foglio verso cui importare questi dati",
       "lastUpdated": "Ultimo aggiornamento il {{date}}",
-      "lastUpdatedDateFormat": "aaaa-mm-gg",
       "records_one": "1 voce",
       "records_other": "{{count}} voci",
       "records_zero": "{{count}} voci",

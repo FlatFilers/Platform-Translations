@@ -543,7 +543,6 @@
       "importFromHeading": "데이터를 로드할 시트를 선택하세요",
       "importToHeading": "이 데이터를 가져올 시트를 선택하세요",
       "lastUpdated": "마지막 업데이트 날짜 {{date}}",
-      "lastUpdatedDateFormat": "연도-월-일(yyyy-mm-dd)",
       "records_other": "{{count}}개의 기록",
       "records_zero": "{{count}}개의 기록",
       "sheetHasNoData": "데이터 없음",

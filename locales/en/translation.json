@@ -544,13 +544,13 @@
       "importFromHeading": "Select a sheet to load data from",
       "importToHeading": "Select a sheet to import this data to",
       "lastUpdated": "Last updated {{date}}",
-      "lastUpdatedDateFormat": "yyyy-mm-dd",
       "records_one": "1 record",
       "records_other": "{{count}} records",
       "sheetHasNoData": "No data",
       "sheets_one": "1 sheet",
       "sheets_other": "{{count}} sheets",
-      "title": "Import to..."
+      "title": "Import to...",
+      "updatedAtDateFormat": "yyyy-MM-dd"
     }
   },
   "platform": {
