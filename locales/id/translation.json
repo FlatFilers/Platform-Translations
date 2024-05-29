@@ -337,6 +337,7 @@
             "success": "{{jobName}} berhasil dijalankan di {{resourceName}}"
           },
           "defaultRetryLabel": "Coba lagi",
+          "defaultViewLabel": "  Perbarui tampilan",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Lanjutkan"
           }
@@ -548,7 +549,8 @@
       "sheetHasNoData": "Tidak ada data",
       "sheets_other": "{{count}} lembar",
       "sheets_zero": "{{count}} lembar",
-      "title": "Impor ke..."
+      "title": "Impor ke...",
+      "updatedAtDateFormat": "tttt-BB-hh"
     }
   },
   "platform": {

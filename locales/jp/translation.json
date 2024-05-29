@@ -337,6 +337,7 @@
             "success": "{{jobName}} が {{resourceName}} で正常に実行されました"
           },
           "defaultRetryLabel": "再試行",
+          "defaultViewLabel": "  アップデートビュー",
           "permanentOutcomeModal": {
             "defaultContinueButton": "続行"
           }
@@ -548,7 +549,8 @@
       "sheetHasNoData": "データなし",
       "sheets_other": "{{count}}シート",
       "sheets_zero": "{{count}}列",
-      "title": "インポート先"
+      "title": "インポート先",
+      "updatedAtDateFormat": "年-月-日"
     }
   },
   "platform": {

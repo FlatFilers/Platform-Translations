@@ -343,6 +343,7 @@
             "success": "{{jobName}}, {{resourceName}} üzerinde başarıyla çalıştırıldı"
           },
           "defaultRetryLabel": "Yeniden dene",
+          "defaultViewLabel": "  Görünümü güncelle",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Devam et"
           }
@@ -560,7 +561,8 @@
       "sheets_one": "1 sayfa",
       "sheets_other": "{{count}} sayfalar",
       "sheets_zero": "{{count}} sayfalar",
-      "title": "Şuraya aktar:"
+      "title": "Şuraya aktar:",
+      "updatedAtDateFormat": "gg-AA-yyyy"
     }
   },
   "platform": {

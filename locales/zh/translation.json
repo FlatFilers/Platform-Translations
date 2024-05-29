@@ -337,6 +337,7 @@
             "success": "{{jobName}} 在 {{resourceName}} 上成功运行"
           },
           "defaultRetryLabel": "重试",
+          "defaultViewLabel": "  更新视图",
           "permanentOutcomeModal": {
             "defaultContinueButton": "继续"
           }
@@ -548,7 +549,8 @@
       "sheetHasNoData": "没有数据",
       "sheets_other": "{{count}} 个表格",
       "sheets_zero": "{{count}} 个表格",
-      "title": "导入到……"
+      "title": "导入到……",
+      "updatedAtDateFormat": "年-月-日"
     }
   },
   "platform": {

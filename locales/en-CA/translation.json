@@ -342,6 +342,7 @@
             "success": "{{jobName}} ran on {{resourceName}} successfully"
           },
           "defaultRetryLabel": "Retry",
+          "defaultViewLabel": "  Update view",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continue"
           }
@@ -559,7 +560,8 @@
       "sheets_one": "1 sheet",
       "sheets_other": "{{count}} sheets",
       "sheets_zero": "{{count}} sheets",
-      "title": "Import to..."
+      "title": "Import to...",
+      "updatedAtDateFormat": "yyyy-MM-dd"
     }
   },
   "platform": {

@@ -343,6 +343,7 @@
             "success": "{{jobName}} exécutée avec succès sur {{resourceName}}"
           },
           "defaultRetryLabel": "Réessayer",
+          "defaultViewLabel": "  Mise à jour de la visualisation",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continuer"
           }
@@ -560,7 +561,8 @@
       "sheets_one": "1 feuille",
       "sheets_other": "{{count}} feuilles",
       "sheets_zero": "{{count}} feuilles",
-      "title": "Importer vers..."
+      "title": "Importer vers...",
+      "updatedAtDateFormat": "jj/MM/aaaa"
     }
   },
   "platform": {

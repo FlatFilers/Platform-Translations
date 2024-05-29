@@ -343,6 +343,7 @@
             "success": "{{jobName}} è stato eseguito su {{resourceName}} con successo"
           },
           "defaultRetryLabel": "Riprova",
+          "defaultViewLabel": "  Aggiorna visualizzazione",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continua"
           }
@@ -560,7 +561,8 @@
       "sheets_one": "1 foglio",
       "sheets_other": "{{count}} fogli",
       "sheets_zero": "{{count}} fogli",
-      "title": "Importa verso..."
+      "title": "Importa verso...",
+      "updatedAtDateFormat": "aaaa-mm-gg"
     }
   },
   "platform": {

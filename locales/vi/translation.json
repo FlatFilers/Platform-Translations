@@ -337,6 +337,7 @@
             "success": "{{jobName}} đã chạy theo {{resourceName}} thành công"
           },
           "defaultRetryLabel": "Thử lại",
+          "defaultViewLabel": "  Cập nhật chế độ xem",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Tiếp tục"
           }
@@ -548,7 +549,8 @@
       "sheetHasNoData": "Không có dữ liệu",
       "sheets_other": "{{count}} trang tính",
       "sheets_zero": "{{count}} trang tính",
-      "title": "Nhập vào..."
+      "title": "Nhập vào...",
+      "updatedAtDateFormat": "yyyy-MM-dd"
     }
   },
   "platform": {
