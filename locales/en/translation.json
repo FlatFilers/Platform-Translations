@@ -530,10 +530,17 @@
         "progressPill": {
           "text": "{{totalIncomingMapped}} of {{totalIncomingFields}}",
           "tooltip": "You've mapped {{mappedIncomingFields}} of {{totalIncomingFields}} fields in your dataset to the target sheet"
+        },
+        "selectHeaders": {
+          "tooltip": "Edit incoming fields"
         }
       },
       "subheading": "Review and confirm each mapping choice",
       "title": "Map fields"
+    },
+    "mapHeaders": {
+      "subheading": "Change or select header row for your source data",
+      "title": "Map headers"
     },
     "sheetSelection": {
       "cannotLoadFile": "Unable to upload file: {{fileName}}",
