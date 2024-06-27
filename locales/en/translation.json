@@ -326,6 +326,7 @@
             "defaultContinueButton": "Continue"
           },
           "defaultDownloadLabel": "Download",
+          "defaultUrlLabel": "Visit external webpage",
           "defaultFileName": "file",
           "defaultHeading": {
             "failed": "Job failed",
