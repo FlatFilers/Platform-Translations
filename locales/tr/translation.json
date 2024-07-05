@@ -343,6 +343,7 @@
             "success": "{{jobName}}, {{resourceName}} üzerinde başarıyla çalıştırıldı"
           },
           "defaultRetryLabel": "Yeniden dene",
+          "defaultUrlLabel": "Harici web sayfasını ziyaret et",
           "defaultViewLabel": "  Görünümü güncelle",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Devam et"
@@ -538,10 +539,17 @@
         "progressPill": {
           "text": "{{totalIncomingMapped}} / {{totalIncomingFields}}",
           "tooltip": "Veri kümenizdeki {{mappedIncomingFields}} / {{totalIncomingFields}} alanlarını hedef sayfayla eşlediniz"
+        },
+        "selectHeaders": {
+          "tooltip": "Gelen alanları düzenle"
         }
       },
       "subheading": "Her eşleme seçeneğini inceleyin ve onaylayın",
       "title": "Harita alanları"
+    },
+    "mapHeaders": {
+      "subheading": "Kaynak verilerin için başlık satırını değiştir veya seç",
+      "title": "Harita başlıkları"
     },
     "sheetSelection": {
       "cannotLoadFile": "Dosya yüklenemiyor: {{fileName}}",
@@ -554,6 +562,7 @@
       "importFromHeading": "Verilerin yükleneceği sayfayı seçin",
       "importToHeading": "Bu verileri içe aktarmak için bir sayfa seçin",
       "lastUpdated": "Son güncelleme {{date}}",
+      "lastUpdatedDateFormat": "yyyy-aa-gg",
       "records_one": "1 kayıt",
       "records_other": "{{count}} kayıtlar",
       "records_zero": "{{count}} kayıtlar",

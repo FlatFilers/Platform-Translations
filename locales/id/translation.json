@@ -337,6 +337,7 @@
             "success": "{{jobName}} berhasil dijalankan di {{resourceName}}"
           },
           "defaultRetryLabel": "Coba lagi",
+          "defaultUrlLabel": "Kunjungi halaman web eksternal",
           "defaultViewLabel": "  Perbarui tampilan",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Lanjutkan"
@@ -530,10 +531,17 @@
         "progressPill": {
           "text": "{{totalIncomingMapped}} dari {{totalIncomingFields}}",
           "tooltip": "Anda telah memetakan {{mappedIncomingFields}} dari {{totalIncomingFields}} bidang dalam kumpulan data Anda ke lembar target"
+        },
+        "selectHeaders": {
+          "tooltip": "Edit bidang masuk"
         }
       },
       "subheading": "Tinjau dan konfirmasi setiap pilihan pemetaan",
       "title": "Bidang peta"
+    },
+    "mapHeaders": {
+      "subheading": "Ganti atau pilih baris judul untuk data sumber Anda",
+      "title": "Judul peta"
     },
     "sheetSelection": {
       "cannotLoadFile": "Tidak dapat mengunggah file: {{fileName}}",
@@ -544,6 +552,7 @@
       "importFromHeading": "Pilih lembar untuk memuat data dari",
       "importToHeading": "Pilih lembar untuk mengimpor data ini ke",
       "lastUpdated": "Terakhir diperbarui {{date}}",
+      "lastUpdatedDateFormat": "yyyy-mm-dd",
       "records_other": "{{count}} rekaman",
       "records_zero": "{{count}} rekaman",
       "sheetHasNoData": "Tidak ada data",

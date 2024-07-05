@@ -342,6 +342,7 @@
             "success": "{{jobName}} ran on {{resourceName}} successfully"
           },
           "defaultRetryLabel": "Retry",
+          "defaultUrlLabel": "Visit external web page",
           "defaultViewLabel": "  Update view",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continue"
@@ -537,10 +538,17 @@
         "progressPill": {
           "text": "{{totalIncomingMapped}} of {{totalIncomingFields}}",
           "tooltip": "You've mapped {{mappedIncomingFields}} of {{totalIncomingFields}} fields in your dataset to the target sheet"
+        },
+        "selectHeaders": {
+          "tooltip": "Edit incoming fields"
         }
       },
       "subheading": "Review and confirm each mapping choice",
       "title": "Map fields"
+    },
+    "mapHeaders": {
+      "subheading": "Change or select header row for your source data",
+      "title": "Map headers"
     },
     "sheetSelection": {
       "cannotLoadFile": "Unable to upload file: {{fileName}}",
@@ -553,6 +561,7 @@
       "importFromHeading": "Select a sheet to load data from",
       "importToHeading": "Select a sheet to import this data to",
       "lastUpdated": "Last updated {{date}}",
+      "lastUpdatedDateFormat": "yyyy-mm-dd",
       "records_one": "1 record",
       "records_other": "{{count}} records",
       "records_zero": "{{count}} records",

@@ -326,7 +326,6 @@
             "defaultContinueButton": "Continue"
           },
           "defaultDownloadLabel": "Download",
-          "defaultUrlLabel": "Visit external webpage",
           "defaultFileName": "file",
           "defaultHeading": {
             "failed": "Job failed",
@@ -338,6 +337,7 @@
             "success": "{{jobName}} ran on {{resourceName}} successfully"
           },
           "defaultRetryLabel": "Retry",
+          "defaultUrlLabel": "Visit external webpage",
           "defaultViewLabel": "  Update view",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continue"
@@ -552,6 +552,7 @@
       "importFromHeading": "Select a sheet to load data from",
       "importToHeading": "Select a sheet to import this data to",
       "lastUpdated": "Last updated {{date}}",
+      "lastUpdatedDateFormat": "yyyy-mm-dd",
       "records_one": "1 record",
       "records_other": "{{count}} records",
       "sheetHasNoData": "No data",

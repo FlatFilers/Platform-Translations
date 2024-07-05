@@ -343,6 +343,7 @@
             "success": "{{jobName}} è stato eseguito su {{resourceName}} con successo"
           },
           "defaultRetryLabel": "Riprova",
+          "defaultUrlLabel": "Visita pagina web esterna",
           "defaultViewLabel": "  Aggiorna visualizzazione",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continua"
@@ -538,10 +539,17 @@
         "progressPill": {
           "text": "{{totalIncomingMapped}} di {{totalIncomingFields}}",
           "tooltip": "Hai mappato {{mappedIncomingFields}} di {{totalIncomingFields}} campi del gruppo di dati verso il foglio di destinazione"
+        },
+        "selectHeaders": {
+          "tooltip": "Modifica i campi in arrivo"
         }
       },
       "subheading": "Revisiona e conferma ciascuna scelta di mappatura",
       "title": "Mappa i campi"
+    },
+    "mapHeaders": {
+      "subheading": "Cambia o seleziona la riga di intestazione per i tuoi dati di origine",
+      "title": "Mappa intestazioni"
     },
     "sheetSelection": {
       "cannotLoadFile": "Impossibile caricare il file: {{fileName}}",
@@ -554,6 +562,7 @@
       "importFromHeading": "Seleziona un foglio da cui caricare i dati",
       "importToHeading": "Seleziona un foglio verso cui importare questi dati",
       "lastUpdated": "Ultimo aggiornamento il {{date}}",
+      "lastUpdatedDateFormat": "aaaa-mm-gg",
       "records_one": "1 voce",
       "records_other": "{{count}} voci",
       "records_zero": "{{count}} voci",

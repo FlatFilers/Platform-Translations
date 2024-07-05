@@ -343,6 +343,7 @@
             "success": "{{jobName}} executado em {{resourceName}} com sucesso"
           },
           "defaultRetryLabel": "Tentar novamente",
+          "defaultUrlLabel": "Visitar página externa",
           "defaultViewLabel": "  Atualizar visualização",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continuar"
@@ -538,10 +539,17 @@
         "progressPill": {
           "text": "{{totalIncomingMapped}} de {{totalIncomingFields}}",
           "tooltip": "Você mapeou {{mappedIncomingFields}} de {{totalIncomingFields}} campos no seu set de dados para a folha alvo"
+        },
+        "selectHeaders": {
+          "tooltip": "Editar campos de entrada"
         }
       },
       "subheading": "Revisar e confirmar cada escolha de mapa",
       "title": "Campos de mapa"
+    },
+    "mapHeaders": {
+      "subheading": "Altere ou selecione a linha do cabeçalho dos seus dados-fonte",
+      "title": "Mapear cabeçalhos"
     },
     "sheetSelection": {
       "cannotLoadFile": "Impossível fazer upload de arquivo: {{fileName}}",
@@ -554,6 +562,7 @@
       "importFromHeading": "Selecione uma folha para carregar dados de",
       "importToHeading": "Selecione uma folha para importar esses dados para",
       "lastUpdated": "Última atualização {{date}}",
+      "lastUpdatedDateFormat": "dd-mm-aaaa",
       "records_one": "1 registro",
       "records_other": "{{count}}\nregistros",
       "records_zero": "{{count}}\nregistros",

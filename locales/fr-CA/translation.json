@@ -342,6 +342,7 @@
             "success": "{{jobName}} a été exécuté avec succès sur {{resourceName}}"
           },
           "defaultRetryLabel": "Réessayer",
+          "defaultUrlLabel": "Visitez une page Web externe",
           "defaultViewLabel": "  Mettre à jour la vue",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continuer"
@@ -537,10 +538,17 @@
         "progressPill": {
           "text": "{{totalIncomingMapped}} de {{totalIncomingFields}}",
           "tooltip": "Vous avez mis en correspondance {{mappedIncomingFields}} des  {{totalIncomingFields}} champs de votre jeu de données vers la feuille cible"
+        },
+        "selectHeaders": {
+          "tooltip": "Modifiez les champs entrants"
         }
       },
       "subheading": "Examiner et confirmer chaque choix mis en correspondance",
       "title": "Mettre en correspondance les champs"
+    },
+    "mapHeaders": {
+      "subheading": "Modifiez ou sélectionnez la ligne d'en-tête pour vos données sources",
+      "title": "Schématisez les en-têtes"
     },
     "sheetSelection": {
       "cannotLoadFile": "Impossible de télécharger le fichier : {{fileName}}",
@@ -553,6 +561,7 @@
       "importFromHeading": "Sélectionner une feuille à partir de laquelle charger les données",
       "importToHeading": "Sélectionnez une feuille dans laquelle importer ces données",
       "lastUpdated": "Dernière mise à jour {{date}}",
+      "lastUpdatedDateFormat": "aaaa-mm-jj",
       "records_one": "1 entrée",
       "records_other": "{{count}} entrées",
       "records_zero": "{{count}} entrées",

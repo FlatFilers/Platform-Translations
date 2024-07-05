@@ -343,6 +343,7 @@
             "success": "{{jobName}} correu com sucesso em {{resourceName}}"
           },
           "defaultRetryLabel": "Tentar novamente",
+          "defaultUrlLabel": "Visitar página web externa",
           "defaultViewLabel": "  Atualizar vista",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continuar"
@@ -538,10 +539,17 @@
         "progressPill": {
           "text": "{{totalIncomingMapped}} de {{totalIncomingFields}}",
           "tooltip": "Mapeou {{mappedIncomingFields}} dos {{totalIncomingFields}} campos do seu conjunto de dados à folha de destino"
+        },
+        "selectHeaders": {
+          "tooltip": "Editar campos de entrada"
         }
       },
       "subheading": "Reveja e confirme cada escolha do mapeamento",
       "title": "Mapear campos"
+    },
+    "mapHeaders": {
+      "subheading": "Alterar ou selecionar a fila de cabeçalho para os seus dados de origem",
+      "title": "Cabeçalhos de mapa"
     },
     "sheetSelection": {
       "cannotLoadFile": "Não foi possível carregar o ficheiro: {{fileName}}",
@@ -554,6 +562,7 @@
       "importFromHeading": "Selecione uma folha a partir da qual carregar os dados",
       "importToHeading": "Selecione uma folha para a qual importar estes dados",
       "lastUpdated": "Última atualização: {{date}}",
+      "lastUpdatedDateFormat": "aaaa-mm-dd",
       "records_one": "1 registo",
       "records_other": "{{count}} registos",
       "records_zero": "{{count}} registos",

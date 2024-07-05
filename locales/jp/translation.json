@@ -337,6 +337,7 @@
             "success": "{{jobName}} が {{resourceName}} で正常に実行されました"
           },
           "defaultRetryLabel": "再試行",
+          "defaultUrlLabel": "外部ウェブページを訪問する",
           "defaultViewLabel": "  アップデートビュー",
           "permanentOutcomeModal": {
             "defaultContinueButton": "続行"
@@ -530,10 +531,17 @@
         "progressPill": {
           "text": "{{totalIncomingFields}}の{{totalIncomingMapped}}",
           "tooltip": "データセット内の{{totalIncomingFields}}フィールドのうち、{{mappedIncomingFields}}を対象シートにマッピングしました"
+        },
+        "selectHeaders": {
+          "tooltip": "受信フィールドを編集する"
         }
       },
       "subheading": "各マッピング選択のレビューと確認",
       "title": "マップフィールド"
+    },
+    "mapHeaders": {
+      "subheading": "ソースデータのヘッダー行を変更または選択する",
+      "title": "マップのヘッダー"
     },
     "sheetSelection": {
       "cannotLoadFile": "以下のファイルをアップロードできません：{{fileName}}",
@@ -544,6 +552,7 @@
       "importFromHeading": "データをロードするシートを選択",
       "importToHeading": "このデータをインポートするシートを選択",
       "lastUpdated": "最終更新日{{date}}",
+      "lastUpdatedDateFormat": "年-月-日",
       "records_other": "{{count}}レコード",
       "records_zero": "{{count}}レコード",
       "sheetHasNoData": "データなし",

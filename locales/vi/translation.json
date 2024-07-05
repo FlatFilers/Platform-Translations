@@ -337,6 +337,7 @@
             "success": "{{jobName}} đã chạy theo {{resourceName}} thành công"
           },
           "defaultRetryLabel": "Thử lại",
+          "defaultUrlLabel": "Truy cập trang web ngoài",
           "defaultViewLabel": "  Cập nhật chế độ xem",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Tiếp tục"
@@ -530,10 +531,17 @@
         "progressPill": {
           "text": "{{totalIncomingMapped}} trên {{totalIncomingFields}}",
           "tooltip": "Bạn đã ánh xạ {{mappedIncomingFields}} trên {{totalIncomingFields}} trường dữ liệu trong tập dữ liệu của mình tới trang tính mục tiêu"
+        },
+        "selectHeaders": {
+          "tooltip": "Sửa các trường đến"
         }
       },
       "subheading": "Xem lại và xác nhận từng lựa chọn ánh xạ",
       "title": "Ánh xạ trường dữ liệu"
+    },
+    "mapHeaders": {
+      "subheading": "Thay đổi hoặc chọn hàng của phần trên cùng cho dữ liệu nguồn của bạn",
+      "title": "Phần trên cùng của bản đồ"
     },
     "sheetSelection": {
       "cannotLoadFile": "Không thể tải tệp lên: {{fileName}}",
@@ -544,6 +552,7 @@
       "importFromHeading": "Chọn một trang tính để tải dữ liệu từ đó",
       "importToHeading": "Chọn một trang tính để nhập dữ liệu này vào",
       "lastUpdated": "Cập nhật lần cuối {{date}}",
+      "lastUpdatedDateFormat": "dd-mm-yyyy",
       "records_other": "{{count}} bản ghi",
       "records_zero": "{{count}} bản ghi",
       "sheetHasNoData": "Không có dữ liệu",

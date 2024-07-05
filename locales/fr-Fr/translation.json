@@ -342,6 +342,7 @@
             "success": "{{jobName}} s'est exécuté avec succès sur {{resourceName}}"
           },
           "defaultRetryLabel": "Réessayer",
+          "defaultUrlLabel": "Consulter la page Web externe",
           "defaultViewLabel": "  Mettre à jour l'affichage",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continuer"
@@ -537,10 +538,17 @@
         "progressPill": {
           "text": "{{totalIncomingMapped}} sur {{totalIncomingFields}}",
           "tooltip": "Vous avez cartographié {{mappedIncomingFields}} champs de votre jeu de données sur {{totalIncomingFields}} vers la feuille cible"
+        },
+        "selectHeaders": {
+          "tooltip": "Modifier les champs entrants"
         }
       },
       "subheading": "Examinez et confirmez chaque choix de cartographie",
       "title": "Champs de la carte"
+    },
+    "mapHeaders": {
+      "subheading": "Modifier ou sélectionner la ligne d'en-tête de vos données sources",
+      "title": "En-têtes de carte"
     },
     "sheetSelection": {
       "cannotLoadFile": "Impossible de télécharger le fichier : {{fileName}}",
@@ -553,6 +561,7 @@
       "importFromHeading": "Sélectionnez une feuille à partir de laquelle vous souhaitez charger des données",
       "importToHeading": "Sélectionnez une feuille dans laquelle importer ces données",
       "lastUpdated": "Dernière mise à jour le {{date}}",
+      "lastUpdatedDateFormat": "aaaa-mm-jj",
       "records_one": "Un enregistrement",
       "records_other": "{{count}} enregistrements",
       "records_zero": "{{count}} enregistrements",

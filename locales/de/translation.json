@@ -343,6 +343,7 @@
             "success": "{{jobName}} lief erfolgreich auf {{resourceName}}"
           },
           "defaultRetryLabel": "Wiederholen",
+          "defaultUrlLabel": "Besuchen Sie eine externe Webseite",
           "defaultViewLabel": "  Ansicht aktualisieren",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Weiter"
@@ -538,10 +539,17 @@
         "progressPill": {
           "text": "{{totalIncomingMapped}} von {{totalIncomingFields}}",
           "tooltip": "Sie haben {{mappedIncomingFields}} der {{totalIncomingFields}} Felder in Ihrem Datensatz dem Zielblatt zugeordnet."
+        },
+        "selectHeaders": {
+          "tooltip": "Eingehende Felder bearbeiten"
         }
       },
       "subheading": "Überprüfen und bestätigen Sie jede Mapping-Auswahl.",
       "title": "Felder zuordnen"
+    },
+    "mapHeaders": {
+      "subheading": "Ändern oder wählen Sie eine Kopfzeile für Ihre Quelldaten",
+      "title": "Kopfzeilen zuordnen"
     },
     "sheetSelection": {
       "cannotLoadFile": "Datei kann nicht hochgeladen werden: {{fileName}}",
@@ -554,6 +562,7 @@
       "importFromHeading": "Wählen Sie ein Blatt aus, aus dem Daten geladen werden sollen.",
       "importToHeading": "Wählen Sie ein Blatt aus, in das diese Daten importiert werden sollen.",
       "lastUpdated": "Zuletzt aktualisiert am: {{date}}",
+      "lastUpdatedDateFormat": "JJJJ-MM-TT",
       "records_one": "1 Datensatz\n",
       "records_other": "{{count}} Datensätze\n",
       "records_zero": "{{count}} Datensätze",

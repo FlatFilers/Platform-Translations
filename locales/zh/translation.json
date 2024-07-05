@@ -337,6 +337,7 @@
             "success": "{{jobName}} 在 {{resourceName}} 上成功运行"
           },
           "defaultRetryLabel": "重试",
+          "defaultUrlLabel": "访问外部网页",
           "defaultViewLabel": "  更新视图",
           "permanentOutcomeModal": {
             "defaultContinueButton": "继续"
@@ -530,10 +531,17 @@
         "progressPill": {
           "text": "{{totalIncomingMapped}} / {{totalIncomingFields}}",
           "tooltip": "你已将数据集中 {{totalIncomingFields}} 字段中的 {{mappedIncomingFields}} 映射到目标表格"
+        },
+        "selectHeaders": {
+          "tooltip": "编辑输入字段"
         }
       },
       "subheading": "检查并确认每个映射选择",
       "title": "映射字段"
+    },
+    "mapHeaders": {
+      "subheading": "更改或选择源数据的标题行",
+      "title": "映射标题"
     },
     "sheetSelection": {
       "cannotLoadFile": "无法上传文件：{{fileName}}",
@@ -544,6 +552,7 @@
       "importFromHeading": "选择表格以从中加载数据",
       "importToHeading": "选择表格以将该数据导入表格",
       "lastUpdated": "上次更新 {{date}}",
+      "lastUpdatedDateFormat": "yyyy-mm-dd",
       "records_other": "{{count}} 个记录",
       "records_zero": "{{count}} 个记录",
       "sheetHasNoData": "没有数据",
