@@ -625,10 +625,6 @@
         "description": "Has ocultado todas las columnas.",
         "heading": "¡Nada para ver!"
       },
-      "noSheetError": {
-        "description": "Parece que esta hoja no existe.",
-        "heading": "No se ha encontrado la hoja"
-      },
       "readOnly": {
         "description": "Las hojas que no aceptan nuevas filas o ediciones suelen recibir datos rellenados dinámicamente. No hay ninguna acción que puedas tomar en este momento.",
         "heading": "En espera de los datos"

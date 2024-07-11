@@ -625,10 +625,6 @@
         "description": "Hai nascosto dalla visuale tutte le colonne",
         "heading": "Niente da vedere!"
       },
-      "noSheetError": {
-        "description": "Questo foglio non sembra esistere.",
-        "heading": "Foglio non trovato"
-      },
       "readOnly": {
         "description": "I fogli che non accettano nuove righe e/o modifiche ricevono comunemente dati popolati dinamicamente. Non c'è azione che puoi intraprendere in questo momento.",
         "heading": "In attesa di dati"

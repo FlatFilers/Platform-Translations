@@ -625,10 +625,6 @@
         "description": "Você ocultou todas as colunas da visualização.",
         "heading": "Nada para visualizar!"
       },
-      "noSheetError": {
-        "description": "Essa planilha não parece existir.",
-        "heading": "Planilha não encontrada"
-      },
       "readOnly": {
         "description": "As planilhas que não aceitam novas linhas e/ou edições costumam receber dados preenchidos de forma dinâmica. Você não pode realizar nenhuma ação no momento.",
         "heading": "Aguardando dados"

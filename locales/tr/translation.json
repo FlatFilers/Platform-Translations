@@ -625,10 +625,6 @@
         "description": "Tüm sütunları görünümden gizledin.",
         "heading": "Görecek hiçbir şey yok!"
       },
-      "noSheetError": {
-        "description": "Bu çalışma sayfası mevcut gibi gözükmüyor.",
-        "heading": "Çalışma sayfası bulunamadı"
-      },
       "readOnly": {
         "description": "Yeni satırları ve/veya düzenlemeleri kabul etmeyen çalışma sayfaları genellikle dinamik olarak doldurulmuş veri alır. Şu an yapabileceğiniz bir eylem bulunmamaktadır.",
         "heading": "Veri bekleniyor"

@@ -625,10 +625,6 @@
         "description": "Escondeu todas as colunas.",
         "heading": "Nada para ver!"
       },
-      "noSheetError": {
-        "description": "Parece que esta folha não existe.",
-        "heading": "Folha não encontrada"
-      },
       "readOnly": {
         "description": "As folhas que não aceitam novas linhas e/ou edições recebem normalmente dados preenchidos de forma dinâmica. Não é necessário tomar ações neste momento.",
         "heading": "A aguardar por dados"

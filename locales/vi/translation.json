@@ -609,10 +609,6 @@
         "description": "Bạn đã ẩn đi mọi cột.",
         "heading": "Không có dữ liệu!"
       },
-      "noSheetError": {
-        "description": "Trang tính này dường như không tồn tại.",
-        "heading": "Không tìm thấy trang tính"
-      },
       "readOnly": {
         "description": "Các trang tính không chấp nhận hàng mới và/hoặc các chỉnh sửa thường nhận được dữ liệu được điền động. Bạn không thể thực hiện hành động nào vào lúc này.",
         "heading": "Đang chờ dữ liệu"

@@ -609,10 +609,6 @@
         "description": "Anda telah menyembunyikan semua kolom dari pandangan.",
         "heading": "Tak ada yang dapat dilihat!"
       },
-      "noSheetError": {
-        "description": "Lembar ini sepertinya tidak ada.",
-        "heading": "Lembar tidak ditemukan"
-      },
       "readOnly": {
         "description": "Lembar yang tidak menerima baris baru dan/atau pengeditan biasanya menerima data yang diisi secara dinamis. Tidak ada tindakan yang dapat Anda ambil saat ini.",
         "heading": "Menunggu data"

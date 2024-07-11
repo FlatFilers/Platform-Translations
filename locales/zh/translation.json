@@ -609,10 +609,6 @@
         "description": "您已从视图中隐藏了所有列。",
         "heading": "没有可查看的内容！"
       },
-      "noSheetError": {
-        "description": "此工作表似乎不存在。",
-        "heading": "未找到工作表"
-      },
       "readOnly": {
         "description": "不接受新行和/或编辑的工作表通常会接收动态填充的数据。目前您无法进行任何操作。",
         "heading": "等待数据"

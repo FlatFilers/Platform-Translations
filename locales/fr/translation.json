@@ -625,10 +625,6 @@
         "description": "Vous avez masqué toutes les colonnes.",
         "heading": "Rien à afficher !"
       },
-      "noSheetError": {
-        "description": "Cette feuille ne semble pas exister.",
-        "heading": "Feuille non trouvée"
-      },
       "readOnly": {
         "description": "Les feuilles qui n'acceptent pas de nouvelles lignes ou de modifications reçoivent généralement des données alimentées de manière dynamique. Vous ne pouvez rien faire pour l'instant.",
         "heading": "En attente de données"
