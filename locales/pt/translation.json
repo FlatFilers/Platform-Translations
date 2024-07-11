@@ -553,6 +553,7 @@
     },
     "sheetSelection": {
       "cannotLoadFile": "Não foi possível carregar o ficheiro: {{fileName}}",
+      "cannotStartMapping": "Não é possível continuar com o mapeamento - {{reason}} - Tente novamente",
       "columns_one": "1 coluna",
       "columns_other": "{{count}} colunas",
       "columns_zero": "{{count}} colunas",

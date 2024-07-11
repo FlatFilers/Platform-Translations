@@ -553,6 +553,7 @@
     },
     "sheetSelection": {
       "cannotLoadFile": "Impossível fazer upload de arquivo: {{fileName}}",
+      "cannotStartMapping": "Não foi possível continuar o mapeamento - {{reason}} - Tente novamente",
       "columns_one": "1 coluna",
       "columns_other": "{{count}}\ncolunas",
       "columns_zero": "{{count}}\ncolunas",

@@ -552,6 +552,7 @@
     },
     "sheetSelection": {
       "cannotLoadFile": "Impossible de télécharger le fichier : {{fileName}}",
+      "cannotStartMapping": "Impossible de continuer le mappage – {{reason}} – Veuillez réessayer",
       "columns_one": "Une colonne",
       "columns_other": "{{count}} colonnes",
       "columns_zero": "{{count}} colonnes",

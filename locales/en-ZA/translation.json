@@ -552,6 +552,7 @@
     },
     "sheetSelection": {
       "cannotLoadFile": "Unable to upload file: {{fileName}}",
+      "cannotStartMapping": "Unable to continue to mapping - {{reason}} - Please try again",
       "columns_one": "1 column",
       "columns_other": "{{count}} columns",
       "columns_zero": "{{count}} columns",

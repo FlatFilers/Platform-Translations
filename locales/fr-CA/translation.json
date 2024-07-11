@@ -552,6 +552,7 @@
     },
     "sheetSelection": {
       "cannotLoadFile": "Impossible de télécharger le fichier : {{fileName}}",
+      "cannotStartMapping": "Impossible de poursuivre la schématisation - {{reason}} - Veuillez réessayer.",
       "columns_one": "1 colonne",
       "columns_other": "{{count}} colonnes",
       "columns_zero": "{{count}} colonnes",

@@ -553,6 +553,7 @@
     },
     "sheetSelection": {
       "cannotLoadFile": "Dosya yüklenemiyor: {{fileName}}",
+      "cannotStartMapping": "Haritalamaya devam edilemiyor - {{reason}} - Lütfen tekrar deneyin",
       "columns_one": "1 sütun",
       "columns_other": "{{count}} sütunlar",
       "columns_zero": "{{count}} sütunlar",

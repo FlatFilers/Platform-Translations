@@ -545,6 +545,7 @@
     },
     "sheetSelection": {
       "cannotLoadFile": "파일 업로드 불가: {{fileName}}",
+      "cannotStartMapping": "매핑을 계속할 수 없습니다 - {{reason}} - 다시 시도해 주세요",
       "columns_other": "{{count}}개의 열",
       "columns_zero": "{{count}}개의 열",
       "errors_other": "\t\n{{count}}개의 오류",

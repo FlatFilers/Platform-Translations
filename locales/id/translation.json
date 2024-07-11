@@ -545,6 +545,7 @@
     },
     "sheetSelection": {
       "cannotLoadFile": "Tidak dapat mengunggah file: {{fileName}}",
+      "cannotStartMapping": "Tidak dapat melanjutkan ke pemetaan - {{reason}} - Harap mencoba lagi",
       "columns_other": "{{count}} kolom",
       "columns_zero": "{{count}} kolom",
       "errors_other": "{{count}} kesalahan",

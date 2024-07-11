@@ -553,6 +553,7 @@
     },
     "sheetSelection": {
       "cannotLoadFile": "Datei kann nicht hochgeladen werden: {{fileName}}",
+      "cannotStartMapping": "Das Mapping kann nicht fortgesetzt werden - {{reason}} - Bitte versuchen Sie es erneut",
       "columns_one": "1 Spalte\n",
       "columns_other": "{{count}} Spalten\n",
       "columns_zero": "{{count}} Spalten\n",

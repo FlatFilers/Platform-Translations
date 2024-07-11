@@ -553,6 +553,7 @@
     },
     "sheetSelection": {
       "cannotLoadFile": "No se puede subir el archivo: {{fileName}}",
+      "cannotStartMapping": "No se puede continuar con la asignación - {{reason}} - Inténtelo de nuevo",
       "columns_one": "1 columna",
       "columns_other": "{{count}} columnas",
       "columns_zero": "{{count}} columnas",

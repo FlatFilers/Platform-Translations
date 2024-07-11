@@ -545,6 +545,7 @@
     },
     "sheetSelection": {
       "cannotLoadFile": "Không thể tải tệp lên: {{fileName}}",
+      "cannotStartMapping": "Không thể tiếp tục lập sơ đồ - {{reason}} - Vui lòng thử lại",
       "columns_other": "{{count}} cột",
       "columns_zero": "{{count}} cột",
       "errors_other": "{{count}} lỗi",

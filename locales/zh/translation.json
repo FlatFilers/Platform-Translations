@@ -545,6 +545,7 @@
     },
     "sheetSelection": {
       "cannotLoadFile": "无法上传文件：{{fileName}}",
+      "cannotStartMapping": "无法继续映射 - {{reason}} - 请重试",
       "columns_other": "{{count}} 个列",
       "columns_zero": "{{count}} 个列",
       "errors_other": "{{count}} 个错误",

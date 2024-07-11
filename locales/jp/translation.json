@@ -545,6 +545,7 @@
     },
     "sheetSelection": {
       "cannotLoadFile": "以下のファイルをアップロードできません：{{fileName}}",
+      "cannotStartMapping": "マッピングに進めません - {{reason}} - もう一度お試しください",
       "columns_other": "{{count}}列",
       "columns_zero": "{{count}}列",
       "errors_other": "{{count}}エラー",
