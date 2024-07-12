@@ -481,7 +481,9 @@
     "headerButtons": {
       "back": "Back",
       "exit": "Exit",
-      "next": "Continue"
+      "next": "Continue",
+      "complete": "Complete",
+      "headers": "Choose headers"
     },
     "mapEnums": {
       "destinationFields": {
