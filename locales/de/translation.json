@@ -486,7 +486,9 @@
     },
     "headerButtons": {
       "back": "Zurück",
+      "complete": "Vollständig",
       "exit": "Beenden",
+      "headers": "Kopfzeilen auswählen",
       "next": "Weiter"
     },
     "mapEnums": {
@@ -621,9 +623,18 @@
       },
       "heading": "Fangen wir an",
       "manualEntry": "Daten manuell eingeben",
+      "missingSheet": {
+        "buttonLabel": "Zurück zum ersten Tabellenblatt",
+        "description": "Das Tabellenblatt, auf das Sie zuzugreifen versuchen, wurde gelöscht oder existiert nicht.",
+        "heading": "Tabellenblatt nicht gefunden"
+      },
       "noColumns": {
         "description": "Alle Spalten wurden verborgen.",
         "heading": "Hier gibt es nichts zu sehen!"
+      },
+      "noSheetError": {
+        "description": "Dieses Blatt scheint nicht zu existieren.",
+        "heading": "Blatt nicht gefunden"
       },
       "readOnly": {
         "description": "Blätter, die keine neuen Zeilen und/oder Bearbeitungen zulassen, erhalten in der Regel dynamisch aufgefüllte Daten. Zu diesem Zeitpunkt können Sie keine Maßnahmen ergreifen.",

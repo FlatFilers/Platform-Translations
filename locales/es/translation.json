@@ -486,7 +486,9 @@
     },
     "headerButtons": {
       "back": "Atrás",
+      "complete": "Completar",
       "exit": "Salir",
+      "headers": "Elegir cabeceros",
       "next": "Continuar"
     },
     "mapEnums": {
@@ -621,9 +623,18 @@
       },
       "heading": "Comencemos",
       "manualEntry": "Introducir datos manualmente",
+      "missingSheet": {
+        "buttonLabel": "Volver a la hoja principal",
+        "description": "La hoja a la que estás intentando acceder se ha eliminado o no existe.",
+        "heading": "No se ha encontrado la hoja"
+      },
       "noColumns": {
         "description": "Has ocultado todas las columnas.",
         "heading": "¡Nada para ver!"
+      },
+      "noSheetError": {
+        "description": "Parece que esta hoja no existe.",
+        "heading": "No se ha encontrado la hoja"
       },
       "readOnly": {
         "description": "Las hojas que no aceptan nuevas filas o ediciones suelen recibir datos rellenados dinámicamente. No hay ninguna acción que puedas tomar en este momento.",

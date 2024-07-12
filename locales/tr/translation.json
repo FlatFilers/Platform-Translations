@@ -486,7 +486,9 @@
     },
     "headerButtons": {
       "back": "Geri",
+      "complete": "Tamamla",
       "exit": "Çık",
+      "headers": "Başlıkları seç",
       "next": "Devam et"
     },
     "mapEnums": {
@@ -621,9 +623,18 @@
       },
       "heading": "Haydi başlayalım",
       "manualEntry": "Verileri manuel olarak gir",
+      "missingSheet": {
+        "buttonLabel": "Ana sayfaya dön",
+        "description": "Erişmeye çalıştığınız sayfa silinmiş veya mevcut değil.",
+        "heading": "Sayfa bulunamadı"
+      },
       "noColumns": {
         "description": "Tüm sütunları görünümden gizledin.",
         "heading": "Görecek hiçbir şey yok!"
+      },
+      "noSheetError": {
+        "description": "Bu çalışma sayfası mevcut gibi gözükmüyor.",
+        "heading": "Çalışma sayfası bulunamadı"
       },
       "readOnly": {
         "description": "Yeni satırları ve/veya düzenlemeleri kabul etmeyen çalışma sayfaları genellikle dinamik olarak doldurulmuş veri alır. Şu an yapabileceğiniz bir eylem bulunmamaktadır.",

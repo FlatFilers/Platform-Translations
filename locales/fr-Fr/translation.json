@@ -485,7 +485,9 @@
     },
     "headerButtons": {
       "back": "Retour",
+      "complete": "Compléter",
       "exit": "Quitter",
+      "headers": "Sélectionner les en-têtes",
       "next": "Continuer"
     },
     "mapEnums": {
@@ -620,9 +622,18 @@
       },
       "heading": "Commençons",
       "manualEntry": "Saisir les données manuellement",
+      "missingSheet": {
+        "buttonLabel": "Retour à la feuille principale",
+        "description": "La feuille à laquelle vous tentez d'accéder a été supprimée ou n'existe pas.",
+        "heading": "Feuille introuvable"
+      },
       "noColumns": {
         "description": "Vous avez masqué toutes les colonnes.",
         "heading": "Rien à voir !"
+      },
+      "noSheetError": {
+        "description": "Cette feuille paraît inexistante.",
+        "heading": "Feuille introuvable"
       },
       "readOnly": {
         "description": "Les feuilles ne permettant pas l'ajout de nouvelles lignes ou la modification de données reçoivent généralement des données alimentées de manière dynamique. À ce stade, aucune mesure n'est requise de votre part.",

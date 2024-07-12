@@ -480,7 +480,9 @@
     },
     "headerButtons": {
       "back": "戻る",
+      "complete": "完了",
       "exit": "終了",
+      "headers": "ヘッダーを選択",
       "next": "続行"
     },
     "mapEnums": {
@@ -605,9 +607,18 @@
       },
       "heading": "始めましょう",
       "manualEntry": "データを手動で入力する",
+      "missingSheet": {
+        "buttonLabel": "メインシートに戻る",
+        "description": "アクセスしようとしているシートは削除されているか、存在しません。",
+        "heading": "シートが見つかりません"
+      },
       "noColumns": {
         "description": "すべての列を非表示にしました。",
         "heading": "見るべきものは何もありません！"
+      },
+      "noSheetError": {
+        "description": "このシートは存在しないようです。",
+        "heading": "シートが見つかりません"
       },
       "readOnly": {
         "description": "新しい行や編集を受け入れないシートは、通常、動的に入力されたデータを受け取ります。現時点では実行できるアクションはありません。",

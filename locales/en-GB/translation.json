@@ -485,7 +485,9 @@
     },
     "headerButtons": {
       "back": "Back",
+      "complete": "Complete",
       "exit": "Exit",
+      "headers": "Choose headers",
       "next": "Continue"
     },
     "mapEnums": {
@@ -620,9 +622,18 @@
       },
       "heading": "Let's get started",
       "manualEntry": "Manually enter data",
+      "missingSheet": {
+        "buttonLabel": "Return to main sheet",
+        "description": "The sheet you are attempting to access has been deleted or does not exist.",
+        "heading": "Sheet not found"
+      },
       "noColumns": {
         "description": "You've hidden all columns from view.",
         "heading": "Nothing to see!"
+      },
+      "noSheetError": {
+        "description": "This sheet doesn't seem to exist.",
+        "heading": "Sheet not found"
       },
       "readOnly": {
         "description": "Sheets that don't accept new rows and/or edits commonly receive dynamically populated data. There is no action you can take at this time.",

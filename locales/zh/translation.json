@@ -480,7 +480,9 @@
     },
     "headerButtons": {
       "back": "后退",
+      "complete": "完成",
       "exit": "退出",
+      "headers": "选择标题",
       "next": "继续"
     },
     "mapEnums": {
@@ -605,9 +607,18 @@
       },
       "heading": "开始吧",
       "manualEntry": "手动输入数据",
+      "missingSheet": {
+        "buttonLabel": "返回主工作表",
+        "description": "您尝试访问的工作表已被删除或不存在。",
+        "heading": "未找到工作表"
+      },
       "noColumns": {
         "description": "您已从视图中隐藏了所有列。",
         "heading": "没有可查看的内容！"
+      },
+      "noSheetError": {
+        "description": "此工作表似乎不存在。",
+        "heading": "未找到工作表"
       },
       "readOnly": {
         "description": "不接受新行和/或编辑的工作表通常会接收动态填充的数据。目前您无法进行任何操作。",

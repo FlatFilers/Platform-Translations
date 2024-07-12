@@ -480,7 +480,9 @@
     },
     "headerButtons": {
       "back": "Quay lại",
+      "complete": "Hoàn tất",
       "exit": "Thoát",
+      "headers": "Chọn phần đầu trang",
       "next": "Tiếp tục"
     },
     "mapEnums": {
@@ -605,9 +607,18 @@
       },
       "heading": "Bắt đầu thôi",
       "manualEntry": "Nhập dữ liệu thủ công",
+      "missingSheet": {
+        "buttonLabel": "Quay lại trang tính chính",
+        "description": "Trang tính bạn đang cố truy cập đã bị xóa hoặc không tồn tại.",
+        "heading": "Không tìm thấy trang tính"
+      },
       "noColumns": {
         "description": "Bạn đã ẩn đi mọi cột.",
         "heading": "Không có dữ liệu!"
+      },
+      "noSheetError": {
+        "description": "Trang tính này dường như không tồn tại.",
+        "heading": "Không tìm thấy trang tính"
       },
       "readOnly": {
         "description": "Các trang tính không chấp nhận hàng mới và/hoặc các chỉnh sửa thường nhận được dữ liệu được điền động. Bạn không thể thực hiện hành động nào vào lúc này.",

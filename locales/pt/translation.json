@@ -486,7 +486,9 @@
     },
     "headerButtons": {
       "back": "Anterior",
+      "complete": "Concluído(a)",
       "exit": "Sair",
+      "headers": "Escolha os cabeçalhos",
       "next": "Continuar"
     },
     "mapEnums": {
@@ -621,9 +623,18 @@
       },
       "heading": "Vamos começar",
       "manualEntry": "Introduzir dados manualmente",
+      "missingSheet": {
+        "buttonLabel": "Regressar a folha de cálculo principal",
+        "description": "A folha de cálculo a que está a tentar aceder foi eliminada ou não existe.",
+        "heading": "Folha de cálculo não encontrada"
+      },
       "noColumns": {
         "description": "Escondeu todas as colunas.",
         "heading": "Nada para ver!"
+      },
+      "noSheetError": {
+        "description": "Parece que esta folha não existe.",
+        "heading": "Folha não encontrada"
       },
       "readOnly": {
         "description": "As folhas que não aceitam novas linhas e/ou edições recebem normalmente dados preenchidos de forma dinâmica. Não é necessário tomar ações neste momento.",

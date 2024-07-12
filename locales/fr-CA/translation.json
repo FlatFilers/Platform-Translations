@@ -485,7 +485,9 @@
     },
     "headerButtons": {
       "back": "Retour",
+      "complete": "Terminer",
       "exit": "Quitter",
+      "headers": "Choisir les en-têtes",
       "next": "Continuer"
     },
     "mapEnums": {
@@ -620,9 +622,18 @@
       },
       "heading": "Commençons",
       "manualEntry": "Saisie manuelle des données",
+      "missingSheet": {
+        "buttonLabel": "Retour à la feuille de calcul principale",
+        "description": "La feuille de calcul à laquelle vous essayez d'accéder a été supprimée ou n'existe pas.",
+        "heading": "Feuille de calcul non trouvée"
+      },
       "noColumns": {
         "description": "Vous avez masqué toutes les colonnes.",
         "heading": "Rien à voir!"
+      },
+      "noSheetError": {
+        "description": "Cette feuille ne semble pas exister.",
+        "heading": "Feuille non trouvée"
       },
       "readOnly": {
         "description": "Les feuilles qui n’acceptent pas de nouvelles lignes et/ou de modifications reçoivent généralement des données alimentées de manière dynamique. Il n’y a aucune mesure à prendre pour l’instant.",
