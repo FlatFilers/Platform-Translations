@@ -303,6 +303,19 @@
       "heading": "检查收件箱"
     }
   },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "你确定要退出吗？",
+        "primaryButtonText": "是的，退出",
+        "secondaryButtonText": "不，留下",
+        "title": "关闭"
+      },
+      "errorModal": {
+        "title": "出了些问题"
+      }
+    }
+  },
   "jobs": {
     "customActions": {
       "modals": {

@@ -308,6 +308,19 @@
       "heading": "Check your inbox"
     }
   },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "Are you sure you would like to close this window? This will end your current data import session.",
+        "primaryButtonText": "Yes, exit",
+        "secondaryButtonText": "No, stay",
+        "title": "Close Window"
+      },
+      "errorModal": {
+        "title": "Something went wrong"
+      }
+    }
+  },
   "jobs": {
     "customActions": {
       "modals": {
