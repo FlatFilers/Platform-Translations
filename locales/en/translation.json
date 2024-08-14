@@ -290,6 +290,7 @@
         "uploadedDate": "Uploaded"
       },
       "importButton": "Import",
+      "importError": "Unable to locate source file to import - Please try again. If the issue persists, please contact support.",
       "tooltips": {
         "cannotImport": "Importing to a workbook is not currently available for this file",
         "noExtension": "This file doesn't have an extension. Add the correct file extension to the file name and reupload the file to import it into a workbook"
@@ -1031,6 +1032,7 @@
     },
     "emptyWorkbook": "Empty workbook",
     "files": "Files",
+    "lockedIconTooltip": "This Sheet is locked",
     "readOnlyIconTooltip": "This Sheet is read-only",
     "spaceSwitcher": {
       "placeholder": "Search or select a Space..."
