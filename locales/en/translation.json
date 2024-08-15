@@ -911,6 +911,7 @@
         "disabledTooltip": {
           "hasData": "This action will be available once there is at least one record in this Sheet.",
           "requireAllValid": "This action requires all selected rows to be valid",
+          "requireAllValidTotal": "This action requires all rows to be valid",
           "requireSelection": "Please select one or more records to use this action"
         }
       },
