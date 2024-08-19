@@ -296,6 +296,7 @@
         "uploadedDate": "Téléchargé"
       },
       "importButton": "Importer",
+      "importError": "Impossible de localiser le fichier source à importer - Veuillez réessayer. Si le problème persiste, veuillez contacter l'assistance.",
       "tooltips": {
         "cannotImport": "L'importation dans un classeur n'est pas actuellement disponible pour ce fichier.",
         "noExtension": "Ce fichier n'a pas d'extension. Ajoutez l'extension correcte au nom du fichier et téléchargez à nouveau le fichier pour l'importer dans un classeur."
@@ -307,6 +308,19 @@
       "content": "Nous avons envoyé un lien d'accès sécurisé à",
       "finePrint": "Si vous avez du mal à trouver le mail, consultez votre dossier Spam ou actualisez cette page pour envoyer un autre lien. Ce lien sera actif pendant 5 minutes.",
       "heading": "Vérifier votre boîte mail"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "Êtes-vous sûr de vouloir fermer cette fenêtre ? Cela mettra fin à la session d'importation de données en cours.",
+        "primaryButtonText": "Oui, quitter",
+        "secondaryButtonText": "Non, rester",
+        "title": "Fermer la fenêtre"
+      },
+      "errorModal": {
+        "title": "Quelque chose n'a pas fonctionné"
+      }
     }
   },
   "jobs": {
@@ -922,6 +936,7 @@
         "disabledTooltip": {
           "hasData": "Cette action sera disponible dès lors qu'il y aura au moins un enregistrement sur cette feuille.",
           "requireAllValid": "Cette action nécessite que toutes les lignes sélectionnées soient valides",
+          "requireAllValidTotal": "Cette action exige que toutes les lignes soient valides",
           "requireSelection": "Veuillez sélectionner au moins un enregistrement pour utiliser cette action"
         }
       },
@@ -1043,6 +1058,7 @@
     },
     "emptyWorkbook": "Classeur vide",
     "files": "Fichiers",
+    "lockedIconTooltip": "Cette feuille est verrouillée",
     "readOnlyIconTooltip": "Cette feuille est en lecture seule",
     "spaceSwitcher": {
       "placeholder": "Rechercher ou sélectionner un espace..."

@@ -296,6 +296,7 @@
         "uploadedDate": "Carregado"
       },
       "importButton": "Importar",
+      "importError": "Não foi possível localizar o ficheiro de origem para importar - tente novamente. Se o problema persistir, contacte o apoio técnico.",
       "tooltips": {
         "cannotImport": "A importação para um livro de trabalho não está atualmente disponível para este ficheiro",
         "noExtension": "Este ficheiro não tem uma extensão. Adicione a extensão de ficheiro correta ao nome do ficheiro e volte a carregar o ficheiro para o importar para um livro de trabalho"
@@ -307,6 +308,19 @@
       "content": "Enviamos um link de acesso seguro para",
       "finePrint": "Se tiver problemas em localizar o email, consulte a sua pasta de spam ou atualize esta página para enviar outro link de acesso. O link irá funcionar durante 5 minutos.",
       "heading": "Consulte a sua caixa de entrada"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "Tem a certeza de que pretende fechar esta janela? Isto irá terminar a sua sessão de importação de dados atual.",
+        "primaryButtonText": "Sim, sair",
+        "secondaryButtonText": "Não, ficar",
+        "title": "Fechar Janela"
+      },
+      "errorModal": {
+        "title": "Algo correu mal"
+      }
     }
   },
   "jobs": {
@@ -922,6 +936,7 @@
         "disabledTooltip": {
           "hasData": "Esta ação estará disponível assim que houver pelo menos um registo nesta Folha.",
           "requireAllValid": "Esta ação requer que todas as linhas selecionadas sejam válidas",
+          "requireAllValidTotal": "Esta ação requer que todas as linhas sejam válidas",
           "requireSelection": "Selecione um ou mais registos para usar esta ação"
         }
       },
@@ -1043,6 +1058,7 @@
     },
     "emptyWorkbook": "Pasta de trabalho vazia",
     "files": "Ficheiros",
+    "lockedIconTooltip": "Esta folha de cálculo está bloqueada",
     "readOnlyIconTooltip": "Esta lista é apenas para leitura",
     "spaceSwitcher": {
       "placeholder": "Pesquisar ou selecionar um Espaço..."

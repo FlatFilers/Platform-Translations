@@ -295,6 +295,7 @@
         "uploadedDate": "Téléchargés"
       },
       "importButton": "Importer",
+      "importError": "Impossible de localiser le fichier source à importer. Veuillez réessayer. Si le problème persiste, veuillez contacter l'assistance.",
       "tooltips": {
         "cannotImport": "L'importation dans un tableur n'est pas actuellement disponible pour ce fichier.",
         "noExtension": "Ce fichier n'a pas d'extension. Ajoutez la bonne extension au nom du fichier et téléchargez à nouveau le fichier pour l'importer dans un tableur."
@@ -306,6 +307,19 @@
       "content": "Nous avons envoyé un lien d'accès sécurisé à",
       "finePrint": "Si vous ne parvenez pas à localiser l'e-mail, vérifiez votre dossier spam ou actualisez cette page pour recevoir un autre lien d'accès. Le lien sera fonctionnel pendant cinq minutes.",
       "heading": "Vérifiez votre boîte de réception"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "Voulez-vous vraiment fermer cette fenêtre ? Cela mettra fin à la session d'importation de données en cours.",
+        "primaryButtonText": "Oui, quitter",
+        "secondaryButtonText": "Non, rester",
+        "title": "Fermer la fenêtre"
+      },
+      "errorModal": {
+        "title": "Une erreur s'est produite"
+      }
     }
   },
   "jobs": {
@@ -921,6 +935,7 @@
         "disabledTooltip": {
           "hasData": "Cette action sera disponible dès qu'il y aura au moins un enregistrement dans cette feuille.",
           "requireAllValid": "Cette action nécessite que toutes les lignes sélectionnées soient valides.",
+          "requireAllValidTotal": "Cette action exige que toutes les lignes soient valides",
           "requireSelection": "Veuillez sélectionner un ou plusieurs enregistrements pour utiliser cette action."
         }
       },
@@ -1042,6 +1057,7 @@
     },
     "emptyWorkbook": "Manuel de travail vide",
     "files": "Fichiers",
+    "lockedIconTooltip": "Cette feuille est verrouillée",
     "readOnlyIconTooltip": "Cette feuille est en lecture seule",
     "spaceSwitcher": {
       "placeholder": "Rechercher ou sélectionner un espace..."

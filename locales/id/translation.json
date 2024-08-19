@@ -290,6 +290,7 @@
         "uploadedDate": "Diunggah"
       },
       "importButton": "Impor",
+      "importError": "Tidak dapat menemukan file sumber untuk diimpor - Harap coba lagi. Jika ini terus terjadi, silakan hubungi tim dukungan.",
       "tooltips": {
         "cannotImport": "Mengimpor ke buku kerja saat ini tidak tersedia untuk berkas ini",
         "noExtension": "Berkas ini tidak memiliki ekstensi. Tambahkan ekstensi berkas yang benar ke nama berkas tersebut dan unggah ulang berkas tersebut untuk mengimpornya ke buku kerja"
@@ -301,6 +302,19 @@
       "content": "Kami telah mengirimkan tautan akses aman ke",
       "finePrint": "Jika Anda kesulitan menemukan surel tersebut, periksa folder spam Anda atau segarkan halaman ini untuk mengirimkan tautan akses lain. Tautan akan berfungsi selama 5 menit.",
       "heading": "Periksa kotak masuk Anda"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "Anda yakin ingin menutup jendela ini? Ini akan mengakhiri sesi impor data Anda saat ini.",
+        "primaryButtonText": "Ya, keluar",
+        "secondaryButtonText": "Tidak, tetap di sini",
+        "title": "Tutup Jendela"
+      },
+      "errorModal": {
+        "title": "Ada yang tidak beres"
+      }
     }
   },
   "jobs": {
@@ -896,6 +910,7 @@
         "disabledTooltip": {
           "hasData": "Tindakan ini akan tersedia setelah ada setidaknya satu catatan di Lembar ini.",
           "requireAllValid": "Semua baris harus valid agar tindakan ini dapat dilakukan",
+          "requireAllValidTotal": "Tindakan ini mensyaratkan semua baris harus valid",
           "requireSelection": "Silakan pilih satu catatan atau lebih untuk menggunakan tindakan ini"
         }
       },
@@ -1017,6 +1032,7 @@
     },
     "emptyWorkbook": "Workbook kosong",
     "files": "File",
+    "lockedIconTooltip": "Lembar ini dikunci",
     "readOnlyIconTooltip": "Sheet ini hanya dapat dibaca",
     "spaceSwitcher": {
       "placeholder": "Cari atau pilih suatu Ruang..."

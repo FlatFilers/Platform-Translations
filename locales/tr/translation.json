@@ -296,6 +296,7 @@
         "uploadedDate": "Yüklendi"
       },
       "importButton": "İçe aktar",
+      "importError": "İçe aktarılacak kaynak dosya bulunamıyor - Lütfen tekrar deneyin. Sorun devam ederse lütfen desteğe ulaşın.",
       "tooltips": {
         "cannotImport": "Şu anda bir çalışma kitabına aktarma işlemi bu dosya için kullanılamıyor",
         "noExtension": "Bu dosyanın uzantısı yok. Dosya adına doğru dosya uzantısını ekleyin ve bir çalışma kitabına aktarmak için dosyayı tekrar yükleyin"
@@ -307,6 +308,19 @@
       "content": "Şuraya güvenli bir erişim bağlantısı gönderdik",
       "finePrint": "E-postayı bulmakta sorun yaşıyorsanız istenmeyen posta klasörünüzü kontrol edin veya başka bir erişim bağlantısı göndermek için bu sayfayı yenileyin. Bağlantı 5 dakika boyunca çalışacaktır.",
       "heading": "Gelen kutunuzu kontrol edin"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "Bu pencereyi kapatmak istediğinizden emin misiniz? Bu, mevcut veri içe aktarma oturumunuzu sonlandıracaktır.",
+        "primaryButtonText": "Evet, çık",
+        "secondaryButtonText": "Hayır, kal",
+        "title": "Pencereyi Kapat"
+      },
+      "errorModal": {
+        "title": "Bir hata oluştu"
+      }
     }
   },
   "jobs": {
@@ -922,6 +936,7 @@
         "disabledTooltip": {
           "hasData": "Bu eylem, bu Çalışma Sayfasında en az bir kayıt olduğunda geçerli olacaktır.",
           "requireAllValid": "Bu eylem, seçili tüm satırların geçerli olmasını gerektirir",
+          "requireAllValidTotal": "Bu eylem, tüm satırların geçerli olmasını gerektirir",
           "requireSelection": "Bu eylemi kullanması için lütfen bir veya daha fazla kayıt seçin"
         }
       },
@@ -1043,6 +1058,7 @@
     },
     "emptyWorkbook": "Boş çalışma kitabı",
     "files": "Dosyalar",
+    "lockedIconTooltip": "Bu Sayfa kilitli",
     "readOnlyIconTooltip": "Bu Sayfa salt okunurdur",
     "spaceSwitcher": {
       "placeholder": "Ara veya bir Alan ara..."

@@ -296,6 +296,7 @@
         "uploadedDate": "Caricato"
       },
       "importButton": "Importa",
+      "importError": "Impossibile individuare il file di origine da importare. Riprova. Se il problema persiste, contatta l'assistenza.",
       "tooltips": {
         "cannotImport": "L’importazione di una cartella di lavoro non è al momento disponibile per questo file",
         "noExtension": "Il file non ha un’estensione. Aggiungi l’estensione corretta al nome del file e ricaricalo per importarlo nella cartella di lavoro."
@@ -307,6 +308,19 @@
       "content": "Abbiamo inviato un link di accesso sicuro a",
       "finePrint": "Se non riesci a trovare l'email, controlla la cartella spam o aggiorna questa pagina per inviare un altro link di accesso. Il link funzionerà per 5 minuti.",
       "heading": "Controlla la tua casella di posta"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "Sei sicuro di voler chiudere questa finestra? Ciò terminerà la sessione corrente di importazione dei dati.",
+        "primaryButtonText": "Sì, esci",
+        "secondaryButtonText": "No, resta",
+        "title": "Chiudi la finestra"
+      },
+      "errorModal": {
+        "title": "Qualcosa è andato storto"
+      }
     }
   },
   "jobs": {
@@ -922,6 +936,7 @@
         "disabledTooltip": {
           "hasData": "Tale azione diventerà disponibile quando ci sarà almeno un record in questo foglio.",
           "requireAllValid": "Quest'azione richiede che tutte le righe selezionate siano valide",
+          "requireAllValidTotal": "Questa azione richiede che tutte le righe siano valide",
           "requireSelection": "Seleziona una o più voci per utilizzare quest'azione"
         }
       },
@@ -1043,6 +1058,7 @@
     },
     "emptyWorkbook": "Foglio di lavoro vuoto",
     "files": "File",
+    "lockedIconTooltip": "Questo foglio è bloccato",
     "readOnlyIconTooltip": "Questo foglio è di sola lettura",
     "spaceSwitcher": {
       "placeholder": "Cerca o seleziona uno spazio..."

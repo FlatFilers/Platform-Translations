@@ -290,6 +290,7 @@
         "uploadedDate": "已上传"
       },
       "importButton": "导入",
+      "importError": "无法定位要导入的源文件——请重试。如果问题仍然存在，请联系支持团队。",
       "tooltips": {
         "cannotImport": "该文件目前无法导入到工作簿",
         "noExtension": "该文件没有扩展名。请将正确的文件扩展名添加到文件名，并重新上传文件以将其导入工作簿"
@@ -909,6 +910,7 @@
         "disabledTooltip": {
           "hasData": "此操作将在该工作表上有至少一条记录后可用。",
           "requireAllValid": "该操作要求所有选定的行都有效",
+          "requireAllValidTotal": "此操作要求所有行均有效",
           "requireSelection": "请选择一条或多条记录，以便使用该操作"
         }
       },
@@ -1030,6 +1032,7 @@
     },
     "emptyWorkbook": "空工作簿",
     "files": "文件",
+    "lockedIconTooltip": "此工作表已锁定",
     "readOnlyIconTooltip": "此工作表为只读",
     "spaceSwitcher": {
       "placeholder": "搜索或选择一个空间……"

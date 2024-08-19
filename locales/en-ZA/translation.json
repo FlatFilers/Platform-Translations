@@ -295,6 +295,7 @@
         "uploadedDate": "Uploaded"
       },
       "importButton": "Import",
+      "importError": "Unable to locate source file to import - Please try again. If the issue persists, please contact support.",
       "tooltips": {
         "cannotImport": "Importing to a workbook is not currently available for this file",
         "noExtension": "This file doesn't have an extension. Add the correct file extension to the file name and reupload the file to import it into a workbook"
@@ -934,6 +935,7 @@
         "disabledTooltip": {
           "hasData": "This action will be available once there is at least one record in this Sheet.",
           "requireAllValid": "This action requires all selected rows to be valid",
+          "requireAllValidTotal": "This action requires all rows to be valid",
           "requireSelection": "Please select one or more records to use this action"
         }
       },
@@ -1055,6 +1057,7 @@
     },
     "emptyWorkbook": "Empty workbook",
     "files": "Files",
+    "lockedIconTooltip": "This Sheet is locked",
     "readOnlyIconTooltip": "This Sheet is read-only",
     "spaceSwitcher": {
       "placeholder": "Search or select a Space..."

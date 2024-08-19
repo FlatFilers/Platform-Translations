@@ -296,6 +296,7 @@
         "uploadedDate": "Enviado"
       },
       "importButton": "Importar",
+      "importError": "Não foi possível localizar o arquivo de origem para importar. Por favor, tente novamente. Se o problema persistir, entre em contato com o suporte.",
       "tooltips": {
         "cannotImport": "A importação para uma pasta de trabalho não está disponível atualmente para este arquivo",
         "noExtension": "Este arquivo não possui extensão. Adicione a extensão de arquivo correta ao nome do arquivo e recarregue o arquivo para importá-lo para uma pasta de trabalho"
@@ -307,6 +308,19 @@
       "content": "Enviamos um link de acesso seguro para",
       "finePrint": "Se você tiver dificuldade em localizar o e-mail, verifique sua pasta de spam ou recarregue esta página para que outro link de acesso seja enviado. O link funcionará por 5 minutos.",
       "heading": "Verifique sua caixa de entrada"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "Tem certeza de que deseja fechar esta janela? Isto finalizará a sua sessão de importação de dados atual.",
+        "primaryButtonText": "Sim, sair",
+        "secondaryButtonText": "Não, ficar",
+        "title": "Fechar janela"
+      },
+      "errorModal": {
+        "title": "Ocorreu algo errado"
+      }
     }
   },
   "jobs": {
@@ -922,6 +936,7 @@
         "disabledTooltip": {
           "hasData": "Esta ação estará disponível quando houver pelo menos um registro nesta Planilha.",
           "requireAllValid": "Esta ação requer que todas as linhas selecionadas sejam válidas",
+          "requireAllValidTotal": "Esta ação requer que todas as linhas sejam válidas",
           "requireSelection": "Por favor, selecione um ou mais registros para usar esta ação"
         }
       },
@@ -1043,6 +1058,7 @@
     },
     "emptyWorkbook": "Pasta de trabalho vazia",
     "files": "Arquivos",
+    "lockedIconTooltip": "Esta Planilha está bloqueada",
     "readOnlyIconTooltip": "Esta Planilha é somente leitura",
     "spaceSwitcher": {
       "placeholder": "Pesquise ou selecione um espaço..."

@@ -296,6 +296,7 @@
         "uploadedDate": "Subido"
       },
       "importButton": "Importar",
+      "importError": "No se puede localizar el archivo de origen a importar, inténtelo de nuevo. Si el problema persiste, póngase en contacto con el servicio de asistencia.",
       "tooltips": {
         "cannotImport": "Importar a un cuaderno de trabajo no está disponible para este archivo",
         "noExtension": "El archivo no tiene extensión. Añada la extensión de archivo correcta al nombre del archivo y suba de nuevo el archivo para importarlo a un cuaderno de trabajo"
@@ -307,6 +308,19 @@
       "content": "Te hemos enviado un enlace de acceso seguro a",
       "finePrint": "Si tienes problemas para encontrar el correo electrónico, comprueba tu carpeta de correo no deseado o actualiza esta página para enviar otro vínculo de acceso. El vínculo funcionará durante 5 minutos.",
       "heading": "Comprueba tu bandeja de entrada"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "¿Estás seguro de que quieres cerrar esta ventana? Esto terminará tu sesión actual de importación de datos.",
+        "primaryButtonText": "Sí, salir",
+        "secondaryButtonText": "No, quedarse",
+        "title": "Cerrar ventana"
+      },
+      "errorModal": {
+        "title": "Algo ha salido mal"
+      }
     }
   },
   "jobs": {
@@ -922,6 +936,7 @@
         "disabledTooltip": {
           "hasData": "Esta acción estará disponible una vez que haya al menos un registro en esta hoja.",
           "requireAllValid": "Esta acción requiere que todas las filas seleccionadas sean válidas.",
+          "requireAllValidTotal": "Este proceso necesita que todas las filas sean válidas",
           "requireSelection": "Seleccione uno o más registros para acceder a esta acción."
         }
       },
@@ -1043,6 +1058,7 @@
     },
     "emptyWorkbook": "Libro de trabajo vacío",
     "files": "Archivos",
+    "lockedIconTooltip": "Esta hoja está bloqueada",
     "readOnlyIconTooltip": "Esta hoja es de solo lectura",
     "spaceSwitcher": {
       "placeholder": "Buscar o seleccionar Espacio..."

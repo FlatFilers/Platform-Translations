@@ -290,6 +290,7 @@
         "uploadedDate": "Đã tải lên"
       },
       "importButton": "Nhập",
+      "importError": "Không thể tìm thấy tập tin nguồn để nhập - Vui lòng thử lại. Nếu sự cố này vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ.",
       "tooltips": {
         "cannotImport": "Tính năng nhập vào sổ làm việc hiện không khả dụng cho tệp này",
         "noExtension": "Tệp này không có phần mở rộng. Thêm phần mở rộng tệp chính xác vào tên tệp và tải tệp lên lại để nhập tệp vào sổ làm việc"
@@ -301,6 +302,19 @@
       "content": "Chúng tôi đã gửi liên kết truy cập an toàn tới",
       "finePrint": "Nếu bạn gặp khó khăn khi tìm kiếm email, hãy kiểm tra thư mục thư rác hoặc làm mới trang này để gửi liên kết truy cập khác. Liên kết sẽ có hiệu lực trong 5 phút.",
       "heading": "Kiểm tra hộp thư đến của bạn"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "Bạn có chắc chắn muốn đóng cửa sổ này không? Thao tác này sẽ kết thúc phiên nhập dữ liệu hiện tại của bạn.",
+        "primaryButtonText": "Có, hãy thoát ra",
+        "secondaryButtonText": "Không, hãy ở lại",
+        "title": "Đóng cửa sổ"
+      },
+      "errorModal": {
+        "title": "Đã xảy ra sự cố"
+      }
     }
   },
   "jobs": {
@@ -896,6 +910,7 @@
         "disabledTooltip": {
           "hasData": "Bạn sẽ có thể thực hiện hành động này khi Bảng tính này có ít nhất một bản ghi.",
           "requireAllValid": "Hành động này đòi hỏi tất cả các hàng đã chọn phải hợp lệ",
+          "requireAllValidTotal": "Hành động này yêu cầu tất cả các hàng phải hợp lệ",
           "requireSelection": "Vui lòng chọn một hoặc nhiều bản ghi để sử dụng hành động này"
         }
       },
@@ -1017,6 +1032,7 @@
     },
     "emptyWorkbook": "Sổ làm việc trống",
     "files": "Tệp",
+    "lockedIconTooltip": "Trang tính này đã bị khóa",
     "readOnlyIconTooltip": "Trang tính này ở chế độ chỉ đọc",
     "spaceSwitcher": {
       "placeholder": "Tìm kiếm hoặc chọn một Không gian..."

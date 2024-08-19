@@ -296,6 +296,7 @@
         "uploadedDate": "Hochgeladen"
       },
       "importButton": "Importieren",
+      "importError": "Die zu importierende Quelldatei kann nicht gefunden werden – bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich bitte an den Support.",
       "tooltips": {
         "cannotImport": "Importieren in eine Arbeitsmappe ist für diese Datei zur Zeit nicht verfügbar",
         "noExtension": "Diese Datei hat keine Erweiterung. Fügen Sie dem Dateinamen die richtige Erweiterung hinzu und laden Sie die Datei erneut hoch, um sie in eine Arbeitsmappe zu importieren"
@@ -307,6 +308,19 @@
       "content": "Wir haben einen sicheren Zugangslink gesendet an",
       "finePrint": "Wenn Sie Probleme haben, die E-Mail zu finden, überprüfen Sie Ihren Spam-Ordner oder aktualisieren Sie diese Seite, um einen weiteren Zugangslink zu senden. Der Link wird 5 Minuten lang funktionieren.",
       "heading": "Prüfen Sie Ihren Posteingang"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "Möchten Sie dieses Fenster wirklich schließen? Dadurch wird die aktuelle Datenimport-Sitzung beendet.",
+        "primaryButtonText": "Ja, beenden",
+        "secondaryButtonText": "Nein, nicht schließen",
+        "title": "Fenster schließen"
+      },
+      "errorModal": {
+        "title": "Es ist ein Fehler aufgetreten"
+      }
     }
   },
   "jobs": {
@@ -922,6 +936,7 @@
         "disabledTooltip": {
           "hasData": "Diese Aktion ist verfügbar, sobald in dieser Tabelle mindestens ein Eintrag vorhanden ist.",
           "requireAllValid": "Für diese Aktion müssen alle ausgewählten Zeilen gültig sein",
+          "requireAllValidTotal": "Für diese Aktion müssen alle Zeilen gültig sein",
           "requireSelection": "Für diese Aktion bitte einen oder mehrere Einträge auswählen"
         }
       },
@@ -1043,6 +1058,7 @@
     },
     "emptyWorkbook": "Leeres Arbeitsbuch",
     "files": "Dateien",
+    "lockedIconTooltip": "Dieses Blatt ist gesperrt",
     "readOnlyIconTooltip": "Dieses Arbeitsblatt ist schreibgeschützt",
     "spaceSwitcher": {
       "placeholder": "Suchen oder wählen Sie einen Platz ..."
