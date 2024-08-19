@@ -479,6 +479,9 @@
     }
   },
   "mapping": {
+    "mappingPlan": {
+      "preparing": "Preparing Mapping..."
+    },
     "clearFields": {
       "modalHeader": "Clear Destination Fields",
       "modalLabel": "Clear",
