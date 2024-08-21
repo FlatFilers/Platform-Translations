@@ -479,9 +479,6 @@
     }
   },
   "mapping": {
-    "mappingPlan": {
-      "preparing": "Preparing Mapping..."
-    },
     "clearFields": {
       "modalHeader": "Clear Destination Fields",
       "modalLabel": "Clear",
@@ -561,6 +558,9 @@
     "mapHeaders": {
       "subheading": "Change or select header row for your source data",
       "title": "Map headers"
+    },
+    "mappingPlan": {
+      "preparing": "Preparing Mapping..."
     },
     "sheetSelection": {
       "cannotLoadFile": "Unable to upload file: {{fileName}}",

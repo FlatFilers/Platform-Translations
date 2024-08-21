@@ -559,6 +559,9 @@
       "subheading": "更改或选择源数据的标题行",
       "title": "映射标题"
     },
+    "mappingPlan": {
+      "preparing": "正在准备映射……"
+    },
     "sheetSelection": {
       "cannotLoadFile": "无法上传文件：{{fileName}}",
       "cannotStartMapping": "无法继续映射 - {{reason}} - 请重试",

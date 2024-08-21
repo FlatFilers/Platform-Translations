@@ -559,6 +559,9 @@
       "subheading": "원본 데이터의 헤더 행을 변경하거나 선택합니다",
       "title": "맵 헤더"
     },
+    "mappingPlan": {
+      "preparing": "매핑 준비 중..."
+    },
     "sheetSelection": {
       "cannotLoadFile": "파일 업로드 불가: {{fileName}}",
       "cannotStartMapping": "매핑을 계속할 수 없습니다 - {{reason}} - 다시 시도해 주세요",

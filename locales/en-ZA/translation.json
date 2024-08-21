@@ -566,6 +566,9 @@
       "subheading": "Change or select header row for your source data",
       "title": "Map headers"
     },
+    "mappingPlan": {
+      "preparing": "Preparing Mapping..."
+    },
     "sheetSelection": {
       "cannotLoadFile": "Unable to upload file: {{fileName}}",
       "cannotStartMapping": "Unable to continue to mapping - {{reason}} - Please try again",

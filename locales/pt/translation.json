@@ -567,6 +567,9 @@
       "subheading": "Alterar ou selecionar a fila de cabeçalho para os seus dados de origem",
       "title": "Cabeçalhos de mapa"
     },
+    "mappingPlan": {
+      "preparing": "A preparar o mapeamento..."
+    },
     "sheetSelection": {
       "cannotLoadFile": "Não foi possível carregar o ficheiro: {{fileName}}",
       "cannotStartMapping": "Não é possível continuar com o mapeamento - {{reason}} - Tente novamente",

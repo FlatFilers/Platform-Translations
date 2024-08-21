@@ -559,6 +559,9 @@
       "subheading": "Thay đổi hoặc chọn hàng của phần trên cùng cho dữ liệu nguồn của bạn",
       "title": "Phần trên cùng của bản đồ"
     },
+    "mappingPlan": {
+      "preparing": "Đang Chuẩn Bị Đối Chiếu..."
+    },
     "sheetSelection": {
       "cannotLoadFile": "Không thể tải tệp lên: {{fileName}}",
       "cannotStartMapping": "Không thể tiếp tục lập sơ đồ - {{reason}} - Vui lòng thử lại",

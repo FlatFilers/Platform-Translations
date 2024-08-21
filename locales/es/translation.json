@@ -567,6 +567,9 @@
       "subheading": "Cambia o selecciona la fila de cabecera de los datos de origen",
       "title": "Encabezados de mapas"
     },
+    "mappingPlan": {
+      "preparing": "Preparando mapeo..."
+    },
     "sheetSelection": {
       "cannotLoadFile": "No se puede subir el archivo: {{fileName}}",
       "cannotStartMapping": "No se puede continuar con la asignación - {{reason}} - Inténtelo de nuevo",

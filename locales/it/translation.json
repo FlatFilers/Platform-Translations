@@ -567,6 +567,9 @@
       "subheading": "Cambia o seleziona la riga di intestazione per i tuoi dati di origine",
       "title": "Mappa intestazioni"
     },
+    "mappingPlan": {
+      "preparing": "Preparazione mappatura..."
+    },
     "sheetSelection": {
       "cannotLoadFile": "Impossibile caricare il file: {{fileName}}",
       "cannotStartMapping": "Impossibile proseguire con la mappatura - {{reason}} - Riprova",

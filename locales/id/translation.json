@@ -559,6 +559,9 @@
       "subheading": "Ganti atau pilih baris judul untuk data sumber Anda",
       "title": "Judul peta"
     },
+    "mappingPlan": {
+      "preparing": "Menyiapkan Pemetaan..."
+    },
     "sheetSelection": {
       "cannotLoadFile": "Tidak dapat mengunggah file: {{fileName}}",
       "cannotStartMapping": "Tidak dapat melanjutkan ke pemetaan - {{reason}} - Harap mencoba lagi",

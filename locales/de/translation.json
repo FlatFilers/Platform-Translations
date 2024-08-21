@@ -567,6 +567,9 @@
       "subheading": "Ändern oder wählen Sie eine Kopfzeile für Ihre Quelldaten",
       "title": "Kopfzeilen zuordnen"
     },
+    "mappingPlan": {
+      "preparing": "Mapping wird vorbereitet"
+    },
     "sheetSelection": {
       "cannotLoadFile": "Datei kann nicht hochgeladen werden: {{fileName}}",
       "cannotStartMapping": "Das Mapping kann nicht fortgesetzt werden - {{reason}} - Bitte versuchen Sie es erneut",

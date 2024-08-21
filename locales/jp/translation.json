@@ -559,6 +559,9 @@
       "subheading": "ソースデータのヘッダー行を変更または選択する",
       "title": "マップのヘッダー"
     },
+    "mappingPlan": {
+      "preparing": "マッピングの準備中..."
+    },
     "sheetSelection": {
       "cannotLoadFile": "以下のファイルをアップロードできません：{{fileName}}",
       "cannotStartMapping": "マッピングに進めません - {{reason}} - もう一度お試しください",

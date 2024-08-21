@@ -567,6 +567,9 @@
       "subheading": "Kaynak verilerin için başlık satırını değiştir veya seç",
       "title": "Harita başlıkları"
     },
+    "mappingPlan": {
+      "preparing": "Haritalama Hazırlanıyor..."
+    },
     "sheetSelection": {
       "cannotLoadFile": "Dosya yüklenemiyor: {{fileName}}",
       "cannotStartMapping": "Haritalamaya devam edilemiyor - {{reason}} - Lütfen tekrar deneyin",

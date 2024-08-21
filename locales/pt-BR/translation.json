@@ -567,6 +567,9 @@
       "subheading": "Altere ou selecione a linha do cabeçalho dos seus dados-fonte",
       "title": "Mapear cabeçalhos"
     },
+    "mappingPlan": {
+      "preparing": "Preparando Mapeamento..."
+    },
     "sheetSelection": {
       "cannotLoadFile": "Impossível fazer upload de arquivo: {{fileName}}",
       "cannotStartMapping": "Não foi possível continuar o mapeamento - {{reason}} - Tente novamente",

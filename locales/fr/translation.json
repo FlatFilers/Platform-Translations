@@ -567,6 +567,9 @@
       "subheading": "Modifier ou sélectionner la ligne d'en-tête de vos données sources",
       "title": "En-têtes de carte"
     },
+    "mappingPlan": {
+      "preparing": "Préparation de la cartographie..."
+    },
     "sheetSelection": {
       "cannotLoadFile": "Impossible de télécharger le fichier : {{fileName}}",
       "cannotStartMapping": "Impossible de poursuivre le mappage - {{reason}} - Veuillez réessayer",
