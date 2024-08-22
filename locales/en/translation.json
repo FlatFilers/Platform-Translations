@@ -177,6 +177,10 @@
     "itemMessage": "press {{icon}} to apply",
     "placeholder": "Find or do anything..."
   },
+  "comments": {
+    "placeholder": "Add your comment here…",
+    "threadPlaceholder": "Reply or mention others with @…"
+  },
   "document": {
     "error": {
       "description": "This document does not seem to exist",
@@ -591,6 +595,9 @@
     }
   },
   "sheet": {
+    "comments": {
+      "tooltip": "Add a comment"
+    },
     "columnManagement": {
       "clear_empty": "Clear empty columns",
       "errorColumnTooltip": "Filtering by this value will unhide this column",
