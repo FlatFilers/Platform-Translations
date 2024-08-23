@@ -177,6 +177,10 @@
     "itemMessage": "按下 {{icon}} 即可应用",
     "placeholder": "查找或进行任何操作……"
   },
+  "comments": {
+    "placeholder": "在这里添加您的评论……",
+    "threadPlaceholder": "用 @ 来回复或提及其他人"
+  },
   "document": {
     "error": {
       "description": "该文档似乎不存在",
@@ -612,6 +616,9 @@
         "message_other": "{{count}} 列被此查询解除隐藏",
         "message_zero": "{{count}} 列被此查询解除隐藏"
       }
+    },
+    "comments": {
+      "tooltip": "添加评论"
     },
     "embedded": {
       "maxOpenReached": "无法一次打开超过 {{maxOpenSheets}} 个嵌入式工作表。关闭一个嵌入式工作表以打开此工作表。",

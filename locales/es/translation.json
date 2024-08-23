@@ -179,6 +179,10 @@
     "itemMessage": "pulsa {{icon}} para aplicar",
     "placeholder": "Encuentra o realiza cualquier cosa..."
   },
+  "comments": {
+    "placeholder": "Añade tu comentario aquí...",
+    "threadPlaceholder": "Responde o menciona a otros con @..."
+  },
   "document": {
     "error": {
       "description": "Parece que este documento no existe",
@@ -628,6 +632,9 @@
         "message_other": "{{count}} columnas fueron reveladas por esta consulta.",
         "message_zero": "Se revelaron {{count}} columnas por esta consulta."
       }
+    },
+    "comments": {
+      "tooltip": "Añade un comentario"
     },
     "embedded": {
       "maxOpenReached": "No se pueden abrir más de {{maxOpenSheets}} hojas incrustadas a la vez. Cierra una hoja incrustada para abrir esta.",

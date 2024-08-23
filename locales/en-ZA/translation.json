@@ -178,6 +178,10 @@
     "itemMessage": "press {{icon}} to apply",
     "placeholder": "Find or do anything..."
   },
+  "comments": {
+    "placeholder": "Add your comment here…",
+    "threadPlaceholder": "Reply or mention other users with @…"
+  },
   "document": {
     "error": {
       "description": "This document does not seem to exist",
@@ -627,6 +631,9 @@
         "message_other": "{{count}} columns were unhidden by this query",
         "message_zero": "{{count}} columns were unhidden by this query"
       }
+    },
+    "comments": {
+      "tooltip": "Add a comment"
     },
     "embedded": {
       "maxOpenReached": "Cannot open more than {{maxOpenSheets}} embedded sheets at once. Close an embedded sheet to open this one.",

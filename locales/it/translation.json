@@ -179,6 +179,10 @@
     "itemMessage": "premi {{icon}} per applicare",
     "placeholder": "Trova o fai qualsiasi cosa..."
   },
+  "comments": {
+    "placeholder": "Aggiungi il tuo commento qui...",
+    "threadPlaceholder": "Rispondi o menziona altri con @..."
+  },
   "document": {
     "error": {
       "description": "Il documento sembra essere inesistente",
@@ -628,6 +632,9 @@
         "message_other": "{{count}} colonne sono state scoperte da questa query",
         "message_zero": "{{count}} colonne sono state mostrate di nuovo da questa richiesta"
       }
+    },
+    "comments": {
+      "tooltip": "Aggiungi un commento"
     },
     "embedded": {
       "maxOpenReached": "Non è possibile aprire più di {{maxOpenSheets}} fogli incorporati contemporaneamente. Chiudere un foglio incorporato per aprire questo.",

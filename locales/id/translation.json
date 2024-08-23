@@ -177,6 +177,10 @@
     "itemMessage": "tekan {{icon}} untuk menerapkan",
     "placeholder": "Temukan atau lakukan sesuatu..."
   },
+  "comments": {
+    "placeholder": "Tambahkan komentar Anda di sini…",
+    "threadPlaceholder": "Balas atau sebut orang lain dengan @…"
+  },
   "document": {
     "error": {
       "description": "Dokumen ini sepertinya tidak ada",
@@ -612,6 +616,9 @@
         "message_other": "{{count}} kolom ditampilkan oleh kueri ini",
         "message_zero": "{{count}} kolom ditampilkan oleh kueri ini"
       }
+    },
+    "comments": {
+      "tooltip": "Tambahkan komentar"
     },
     "embedded": {
       "maxOpenReached": "Tidak dapat membuka lebih dari {{maxOpenSheets}} lembar kerja yang disematkan sekaligus. Tutup lembar yang disematkan untuk membuka lembar ini.",

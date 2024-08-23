@@ -179,6 +179,10 @@
     "itemMessage": "başvurmak için {{icon}} simgesine bas",
     "placeholder": "Bulun veya bir şey yapın..."
   },
+  "comments": {
+    "placeholder": "Yorumunu buraya ekle...",
+    "threadPlaceholder": "@ ile başkalarına yanıt ver veya bahset..."
+  },
   "document": {
     "error": {
       "description": "Bu belge mevcut görünmüyor",
@@ -628,6 +632,9 @@
         "message_other": "{{count}} sütun bu sorgu ile gizlenmedi",
         "message_zero": "{{count}} sütun bu sorgu tarafından gösterilecek"
       }
+    },
+    "comments": {
+      "tooltip": "Bir yorum ekle"
     },
     "embedded": {
       "maxOpenReached": "Aynı anda {{maxOpenSheets}} adetten fazla gömülü sayfa açılamıyor. Bunu açmak için gömülü bir sayfayı kapat.",

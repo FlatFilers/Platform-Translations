@@ -177,6 +177,10 @@
     "itemMessage": "{{icon}} を押して適用",
     "placeholder": "探したり何かしたり..."
   },
+  "comments": {
+    "placeholder": "ここにコメントを追加してください…",
+    "threadPlaceholder": "@ で返信または他のユーザーをメンションしてください…"
+  },
   "document": {
     "error": {
       "description": "このドキュメントは存在しないようです",
@@ -612,6 +616,9 @@
         "message_other": "{{count}} の列がこのクエリによって再表示されました",
         "message_zero": "{{count}} の列がこのクエリによって再表示されました"
       }
+    },
+    "comments": {
+      "tooltip": "コメントを追加"
     },
     "embedded": {
       "maxOpenReached": "{{maxOpenSheets}} を超える埋め込みシートを一度に開くことはできません。埋め込まれたシートを閉じて、このシートを開いてください。",

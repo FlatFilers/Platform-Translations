@@ -179,6 +179,10 @@
     "itemMessage": "zum Anwenden {{icon}} drücken",
     "placeholder": "Finden oder tun Sie etwas ..."
   },
+  "comments": {
+    "placeholder": "Fügen Sie hier Ihren Kommentar hinzu ...",
+    "threadPlaceholder": "Antworten oder andere mit @ erwähnen ..."
+  },
   "document": {
     "error": {
       "description": "Dieses Dokument existiert offenbar nicht",
@@ -628,6 +632,9 @@
         "message_other": "{{count}} Spalten sind wegen dieses Querys nicht länger verborgen",
         "message_zero": "{{count}} Spalten sind wegen dieses Querys nicht länger verborgen"
       }
+    },
+    "comments": {
+      "tooltip": "Einen Kommentar hinzufügen"
     },
     "embedded": {
       "maxOpenReached": "Es können nicht mehr als {{maxOpenSheets}} eingebettete Tabellen gleichzeitig geöffnet werden. Schließen Sie eine eingebettete Tabelle, um diese zu öffnen.",

@@ -177,6 +177,10 @@
     "itemMessage": "nhấn {{icon}} để áp dụng",
     "placeholder": "Tìm hoặc làm bất cứ điều gì..."
   },
+  "comments": {
+    "placeholder": "Thêm bình luận của bạn ở đây...",
+    "threadPlaceholder": "Trả lời hoặc nhắc đến nguời khác bằng @..."
+  },
   "document": {
     "error": {
       "description": "Tài liệu này dường như không tồn tại",
@@ -612,6 +616,9 @@
         "message_other": "{{count}} cột đã được hiển thị bởi yêu cầu này",
         "message_zero": "{{count}} cột đã được hiển thị bởi yêu cầu này"
       }
+    },
+    "comments": {
+      "tooltip": "Thêm bình luận"
     },
     "embedded": {
       "maxOpenReached": "Không thể mở cùng lúc nhiều hơn {{maxOpenSheets}} trang tính được nhúng. Đóng một trang tính được nhúng để mở trang tính này.",

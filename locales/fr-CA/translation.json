@@ -178,6 +178,10 @@
     "itemMessage": "appuyez sur {{icon}} pour appliquer",
     "placeholder": "Trouver ou faire quelque chose..."
   },
+  "comments": {
+    "placeholder": "Ajoutez votre commentaire ici…",
+    "threadPlaceholder": "Répondez ou mentionnez les autres avec @…"
+  },
   "document": {
     "error": {
       "description": "Ce document ne semble pas exister",
@@ -627,6 +631,9 @@
         "message_other": "Les colonnes {{count}} ont été masquées par cette requête.",
         "message_zero": "Les colonnes {{count}} n'ont pas été masquées par cette requête."
       }
+    },
+    "comments": {
+      "tooltip": "Ajouter un commentaire"
     },
     "embedded": {
       "maxOpenReached": "Impossible d’ouvrir plus de {{maxOpenSheets}} feuilles incorporées à la fois. Fermez une feuille incorporée pour ouvrir celle-ci.",

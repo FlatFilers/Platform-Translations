@@ -177,6 +177,10 @@
     "itemMessage": "적용하려면 {{icon}}(을)를 누르세요.",
     "placeholder": "찾거나 무엇이든 하세요..."
   },
+  "comments": {
+    "placeholder": "여기에 댓글을 추가하세요.",
+    "threadPlaceholder": "@으로 답글을 남기거나 멘션하세요."
+  },
   "document": {
     "error": {
       "description": "이 문서는 존재하지 않는 것 같습니다",
@@ -612,6 +616,9 @@
         "message_other": "이 쿼리에 의해 {{count}}개 열이 숨김 해제됨",
         "message_zero": "이 쿼리에 의해 {{count}}개 열이 숨김 해제됨"
       }
+    },
+    "comments": {
+      "tooltip": "댓글 추가"
     },
     "embedded": {
       "maxOpenReached": "한 번에 {{maxOpenSheets}}개 이상의 삽입된 시트를 열 수 없습니다. 이 시트를 열려면 삽입된 시트를 닫으세요.",

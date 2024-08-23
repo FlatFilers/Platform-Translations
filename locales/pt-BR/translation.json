@@ -179,6 +179,10 @@
     "itemMessage": "pressione {{icon}} para aplicar",
     "placeholder": "Encontrar ou fazer algo..."
   },
+  "comments": {
+    "placeholder": "Adicione o seu comentário aqui...",
+    "threadPlaceholder": "Responda ou mencione outros usando @..."
+  },
   "document": {
     "error": {
       "description": "Este documento parece não existir",
@@ -628,6 +632,9 @@
         "message_other": "{{count}} colunas foram exibidas por esta consulta",
         "message_zero": "{{count}} colunas foram exibidas por esta consulta"
       }
+    },
+    "comments": {
+      "tooltip": "Adicione um comentário"
     },
     "embedded": {
       "maxOpenReached": "Não é possível abrir mais do que {{maxOpenSheets}} planilhas incorporadas de uma vez. Feche uma planilha incorporada para abrir essa nova.",

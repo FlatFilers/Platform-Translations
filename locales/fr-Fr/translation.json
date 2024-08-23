@@ -178,6 +178,10 @@
     "itemMessage": "appuyer sur {{icon}} pour appliquer",
     "placeholder": "Trouver ou faire quelque chose..."
   },
+  "comments": {
+    "placeholder": "Ajoutez votre commentaire ici...",
+    "threadPlaceholder": "Répondez ou mentionnez d'autres utilisateurs avec @..."
+  },
   "document": {
     "error": {
       "description": "Il semblerait que ce document n'existe pas",
@@ -627,6 +631,9 @@
         "message_other": "{{count}} colonnes ont été affichées par cette requête",
         "message_zero": "{{count}} colonnes ont été affichées par cette requête"
       }
+    },
+    "comments": {
+      "tooltip": "Ajouter un commentaire"
     },
     "embedded": {
       "maxOpenReached": "Impossible d'ouvrir plus de {{maxOpenSheets}} feuilles incorporées à la fois. Fermez une feuille incorporée pour ouvrir celle-ci.",

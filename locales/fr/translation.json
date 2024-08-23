@@ -179,6 +179,10 @@
     "itemMessage": "appuyer sur {{icon}} pour appliquer",
     "placeholder": "Trouver ou faire quelque chose..."
   },
+  "comments": {
+    "placeholder": "Ajoutez votre commentaire ici...",
+    "threadPlaceholder": "Répondez ou mentionnez d'autres personnes avec @..."
+  },
   "document": {
     "error": {
       "description": "Ce document ne semble pas exister",
@@ -628,6 +632,9 @@
         "message_other": "{{count}}\ncolonnes ont été affichées par cette requête",
         "message_zero": "{{count}} colonnes contenant des erreurs ont été affichées par cette requête"
       }
+    },
+    "comments": {
+      "tooltip": "Ajouter un commentaire"
     },
     "embedded": {
       "maxOpenReached": "Impossible d'ouvrir simultanément plus de {{maxOpenSheets}} feuilles imbriquées. Fermez une feuille imbriquée pour ouvrir celle-ci.",
