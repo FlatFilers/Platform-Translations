@@ -194,6 +194,7 @@
     "notFound": "Not found",
     "notFoundPageDescription": "No page exists at this URL. If this is unexpected, please contact support.",
     "refreshButton": "Retry",
+    "returnToDashboardButton": "Return to Dashboard",
     "refreshPageDescription": "Refresh the page to try again. If the problem persists, contact support.",
     "sessionExpired": "Session has expired",
     "sheetNotFound": "Sheet not found",
