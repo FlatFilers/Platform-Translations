@@ -195,6 +195,7 @@
     "notFoundPageDescription": "此 URL 上不存在任何页面。如果这是意外情况，请联系支持人员。",
     "refreshButton": "重试",
     "refreshPageDescription": "刷新页面重试。如果问题仍然存在，请联系支持人员。",
+    "returnToDashboardButton": "返回信息面板",
     "sessionExpired": "会话已过期",
     "sheetNotFound": "未找到工作表",
     "spaceNotFound": "未找到空间",

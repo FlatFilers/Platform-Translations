@@ -195,6 +195,7 @@
     "notFoundPageDescription": "Tidak ada halaman di URL ini. Jika ini tidak terduga, silakan hubungi bantuan.",
     "refreshButton": "Coba lagi",
     "refreshPageDescription": "Perbarui halaman untuk mencoba lagi. Jika masalah terus berlanjur, hubungi dukungan.",
+    "returnToDashboardButton": "Kembali ke Dasbor",
     "sessionExpired": "Sesi telah kedaluwarsa",
     "sheetNotFound": "Lembar tidak ditemukan",
     "spaceNotFound": "Ruang tidak ditemukan",

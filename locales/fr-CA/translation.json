@@ -196,6 +196,7 @@
     "notFoundPageDescription": "Aucune page n’existe à cette URL. Si ce résultat est inattendu, veuillez contacter le service d’assistance.",
     "refreshButton": "Réessayer",
     "refreshPageDescription": "Actualisez la page pour réessayer. Si le problème persiste, contactez le support.",
+    "returnToDashboardButton": "Revenir au tableau de bord",
     "sessionExpired": "La session a expiré",
     "sheetNotFound": "Feuille non trouvée",
     "spaceNotFound": "Espace non trouvé",
