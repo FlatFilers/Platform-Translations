@@ -179,7 +179,14 @@
   },
   "comments": {
     "placeholder": "Add your comment here…",
-    "threadPlaceholder": "Reply or mention others with @…"
+    "threadPlaceholder": "Reply or mention others with @…",
+    "you": "You",
+    "reactionList": "<0></0> reacted with {{emoji}}",
+    "edit": "Edit comment",
+    "resolve": "Resolve thread",
+    "addReaction": "Add reaction",
+    "delete": "Delete comment",
+    "edited": " (edited)"
   },
   "document": {
     "error": {
