@@ -178,15 +178,17 @@
     "placeholder": "Find or do anything..."
   },
   "comments": {
-    "placeholder": "Add your comment here…",
-    "threadPlaceholder": "Reply or mention others with @…",
-    "you": "You",
-    "reactionList": "<0></0> reacted with {{emoji}}",
-    "edit": "Edit comment",
-    "resolve": "Resolve thread",
     "addReaction": "Add reaction",
     "delete": "Delete comment",
-    "edited": " (edited)"
+    "commentDisabledTooltip": "Select a cell or a row to add a comment",
+    "edit": "Edit comment",
+    "edited": " (edited)",
+    "placeholder": "Add your comment here…",
+    "reactionList": "<0></0> reacted with {{emoji}}",
+    "resolve": "Resolve thread",
+    "threadPlaceholder": "Reply or mention others with @…",
+    "you": "You"
+
   },
   "document": {
     "error": {
