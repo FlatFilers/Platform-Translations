@@ -178,8 +178,16 @@
     "placeholder": "查找或进行任何操作……"
   },
   "comments": {
+    "addReaction": "添加反应",
+    "commentDisabledTooltip": "选择一个单元格或一行以添加评论",
+    "delete": "删除评论",
+    "edit": "编辑评论",
+    "edited": " （已编辑）",
     "placeholder": "在这里添加您的评论……",
-    "threadPlaceholder": "用 @ 来回复或提及其他人"
+    "reactionList": "<0></0> 对{{emoji}}做出反应",
+    "resolve": "解决线程",
+    "threadPlaceholder": "用 @ 来回复或提及其他人",
+    "you": "你"
   },
   "document": {
     "error": {

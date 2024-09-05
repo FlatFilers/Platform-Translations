@@ -180,8 +180,16 @@
     "placeholder": "Bulun veya bir şey yapın..."
   },
   "comments": {
+    "addReaction": "Tepki ekleyin",
+    "commentDisabledTooltip": "Yorum eklemek için bir hücre veya satır seçin",
+    "delete": "Yorumu silin",
+    "edit": "Yorumu düzenleyin",
+    "edited": " (düzenlendi)",
     "placeholder": "Yorumunu buraya ekle...",
-    "threadPlaceholder": "@ ile başkalarına yanıt ver veya bahset..."
+    "reactionList": "<0></0> {{emoji}} ile tepki verdi",
+    "resolve": "Mesajı çözün",
+    "threadPlaceholder": "@ ile başkalarına yanıt ver veya bahset...",
+    "you": "Siz"
   },
   "document": {
     "error": {

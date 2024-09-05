@@ -178,8 +178,16 @@
     "placeholder": "探したり何かしたり..."
   },
   "comments": {
+    "addReaction": "反応を追加",
+    "commentDisabledTooltip": "コメントを追加するには、セルまたは行を選択してください",
+    "delete": "コメントを削除",
+    "edit": "コメントを編集",
+    "edited": " （編集済み）",
     "placeholder": "ここにコメントを追加してください…",
-    "threadPlaceholder": "@ で返信または他のユーザーをメンションしてください…"
+    "reactionList": "<0></0>が{{emoji}}で反応しました",
+    "resolve": "スレッドを解決",
+    "threadPlaceholder": "@ で返信または他のユーザーをメンションしてください…",
+    "you": "あなた"
   },
   "document": {
     "error": {

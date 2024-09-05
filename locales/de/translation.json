@@ -180,8 +180,16 @@
     "placeholder": "Finden oder tun Sie etwas ..."
   },
   "comments": {
+    "addReaction": "Reaktion hinzufügen",
+    "commentDisabledTooltip": "Wähle eine Zelle oder eine Zeile, um einen Kommentar hinzuzufügen",
+    "delete": "Kommentar löschen",
+    "edit": "Kommentar bearbeiten",
+    "edited": " (bearbeitet)",
     "placeholder": "Fügen Sie hier Ihren Kommentar hinzu ...",
-    "threadPlaceholder": "Antworten oder andere mit @ erwähnen ..."
+    "reactionList": "<0></0> hat reagiert mit {{emoji}}",
+    "resolve": "Thema auflösen",
+    "threadPlaceholder": "Antworten oder andere mit @ erwähnen ...",
+    "you": "Du"
   },
   "document": {
     "error": {

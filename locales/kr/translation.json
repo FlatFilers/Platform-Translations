@@ -178,8 +178,16 @@
     "placeholder": "찾거나 무엇이든 하세요..."
   },
   "comments": {
+    "addReaction": "반응 추가",
+    "commentDisabledTooltip": "댓글을 추가할 셀 또는 행을 선택합니다",
+    "delete": "댓글 삭제",
+    "edit": "댓글 수정",
+    "edited": " (수정됨)",
     "placeholder": "여기에 댓글을 추가하세요.",
-    "threadPlaceholder": "@으로 답글을 남기거나 멘션하세요."
+    "reactionList": "<0></0> {{emoji}} 이모지로 반응했습니다",
+    "resolve": "스레드 해결",
+    "threadPlaceholder": "@으로 답글을 남기거나 멘션하세요.",
+    "you": "나"
   },
   "document": {
     "error": {

@@ -178,8 +178,16 @@
     "placeholder": "Temukan atau lakukan sesuatu..."
   },
   "comments": {
+    "addReaction": "Tambah reaksi",
+    "commentDisabledTooltip": "Pilih sel atau baris untuk membubuhkan komentar",
+    "delete": "Hapus komentar",
+    "edit": "Edit komentar",
+    "edited": " (telah diedit)",
     "placeholder": "Tambahkan komentar Anda di sini…",
-    "threadPlaceholder": "Balas atau sebut orang lain dengan @…"
+    "reactionList": "<0></0> bereaksi dengan {{emoji}}",
+    "resolve": "Menyelesaikan utas",
+    "threadPlaceholder": "Balas atau sebut orang lain dengan @…",
+    "you": "Anda"
   },
   "document": {
     "error": {

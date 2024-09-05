@@ -178,8 +178,16 @@
     "placeholder": "Tìm hoặc làm bất cứ điều gì..."
   },
   "comments": {
+    "addReaction": "Thêm biểu tượng cảm xúc",
+    "commentDisabledTooltip": "Chọn một ô hoặc một hàng để thêm bình luận",
+    "delete": "Xóa bình luận",
+    "edit": "Chỉnh sửa bình luận",
+    "edited": " (đã chỉnh sửa)",
     "placeholder": "Thêm bình luận của bạn ở đây...",
-    "threadPlaceholder": "Trả lời hoặc nhắc đến nguời khác bằng @..."
+    "reactionList": "<0></0> đã bày tỏ cảm xúc với {{emoji}}",
+    "resolve": "Giải quyết chuỗi bình luận",
+    "threadPlaceholder": "Trả lời hoặc nhắc đến nguời khác bằng @...",
+    "you": "Bạn"
   },
   "document": {
     "error": {

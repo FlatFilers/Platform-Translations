@@ -179,8 +179,16 @@
     "placeholder": "Trouver ou faire quelque chose..."
   },
   "comments": {
+    "addReaction": "Ajouter une réaction",
+    "commentDisabledTooltip": "Choisissez une cellule ou une ligne pour ajouter un commentaire",
+    "delete": "Supprimer le commentaire",
+    "edit": "Modifier le commentaire",
+    "edited": " (modifié)",
     "placeholder": "Ajoutez votre commentaire ici…",
-    "threadPlaceholder": "Répondez ou mentionnez les autres avec @…"
+    "reactionList": "<0></0> a réagi avec {{emoji}}",
+    "resolve": "Résoudre le problème",
+    "threadPlaceholder": "Répondez ou mentionnez les autres avec @…",
+    "you": "Vous"
   },
   "document": {
     "error": {

@@ -179,8 +179,8 @@
   },
   "comments": {
     "addReaction": "Add reaction",
-    "delete": "Delete comment",
     "commentDisabledTooltip": "Select a cell or a row to add a comment",
+    "delete": "Delete comment",
     "edit": "Edit comment",
     "edited": " (edited)",
     "placeholder": "Add your comment here…",
@@ -188,7 +188,6 @@
     "resolve": "Resolve thread",
     "threadPlaceholder": "Reply or mention others with @…",
     "you": "You"
-
   },
   "document": {
     "error": {
