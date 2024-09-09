@@ -188,6 +188,7 @@
     "placeholder": "Yorumunu buraya ekle...",
     "reactionList": "<0></0> {{emoji}} ile tepki verdi",
     "resolve": "Mesajı çözün",
+    "send": "Yorum gönder",
     "threadPlaceholder": "@ ile başkalarına yanıt ver veya bahset...",
     "you": "Siz"
   },

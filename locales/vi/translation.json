@@ -186,6 +186,7 @@
     "placeholder": "Thêm bình luận của bạn ở đây...",
     "reactionList": "<0></0> đã bày tỏ cảm xúc với {{emoji}}",
     "resolve": "Giải quyết chuỗi bình luận",
+    "send": "Gửi bình luận",
     "threadPlaceholder": "Trả lời hoặc nhắc đến nguời khác bằng @...",
     "you": "Bạn"
   },

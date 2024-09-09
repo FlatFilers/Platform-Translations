@@ -186,8 +186,8 @@
     "placeholder": "Add your comment here…",
     "reactionList": "<0></0> reacted with {{emoji}}",
     "resolve": "Resolve thread",
-    "threadPlaceholder": "Reply or mention others with @…",
     "send": "Send comment",
+    "threadPlaceholder": "Reply or mention others with @…",
     "you": "You"
   },
   "document": {

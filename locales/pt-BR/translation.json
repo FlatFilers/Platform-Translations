@@ -188,6 +188,7 @@
     "placeholder": "Adicione o seu comentário aqui...",
     "reactionList": "<0></0> reagiu com {{emoji}}",
     "resolve": "Resolver tópico",
+    "send": "Enviar comentário",
     "threadPlaceholder": "Responda ou mencione outros usando @...",
     "you": "Você"
   },

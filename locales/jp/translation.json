@@ -186,6 +186,7 @@
     "placeholder": "ここにコメントを追加してください…",
     "reactionList": "<0></0>が{{emoji}}で反応しました",
     "resolve": "スレッドを解決",
+    "send": "コメントを送信する",
     "threadPlaceholder": "@ で返信または他のユーザーをメンションしてください…",
     "you": "あなた"
   },

@@ -186,6 +186,7 @@
     "placeholder": "여기에 댓글을 추가하세요.",
     "reactionList": "<0></0> {{emoji}} 이모지로 반응했습니다",
     "resolve": "스레드 해결",
+    "send": "댓글 보내기",
     "threadPlaceholder": "@으로 답글을 남기거나 멘션하세요.",
     "you": "나"
   },

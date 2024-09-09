@@ -186,6 +186,7 @@
     "placeholder": "在这里添加您的评论……",
     "reactionList": "<0></0> 对{{emoji}}做出反应",
     "resolve": "解决线程",
+    "send": "发送评论",
     "threadPlaceholder": "用 @ 来回复或提及其他人",
     "you": "你"
   },
