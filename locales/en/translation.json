@@ -1285,7 +1285,6 @@
       "sheet": "{{sheet}} in {{workbook}}"
     }
   },
-  "spaceLoadingMessage": "Preparing Space...",
   "utils": {
     "buttons": {
       "clearAll": "Clear All",
