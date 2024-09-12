@@ -1378,7 +1378,9 @@
     },
     "panel": {
       "empty": "Versions, once generated, will appear here. Versions are generated automatically, often when a bulk transformation of data occurs.",
-      "generatedSnapshot": "Snapshot generated before applying AI Transform for prompt: ",
+      "generatedSnapshotForAiTransform": "Snapshot generated before applying AI Transform for prompt: ",
+      "generatedSnapshotForFindReplace": "Snapshot generated before applying Find and Replace",
+      "generatedSnapshotForBulkDelete": "Snapshot generated before deleting records",
       "heading": "Version History",
       "thisMonth": "This Month",
       "versionRestored": "Version created before restore of a previous version"
