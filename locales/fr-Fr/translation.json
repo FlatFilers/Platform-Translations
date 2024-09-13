@@ -442,6 +442,20 @@
           "inProgress": "Extraction du fichier en cours",
           "waiting": "En attente de l'extraction du fichier"
         },
+        "flatfile-add-column": {
+          "canceled": "Ajout de la colonne annulé",
+          "complete": "Ajout de la colonne terminé",
+          "failed": "Échec de l'ajout de la colonne",
+          "inProgress": "Ajout de la colonne",
+          "waiting": "Ajout de la colonne en attente"
+        },
+        "flatfile-remove-column": {
+          "canceled": "Suppression de la colonne annulée",
+          "complete": "Suppression de la colonne terminée",
+          "failed": "La suppression de la colonne a échoué",
+          "inProgress": "Suppression de la colonne",
+          "waiting": "Suppression de la colonne en attente"
+        },
         "mapping": {
           "canceled": "Mappage annulé sur le classeur",
           "complete": "Mappé sur un classeur",
@@ -1120,6 +1134,18 @@
             "last": " et {{cells}} cellules dans le champ {{name}}",
             "middle": ", {{cells}} cellules dans le champ {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Le champ {{name}} sera supprimé",
+              "last": " et le champ {{name}} sera supprimé",
+              "middle": ", le champ {{name}} sera supprimé"
+            },
+            "removed": {
+              "first": "le champ {{name}} sera ajouté à nouveau",
+              "last": " et le champ {{name}} sera ajouté à nouveau",
+              "middle": ", le champ {{name}} sera ajouté à nouveau"
+            }
+          },
           "singular": {
             "first": "Une cellule dans le champ {{name}}",
             "last": " et une cellule dans le champ {{name}}",
@@ -1232,6 +1258,18 @@
             "last": " et {{cells}} cellules dans le champ {{name}}",
             "middle": ", {{cells}} cellules dans le champ {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Le champ {{name}} sera supprimé",
+              "last": " et le champ {{name}} sera supprimé",
+              "middle": ", le champ {{name}} sera supprimé"
+            },
+            "removed": {
+              "first": "le champ {{name}} sera ajouté à nouveau",
+              "last": " et le champ {{name}} sera ajouté à nouveau",
+              "middle": ", le champ {{name}} sera ajouté à nouveau"
+            }
+          },
           "singular": {
             "first": "Une cellule dans le champ {{name}}",
             "last": " et une cellule dans le champ {{name}}",
@@ -1282,6 +1320,18 @@
             "first": "{{cells}} cellules dans le champ {{name}}",
             "last": " et {{cells}} cellules dans le champ {{name}}",
             "middle": ", {{cells}} cellules dans le champ {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Le champ {{name}} sera supprimé",
+              "last": " et le champ {{name}} sera supprimé",
+              "middle": ", le champ {{name}} sera supprimé"
+            },
+            "removed": {
+              "first": "le champ {{name}} sera ajouté à nouveau",
+              "last": " et le champ {{name}} sera ajouté à nouveau",
+              "middle": ", le champ {{name}} sera ajouté à nouveau"
+            }
           },
           "singular": {
             "first": "Une cellule dans le champ {{name}}",

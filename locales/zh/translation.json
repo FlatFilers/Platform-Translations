@@ -437,6 +437,20 @@
           "inProgress": "正在提取文件",
           "waiting": "等待提取文件"
         },
+        "flatfile-add-column": {
+          "canceled": "已取消添加栏",
+          "complete": "添加栏完成",
+          "failed": "添加栏失败",
+          "inProgress": "正在添加栏",
+          "waiting": "正在等待添加栏"
+        },
+        "flatfile-remove-column": {
+          "canceled": "已取消移除栏",
+          "complete": "移除栏已完成",
+          "failed": "移除栏失败",
+          "inProgress": "正在移除栏",
+          "waiting": "正在等待移除栏"
+        },
         "mapping": {
           "canceled": "已取消映射到工作簿",
           "complete": "已映射到工作簿",
@@ -1095,6 +1109,18 @@
             "last": " 以及字段 {{name}} 中的 {{cells}} 单元格",
             "middle": "，{{name}} 字段中的 {{cells}} 单元格"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "{{name}}字段将被移除",
+              "last": " 以及{{name}}字段将被移除",
+              "middle": "，{{name}}字段将被移除"
+            },
+            "removed": {
+              "first": "{{name}}字段将被重新添加",
+              "last": " 以及{{name}}字段将被重新添加",
+              "middle": "，{{name}}字段将被重新添加"
+            }
+          },
           "singular": {
             "first": "字段{{name}}中的1个单元格",
             "last": " 以及字段 {{name}} 中的 1 个单元格",
@@ -1207,6 +1233,18 @@
             "last": " 以及 {{name}} 字段中的 {{cells}} 单元格",
             "middle": "，{{name}} 字段中的 {{cells}} 单元格"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "{{name}}字段将被移除",
+              "last": " 以及{{name}}字段将被移除",
+              "middle": "，{{name}}字段将被移除"
+            },
+            "removed": {
+              "first": "{{name}}字段将被重新添加",
+              "last": " 以及{{name}}字段将被重新添加",
+              "middle": "，{{name}}字段将被重新添加"
+            }
+          },
           "singular": {
             "first": "{{name}} 字段中的 1 个单元格",
             "last": " 以及 {{name}} 字段中的 1 个单元格",
@@ -1257,6 +1295,18 @@
             "first": "{{name}} 字段中的 {{cells}} 单元格",
             "last": " 以及字段 {{name}} 中的 {{cells}} 单元格",
             "middle": "，{{name}} 字段中的 {{cells}} 单元格"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "{{name}}字段将被移除",
+              "last": " 以及{{name}}字段将被移除",
+              "middle": "，{{name}}字段将被移除"
+            },
+            "removed": {
+              "first": "{{name}}字段将被重新添加",
+              "last": " 以及{{name}}字段将被重新添加",
+              "middle": "，{{name}}字段将被重新添加"
+            }
           },
           "singular": {
             "first": "字段{{name}}中的1个单元格",

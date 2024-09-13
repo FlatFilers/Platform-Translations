@@ -437,6 +437,20 @@
           "inProgress": "파일 추출 중",
           "waiting": "파일 추출 대기 중"
         },
+        "flatfile-add-column": {
+          "canceled": "취소된 열 추가",
+          "complete": "열 추가 완료",
+          "failed": "열 추가 실패",
+          "inProgress": "열 추가하기",
+          "waiting": "열 추가 대기 중"
+        },
+        "flatfile-remove-column": {
+          "canceled": "취소된 열 제거",
+          "complete": "열 제거 완료",
+          "failed": "열 제거 실패",
+          "inProgress": "열 제거하기",
+          "waiting": "열 제거 대기 중"
+        },
         "mapping": {
           "canceled": "워크북으로의 매핑이 취소됨",
           "complete": "워크북에 매핑됨",
@@ -1095,6 +1109,18 @@
             "last": " 및 {{name}} 필드의 셀 {{cells}}개",
             "middle": ", {{name}} 필드의 셀 {{cells}}개"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "필드 {{name}}이(가) 제거됨",
+              "last": " 그리고 필드 {{name}}이(가) 제거됨",
+              "middle": ", 필드 {{name}}이(가) 제거됨"
+            },
+            "removed": {
+              "first": "필드 {{name}}이(가) 다시 추가됨",
+              "last": " 그리고 필드 {{name}}이(가) 다시 추가됨",
+              "middle": ", 필드 {{name}}이(가) 다시 추가됨"
+            }
+          },
           "singular": {
             "first": "{{name}} 필드의 셀 1개",
             "last": " 및 {{name}} 필드의 셀 1개",
@@ -1207,6 +1233,18 @@
             "last": " 그리고 필드 {{name}} 내에 {{cells}}개 셀",
             "middle": "필드 {{name}} 내에 {{cells}}개 셀"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "필드 {{name}}이(가) 제거됨",
+              "last": " 그리고 필드 {{name}}이(가) 제거됨",
+              "middle": ", 필드 {{name}}이(가) 제거됨"
+            },
+            "removed": {
+              "first": "필드 {{name}}이(가) 다시 추가됨",
+              "last": " 그리고 필드 {{name}}이(가) 다시 추가됨",
+              "middle": ", 필드 {{name}}이(가) 다시 추가됨"
+            }
+          },
           "singular": {
             "first": "필드 {{name}} 내에 1개 셀",
             "last": " 그리고 필드 {{name}} 내에 1개 셀",
@@ -1257,6 +1295,18 @@
             "first": "{{name}} 필드의 셀 {{cells}}개",
             "last": " 및 {{name}} 필드의 셀 {{cells}}개",
             "middle": ", {{name}} 필드의 셀 {{cells}}개"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "필드 {{name}}이(가) 제거됨",
+              "last": " 그리고 필드 {{name}}이(가) 제거됨",
+              "middle": ", 필드 {{name}}이(가) 제거됨"
+            },
+            "removed": {
+              "first": "필드 {{name}}이(가) 다시 추가됨",
+              "last": " 그리고 필드 {{name}}이(가) 다시 추가됨",
+              "middle": ", 필드 {{name}}이(가) 다시 추가됨"
+            }
           },
           "singular": {
             "first": "{{name}} 필드의 셀 1개",

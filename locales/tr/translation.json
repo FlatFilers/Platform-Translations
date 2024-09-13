@@ -443,6 +443,20 @@
           "inProgress": "Dosya ayıklanıyor",
           "waiting": "Dosyanın ayıklanması bekleniyor"
         },
+        "flatfile-add-column": {
+          "canceled": "Sütun Ekleme İptal Edildi",
+          "complete": "Sütun ekleme tamamlandı",
+          "failed": "Sütun ekleme başarısız",
+          "inProgress": "Sütun Ekleniyor",
+          "waiting": "Sütun Ekleme Bekleniyor"
+        },
+        "flatfile-remove-column": {
+          "canceled": "Sütun Kaldırma İptal Edildi",
+          "complete": "Sütun kaldırma tamamlandı",
+          "failed": "Sütun kaldırma başarısız",
+          "inProgress": "Sütun Kaldırılıyor",
+          "waiting": "Sütun Kaldırma Bekleniyor"
+        },
         "mapping": {
           "canceled": "Çalışma kitabına eşleştirme iptal edildi",
           "complete": "Çalışma kitabına eşleştirildi",
@@ -1121,6 +1135,18 @@
             "last": " ve {{name}} alanındaki {{cells}} hücre",
             "middle": ", {{name}} alanındaki {{cells}} hücre"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "{{name}} alanı kaldırılacak",
+              "last": " ve {{name}} alanı kaldırılacak",
+              "middle": ", {{name}} alanı kaldırılacak"
+            },
+            "removed": {
+              "first": "{{name}} alanı yeniden eklenecek",
+              "last": " ve {{name}} alanı yeniden eklenecek",
+              "middle": ", {{name}} alanı yeniden eklenecek"
+            }
+          },
           "singular": {
             "first": "{{name}} alanındaki 1 hücre",
             "last": " ve {{name}} alanındaki 1 hücre",
@@ -1233,6 +1259,18 @@
             "last": " ve {{name}} alanındaki {{cells}} hücreler",
             "middle": ", {{cells}} alanındaki hücreler {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "{{name}} alanı kaldırılacak",
+              "last": " ve {{name}} alanı kaldırılacak",
+              "middle": ", {{name}} alanı kaldırılacak"
+            },
+            "removed": {
+              "first": "{{name}} alanı yeniden eklenecek",
+              "last": " ve {{name}} alanı yeniden eklenecek",
+              "middle": ", {{name}} alanı yeniden eklenecek"
+            }
+          },
           "singular": {
             "first": "{{name}} alanında 1 hücre",
             "last": " ve {{name}} alanında 1 hücre",
@@ -1283,6 +1321,18 @@
             "first": "{{name}} alanındaki {{cells}} hücre",
             "last": " ve {{name}} alanındaki {{cells}} hücre",
             "middle": ", {{name}} alanındaki {{cells}} hücre"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "{{name}} alanı kaldırılacak",
+              "last": " ve {{name}} alanı kaldırılacak",
+              "middle": ", {{name}} alanı kaldırılacak"
+            },
+            "removed": {
+              "first": "{{name}} alanı yeniden eklenecek",
+              "last": " ve {{name}} alanı yeniden eklenecek",
+              "middle": ", {{name}} alanı yeniden eklenecek"
+            }
           },
           "singular": {
             "first": "{{name}} alanındaki 1 hücre",

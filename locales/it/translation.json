@@ -443,6 +443,20 @@
           "inProgress": "Estrazione del file",
           "waiting": "In attesa di estrarre il file"
         },
+        "flatfile-add-column": {
+          "canceled": "Aggiungi colonna annullata",
+          "complete": "Aggiungi colonna completata",
+          "failed": "Aggiungi colonna non riuscita",
+          "inProgress": "Aggiungere colonna",
+          "waiting": "In attesa di aggiungere colonna"
+        },
+        "flatfile-remove-column": {
+          "canceled": "Elimina colonna annullata",
+          "complete": "Elimina colonna completata",
+          "failed": "Elimina colonna non riuscita",
+          "inProgress": "Eliminare colonna",
+          "waiting": "In attesa di eliminare colonna"
+        },
         "mapping": {
           "canceled": "Mappatura su cartella di lavoro annullata",
           "complete": "Mappato su cartella di lavoro",
@@ -1121,6 +1135,18 @@
             "last": " e {{cells}} celle nel campo {{name}}",
             "middle": ", {{cells}} celle nel campo {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Il campo {{name}} verrà eliminato",
+              "last": " e il campo {{name}} verrà eliminato",
+              "middle": ", il campo {{name}} verrà eliminato"
+            },
+            "removed": {
+              "first": "il campo {{name}} verrà aggiunto nuovamente",
+              "last": " e il campo {{name}} verrà aggiunto nuovamente",
+              "middle": ", il campo {{name}} verrà aggiunto nuovamente"
+            }
+          },
           "singular": {
             "first": "1 cella nel campo {{name}}",
             "last": " e 1 cella nel campo {{name}}",
@@ -1233,6 +1259,18 @@
             "last": " e {{cells}} celle nel campo {{name}}",
             "middle": ", {{cells}} celle nel campo {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Il campo {{name}} verrà eliminato",
+              "last": " e il campo {{name}} verrà eliminato",
+              "middle": ", il campo {{name}} verrà eliminato"
+            },
+            "removed": {
+              "first": "il campo {{name}} verrà aggiunto nuovamente",
+              "last": " e il campo {{name}} verrà aggiunto nuovamente",
+              "middle": ", il campo {{name}} verrà aggiunto nuovamente"
+            }
+          },
           "singular": {
             "first": "1 cella nel campo{{name}}",
             "last": " e 1 cella nel campo {{name}}",
@@ -1283,6 +1321,18 @@
             "first": "{{cells}} celle nel campo {{name}}",
             "last": " e {{cells}} celle nel campo {{name}}",
             "middle": ", {{cells}} celle nel campo {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Il campo {{name}} verrà eliminato",
+              "last": " e il campo {{name}} verrà eliminato",
+              "middle": ", il campo {{name}} verrà eliminato"
+            },
+            "removed": {
+              "first": "il campo {{name}} verrà aggiunto nuovamente",
+              "last": " e il campo {{name}} verrà aggiunto nuovamente",
+              "middle": ", il campo {{name}} verrà aggiunto nuovamente"
+            }
           },
           "singular": {
             "first": "1 cella nel campo {{name}}",

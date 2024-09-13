@@ -437,6 +437,20 @@
           "inProgress": "Mengekstrak file",
           "waiting": "Menunggu untuk mengekstrak file"
         },
+        "flatfile-add-column": {
+          "canceled": "Membatalkan Penambahan Kolom",
+          "complete": "Selesai Menambahkan Kolom",
+          "failed": "Gagal Menambahkan Kolom",
+          "inProgress": "Menambahkan Kolom",
+          "waiting": "Menunggu Kolom Ditambahkan"
+        },
+        "flatfile-remove-column": {
+          "canceled": "Penghapusan Kolom Dibatalkan",
+          "complete": "Selesai Menghapus Kolom",
+          "failed": "Gagal Menghapus Kolom",
+          "inProgress": "Menghapus Kolom",
+          "waiting": "Menunggu Kolom Dihapus"
+        },
         "mapping": {
           "canceled": "Membatalkan pemetaan ke buku kerja",
           "complete": "Dipetakan ke buku kerja",
@@ -1095,6 +1109,18 @@
             "last": " dan {{cells}} sel di bidang {{name}}",
             "middle": ", {{cells}} sel di bidang {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Bidang {{name}} akan dihapus",
+              "last": " dan bidang {{name}} akan dihapus",
+              "middle": ", bidang {{name}} akan dihapus"
+            },
+            "removed": {
+              "first": ", bidang {{name}} akan ditambahkan ulang",
+              "last": " dan bidang {{name}} akan ditambahkan ulang",
+              "middle": ", bidang {{name}} akan ditambahkan ulang"
+            }
+          },
           "singular": {
             "first": "1 sel di bidang {{name}}",
             "last": " dan 1 sel di bidang {{name}}",
@@ -1207,6 +1233,18 @@
             "last": " dan {{cells}} cell dalam field {{name}}",
             "middle": ", {{cells}} cell dalam field {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Bidang {{name}} akan dihapus",
+              "last": " dan bidang {{name}} akan dihapus",
+              "middle": ", bidang {{name}} akan dihapus"
+            },
+            "removed": {
+              "first": ", bidang {{name}} akan ditambahkan ulang",
+              "last": " dan bidang {{name}} akan ditambahkan ulang",
+              "middle": ", bidang {{name}} akan ditambahkan ulang"
+            }
+          },
           "singular": {
             "first": "1 cell dalam field {{name}}",
             "last": " dan 1 cell dalam field {{name}}",
@@ -1257,6 +1295,18 @@
             "first": "{{cells}} sel di bidang {{name}}",
             "last": " dan {{cells}} sel di bidang {{name}}",
             "middle": ", {{cells}} sel di bidang {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Bidang {{name}} akan dihapus",
+              "last": " dan bidang {{name}} akan dihapus",
+              "middle": ", bidang {{name}} akan dihapus"
+            },
+            "removed": {
+              "first": ", bidang {{name}} akan ditambahkan ulang",
+              "last": " dan bidang {{name}} akan ditambahkan ulang",
+              "middle": ", bidang {{name}} akan ditambahkan ulang"
+            }
           },
           "singular": {
             "first": "1 sel di bidang {{name}}",

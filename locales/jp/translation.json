@@ -437,6 +437,20 @@
           "inProgress": "ファイルを抽出しています",
           "waiting": "ファイルの抽出を待機しています"
         },
+        "flatfile-add-column": {
+          "canceled": "列の追加をキャンセルしました",
+          "complete": "列の追加が完了しました",
+          "failed": "列の追加に失敗しました",
+          "inProgress": "列の追加",
+          "waiting": "列の追加待ち"
+        },
+        "flatfile-remove-column": {
+          "canceled": "列の削除をキャンセルしました",
+          "complete": "列の削除が完了しました",
+          "failed": "列の削除に失敗しました",
+          "inProgress": "列の削除",
+          "waiting": "列の削除待ち"
+        },
         "mapping": {
           "canceled": "ワークブックへのマッピングがキャンセルされました",
           "complete": "ワークブックにマッピングされました",
@@ -1095,6 +1109,18 @@
             "last": " フィールド {{name}} の {{cells}} のセル",
             "middle": "、フィールド {{name}} の {{cells}} のセル"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "フィールド {{name}} が削除されます",
+              "last": " そしてフィールド {{name}} が削除されます",
+              "middle": "、フィールド {{name}} が削除されます"
+            },
+            "removed": {
+              "first": "フィールド {{name}} が再追加されます",
+              "last": " そしてフィールド {{name}} が再追加されます",
+              "middle": "、フィールド {{name}} が再追加されます"
+            }
+          },
           "singular": {
             "first": "フィールド {{name}} の1つのセル",
             "last": " フィールド {{name}} の1つのセル",
@@ -1207,6 +1233,18 @@
             "last": " およびフィールド{{name}}の{{cells}}セル",
             "middle": "、フィールド{{name}}の{{cells}}セル"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "フィールド {{name}} が削除されます",
+              "last": " そしてフィールド {{name}} が削除されます",
+              "middle": "、フィールド {{name}} が削除されます"
+            },
+            "removed": {
+              "first": "フィールド {{name}} が再追加されます",
+              "last": " そしてフィールド {{name}} が再追加されます",
+              "middle": "、フィールド {{name}} が再追加されます"
+            }
+          },
           "singular": {
             "first": "フィールド{{name}}の1セル",
             "last": " およびフィールド{{name}}の1セル",
@@ -1257,6 +1295,18 @@
             "first": "フィールド {{name}} の {{cells}} のセル",
             "last": " フィールド {{name}} の {{cells}} のセル",
             "middle": "、フィールド {{name}} の {{cells}} のセル"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "フィールド {{name}} が削除されます",
+              "last": " そしてフィールド {{name}} が削除されます",
+              "middle": "、フィールド {{name}} が削除されます"
+            },
+            "removed": {
+              "first": "フィールド {{name}} が再追加されます",
+              "last": " そしてフィールド {{name}} が再追加されます",
+              "middle": "、フィールド {{name}} が再追加されます"
+            }
           },
           "singular": {
             "first": "フィールド {{name}} の1つのセル",

@@ -443,6 +443,20 @@
           "inProgress": "Extrayendo archivo",
           "waiting": "Esperando a extraer el archivo"
         },
+        "flatfile-add-column": {
+          "canceled": "Añadir columna cancelado",
+          "complete": "Añadir columna completado",
+          "failed": "Error al añadir columna",
+          "inProgress": "Añadiendo columna",
+          "waiting": "Esperando para añadir columna"
+        },
+        "flatfile-remove-column": {
+          "canceled": "Eliminar columna cancelado",
+          "complete": "Eliminar columna completado",
+          "failed": "Error al eliminar columna",
+          "inProgress": "Eliminando columna",
+          "waiting": "Esperando para eliminar columna"
+        },
         "mapping": {
           "canceled": "Cancelado mapeado al cuaderno de trabajo",
           "complete": "Mapeado al cuaderno de trabajo",
@@ -1121,6 +1135,18 @@
             "last": " y {{cells}} celdas en la casilla {{name}}",
             "middle": ", {{cells}} celdas en la casilla {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Se eliminará el campo {{name}}",
+              "last": " y se eliminará el campo {{name}}",
+              "middle": ", se eliminará el campo {{name}}"
+            },
+            "removed": {
+              "first": "se volverá a añadir el campo {{name}}",
+              "last": " y se volverá a añadir el campo {{name}}",
+              "middle": ", se volverá a añadir el campo {{name}}"
+            }
+          },
           "singular": {
             "first": "1 celda en la casilla {{name}}",
             "last": " y 1 celda en la casilla {{name}}",
@@ -1233,6 +1259,18 @@
             "last": " y {{cells}} celdas en el campo {{name}}",
             "middle": "{{cells}} celdas en el campo {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Se eliminará el campo {{name}}",
+              "last": " y se eliminará el campo {{name}}",
+              "middle": ", se eliminará el campo {{name}}"
+            },
+            "removed": {
+              "first": "se volverá a añadir el campo {{name}}",
+              "last": " y se volverá a añadir el campo {{name}}",
+              "middle": ", se volverá a añadir el campo {{name}}"
+            }
+          },
           "singular": {
             "first": "1 celda en el campo {{name}}",
             "last": " y 1 celda en el campo {{name}}",
@@ -1283,6 +1321,18 @@
             "first": "{{cells}} celdas en la casilla {{name}}",
             "last": " y {{cells}} celdas en la casilla {{name}}",
             "middle": ", {{cells}} celdas en la casilla {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Se eliminará el campo {{name}}",
+              "last": " y se eliminará el campo {{name}}",
+              "middle": ", se eliminará el campo {{name}}"
+            },
+            "removed": {
+              "first": "se volverá a añadir el campo {{name}}",
+              "last": " y se volverá a añadir el campo {{name}}",
+              "middle": ", se volverá a añadir el campo {{name}}"
+            }
           },
           "singular": {
             "first": "1 celda en la casilla {{name}}",

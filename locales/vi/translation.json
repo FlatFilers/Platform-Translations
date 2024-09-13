@@ -437,6 +437,20 @@
           "inProgress": "Đang giải nén tệp",
           "waiting": "Đang chờ trích xuất tệp"
         },
+        "flatfile-add-column": {
+          "canceled": "Đã hủy thao tác thêm cột",
+          "complete": "Hoàn thành thao tác thêm cột",
+          "failed": "Không thể thêm cột",
+          "inProgress": "Thêm cột",
+          "waiting": "Đang chờ thêm cột"
+        },
+        "flatfile-remove-column": {
+          "canceled": "Đã hủy thao tác xóa cột",
+          "complete": "Hoàn thành thao tác xóa cột",
+          "failed": "Không thể xóa cột",
+          "inProgress": "Xóa cột",
+          "waiting": "Đang chờ xóa cột"
+        },
         "mapping": {
           "canceled": "Đã hủy lập biểu đồ tới sổ làm việc",
           "complete": "Đã lập biểu đồ tới sổ làm việc",
@@ -1095,6 +1109,18 @@
             "last": " và {{cells}} ô trong trường dữ liệu {{name}}",
             "middle": ", {{cells}} ô trong trường dữ liệu {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Trường {{name}} sẽ bị xóa",
+              "last": " và trường {{name}} sẽ bị xóa",
+              "middle": ", trường {{name}} sẽ bị xóa"
+            },
+            "removed": {
+              "first": "trường {{name}} sẽ được thêm lại",
+              "last": " và trường {{name}} sẽ được thêm lại",
+              "middle": ", trường {{name}} sẽ được thêm lại"
+            }
+          },
           "singular": {
             "first": "1 ô trong trường dữ liệu {{name}}",
             "last": " và 1 ô trong trường dữ liệu {{name}}",
@@ -1207,6 +1233,18 @@
             "last": " và {{cells}} ô trong trường {{name}}",
             "middle": ", {{cells}} ô trong trường {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Trường {{name}} sẽ bị xóa",
+              "last": " và trường {{name}} sẽ bị xóa",
+              "middle": ", trường {{name}} sẽ bị xóa"
+            },
+            "removed": {
+              "first": "trường {{name}} sẽ được thêm lại",
+              "last": " và trường {{name}} sẽ được thêm lại",
+              "middle": ", trường {{name}} sẽ được thêm lại"
+            }
+          },
           "singular": {
             "first": "1 ô trong trường {{name}}",
             "last": " và 1 ô trong trường {{name}}",
@@ -1257,6 +1295,18 @@
             "first": "{{cells}} ô trong trường dữ liệu {{name}}",
             "last": " và {{cells}} ô trong trường dữ liệu {{name}}",
             "middle": ", {{cells}} ô trong trường dữ liệu {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Trường {{name}} sẽ bị xóa",
+              "last": " và trường {{name}} sẽ bị xóa",
+              "middle": ", trường {{name}} sẽ bị xóa"
+            },
+            "removed": {
+              "first": "trường {{name}} sẽ được thêm lại",
+              "last": " và trường {{name}} sẽ được thêm lại",
+              "middle": ", trường {{name}} sẽ được thêm lại"
+            }
           },
           "singular": {
             "first": "1 ô trong trường dữ liệu {{name}}",

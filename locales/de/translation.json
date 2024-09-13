@@ -443,6 +443,20 @@
           "inProgress": "Datei extrahieren",
           "waiting": "Warten auf das Extrahieren der Datei"
         },
+        "flatfile-add-column": {
+          "canceled": "Hinzufügen der Spalte abgebrochen",
+          "complete": "Hinzufügen der Spalte komplett",
+          "failed": "Hinzufügen der Spalte fehlgeschlagen",
+          "inProgress": "Spalte wird hinzugefügt",
+          "waiting": "Hinzufügen der Spalte wird abgewartet"
+        },
+        "flatfile-remove-column": {
+          "canceled": "Entfernung der Spalte abgebrochen",
+          "complete": "Entfernung der Spalte abgeschlossen",
+          "failed": "Entfernung der Spalte fehlgeschlagen",
+          "inProgress": "Spalte wird entfernt",
+          "waiting": "Entfernung der Spalte wird abgewartet"
+        },
         "mapping": {
           "canceled": "Zuordnung zur Arbeitsmappe abgebrochen",
           "complete": "Der Arbeitsmappe zugeordnet",
@@ -1121,6 +1135,18 @@
             "last": " und {{cells}} Zellen im Feld {{name}}",
             "middle": ", {{cells}} Zellen im Feld {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Feld {{name}} wird entfernt",
+              "last": " und Feld {{name}} wird entfernt",
+              "middle": ", Feld {{name}} wird entfernt"
+            },
+            "removed": {
+              "first": "Feld {{name}} wird wieder eingefügt",
+              "last": " und Feld {{name}} wird wieder eingefügt",
+              "middle": ", Feld {{name}} wird wieder eingefügt"
+            }
+          },
           "singular": {
             "first": "1 Zelle im Feld {{name}}",
             "last": " und 1 Zelle im Feld {{name}}",
@@ -1233,6 +1259,18 @@
             "last": " und {{cells}} Zellen in Feld {{name}}",
             "middle": ", {{cells}} Zellen in Feld {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Feld {{name}} wird entfernt",
+              "last": " und Feld {{name}} wird entfernt",
+              "middle": ", Feld {{name}} wird entfernt"
+            },
+            "removed": {
+              "first": "Feld {{name}} wird wieder eingefügt",
+              "last": " und Feld {{name}} wird wieder eingefügt",
+              "middle": ", Feld {{name}} wird wieder eingefügt"
+            }
+          },
           "singular": {
             "first": "1 Zelle in Feld {{name}}",
             "last": " und 1 Zelle in Feld {{name}}",
@@ -1283,6 +1321,18 @@
             "first": "{{cells}} Zellen im Feld {{name}}",
             "last": " und {{cells}} Zellen im Feld {{name}}",
             "middle": ", {{cells}} Zellen im Feld {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Feld {{name}} wird entfernt",
+              "last": " und Feld {{name}} wird entfernt",
+              "middle": ", Feld {{name}} wird entfernt"
+            },
+            "removed": {
+              "first": "Feld {{name}} wird wieder eingefügt",
+              "last": " und Feld {{name}} wird wieder eingefügt",
+              "middle": ", Feld {{name}} wird wieder eingefügt"
+            }
           },
           "singular": {
             "first": "1 Zelle im Feld {{name}}",

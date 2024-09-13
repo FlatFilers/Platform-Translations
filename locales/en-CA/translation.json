@@ -442,6 +442,20 @@
           "inProgress": "Extracting file",
           "waiting": "Waiting to extract file"
         },
+        "flatfile-add-column": {
+          "canceled": "cancelled Add Column",
+          "complete": "Add Column complete",
+          "failed": "Add Column failed",
+          "inProgress": "Adding Column",
+          "waiting": "Waiting to Add Column"
+        },
+        "flatfile-remove-column": {
+          "canceled": "cancelled Remove Column",
+          "complete": "Remove Column complete",
+          "failed": "Remove Column failed",
+          "inProgress": "Removing Column",
+          "waiting": "Waiting to Remove Column"
+        },
         "mapping": {
           "canceled": "Cancelled mapping to workbook",
           "complete": "Mapped to workbook",
@@ -1120,6 +1134,18 @@
             "last": " and {{cells}} cells in field {{name}}",
             "middle": ", {{cells}} cells in field {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Field {{name}} will be removed",
+              "last": " and field {{name}} will be removed",
+              "middle": ", field {{name}} will be removed"
+            },
+            "removed": {
+              "first": "field {{name}} will be re-added",
+              "last": " and field {{name}} will be re-added",
+              "middle": ", field {{name}} will be re-added"
+            }
+          },
           "singular": {
             "first": "1 cell in field {{name}}",
             "last": " and 1 cell in field {{name}}",
@@ -1232,6 +1258,18 @@
             "last": " and {{cells}} cells in field {{name}}",
             "middle": ", {{cells}} cells in field {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Field {{name}} will be removed",
+              "last": " and field {{name}} will be removed",
+              "middle": ", field {{name}} will be removed"
+            },
+            "removed": {
+              "first": "field {{name}} will be re-added",
+              "last": " and field {{name}} will be re-added",
+              "middle": ", field {{name}} will be re-added"
+            }
+          },
           "singular": {
             "first": "1 cell in field {{name}}",
             "last": " and 1 cell in field {{name}}",
@@ -1282,6 +1320,18 @@
             "first": "{{cells}} cells in field {{name}}",
             "last": " and {{cells}} cells in field {{name}}",
             "middle": ", {{cells}} cells in field {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Field {{name}} will be removed",
+              "last": " and field {{name}} will be removed",
+              "middle": ", field {{name}} will be removed"
+            },
+            "removed": {
+              "first": "field {{name}} will be re-added",
+              "last": " and field {{name}} will be re-added",
+              "middle": ", field {{name}} will be re-added"
+            }
           },
           "singular": {
             "first": "1 cell in field {{name}}",
