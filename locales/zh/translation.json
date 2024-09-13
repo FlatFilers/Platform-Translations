@@ -1379,6 +1379,9 @@
     "panel": {
       "empty": "版本一旦生成，就会出现在这里。版本往往是在批量数据转换发生时自动生成的。",
       "generatedSnapshot": "在应用“AI 转换”前生成的用于提示的快照： ",
+      "generatedSnapshotForAiTransform": "应用 AI Transform 提示前生成的快照： ",
+      "generatedSnapshotForBulkDelete": "删除记录前生成的快照",
+      "generatedSnapshotForFindReplace": "应用“查找和替换”前生成的快照",
       "heading": "版本历史",
       "thisMonth": "本月",
       "versionRestored": "在还原以前的版本之前创建的版本"

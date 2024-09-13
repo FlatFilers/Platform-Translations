@@ -1405,6 +1405,9 @@
     "panel": {
       "empty": "Les versions, une fois générées, apparaîtront ici. Les versions sont générées automatiquement, souvent au moment d'une transformation en masse des données.",
       "generatedSnapshot": "Instantané généré avant l'application de AI Transform pour l'invite : ",
+      "generatedSnapshotForAiTransform": "Instantané généré avant suppression des enregistrements ",
+      "generatedSnapshotForBulkDelete": "Instantané généré avant application de la fonction Rechercher et Remplacer",
+      "generatedSnapshotForFindReplace": "Instantané généré avant application de la fonction AI Transformation pour l'invite :",
       "heading": "Historique des versions",
       "thisMonth": "Ce mois-ci",
       "versionRestored": "Version créée avant la restauration d'une version précédente"

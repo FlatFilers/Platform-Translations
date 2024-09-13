@@ -1405,6 +1405,9 @@
     "panel": {
       "empty": "As versões, uma vez geradas, aparecerão aqui. As versões são geradas automaticamente, geralmente quando ocorre uma transformação em massa de dados.",
       "generatedSnapshot": "Imagem gerada antes de aplicar o AI Transform para prompt: ",
+      "generatedSnapshotForAiTransform": "Snapshot gerado antes de aplicar a Transformação de IA para prompt: ",
+      "generatedSnapshotForBulkDelete": "Snapshot gerado antes da exclusão de registros",
+      "generatedSnapshotForFindReplace": "Snapshot gerado antes de aplicar Localizar e Substituir",
       "heading": "Histórico de versões",
       "thisMonth": "Este mês",
       "versionRestored": "Versão criada antes da restauração de uma versão anterior"

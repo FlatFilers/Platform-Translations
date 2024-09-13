@@ -1379,6 +1379,9 @@
     "panel": {
       "empty": "Sau khi được tạo, các phiên bản sẽ hiển thị ở đây. Chúng được tạo ra một cách tự động, thường là khi xảy ra chuyển đổi dữ liệu hàng loạt.",
       "generatedSnapshot": "Đã tạo ảnh chụp trước khi áp dụng Chuyển đổi AI cho câu lệnh: ",
+      "generatedSnapshotForAiTransform": "Ảnh chụp nhanh được tạo trước khi áp dụng Chuyển đổi AI cho câu lệnh; ",
+      "generatedSnapshotForBulkDelete": "Ảnh chụp nhanh được tạo trước khi xóa các bản ghi",
+      "generatedSnapshotForFindReplace": "Ảnh chụp nhanh được tạo trước khi áp dụng Tìm và Thay thế",
       "heading": "Lịch sử phiên bản",
       "thisMonth": "Tháng này",
       "versionRestored": "Phiên bản được tạo ra trước khi khôi phục một phiên bản trước đó"

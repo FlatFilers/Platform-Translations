@@ -1405,6 +1405,9 @@
     "panel": {
       "empty": "Generierte Versionen erscheinen hier. Versionen werden automatisch generiert, oft wenn eine Massenumwandlung von Daten stattfindet.",
       "generatedSnapshot": "Schnappschuss, der vor der Anwendung von AI Transform für die Eingabeaufforderung erstellt wurde: ",
+      "generatedSnapshotForAiTransform": "Schnappschuss, der vor der Anwendung von AI Transform für die Eingabeaufforderung erstellt wurde: ",
+      "generatedSnapshotForBulkDelete": "Schnappschuss vor dem Löschen von Datensätzen",
+      "generatedSnapshotForFindReplace": "Schnappschuss vor der Anwendung von Suchen und Ersetzen",
       "heading": "Versionsverlauf",
       "thisMonth": "Diesen Monat",
       "versionRestored": "Version, die vor der Wiederherstellung einer früheren Version erstellt wurde"

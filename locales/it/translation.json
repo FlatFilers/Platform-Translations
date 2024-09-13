@@ -1405,6 +1405,9 @@
     "panel": {
       "empty": "Le versioni, una volta generate, verranno visualizzate qui. Le versioni vengono generate automaticamente, spesso quando si verifica una trasformazione di massa dei dati.",
       "generatedSnapshot": "Istantanea generata prima dell'applicazione di AI Transform per il prompt: ",
+      "generatedSnapshotForAiTransform": "Istantanea generata prima di applicare Transforma con IA per il comando: ",
+      "generatedSnapshotForBulkDelete": "Istantanea generata prima di eliminare i record",
+      "generatedSnapshotForFindReplace": "Istantanea generata prima di applicare Trova e sostituisci",
       "heading": "Cronologia versioni",
       "thisMonth": "Questo mese",
       "versionRestored": "Versione creata prima del ripristino di una versione precedente"

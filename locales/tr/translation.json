@@ -1405,6 +1405,9 @@
     "panel": {
       "empty": "Sürümler oluşturulduktan sonra burada görünecektir. Sürümler, genellikle verilerde toplu dönüşüm gerçekleştiğinde otomatik olarak oluşturulur.",
       "generatedSnapshot": "Bilgi mesajı için YZ Dönüşümü uygulanmadan önce oluşturulan anlık görüntü: ",
+      "generatedSnapshotForAiTransform": "İstem için Yapay Zekâ Dönüşümü uygulanmadan önce oluşturulan anlık görüntü: ",
+      "generatedSnapshotForBulkDelete": "Kayıtlar silinmeden önce oluşturulan anlık görüntü",
+      "generatedSnapshotForFindReplace": "Bul ve Değiştir komutu uygulanmadan önce oluşturulan anlık görüntü",
       "heading": "Sürüm Geçmişi",
       "thisMonth": "Bu Ay",
       "versionRestored": "Önceki bir sürümün geri yüklenmesi öncesi oluşturulan sürüm"

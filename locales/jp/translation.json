@@ -1379,6 +1379,9 @@
     "panel": {
       "empty": "バージョンが生成されると、ここに表示されます。バージョンは多くの場合、データの一括変換が発生したときに自動的に生成されます。",
       "generatedSnapshot": "AI Transformをプロンプトに適用する前に生成されたスナップショット： ",
+      "generatedSnapshotForAiTransform": "プロンプトにAIトランスフォームを適用する前に生成されたスナップショット： ",
+      "generatedSnapshotForBulkDelete": "レコードを削除する前に生成されたスナップショット",
+      "generatedSnapshotForFindReplace": "検索と置換を適用する前に生成されたスナップショット",
       "heading": "バージョン履歴",
       "thisMonth": "この月",
       "versionRestored": "以前のバージョンを復元する前に作成されたバージョン"

@@ -1379,6 +1379,9 @@
     "panel": {
       "empty": "버전이 생성되면 여기에 표시됩니다. 버전은 데이터의 대량 변환이 발생할 때 자동으로 생성됩니다.",
       "generatedSnapshot": "AI 변환을 적용하기 전에 생성된 프롬프트용 스냅샷: ",
+      "generatedSnapshotForAiTransform": "프롬프트에 AI Transform 적용 전 생성한 스냅샷: ",
+      "generatedSnapshotForBulkDelete": "기록 삭제 전에 생성한 스냅샷",
+      "generatedSnapshotForFindReplace": "찾아서 바꾸기 전에 생성한 스냅샷",
       "heading": "버전 기록",
       "thisMonth": "이번 달",
       "versionRestored": "이전 버전을 복원하기 전에 생성된 버전"

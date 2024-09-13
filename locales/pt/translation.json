@@ -1405,6 +1405,9 @@
     "panel": {
       "empty": "As versões, assim que geradas, irão aparecer aqui. As versões são geradas automaticamente, muitas vezes quando ocorre um transformação em massa de dados.",
       "generatedSnapshot": "Imagem gerada antes de aplicar a Transformação de IA para o pedido: ",
+      "generatedSnapshotForAiTransform": "Imagem gerada antes de aplicar a Transformação de IA para o pedido: ",
+      "generatedSnapshotForBulkDelete": "Imagem gerada antes de eliminar registos",
+      "generatedSnapshotForFindReplace": "Imagem gerada antes de aplicar a função Localizar e Substituir",
       "heading": "Histórico de Versões",
       "thisMonth": "Este mês",
       "versionRestored": "Versão criada antes do restauro da versão anterior"

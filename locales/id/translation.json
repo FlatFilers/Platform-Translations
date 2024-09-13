@@ -1379,6 +1379,9 @@
     "panel": {
       "empty": "Versi, setelah dibuat, akan muncul di sini. Versi dibuat secara otomatis, sering kali ketika terjadi transformasi data secara massal.",
       "generatedSnapshot": "Snapshot yang dihasilkan sebelum menerapkan Transformasi AI untuk perintah: ",
+      "generatedSnapshotForAiTransform": "Snapshot yang dihasilkan sebelum menerapkan AI Transform untuk prompt: ",
+      "generatedSnapshotForBulkDelete": "Snapshot yang dibuat sebelum menghapus catatan",
+      "generatedSnapshotForFindReplace": "Snapshot yang dibuat sebelum menerapkan Cari dan Ganti",
       "heading": "Riwayat Versi",
       "thisMonth": "Bulan Ini",
       "versionRestored": "Versi yang dibuat sebelum pemulihan versi sebelumnya"

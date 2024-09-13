@@ -1405,6 +1405,9 @@
     "panel": {
       "empty": "Las versiones, una vez generadas, aparecerán aquí. Normalmente, las versiones se generan automáticamente cuando se produce una transformación masiva de datos.",
       "generatedSnapshot": "Foto generada antes de aplicar la transformación de IA: ",
+      "generatedSnapshotForAiTransform": "Instantánea generada antes de aplicar la Transformación por IA para la solicitud: ",
+      "generatedSnapshotForBulkDelete": "Instantánea generada antes de borrar los registros",
+      "generatedSnapshotForFindReplace": "Instantánea generada antes de aplicar Buscar y reemplazar",
       "heading": "Historial de la versión",
       "thisMonth": "Este mes",
       "versionRestored": "Versión creada antes de la restauración de una versión anterior"
