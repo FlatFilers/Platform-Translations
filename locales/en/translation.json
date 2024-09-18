@@ -188,7 +188,8 @@
     "resolve": "Resolve thread",
     "send": "Send comment",
     "threadPlaceholder": "Reply or mention others with @…",
-    "you": "You"
+    "you": "You",
+    "noResults": "No matches"
   },
   "document": {
     "error": {
