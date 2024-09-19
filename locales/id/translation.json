@@ -183,6 +183,7 @@
     "delete": "Hapus komentar",
     "edit": "Edit komentar",
     "edited": " (telah diedit)",
+    "noResults": "Tidak ada yang cocok",
     "placeholder": "Tambahkan komentar Anda di sini…",
     "reactionList": "<0></0> bereaksi dengan {{emoji}}",
     "resolve": "Menyelesaikan utas",

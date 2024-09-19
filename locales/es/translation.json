@@ -185,6 +185,7 @@
     "delete": "Borrar el comentario",
     "edit": "Editar el comentario",
     "edited": " (editado)",
+    "noResults": "Sin coincidencias",
     "placeholder": "Añade tu comentario aquí...",
     "reactionList": "<0></0> ha reaccionado con {{emoji}}",
     "resolve": "Resolver el tema",

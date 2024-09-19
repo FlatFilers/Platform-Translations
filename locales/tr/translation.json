@@ -185,6 +185,7 @@
     "delete": "Yorumu silin",
     "edit": "Yorumu düzenleyin",
     "edited": " (düzenlendi)",
+    "noResults": "Eşleşme yok",
     "placeholder": "Yorumunu buraya ekle...",
     "reactionList": "<0></0> {{emoji}} ile tepki verdi",
     "resolve": "Mesajı çözün",

@@ -183,6 +183,7 @@
     "delete": "删除评论",
     "edit": "编辑评论",
     "edited": " （已编辑）",
+    "noResults": "没有匹配的项",
     "placeholder": "在这里添加您的评论……",
     "reactionList": "<0></0> 对{{emoji}}做出反应",
     "resolve": "解决线程",

@@ -184,6 +184,7 @@
     "delete": "Delete comment",
     "edit": "Edit comment",
     "edited": " (edited)",
+    "noResults": "No matches",
     "placeholder": "Add your comment here…",
     "reactionList": "<0></0> reacted with {{emoji}}",
     "resolve": "Resolve thread",

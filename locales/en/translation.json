@@ -183,13 +183,13 @@
     "delete": "Delete comment",
     "edit": "Edit comment",
     "edited": " (edited)",
+    "noResults": "No matches",
     "placeholder": "Add your comment here…",
     "reactionList": "<0></0> reacted with {{emoji}}",
     "resolve": "Resolve thread",
     "send": "Send comment",
     "threadPlaceholder": "Reply or mention others with @…",
-    "you": "You",
-    "noResults": "No matches"
+    "you": "You"
   },
   "document": {
     "error": {

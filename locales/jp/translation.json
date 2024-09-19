@@ -183,6 +183,7 @@
     "delete": "コメントを削除",
     "edit": "コメントを編集",
     "edited": " （編集済み）",
+    "noResults": "一致なし",
     "placeholder": "ここにコメントを追加してください…",
     "reactionList": "<0></0>が{{emoji}}で反応しました",
     "resolve": "スレッドを解決",

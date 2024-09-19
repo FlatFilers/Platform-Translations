@@ -183,6 +183,7 @@
     "delete": "Xóa bình luận",
     "edit": "Chỉnh sửa bình luận",
     "edited": " (đã chỉnh sửa)",
+    "noResults": "Không có kết quả phù hợp",
     "placeholder": "Thêm bình luận của bạn ở đây...",
     "reactionList": "<0></0> đã bày tỏ cảm xúc với {{emoji}}",
     "resolve": "Giải quyết chuỗi bình luận",

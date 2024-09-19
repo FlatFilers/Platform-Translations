@@ -185,6 +185,7 @@
     "delete": "Elimina commento",
     "edit": "Modifica commento",
     "edited": " (modificato)",
+    "noResults": "Nessuna corrispondenza",
     "placeholder": "Aggiungi il tuo commento qui...",
     "reactionList": "<0></0> ha reagito con {{emoji}}",
     "resolve": "Risolvi thread",

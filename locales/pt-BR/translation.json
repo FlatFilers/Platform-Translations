@@ -185,6 +185,7 @@
     "delete": "Excluir comentário",
     "edit": "Editar comentário",
     "edited": " (editado)",
+    "noResults": "Nenhuma correspondência",
     "placeholder": "Adicione o seu comentário aqui...",
     "reactionList": "<0></0> reagiu com {{emoji}}",
     "resolve": "Resolver tópico",

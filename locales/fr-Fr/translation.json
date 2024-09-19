@@ -184,6 +184,7 @@
     "delete": "Supprimer le commentaire",
     "edit": "Modifier le commentaire",
     "edited": " (modifié)",
+    "noResults": "Aucune correspondance",
     "placeholder": "Ajoutez votre commentaire ici...",
     "reactionList": "<0></0> a réagi avec {{emoji}}",
     "resolve": "Résoudre le problème",

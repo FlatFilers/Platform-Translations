@@ -185,6 +185,7 @@
     "delete": "Kommentar löschen",
     "edit": "Kommentar bearbeiten",
     "edited": " (bearbeitet)",
+    "noResults": "Keine Übereinstimmungen",
     "placeholder": "Fügen Sie hier Ihren Kommentar hinzu ...",
     "reactionList": "<0></0> hat reagiert mit {{emoji}}",
     "resolve": "Thema auflösen",

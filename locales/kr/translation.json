@@ -183,6 +183,7 @@
     "delete": "댓글 삭제",
     "edit": "댓글 수정",
     "edited": " (수정됨)",
+    "noResults": "일치 항목 없음",
     "placeholder": "여기에 댓글을 추가하세요.",
     "reactionList": "<0></0> {{emoji}} 이모지로 반응했습니다",
     "resolve": "스레드 해결",
