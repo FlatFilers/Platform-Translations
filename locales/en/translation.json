@@ -505,6 +505,11 @@
           "inProgress": "Mapping..."
         }
       }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "Submit"
+      }
     }
   },
   "mapping": {
