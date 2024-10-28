@@ -505,6 +505,11 @@
           "inProgress": "マッピング..."
         }
       }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "提出する"
+      }
     }
   },
   "mapping": {

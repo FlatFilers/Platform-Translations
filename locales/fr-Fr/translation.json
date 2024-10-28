@@ -510,6 +510,11 @@
           "inProgress": "Cartographie..."
         }
       }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "Envoyer"
+      }
     }
   },
   "mapping": {

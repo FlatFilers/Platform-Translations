@@ -511,6 +511,11 @@
           "inProgress": "Mapeando..."
         }
       }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "Enviar"
+      }
     }
   },
   "mapping": {

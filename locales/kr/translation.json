@@ -505,6 +505,11 @@
           "inProgress": "매핑 중..."
         }
       }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "제출"
+      }
     }
   },
   "mapping": {

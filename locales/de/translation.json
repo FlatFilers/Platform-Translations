@@ -511,6 +511,11 @@
           "inProgress": "Zuordnung …"
         }
       }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "Absenden"
+      }
     }
   },
   "mapping": {

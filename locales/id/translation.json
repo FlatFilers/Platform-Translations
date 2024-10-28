@@ -505,6 +505,11 @@
           "inProgress": "Memetakan..."
         }
       }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "Kirim"
+      }
     }
   },
   "mapping": {

@@ -505,6 +505,11 @@
           "inProgress": "Đang ánh xạ..."
         }
       }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "Gửi"
+      }
     }
   },
   "mapping": {

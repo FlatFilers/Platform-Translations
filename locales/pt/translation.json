@@ -511,6 +511,11 @@
           "inProgress": "A mapear..."
         }
       }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "Submeter"
+      }
     }
   },
   "mapping": {
