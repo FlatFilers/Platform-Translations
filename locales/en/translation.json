@@ -552,7 +552,7 @@
       "progressPillAllMapped_one": "{{count}} values mapped",
       "progressPillAllMapped_other": "{{count}} value mapped",
       "subheading": "These fields have values that must be mapped to a list of valid options.",
-      "title": "Map Fields"
+      "title": "Map values"
     },
     "mapFields": {
       "destinationFields": {
