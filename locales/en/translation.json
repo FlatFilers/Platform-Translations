@@ -1399,7 +1399,7 @@
   },
   "nativeActions": {
     "clearColumn": "Clear Column",
-    "removeColumn": "Remove column",
-    "addColumn": "Remove column"
+    "removeColumn": "Remove Column",
+    "addColumn": "Add Column"
   }
 }
