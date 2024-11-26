@@ -1396,5 +1396,10 @@
     "pill": {
       "hoverText": "Version History"
     }
+  },
+  "nativeActions": {
+    "clearColumn": "Clear Column",
+    "removeColumn": "Remove column",
+    "addColumn": "Remove column"
   }
 }
