@@ -616,6 +616,11 @@
       "updatedAtDateFormat": "yyyy-MM-dd"
     }
   },
+  "nativeActions": {
+    "addColumn": "Thêm cột",
+    "clearColumn": "Xóa cột",
+    "removeColumn": "Bỏ cột"
+  },
   "platform": {
     "pubnub": {
       "errors": {

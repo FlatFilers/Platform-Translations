@@ -51,6 +51,7 @@
     "jobCompleteMessage": "The records have been transformed",
     "promptBar": {
       "categoricalWarning": "This field has too many options for AI Transform to process.",
+      "fieldTooltip": "{{key}}: {{description}}",
       "transformButton": {
         "tooltip": {
           "active": "Describe how you want data in a field to be transformed based on any logic, including data in any field",
@@ -626,6 +627,11 @@
       "title": "Import to...",
       "updatedAtDateFormat": "yyyy-MM-dd"
     }
+  },
+  "nativeActions": {
+    "addColumn": "Add column",
+    "clearColumn": "Clear Column",
+    "removeColumn": "Remove column"
   },
   "platform": {
     "pubnub": {

@@ -51,6 +51,7 @@
     "jobCompleteMessage": "Les enregistrements ont été transformés",
     "promptBar": {
       "categoricalWarning": "Ce champ contient trop d’options pour qu'AI Transform puisse les traiter.",
+      "fieldTooltip": "{{key}}: {{description}}",
       "transformButton": {
         "tooltip": {
           "active": "Décrivez comment vous souhaitez que les données d'un champ soient transformées en fonction de n'importe quelle logique, y compris les données de n'importe quel champ.",
@@ -626,6 +627,11 @@
       "title": "Importer vers...",
       "updatedAtDateFormat": "aaaa-MM-jj"
     }
+  },
+  "nativeActions": {
+    "addColumn": "Ajouter une colonne",
+    "clearColumn": "Effacer la colonne",
+    "removeColumn": "Supprimer la colonne"
   },
   "platform": {
     "pubnub": {

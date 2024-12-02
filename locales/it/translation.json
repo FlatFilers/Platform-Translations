@@ -628,6 +628,11 @@
       "updatedAtDateFormat": "aaaa-mm-gg"
     }
   },
+  "nativeActions": {
+    "addColumn": "Aggiungi colonna",
+    "clearColumn": "Ripulisci la colonna",
+    "removeColumn": "Rimuovi la colonna"
+  },
   "platform": {
     "pubnub": {
       "errors": {

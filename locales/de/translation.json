@@ -628,6 +628,11 @@
       "updatedAtDateFormat": "jjjj-MM-tt"
     }
   },
+  "nativeActions": {
+    "addColumn": "Spalte hinzufügen",
+    "clearColumn": "Spalte leeren",
+    "removeColumn": "Spalte entfernen"
+  },
   "platform": {
     "pubnub": {
       "errors": {

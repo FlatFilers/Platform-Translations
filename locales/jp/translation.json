@@ -616,6 +616,11 @@
       "updatedAtDateFormat": "年-月-日"
     }
   },
+  "nativeActions": {
+    "addColumn": "列を追加する",
+    "clearColumn": "列をクリア",
+    "removeColumn": "列を削除"
+  },
   "platform": {
     "pubnub": {
       "errors": {

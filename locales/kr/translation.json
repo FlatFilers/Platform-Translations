@@ -616,6 +616,11 @@
       "updatedAtDateFormat": "yyyy-MM-dd"
     }
   },
+  "nativeActions": {
+    "addColumn": "열 추가",
+    "clearColumn": "열 초기화",
+    "removeColumn": "열 삭제"
+  },
   "platform": {
     "pubnub": {
       "errors": {

@@ -552,7 +552,7 @@
       "progressPillAllMapped_one": "{{count}} values mapped",
       "progressPillAllMapped_other": "{{count}} value mapped",
       "subheading": "These fields have values that must be mapped to a list of valid options.",
-      "title": "Map values"
+      "title": "Map Fields"
     },
     "mapFields": {
       "destinationFields": {
@@ -615,6 +615,11 @@
       "title": "Import to...",
       "updatedAtDateFormat": "yyyy-MM-dd"
     }
+  },
+  "nativeActions": {
+    "addColumn": "Add column",
+    "clearColumn": "Clear Column",
+    "removeColumn": "Remove column"
   },
   "platform": {
     "pubnub": {
@@ -1396,10 +1401,5 @@
     "pill": {
       "hoverText": "Version History"
     }
-  },
-  "nativeActions": {
-    "clearColumn": "Clear Column",
-    "removeColumn": "Remove Column",
-    "addColumn": "Add Column"
   }
 }

@@ -616,6 +616,11 @@
       "updatedAtDateFormat": "年-月-日"
     }
   },
+  "nativeActions": {
+    "addColumn": "添加列",
+    "clearColumn": "清除列",
+    "removeColumn": "删除列"
+  },
   "platform": {
     "pubnub": {
       "errors": {

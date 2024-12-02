@@ -628,6 +628,11 @@
       "updatedAtDateFormat": "gg-AA-yyyy"
     }
   },
+  "nativeActions": {
+    "addColumn": "Sütun ekle",
+    "clearColumn": "Sütunu Temizle",
+    "removeColumn": "Sütunu kaldır"
+  },
   "platform": {
     "pubnub": {
       "errors": {

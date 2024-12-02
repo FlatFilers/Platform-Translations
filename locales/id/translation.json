@@ -616,6 +616,11 @@
       "updatedAtDateFormat": "tttt-BB-hh"
     }
   },
+  "nativeActions": {
+    "addColumn": "Tambah kolom",
+    "clearColumn": "Kosongkan Kolom",
+    "removeColumn": "Hapus kolom"
+  },
   "platform": {
     "pubnub": {
       "errors": {
