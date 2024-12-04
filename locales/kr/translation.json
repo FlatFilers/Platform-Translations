@@ -629,6 +629,15 @@
       }
     }
   },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "거의 완료되었습니다...",
+      "complete": "표가 업데이트되었습니다. 데이터를 검토하세요.",
+      "error": "통합 문서를 업데이트하던 중 오류가 발생했습니다. 이벤트 로그를 참조하세요.",
+      "halfway": "절반 정도 완료되었으니 기다려 주세요...",
+      "updatingTable": "매핑된 필드만 보도록 표 업데이트"
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "빈 열 지우기",

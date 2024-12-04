@@ -641,6 +641,15 @@
       }
     }
   },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "Presque terminé...",
+      "complete": "La mise à jour du tableau est terminée. Veuillez vérifier les données",
+      "error": "Une erreur s'est produite lors de la mise à jour du classeur. Voir les journaux d'événements.",
+      "halfway": "A mi-chemin, accrochez-vous...",
+      "updatingTable": "Mise à jour de la table afin d'afficher uniquement les champs mappés"
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Effacer les colonnes vides",

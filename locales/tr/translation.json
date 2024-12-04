@@ -641,6 +641,15 @@
       }
     }
   },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "Neredeyse bitti...",
+      "complete": "Tablo güncellemesi tamamlandı. Lütfen verileri denetleyin.",
+      "error": "Çalışma kitabı güncellenirken bir hata oluştu. Olay Günlükleri'ne bakın.",
+      "halfway": "Yolun yarısı, sıkı tutun.",
+      "updatingTable": "Tablo, yalnızca eşlenen alanları görüntüleyecek şekilde güncelleniyor"
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Boş sütunları boşalt",

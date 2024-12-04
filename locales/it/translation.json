@@ -641,6 +641,15 @@
       }
     }
   },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "Quasi finito...",
+      "complete": "Aggiornamento della tabella completato. Verifica i dati",
+      "error": "Si è verificato un errore durante l'aggiornamento della cartella di lavoro. Consulta i Registri eventi.",
+      "halfway": "Siamo a metà strada, attendi...",
+      "updatingTable": "Aggiornamento della tabella per visualizzare solo i campi mappati"
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Elimina le colonne vuote",

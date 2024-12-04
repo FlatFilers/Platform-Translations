@@ -629,6 +629,15 @@
       }
     }
   },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "Sắp xong rồi...",
+      "complete": "Cập nhật bảng thành công. Vui lòng kiểm tra dữ liệu",
+      "error": "Đã xảy ra lỗi khi cập nhật sổ làm việc. Hãy xem Lịch sử sự kiện.",
+      "halfway": "Xong một nửa rồi, hãy chờ nhé...",
+      "updatingTable": "Đang cập nhật bảng để chỉ xem những trường đã được lập sơ đồ"
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Xóa các cột trống",

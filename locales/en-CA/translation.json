@@ -641,6 +641,15 @@
       }
     }
   },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "Almost done...",
+      "complete": "Table update complete. Please audit the data",
+      "error": "An error occurred while updating the workbook. See Event Logs.",
+      "halfway": "Halfway there, hang tight...",
+      "updatingTable": "Updating the table to only view mapped fields"
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Clear empty columns",

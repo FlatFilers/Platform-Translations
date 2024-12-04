@@ -641,6 +641,15 @@
       }
     }
   },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "Fast fertig ...",
+      "complete": "Tabellenaktualisierung abgeschlossen. Bitte überprüfen Sie die Daten.",
+      "error": "Beim Aktualisieren der Arbeitsmappe ist ein Fehler aufgetreten. Siehe Ereignisprotokolle.",
+      "halfway": "Halb geschafft, bleiben Sie dran ...",
+      "updatingTable": "Aktualisieren der Tabelle, um nur zugeordnete Felder anzuzeigen"
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Leere Spalten löschen",

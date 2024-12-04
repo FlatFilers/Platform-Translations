@@ -641,6 +641,15 @@
       }
     }
   },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "Está quase...",
+      "complete": "Atualização da tabela concluída. Verifique os dados",
+      "error": "Ocorreu um erro ao atualizar o livro Excel. Consulte os registos de eventos.",
+      "halfway": "Ainda vai a meio, aguarde...",
+      "updatingTable": "A atualizar a tabela para ver apenas os campos mapeados"
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Limpar colunas vazias",

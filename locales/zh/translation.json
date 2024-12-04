@@ -629,6 +629,15 @@
       }
     }
   },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "即将完成……",
+      "complete": "表格更新完毕，请审核数据",
+      "error": "上传工作簿时出现了错误，请查看事件日志。",
+      "halfway": "正在处理，请稍等……",
+      "updatingTable": "将表格更新为仅查看映射的字段"
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "清除空白列",

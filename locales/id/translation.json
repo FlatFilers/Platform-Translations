@@ -629,6 +629,15 @@
       }
     }
   },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "Hampir selesai...",
+      "complete": "Pembaruan tabel selesai. Silakan audit data",
+      "error": "Kesalahan terjadi saat memperbarui buku kerja. Lihat Catatan Kejadian.",
+      "halfway": "Sudah separuh jalan, harap menunggu...",
+      "updatingTable": "Memperbarui tabel untuk hanya menampilkan bidang yang dipetakan"
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Hapus kolom kosong",

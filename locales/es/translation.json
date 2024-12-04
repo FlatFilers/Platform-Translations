@@ -641,6 +641,15 @@
       }
     }
   },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "Casi listo...",
+      "complete": "Actualización de la tabla completada. Por favor, revisa los datos.",
+      "error": "Se produjo un error al actualizar el libro de trabajo. Consulta los registros de eventos.",
+      "halfway": "Estamos a mitad de camino, espera un momento...",
+      "updatingTable": "Actualizando la tabla para mostrar solo los campos asignados"
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Borrar columnas vacías",

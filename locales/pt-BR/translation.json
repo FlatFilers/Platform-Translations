@@ -641,6 +641,15 @@
       }
     }
   },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "Quase pronto...",
+      "complete": "Atualização da tabela concluída. Audite os dados",
+      "error": "Ocorreu um erro ao atualizar a pasta de trabalho. Veja Logs de Eventos.",
+      "halfway": "Metade do caminho, aguarde...",
+      "updatingTable": "Atualizando a tabela para visualizar apenas os campos mapeados"
+    }
+  },
   "sheet": {
     "columnManagement": {
       "clear_empty": "Limpar colunas vazias",
