@@ -510,6 +510,9 @@
       "button": {
         "defaultLabel": "Submit"
       }
+    },
+    "messages": {
+      "startingJob": "Starting job"
     }
   },
   "mapping": {
