@@ -397,6 +397,9 @@
       "copiedPopover": "Identifiant du travail copiée",
       "copyIdTooltip": "Copier l'identifiant du travail"
     },
+    "messages": {
+      "startingJob": "Début de travail"
+    },
     "panel": {
       "action": {
         "export": "Télécharger",

@@ -397,6 +397,9 @@
       "copiedPopover": "Job-ID kopiert",
       "copyIdTooltip": "Job-ID kopieren"
     },
+    "messages": {
+      "startingJob": "Job starten"
+    },
     "panel": {
       "action": {
         "export": "Herunterladen",

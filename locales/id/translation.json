@@ -391,6 +391,9 @@
       "copiedPopover": "ID Pekerjaan Disalin",
       "copyIdTooltip": "Salin ID Pekerjaan"
     },
+    "messages": {
+      "startingJob": "Memulai pekerjaan"
+    },
     "panel": {
       "action": {
         "export": "Unduh",

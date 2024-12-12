@@ -391,6 +391,9 @@
       "copiedPopover": "复制的作业 ID",
       "copyIdTooltip": "复制作业 ID"
     },
+    "messages": {
+      "startingJob": "开始工作"
+    },
     "panel": {
       "action": {
         "export": "下载",

@@ -397,6 +397,9 @@
       "copiedPopover": "İş ID'si Kopyalandı",
       "copyIdTooltip": "İş ID'sini Kopyala"
     },
+    "messages": {
+      "startingJob": "Başlangıç ​​işi"
+    },
     "panel": {
       "action": {
         "export": "İndir",

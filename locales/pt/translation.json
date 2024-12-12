@@ -397,6 +397,9 @@
       "copiedPopover": "ID de tarefa copiado",
       "copyIdTooltip": "Copiar ID de tarefa"
     },
+    "messages": {
+      "startingJob": "A começar trabalho"
+    },
     "panel": {
       "action": {
         "export": "Descarregar",

@@ -391,6 +391,9 @@
       "copiedPopover": "복사된 작업 ID",
       "copyIdTooltip": "작업 ID 복사"
     },
+    "messages": {
+      "startingJob": "작업 시작"
+    },
     "panel": {
       "action": {
         "export": "다운로드",

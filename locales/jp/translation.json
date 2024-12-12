@@ -391,6 +391,9 @@
       "copiedPopover": "ジョブIDをコピーしました",
       "copyIdTooltip": "ジョブIDのコピー"
     },
+    "messages": {
+      "startingJob": "ジョブ開始"
+    },
     "panel": {
       "action": {
         "export": "ダウンロード",

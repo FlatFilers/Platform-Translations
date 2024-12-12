@@ -391,6 +391,9 @@
       "copiedPopover": "Đã sao chép ID công việc",
       "copyIdTooltip": "Sao chép ID công việc"
     },
+    "messages": {
+      "startingJob": "Bắt đầu công việc"
+    },
     "panel": {
       "action": {
         "export": "Tải xuống",
