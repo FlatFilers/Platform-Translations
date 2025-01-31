@@ -1,0 +1,1415 @@
+{
+  "aiTransform": {
+    "changedColumnsText_other": "{{count}} 個欄的資料已變更",
+    "changedColumnsText_zero": "{{count}} 個欄的資料已變更",
+    "errors": {
+      "entilementError": {
+        "content": "如果您認為這是錯誤，請聯絡支援團隊。",
+        "title": "抱歉！您無法使用此功能。"
+      },
+      "generalError": {
+        "title": "發生錯誤，請再試一次。"
+      },
+      "generateMutationError": {
+        "title": "無法聯繫到 AI，請稍後再試。"
+      },
+      "invalidFunctionError": {
+        "content": "很可能是您要求執行無效的操作。",
+        "title": "抱歉，AI 助理無法執行該轉換。"
+      },
+      "keysModifiedError": {
+        "title": "抱歉，AI 助理僅能修改現有欄位的值，無法刪除欄位或新增欄位。"
+      },
+      "noFunctionError": {
+        "content": "請嘗試以不同的方式表達。包含欄位名稱的提示通常會更成功。",
+        "title": "我們無法理解您的提示。"
+      },
+      "noRecordsFoundError": {
+        "content": "沒有找到符合查詢的記錄，請再試一次。",
+        "title": "沒有找到任何記錄"
+      },
+      "noresultsError": {
+        "content": "請嘗試以不同的方式表達。包含欄位名稱的提示通常會更成功。",
+        "title": "您的提示沒有轉換任何資料。"
+      },
+      "prompttoolongError": {
+        "content": "請嘗試縮短提示，或將其拆分成多個步驟後再試一次。",
+        "title": "抱歉！您的提示有點太長。"
+      },
+      "versionError": {
+        "content": "無法建立轉返版本。",
+        "title": "發生錯誤，請再試一次。"
+      }
+    },
+    "exitConfirmation": {
+      "body": "您確定要退出嗎？",
+      "header": "退出確認",
+      "label": "退出"
+    },
+    "jobCompleteHeading": "AI 轉換作業完成",
+    "jobCompleteMessage": "記錄已轉換",
+    "promptBar": {
+      "categoricalWarning": "此欄位有太多選項，AI 轉換無法處理。",
+      "transformButton": {
+        "tooltip": {
+          "active": "描述您希望如何根據邏輯轉換欄位中的資料（包括根據任意欄位中的資料）",
+          "disabled": "您必須在您的（已篩選）工作表中有一些記錄才能使用 AI 助理。",
+          "locked": "該工作表已鎖定。",
+          "noRows": "您必須在您的（已篩選）工作表中有一些記錄才能使用 AI 助理。",
+          "readOnly": "該工作表為唯讀。",
+          "tooManyRows": "該工作表的列數過多（超過 100 萬）。"
+        }
+      },
+      "warning": "注意：您資料集中的某些類別欄位有很多設定選項。若在提示中使用這些欄位（例如 @{{fieldName}})，可能無法按預期運作。"
+    },
+    "sampleMessage": "預覽 {{number}} 筆記錄",
+    "scrollInfoText": "捲動至下一個已變更的欄",
+    "toggleLabel": "僅顯示已修改的資料"
+  },
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "無法建立內嵌 Diff，因為 'direction' 屬性無效。有效的值為：'sheet_to_snapshot'、'snapshot_to_sheet'",
+        "missingIds": "無法建立內嵌 Diff，因為缺少工作表、活頁簿或快照的 ID"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "無法建立內嵌工作表，因為缺少工作表或活頁簿的 ID。"
+      }
+    }
+  },
+  "checklist": {
+    "dropdowns": {
+      "headings": {
+        "sheet": "工作表",
+        "workbook": "活頁簿"
+      }
+    },
+    "errors": {
+      "cannotLoadChecklist": "無法載入資料檢查清單",
+      "cannotLoadSheet": "找不到工作表",
+      "noWorkbooksDescription": "資料檢查清單至少需要一個活頁簿處於啟用狀態。請讓您的開發人員檢查設定。如果問題持續發生，請聯絡支援。",
+      "noWorkbooksTitle": "必須提供活頁簿"
+    },
+    "table": {
+      "dataTypes": {
+        "boolean": "布林值",
+        "date": "日期",
+        "enum": "列舉",
+        "number": "數字",
+        "reference": "參照",
+        "string": "字串",
+        "unknown": "未知"
+      },
+      "fieldTagComputed": "已計算",
+      "fieldTagRequired": "必填",
+      "fieldTagUnique": "唯一",
+      "headings": {
+        "dataType": "資料類型",
+        "description": "描述",
+        "field": "欄位名稱"
+      }
+    },
+    "title": "資料檢查清單"
+  },
+  "commandMenu": {
+    "aiAssist": {
+      "query": {
+        "askingAI": {
+          "stepFour": "完成中",
+          "stepOne": "思考中",
+          "stepThree": "進行中",
+          "stepTwo": "撰寫中"
+        },
+        "description": {
+          "branded": "要求 AI 用 FFQL 陳述式撰寫查詢",
+          "whitelabeled": "要求 AI 撰寫查詢"
+        },
+        "errorBanner": {
+          "generalError": "發生錯誤，請再試一次。"
+        },
+        "instruction": "描述您希望 AI 助理如何查詢您的資料：",
+        "review": {
+          "description": "這是我想到的。請閱讀逐步解釋和查詢，若您覺得沒問題，請按一下下方來套用。",
+          "explanationTitle": "解釋",
+          "queryTitle": "查詢"
+        }
+      },
+      "transform": {
+        "askingAI": {
+          "stepFour": "完成中",
+          "stepOne": "思考中",
+          "stepThree": "進行中",
+          "stepTwo": "撰寫中"
+        }
+      }
+    },
+    "buttons": {
+      "apply": "套用",
+      "cancel": "取消"
+    },
+    "commands": {
+      "filter": {
+        "apply": "套用篩選條件。",
+        "description": {
+          "branded": "撰寫 FFQL 陳述式",
+          "whitelabeled": "撰寫查詢"
+        },
+        "hiddenColumnsWarning_other": "這個查詢將取消隱藏 {{count}} 個欄位： {{fields}}",
+        "hiddenColumnsWarning_zero": "這個查詢將取消隱藏 {{count}} 個欄位： {{fields}}",
+        "invalidFFQL": "無效的 FFQL 語句。再試一次？",
+        "learnHow": "學習如何操作"
+      },
+      "search": {
+        "global": {
+          "apply": "套用搜尋。",
+          "description": "搜尋整個工作表"
+        },
+        "inField": {
+          "apply": "在欄位中套用搜尋。",
+          "applyExample": "例如：'first_name' Jane Doe",
+          "description": "在欄位中搜尋"
+        }
+      }
+    },
+    "itemMessage": "按下 {{icon}} 即可套用",
+    "placeholder": "尋找或執行任何動作..."
+  },
+  "comments": {
+    "addReaction": "新增表情符號反應",
+    "commentDisabledTooltip": "選取一個儲存格或一列以新增留言",
+    "delete": "刪除留言",
+    "edit": "編輯留言",
+    "edited": " （已編輯）",
+    "noResults": "沒有相符項目",
+    "placeholder": "在此新增您的留言…",
+    "reactionList": "<0></0> 使用 {{emoji}} 做出反應",
+    "resolve": "解決留言串",
+    "send": "傳送留言",
+    "threadPlaceholder": "使用 @ 回覆或提及其他人…",
+    "you": "您"
+  },
+  "document": {
+    "error": {
+      "description": "此文件似乎不存在",
+      "title": "找不到文件"
+    }
+  },
+  "errors": {
+    "documentNotFound": "找不到文件",
+    "fileNotFound": "未找到檔案",
+    "missingParameter": "未提供參數",
+    "notFound": "未找到",
+    "notFoundPageDescription": "此 URL 中不存在頁面。如有異常，請聯絡支援部門。",
+    "refreshButton": "重試",
+    "refreshPageDescription": "重新整理頁面再試一次。如果問題持續發生，請聯絡支援人員。",
+    "returnToDashboardButton": "返回儀表板",
+    "sessionExpired": "工作階段已過期",
+    "sheetNotFound": "找不到工作表",
+    "spaceNotFound": "未找到空間",
+    "unauthorized": "您的存取憑證無效。",
+    "unknownError": "發生錯誤",
+    "workbookNotFound": "找不到活頁簿"
+  },
+  "files": {
+    "availableDownloadsTab": "可供下載的檔案",
+    "buttons": {
+      "addFile": {
+        "inProgressText": "正在上傳檔案",
+        "text": "上傳檔案"
+      },
+      "addFileFrom": {
+        "box": "Box",
+        "googleDrive": "Google 雲端硬碟",
+        "text": "從以下位置新增檔案…"
+      },
+      "delete": "刪除",
+      "download": "下載",
+      "googleDrive": "從 Google 雲端硬碟新增檔案"
+    },
+    "connectionsModal": {
+      "box": "Box",
+      "close": "關閉",
+      "googleDrive": "Google 雲端硬碟",
+      "heading": "管理您的連線",
+      "manage": "管理",
+      "subtext": " 點擊下方按鈕以登入或登出您的帳戶。"
+    },
+    "contextMenu": {
+      "delete": "刪除",
+      "download": "下載"
+    },
+    "counts": "第 {{start}}-{{end}} 筆，共 {{total}} 筆",
+    "deleteModal": {
+      "downloadDescription_other": "這些已下載的檔案將從空間中刪除。",
+      "downloadDescription_zero": "這些已下載的檔案將從空間中刪除。",
+      "heading_other": "刪除檔案",
+      "heading_zero": "刪除檔案",
+      "subheading_other": "檔案：",
+      "subheading_zero": "檔案：",
+      "uploadsDescription_other": "所有匯入的資料將被儲存，並且這將刪除該空間中的檔案。",
+      "uploadsDescription_zero": "所有匯入的資料將被儲存，並且這將刪除該空間中的檔案。"
+    },
+    "downloadsTable": {
+      "headings": {
+        "createdDate": "已產生",
+        "name": "名稱",
+        "size": "大小",
+        "sourceSheet": "來源工作表"
+      },
+      "processing": "正在匯出..."
+    },
+    "emptyState": {
+      "downloads": {
+        "description": "已下載的資料將顯示在此",
+        "heading": "沒有可下載的檔案"
+      },
+      "uploads": {
+        "description": "拖放或上傳檔案以開始",
+        "heading": "新增檔案"
+      }
+    },
+    "errors": {
+      "loadingError": "無法載入檔案",
+      "uploadDisabledDescription": "如果您認為這是錯誤，請聯絡支援人員。",
+      "uploadDisabledHeading": "此空間目前不支援檔案上傳。"
+    },
+    "title": "檔案",
+    "uploadedFilesTab": "已上傳檔案",
+    "uploadFile": {
+      "popovers": {
+        "errorUploading": "無法上傳檔案：{{fileName}}",
+        "extracting": "正在擷取檔案...",
+        "extractionCompleted": "擷取完成。",
+        "extractionFailed": "擷取失敗。請再試一次或聯絡支援部門。",
+        "onDragPopoverConfirmation": "正在放入檔案：",
+        "unsupportedFile": "不支援的檔案類型。請嘗試其他檔案類型或聯絡支援部門。",
+        "unsupportedFileInfo": "我們未在此檔案中檢測到資料。如有需要，可供下載。",
+        "uploadComplete": "已上傳：{{fileName}}",
+        "uploadCompleteMany": "已上傳 {{count}} 個檔案",
+        "uploadError": "上傳 {{fileName}} 時發生錯誤",
+        "uploadErrorMany": "上傳 {{count}} 個檔案時發生錯誤",
+        "uploadingMany": "正在上傳 {{count}} 個檔案",
+        "uploadInProgress": "正在上傳：{{fileName}}",
+        "uploadInProgressMany": "正在上傳 {{count}} 個檔案",
+        "uploadsDisabled": "此空間目前不支援檔案上傳。",
+        "waitingForExtraction": "正在等待檔案擷取..."
+      }
+    },
+    "uploadsTables": {
+      "headings": {
+        "name": "名稱",
+        "status": "狀態",
+        "uploadedDate": "已上傳"
+      },
+      "importButton": "匯入",
+      "importError": "無法找到要匯入的來源檔案，請再試一次。如果問題持續發生，請聯絡支援團隊。",
+      "tooltips": {
+        "cannotImport": "目前無法將此檔案匯入至活頁簿",
+        "noExtension": "此檔案沒有副檔名。請將正確的檔案副檔名添加至檔案名稱並重新上傳檔案，以將其匯入活頁簿"
+      }
+    }
+  },
+  "guestInvite": {
+    "getNewAccessLink": {
+      "content": "我們已經傳送安全存取連結到",
+      "finePrint": "如果無法找到電子郵件，請檢查您的垃圾郵件資料夾，或重新整理此頁面以傳送另一個存取連結。該連結有效時間為 5 分鐘。",
+      "heading": "請檢查您的收件匣"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "您確定要關閉此視窗嗎？這將結束您當前的資料匯入工作階段。",
+        "primaryButtonText": "是的，退出",
+        "secondaryButtonText": "不，留下",
+        "title": "關閉視窗"
+      },
+      "errorModal": {
+        "title": "發生錯誤"
+      }
+    }
+  },
+  "jobs": {
+    "customActions": {
+      "modals": {
+        "confirmModal": {
+          "cancelButton": "取消",
+          "defaultConfirmButton": "確認",
+          "defaultLoadingButton": "正在載入...",
+          "isRequired": "{{field}} 為必填欄位",
+          "mustBeNumber": "{{field}} 必須是數字"
+        },
+        "defaultJobName": "作業",
+        "defaultResourceName": "此資源",
+        "foregroundJobProgressModal": {
+          "defaultJobName": "作業",
+          "defaultResourceName": "此資源",
+          "percentComplete": "{{percent}}% 完成",
+          "runningOn": "執行於"
+        },
+        "outcomeModals": {
+          "acknowledgementModal": {
+            "defaultContinueButton": "繼續"
+          },
+          "defaultDownloadLabel": "下載",
+          "defaultFileName": "檔案",
+          "defaultHeading": {
+            "failed": "作業失敗",
+            "success": "成功！"
+          },
+          "defaultLabel": "檢視資源",
+          "defaultMessage": {
+            "failed": "{{jobName}} 在 {{resourceName}} 上失敗",
+            "success": "{{jobName}} 在 {{resourceName}} 上成功執行"
+          },
+          "defaultRetryLabel": "重試",
+          "defaultUrlLabel": "訪問外部網頁",
+          "defaultViewLabel": "  更新檢視",
+          "permanentOutcomeModal": {
+            "defaultContinueButton": "繼續"
+          }
+        },
+        "startModal": {
+          "confirmButton": "確認",
+          "errorMessage": "動作錯誤",
+          "loadingText": "正在載入..."
+        }
+      }
+    },
+    "download": {
+      "downloadStartedHeading": "下載已開始",
+      "downloadStartedMessage": "下載應已自動開始。",
+      "seeAllDownloads": "查看所有下載"
+    },
+    "errors": {
+      "timeout": "作業超時。"
+    },
+    "info": {
+      "copiedPopover": "已複製作業 ID",
+      "copyIdTooltip": "複製作業 ID"
+    },
+    "messages": {
+      "startingJob": "開始處理作業"
+    },
+    "panel": {
+      "action": {
+        "export": "下載",
+        "extract": "匯入",
+        "mapping": "前往活頁簿"
+      },
+      "empty": "作業執行中或完成後將顯示在此處",
+      "errorLoadingJob": "未找到",
+      "heading": "作業",
+      "status": {
+        "default": {
+          "canceled": {
+            "prefix": "作業",
+            "suffix": "已取消"
+          },
+          "complete": {
+            "prefix": "作業",
+            "suffix": "完成"
+          },
+          "failed": {
+            "prefix": "作業",
+            "suffix": "失敗"
+          },
+          "inProgress": "作業執行中",
+          "waiting": "正在等待："
+        },
+        "delete": {
+          "cancelled": "已取消記錄刪除",
+          "complete": "刪除完成",
+          "failed": "刪除失敗",
+          "inProgress": "正在刪除記錄",
+          "waiting": "等待刪除記錄"
+        },
+        "export": {
+          "canceled": "已取消下載",
+          "complete": "已產生下載項目",
+          "failed": "下載項目產生失敗",
+          "inProgress": "正在產生下載項目",
+          "waiting": "等待產生下載"
+        },
+        "extract": {
+          "cancelled": "已取消檔案提取",
+          "complete": "已提取檔案",
+          "failed": "檔案提取失敗",
+          "inProgress": "正在提取檔案",
+          "waiting": "等待擷取檔案"
+        },
+        "flatfile-add-column": {
+          "canceled": "已取消新增欄",
+          "complete": "新增欄完成",
+          "failed": "新增欄失敗",
+          "inProgress": "正在新增欄",
+          "waiting": "等待新增欄"
+        },
+        "flatfile-remove-column": {
+          "canceled": "已取消移除欄",
+          "complete": "移除欄完成",
+          "failed": "移除欄失敗",
+          "inProgress": "正在移除欄",
+          "waiting": "等待移除欄"
+        },
+        "mapping": {
+          "canceled": "已取消對應至活頁簿",
+          "complete": "已對應至活頁簿",
+          "failed": "對應至活頁簿失敗",
+          "inProgress": "正在對應至活頁簿",
+          "waiting": "等待對應至活頁簿"
+        },
+        "mutate-records": {
+          "canceled": "已取消AI 轉換",
+          "complete": "AI 轉換完成",
+          "failed": "AI 轉換失敗",
+          "inProgress": "使用 AI 轉換記錄",
+          "waiting": "等待使用 AI 轉換記錄"
+        }
+      },
+      "time": {
+        "calculating": "計算剩餘時間...",
+        "completed": "完成於",
+        "failed": "失敗於",
+        "remaining": "剩餘",
+        "started": "開始於 {{time}}",
+        "units": {
+          "hour": "小時",
+          "minute": "分鐘",
+          "second": "秒"
+        }
+      }
+    },
+    "pill": {
+      "hoverText": "作業",
+      "multipleJobsRunning": "正在執行 {{count}} 個作業",
+      "status": {
+        "default": {
+          "complete": "作業完成",
+          "failed": "作業失敗",
+          "inProgress": "作業執行中"
+        },
+        "delete": {
+          "complete": "刪除完成",
+          "failed": "刪除失敗",
+          "inProgress": "正在刪除記錄..."
+        },
+        "extract": {
+          "complete": "提取完成",
+          "failed": "提取失敗",
+          "inProgress": "正在提取資料..."
+        },
+        "mapping": {
+          "complete": "對應完成",
+          "failed": "對應失敗",
+          "inProgress": "正在對應..."
+        }
+      }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "送出"
+      }
+    }
+  },
+  "mapping": {
+    "clearFields": {
+      "modalHeader": "清除目標欄位",
+      "modalLabel": "清除",
+      "modalText": "此匯入的所有現有對應都將清除",
+      "modalTooltip": "清除目標欄位"
+    },
+    "dataPreview": {
+      "heading": "{{previewKey}} 的資料預覽",
+      "noData": "無預覽資料"
+    },
+    "dropdown": {
+      "placeholder": "選取..."
+    },
+    "headerButtons": {
+      "back": "返回",
+      "complete": "完成",
+      "exit": "退出",
+      "headers": "選擇標題",
+      "next": "繼續"
+    },
+    "mapEnums": {
+      "destinationFields": {
+        "dropdownOptions": {
+          "doNotImport": "不匯入",
+          "keepAsIs": "保留此值不變",
+          "keepAsIsDisabledTooltip": "不支援將新選項新增至此列表。匯入無效選項的值將顯示為錯誤。"
+        },
+        "heading": "目標值"
+      },
+      "incomingFields": {
+        "heading": "匯入值",
+        "noData": "無資料的儲存格",
+        "noDataTooltip": "您可以選擇一個有效選項來填入所有空白儲存格，或是保持空白。"
+      },
+      "progressPill_other": "已對應 {{mappedCount}} 個值，共 {{count}} 個值",
+      "progressPill_zero": "已對應 {{mappedCount}} 個值，共 {{count}} 個值",
+      "progressPillAllMapped_other": "已對應 {{count}} 個值",
+      "progressPillAllMapped_zero": "已對應 {{count}} 個值",
+      "subheading": "這些欄位的值必須對應至有效選項清單。",
+      "title": "對應欄位"
+    },
+    "mapFields": {
+      "destinationFields": {
+        "addNewField": {
+          "description": "將此欄位新增至您的工作表",
+          "label": "新增為新欄位"
+        },
+        "dropdownOptionLabels": {
+          "new": "新增",
+          "unused": "未使用",
+          "used": "已使用"
+        },
+        "heading": "目標欄位",
+        "progressPill": {
+          "missingRequiredFields": " 缺少 {{missingFieldsCount}} 個",
+          "text": "{{totalDestinationsMapped}} / {{totalDestinationFields}}",
+          "tooltip": {
+            "greaterThanTenMissing": "以及另外 {{missingFieldsAfterTen}} 個...",
+            "missingRequiredFields": "缺少必填欄位：",
+            "progress": "目標工作表中可用的 {{totalDestinationFields}} 個欄位中，已有 {{mappedDestinationFields}} 個被對應"
+          }
+        }
+      },
+      "incomingFields": {
+        "heading": "匯入欄位",
+        "progressPill": {
+          "text": "{{totalIncomingMapped}} / {{totalIncomingFields}}",
+          "tooltip": "您已將資料集中 {{mappedIncomingFields}} 個欄位對應至目標工作表（共 {{totalIncomingFields}} 個）"
+        },
+        "selectHeaders": {
+          "tooltip": "編輯傳入欄位"
+        }
+      },
+      "subheading": "請檢視並確認每個對應選項",
+      "title": "對應欄位"
+    },
+    "mapHeaders": {
+      "subheading": "變更或選取您來源資料的標題列",
+      "title": "對應標題"
+    },
+    "mappingPlan": {
+      "preparing": "正在準備對應…"
+    },
+    "sheetSelection": {
+      "cannotLoadFile": "無法上傳檔案：{{fileName}}",
+      "cannotStartMapping": "無法繼續對應 - {{reason}} - 請再試一次",
+      "columns_other": "{{count}} 個欄位",
+      "columns_zero": "{{count}} 個欄位",
+      "errors_other": "{{count}} 個錯誤",
+      "errors_zero": "{{count}} 個錯誤",
+      "importFromHeading": "選擇一個工作表以載入資料",
+      "importToHeading": "選擇一個工作表以匯入此資料",
+      "lastUpdated": "最後更新於 {{date}}",
+      "lastUpdatedDateFormat": "年-月-日",
+      "records_other": "{{count}} 筆記錄",
+      "records_zero": "{{count}} 筆記錄",
+      "sheetHasNoData": "無資料",
+      "sheets_other": "{{count}} 個工作表",
+      "sheets_zero": "{{count}} 個工作表",
+      "title": "匯入至...",
+      "updatedAtDateFormat": "年年年年-月月-日日"
+    }
+  },
+  "nativeActions": {
+    "addColumn": "新增欄",
+    "clearColumn": "清除欄",
+    "removeColumn": "移除欄"
+  },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "重新整理",
+        "refreshTokenFailed": "事件串流已斷開 - 請重新整理以重新連接"
+      }
+    }
+  },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "快完成了...",
+      "complete": "表格更新完成，請稽核資料",
+      "error": "更新活頁簿時發生錯誤，請查看事件日誌。",
+      "halfway": "已經完成一半，請稍等...",
+      "updatingTable": "正在更新表格以僅顯示已對應的欄位"
+    }
+  },
+  "sheet": {
+    "columnManagement": {
+      "clear_empty": "清除空白的欄",
+      "errorColumnTooltip": "依此值篩選將取消隱藏此欄位",
+      "hideAll": "全部隱藏",
+      "hideEmpty": "隱藏空白欄",
+      "hideEmptyFields": "隱藏沒有資料的欄",
+      "noFields": "無欄位",
+      "noMatches": "無相符項目",
+      "placeholder_other": "搜尋或從 {{count}} 個欄位中選取⋯⋯",
+      "placeholder_zero": "搜尋或從 {{count}} 個欄位中選取⋯⋯",
+      "toast": {
+        "action": "取消隱藏",
+        "message_other": "[{{count}} 個欄位有錯誤並已隱藏",
+        "message_zero": "[{{count}} 個欄位有錯誤並已隱藏"
+      },
+      "tooltip_other": "已隱藏 {{count}} 欄",
+      "tooltip_zero": "管理欄",
+      "unhideToast": {
+        "message_other": "此查詢取消隱藏了 {{count}} 欄",
+        "message_zero": "此查詢取消隱藏了 {{count}} 欄"
+      }
+    },
+    "comments": {
+      "tooltip": "新增留言"
+    },
+    "embedded": {
+      "maxOpenReached": "無法同時開啟超過 {{maxOpenSheets}} 個內嵌試算表。請關閉一個內嵌試算表後再開啟此試算表。",
+      "untitled": "未命名試算表"
+    },
+    "emptyView": {
+      "defaultError": {
+        "description": "此試算表似乎為空白。",
+        "heading": "尚無可供查看的內容！"
+      },
+      "heading": "開始",
+      "manualEntry": "手動輸入資料",
+      "missingSheet": {
+        "buttonLabel": "返回主要工作表",
+        "description": "您嘗試存取的工作表已被刪除或不存在。",
+        "heading": "找不到工作表"
+      },
+      "noColumns": {
+        "description": "您已隱藏所有欄，無法查看。",
+        "heading": "沒有任何項目！"
+      },
+      "noSheetError": {
+        "description": "這個工作表似乎不存在。",
+        "heading": "找不到工作表"
+      },
+      "readOnly": {
+        "description": "無法新增列及／或編輯內容的試算表通常會接收動態填入的資料。目前無需執行任何動作。",
+        "heading": "正在等待資料"
+      },
+      "sheetLocked": {
+        "description": "如果您認為這是錯誤，請聯絡支援人員。",
+        "heading": "新增記錄的功能目前已停用"
+      },
+      "uploadFile": "拖放或上傳檔案以開始"
+    },
+    "errors": {
+      "loading": "無法擷取活頁簿。",
+      "noSheets": {
+        "description": "活頁簿必須至少包含一個試算表。找不到任何試算表。",
+        "title": "活頁簿不含任何試算表"
+      },
+      "notFound": "找不到活頁簿"
+    },
+    "info": {
+      "browser": "瀏覽器",
+      "copiedPopover": "已複製到剪貼簿",
+      "copyButton": "點選即可複製！",
+      "date": "日期",
+      "environment": "環境",
+      "inFrame": "在 iframe 中",
+      "referrer": "參照網址",
+      "release": "當前版本",
+      "sheet": "工作表",
+      "space": "空間",
+      "workbook": "活頁簿"
+    },
+    "popovers": {
+      "copyCell_other": "已複製 {{count}} 個儲存格",
+      "copyCell_zero": "已複製 {{count}} 個儲存格",
+      "copyRecord_other": "已複製 {{count}} 筆記錄",
+      "copyRecord_zero": "已複製 {{count}} 筆記錄",
+      "errors": {
+        "cellUpdateFailed": "發生錯誤，請重新整理頁面並再試一次。若問題持續發生，請聯絡支援人員",
+        "invalidFFQL": "請檢查您的查詢內容",
+        "invalidFFQLSearch": "無效的 FFQL 語句",
+        "learnMore": "進一步了解",
+        "recordsLoadFailed": "無法載入記錄"
+      }
+    },
+    "table": {
+      "cells": {
+        "enum": {
+          "loading": "正在載入選項...",
+          "loadingError": "無法載入選項",
+          "noMatchesFound": "找不到相符項目",
+          "placeholder": "在此輸入...",
+          "seeMore": "搜尋以查看更多選項"
+        },
+        "messages": {
+          "autogen": "✨ 自動產生",
+          "compositeUnique": "🧑‍🍳 複合 {{name}} 不是唯一的",
+          "invalidOption": "無效選項",
+          "invalidValue": "該值不是有效選項",
+          "reference": "參考表不存在該值",
+          "req": "{{field}} 為必填欄位",
+          "transformed": "🪄️ 從 {{originalValue}} 轉換而來",
+          "unique": "值不是唯一"
+        }
+      },
+      "contextMenu": {
+        "filterByValue": {
+          "label": "依值篩選",
+          "moreOptions": "顯示前 {{pageSize}} 個選項。請搜尋來查看更多內容。",
+          "noData": "無資料",
+          "placeholder": "搜尋或選取值⋯⋯"
+        },
+        "findAndReplace": {
+          "findAndReplaceValues": "尋找並取代",
+          "modal": {
+            "cancelButton": "取消",
+            "descriptionExactOnly": "用有效值大量取代此欄位中的任何文字。我們僅顯示精確配對項目",
+            "descriptionPartialAndExact": "大量取代此欄位中的任何文字。我們支援對此資料進行部分配對或精確配對",
+            "errors": {
+              "findError": "搜尋值時發生錯誤",
+              "generalError": "發生錯誤，請再試一次",
+              "replaceError": "取代值時發生錯誤"
+            },
+            "exactMatchesOnly": "僅顯示精確配對",
+            "finding": "正在尋找所有執行個體",
+            "heading": "在 {{columnName}} 中搜尋並取代",
+            "isFiltered": "此資料集已經過篩選。搜尋並取代僅會作用於已篩選的記錄。",
+            "replaceButton": "全部取代",
+            "replaceEmpty": {
+              "description": {
+                "addValues": "這將填入所有位於 {{columnName}} 的空白儲存格",
+                "addValuesToAll": "{{columnName}} 中的所有儲存格均為空白，您可以大量填入選擇的值",
+                "addValuesToCount_other": "{{columnName}} 中有 {{formattedCount}} 個空白儲存格，您可以大量填入選擇的值",
+                "addValuesToCount_zero": "{{columnName}} 中有 {{formattedCount}} 個空白儲存格，您可以大量填入選擇的值",
+                "noEmptyValues": "在此欄位中找不到任何空白儲存格！"
+              },
+              "heading": {
+                "addValues": "將值新增至位於 {{columnName}} 的空白儲存格",
+                "addValuesToAll": "將值新增至所有位於 {{columnName}} 的空白儲存格",
+                "addValuesToCount_other": "將值新增至位於 {{columnName}} 的 {{formattedCount}} 個空白儲存格",
+                "addValuesToCount_zero": "將值新增至位於 {{columnName}} 的 {{formattedCount}} 個空白儲存格",
+                "noEmptyValues": "找不到空值"
+              }
+            },
+            "replaceEnum": {
+              "moreOptions": "顯示前 100 項選項。搜尋以查看更多。",
+              "noMatchesFound": "找不到相符項目",
+              "replaceWith": "取代為..."
+            },
+            "replaceValue": {
+              "leavingBlank": "將此欄位留空將刪除選取的值",
+              "noMatchesFound": "未找到任何值",
+              "replaceWith": "取代為..."
+            },
+            "replacing": "正在取代值",
+            "runOnAllRecords": "對所有記錄執行",
+            "searchForEmpty": "如果此欄位保持空白，我們將搜尋空白值",
+            "searchForText": "搜尋文字...",
+            "searchResultsCount_other": "{{count}} 個相符項目",
+            "searchResultsCount_zero": "{{count}} 個相符項目"
+          },
+          "replaceEmptyValues": "取代空值"
+        },
+        "pin": {
+          "apply": "釘選欄",
+          "remove": "移除釘選",
+          "tooltip": {
+            "maxPinned": "您最多可以釘選三欄，請取消釘選其中一個目前已釘選的欄，才能再釘選此欄",
+            "pin": "將此欄釘選在資料表的左側",
+            "unpin": "點選以將此欄取消釘選"
+          }
+        },
+        "searchInField": {
+          "modal": {
+            "cancelButton": "取消",
+            "placeholder": "搜尋...",
+            "searchButton": "搜尋",
+            "searchWithin": "搜尋於"
+          },
+          "searchInThisField": "在此欄位搜尋"
+        },
+        "sort": {
+          "ascending": {
+            "apply": "依照 A-Z 排序",
+            "remove": "移除依照 A-Z 排序"
+          },
+          "descending": {
+            "apply": "依照 Z-A 排序",
+            "remove": "移除依照 Z-A 排序"
+          },
+          "tooltip": {
+            "notSorted": "點選以依照 A-Z 排序",
+            "sortedAsc": "已依照 A-Z 排序",
+            "sortedDes": "已依照 Z-A 排序"
+          }
+        }
+      },
+      "errors": {
+        "description": "資料表在顯示此資料時發生問題。請查看主控台來瞭解錯誤詳細資訊。",
+        "title": "發生錯誤"
+      },
+      "header": {
+        "tooltip": {
+          "key": "索引鍵: {{key}}",
+          "label": "標籤: {{label}}"
+        }
+      },
+      "indexRow": {
+        "tooltip": {
+          "createRow": "新增資料以建立此列",
+          "noData": "目前無可選擇的列。僅能選擇包含資料的列。",
+          "rowNumber": "第 {{number}} 列"
+        }
+      },
+      "maximumMessage": {
+        "plural": "...再加上 {{hiddenRows}} 列。由於瀏覽器限制，表格視圖一次僅支援最多 500,000 筆記錄。搜尋、排序、篩選和大量動作仍將作用於隱藏的所有列。",
+        "singular": "...再加上 1 列。由於瀏覽器限制，表格視圖一次僅支援最多 500,000 筆記錄。搜尋、排序、篩選和大量動作仍將作用於隱藏的所有列。"
+      },
+      "modals": {
+        "copyAlert": {
+          "cancelButton": "取消",
+          "description": "我們注意到您試圖選取超過 100 筆記錄。為維護資料的完整性，已限制為每次最多複製 100 筆記錄。",
+          "download": "您想要將此試算表下載為 .csv 檔案嗎？",
+          "downloadButton": "下載",
+          "heading": "您想要下載此檔案嗎？"
+        },
+        "deleteAlert": {
+          "description": "目前不支援刪除超過 100 筆現有記錄。為透過<1>智慧調整</1>資料提供更佳的使用體驗，已對其加以限制。",
+          "dismissButton": "關閉",
+          "heading": "已達到刪除的次數上限！",
+          "tooltip": "移除空白記錄、重複項目等"
+        },
+        "pasteAlert": {
+          "description": "目前不支援貼上超過 100 筆現有記錄。為透過<1>智慧調整</1>資料提供更佳的使用體驗，已對其加以限制。",
+          "dismissButton": "關閉",
+          "heading": "已達到貼上的次數上限！",
+          "tooltip": "移除空白記錄、重複項目等"
+        }
+      }
+    },
+    "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "動作",
+        "placeholder": "搜尋或選取..."
+      },
+      "aiAssist": {
+        "buttonText": "AI 協助",
+        "query": "查詢",
+        "transform": "轉換"
+      },
+      "buttons": {
+        "delete": {
+          "modal": {
+            "cancelButton": "取消",
+            "confirmButton": "刪除記錄？",
+            "description": {
+              "infix": "所選",
+              "infixType": {
+                "invalid": "無效",
+                "valid": "有效"
+              },
+              "prefix": "您是否要刪除",
+              "suffix_other": "記錄？",
+              "suffix_zero": "記錄？"
+            },
+            "errorMessage": "無法刪除記錄。請再試一次或修改選取的項目。",
+            "heading_other": "刪除記錄",
+            "heading_zero": "刪除記錄",
+            "inProgress": "正在刪除記錄..."
+          },
+          "popover": {
+            "successMessage_other": "已刪除 {{count}} 筆記錄",
+            "successMessage_zero": "已刪除 {{count}} 筆記錄",
+            "successMessageNoCount": "記錄已刪除"
+          },
+          "tooltip": {
+            "active": "刪除選取的記錄",
+            "disabled": {
+              "deleteDisabled": "此工作表已停用刪除記錄功能。",
+              "noRecordsSelected": "請選取至少一個記錄以進行刪除"
+            }
+          }
+        },
+        "download": {
+          "modal": {
+            "cancelButton": "取消",
+            "confirmButton": "下載記錄",
+            "description": {
+              "infix": "所選",
+              "infixType": {
+                "invalid": "無效",
+                "valid": "有效"
+              },
+              "prefix": "您是否要下載",
+              "suffix_other": "\t\n記錄？",
+              "suffix_zero": "\t\n記錄？"
+            },
+            "errorMessage": "無法下載記錄。請再試一次或修改選取的項目。",
+            "heading_other": "下載記錄",
+            "heading_zero": "下載記錄",
+            "inProgress": "正在下載記錄..."
+          },
+          "tooltip": {
+            "active": {
+              "invalidFilterApplied": "下載所有無效記錄",
+              "noRecordsSelected": "下載此工作表",
+              "recordsSelected": "下載選取的記錄",
+              "validFilterApplied": "下載所有有效記錄"
+            },
+            "disabled": "沒有可下載的記錄"
+          }
+        }
+      },
+      "customActionsDropdown": {
+        "disabledTooltip": {
+          "hasData": "當此工作表中至少有一筆記錄時，該動作將可用。",
+          "requireAllValid": "此動作需要所有選取的列為有效",
+          "requireAllValidTotal": "此動作要求所有列皆為有效資料",
+          "requireSelection": "請選取一個或多個記錄以使用此動作"
+        }
+      },
+      "dropdown": {
+        "delete": "刪除",
+        "download": "下載"
+      },
+      "filterByError": {
+        "buttonText": "按錯誤篩選",
+        "dropdownPlaceholder": "搜尋或選取..."
+      },
+      "filters": {
+        "all": "全部",
+        "invalid": "無效",
+        "tooltip": {
+          "countsError": "載入計數時出現錯誤",
+          "countsErrorRetry": "點擊重試",
+          "filter": {
+            "invalid": "無效",
+            "total": "總計",
+            "valid": "有效"
+          },
+          "filtered": "此資料集已經過篩選，顯示 {{filteredCount}} 筆符合 {{filter}} 條件的記錄（共 {{countString}} 筆）。",
+          "filteredByError": "此資料集已透過錯誤篩選顯示，顯示 {{filteredCount}} 筆來自 {{countString}} 的 {{filter}} 記錄。",
+          "filteredByFFQL": {
+            "branded": "此資料集已透過 Flatfile 查詢語言篩選，顯示 {{filteredCount}} 筆符合 {{filter}} 條件的記錄（共 {{countString}} 筆）。",
+            "whitelabeled": "此資料集已經過篩選，顯示 {{filteredCount}} 筆符合 {{filter}} 條件的記錄（共 {{countString}} 筆）。"
+          },
+          "filteredBySearch": "此資料集已透過搜尋篩選，顯示 {{filteredCount}} 筆來自 {{countString}} 的 {{filter}} 記錄。",
+          "filteredBySearchAndError": "此資料集已透過搜尋和錯誤篩選顯示，顯示 {{filteredCount}} 筆來自 {{countString}} 的 {{filter}} 記錄。",
+          "inactiveCount": "{{countString}} {{filter}} 筆記錄，{{filteredCount}} 筆已篩選"
+        },
+        "valid": "有效"
+      },
+      "moreActions": {
+        "buttonText": "更多動作",
+        "placeholder": "搜尋或選取..."
+      },
+      "savedViews": {
+        "buttonText": "檢視",
+        "groups": {
+          "allViews": "所有檢視",
+          "myViews": "我的檢視"
+        },
+        "modalHeader": "已儲存的檢視",
+        "modalSubheader": "選取一個已儲存的檢視來套用到此工作表。",
+        "searchPlaceholder": "搜尋或選取...",
+        "tooltip": "套用檢視並複製連結",
+        "viewAppliedPopover": "您的檢視已儲存並複製到剪貼簿！"
+      },
+      "saveView": {
+        "buttons": {
+          "cancel": "取消",
+          "copy": {
+            "label": "複製以分享",
+            "successLabel": "已複製到剪貼簿！",
+            "warningTooltip": "只有有權存取此空間的人才能使用連結開啟。"
+          },
+          "save": {
+            "label": "儲存檢視",
+            "labelActive": "正在儲存檢視"
+          }
+        },
+        "error": {
+          "saveText": "無法儲存檢視 - 請再試一次。"
+        },
+        "headings": {
+          "saveHeader": "儲存檢視",
+          "saveSubheader": "選擇一個反映此檢視用途的名稱。這將幫助使用者輕鬆識別其用途。",
+          "shareHeader": "分享"
+        },
+        "nameViewInput": {
+          "helperText": "請記住，此檢視將對所有有權存取此工作表的人可見。",
+          "label": "名稱",
+          "placeholder": "檢視來自 {{timestamp}}"
+        },
+        "summary": {
+          "filter": "記錄為",
+          "filterFieldpt1": "如果",
+          "filterFieldpt2": "有錯誤",
+          "invalid": "無效",
+          "q": "在哪裡",
+          "searchValue": "任何欄位包含下列條件：",
+          "title": "摘要",
+          "valid": "有效"
+        }
+      },
+      "searchBar": {
+        "expandTooltip": "開啟搜尋與 AI 助理",
+        "placeholder": "搜尋...",
+        "tooltip": "按 Enter 鍵搜尋"
+      },
+      "tooltips": {
+        "lockedUntilEditingCompletes": "當工作表不再被編輯時，工具列將可用",
+        "lockedUntilHookCompletes": "工具列將在所有操作完成後可用",
+        "lockedUntilJobCompletes": "工具列將在當前作業完成後可用"
+      }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "hasData": "當此活頁簿中至少有一筆記錄時，該動作將可用。",
+        "hasPendingValidation": "您的活頁簿正在進行驗證中...",
+        "lockedUntilEditingCompletes": "當工作表不再被編輯時，該動作將可用",
+        "lockedUntilHookCompletes": "這個動作會在所有勾點完成運行後可用",
+        "lockedUntilJobCompletes": "這個動作會在當前作業完成後可用",
+        "requireAllValid": "此動作需要所有工作表中的所有列都是有效的"
+      }
+    }
+  },
+  "sidebar": {
+    "addConnection": "新增連線",
+    "checklist": "資料檢查清單",
+    "connections": {
+      "tooltips": {
+        "connectionError": "驗證此活頁簿連線的中繼資料時發生問題",
+        "connectionFresh": "已透過 {{service}} 連線至 {{source}}",
+        "connectionStale": "距上次與 {{source}} 同步的時間已超過 24 小時"
+      }
+    },
+    "emptyWorkbook": "空白活頁簿",
+    "files": "檔案",
+    "lockedIconTooltip": "此工作表已鎖定",
+    "readOnlyIconTooltip": "此工作表為唯讀模式",
+    "spaceSwitcher": {
+      "placeholder": "搜尋或選取一個空間..."
+    },
+    "toggle": {
+      "hide": "隱藏側邊欄",
+      "show": "顯示側邊欄"
+    }
+  },
+  "snapshot": {
+    "accept": {
+      "cancelButton": "取消",
+      "cancelError": "由於發生非預期的錯誤，無法還原變更。",
+      "cancelSuccess": "已成功還原對試算表做出的變更。",
+      "empty": {
+        "createdSince": "此快照中沒有被移除的記錄。",
+        "deletedSince": "此快照中沒有新增的記錄。",
+        "title": "沒有任何項目！",
+        "updatedSince": "此快照中沒有被修改的記錄。"
+      },
+      "errorMessage": "由於發生意外錯誤，無法套用快照變更。",
+      "filters": {
+        "createdSince": "已移除",
+        "deletedSince": "已新增",
+        "updatedSince": "已修改"
+      },
+      "header": {
+        "title": "變更已進行於",
+        "titleWithMeta": "變更發生於 <1>{{sheet}}</1>，執行的動作為 <3>{{action}}</3>"
+      },
+      "message": "接受變更將把所有新值合併到您的工作表 {{name}} 中。",
+      "submitButton": "接受變更",
+      "submitError": "由於發生意外錯誤，無法套用快照變更。",
+      "submitSuccess": "您的工作表變更已成功套用。",
+      "successMessage": "變更已套用到您的工作表。",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "欄位 {{name}} 中的 {{cells}} 個儲存格",
+            "last": " 以及欄位 {{name}} 中的 {{cells}} 個儲存格",
+            "middle": "、欄位 {{name}} 中的 {{cells}} 個儲存格"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "欄位 {{name}} 將被移除",
+              "last": " 而欄位 {{name}} 將被移除",
+              "middle": "，欄位 {{name}} 將被移除"
+            },
+            "removed": {
+              "first": "欄位 {{name}} 將被重新新增",
+              "last": " 而欄位 {{name}} 將被重新新增",
+              "middle": "，欄位 {{name}} 將被重新新增"
+            }
+          },
+          "singular": {
+            "first": "欄位 {{name}} 中的 1 個儲存格",
+            "last": " 以及欄位 {{name}} 中的 1 個儲存格",
+            "middle": "、欄位 {{name}} 中的 1 個儲存格"
+          },
+          "start": " 資料已修改於 "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "已變更 {{records}} 筆記錄的 {{fields}} 個欄位資料。",
+            "noFields": "已變更 {{records}} 筆記錄的資料。",
+            "oneField": "已變更 {{records}} 筆記錄中的 1 個欄位資料。"
+          },
+          "singular": {
+            "multipleFields": "1 筆記錄中的 {{fields}} 個欄位資料已變更。",
+            "noFields": "1 筆記錄中的資料已變更。",
+            "oneField": "1 筆記錄中的 1 個欄位資料已變更。"
+          }
+        }
+      },
+      "title": "變更已進行於"
+    },
+    "cells": {
+      "messages": {
+        "accept": "若您接受變更，所有新值將會合併至資料集。",
+        "current": "目前值：{{value}}",
+        "empty": "無資料",
+        "none": "您的資料集將根據顯示的值進行修改。",
+        "restore": "資料集將還原為此快照中的版本。",
+        "snapshot": "新值：{{value}}"
+      }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "不會移除任何記錄。",
+        "deletedSince": "不會新增任何記錄。",
+        "title": "沒有任何項目！",
+        "updatedSince": "不會修改任何記錄。"
+      },
+      "errorMessage": "因為發生意外錯誤，無法預覽變更。",
+      "filters": {
+        "createdSince": "新增",
+        "deletedSince": "移除",
+        "updatedSince": "修改"
+      },
+      "header": {
+        "title": "變更已進行於",
+        "titleWithMeta": "檢視對 <1>{{sheet}}</1> 的變更"
+      },
+      "message": "以下表格顯示對您工作表 {{name}} 的變更。",
+      "submitError": "因為發生意外錯誤，資料無法轉換。",
+      "submitSuccess": "您的工作表變更已成功套用。",
+      "successMessage": "變更已套用到您的工作表。",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "欄位 {{name}} 中的 {{cells}} 個儲存格",
+            "last": " 以及欄位 {{name}} 中的 {{cells}} 個儲存格",
+            "middle": "、欄位 {{name}} 中的 {{cells}} 個儲存格"
+          },
+          "singular": {
+            "first": "欄位 {{name}} 中的 1 個儲存格",
+            "last": " 以及欄位 {{name}} 中的 1 個儲存格",
+            "middle": "、欄位 {{name}} 中的 1 個儲存格"
+          },
+          "start": " 資料將修改於 "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "將有 {{records}} 筆記錄的 {{fields}} 個欄位資料會變更。",
+            "noFields": "將有 {{records}} 筆記錄的資料會變更。",
+            "oneField": "將有 {{records}} 筆記錄的 1 個欄位資料會變更。"
+          },
+          "singular": {
+            "multipleFields": "將有 1 筆記錄的 {{fields}} 個欄位資料會變更。",
+            "noFields": "1 筆記錄的資料將變更。",
+            "oneField": "1 筆記錄中的 1 個欄位資料將變更。"
+          }
+        }
+      },
+      "title": "預覽於下列位置進行的變更："
+    },
+    "preview": {
+      "cancelButton": "取消",
+      "empty": {
+        "createdSince": "此預覽沒有要移除的記錄。",
+        "deletedSince": "此預覽沒有要新增的記錄。",
+        "title": "沒有任何項目！",
+        "updatedSince": "此預覽沒有要修改的記錄。"
+      },
+      "errorMessage": "因為發生意外錯誤，無法預覽變更。",
+      "filters": {
+        "createdSince": "移除",
+        "deletedSince": "新增",
+        "updatedSince": "修改"
+      },
+      "header": {
+        "title": "變更已進行於",
+        "titleWithMeta": "預覽由 <3>{{aiAction}}</3> 提示在 <1>{{sheet}}</1> 中所做的變更"
+      },
+      "message": "您的工作表 {{name}} 將還原為此快照中的版本。",
+      "submitButton": "轉換資料",
+      "submitError": "因為發生意外錯誤，資料無法轉換。",
+      "submitSuccess": "您的工作表變更已成功套用。",
+      "successMessage": "變更已套用到您的工作表。",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "欄位 {{name}} 中的 {{cells}} 個儲存格",
+            "last": " 以及欄位 {{name}} 中的 {{cells}} 個儲存格",
+            "middle": "、欄位 {{name}} 中的 {{cells}} 個儲存格"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "欄位 {{name}} 將被移除",
+              "last": " 而欄位 {{name}} 將被移除",
+              "middle": "，欄位 {{name}} 將被移除"
+            },
+            "removed": {
+              "first": "欄位 {{name}} 將被重新新增",
+              "last": " 而欄位 {{name}} 將被重新新增",
+              "middle": "，欄位 {{name}} 將被重新新增"
+            }
+          },
+          "singular": {
+            "first": "欄位 {{name}} 中的 1 個儲存格",
+            "last": " 以及欄位 {{name}} 中的 1 個儲存格",
+            "middle": "、欄位 {{name}} 中的 1 個儲存格"
+          },
+          "start": " 資料將修改於 "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "將有 {{records}} 筆記錄的 {{fields}} 個欄位資料會變更。",
+            "noFields": "將有 {{records}} 筆記錄的資料會變更。",
+            "oneField": "將有 {{records}} 筆記錄的 1 個欄位資料會變更。"
+          },
+          "singular": {
+            "multipleFields": "將有 1 筆記錄的 {{fields}} 個欄位資料會變更。",
+            "noFields": "1 筆記錄的資料將變更。",
+            "oneField": "1 筆記錄中的 1 個欄位資料將變更。"
+          }
+        }
+      },
+      "title": "預覽於下列位置進行的變更："
+    },
+    "restore": {
+      "cancelButton": "取消",
+      "empty": {
+        "createdSince": "此快照中沒有要移除的記錄。",
+        "deletedSince": "此快照中沒有要新增的記錄。",
+        "title": "沒有任何項目！",
+        "updatedSince": "此快照中沒有要修改的記錄。"
+      },
+      "errorMessage": "由於發生非預期的錯誤，無法還原快照。",
+      "filters": {
+        "createdSince": "移除",
+        "deletedSince": "新增",
+        "updatedSince": "修改"
+      },
+      "header": {
+        "title": "待套用的變更"
+      },
+      "message": "您的工作表 {{name}} 將還原為此快照中的版本。",
+      "submitButton": "還原",
+      "submitError": "由於發生非預期的錯誤，無法還原快照。",
+      "submitSuccess": "試算表已還原至較早的版本。",
+      "successMessage": "試算表已還原至較早的版本。",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "欄位 {{name}} 中的 {{cells}} 個儲存格",
+            "last": " 以及欄位 {{name}} 中的 {{cells}} 個儲存格",
+            "middle": "、欄位 {{name}} 中的 {{cells}} 個儲存格"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "欄位 {{name}} 將被移除",
+              "last": " 而欄位 {{name}} 將被移除",
+              "middle": "，欄位 {{name}} 將被移除"
+            },
+            "removed": {
+              "first": "欄位 {{name}} 將被重新新增",
+              "last": " 而欄位 {{name}} 將被重新新增",
+              "middle": "，欄位 {{name}} 將被重新新增"
+            }
+          },
+          "singular": {
+            "first": "欄位 {{name}} 中的 1 個儲存格",
+            "last": " 以及欄位 {{name}} 中的 1 個儲存格",
+            "middle": "、欄位 {{name}} 中的 1 個儲存格"
+          },
+          "start": " 資料將修改於 "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "將有 {{records}} 筆記錄的 {{fields}} 個欄位資料會變更。",
+            "noFields": "將有 {{records}} 筆記錄的資料會變更。",
+            "oneField": "將有 {{records}} 筆記錄的 1 個欄位資料會變更。"
+          },
+          "singular": {
+            "multipleFields": "將有 1 筆記錄的 {{fields}} 個欄位資料會變更。",
+            "noFields": "1 筆記錄的資料將變更。",
+            "oneField": "1 筆記錄中的 1 個欄位資料將變更。"
+          }
+        }
+      },
+      "title": "待套用的變更"
+    },
+    "tooltips": {
+      "sheet": "{{workbook}} 中的 {{sheet}}"
+    }
+  },
+  "spaceLoadingMessage": "正在準備空間...",
+  "utils": {
+    "buttons": {
+      "clearAll": "全部清除",
+      "clearAllLabel": "全部清除",
+      "selectAll": "全部選取",
+      "selectAllLabel": "全選"
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "請使用更大的螢幕的裝置以便存取所有功能。我們無法保證在此螢幕大小下所有功能會正常運作。",
+        "button": "仍然繼續",
+        "title": "螢幕太小"
+      }
+    },
+    "poweredByFlatfile": "由 Flatfile 提供技術支援"
+  },
+  "versionHistory": {
+    "modals": {
+      "default": {
+        "description": "發生意外錯誤 - 未套用相符的動作"
+      },
+      "delete": {
+        "confirm": {
+          "closeButton": "關閉",
+          "description": "確定要刪除所選版本嗎？",
+          "heading": "刪除版本",
+          "proceedButton": "刪除"
+        },
+        "error": {
+          "closeButton": "關閉",
+          "description": "由於發生非預期的錯誤，無法刪除所選版本，若問題持續發生，請聯絡支援人員",
+          "heading": "無法刪除版本",
+          "retryButton": "再試一次"
+        },
+        "success": {
+          "closeButton": "關閉",
+          "description": "已刪除所選版本。",
+          "heading": "版本已刪除"
+        }
+      }
+    },
+    "panel": {
+      "empty": "版本一旦產生，將顯示於此處。版本會自動產生，通常在進行大量資料轉換時會發生。",
+      "generatedSnapshot": "套用 AI 轉換（根據提示）之前所產生的快照： ",
+      "generatedSnapshotForAiTransform": "套用 AI 轉換（根據提示）之前所產生的快照： ",
+      "generatedSnapshotForBulkDelete": "刪除記錄之前所產生的快照",
+      "generatedSnapshotForFindReplace": "套用「尋找與取代」之前所產生的快照",
+      "heading": "版本歷程記錄",
+      "thisMonth": "本月",
+      "versionRestored": "在還原先前版本之前建立的版本"
+    },
+    "pill": {
+      "hoverText": "版本歷程記錄"
+    }
+  }
+}

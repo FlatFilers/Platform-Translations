@@ -1,0 +1,1415 @@
+{
+  "aiTransform": {
+    "changedColumnsText_other": "{{count}} lajur dengan data yang diubah",
+    "changedColumnsText_zero": "{{count}} lajur dengan data yang telah diubah",
+    "errors": {
+      "entilementError": {
+        "content": "Jika anda rasa perkara ini satu ralat, sila hubungi sokongan pelanggan.",
+        "title": "Maaf! Anda tidak mempunyai akses kepada ciri ini."
+      },
+      "generalError": {
+        "title": "Sesuatu tidak kena berlaku. Sila cuba semula."
+      },
+      "generateMutationError": {
+        "title": "Tidak dapat menggunakan AI. Sila cuba lagi kemudian."
+      },
+      "invalidFunctionError": {
+        "content": "Kemungkinan besar anda memintanya untuk melakukan sesuatu yang tidak sah.",
+        "title": "Maaf, pembantu AI tidak dapat melakukan perubahan itu."
+      },
+      "keysModifiedError": {
+        "title": "Maaf, pembantu AI hanya boleh mengubah suai nilai medan sedia ada. Pembantu tidak boleh mengalih keluar medan atau menambah yang baharu."
+      },
+      "noFunctionError": {
+        "content": "Cuba ungkapkannya secara berbeza. Gesaan yang menyertakan nama medan cenderung untuk lebih berjaya.",
+        "title": "Kami tidak dapat memahami gesaan anda."
+      },
+      "noRecordsFoundError": {
+        "content": "Tiada rekod ditemui untuk pertanyaan yang diberikan. Sila cuba lagi.",
+        "title": "Tiada rekod ditemui"
+      },
+      "noresultsError": {
+        "content": "Cuba ungkapkannya secara berbeza. Gesaan yang menyertakan nama medan cenderung untuk lebih berjaya.",
+        "title": "Gesaan anda tidak mengubah apa-apa data."
+      },
+      "prompttoolongError": {
+        "content": "Cuba pendekkan gesaan anda atau pecahkan gesaan anda kepada beberapa langkah dan cuba lagi.",
+        "title": "Maaf! Gesaan anda agak terlalu panjang."
+      },
+      "versionError": {
+        "content": "Tidak dapat mencipta versi gulung balik.",
+        "title": "Sesuatu tidak kena berlaku. Sila cuba semula."
+      }
+    },
+    "exitConfirmation": {
+      "body": "Adakah anda pasti anda ingin keluar?",
+      "header": "Pengesahan Keluar",
+      "label": "Keluar"
+    },
+    "jobCompleteHeading": "Kerja Transformasi AI Selesai",
+    "jobCompleteMessage": "Rekod telah diubah",
+    "promptBar": {
+      "categoricalWarning": "Medan ini mempunyai terlalu banyak pilihan untuk diproses oleh AI Transform",
+      "transformButton": {
+        "tooltip": {
+          "active": "Huraikan cara anda ingin data dalam medan diubah berdasarkan sebarang logik, termasuklah data dalam mana-mana medan",
+          "disabled": "Anda mestilah mempunyai rekod dalam helaian (ditapis) anda untuk menggunakan pembantu AI.",
+          "locked": "Lembaran dikunci.",
+          "noRows": "Anda mestilah mempunyai rekod dalam helaian (ditapis) anda untuk menggunakan pembantu AI.",
+          "readOnly": "Lembaran adalah baca sahaja.",
+          "tooManyRows": "Lembaran mempunyai terlalu banyak baris (lebih 1 juta)."
+        }
+      },
+      "warning": "Catatan: Beberapa medan kategori dalam set data anda mempunyai banyak pilihan yang dikonfigurasi. Penggunaan medan-medan tersebut, seperti @{{fieldName}}, dalam penggesa anda mungkin tidak akan berfungsi seperti yang dijangka."
+    },
+    "sampleMessage": "Previus {{number}} rekod",
+    "scrollInfoText": "Tatal ke lajur seterusnya yang diubah",
+    "toggleLabel": "Tunjukkan data yang diubah suai sahaja"
+  },
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "Tidak dapat mencipta Perbezaan Terbenam disebabkan oleh sifat 'arah' yang tidak sah. Nilai yang sah ialah: 'sheet_to_snapshot', 'snapshot_to_sheet'",
+        "missingIds": "Tidak dapat membuat Perbezaan Terbenam disebabkan oleh tiada ID Sheet, Workbook, atau Snapshot"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "Tidak dapat membuat Lembaran Terbenam disebabkan oleh tiada ID Sheet atau Workbook."
+      }
+    }
+  },
+  "checklist": {
+    "dropdowns": {
+      "headings": {
+        "sheet": "Sheet",
+        "workbook": "Workbook"
+      }
+    },
+    "errors": {
+      "cannotLoadChecklist": "Tidak dapat memuat senarai semak data",
+      "cannotLoadSheet": "Lembaran tidak dapat ditemui",
+      "noWorkbooksDescription": "Senarai semak data memerlukan minimum 1 buku kerja untuk aktif. Sila minta pembangun anda untuk menyemak konfigurasi. Jika masalah ini berterusan, sila hubungi sokongan.",
+      "noWorkbooksTitle": "Buku kerja diperlukan"
+    },
+    "table": {
+      "dataTypes": {
+        "boolean": "Boolean",
+        "date": "Tarikh",
+        "enum": "Enum",
+        "number": "Nombor",
+        "reference": "Rujukan",
+        "string": "Rentetan",
+        "unknown": "Tidak diketahui"
+      },
+      "fieldTagComputed": "Terkira",
+      "fieldTagRequired": "Diperlukan",
+      "fieldTagUnique": "Unik",
+      "headings": {
+        "dataType": "Jenis data",
+        "description": "Perihalan",
+        "field": "Nama medan"
+      }
+    },
+    "title": "Senarai semak data"
+  },
+  "commandMenu": {
+    "aiAssist": {
+      "query": {
+        "askingAI": {
+          "stepFour": "Menyiapkan",
+          "stepOne": "Berfikir",
+          "stepThree": "Membuat",
+          "stepTwo": "Menulis"
+        },
+        "description": {
+          "branded": "minta AI menulis pertanyaan untuk anda dalam FFQL",
+          "whitelabeled": "minta AI untuk menulis pertanyaan untuk anda"
+        },
+        "errorBanner": {
+          "generalError": "Sesuatu tidak kena berlaku. Sila cuba semula."
+        },
+        "instruction": "Terangkan cara anda mahu pembantu AI menanyakan data anda:",
+        "review": {
+          "description": "Ini yang saya dapat. Baca penjelasan langkah demi langkah dan pertanyaan, dan jika ia kelihatan bagus, klik di bawah untuk menerapkannya.",
+          "explanationTitle": "Penjelasan",
+          "queryTitle": "Pertanyaan"
+        }
+      },
+      "transform": {
+        "askingAI": {
+          "stepFour": "Menyiapkan",
+          "stepOne": "Berfikir",
+          "stepThree": "Membuat",
+          "stepTwo": "Menulis"
+        }
+      }
+    },
+    "buttons": {
+      "apply": "Pakai",
+      "cancel": "Batalkan"
+    },
+    "commands": {
+      "filter": {
+        "apply": "Gunakan Penapis.",
+        "description": {
+          "branded": "tuliskan pernyataan FFQL",
+          "whitelabeled": "tuliskan pertanyaan"
+        },
+        "hiddenColumnsWarning_other": "{{count}} medan akan dinyahsembunyikan oleh pertanyaan ini: {{fields}}",
+        "hiddenColumnsWarning_zero": "{{count}} medan akan dinyahsembunyikan oleh pertanyaan ini: {{fields}}",
+        "invalidFFQL": "Pernyataan FFQL tidak sah. Cuba semula?",
+        "learnHow": "belajar bagaimana caranya"
+      },
+      "search": {
+        "global": {
+          "apply": "Gunakan carian.",
+          "description": "cari dalam seluruh lembaran"
+        },
+        "inField": {
+          "apply": "Gunakan carian dalam medan.",
+          "applyExample": "iaitu 'nama_pertama' Jane Doe",
+          "description": "cari dalam medan"
+        }
+      }
+    },
+    "itemMessage": "tekan {{icon}} untuk menggunakan",
+    "placeholder": "Cari atau buat sesuatu..."
+  },
+  "comments": {
+    "addReaction": "Tambah reaksi",
+    "commentDisabledTooltip": "Pilih sel atau baris untuk menambah komen baru",
+    "delete": "Padam komen",
+    "edit": "Edit komen",
+    "edited": " (diedit)",
+    "noResults": "Tiada padanan",
+    "placeholder": "Tambah komen anda di sini...",
+    "reactionList": "<0></0> memberikan reaksi dengan {{emoji}}",
+    "resolve": "Selesaikan bebenang",
+    "send": "Kirim komen",
+    "threadPlaceholder": "Balas atau sebut orang lain dengan @...",
+    "you": "Anda"
+  },
+  "document": {
+    "error": {
+      "description": "Dokumen ini nampaknya tidak wujud",
+      "title": "Dokumen tidak ditemui"
+    }
+  },
+  "errors": {
+    "documentNotFound": "Dokumen tidak ditemui",
+    "fileNotFound": "Fail tidak ditemui",
+    "missingParameter": "Parameter tidak disediakan",
+    "notFound": "Tidak ditemui",
+    "notFoundPageDescription": "Tiada halaman wujud di URL ini. Jika perkara ini tidak dijangka, sila hubungi sokongan.",
+    "refreshButton": "Cuba semula",
+    "refreshPageDescription": "Segar semula halaman untuk mencuba semula. Jika masalah berlanjutan, hubungi bahagian sokongan.",
+    "returnToDashboardButton": "Kembali ke Papan Pemuka",
+    "sessionExpired": "Sesi telah tamat tempoh",
+    "sheetNotFound": "Lembaran tidak ditemui",
+    "spaceNotFound": "Ruang tidak ditemui",
+    "unauthorized": "Butiran akses anda tidak sah.",
+    "unknownError": "Sesuatu tidak kena berlaku",
+    "workbookNotFound": "Buku kerja tidak ditemui"
+  },
+  "files": {
+    "availableDownloadsTab": "Muat turun tersedia",
+    "buttons": {
+      "addFile": {
+        "inProgressText": "Memuat naik fail",
+        "text": "Muat naik fail"
+      },
+      "addFileFrom": {
+        "box": "Kotak",
+        "googleDrive": "Google Drive",
+        "text": "Tambah fail daripada..."
+      },
+      "delete": "Padam",
+      "download": "Muat turun",
+      "googleDrive": "Tambah fail daripada Google Drive"
+    },
+    "connectionsModal": {
+      "box": "Kotak",
+      "close": "Tutup",
+      "googleDrive": "Google Drive",
+      "heading": "Uruskan sambungan anda",
+      "manage": "Uruskan",
+      "subtext": " Klik butang di bawah untuk mendaftar masuk atau keluar daripada akaun anda."
+    },
+    "contextMenu": {
+      "delete": "Padam",
+      "download": "Muat turun"
+    },
+    "counts": "{{start}}-{{end}} daripada {{total}}",
+    "deleteModal": {
+      "downloadDescription_other": "Fail yang dimuat turun ini akan dipadamkan daripada ruang.",
+      "downloadDescription_zero": "Fail yang dimuat turun ini akan dipadamkan daripada ruang.",
+      "heading_other": "Padamkan fail",
+      "heading_zero": "Padamkan fail",
+      "subheading_other": "Fail:",
+      "subheading_zero": "Fail:",
+      "uploadsDescription_other": "Semua data yang diimport akan disimpan. Tindakan ini akan memadamkan fail daripada ruang.",
+      "uploadsDescription_zero": "Semua data yang diimport akan disimpan. Tindakan ini akan memadamkan fail daripada ruang."
+    },
+    "downloadsTable": {
+      "headings": {
+        "createdDate": "Dijana",
+        "name": "Nama",
+        "size": "Saiz",
+        "sourceSheet": "Lembaran sumber"
+      },
+      "processing": "Mengeksport..."
+    },
+    "emptyState": {
+      "downloads": {
+        "description": "Data yang dimuat turun akan dipaparkan di sini",
+        "heading": "Tiada muat turun tersedia"
+      },
+      "uploads": {
+        "description": "Seret dan lepas atau muat naik fail untuk bermula",
+        "heading": "Tambah fail"
+      }
+    },
+    "errors": {
+      "loadingError": "Tidak dapat memuatkan fail",
+      "uploadDisabledDescription": "Jika anda rasa perkara ini ralat, sila bincang dengan sokongan.",
+      "uploadDisabledHeading": "Ruang ini tidak menyokong muat naik fail buat masa ini."
+    },
+    "title": "Fail",
+    "uploadedFilesTab": "Fail yang dimuat naik",
+    "uploadFile": {
+      "popovers": {
+        "errorUploading": "Tidak dapat memuat naik fail: {{fileName}}",
+        "extracting": "Mengekstrak fail...",
+        "extractionCompleted": "Pengekstrakan selesai.",
+        "extractionFailed": "Pengekstrakan gagal. Cuba lagi atau hubungi Sokongan.",
+        "onDragPopoverConfirmation": "Meletakkan fail di:",
+        "unsupportedFile": "Jenis fail tidak disokong. Cuba jenis fail lain atau hubungi Sokongan.",
+        "unsupportedFileInfo": "Kami tidak mengesan data dalam fail ini. Ia tersedia untuk dimuat turun jika perlu.",
+        "uploadComplete": "Dimuat naik: {{fileName}}",
+        "uploadCompleteMany": "{{count}} fail telah dimuat naik",
+        "uploadError": "Ralat semasa memuat naik {{fileName}}",
+        "uploadErrorMany": "Ralat semasa memuat naik {{count}} fail",
+        "uploadingMany": "Memuat naik {{count}} fail",
+        "uploadInProgress": "Memuat naik: {{fileName}}",
+        "uploadInProgressMany": "Memuat naik {{count}} fail",
+        "uploadsDisabled": "Ruang ini tidak menyokong muat naik fail buat masa ini.",
+        "waitingForExtraction": "Menunggu pengekstrakan fail..."
+      }
+    },
+    "uploadsTables": {
+      "headings": {
+        "name": "Nama",
+        "status": "Status",
+        "uploadedDate": "Dimuatnaik"
+      },
+      "importButton": "Imp",
+      "importError": "Tidak dapat mengesan fail sumber untuk diimport - Sila cuba semula. Jika isu berlanjutan, sila hubungi bahagian sokongan.",
+      "tooltips": {
+        "cannotImport": "Mengimport ke buku kerja tidak tersedia untuk fail ini pada masa ini",
+        "noExtension": "Fail ini tidak mempunyai sambungan. Tambahkan sambungan fail yang betul pada nama fail dan muat naik semula fail untuk mengimportnya ke dalam buku kerja"
+      }
+    }
+  },
+  "guestInvite": {
+    "getNewAccessLink": {
+      "content": "Kami telah menghantar pautan akses selamat kepada",
+      "finePrint": "Jika anda menghadapi masalah mencari e-mel tersebut, semak folder spam anda atau muat semula halaman ini untuk menghantar pautan akses lain. Pautan akan berfungsi selama 5 minit.",
+      "heading": "Semak peti masuk anda"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "Adakah anda pasti mahu menutup tetingkap ini? Tindakan ini akan menamatkan sesi import data semasa anda.",
+        "primaryButtonText": "Ya, keluar",
+        "secondaryButtonText": "Tidak, kekal di sini",
+        "title": "Tutup Tetingkap"
+      },
+      "errorModal": {
+        "title": "Sesuatu tidak kena berlaku"
+      }
+    }
+  },
+  "jobs": {
+    "customActions": {
+      "modals": {
+        "confirmModal": {
+          "cancelButton": "Batalkan",
+          "defaultConfirmButton": "Sahkan",
+          "defaultLoadingButton": "Memuatkan...",
+          "isRequired": "{{field}} diperlukan",
+          "mustBeNumber": "{{field}} hendaklah dalam bentuk nombor"
+        },
+        "defaultJobName": "Kerja",
+        "defaultResourceName": "sumber ini",
+        "foregroundJobProgressModal": {
+          "defaultJobName": "Kerja",
+          "defaultResourceName": "sumber ini",
+          "percentComplete": "{{percent}}% selesai",
+          "runningOn": "berjalan pada"
+        },
+        "outcomeModals": {
+          "acknowledgementModal": {
+            "defaultContinueButton": "Teruskan"
+          },
+          "defaultDownloadLabel": "Muat turun",
+          "defaultFileName": "fail",
+          "defaultHeading": {
+            "failed": "Kerja gagal",
+            "success": "Berjaya!"
+          },
+          "defaultLabel": "Lihat Sumber",
+          "defaultMessage": {
+            "failed": "{{jobName}} pada {{resourceName}} gagal",
+            "success": "{{jobName}} dijalankan pada {{resourceName}} dengan berjaya"
+          },
+          "defaultRetryLabel": "Cuba semula",
+          "defaultUrlLabel": "Lawati halaman web luaran",
+          "defaultViewLabel": "  Kemaskinikan paparan",
+          "permanentOutcomeModal": {
+            "defaultContinueButton": "Teruskan"
+          }
+        },
+        "startModal": {
+          "confirmButton": "Sahkan",
+          "errorMessage": "Ralat tindakan",
+          "loadingText": "Memuatkan..."
+        }
+      }
+    },
+    "download": {
+      "downloadStartedHeading": "Muat turun bermula",
+      "downloadStartedMessage": "Muat turun sepatutnya sudah bermula secara automatik.",
+      "seeAllDownloads": "Lihat semua muat turun"
+    },
+    "errors": {
+      "timeout": "Kerja tamat tempoh."
+    },
+    "info": {
+      "copiedPopover": "Menyalin ID Job",
+      "copyIdTooltip": "Salin Id Job"
+    },
+    "messages": {
+      "startingJob": "Memulakan kerja"
+    },
+    "panel": {
+      "action": {
+        "export": "Muat turun",
+        "extract": "Imp",
+        "mapping": "Pergi ke buku kerja"
+      },
+      "empty": "Kerja yang sedang berjalan atau selesai akan dipaparkan di sini",
+      "errorLoadingJob": "Tidak ditemui",
+      "heading": "Kerja",
+      "status": {
+        "default": {
+          "canceled": {
+            "prefix": "Kerja",
+            "suffix": "dibatalkan"
+          },
+          "complete": {
+            "prefix": "Kerja",
+            "suffix": "lengkap"
+          },
+          "failed": {
+            "prefix": "Kerja",
+            "suffix": "gagal"
+          },
+          "inProgress": "Menjalankan kerja",
+          "waiting": "Menunggu:"
+        },
+        "delete": {
+          "cancelled": "Pemadaman rekod yang dibatalkan",
+          "complete": "Pemadaman selesai",
+          "failed": "Pemadaman gagal",
+          "inProgress": "Memadamkan rekod",
+          "waiting": "Menunggu untuk memadam rekod"
+        },
+        "export": {
+          "canceled": "Muat turun dibatalkan",
+          "complete": "Muat turun telah dijana",
+          "failed": "Gagal menjana muat turun",
+          "inProgress": "Menjana muat turun",
+          "waiting": "Menunggu untuk menjana muat turun"
+        },
+        "extract": {
+          "cancelled": "Pengekstrakan data yang dibatalkan",
+          "complete": "Fail diekstrak",
+          "failed": "Gagal mengekstrak fail",
+          "inProgress": "Mengekstrak fail",
+          "waiting": "Menunggu untuk mengekstrak fail"
+        },
+        "flatfile-add-column": {
+          "canceled": "Tambah Lajur Dibatalkan",
+          "complete": "Tambah Lajur selesai",
+          "failed": "Tambah Lajur gagal",
+          "inProgress": "Menambah Lajur",
+          "waiting": "Menunggu untuk Menambah Lajur"
+        },
+        "flatfile-remove-column": {
+          "canceled": "Buang Lajur dibatalkan",
+          "complete": "Buang Lajur selesai",
+          "failed": "Buang Lajur gagal",
+          "inProgress": "Membuang Lajur",
+          "waiting": "Menunggu untuk Membuang Lajur"
+        },
+        "mapping": {
+          "canceled": "Pemetaan ke buku kerja dibatalkan",
+          "complete": "Dipetakan ke buku kerja",
+          "failed": "Gagal memetakan ke buku kerja",
+          "inProgress": "Memetakan ke buku kerja",
+          "waiting": "Menunggu untuk memetakan ke workbook"
+        },
+        "mutate-records": {
+          "canceled": "Membatalkan AI Transform",
+          "complete": "AI Transform selesai",
+          "failed": "AI Transform gagal",
+          "inProgress": "Mengubah Rekod dengan AI",
+          "waiting": "Menunggu untuk mengubah rekod dengan AI"
+        }
+      },
+      "time": {
+        "calculating": "Menghitung masa yang tinggal...",
+        "completed": "Dilengkapkan dalam",
+        "failed": "Gagal selepas",
+        "remaining": "berbaki",
+        "started": "Dimulakan pada {{time}}",
+        "units": {
+          "hour": "jam",
+          "minute": "min",
+          "second": "saat"
+        }
+      }
+    },
+    "pill": {
+      "hoverText": "Kerja",
+      "multipleJobsRunning": "{{count}} kerja sedang berjalan",
+      "status": {
+        "default": {
+          "complete": "Kerja selesai",
+          "failed": "Kerja gagal",
+          "inProgress": "Kerja berjalan"
+        },
+        "delete": {
+          "complete": "Pemadaman selesai",
+          "failed": "Pemadaman gagal",
+          "inProgress": "Memadamkan rekod..."
+        },
+        "extract": {
+          "complete": "Pengekstrakan selesai",
+          "failed": "Pengekstrakan gagal",
+          "inProgress": "Mengekstrak data..."
+        },
+        "mapping": {
+          "complete": "Pemetaan selesai",
+          "failed": "Pemetaan gagal",
+          "inProgress": "Memetakan..."
+        }
+      }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "Hantar"
+      }
+    }
+  },
+  "mapping": {
+    "clearFields": {
+      "modalHeader": "Kosongkan Medan Destinasi",
+      "modalLabel": "Kosongkan",
+      "modalText": "Semua pemetaan sedia ada untuk import ini akan dikosongkan",
+      "modalTooltip": "Kosongkan Medan Destinasi"
+    },
+    "dataPreview": {
+      "heading": "Previu data untuk {{previewKey}}",
+      "noData": "Tiada data previu"
+    },
+    "dropdown": {
+      "placeholder": "Pilih..."
+    },
+    "headerButtons": {
+      "back": "Kembali",
+      "complete": "Selesai",
+      "exit": "Keluar",
+      "headers": "Pilih pengepala",
+      "next": "Teruskan"
+    },
+    "mapEnums": {
+      "destinationFields": {
+        "dropdownOptions": {
+          "doNotImport": "Jangan import",
+          "keepAsIs": "Kekalkan nilai ini",
+          "keepAsIsDisabledTooltip": "Penambahan pilihan baru kepada senarai ini tidak disokong. Pengimportan nilai yang bukan pilihan sah akan dipaparkan sebagai ralat."
+        },
+        "heading": "Nilai Destinasi"
+      },
+      "incomingFields": {
+        "heading": "Nilai Masuk",
+        "noData": "Sel tanpa data",
+        "noDataTooltip": "Anda boleh memilih pilihan yang sah untuk mengisi semua sel yang kosong. Anda juga boleh membiarkannya kosong."
+      },
+      "progressPill_other": "{{mappedCount}} daripada {{count}} nilai dipetakan",
+      "progressPill_zero": "{{mappedCount}} daripada {{count}} nilai dipetakan",
+      "progressPillAllMapped_other": "{{count}} nilai dipetakan",
+      "progressPillAllMapped_zero": "{{count}} nilai dipetakan",
+      "subheading": "Medan ini mempunyai nilai yang mesti dipetakan kepada senarai pilihan yang sah.",
+      "title": "Petakan Medan"
+    },
+    "mapFields": {
+      "destinationFields": {
+        "addNewField": {
+          "description": "Tambah medan ini ke helaian anda",
+          "label": "Tambah sebagai medan baru"
+        },
+        "dropdownOptionLabels": {
+          "new": "Tambah baru",
+          "unused": "Tidak digunakan",
+          "used": "Digunakan"
+        },
+        "heading": "Medan Destinasi",
+        "progressPill": {
+          "missingRequiredFields": " - {{missingFieldsCount}} hilang",
+          "text": "{{totalDestinationsMapped}} daripada {{totalDestinationFields}}",
+          "tooltip": {
+            "greaterThanTenMissing": "dan {{missingFieldsAfterTen}} lagi...",
+            "missingRequiredFields": "Medan yang diperlukan hilang:",
+            "progress": "{{mappedDestinationFields}} daripada {{totalDestinationFields}} medan yang tersedia dalam helaian sasaran telah dipetakan ke"
+          }
+        }
+      },
+      "incomingFields": {
+        "heading": "Medan Masuk",
+        "progressPill": {
+          "text": "{{totalIncomingMapped}} daripada {{totalIncomingFields}}",
+          "tooltip": "Anda telah memetakan {{mappedIncomingFields}} daripada {{totalIncomingFields}} medan dalam set data anda ke helaian sasaran"
+        },
+        "selectHeaders": {
+          "tooltip": "Edit medan masuk"
+        }
+      },
+      "subheading": "Semak dan sahkan setiap pilihan pemetaan",
+      "title": "Petakan medan"
+    },
+    "mapHeaders": {
+      "subheading": "Ubah atau pilih baris pengepala untuk data sumber anda",
+      "title": "Pengepala peta"
+    },
+    "mappingPlan": {
+      "preparing": "Menyediakan Pemetaan..."
+    },
+    "sheetSelection": {
+      "cannotLoadFile": "Tidak dapat memuat naik fail: {{fileName}}",
+      "cannotStartMapping": "Tidak dapat meneruskan pemetaan - {{reason}} - Sila cuba lagi",
+      "columns_other": "{{count}} lajur",
+      "columns_zero": "{{count}} lajur",
+      "errors_other": "{{count}} ralat",
+      "errors_zero": "{{count}} ralat",
+      "importFromHeading": "Pilih helaian untuk memuatkan data",
+      "importToHeading": "Pilih helaian untuk mengimport data ini",
+      "lastUpdated": "Kali terakhir dikemas kini {{date}}",
+      "lastUpdatedDateFormat": "hh-bb-tttt",
+      "records_other": "{{count}} rekod",
+      "records_zero": "{{count}} rekod",
+      "sheetHasNoData": "Tiada data",
+      "sheets_other": "{{count}} helaian",
+      "sheets_zero": "{{count}} helaian",
+      "title": "Import ke...",
+      "updatedAtDateFormat": "tttt-BB-hh"
+    }
+  },
+  "nativeActions": {
+    "addColumn": "Tambah lajur",
+    "clearColumn": "Kosongkan Lajur",
+    "removeColumn": "Padamkan lajur"
+  },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "Segar semula",
+        "refreshTokenFailed": "Strim acara diputuskan sambungan - Sila segar semula untuk menyambung semula"
+      }
+    }
+  },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "Hampir selesai...",
+      "complete": "Kemas kini jadual selesai. Sila audit data",
+      "error": "Ralat berlaku semasa mengemas kini buku kerja. Lihat Log Peristiwa.",
+      "halfway": "Hampir selesai, tunggu sebentar...",
+      "updatingTable": "Mengemas kini jadual untuk melihat medan yang dipetakan sahaja"
+    }
+  },
+  "sheet": {
+    "columnManagement": {
+      "clear_empty": "Kosongkan lajur kosong",
+      "errorColumnTooltip": "Dengan menapis nilai ini, lajur ini akan dinyahsembunyikan",
+      "hideAll": "Sembunyikan semua",
+      "hideEmpty": "Sembunyikan lajur kosong",
+      "hideEmptyFields": "Sembunyikan lajur yang tiada data",
+      "noFields": "tiada medan",
+      "noMatches": "tiada padanan",
+      "placeholder_other": "Cari atau pilih dari {{count}} medan...",
+      "placeholder_zero": "Cari atau pilih dari {{count}} medan...",
+      "toast": {
+        "action": "Nyahsembunyikan?",
+        "message_other": "{{count}} lajur dengan ralat telah disembunyikan",
+        "message_zero": "{{count}} lajur dengan ralat telah disembunyikan"
+      },
+      "tooltip_other": "{{count}} lajur disembunyikan",
+      "tooltip_zero": "Uruskan lajur ",
+      "unhideToast": {
+        "message_other": "{{count}} lajur telah dinyahsembunyikan oleh pertanyaan ini",
+        "message_zero": "{{count}} lajur telah dinyahsembunyikan oleh pertanyaan ini"
+      }
+    },
+    "comments": {
+      "tooltip": "Tambah komen"
+    },
+    "embedded": {
+      "maxOpenReached": "Tidak boleh membuka lebih daripada {{maxOpenSheets}} lembaran yang terbenam sekali gus. Tutup satu lembaran terbenam untuk membuka lembaran ini.",
+      "untitled": "Lembaran Tiada Tajuk"
+    },
+    "emptyView": {
+      "defaultError": {
+        "description": "Lembaran ini nampaknya kosong.",
+        "heading": "Tiada apa-apa untuk dilihat!"
+      },
+      "heading": "Mari mulakan",
+      "manualEntry": "Masukkan data secara manual",
+      "missingSheet": {
+        "buttonLabel": "Kembali ke lembaran utama",
+        "description": "Lembaran yang anda cuba akses telah dipadamkan atau tidak wujud.",
+        "heading": "Lembaran tidak ditemui"
+      },
+      "noColumns": {
+        "description": "Anda telah menyembunyikan semua lajur daripada paparan.",
+        "heading": "Tiada apa-apa di sini!"
+      },
+      "noSheetError": {
+        "description": "Helaian ini nampaknya tidak wujud.",
+        "heading": "Lembaran tidak ditemui"
+      },
+      "readOnly": {
+        "description": "Lembaran yang tidak menerima baris dan/atau pengeditan baharu biasanya menerima data yang diisi secara dinamik. Tiada tindakan yang boleh anda ambil buat masa ini.",
+        "heading": "Menunggu data"
+      },
+      "sheetLocked": {
+        "description": "Jika anda rasa ini satu ralat, sila hubungi bahagian sokongan.",
+        "heading": "Penambahan rekod tidak didayakan buat masa ini"
+      },
+      "uploadFile": "Seret dan lepas atau muat naik fail untuk bermula"
+    },
+    "errors": {
+      "loading": "Tidak dapat mengambil buku kerja.",
+      "noSheets": {
+        "description": "Buku kerja mesti mengandungi sekurang-kurangnya satu lembaran. Tiada lembaran ditemui.",
+        "title": "Buku kerja tidak mengandungi lembaran"
+      },
+      "notFound": "Buku kerja tidak ditemui"
+    },
+    "info": {
+      "browser": "Pelayar",
+      "copiedPopover": "Disalin ke papan klip",
+      "copyButton": "Klik untuk menyalin!",
+      "date": "Tarikh",
+      "environment": "Persekitaran",
+      "inFrame": "Dalam iframe",
+      "referrer": "Perujuk",
+      "release": "Keluaran semasa",
+      "sheet": "Sheet",
+      "space": "Space",
+      "workbook": "Workbook"
+    },
+    "popovers": {
+      "copyCell_other": "{{count}} sel disalin",
+      "copyCell_zero": "{{count}} sel disalin",
+      "copyRecord_other": "{{count}} rekod disalin",
+      "copyRecord_zero": "{{count}} rekod disalin",
+      "errors": {
+        "cellUpdateFailed": "Ralat telah berlaku. Sila muat semula halaman dan cuba lagi. Jika ini berterusan, sila hubungi bahagian sokongan",
+        "invalidFFQL": "Sila semak pertanyaan anda",
+        "invalidFFQLSearch": "Pernyataan FFQL tidak sah",
+        "learnMore": "Ketahui lebih lanjut",
+        "recordsLoadFailed": "Rekod gagal dimuatkan"
+      }
+    },
+    "table": {
+      "cells": {
+        "enum": {
+          "loading": "Memuatkan pilihan...",
+          "loadingError": "Tidak dapat memuatkan pilihan",
+          "noMatchesFound": "Tiada padanan ditemui",
+          "placeholder": "Taip di sini...",
+          "seeMore": "Cari untuk melihat lebih banyak pilihan"
+        },
+        "messages": {
+          "autogen": "✨ Dijana secara automatik",
+          "compositeUnique": "🧑‍🍳 Komposit {{name}} tidak unik",
+          "invalidOption": "Pilihan tidak sah",
+          "invalidValue": "Nilai bukan pilihan yang sah",
+          "reference": "Nilai tidak wujud dalam jadual rujukan",
+          "req": "{{field}} diperlukan",
+          "transformed": "🪄️ Diubah daripada {{originalValue}}",
+          "unique": "Nilai tidak unik"
+        }
+      },
+      "contextMenu": {
+        "filterByValue": {
+          "label": "Tapis mengikut nilai",
+          "moreOptions": "Menunjukkan pilihan {{pageSize}} yang pertama. Cari untuk melihat lebih banyak lagi.",
+          "noData": "tiada data",
+          "placeholder": "Cari atau pilih nilai..."
+        },
+        "findAndReplace": {
+          "findAndReplaceValues": "Cari dan ganti",
+          "modal": {
+            "cancelButton": "Batalkan",
+            "descriptionExactOnly": "Gantikan mana-mana teks dalam lajur ini secara pukal dengan nilai yang sah. Kami menunjukkan padanan tepat sahaja",
+            "descriptionPartialAndExact": "Ganti mana-mana teks dalam lajur ini secara pukal. Kami menyokong padanan separa atau padanan tepat untuk data ini",
+            "errors": {
+              "findError": "Terdapat ralat semasa hendak mencari nilai",
+              "generalError": "Sesuatu tidak kena berlaku. Sila cuba semula",
+              "replaceError": "Terdapat ralat semasa hendak menggantikan nilai"
+            },
+            "exactMatchesOnly": "Tunjukkan padanan tepat sahaja",
+            "finding": "Mencari semua kemunculan",
+            "heading": "Cari dan ganti dalam {{columnName}}",
+            "isFiltered": "Set data ini telah ditapis. Cari dan ganti hanya akan dijalankan untuk rekod yang ditapis.",
+            "replaceButton": "Gantikan semua",
+            "replaceEmpty": {
+              "description": {
+                "addValues": "Ini akan mengisi semua sel kosong dalam {{columnName}}",
+                "addValuesToAll": "Kesemua sel dalam {{columnName}} kosong, anda boleh mengisinya secara pukal dengan nilai yang dipilih",
+                "addValuesToCount_other": "Ada {{formattedCount}} sel kosong dalam {{columnName}}, anda boleh mengisinya secara pukal dengan nilai yang dipilih",
+                "addValuesToCount_zero": "Ada {{formattedCount}} sel kosong dalam {{columnName}}, anda boleh mengisinya secara pukal dengan nilai yang dipilih",
+                "noEmptyValues": "Kami tidak menemui sebarang sel kosong dalam medan ini!"
+              },
+              "heading": {
+                "addValues": "Tambahkan nilai pada sel kosong dalam {{columnName}}",
+                "addValuesToAll": "Tambahkan nilai pada semua sel kosong dalam {{columnName}}",
+                "addValuesToCount_other": "Tambahkan nilai pada {{formattedCount}} sel kosong dalam {{columnName}}",
+                "addValuesToCount_zero": "Tambahkan nilai pada {{formattedCount}} sel kosong dalam {{columnName}}",
+                "noEmptyValues": "Tiada nilai kosong ditemui"
+              }
+            },
+            "replaceEnum": {
+              "moreOptions": "Menunjukkan 100 pilihan yang pertama. Cari untuk melihat lebih banyak.",
+              "noMatchesFound": "Tiada padanan ditemui",
+              "replaceWith": "Gantikan dengan..."
+            },
+            "replaceValue": {
+              "leavingBlank": "Jika ruang ini dibiarkan kosong, nilai yang dipilih akan dipadamkan",
+              "noMatchesFound": "Tiada nilai ditemui",
+              "replaceWith": "Gantikan dengan..."
+            },
+            "replacing": "Menggantikan nilai",
+            "runOnAllRecords": "Jalankan untuk semua rekod",
+            "searchForEmpty": "Jika medan ini dibiarkan kosong, kami akan mencari nilai kosong",
+            "searchForText": "Cari teks...",
+            "searchResultsCount_other": "{{count}} padanan",
+            "searchResultsCount_zero": "{{count}} padanan"
+          },
+          "replaceEmptyValues": "Gantikan nilai kosong"
+        },
+        "pin": {
+          "apply": "Tetapkan pin lajur",
+          "remove": "Padamkan pin",
+          "tooltip": {
+            "maxPinned": "Anda boleh menetapkan pin untuk sehingga tiga lajur. Padamkan pin salah satu lajur untuk menetapkan pin pada lajur ini",
+            "pin": "Pin lajur ini di sebelah kiri jadual",
+            "unpin": "Klik untuk memadamkan pin lajur ini"
+          }
+        },
+        "searchInField": {
+          "modal": {
+            "cancelButton": "Batalkan",
+            "placeholder": "Cari...",
+            "searchButton": "Cari",
+            "searchWithin": "Cari di dalamnya"
+          },
+          "searchInThisField": "Cari dalam medan ini"
+        },
+        "sort": {
+          "ascending": {
+            "apply": "Susun A-Z",
+            "remove": "Padamkan susunan A-Z"
+          },
+          "descending": {
+            "apply": "Susun Z-A",
+            "remove": "Padamkan susunan Z-A"
+          },
+          "tooltip": {
+            "notSorted": "Klik untuk menyusun A-Z",
+            "sortedAsc": "Disusun A-Z",
+            "sortedDes": "Disusun Z-A"
+          }
+        }
+      },
+      "errors": {
+        "description": "Jadual menghadapi masalah memaparkan data ini. Sila lihat konsol untuk butiran ralat.",
+        "title": "Sesuatu tidak kena berlaku"
+      },
+      "header": {
+        "tooltip": {
+          "key": "kunci: {{key}}",
+          "label": "label: {{label}}"
+        }
+      },
+      "indexRow": {
+        "tooltip": {
+          "createRow": "Tambah data untuk mencipta baris ini",
+          "noData": "Tiada baris yang boleh dipilih. Hanya baris yang mengandungi data boleh dipilih.",
+          "rowNumber": "Baris {{number}}"
+        }
+      },
+      "maximumMessage": {
+        "plural": "...dan {{hiddenRows}} baris lagi. Paparan meja hanya menyokong sehingga 500,000 rekod pada satu masa disebabkan oleh had pelayar. Carian, susunan, tapisan dan tindakan pukal akan terus beroperasi pada baris yang tersembunyi dari paparan.",
+        "singular": "...dan 1 baris lagi. Paparan meja hanya menyokong sehingga 500,000 rekod pada satu masa disebabkan oleh had pelayar. Carian, susunan, tapisan dan tindakan pukal akan terus beroperasi pada baris yang tersembunyi dari paparan."
+      },
+      "modals": {
+        "copyAlert": {
+          "cancelButton": "Batalkan",
+          "description": "Kami mendapati anda cuba memilih lebih daripada 100 rekod. Kami mengehadkan penyalinan kepada 100 rekod untuk mengekalkan integriti data anda.",
+          "download": "Adakah anda ingin memuat turun lembaran ini sebagai .csv?",
+          "downloadButton": "Muat turun",
+          "heading": "Adakah anda ingin memuat turun fail ini?"
+        },
+        "deleteAlert": {
+          "description": "Memadamkan lebih daripada 100 rekod yang sedia ada tidak disokong pada masa ini. Kami telah mengehadkannya untuk memberikan pengalaman yang lebih baik semasa kami <1>mengubah suai secara bijak</1> data anda.",
+          "dismissButton": "Abaikan",
+          "heading": "Anda telah mencapai had pemadaman kami!",
+          "tooltip": "Alih keluar rekod kosong, pendua, dan lain-lain"
+        },
+        "pasteAlert": {
+          "description": "Menampal lebih daripada 100 rekod yang sedia ada tidak disokong pada masa ini. Kami telah mengehadkannya untuk memberikan pengalaman yang lebih baik semasa kami <1>mengubah suai secara bijak</1> data anda.",
+          "dismissButton": "Abaikan",
+          "heading": "Anda telah mencapai had tampal kami!",
+          "tooltip": "Alih keluar rekod kosong, pendua, dan lain-lain"
+        }
+      }
+    },
+    "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "Tindakan",
+        "placeholder": "Cari atau pilih..."
+      },
+      "aiAssist": {
+        "buttonText": "Ai Assist",
+        "query": "Pertanyaan",
+        "transform": "Ubah"
+      },
+      "buttons": {
+        "delete": {
+          "modal": {
+            "cancelButton": "Batalkan",
+            "confirmButton": "Padam rekod",
+            "description": {
+              "infix": "dipilih",
+              "infixType": {
+                "invalid": "tidak sah",
+                "valid": "sah"
+              },
+              "prefix": "Adakah anda ingin memadam",
+              "suffix_other": "rekod?",
+              "suffix_zero": "rekod?"
+            },
+            "errorMessage": "Gagal memadam rekod. Sila cuba lagi semula atau ubah suai pilihanan anda.",
+            "heading_other": "Padam Rekod",
+            "heading_zero": "Padam Rekod",
+            "inProgress": "Memadamkan rekod..."
+          },
+          "popover": {
+            "successMessage_other": "{{count}} rekod dipadam",
+            "successMessage_zero": "{{count}} rekod dipadam",
+            "successMessageNoCount": "Rekod dipadam"
+          },
+          "tooltip": {
+            "active": "Padam rekod yang dipilih",
+            "disabled": {
+              "deleteDisabled": "Pemadaman rekod dilumpuhkan dalam Lembaran ini.",
+              "noRecordsSelected": "Pilih sekurang-kurangnya satu rekod untuk memadamkannya"
+            }
+          }
+        },
+        "download": {
+          "modal": {
+            "cancelButton": "Batalkan",
+            "confirmButton": "Muat turun rekod",
+            "description": {
+              "infix": "dipilih",
+              "infixType": {
+                "invalid": "tidak sah",
+                "valid": "sah"
+              },
+              "prefix": "Adakah anda ingin memuat turun",
+              "suffix_other": "rekod?",
+              "suffix_zero": "rekod?"
+            },
+            "errorMessage": "Gagal memuat turun rekod. Sila cuba lagi semula atau ubah suai pilihanan anda.",
+            "heading_other": "Muat Turun Rekod",
+            "heading_zero": "Muat Turun Rekod",
+            "inProgress": "Memuat turun rekod..."
+          },
+          "tooltip": {
+            "active": {
+              "invalidFilterApplied": "Muat turun semua rekod tidak sah",
+              "noRecordsSelected": "Muat turun lembaran ini",
+              "recordsSelected": "Muat turun rekod yang dipilih",
+              "validFilterApplied": "Muat turun semua rekod sah"
+            },
+            "disabled": "Tiada rekod untuk dimuat turun"
+          }
+        }
+      },
+      "customActionsDropdown": {
+        "disabledTooltip": {
+          "hasData": "Tindakan ini akan tersedia apabila terdapat sekurang-kurangnya satu rekod dalam Sheet ini.",
+          "requireAllValid": "Tindakan ini memerlukan semua baris yang dipilih adalah sah",
+          "requireAllValidTotal": "Tindakan ini memerlukan semua baris bersifat sah",
+          "requireSelection": "Sila pilih satu atau lebih rekod untuk menggunakan tindakan ini"
+        }
+      },
+      "dropdown": {
+        "delete": "Padam",
+        "download": "Muat turun"
+      },
+      "filterByError": {
+        "buttonText": "Tapis mengikut ralat",
+        "dropdownPlaceholder": "Cari atau pilih..."
+      },
+      "filters": {
+        "all": "Semua",
+        "invalid": "Tidak sah",
+        "tooltip": {
+          "countsError": "Ralat memuatkan kiraan",
+          "countsErrorRetry": "Klik untuk Cuba Semula",
+          "filter": {
+            "invalid": "tidak sah",
+            "total": "jumlah",
+            "valid": "sah"
+          },
+          "filtered": "Set data ini telah ditapis untuk menunjukkan {{filteredCount}} daripada {{countString}} rekod {{filter}}.",
+          "filteredByError": "Set data ini telah ditapis melalui penapis ralat untuk menunjukkan {{filteredCount}} daripada {{countString}} rekod {{filter}}.",
+          "filteredByFFQL": {
+            "branded": "Set data ini telah ditapis melalui Bahasa Pertanyaan Flatfile untuk menunjukkan {{filteredCount}} daripada {{countString}} rekod {{filter}}.",
+            "whitelabeled": "Set data ini telah ditapis untuk menunjukkan {{filteredCount}} daripada {{countString}} rekod {{filter}}."
+          },
+          "filteredBySearch": "Set data ini telah ditapis melalui carian untuk menunjukkan {{filteredCount}} daripada {{countString}} rekod {{filter}}.",
+          "filteredBySearchAndError": "Set data ini telah ditapis melalui carian dan penapis ralat untuk menunjukkan {{filteredCount}} daripada {{countString}} rekod {{filter}}.",
+          "inactiveCount": "{{countString}} {{filter}} rekod, {{filteredCount}} ditapis"
+        },
+        "valid": "Sah"
+      },
+      "moreActions": {
+        "buttonText": "Lebih banyak tindakan",
+        "placeholder": "Cari atau pilih..."
+      },
+      "savedViews": {
+        "buttonText": "Paparan",
+        "groups": {
+          "allViews": "SEMUA PAPARAN",
+          "myViews": "PAPARAN SAYA"
+        },
+        "modalHeader": "Paparan Yang Disimpan",
+        "modalSubheader": "Pilih paparan yang disimpan untuk digunakan pada Sheet ini.",
+        "searchPlaceholder": "Cari atau pilih...",
+        "tooltip": "Gunakan Paparan dan Salin Pautan",
+        "viewAppliedPopover": "Paparan anda telah disalin ke papan klip!"
+      },
+      "saveView": {
+        "buttons": {
+          "cancel": "Batalkan",
+          "copy": {
+            "label": "Salin untuk berkongsi",
+            "successLabel": "Disalin ke papan klip!",
+            "warningTooltip": "Hanya orang yang mempunyai akses kepada Space ini boleh membuka dengan pautan."
+          },
+          "save": {
+            "label": "Simpan paparan",
+            "labelActive": "Menyimpan paparan"
+          }
+        },
+        "error": {
+          "saveText": "Tidak dapat menyimpan paparan - sila cuba lagi."
+        },
+        "headings": {
+          "saveHeader": "Simpan paparan",
+          "saveSubheader": "Pilih nama yang menunjukkan tujuan paparan ini. Perkara ini akan membantu pengguna mengenal pasti penggunaannya dengan mudah.",
+          "shareHeader": "Kongsikan"
+        },
+        "nameViewInput": {
+          "helperText": "Ingat, paparan ini akan kelihatan kepada semua orang yang mempunyai akses kepada Sheet ini.",
+          "label": "nama",
+          "placeholder": "Lihat daripada {{timestamp}}"
+        },
+        "summary": {
+          "filter": "rekod yang",
+          "filterFieldpt1": "jika",
+          "filterFieldpt2": "ada ralat",
+          "invalid": "Tidak sah",
+          "q": "di mana",
+          "searchValue": "mana-mana medan yang mengandungi",
+          "title": "Ringkasan",
+          "valid": "Sah"
+        }
+      },
+      "searchBar": {
+        "expandTooltip": "Buka carian dan AI Assist",
+        "placeholder": "Cari...",
+        "tooltip": "Tekan enter untuk mencari"
+      },
+      "tooltips": {
+        "lockedUntilEditingCompletes": "Bar alat akan tersedia apabila lembaran tidak lagi diedit",
+        "lockedUntilHookCompletes": "Bar alat akan selesai selepas semua pemalam selesai berjalan",
+        "lockedUntilJobCompletes": "Bar alat akan tersedia selepas kerja semasa selesai"
+      }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "hasData": "Tindakan ini akan tersedia apabila terdapat sekurang-kurangnya satu rekod dalam Workbook ini.",
+        "hasPendingValidation": "Pengesahan buku kerja anda sedang dijalankan...",
+        "lockedUntilEditingCompletes": "Tindakan akan tersedia apabila lembaran tidak lagi diedit",
+        "lockedUntilHookCompletes": "Tindakan ini akan tersedia selepas semua kefungsian selesai berjalan",
+        "lockedUntilJobCompletes": "Tindakan ini akan tersedia selepas pekerjaan semasa selesai",
+        "requireAllValid": "Tindakan ini memerlukan kesemua baris dalam helaian bersifat sah"
+      }
+    }
+  },
+  "sidebar": {
+    "addConnection": "Tambahkan Sambungan",
+    "checklist": "Senarai semak data",
+    "connections": {
+      "tooltips": {
+        "connectionError": "Terdapat isu mengesahkan metadata sambungan buku kerja ini",
+        "connectionFresh": "Disambungkan ke {{source}} melalui {{service}}",
+        "connectionStale": "Terakhir disegerakkan dengan {{source}} lebih daripada 24 jam yang lalu"
+      }
+    },
+    "emptyWorkbook": "Buku kerja kosong",
+    "files": "Fail",
+    "lockedIconTooltip": "Helaian ini dikunci",
+    "readOnlyIconTooltip": "Helaian ini bersifat baca sahaja",
+    "spaceSwitcher": {
+      "placeholder": "Cari atau lilih Space"
+    },
+    "toggle": {
+      "hide": "Sembunyikan bar sisi",
+      "show": "Tunjukkan bar sisi"
+    }
+  },
+  "snapshot": {
+    "accept": {
+      "cancelButton": "Batalkan",
+      "cancelError": "Perubahan tidak dapat dikembalikan disebabkan oleh ralat yang tidak dijangka.",
+      "cancelSuccess": "Perubahan pada lembaran anda telah berjaya dikembalikan.",
+      "empty": {
+        "createdSince": "Salinan segera ini tiada rekod yang dibuang.",
+        "deletedSince": "Salinan segera ini tiada rekod yang ditambah.",
+        "title": "Tiada apa-apa di sini!",
+        "updatedSince": "Salinan segera ini tiada rekod yang diubah suai."
+      },
+      "errorMessage": "Perubahan salinan segera tidak dapat dikenakan kerana ralat yang tidak dijangka.",
+      "filters": {
+        "createdSince": "Dibuang",
+        "deletedSince": "Ditambah",
+        "updatedSince": "Diubah suai"
+      },
+      "header": {
+        "title": "Perubahan dibuat dalam",
+        "titleWithMeta": "Perubahan dilakukan dalam <1> {{sheet}} </1> oleh <3> {{action}} </3>"
+      },
+      "message": "Dengan menerima perubahan, kesemua nilai baru akan disatukan ke dalam helaian {{name}} anda.",
+      "submitButton": "Terima perubahan",
+      "submitError": "Perubahan salinan segera tidak dapat dikenakan kerana ralat yang tidak dijangka.",
+      "submitSuccess": "Perubahan kepada helaian anda berjaya dikenakan.",
+      "successMessage": "Perubahan dikenakan kepada helaian anda.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} sel dalam medan {{name}}",
+            "last": " dan {{cells}} sel dalam medan {{name}}",
+            "middle": ", {{cells}} sel dalam medan {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Medan {{name}} akan dibuang",
+              "last": " dan medan {{name}} akan dibuang",
+              "middle": ", medan {{name}} akan dibuang"
+            },
+            "removed": {
+              "first": "medan {{name}} akan ditambah semula",
+              "last": " dan medan {{name}} akan ditambah semula",
+              "middle": ", medan {{name}} akan ditambah semula"
+            }
+          },
+          "singular": {
+            "first": "1 sel dalam medan {{name}}",
+            "last": " dan 1 sel dalam medan {{name}}",
+            "middle": ", 1 sel dalam medan {{name}}"
+          },
+          "start": " Data telah diubah suai dalam "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data diubah dalam {{records}} rekod merentas {{fields}} medan.",
+            "noFields": "Data diubah dalam {{records}} rekod.",
+            "oneField": "Data diubah dalam {{records}} rekod merentas 1 medan."
+          },
+          "singular": {
+            "multipleFields": "Data diubah dalam 1 rekod merentas {{fields}} medan.",
+            "noFields": "Data diubah dalam 1 rekod.",
+            "oneField": "Data diubah dalam 1 rekod merentas 1 medan."
+          }
+        }
+      },
+      "title": "Perubahan dibuat dalam"
+    },
+    "cells": {
+      "messages": {
+        "accept": "Jika anda menerima perubahan, semua nilai baharu akan digabungkan kepada set data anda.",
+        "current": "Nilai semasa: {{value}}",
+        "empty": "tiada data",
+        "none": "Set data anda akan diubah suai kepada nilai yang ditunjukkan.",
+        "restore": "Set data anda akan dipulihkan semula kepada versi dalam syot kilat ini.",
+        "snapshot": "Nilai baharu: {{value}}"
+      }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "Tiada rekod akan dialih keluar.",
+        "deletedSince": "Tiada rekod akan ditambah.",
+        "title": "Tiada apa-apa di sini!",
+        "updatedSince": "Tiada rekod akan diubah suai."
+      },
+      "errorMessage": "Perubahan tidak dapat dipreviu kerana ralat yang tidak dijangka.",
+      "filters": {
+        "createdSince": "Tambah",
+        "deletedSince": "Buang",
+        "updatedSince": "Ubah suai"
+      },
+      "header": {
+        "title": "Perubahan dibuat dalam",
+        "titleWithMeta": "Semak perubahan kepada <1>{{sheet}}</1>"
+      },
+      "message": "Jadual di bawah menunjukkan perubahan pada helaian anda {{name}}.",
+      "submitError": "Data tidak dapat diubah kerana ralat yang tidak dijangka.",
+      "submitSuccess": "Perubahan kepada helaian anda berjaya dikenakan.",
+      "successMessage": "Perubahan dikenakan kepada helaian anda.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} sel dalam medan {{name}}",
+            "last": " dan {{cells}} sel dalam medan {{name}}",
+            "middle": ", {{cells}} sel dalam medan {{name}}"
+          },
+          "singular": {
+            "first": "1 sel dalam medan {{name}}",
+            "last": " dan 1 sel dalam medan {{name}}",
+            "middle": ", 1 sel dalam medan {{name}}"
+          },
+          "start": " Data akan diubah suai dalam "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data akan berubah dalam {{records}} rekod merentas {{fields}} medan.",
+            "noFields": "Data akan berubah dalam {{records}} rekod.",
+            "oneField": "Data akan berubah dalam {{records}} rekod merentas 1 medan."
+          },
+          "singular": {
+            "multipleFields": "Data akan berubah dalam 1 rekod merentas {{fields}} medan.",
+            "noFields": "Data akan berubah dalam 1 rekod.",
+            "oneField": "Data akan berubah dalam 1 rekod merentas 1 medan."
+          }
+        }
+      },
+      "title": "Previu perubahan yang dibuat dalam"
+    },
+    "preview": {
+      "cancelButton": "Batalkan",
+      "empty": {
+        "createdSince": "Previu ini tiada rekod yang akan dibuang.",
+        "deletedSince": "Previu ini tiada rekod yang akan ditambah.",
+        "title": "Tiada apa-apa di sini!",
+        "updatedSince": "Previu ini tiada rekod yang akan diubah suai."
+      },
+      "errorMessage": "Perubahan tidak dapat dipreviu kerana ralat yang tidak dijangka.",
+      "filters": {
+        "createdSince": "Buang",
+        "deletedSince": "Tambah",
+        "updatedSince": "Ubah suai"
+      },
+      "header": {
+        "title": "Perubahan dibuat dalam",
+        "titleWithMeta": "Previu perubahan yang dibuat dalam <1>{{sheet}}</1> oleh penggesa <3>{{aiAction}}</3>"
+      },
+      "message": "Helaian {{name}} anda akan dipulihkan kepada versi dalam salinan segera ini.",
+      "submitButton": "Ubah Data",
+      "submitError": "Data tidak dapat diubah kerana ralat yang tidak dijangka.",
+      "submitSuccess": "Perubahan kepada helaian anda berjaya dikenakan.",
+      "successMessage": "Perubahan dikenakan kepada helaian anda.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} sel dalam medan {{name}}",
+            "last": " dan {{cells}} sel dalam medan {{name}}",
+            "middle": ", {{cells}} sel dalam medan {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Medan {{name}} akan dibuang",
+              "last": " dan medan {{name}} akan dibuang",
+              "middle": ", medan {{name}} akan dibuang"
+            },
+            "removed": {
+              "first": "medan {{name}} akan ditambah semula",
+              "last": " dan medan {{name}} akan ditambah semula",
+              "middle": ", medan {{name}} akan ditambah semula"
+            }
+          },
+          "singular": {
+            "first": "1 sel dalam medan {{name}}",
+            "last": " dan 1 sel dalam medan {{name}}",
+            "middle": ", 1 sel dalam medan {{name}}"
+          },
+          "start": " Data akan diubah suai dalam "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data akan berubah dalam {{records}} rekod merentas {{fields}} medan.",
+            "noFields": "Data akan berubah dalam {{records}} rekod.",
+            "oneField": "Data akan berubah dalam {{records}} rekod merentas 1 medan."
+          },
+          "singular": {
+            "multipleFields": "Data akan berubah dalam 1 rekod merentas {{fields}} medan.",
+            "noFields": "Data akan berubah dalam 1 rekod.",
+            "oneField": "Data akan berubah dalam 1 rekod merentas 1 medan."
+          }
+        }
+      },
+      "title": "Previu perubahan yang dibuat dalam"
+    },
+    "restore": {
+      "cancelButton": "Batalkan",
+      "empty": {
+        "createdSince": "Salinan segera ini tiada data yang akan dibuang.",
+        "deletedSince": "Salinan segera ini tiada data yang akan ditambah.",
+        "title": "Tiada apa-apa di sini!",
+        "updatedSince": "Salinan segera ini tiada data yang akan diubah suai."
+      },
+      "errorMessage": "Syot layar ini tidak dapat dipulihkan disebabkan oleh ralat yang tidak dapat dijangka.",
+      "filters": {
+        "createdSince": "Buang",
+        "deletedSince": "Tambah",
+        "updatedSince": "Ubah suai"
+      },
+      "header": {
+        "title": "Perubahan untuk ditetapkan dalam"
+      },
+      "message": "Helaian {{name}} anda akan dipulihkan kepada versi dalam salinan segera ini.",
+      "submitButton": "Pulih",
+      "submitError": "Syot layar ini tidak dapat dipulihkan disebabkan oleh ralat yang tidak dapat dijangka.",
+      "submitSuccess": "Helaian anda telah dipulihkan ke versi sebelum ini.",
+      "successMessage": "Helaian anda telah dipulihkan ke versi sebelum ini.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} sel dalam medan {{name}}",
+            "last": " dan {{cells}} sel dalam medan {{name}}",
+            "middle": ", {{cells}} sel dalam medan {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Medan {{name}} akan dibuang",
+              "last": " dan medan {{name}} akan dibuang",
+              "middle": ", medan {{name}} akan dibuang"
+            },
+            "removed": {
+              "first": "medan {{name}} akan ditambah semula",
+              "last": " dan medan {{name}} akan ditambah semula",
+              "middle": ", medan {{name}} akan ditambah semula"
+            }
+          },
+          "singular": {
+            "first": "1 sel dalam medan {{name}}",
+            "last": " dan 1 sel dalam medan {{name}}",
+            "middle": ", 1 sel dalam medan {{name}}"
+          },
+          "start": " Data akan diubah suai dalam "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data akan berubah dalam {{records}} rekod merentas {{fields}} medan.",
+            "noFields": "Data akan berubah dalam {{records}} rekod.",
+            "oneField": "Data akan berubah dalam {{records}} rekod merentas 1 medan."
+          },
+          "singular": {
+            "multipleFields": "Data akan berubah dalam 1 rekod merentas {{fields}} medan.",
+            "noFields": "Data akan berubah dalam 1 rekod.",
+            "oneField": "Data akan berubah dalam 1 rekod merentas 1 medan."
+          }
+        }
+      },
+      "title": "Perubahan untuk ditetapkan dalam"
+    },
+    "tooltips": {
+      "sheet": "{{sheet}} dalam {{workbook}}"
+    }
+  },
+  "spaceLoadingMessage": "Menyediakan Ruang...",
+  "utils": {
+    "buttons": {
+      "clearAll": "Kosongkan Semua",
+      "clearAllLabel": "Kosongkan semua",
+      "selectAll": "Pilih Semua",
+      "selectAllLabel": "Pilih semua"
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "Sila gunakan peranti dengan skrin yang lebih besar untuk mengakses kesemua ciri. Kami tidak dapat menjamin kesemua ciri akan berfungsi seperti yang diharapkan dengan saiz skrin ini.",
+        "button": "Teruskan juga",
+        "title": "Skrin terlalu kecil"
+      }
+    },
+    "poweredByFlatfile": "Dijana oleh Flatfile"
+  },
+  "versionHistory": {
+    "modals": {
+      "default": {
+        "description": "Ralat yang tidak dijangka berlaku - tiada tindakan yang sepadan digunakan"
+      },
+      "delete": {
+        "confirm": {
+          "closeButton": "Tutup",
+          "description": "Adakah anda pasti anda mahu memadamkan versi yang dipilih?",
+          "heading": "Padamkan Versi",
+          "proceedButton": "Padam"
+        },
+        "error": {
+          "closeButton": "Tutup",
+          "description": "Versi yang dipilih tidak dapat dipadamkan kerana ralat yang tidak dijangka - jika masalah berterusan, hubungi bahagian sokongan",
+          "heading": "Tidak dapat memadam versi",
+          "retryButton": "Cuba Lagi"
+        },
+        "success": {
+          "closeButton": "Tutup",
+          "description": "Versi yang dipilih telah dipadamkan.",
+          "heading": "Versi Dipadamkan"
+        }
+      }
+    },
+    "panel": {
+      "empty": "Setelah versi dijana, ia akan muncul di sini. Versi akan dijana secara automatik, biasanya apabila transformasi pukal data berlaku.",
+      "generatedSnapshot": "Salinan segera yang dijana sebelum mengenakan Tranformasi AI untuk penggesa: ",
+      "generatedSnapshotForAiTransform": "Salinan segera yang dijana sebelum mengenakan Tranformasi AI untuk penggesa: ",
+      "generatedSnapshotForBulkDelete": "Salinan segera yang dijana sebelum memadamkam rekod",
+      "generatedSnapshotForFindReplace": "Salinan segera yang dijana sebelum mengenakan Cari dan Ganti",
+      "heading": "Sejarah Versi",
+      "thisMonth": "Bulan Ini",
+      "versionRestored": "Versi dihasilkan sebelum memulihkan versi sebelumnya"
+    },
+    "pill": {
+      "hoverText": "Sejarah Versi"
+    }
+  }
+}

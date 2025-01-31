@@ -1,0 +1,1441 @@
+{
+  "aiTransform": {
+    "changedColumnsText_one": "1 kolumn med data har ändrats",
+    "changedColumnsText_other": "{{count}} kolumner med data har ändrats",
+    "changedColumnsText_zero": "{{count}} kolumner med data har ändrats",
+    "errors": {
+      "entilementError": {
+        "content": "Om du tror att det här är fel, vänligen kontakta kundservice.",
+        "title": "Tyvärr! Du har inte tillgång till den här funktionen."
+      },
+      "generalError": {
+        "title": "Något gick fel. Försök igen."
+      },
+      "generateMutationError": {
+        "title": "Kan ej nå AI. Försök igen senare."
+      },
+      "invalidFunctionError": {
+        "content": "Sannolikt bad du den att göra någonting otillåtet.",
+        "title": "Tyvärr kan AI-assistenten inte utföra den omvandlingen."
+      },
+      "keysModifiedError": {
+        "title": "Tyvärr, AI-assistenten kan endast ändra värdena i befintliga fält. Den kan inte ta bort fält eller lägga till nya."
+      },
+      "noFunctionError": {
+        "content": "Prova att formulera det på ett annat sätt. Prompter som innehåller fältnamn fungerar ofta bättre.",
+        "title": "Vi förstod inte din prompt."
+      },
+      "noRecordsFoundError": {
+        "content": "Inga poster hittades för den angivna frågan. Försök igen.",
+        "title": "Inga poster hittades"
+      },
+      "noresultsError": {
+        "content": "Prova att formulera det på ett annat sätt. Prompter som innehåller fältnamn fungerar ofta bättre.",
+        "title": "Din prompt har inte omvandlat några data."
+      },
+      "prompttoolongError": {
+        "content": "Prova att förkorta din prompt, eller dela upp prompten i flera steg, och försök igen.",
+        "title": "Tyvärr! Din prompt var lite för lång."
+      },
+      "versionError": {
+        "content": "Kunde inte skapa en återställningsversion.",
+        "title": "Något gick fel. Försök igen."
+      }
+    },
+    "exitConfirmation": {
+      "body": "Är du säker på att du vill avsluta?",
+      "header": "Avslutsbekräftelse",
+      "label": "Avsluta"
+    },
+    "jobCompleteHeading": "AI-omvandlingsjobb slutfört",
+    "jobCompleteMessage": "Posterna har omvandlats",
+    "promptBar": {
+      "categoricalWarning": "Det här fältet har för många alternativ för AI-omvandlingen att behandla.",
+      "transformButton": {
+        "tooltip": {
+          "active": "Beskriv hur du vill att data i ett fält ska omvandlas baserat på valfri logik, och inkludera data i valfritt fält",
+          "disabled": "Du måste ha några poster i ditt (filtrerade) blad för att kunna använda AI-assistenten.",
+          "locked": "Bladet är låst.",
+          "noRows": "Du måste ha några poster i ditt (filtrerade) blad för att kunna använda AI-assistenten.",
+          "readOnly": "Bladet är skrivskyddat.",
+          "tooManyRows": "Bladet har för många rader (mer än en miljon)."
+        }
+      },
+      "warning": "Observera: Vissa kategorifält i din datamängd har många konfigurerade alternativ. Om du använder de fälten, till exempel @{{fieldName}}, i din prompt kanske det inte fungerar som väntat."
+    },
+    "sampleMessage": "Förhandsgranskning av {{number}} poster",
+    "scrollInfoText": "Skrolla till nästa ändrade kolumn",
+    "toggleLabel": "Visa endast ändrade data"
+  },
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "Det går inte att skapa en inbäddad Diff på grund av att egenskapen \"riktning\" är ogiltig. Giltiga värden är: 'sheet_to_snapshot', 'snapshot_to_sheet'",
+        "missingIds": "Det går inte att skapa en inbäddad Diff eftersom ID för blad, arbetsbok eller ögonblicksbild saknas"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "Det går inte att skapa ett inbäddat blad eftersom blad- eller arbetsboks-ID saknas."
+      }
+    }
+  },
+  "checklist": {
+    "dropdowns": {
+      "headings": {
+        "sheet": "Blad",
+        "workbook": "Arbetsbok"
+      }
+    },
+    "errors": {
+      "cannotLoadChecklist": "Det går inte att ladda datachecklistan",
+      "cannotLoadSheet": "Bladet kunde inte hittas",
+      "noWorkbooksDescription": "Datachecklistan kräver minst 1 arbetsbok för att vara aktiv. Be din utvecklare att kontrollera konfigurationen. Om problemet kvarstår, kontakta supporten.",
+      "noWorkbooksTitle": "Arbetsbok krävs"
+    },
+    "table": {
+      "dataTypes": {
+        "boolean": "Boolesk",
+        "date": "Datum",
+        "enum": "Enum",
+        "number": "Nummer",
+        "reference": "Referens",
+        "string": "Sträng",
+        "unknown": "Okänd"
+      },
+      "fieldTagComputed": "Beräknat",
+      "fieldTagRequired": "Krävs",
+      "fieldTagUnique": "Unik",
+      "headings": {
+        "dataType": "Datatyp",
+        "description": "Beskrivning",
+        "field": "Fältnamn"
+      }
+    },
+    "title": "Datachecklista"
+  },
+  "commandMenu": {
+    "aiAssist": {
+      "query": {
+        "askingAI": {
+          "stepFour": "Avslutar",
+          "stepOne": "Tänker",
+          "stepThree": "Gör",
+          "stepTwo": "Skriver"
+        },
+        "description": {
+          "branded": "be AI att skriva en fråga åt dig i FFQL",
+          "whitelabeled": "be AI att skriva en fråga åt dig"
+        },
+        "errorBanner": {
+          "generalError": "Något gick fel. Försök igen."
+        },
+        "instruction": "Beskriv hur du vill att AI-assistenten ska fråga efter dina data:",
+        "review": {
+          "description": "Här är vad jag kom fram till. Läs den stegvisa förklaringen och frågeställningen, och om det ser bra ut kan du klicka nedan för att tillämpa det.",
+          "explanationTitle": "Förklaring",
+          "queryTitle": "Fråga"
+        }
+      },
+      "transform": {
+        "askingAI": {
+          "stepFour": "Avslutar",
+          "stepOne": "Tänker",
+          "stepThree": "Gör",
+          "stepTwo": "Skriver"
+        }
+      }
+    },
+    "buttons": {
+      "apply": "Tillämpa",
+      "cancel": "Avbryt"
+    },
+    "commands": {
+      "filter": {
+        "apply": "Tillämpa filter.",
+        "description": {
+          "branded": "skriv en FFQL-fråga",
+          "whitelabeled": "skriv en fråga"
+        },
+        "hiddenColumnsWarning_one": "Ett fält kommer att avtäckas av den här frågan: {{fields}}",
+        "hiddenColumnsWarning_other": "{{count}} fält kommer att avtäckas av den här frågan: {{fields}}",
+        "hiddenColumnsWarning_zero": "{{count}} fält kommer att avtäckas av den här frågan: {{fields}}",
+        "invalidFFQL": "Ogiltig FFQL-sats. Nytt försök?",
+        "learnHow": "lär dig hur"
+      },
+      "search": {
+        "global": {
+          "apply": "Tillämpa sökning.",
+          "description": "sök i hela arket"
+        },
+        "inField": {
+          "apply": "Tillämpa sökning inom ett fält.",
+          "applyExample": "d.v.s. 'first_name' Jane Doe",
+          "description": "sök inom ett fält"
+        }
+      }
+    },
+    "itemMessage": "tryck på {{icon}} för att applicera",
+    "placeholder": "Hitta eller gör vad som helst..."
+  },
+  "comments": {
+    "addReaction": "Lägg till reaktion",
+    "commentDisabledTooltip": "Välj en cell eller en rad för att lägga till en kommentar",
+    "delete": "Radera kommentar",
+    "edit": "Redigera kommentar",
+    "edited": " (redigerad)",
+    "noResults": "Inga träffar",
+    "placeholder": "Lägg till din kommentar här ...",
+    "reactionList": "<0></0> reagerade med {{emoji}}",
+    "resolve": "Lös tråden",
+    "send": "Skicka kommentar",
+    "threadPlaceholder": "Svara eller nämn andra med @ ...",
+    "you": "Du"
+  },
+  "document": {
+    "error": {
+      "description": "Detta dokument verkar inte existera",
+      "title": "Dokumentet hittades inte"
+    }
+  },
+  "errors": {
+    "documentNotFound": "Dokumentet hittades inte",
+    "fileNotFound": "Filen hittades inte",
+    "missingParameter": "Parameter ej tillhandahållen",
+    "notFound": "Inte hittat",
+    "notFoundPageDescription": "Det finns ingen sida på denna URL. Kontakta supporten om detta är oväntat.",
+    "refreshButton": "Försök igen",
+    "refreshPageDescription": "Uppdatera sidan för att försöka igen. Kontakta supporten om problemet kvarstår.",
+    "returnToDashboardButton": "Återgå till instrumentpanelen",
+    "sessionExpired": "Sessionen har löpt ut",
+    "sheetNotFound": "Bladet hittades inte",
+    "spaceNotFound": "Platsen hittades inte",
+    "unauthorized": "Dina inloggningsuppgifter är ogiltiga.",
+    "unknownError": "Något gick fel",
+    "workbookNotFound": "Arbetsboken hittades inte"
+  },
+  "files": {
+    "availableDownloadsTab": "Tillgängliga nedladdningar",
+    "buttons": {
+      "addFile": {
+        "inProgressText": "Laddar upp fil",
+        "text": "Ladda upp fil"
+      },
+      "addFileFrom": {
+        "box": "Box",
+        "googleDrive": "Google Drive",
+        "text": "Lägg till fil från ..."
+      },
+      "delete": "Radera",
+      "download": "Ladda ner",
+      "googleDrive": "Lägg till fil från Google Drive"
+    },
+    "connectionsModal": {
+      "box": "Box",
+      "close": "Stäng",
+      "googleDrive": "Google Drive",
+      "heading": "Hantera dina anslutningar",
+      "manage": "Hantera",
+      "subtext": " Klicka på knapparna nedan för att logga in på eller ut från dina konton."
+    },
+    "contextMenu": {
+      "delete": "Radera",
+      "download": "Ladda ner"
+    },
+    "counts": "{{start}}-{{end}} av {{total}}",
+    "deleteModal": {
+      "downloadDescription_one": "Denna nerladdade fil kommer att raderas från utrymmet.",
+      "downloadDescription_other": "Dessa nerladdade filer kommer att raderas från utrymmet.",
+      "downloadDescription_zero": "Dessa nerladdade filer kommer att raderas från utrymmet.",
+      "heading_one": "Radera fil",
+      "heading_other": "Radera filer",
+      "heading_zero": "Radera filer",
+      "subheading_one": "Fil:",
+      "subheading_other": "Filer:",
+      "subheading_zero": "Filer:",
+      "uploadsDescription_one": "Alla importerade data kommer att sparas. Detta kommer att radera filen från utrymmet.",
+      "uploadsDescription_other": "Alla importerade data kommer att sparas. Detta kommer att radera filerna från utrymmet.",
+      "uploadsDescription_zero": "Alla importerade data sparas. Detta raderar filerna från utrymmet."
+    },
+    "downloadsTable": {
+      "headings": {
+        "createdDate": "Genererad",
+        "name": "Namn",
+        "size": "Storlek",
+        "sourceSheet": "Källblad"
+      },
+      "processing": "Exporterar ..."
+    },
+    "emptyState": {
+      "downloads": {
+        "description": "Nerladdade data kommer att visas här",
+        "heading": "Inga nerladdningar tillgängliga"
+      },
+      "uploads": {
+        "description": "Dra och släpp eller ladda upp en fil för att komma igång",
+        "heading": "Lägg till filer"
+      }
+    },
+    "errors": {
+      "loadingError": "Det går inte att ladda filerna",
+      "uploadDisabledDescription": "Om du anser att detta är ett fel, kontakta supporten.",
+      "uploadDisabledHeading": "Det här utrymmet saknar för närvarande stöd för filuppladdning."
+    },
+    "title": "Filer",
+    "uploadedFilesTab": "Uppladdade filer",
+    "uploadFile": {
+      "popovers": {
+        "errorUploading": "Kunde inte ladda upp filen: {{fileName}}",
+        "extracting": "Extraherar fil ...",
+        "extractionCompleted": "Extraheringen är klar.",
+        "extractionFailed": "Extraheringen misslyckades. Försök igen eller kontakta supporten.",
+        "onDragPopoverConfirmation": "Släpper filen i:",
+        "unsupportedFile": "Filtyp som inte stöds. Prova en annan filtyp eller kontakta supporten.",
+        "unsupportedFileInfo": "Vi hittade inga data i den här filen. Den går att ladda ner om det behövs.",
+        "uploadComplete": "Uppladdad: {{fileName}}",
+        "uploadCompleteMany": "Laddar upp {{count}} filer",
+        "uploadError": "Fel vid uppladdning av {{fileName}}",
+        "uploadErrorMany": "Fel vid uppladdning av {{count}} filer",
+        "uploadingMany": "Laddar upp {{count}} filer",
+        "uploadInProgress": "Laddar upp: {{fileName}}",
+        "uploadInProgressMany": "Laddar upp {{count}} filer",
+        "uploadsDisabled": "Det här utrymmet saknar för närvarande stöd för filuppladdning.",
+        "waitingForExtraction": "Väntar på filextrahering ..."
+      }
+    },
+    "uploadsTables": {
+      "headings": {
+        "name": "Namn",
+        "status": "Status",
+        "uploadedDate": "Uppladdad"
+      },
+      "importButton": "Import",
+      "importError": "Det gick inte att hitta källfilen som ska importeras – försök igen. Om problemet kvarstår, kontakta supporten.",
+      "tooltips": {
+        "cannotImport": "Import till en arbetsbok är för närvarande inte tillgänglig för denna fil",
+        "noExtension": "Filen har inget filnamnstillägg. Lägg till rätt filtillägg i filnamnet och ladda upp filen igen för att importera den till en arbetsbok"
+      }
+    }
+  },
+  "guestInvite": {
+    "getNewAccessLink": {
+      "content": "Vi har skickat en länk för säker åtkomst till",
+      "finePrint": "Om du inte kan hitta e-postmeddelandet, titta i din skräppostmapp eller uppdatera den här sidan för att skicka en till åtkomstlänk. Länken kommer att fungera i fem minuter.",
+      "heading": "Kontrollera din inkorg"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "Är du säker på att du vill stänga fönstret? Detta avslutar den aktuella dataimportsessionen.",
+        "primaryButtonText": "Ja, avbryt",
+        "secondaryButtonText": "Nej, stanna",
+        "title": "Stäng fönstret"
+      },
+      "errorModal": {
+        "title": "Något gick fel"
+      }
+    }
+  },
+  "jobs": {
+    "customActions": {
+      "modals": {
+        "confirmModal": {
+          "cancelButton": "Avbryt",
+          "defaultConfirmButton": "Bekräfta",
+          "defaultLoadingButton": "Laddar...",
+          "isRequired": "{{field}} är obligatorisk",
+          "mustBeNumber": "{{field}} måste vara en siffra"
+        },
+        "defaultJobName": "Jobb",
+        "defaultResourceName": "den här resursen",
+        "foregroundJobProgressModal": {
+          "defaultJobName": "Jobb",
+          "defaultResourceName": "den här resursen",
+          "percentComplete": "{{percent}} % klart",
+          "runningOn": "körs på"
+        },
+        "outcomeModals": {
+          "acknowledgementModal": {
+            "defaultContinueButton": "Fortsätt"
+          },
+          "defaultDownloadLabel": "Ladda ner",
+          "defaultFileName": "fil",
+          "defaultHeading": {
+            "failed": "Jobbet misslyckades",
+            "success": "Det lyckades!"
+          },
+          "defaultLabel": "Se resursen",
+          "defaultMessage": {
+            "failed": "{{jobName}} på {{resourceName}} misslyckades",
+            "success": "{{jobName}} har nu körts på {{resourceName}}"
+          },
+          "defaultRetryLabel": "Försök igen",
+          "defaultUrlLabel": "Besök extern webbsida",
+          "defaultViewLabel": "  Uppdatera vy",
+          "permanentOutcomeModal": {
+            "defaultContinueButton": "Fortsätt"
+          }
+        },
+        "startModal": {
+          "confirmButton": "Bekräfta",
+          "errorMessage": "Fel med åtgärd",
+          "loadingText": "Laddar..."
+        }
+      }
+    },
+    "download": {
+      "downloadStartedHeading": "Nedladdning påbörjad",
+      "downloadStartedMessage": "Nedladdningen bör ha börjat automatiskt.",
+      "seeAllDownloads": "Se alla nedladdningar"
+    },
+    "errors": {
+      "timeout": "Tiden är ute för jobbet."
+    },
+    "info": {
+      "copiedPopover": "Kopierat jobb-ID",
+      "copyIdTooltip": "Kopiera jobb-ID"
+    },
+    "messages": {
+      "startingJob": "Påbörjar jobbet"
+    },
+    "panel": {
+      "action": {
+        "export": "Ladda ner",
+        "extract": "Import",
+        "mapping": "Gå till arbetsbok"
+      },
+      "empty": "Jobb visas här när de utförs eller är slutförda",
+      "errorLoadingJob": "Inte hittat",
+      "heading": "Jobb",
+      "status": {
+        "default": {
+          "canceled": {
+            "prefix": "Jobb",
+            "suffix": "avbröts"
+          },
+          "complete": {
+            "prefix": "Jobb",
+            "suffix": "slutfördes"
+          },
+          "failed": {
+            "prefix": "Jobb",
+            "suffix": "misslyckades"
+          },
+          "inProgress": "Köra jobb",
+          "waiting": "Väntar:"
+        },
+        "delete": {
+          "cancelled": "Radering av protokoll avbröts",
+          "complete": "Radering slutförd",
+          "failed": "Raderingen misslyckades",
+          "inProgress": "Raderar protokoll",
+          "waiting": "Väntar på att poster raderas"
+        },
+        "export": {
+          "canceled": "Nedladdning avbruten",
+          "complete": "Nedladdning genererad",
+          "failed": "Kunde inte generera nedladdning",
+          "inProgress": "Genererar nedladdning",
+          "waiting": "Väntar på att nedladdning genereras"
+        },
+        "extract": {
+          "cancelled": "Extraheringen av filen avbröts",
+          "complete": "Extraherad fil",
+          "failed": "Kunde inte extrahera filen",
+          "inProgress": "Extraherar fil",
+          "waiting": "Väntar på att filen extraheras"
+        },
+        "flatfile-add-column": {
+          "canceled": "Lägg till kolumn avbröts",
+          "complete": "Lägg till kolumn slutförd",
+          "failed": "Lägg till kolumn misslyckades",
+          "inProgress": "Lägger till kolumn",
+          "waiting": "Väntar på att lägga till kolumn"
+        },
+        "flatfile-remove-column": {
+          "canceled": "Avbruten borttagning av kolumn",
+          "complete": "Kolumnen borttagen",
+          "failed": "Det gick inte att ta bort kolumnen",
+          "inProgress": "Tar bort kolumn",
+          "waiting": "Väntar på att kolumn tas bort"
+        },
+        "mapping": {
+          "canceled": "Mappningen till arbetsbok avbröts",
+          "complete": "Mappad till arbetsbok",
+          "failed": "Det gick inte att mappa till arbetsbok",
+          "inProgress": "Mappning till arbetsbok",
+          "waiting": "Väntar på koppling till arbetsbok"
+        },
+        "mutate-records": {
+          "canceled": "Avbruten AI-omvandling",
+          "complete": "AI-omvandling slutförd",
+          "failed": "AI-omvandlingen misslyckades",
+          "inProgress": "Omvandla poster med AI",
+          "waiting": "Väntar på AI-transformering av poster"
+        }
+      },
+      "time": {
+        "calculating": "Beräknar återstående tid ...",
+        "completed": "Slutfördes på",
+        "failed": "Misslyckades efter",
+        "remaining": "kvar",
+        "started": "Startade {{time}}",
+        "units": {
+          "hour": "tim",
+          "minute": "min",
+          "second": "sek"
+        }
+      }
+    },
+    "pill": {
+      "hoverText": "Jobb",
+      "multipleJobsRunning": "{{count}} pågående jobb",
+      "status": {
+        "default": {
+          "complete": "Jobbet gjort",
+          "failed": "Jobbet misslyckades",
+          "inProgress": "Jobb pågår"
+        },
+        "delete": {
+          "complete": "Radering slutförd",
+          "failed": "Raderingen misslyckades",
+          "inProgress": "Raderar poster ..."
+        },
+        "extract": {
+          "complete": "Extrahering slutförd",
+          "failed": "Extraheringen misslyckades",
+          "inProgress": "Extraherar data ..."
+        },
+        "mapping": {
+          "complete": "Kartläggning slutförd",
+          "failed": "Kartläggningen misslyckades",
+          "inProgress": "Kartlägger ..."
+        }
+      }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "Skicka in"
+      }
+    }
+  },
+  "mapping": {
+    "clearFields": {
+      "modalHeader": "Rensa destinationsfält",
+      "modalLabel": "Rensa",
+      "modalText": "Alla befintliga mappningar för den här importen kommer att rensas",
+      "modalTooltip": "Rensa destinationsfält"
+    },
+    "dataPreview": {
+      "heading": "Förhandsvisning av data för {{previewKey}}",
+      "noData": "Inga förhandsvisningsdata"
+    },
+    "dropdown": {
+      "placeholder": "Välj ..."
+    },
+    "headerButtons": {
+      "back": "Tillbaka",
+      "complete": "Slutför",
+      "exit": "Avsluta",
+      "headers": "Välj rubriker",
+      "next": "Fortsätt"
+    },
+    "mapEnums": {
+      "destinationFields": {
+        "dropdownOptions": {
+          "doNotImport": "Importera inte",
+          "keepAsIs": "Behåll detta värde som det är",
+          "keepAsIsDisabledTooltip": "Att lägga till ett nytt alternativ till den här listan medges inte. Att importera ett värde som inte är ett giltigt alternativ kommer att visas som ett fel."
+        },
+        "heading": "Destinationsvärden"
+      },
+      "incomingFields": {
+        "heading": "Inkommande värden",
+        "noData": "Celler utan data",
+        "noDataTooltip": "Du kan välja ett giltigt alternativ för att fylla i alla tomma celler. Du kan också lämna det tomt."
+      },
+      "progressPill_one": "{{mappedCount}} av {{count}} värde har passats samman",
+      "progressPill_other": "{{mappedCount}} av {{count}} värden har passats samman",
+      "progressPill_zero": "{{mappedCount}} av {{count}} värden har passats samman",
+      "progressPillAllMapped_one": "{{count}} värden har passats samman",
+      "progressPillAllMapped_other": "{{count}} värde har passats samman",
+      "progressPillAllMapped_zero": "{{count}} värde har passats samman",
+      "subheading": "Dessa fält har värden som måste kopplas till en lista med giltiga alternativ.",
+      "title": "Kartfält"
+    },
+    "mapFields": {
+      "destinationFields": {
+        "addNewField": {
+          "description": "Lägg till det här fältet i ditt ark",
+          "label": "Lägg till som nytt fält"
+        },
+        "dropdownOptionLabels": {
+          "new": "Lägg till ny",
+          "unused": "Oanvänd",
+          "used": "Begagnad"
+        },
+        "heading": "Destinationsfält",
+        "progressPill": {
+          "missingRequiredFields": " - {{missingFieldsCount}} saknas",
+          "text": "{{totalDestinationsMapped}} av {{totalDestinationFields}}",
+          "tooltip": {
+            "greaterThanTenMissing": "och {{missingFieldsAfterTen}} till ...",
+            "missingRequiredFields": "Obligatoriska fält saknas:",
+            "progress": "{{mappedDestinationFields}} av {{totalDestinationFields}} tillgängliga fält på målbladet har sammanpassats med"
+          }
+        }
+      },
+      "incomingFields": {
+        "heading": "Inkommande fält",
+        "progressPill": {
+          "text": "{{totalIncomingMapped}} av {{totalIncomingFields}}",
+          "tooltip": "Du har passat samman {{mappedIncomingFields}} av {{totalIncomingFields}} fält i ditt dataset till målbladet"
+        },
+        "selectHeaders": {
+          "tooltip": "Redigera inkommande fält"
+        }
+      },
+      "subheading": "Granska och bekräfta varje sammanpassningsval",
+      "title": "Kartfält"
+    },
+    "mapHeaders": {
+      "subheading": "Ändra eller välj rubrikrad för dina källdata",
+      "title": "Rubriker för mappning"
+    },
+    "mappingPlan": {
+      "preparing": "Förbereder mappning …"
+    },
+    "sheetSelection": {
+      "cannotLoadFile": "Kunde inte ladda upp filen: {{fileName}}",
+      "cannotStartMapping": "Det gick inte att fortsätta till mappning – {{reason}} – Försök igen",
+      "columns_one": "1 kolumn",
+      "columns_other": "{{count}} kolumner",
+      "columns_zero": "{{count}} kolumner",
+      "errors_one": "1 fel",
+      "errors_other": "{{count}} fel",
+      "errors_zero": "{{count}} fel",
+      "importFromHeading": "Välj ett blad att läsa in data från",
+      "importToHeading": "Välj ett blad att importera dessa data till",
+      "lastUpdated": "Senast uppdaterad {{date}}",
+      "lastUpdatedDateFormat": "åååå-mm-dd",
+      "records_one": "1 post",
+      "records_other": "{{count}} poster",
+      "records_zero": "{{count}} poster",
+      "sheetHasNoData": "Inga data",
+      "sheets_one": "1 blad",
+      "sheets_other": "{{count}} blad",
+      "sheets_zero": "{{count}} blad",
+      "title": "Importera till ...",
+      "updatedAtDateFormat": "åååå-MM-dd"
+    }
+  },
+  "nativeActions": {
+    "addColumn": "Lägg till kolumn",
+    "clearColumn": "Rensa kolumn",
+    "removeColumn": "Ta bort kolumn"
+  },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "Uppdatera",
+        "refreshTokenFailed": "Händelseström frånkopplad – Uppdatera för att återansluta"
+      }
+    }
+  },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "Nästan färdigt ...",
+      "complete": "Tabelluppdateringen är klar. Granska informationen, tack.",
+      "error": "Ett fel inträffade när arbetsboken uppdaterades. Se loggen.",
+      "halfway": "Vi är halvvägs, håll i ...",
+      "updatingTable": "Uppdaterar tabellen så att endast kartlagda fält visas"
+    }
+  },
+  "sheet": {
+    "columnManagement": {
+      "clear_empty": "Ta bort tomma kolumner",
+      "errorColumnTooltip": "Om du filtrerar på detta värde visas denna kolumn",
+      "hideAll": "Dölj alla",
+      "hideEmpty": "Dölj tomma kolumner",
+      "hideEmptyFields": "Dölj kolumner utan någon data",
+      "noFields": "inga fält",
+      "noMatches": "inga träffar",
+      "placeholder_one": "Sök eller välj det enda fältet ...",
+      "placeholder_other": "Sök eller välj bland {{count}} fält ...",
+      "placeholder_zero": "Sök eller välj bland {{count}} fält ...",
+      "toast": {
+        "action": "Avtäck?",
+        "message_one": "En kolumn med fel är dold",
+        "message_other": "{{count}} kolumner med fel är dolda",
+        "message_zero": "{{count}} kolumner med fel är dolda"
+      },
+      "tooltip_one": "En kolumn dold",
+      "tooltip_other": "{{count}} kolumner dolda",
+      "tooltip_zero": "Hantera kolumner",
+      "unhideToast": {
+        "message_one": "En kolumn avtäcktes av den här frågan",
+        "message_other": "{{count}} kolumner avtäcktes av den här frågan",
+        "message_zero": "{{count}} kolumner avtäcktes av den här frågan"
+      }
+    },
+    "comments": {
+      "tooltip": "Lägg till en kommentar"
+    },
+    "embedded": {
+      "maxOpenReached": "Det går inte att öppna mer än {{maxOpenSheets}} inbäddade blad samtidigt. Stäng ett inbäddat blad för att öppna detta.",
+      "untitled": "Blad utan titel"
+    },
+    "emptyView": {
+      "defaultError": {
+        "description": "Detta blad verkar vara tomt.",
+        "heading": "Inget att se ännu!"
+      },
+      "heading": "Låt oss komma igång",
+      "manualEntry": "Ange data manuellt",
+      "missingSheet": {
+        "buttonLabel": "Återgå till huvudbladet",
+        "description": "Bladet som du försöker komma åt har tagits bort eller finns inte.",
+        "heading": "Bladet hittades inte"
+      },
+      "noColumns": {
+        "description": "Du har gömt alla kolumner.",
+        "heading": "Inget att visa!"
+      },
+      "noSheetError": {
+        "description": "Detta blad verkar inte existera.",
+        "heading": "Bladet hittades inte"
+      },
+      "readOnly": {
+        "description": "Blad som inte accepterar nya rader och/eller redigeringar får ofta dynamiskt ifyllda data. Det finns ingen åtgärd du kan vidta just nu.",
+        "heading": "Väntar på data"
+      },
+      "sheetLocked": {
+        "description": "Om du anser att detta är ett fel, kontakta supporten.",
+        "heading": "Att lägga till poster är för närvarande inaktiverat"
+      },
+      "uploadFile": "Dra och släpp eller ladda upp en fil för att komma igång"
+    },
+    "errors": {
+      "loading": "Det gick inte att hämta arbetsboken.",
+      "noSheets": {
+        "description": "En arbetsbok måste innehålla minst ett blad. Inga hittades.",
+        "title": "Arbetsboken innehåller inga blad"
+      },
+      "notFound": "Arbetsboken hittades inte"
+    },
+    "info": {
+      "browser": "Webbläsare",
+      "copiedPopover": "Kopierat till urklipp",
+      "copyButton": "Klicka för att kopiera!",
+      "date": "Datum",
+      "environment": "Miljö",
+      "inFrame": "I iframe",
+      "referrer": "Hänvisare",
+      "release": "Aktuell version",
+      "sheet": "Blad",
+      "space": "Plats",
+      "workbook": "Arbetsbok"
+    },
+    "popovers": {
+      "copyCell_one": "{{count}} cell har kopierats",
+      "copyCell_other": "{{count}} celler har kopierats",
+      "copyCell_zero": "{{count}} celler har kopierats",
+      "copyRecord_one": "{{count}} post har kopierats",
+      "copyRecord_other": "{{count}} poster har kopierats",
+      "copyRecord_zero": "{{count}} poster har kopierats",
+      "errors": {
+        "cellUpdateFailed": "Något gick fel. Uppdatera sidan och försök igen. Om problemet kvarstår, kontakta supporten",
+        "invalidFFQL": "Kontrollera din fråga",
+        "invalidFFQLSearch": "Ogiltig FFQL-sats",
+        "learnMore": "Läs mer",
+        "recordsLoadFailed": "Poster kunde inte laddas"
+      }
+    },
+    "table": {
+      "cells": {
+        "enum": {
+          "loading": "Laddar alternativ ...",
+          "loadingError": "Det gick inte att ladda alternativ",
+          "noMatchesFound": "Inga matchningar hittades",
+          "placeholder": "Skriv här ...",
+          "seeMore": "Sök för att se fler alternativ"
+        },
+        "messages": {
+          "autogen": "✨ Automatiskt genererad",
+          "compositeUnique": "🧑‍🍳 Sammansättningen {{name}} är inte unik",
+          "invalidOption": "Ogiltigt alternativ",
+          "invalidValue": "Värdet är inte ett giltigt alternativ",
+          "reference": "Värdet finns inte i referenstabellen",
+          "req": "{{field}} är obligatorisk",
+          "transformed": "🪄️ Omvandlad från {{originalValue}}",
+          "unique": "Värdet är inte unikt"
+        }
+      },
+      "contextMenu": {
+        "filterByValue": {
+          "label": "Filtrera efter värde",
+          "moreOptions": "Visar första {{pageSize}} alternativen. Sök för att se fler.",
+          "noData": "inga data",
+          "placeholder": "Sök eller välj värden ..."
+        },
+        "findAndReplace": {
+          "findAndReplaceValues": "Sök och ersätt",
+          "modal": {
+            "cancelButton": "Avbryt",
+            "descriptionExactOnly": "Massersätt valfri text i denna kolumn med ett giltigt värde. Vi gör endast exakta matchningar",
+            "descriptionPartialAndExact": "Massersätt valfri text i denna kolumn. Vi stöder både partiella och exakta matchningar för dessa data",
+            "errors": {
+              "findError": "Det uppstod ett fel när värdena skulle hittas",
+              "generalError": "Något gick fel. Försök igen",
+              "replaceError": "Det uppstod ett fel när värdena skulle ersättas"
+            },
+            "exactMatchesOnly": "Gör endast exakta matchningar",
+            "finding": "Hittar alla förekomster",
+            "heading": "Sök och ersätt i {{columnName}}",
+            "isFiltered": "Denna datamängd har filtrerats. Sök och ersätt körs endast på filtrerade poster.",
+            "replaceButton": "Ersätt alla",
+            "replaceEmpty": {
+              "description": {
+                "addValues": "Detta fyller i alla tomma celler i {{columnName}}",
+                "addValuesToAll": "Alla celler i {{columnName}} är tomma. Du kan massfylla dem med ett valt värde",
+                "addValuesToCount_one": "Det finns {{formattedCount}} tom cell i {{columnName}}. Du kan massfylla den med ett valt värde",
+                "addValuesToCount_other": "Det finns {{formattedCount}} tomma celler i {{columnName}}. Du kan massfylla dessa med ett valt värde",
+                "addValuesToCount_zero": "Det finns {{formattedCount}} tomma celler i {{columnName}}. Du kan massfylla dessa med ett valt värde",
+                "noEmptyValues": "Vi kunde inte hitta några tomma celler i detta fält!"
+              },
+              "heading": {
+                "addValues": "Lägg till ett värde i tomma celler i {{columnName}}",
+                "addValuesToAll": "Lägg till ett värde i alla tomma celler i {{columnName}}",
+                "addValuesToCount_one": "Lägg till ett värde i {{formattedCount}} tom cell i {{columnName}}",
+                "addValuesToCount_other": "Lägg till ett värde i {{formattedCount}} tomma celler i {{columnName}}",
+                "addValuesToCount_zero": "Lägg till ett värde i {{formattedCount}} tomma celler i {{columnName}}",
+                "noEmptyValues": "Inga tomma värden hittades"
+              }
+            },
+            "replaceEnum": {
+              "moreOptions": "Visar de 100 första alternativen. Sök för att se fler.",
+              "noMatchesFound": "Inga matchningar hittades",
+              "replaceWith": "Ersätt med ..."
+            },
+            "replaceValue": {
+              "leavingBlank": "Om detta fält lämnas tomt raderas valda värden",
+              "noMatchesFound": "Inga värden hittades",
+              "replaceWith": "Ersätt med ..."
+            },
+            "replacing": "Ersätter värden",
+            "runOnAllRecords": "Kör på alla poster",
+            "searchForEmpty": "Om detta fält lämnas tomt söker vi efter tomma värden",
+            "searchForText": "Sök efter text ...",
+            "searchResultsCount_one": "{{count}} matchning",
+            "searchResultsCount_other": "{{count}} matchningar",
+            "searchResultsCount_zero": "{{count}} matchningar"
+          },
+          "replaceEmptyValues": "Ersätt tomma värden"
+        },
+        "pin": {
+          "apply": "Fäst kolumn",
+          "remove": "Lossa",
+          "tooltip": {
+            "maxPinned": "Du kan fästa upp till tre kolumner. Lossa en av de kolumner som för närvarande är fästa för att fästa denna kolumn",
+            "pin": "Fäst denna kolumn till vänster om tabellen",
+            "unpin": "Klicka för att lossa denna kolumn"
+          }
+        },
+        "searchInField": {
+          "modal": {
+            "cancelButton": "Avbryt",
+            "placeholder": "Sök...",
+            "searchButton": "Sök",
+            "searchWithin": "Sök inom"
+          },
+          "searchInThisField": "Sök i detta fält"
+        },
+        "sort": {
+          "ascending": {
+            "apply": "Sortera A-Ö",
+            "remove": "Ta bort sortering A-Ö"
+          },
+          "descending": {
+            "apply": "Sortera Ö-A",
+            "remove": "Ta bort sortering Ö-A"
+          },
+          "tooltip": {
+            "notSorted": "Klicka för att sortera A-Ö",
+            "sortedAsc": "Sorterat A-Ö",
+            "sortedDes": "Sorterat Ö-A"
+          }
+        }
+      },
+      "errors": {
+        "description": "Tabellen har problem med att visa dessa data. Se konsolen för detaljer om felet.",
+        "title": "Något gick fel"
+      },
+      "header": {
+        "tooltip": {
+          "key": "nyckel: {{key}}",
+          "label": "etikett: {{label}}"
+        }
+      },
+      "indexRow": {
+        "tooltip": {
+          "createRow": "Lägg till data för att skapa denna rad",
+          "noData": "Det finns inga rader tillgängliga att välja. Endast rader som innehåller data kan väljas.",
+          "rowNumber": "Rad {{number}}"
+        }
+      },
+      "maximumMessage": {
+        "plural": "... och {{hiddenRows}} rader till. Tabellvisningar stöder endast upp till 500 000 poster åt gången på grund av webbläsarens begränsningar. Sök-, sorterings-, filter- och bulkåtgärder fungerar ändå på alla rader som inte syns.",
+        "singular": "... och 1 rad till. Tabellvisningar stöder endast upp till 500 000 poster åt gången på grund av webbläsarens begränsningar. Sök-, sorterings-, filter- och bulkåtgärder fungerar ändå på alla rader som inte syns."
+      },
+      "modals": {
+        "copyAlert": {
+          "cancelButton": "Avbryt",
+          "description": "Vi märkte att du försöker välja fler än 100 poster. Vi begränsar kopiering till 100 poster för att bibehålla integriteten i dina data.",
+          "download": "Vill du ladda ner detta blad som en .csv-fil?",
+          "downloadButton": "Ladda ner",
+          "heading": "Vill du ladda ner denna fil?"
+        },
+        "deleteAlert": {
+          "description": "Att radera mer än 100 befintliga poster stöds inte för närvarande. Vi har begränsat det för att ge en bättre upplevelse när vi <1>intelligent modifierar</1> dina data.",
+          "dismissButton": "Avvisa",
+          "heading": "Du har nått vår gräns för radering!",
+          "tooltip": "Ta bort tomma poster, dubbletter etc."
+        },
+        "pasteAlert": {
+          "description": "Det går i nuläget inte att klistra in mer än 100 befintliga poster. Vi har begränsat antalet för att bättre kunna <1>intelligent modifiera</1> dina data.",
+          "dismissButton": "Avvisa",
+          "heading": "Du har nått vår gräns för att klistra in!",
+          "tooltip": "Ta bort tomma poster, dubbletter etc."
+        }
+      }
+    },
+    "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "Åtgärder",
+        "placeholder": "Sök eller välj ..."
+      },
+      "aiAssist": {
+        "buttonText": "AI-assist",
+        "query": "Fråga",
+        "transform": "Förvandla"
+      },
+      "buttons": {
+        "delete": {
+          "modal": {
+            "cancelButton": "Avbryt",
+            "confirmButton": "Radera poster",
+            "description": {
+              "infix": "vald",
+              "infixType": {
+                "invalid": "ogiltig",
+                "valid": "giltig"
+              },
+              "prefix": "Vill du radera",
+              "suffix_one": "post?",
+              "suffix_other": "poster?",
+              "suffix_zero": "poster?"
+            },
+            "errorMessage": "Det gick inte att radera posterna. Försök igen eller ändra ditt urval.",
+            "heading_one": "Radera post",
+            "heading_other": "Radera poster",
+            "heading_zero": "Radera poster",
+            "inProgress": "Raderar poster ..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} post har raderats",
+            "successMessage_other": "{{count}} poster har raderats",
+            "successMessage_zero": "{{count}} poster har raderats",
+            "successMessageNoCount": "Posterna har raderats"
+          },
+          "tooltip": {
+            "active": "Radera valda poster",
+            "disabled": {
+              "deleteDisabled": "Det går inte att radera poster på det här arket.",
+              "noRecordsSelected": "Välj minst en post för att kunna radera den"
+            }
+          }
+        },
+        "download": {
+          "modal": {
+            "cancelButton": "Avbryt",
+            "confirmButton": "Ladda ner poster",
+            "description": {
+              "infix": "vald",
+              "infixType": {
+                "invalid": "ogiltig",
+                "valid": "giltig"
+              },
+              "prefix": "Vill du ladda ner",
+              "suffix_one": "post?",
+              "suffix_other": "poster?",
+              "suffix_zero": "poster?"
+            },
+            "errorMessage": "Det gick inte att ladda ner poster. Försök igen eller ändra ditt val.",
+            "heading_one": "Ladda ner post",
+            "heading_other": "Ladda ner poster",
+            "heading_zero": "Ladda ner poster",
+            "inProgress": "Laddar ner poster ..."
+          },
+          "tooltip": {
+            "active": {
+              "invalidFilterApplied": "Ladda ned alla ogiltiga poster",
+              "noRecordsSelected": "Ladda ned det här arket",
+              "recordsSelected": "Ladda ned alla valda poster",
+              "validFilterApplied": "Ladda ned alla giltiga poster"
+            },
+            "disabled": "Inga poster att ladda ned"
+          }
+        }
+      },
+      "customActionsDropdown": {
+        "disabledTooltip": {
+          "hasData": "Denna åtgärd blir tillgänglig när det finns minst en post på det här bladet.",
+          "requireAllValid": "Den här åtgärden kräver att alla valda rader är giltiga",
+          "requireAllValidTotal": "Denna åtgärd kräver att alla rader är giltiga",
+          "requireSelection": "Vänligen välj en eller flera poster för att använda den här åtgärden"
+        }
+      },
+      "dropdown": {
+        "delete": "Radera",
+        "download": "Ladda ner"
+      },
+      "filterByError": {
+        "buttonText": "Filtrera efter fel",
+        "dropdownPlaceholder": "Sök eller välj ..."
+      },
+      "filters": {
+        "all": "Alla",
+        "invalid": "Ogiltig",
+        "tooltip": {
+          "countsError": "Fel när antalet laddades",
+          "countsErrorRetry": "Klicka för att försöka igen",
+          "filter": {
+            "invalid": "ogiltig",
+            "total": "totalt",
+            "valid": "giltig"
+          },
+          "filtered": "Detta dataset har filtrerats så att {{filteredCount}} av {{countString}} {{filter}} poster visas.",
+          "filteredByError": "Den här datamängden har filtrerats via felfiltret för att visa {{filteredCount}} av de {{countString}} {{filter}} posterna.",
+          "filteredByFFQL": {
+            "branded": "Detta dataset har filtrerats via Flatfile Query Language så att {{filteredCount}} av {{countString}} {{filter}} poster visas.",
+            "whitelabeled": "Detta dataset har filtrerats så att {{filteredCount}} av {{countString}} {{filter}} poster visas."
+          },
+          "filteredBySearch": "Den här datamängden har filtrerats via sökning för att visa {{filteredCount}} av de {{countString}} {{filter}} posterna.",
+          "filteredBySearchAndError": "Den här datamängden har filtrerats via sökning och felfiltret för att visa {{filteredCount}} av de {{countString}} {{filter}} posterna.",
+          "inactiveCount": "{{countString}} {{filter}} poster, {{filteredCount}} filtrerade"
+        },
+        "valid": "Giltig"
+      },
+      "moreActions": {
+        "buttonText": "Fler åtgärder",
+        "placeholder": "Sök eller välj ..."
+      },
+      "savedViews": {
+        "buttonText": "Visningar",
+        "groups": {
+          "allViews": "ALLA VYER",
+          "myViews": "MINA VYER"
+        },
+        "modalHeader": "Sparade visningar",
+        "modalSubheader": "Välj en sparad vy att tillämpa på detta arbetsblad.",
+        "searchPlaceholder": "Sök eller välj ...",
+        "tooltip": "Tillämpa vy och kopiera länken",
+        "viewAppliedPopover": "Din vy kopierades till urklipp!"
+      },
+      "saveView": {
+        "buttons": {
+          "cancel": "Avbryt",
+          "copy": {
+            "label": "Kopiera för att dela",
+            "successLabel": "Kopierades till urklipp!",
+            "warningTooltip": "Endast personer med åtkomst till denna plats kan öppna med länken."
+          },
+          "save": {
+            "label": "Spara vy",
+            "labelActive": "Sparar vy"
+          }
+        },
+        "error": {
+          "saveText": "Det gick inte att spara vyn – försök igen, tack."
+        },
+        "headings": {
+          "saveHeader": "Spara vy",
+          "saveSubheader": "Välj ett namn som speglar syftet med denna vy. Det hjälper användarna att veta hur den används.",
+          "shareHeader": "Dela"
+        },
+        "nameViewInput": {
+          "helperText": "Kom ihåg att den här vyn kommer att vara synlig för alla som har åtkomst till det här arbetsbladet.",
+          "label": "namn",
+          "placeholder": "Vy från {{timestamp}}"
+        },
+        "summary": {
+          "filter": "poster som är",
+          "filterFieldpt1": "om",
+          "filterFieldpt2": "har fel",
+          "invalid": "Ogiltig",
+          "q": "där",
+          "searchValue": "något fält som innehåller",
+          "title": "Sammanfattning",
+          "valid": "Giltig"
+        }
+      },
+      "searchBar": {
+        "expandTooltip": "Öppna sökning och AI Assist",
+        "placeholder": "Sök...",
+        "tooltip": "Tryck på enter för att söka"
+      },
+      "tooltips": {
+        "lockedUntilEditingCompletes": "Verktygsfältet blir tillgängligt när bladet inte längre redigeras",
+        "lockedUntilHookCompletes": "Verktygsfältet kommer att bli tillgängligt när allt är klart",
+        "lockedUntilJobCompletes": "Verktygsfältet kommer att bli tillgängligt när det aktuella jobbet är klart."
+      }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "hasData": "Denna åtgärd blir tillgänglig när det finns minst en post i den här arbetsboken.",
+        "hasPendingValidation": "Validering av din arbetsbok pågår just nu...",
+        "lockedUntilEditingCompletes": "Denna åtgärd blir tillgänglig när bladet inte längre redigeras",
+        "lockedUntilHookCompletes": "Denna åtgärd blir tillgänglig när alla krokar har körts färdigt",
+        "lockedUntilJobCompletes": "Denna åtgärd blir tillgänglig när det aktuella jobbet är klart",
+        "requireAllValid": "Denna åtgärd kräver att alla rader i alla blad är giltiga"
+      }
+    }
+  },
+  "sidebar": {
+    "addConnection": "Lägg till anslutning",
+    "checklist": "Datachecklista",
+    "connections": {
+      "tooltips": {
+        "connectionError": "Det finns ett problem med att verifiera metadata för den här arbetsbokens anslutningar",
+        "connectionFresh": "Ansluten till {{source}} via {{service}}",
+        "connectionStale": "Senast synkroniserad med {{source}} för mer än 24 timmar sedan"
+      }
+    },
+    "emptyWorkbook": "Tom arbetsbok",
+    "files": "Filer",
+    "lockedIconTooltip": "Detta blad är låst",
+    "readOnlyIconTooltip": "Detta ark är skrivskyddat",
+    "spaceSwitcher": {
+      "placeholder": "Sök eller välj ett utrymme ..."
+    },
+    "toggle": {
+      "hide": "Dölj sidofält",
+      "show": "Visa sidofält"
+    }
+  },
+  "snapshot": {
+    "accept": {
+      "cancelButton": "Avbryt",
+      "cancelError": "Ändringarna kunde inte återställas på grund av ett oväntat fel.",
+      "cancelSuccess": "Ändringar i ditt blad har återställts.",
+      "empty": {
+        "createdSince": "Denna ögonblicksbild har inga borttagna poster.",
+        "deletedSince": "Denna ögonblicksbild har inga tillagda poster.",
+        "title": "Inget att visa!",
+        "updatedSince": "Denna ögonblicksbild har inga ändrade poster."
+      },
+      "errorMessage": "Ändringarna i ögonblicksbilden kunde inte tillämpas på grund av ett oväntat fel.",
+      "filters": {
+        "createdSince": "Borttagen",
+        "deletedSince": "Tillagd",
+        "updatedSince": "Ändrad"
+      },
+      "header": {
+        "title": "Ändringar gjorda i",
+        "titleWithMeta": "Ändringar gjorda i <1>{{sheet}}</1> av <3>{{action}}</3>"
+      },
+      "message": "Om du accepterar ändringar slås alla nya värden samman till ditt ark {{name}}.",
+      "submitButton": "Acceptera ändringar",
+      "submitError": "Ändringarna i ögonblicksbilden kunde inte tillämpas på grund av ett oväntat fel.",
+      "submitSuccess": "Ändringarna har nu tillämpats på bladet.",
+      "successMessage": "Ändringarna har tillämpats på bladet.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} celler i fältet {{name}}",
+            "last": " och {{cells}} celler i fältet {{name}}",
+            "middle": ", {{cells}} celler i fältet {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Fältet {{name}} kommer att tas bort",
+              "last": " och fältet {{name}} kommer att tas bort",
+              "middle": ", fältet {{name}} kommer att tas bort"
+            },
+            "removed": {
+              "first": "fältet {{name}} kommer att läggas till igen",
+              "last": " och fältet {{name}} kommer att läggas till igen",
+              "middle": ", fältet {{name}} kommer att läggas till igen"
+            }
+          },
+          "singular": {
+            "first": "1 cell i fältet {{name}}",
+            "last": " och 1 cell i fältet {{name}}",
+            "middle": ", 1 cell i fältet {{name}}"
+          },
+          "start": " Data ändrades i "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data ändrade i {{records}} poster över {{fields}} fält.",
+            "noFields": "Data ändrade i {{records}} poster.",
+            "oneField": "Data ändrade i {{records}} poster över 1 fält."
+          },
+          "singular": {
+            "multipleFields": "Data ändrade i 1 post över {{fields}} fält.",
+            "noFields": "Data ändrade i 1 post.",
+            "oneField": "Data ändrade i 1 post över 1 fält."
+          }
+        }
+      },
+      "title": "Ändringar gjorda i"
+    },
+    "cells": {
+      "messages": {
+        "accept": "Om du accepterar ändringarna kommer alla nya värden att slås samman med din datamängd.",
+        "current": "Aktuellt värde: {{value}}",
+        "empty": "inga data",
+        "none": "Ditt dataset kommer att ändras till de visade värdena.",
+        "restore": "Din datamängd kommer att återställas till versionen i denna ögonblicksbild.",
+        "snapshot": "Nytt värde: {{value}}"
+      }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "Inga poster kommer att tas bort.",
+        "deletedSince": "Inga poster kommer att läggas till.",
+        "title": "Inget att visa!",
+        "updatedSince": "Inga poster kommer att ändras."
+      },
+      "errorMessage": "Ändringarna kunde inte förhandsvisas på grund av ett oväntat fel.",
+      "filters": {
+        "createdSince": "Lägg till",
+        "deletedSince": "Ta bort",
+        "updatedSince": "Ändra"
+      },
+      "header": {
+        "title": "Ändringar gjorda i",
+        "titleWithMeta": "Granska ändringar av <1>{{sheet}}</1>"
+      },
+      "message": "Tabellen nedan visar ändringarna på bladet {{name}}.",
+      "submitError": "Datan kunde inte omvandlas på grund av ett oväntat fel.",
+      "submitSuccess": "Ändringarna har nu tillämpats på bladet.",
+      "successMessage": "Ändringarna har tillämpats på bladet.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} celler i fältet {{name}}",
+            "last": " och {{cells}} celler i fältet {{name}}",
+            "middle": ", {{cells}} celler i fältet {{name}}"
+          },
+          "singular": {
+            "first": "1 cell i fältet {{name}}",
+            "last": " och 1 cell i fältet {{name}}",
+            "middle": ", 1 cell i fältet {{name}}"
+          },
+          "start": " Data kommer att ändras i "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data kommer att ändras i {{records}} poster på {{fields}} fält.",
+            "noFields": "Data kommer att ändras i {{records}} poster.",
+            "oneField": "Data kommer att ändras i {{records}} poster på 1 fält."
+          },
+          "singular": {
+            "multipleFields": "Data kommer att ändras i 1 post på {{fields}} fält.",
+            "noFields": "Data kommer att ändras i 1 post.",
+            "oneField": "Data kommer att ändras i 1 post på 1 fält."
+          }
+        }
+      },
+      "title": "Förhandsgranska ändringar som gjorts i"
+    },
+    "preview": {
+      "cancelButton": "Avbryt",
+      "empty": {
+        "createdSince": "Den här förhandsgranskningen har inga poster som kommer att tas bort.",
+        "deletedSince": "Den här förhandsgranskningen har inga poster som kommer att läggas till.",
+        "title": "Inget att visa!",
+        "updatedSince": "Den här förhandsgranskningen har inga poster som kommer att ändras."
+      },
+      "errorMessage": "Ändringarna kunde inte förhandsvisas på grund av ett oväntat fel.",
+      "filters": {
+        "createdSince": "Ta bort",
+        "deletedSince": "Lägg till",
+        "updatedSince": "Ändra"
+      },
+      "header": {
+        "title": "Ändringar gjorda i",
+        "titleWithMeta": "Förhandsvisa ändringar som gjort på <1>{{sheet}}</1> av <3>{{aiAction}}</3>-prompten"
+      },
+      "message": "Ditt blad {{name}} kommer att återställas till versionen i denna ögonblicksbild.",
+      "submitButton": "Förvandla data",
+      "submitError": "Datan kunde inte omvandlas på grund av ett oväntat fel.",
+      "submitSuccess": "Ändringarna har nu tillämpats på bladet.",
+      "successMessage": "Ändringarna har tillämpats på bladet.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} celler i fältet {{name}}",
+            "last": " och {{cells}} celler i fältet {{name}}",
+            "middle": ", {{cells}} celler i fältet {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Fältet {{name}} kommer att tas bort",
+              "last": " och fältet {{name}} kommer att tas bort",
+              "middle": ", fältet {{name}} kommer att tas bort"
+            },
+            "removed": {
+              "first": "fältet {{name}} kommer att läggas till igen",
+              "last": " och fältet {{name}} kommer att läggas till igen",
+              "middle": ", fältet {{name}} kommer att läggas till igen"
+            }
+          },
+          "singular": {
+            "first": "1 cell i fältet {{name}}",
+            "last": " och 1 cell i fältet {{name}}",
+            "middle": ", 1 cell i fältet {{name}}"
+          },
+          "start": " Data kommer att ändras i "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data kommer att ändras i {{records}} poster på {{fields}} fält.",
+            "noFields": "Data kommer att ändras i {{records}} poster.",
+            "oneField": "Data kommer att ändras i {{records}} poster på 1 fält."
+          },
+          "singular": {
+            "multipleFields": "Data kommer att ändras i 1 post på {{fields}} fält.",
+            "noFields": "Data kommer att ändras i 1 post.",
+            "oneField": "Data kommer att ändras i 1 post på 1 fält."
+          }
+        }
+      },
+      "title": "Förhandsgranska ändringar som gjorts i"
+    },
+    "restore": {
+      "cancelButton": "Avbryt",
+      "empty": {
+        "createdSince": "Denna ögonblicksbild har inga poster som kommer att tas bort.",
+        "deletedSince": "Denna ögonblicksbild har inga poster som kommer att läggas till.",
+        "title": "Inget att visa!",
+        "updatedSince": "Denna ögonblicksbild har inga poster som kommer att ändras."
+      },
+      "errorMessage": "Ögonblicksbilden kunde inte återställas på grund av ett oväntat fel.",
+      "filters": {
+        "createdSince": "Ta bort",
+        "deletedSince": "Lägg till",
+        "updatedSince": "Ändra"
+      },
+      "header": {
+        "title": "Ändringar att tillämpa i"
+      },
+      "message": "Ditt blad {{name}} kommer att återställas till versionen i denna ögonblicksbild.",
+      "submitButton": "Återställ",
+      "submitError": "Ögonblicksbilden kunde inte återställas på grund av ett oväntat fel.",
+      "submitSuccess": "Ditt blad har återställts till en tidigare version.",
+      "successMessage": "Ditt blad har återställts till en tidigare version.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} celler i fältet {{name}}",
+            "last": " och {{cells}} celler i fältet {{name}}",
+            "middle": ", {{cells}} celler i fältet {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Fältet {{name}} kommer att tas bort",
+              "last": " och fältet {{name}} kommer att tas bort",
+              "middle": ", fältet {{name}} kommer att tas bort"
+            },
+            "removed": {
+              "first": "fältet {{name}} kommer att läggas till igen",
+              "last": " och fältet {{name}} kommer att läggas till igen",
+              "middle": ", fältet {{name}} kommer att läggas till igen"
+            }
+          },
+          "singular": {
+            "first": "1 cell i fältet {{name}}",
+            "last": " och 1 cell i fältet {{name}}",
+            "middle": ", 1 cell i fältet {{name}}"
+          },
+          "start": " Data kommer att ändras i "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data kommer att ändras i {{records}} poster på {{fields}} fält.",
+            "noFields": "Data kommer att ändras i {{records}} poster.",
+            "oneField": "Data kommer att ändras i {{records}} poster på 1 fält."
+          },
+          "singular": {
+            "multipleFields": "Data kommer att ändras i 1 post på {{fields}} fält.",
+            "noFields": "Data kommer att ändras i 1 post.",
+            "oneField": "Data kommer att ändras i 1 post på 1 fält."
+          }
+        }
+      },
+      "title": "Ändringar att tillämpa i"
+    },
+    "tooltips": {
+      "sheet": "{{sheet}} i {{workbook}}"
+    }
+  },
+  "spaceLoadingMessage": "Förbereder utrymmet ...",
+  "utils": {
+    "buttons": {
+      "clearAll": "Rensa alla",
+      "clearAllLabel": "Rensa alla",
+      "selectAll": "Välj alla",
+      "selectAllLabel": "Välj alla"
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "Använd en enhet med större skärm för att få tillgång till alla funktioner. Vi kan inte garantera att allt fungerar som det ska med denna skärmstorlek.",
+        "button": "Fortsätt i alla fall",
+        "title": "Skärmen är för liten"
+      }
+    },
+    "poweredByFlatfile": "Drivs av Flatfile"
+  },
+  "versionHistory": {
+    "modals": {
+      "default": {
+        "description": "Ett oväntat fel inträffade – ingen matchande åtgärd tillämpad"
+      },
+      "delete": {
+        "confirm": {
+          "closeButton": "Stäng",
+          "description": "Är du säker på att du vill ta radera den valda versionen?",
+          "heading": "Radera version",
+          "proceedButton": "Radera"
+        },
+        "error": {
+          "closeButton": "Stäng",
+          "description": "Den valda versionen kunde inte raderas på grund av ett oväntat fel – om problemet kvarstår, kontakta supporten",
+          "heading": "Det gick inte att radera versionen",
+          "retryButton": "Försök igen"
+        },
+        "success": {
+          "closeButton": "Stäng",
+          "description": "Den valda versionen har raderats.",
+          "heading": "Version raderad"
+        }
+      }
+    },
+    "panel": {
+      "empty": "När versioner har genererats visas de här. Versioner genereras automatiskt, ofta när en massomvandling av data sker.",
+      "generatedSnapshot": "Ögonblicksbild genererad innan AI Transform användes för kommandot: ",
+      "generatedSnapshotForAiTransform": "Ögonblicksbild genererad innan AI Transform användes för kommandot: ",
+      "generatedSnapshotForBulkDelete": "Ögonblicksbild genererad före radering av poster",
+      "generatedSnapshotForFindReplace": "Ögonblicksbild genererad innan Sök och ersätt gjordes",
+      "heading": "Versionshistorik",
+      "thisMonth": "Denna månad",
+      "versionRestored": "Version skapad före återställning av en tidigare version"
+    },
+    "pill": {
+      "hoverText": "Versionshistorik"
+    }
+  }
+}

@@ -1,0 +1,1415 @@
+{
+  "aiTransform": {
+    "changedColumnsText_other": "{{count}} 个数据已变更的列",
+    "changedColumnsText_zero": "{{count}} 个数据已变更的列",
+    "errors": {
+      "entilementError": {
+        "content": "如果您认为出错了，请联系客户支持。",
+        "title": "抱歉！您没有此功能的使用权限。"
+      },
+      "generalError": {
+        "title": "出错了。请重试。"
+      },
+      "generateMutationError": {
+        "title": "无法访问AI。请稍后重试。"
+      },
+      "invalidFunctionError": {
+        "content": "很可能是您要求它进行一些不能识别的操作。",
+        "title": "抱歉，AI助手无法执行该转换。"
+      },
+      "keysModifiedError": {
+        "title": "抱歉，AI助手只能修改现有字段的值。不能删除字段或添加新字段。"
+      },
+      "noFunctionError": {
+        "content": "尝试换一种说法。 包含字段名称的提示词往往成功概率更高。",
+        "title": "我们无法理解您的提示词。"
+      },
+      "noRecordsFoundError": {
+        "content": "找不到给定查询的记录。请重试。",
+        "title": "未找到记录"
+      },
+      "noresultsError": {
+        "content": "尝试换一种说法。 包含字段名称的提示词往往成功概率更高。",
+        "title": "您的提示词没有转换任何数据。"
+      },
+      "prompttoolongError": {
+        "content": "请尝试缩短提示词或将提示词分解为多个步骤，然后重试。",
+        "title": "抱歉！您的提示词过长了。"
+      },
+      "versionError": {
+        "content": "无法创建回滚版本。",
+        "title": "出错了。请重试。"
+      }
+    },
+    "exitConfirmation": {
+      "body": "您确定要退出吗？",
+      "header": "确认退出",
+      "label": "退出"
+    },
+    "jobCompleteHeading": "AI 转换任务完成",
+    "jobCompleteMessage": "记录已完成转换",
+    "promptBar": {
+      "categoricalWarning": "此字段的选项过多，AI Transform 无法处理。",
+      "transformButton": {
+        "tooltip": {
+          "active": "请描述您希望如何基于任意逻辑（包括任意字段中的数据）转换某个字段中的数据。",
+          "disabled": "要使用AI助手，您（筛选后）的工作表中必须留存有记录。",
+          "locked": "该表为锁定状态。",
+          "noRows": "要使用AI助手，您（筛选后）的工作表中必须留存有记录。",
+          "readOnly": "该表为只读状态。",
+          "tooManyRows": "该表行数过多（超过了100万行）。"
+        }
+      },
+      "warning": "注意： 您的数据集中的某些分类字段配置了大量选项。在您的提示词中使用这些字段（如 @{{fieldName}}）可能无法达到预期效果。"
+    },
+    "sampleMessage": "{{number}} 条记录的预览",
+    "scrollInfoText": "滚动至下一个已变更的列",
+    "toggleLabel": "仅显示已修改的数据"
+  },
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "由于“direction”属性无效，无法创建嵌入式差异。有效值为：“sheet_to_snapshot”、“snapshot_to_sheet”",
+        "missingIds": "由于缺少工作表、工作簿或快照 ID，无法创建嵌入式差异"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "由于缺少工作表或工作簿 ID，无法创建嵌入式工作表。"
+      }
+    }
+  },
+  "checklist": {
+    "dropdowns": {
+      "headings": {
+        "sheet": "表格",
+        "workbook": "工作簿"
+      }
+    },
+    "errors": {
+      "cannotLoadChecklist": "无法加载数据检查表",
+      "cannotLoadSheet": "找不到工作表",
+      "noWorkbooksDescription": "数据检查表需要至少 1 个工作簿才能处于活跃状态。请让您的开发人员检查配置。如果该问题仍然存在，请联系支持人员。",
+      "noWorkbooksTitle": "需要工作簿"
+    },
+    "table": {
+      "dataTypes": {
+        "boolean": "布尔值",
+        "date": "日期",
+        "enum": "枚举",
+        "number": "数字",
+        "reference": "参考",
+        "string": "字符串",
+        "unknown": "未知"
+      },
+      "fieldTagComputed": "已计算",
+      "fieldTagRequired": "需要",
+      "fieldTagUnique": "唯一",
+      "headings": {
+        "dataType": "数据类型",
+        "description": "描述",
+        "field": "字段名称"
+      }
+    },
+    "title": "数据检查表"
+  },
+  "commandMenu": {
+    "aiAssist": {
+      "query": {
+        "askingAI": {
+          "stepFour": "正在完成",
+          "stepOne": "正在思考",
+          "stepThree": "正在进行",
+          "stepTwo": "正在编写"
+        },
+        "description": {
+          "branded": "让人工智能用 FFQL 为您编写查询",
+          "whitelabeled": "让人工智能为您编写查询"
+        },
+        "errorBanner": {
+          "generalError": "出错了。请重试。"
+        },
+        "instruction": "描述你希望 AI 助手如何查询数据：",
+        "review": {
+          "description": "这是我的想法：按步骤阅读解释和查询，如果看上去没问题，点击下方应用。",
+          "explanationTitle": "解释",
+          "queryTitle": "查询"
+        }
+      },
+      "transform": {
+        "askingAI": {
+          "stepFour": "正在完成",
+          "stepOne": "正在思考",
+          "stepThree": "正在进行",
+          "stepTwo": "正在编写"
+        }
+      }
+    },
+    "buttons": {
+      "apply": "应用",
+      "cancel": "取消"
+    },
+    "commands": {
+      "filter": {
+        "apply": "应用筛选条件。",
+        "description": {
+          "branded": "编写 FFQL 语句",
+          "whitelabeled": "编写查询"
+        },
+        "hiddenColumnsWarning_other": "此查询将取消隐藏 {{count}} 个字段：{{fields}}",
+        "hiddenColumnsWarning_zero": "此查询将取消隐藏 {{count}} 个字段：{{fields}}",
+        "invalidFFQL": "FFQL 语句无效。再试一次？",
+        "learnHow": "了解原理"
+      },
+      "search": {
+        "global": {
+          "apply": "应用搜索。",
+          "description": "搜索整个工作表"
+        },
+        "inField": {
+          "apply": "在字段内应用搜索。",
+          "applyExample": "即 'first_name' Jane Doe",
+          "description": "在字段内搜索"
+        }
+      }
+    },
+    "itemMessage": "按 {{icon}} 申请",
+    "placeholder": "查找或进行其他操作……"
+  },
+  "comments": {
+    "addReaction": "添加反应",
+    "commentDisabledTooltip": "选择一个单元格或行以添加评论",
+    "delete": "删除评论",
+    "edit": "编辑评论",
+    "edited": " （已编辑）",
+    "noResults": "无匹配",
+    "placeholder": "在此输入您的评论……",
+    "reactionList": "<0></0> 做出了 {{emoji}} 反应",
+    "resolve": "解决线程",
+    "send": "发送评论",
+    "threadPlaceholder": "使用 @ 回复或提及他人……",
+    "you": "您"
+  },
+  "document": {
+    "error": {
+      "description": "此文档似乎不存在",
+      "title": "未找到文档"
+    }
+  },
+  "errors": {
+    "documentNotFound": "未找到文档",
+    "fileNotFound": "未找到文件",
+    "missingParameter": "未提供参数",
+    "notFound": "未找到",
+    "notFoundPageDescription": "此 URL 上不存在页面。如果这是意外情况，请联系客服人员。",
+    "refreshButton": "重试",
+    "refreshPageDescription": "请刷新页面以重试。如果问题依然存在，请联系支持。",
+    "returnToDashboardButton": "返回仪表板",
+    "sessionExpired": "会话已过期",
+    "sheetNotFound": "未找到表格",
+    "spaceNotFound": "未找到空间",
+    "unauthorized": "您的访问凭证无效。",
+    "unknownError": "发生错误",
+    "workbookNotFound": "未找到工作簿"
+  },
+  "files": {
+    "availableDownloadsTab": "可用下载",
+    "buttons": {
+      "addFile": {
+        "inProgressText": "正在上传文件",
+        "text": "上传文件"
+      },
+      "addFileFrom": {
+        "box": "Box",
+        "googleDrive": "Google Drive",
+        "text": "从……添加文件"
+      },
+      "delete": "删除",
+      "download": "下载",
+      "googleDrive": "从 Google Drive 添加文件"
+    },
+    "connectionsModal": {
+      "box": "Box",
+      "close": "关闭",
+      "googleDrive": "Google Drive",
+      "heading": "管理您的连接",
+      "manage": "管理",
+      "subtext": " 点击下方按钮登录或退出您的账号。"
+    },
+    "contextMenu": {
+      "delete": "删除",
+      "download": "下载"
+    },
+    "counts": "{{start}}-{{end}} / {{total}}",
+    "deleteModal": {
+      "downloadDescription_other": "这些已下载的文件将从空间中删除。",
+      "downloadDescription_zero": "这些已下载的文件将从空间中删除。",
+      "heading_other": "删除文件",
+      "heading_zero": "删除文件",
+      "subheading_other": "文件：",
+      "subheading_zero": "文件：",
+      "uploadsDescription_other": "导入的所有数据都将被保存。这将从空间中删除这些文件。",
+      "uploadsDescription_zero": "导入的所有数据都将被保存。这将从空间中删除这些文件。"
+    },
+    "downloadsTable": {
+      "headings": {
+        "createdDate": "已生成",
+        "name": "名称",
+        "size": "大小",
+        "sourceSheet": "源工作表"
+      },
+      "processing": "正在导出……"
+    },
+    "emptyState": {
+      "downloads": {
+        "description": "已下载的数据将显示在此处",
+        "heading": "无可用下载项"
+      },
+      "uploads": {
+        "description": "拖放或上传文件以开始",
+        "heading": "添加文件"
+      }
+    },
+    "errors": {
+      "loadingError": "无法加载文件",
+      "uploadDisabledDescription": "如果您认为这是一个错误，请联系支持人员。",
+      "uploadDisabledHeading": "此空间当前不支持文件上传。"
+    },
+    "title": "文件",
+    "uploadedFilesTab": "已上传的文件",
+    "uploadFile": {
+      "popovers": {
+        "errorUploading": "无法上传文件：{{fileName}}",
+        "extracting": "正在提取文件……",
+        "extractionCompleted": "提取完成。",
+        "extractionFailed": "提取失败。重试或联系支持。",
+        "onDragPopoverConfirmation": "将文件放入：",
+        "unsupportedFile": "不支持的文件类型。尝试其他文件类型或联系支持。",
+        "unsupportedFileInfo": "我们未检测到此文件中的数据。如有需要，可下载。",
+        "uploadComplete": "已上传：{{fileName}}",
+        "uploadCompleteMany": "已上传 {{count}} 个文件",
+        "uploadError": "上传 {{fileName}} 时出错",
+        "uploadErrorMany": "上传 {{count}} 个文件时出错",
+        "uploadingMany": "正在上传 {{count}} 个文件",
+        "uploadInProgress": "正在上传：{{fileName}}",
+        "uploadInProgressMany": "正在上传 {{count}} 个文件",
+        "uploadsDisabled": "此空间当前不支持文件上传。",
+        "waitingForExtraction": "等待文件提取……"
+      }
+    },
+    "uploadsTables": {
+      "headings": {
+        "name": "名称",
+        "status": "状态",
+        "uploadedDate": "已上传"
+      },
+      "importButton": "导入",
+      "importError": "无法找到要导入的源文件，请重试。如果问题仍然存在，请联系支持团队。",
+      "tooltips": {
+        "cannotImport": "该文件目前无法导入到工作簿",
+        "noExtension": "此文件没有扩展名。将正确的文件扩展名添加到文件名，并重新上传文件，以将其导入到工作簿"
+      }
+    }
+  },
+  "guestInvite": {
+    "getNewAccessLink": {
+      "content": "我们已将一条安全访问链接发送至",
+      "finePrint": "如果您无法找到电子邮件，请检查您的垃圾文件夹，或刷新此页面以发送新的访问链接。链接 5 分钟内有效。",
+      "heading": "检查您的收件箱"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "您确定要关闭此窗口吗？这将结束当前的数据导入会话。",
+        "primaryButtonText": "是，退出",
+        "secondaryButtonText": "不，留下",
+        "title": "关闭窗口"
+      },
+      "errorModal": {
+        "title": "发生错误"
+      }
+    }
+  },
+  "jobs": {
+    "customActions": {
+      "modals": {
+        "confirmModal": {
+          "cancelButton": "取消",
+          "defaultConfirmButton": "确认",
+          "defaultLoadingButton": "正在加载……",
+          "isRequired": "{{field}} 为必填",
+          "mustBeNumber": "{{field}} 必须为数字"
+        },
+        "defaultJobName": "作业",
+        "defaultResourceName": "此资源",
+        "foregroundJobProgressModal": {
+          "defaultJobName": "作业",
+          "defaultResourceName": "此资源",
+          "percentComplete": "{{percent}}% 完成",
+          "runningOn": "正在运行于"
+        },
+        "outcomeModals": {
+          "acknowledgementModal": {
+            "defaultContinueButton": "继续"
+          },
+          "defaultDownloadLabel": "下载",
+          "defaultFileName": "文件",
+          "defaultHeading": {
+            "failed": "作业失败",
+            "success": "成功！"
+          },
+          "defaultLabel": "查看资源",
+          "defaultMessage": {
+            "failed": "{{jobName}}在{{resourceName}}上失败",
+            "success": "{{jobName}}在{{resourceName}}上成功运行"
+          },
+          "defaultRetryLabel": "重试",
+          "defaultUrlLabel": "访问外部网页",
+          "defaultViewLabel": "  更新视图",
+          "permanentOutcomeModal": {
+            "defaultContinueButton": "继续"
+          }
+        },
+        "startModal": {
+          "confirmButton": "确认",
+          "errorMessage": "操作错误",
+          "loadingText": "正在加载……"
+        }
+      }
+    },
+    "download": {
+      "downloadStartedHeading": "下载已开始",
+      "downloadStartedMessage": "下载应已自动开始。",
+      "seeAllDownloads": "查看所有下载"
+    },
+    "errors": {
+      "timeout": "任务超时。"
+    },
+    "info": {
+      "copiedPopover": "复制的工作 ID",
+      "copyIdTooltip": "复制工作 ID"
+    },
+    "messages": {
+      "startingJob": "正在开始工作"
+    },
+    "panel": {
+      "action": {
+        "export": "下载",
+        "extract": "导入",
+        "mapping": "转到工作簿"
+      },
+      "empty": "正在运行或已完成的工作将在此显示",
+      "errorLoadingJob": "未找到",
+      "heading": "任务",
+      "status": {
+        "default": {
+          "canceled": {
+            "prefix": "作业",
+            "suffix": "已取消"
+          },
+          "complete": {
+            "prefix": "作业",
+            "suffix": "完成"
+          },
+          "failed": {
+            "prefix": "作业",
+            "suffix": "失败"
+          },
+          "inProgress": "正在运行的工作",
+          "waiting": "等待中："
+        },
+        "delete": {
+          "cancelled": "已取消删除记录",
+          "complete": "已完成删除",
+          "failed": "删除失败",
+          "inProgress": "正在删除记录",
+          "waiting": "正在等待删除记录"
+        },
+        "export": {
+          "canceled": "下载已取消",
+          "complete": "下载已生成",
+          "failed": "无法生成下载",
+          "inProgress": "正在生成下载",
+          "waiting": "正在等待生成下载"
+        },
+        "extract": {
+          "cancelled": "已取消文件提取",
+          "complete": "已提取的文件",
+          "failed": "提取文件失败",
+          "inProgress": "正在提取文件",
+          "waiting": "正在等待提取文件"
+        },
+        "flatfile-add-column": {
+          "canceled": "已取消添加列",
+          "complete": "添加列完成",
+          "failed": "添加列失败",
+          "inProgress": "正在添加列",
+          "waiting": "正在等待添加列"
+        },
+        "flatfile-remove-column": {
+          "canceled": "已取消删除列",
+          "complete": "删除列完成",
+          "failed": "删除列失败",
+          "inProgress": "正在删除列",
+          "waiting": "正在等待删除列"
+        },
+        "mapping": {
+          "canceled": "已取消映射至工作簿",
+          "complete": "已映射至工作簿",
+          "failed": "映射至工作簿失败",
+          "inProgress": "正在映射至工作簿",
+          "waiting": "正在等待映射到工作簿"
+        },
+        "mutate-records": {
+          "canceled": "已取消AI转换",
+          "complete": "AI转换完成",
+          "failed": "AI转换失败",
+          "inProgress": "使用AI转换记录",
+          "waiting": "正在等待使用AI转换记录"
+        }
+      },
+      "time": {
+        "calculating": "正在计算剩余时间……",
+        "completed": "完成于",
+        "failed": "失败后",
+        "remaining": "剩余",
+        "started": "开始于{{time}}",
+        "units": {
+          "hour": "小时",
+          "minute": "分钟",
+          "second": "秒"
+        }
+      }
+    },
+    "pill": {
+      "hoverText": "任务",
+      "multipleJobsRunning": "{{count}} 个工作正在运行",
+      "status": {
+        "default": {
+          "complete": "已完成工作",
+          "failed": "作业失败",
+          "inProgress": "工作运行中"
+        },
+        "delete": {
+          "complete": "已完成删除",
+          "failed": "删除失败",
+          "inProgress": "正在删除记录……"
+        },
+        "extract": {
+          "complete": "已完成提取",
+          "failed": "提取失败",
+          "inProgress": "正在提取数据……"
+        },
+        "mapping": {
+          "complete": "映射已完成",
+          "failed": "映射失败",
+          "inProgress": "正在映射……"
+        }
+      }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "提交"
+      }
+    }
+  },
+  "mapping": {
+    "clearFields": {
+      "modalHeader": "清除目标字段",
+      "modalLabel": "清除",
+      "modalText": "此导入的所有现有映射都将被清除",
+      "modalTooltip": "清除目标字段"
+    },
+    "dataPreview": {
+      "heading": "{{previewKey}} 的数据预览",
+      "noData": "无预览数据"
+    },
+    "dropdown": {
+      "placeholder": "选择……"
+    },
+    "headerButtons": {
+      "back": "返回",
+      "complete": "完成",
+      "exit": "退出",
+      "headers": "选择标头",
+      "next": "继续"
+    },
+    "mapEnums": {
+      "destinationFields": {
+        "dropdownOptions": {
+          "doNotImport": "请勿导入",
+          "keepAsIs": "保持该值不变",
+          "keepAsIsDisabledTooltip": "不支持向此列表添加新选项。导入非有效选项的值将显示为错误。"
+        },
+        "heading": "目标值"
+      },
+      "incomingFields": {
+        "heading": "传入值",
+        "noData": "没有数据的单元格",
+        "noDataTooltip": "您可以选择一个有效选项填充所有空单元格，也可以留空。"
+      },
+      "progressPill_other": "已映射 {{count}} 个值中的 {{mappedCount}} 个",
+      "progressPill_zero": "已映射 {{count}} 个值中的 {{mappedCount}} 个",
+      "progressPillAllMapped_other": "已映射 {{count}} 个值",
+      "progressPillAllMapped_zero": "已映射 {{count}} 个值",
+      "subheading": "此字段存在必须映射至有效选项列表的值。",
+      "title": "映射字段"
+    },
+    "mapFields": {
+      "destinationFields": {
+        "addNewField": {
+          "description": "将此字段添加至您的工作表",
+          "label": "添加为新字段"
+        },
+        "dropdownOptionLabels": {
+          "new": "新增",
+          "unused": "未使用",
+          "used": "已使用"
+        },
+        "heading": "目标字段",
+        "progressPill": {
+          "missingRequiredFields": " ——缺少 {{missingFieldsCount}} 个",
+          "text": "已映射 {{totalDestinationsMapped}} 个，共 {{totalDestinationFields}} 个",
+          "tooltip": {
+            "greaterThanTenMissing": "及其他 {{missingFieldsAfterTen}} 个字段……",
+            "missingRequiredFields": "缺少必填字段：",
+            "progress": "目标工作表中的 {{mappedDestinationFields}} 个可用字段（共 {{totalDestinationFields}} 个）已映射至"
+          }
+        }
+      },
+      "incomingFields": {
+        "heading": "传入字段",
+        "progressPill": {
+          "text": "已映射 {{totalIncomingMapped}} 个，共 {{totalIncomingFields}} 个",
+          "tooltip": "您已将数据集中的 {{mappedIncomingFields}} 个字段（共 {{totalIncomingFields}} 个）映射至目标工作表"
+        },
+        "selectHeaders": {
+          "tooltip": "编辑传入字段"
+        }
+      },
+      "subheading": "查看并确认每个映射选择",
+      "title": "映射字段"
+    },
+    "mapHeaders": {
+      "subheading": "更改或选择源数据的标题行",
+      "title": "映射标头"
+    },
+    "mappingPlan": {
+      "preparing": "正在准备映射……"
+    },
+    "sheetSelection": {
+      "cannotLoadFile": "无法上传文件：{{fileName}}",
+      "cannotStartMapping": "无法继续映射-{{reason}}-请重试",
+      "columns_other": "{{count}} 列",
+      "columns_zero": "{{count}} 列",
+      "errors_other": "{{count}} 个错误",
+      "errors_zero": "{{count}} 个错误",
+      "importFromHeading": "选择要从中加载数据的工作表",
+      "importToHeading": "选择要导入此数据的工作表",
+      "lastUpdated": "最后更新于 {{date}}",
+      "lastUpdatedDateFormat": "yyyy-mm-dd",
+      "records_other": "{{count}} 条记录",
+      "records_zero": "{{count}} 条记录",
+      "sheetHasNoData": "无数据",
+      "sheets_other": "{{count}} 个工作表",
+      "sheets_zero": "{{count}} 个工作表",
+      "title": "导入至……",
+      "updatedAtDateFormat": "年-月-日"
+    }
+  },
+  "nativeActions": {
+    "addColumn": "添加列",
+    "clearColumn": "清除列",
+    "removeColumn": "移除列"
+  },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "刷新",
+        "refreshTokenFailed": "事件流已断开连接-请刷新以重新连接"
+      }
+    }
+  },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "即将完成……",
+      "complete": "表格更新完成，请审查数据",
+      "error": "更新工作簿时出错了，请查看事件日志。",
+      "halfway": "完成一半了，请继续等待……",
+      "updatingTable": "更新表格以仅查看已映射字段"
+    }
+  },
+  "sheet": {
+    "columnManagement": {
+      "clear_empty": "清除空列",
+      "errorColumnTooltip": "按此值筛选将取消隐藏此列",
+      "hideAll": "隐藏所有",
+      "hideEmpty": "隐藏空列",
+      "hideEmptyFields": "隐藏没有数据的列",
+      "noFields": "没有字段",
+      "noMatches": "没有匹配项",
+      "placeholder_other": "从 {{count}} 个字段中搜索或选择……",
+      "placeholder_zero": "从 {{count}} 个字段中搜索或选择……",
+      "toast": {
+        "action": "取消隐藏？",
+        "message_other": "{{count}} 列有错误，已被隐藏",
+        "message_zero": "{{count}} 列有错误，已被隐藏"
+      },
+      "tooltip_other": "{{count}} 列已隐藏",
+      "tooltip_zero": "管理列",
+      "unhideToast": {
+        "message_other": "此查询已取消隐藏 {{count}} 列",
+        "message_zero": "此查询已取消隐藏 {{count}} 列"
+      }
+    },
+    "comments": {
+      "tooltip": "添加评论"
+    },
+    "embedded": {
+      "maxOpenReached": "无法一次打开 {{maxOpenSheets}} 个以上嵌入工作表。为了打开这个工作表，请关闭一个嵌入工作表。",
+      "untitled": "无标题工作表"
+    },
+    "emptyView": {
+      "defaultError": {
+        "description": "此工作表似乎为空。",
+        "heading": "目前什么也看不到！"
+      },
+      "heading": "开始吧",
+      "manualEntry": "手动输入数据",
+      "missingSheet": {
+        "buttonLabel": "返回主表格",
+        "description": "您尝试访问的表格已被删除或不存在。",
+        "heading": "未找到表格"
+      },
+      "noColumns": {
+        "description": "您已隐藏所有列。",
+        "heading": "无任何内容！"
+      },
+      "noSheetError": {
+        "description": "此工作表似乎不存在。",
+        "heading": "未找到表格"
+      },
+      "readOnly": {
+        "description": "无法添加新行和/或进行编辑的工作表通常会接收动态填充的数据。目前您无法进行任何操作。",
+        "heading": "正在等待数据"
+      },
+      "sheetLocked": {
+        "description": "如果您认为这是一个错误，请联系支持团队。",
+        "heading": "当前已禁用添加记录"
+      },
+      "uploadFile": "拖放或上传文件以开始"
+    },
+    "errors": {
+      "loading": "无法获取工作簿。",
+      "noSheets": {
+        "description": "工作簿必须至少包含1个工作表。未找到工作表。",
+        "title": "工作簿不包含任何工作表"
+      },
+      "notFound": "未找到工作簿"
+    },
+    "info": {
+      "browser": "浏览器",
+      "copiedPopover": "已复制到剪贴板",
+      "copyButton": "点击以复制！",
+      "date": "日期",
+      "environment": "环境",
+      "inFrame": "在iframe内",
+      "referrer": "推荐人",
+      "release": "当前版本",
+      "sheet": "表格",
+      "space": "空间",
+      "workbook": "工作簿"
+    },
+    "popovers": {
+      "copyCell_other": "已复制 {{count}} 个单元格",
+      "copyCell_zero": "已复制 {{count}} 个单元格",
+      "copyRecord_other": "已复制 {{count}} 条记录",
+      "copyRecord_zero": "已复制 {{count}} 条记录",
+      "errors": {
+        "cellUpdateFailed": "出错了。请刷新页面并重试。如果问题仍然存在，请联系支持团队",
+        "invalidFFQL": "请检查您的问题",
+        "invalidFFQLSearch": "FFQL 语句无效",
+        "learnMore": "了解更多",
+        "recordsLoadFailed": "记录加载失败"
+      }
+    },
+    "table": {
+      "cells": {
+        "enum": {
+          "loading": "正在加载选项…...",
+          "loadingError": "无法加载选项",
+          "noMatchesFound": "未找到匹配项",
+          "placeholder": "在此输入…...",
+          "seeMore": "搜索以查看更多选项"
+        },
+        "messages": {
+          "autogen": "✨ 自动生成",
+          "compositeUnique": "🧑‍🍳复合 {{name}} 不是唯一的",
+          "invalidOption": "无效选项",
+          "invalidValue": "该值不是有效选项",
+          "reference": "该值在参考表中不存在",
+          "req": "{{field}} 为必填",
+          "transformed": "从 {{originalValue}} 转换",
+          "unique": "该值不是唯一的"
+        }
+      },
+      "contextMenu": {
+        "filterByValue": {
+          "label": "按值筛选",
+          "moreOptions": "正在显示前 {{pageSize}} 个选项。搜索以查看更多。",
+          "noData": "没有数据",
+          "placeholder": "搜索或选择值……"
+        },
+        "findAndReplace": {
+          "findAndReplaceValues": "查找并替换",
+          "modal": {
+            "cancelButton": "取消",
+            "descriptionExactOnly": "将此列中的任何文本批量替换为有效值。我们仅显示精确匹配的内容",
+            "descriptionPartialAndExact": "批量替换此列中的任何文本。我们支持此数据的部分匹配和精确匹配",
+            "errors": {
+              "findError": "查找值时发生错误",
+              "generalError": "出了点问题，请重试",
+              "replaceError": "替换值时发生错误"
+            },
+            "exactMatchesOnly": "仅显示精确匹配项",
+            "finding": "正在查找所有实例",
+            "heading": "在 {{columnName}} 中查找和替换",
+            "isFiltered": "此数据集已被筛选。查找和替换将仅针对筛选后的记录运行。",
+            "replaceButton": "替换全部",
+            "replaceEmpty": {
+              "description": {
+                "addValues": "此操作将填充{{columnName}}中的所有空单元格",
+                "addValuesToAll": "在 {{columnName}} 中所有单元格为空白，您可以使用选定的值批量填充这些单元格",
+                "addValuesToCount_other": "在 {{columnName}} 中有 {{formattedCount}} 个空白单元格，您可以使用选定的值批量填充这些单元格",
+                "addValuesToCount_zero": "在 {{columnName}} 中有 {{formattedCount}} 个空白单元格，您可以使用选定的值批量填充这些单元格",
+                "noEmptyValues": "我们在此字段中找不到任何空单元格！"
+              },
+              "heading": {
+                "addValues": "向{{columnName}}中的空单元格添加值",
+                "addValuesToAll": "向{{columnName}}中的所有空单元格添加值",
+                "addValuesToCount_other": "向{{columnName}}中的{{formattedCount}}个空单元格添加值",
+                "addValuesToCount_zero": "向{{columnName}}中的{{formattedCount}}个空单元格添加值",
+                "noEmptyValues": "未找到空值"
+              }
+            },
+            "replaceEnum": {
+              "moreOptions": "正在显示前 100 个选项。搜索查看更多。",
+              "noMatchesFound": "未找到匹配项",
+              "replaceWith": "替换为……"
+            },
+            "replaceValue": {
+              "leavingBlank": "留空此字段将删除选定的值",
+              "noMatchesFound": "未找到值",
+              "replaceWith": "替换为……"
+            },
+            "replacing": "正在替换值",
+            "runOnAllRecords": "在所有记录上运行",
+            "searchForEmpty": "如果此字段为空，我们将搜索空值",
+            "searchForText": "搜索文本……",
+            "searchResultsCount_other": "{{count}} 个匹配项",
+            "searchResultsCount_zero": "{{count}} 个匹配项\n\n\n\n\n\n\n"
+          },
+          "replaceEmptyValues": "替换空值"
+        },
+        "pin": {
+          "apply": "固定列",
+          "remove": "取消固定",
+          "tooltip": {
+            "maxPinned": "您最多可固定3列，请取消当前固定的列之一以固定此列",
+            "pin": "将此列固定到表格左侧",
+            "unpin": "点击取消固定此列"
+          }
+        },
+        "searchInField": {
+          "modal": {
+            "cancelButton": "取消",
+            "placeholder": "搜索…...",
+            "searchButton": "搜索",
+            "searchWithin": "在以下范围内搜索"
+          },
+          "searchInThisField": "在此字段中搜索"
+        },
+        "sort": {
+          "ascending": {
+            "apply": "按A-Z排序",
+            "remove": "取消按A-Z排序"
+          },
+          "descending": {
+            "apply": "按Z-A排序",
+            "remove": "取消按Z-A排序"
+          },
+          "tooltip": {
+            "notSorted": "点击按A-Z排序",
+            "sortedAsc": "按A-Z排序",
+            "sortedDes": "已按Z-A排序"
+          }
+        }
+      },
+      "errors": {
+        "description": "表格在显示此数据时遇到问题。请查看控制台获取错误详情。",
+        "title": "发生错误"
+      },
+      "header": {
+        "tooltip": {
+          "key": "密钥：{{key}}",
+          "label": "标签：{{label}}"
+        }
+      },
+      "indexRow": {
+        "tooltip": {
+          "createRow": "添加数据以创建此行",
+          "noData": "没有可选的行。只能选择包含数据的行。",
+          "rowNumber": "第 {{number}} 行"
+        }
+      },
+      "maximumMessage": {
+        "plural": "……和更多 {{hiddenRows}} 行。由于浏览器限制，表格视图一次最多仅支持 500,000 记录。搜索、排序、筛选和批量操作仍将对视图中隐藏显示的所有行进行操作。",
+        "singular": "……和更多 1 行。由于浏览器限制，表格视图一次最多仅支持 500,000 记录。搜索、排序、筛选和批量操作仍将对视图中隐藏显示的所有行进行操作。"
+      },
+      "modals": {
+        "copyAlert": {
+          "cancelButton": "取消",
+          "description": "我们注意到您尝试选择超过100条记录。为保障数据完整性，我们将复制记录的上限设置为100条。",
+          "download": "您想将此工作表下载为.csv文件吗？",
+          "downloadButton": "下载",
+          "heading": "您想下载此文件吗？"
+        },
+        "deleteAlert": {
+          "description": "目前不支持删除超过 100 条现有记录。我们对其进行限制，是为了我们在<1>智能修改</1>您的数据时提供更好的体验。",
+          "dismissButton": "忽略",
+          "heading": "您已达到删除上限！",
+          "tooltip": "移除空记录、重复项等"
+        },
+        "pasteAlert": {
+          "description": "目前不支持粘贴超过 100 条现有记录。我们对其进行限制，是为了我们在<1>智能修改</1>您的数据时提供更好的体验。",
+          "dismissButton": "忽略",
+          "heading": "您已达到粘贴上限！",
+          "tooltip": "移除空记录、重复项等"
+        }
+      }
+    },
+    "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "操作",
+        "placeholder": "搜索或选择......"
+      },
+      "aiAssist": {
+        "buttonText": "AI 辅助",
+        "query": "查询",
+        "transform": "转换"
+      },
+      "buttons": {
+        "delete": {
+          "modal": {
+            "cancelButton": "取消",
+            "confirmButton": "删除记录",
+            "description": {
+              "infix": "已选",
+              "infixType": {
+                "invalid": "无效",
+                "valid": "有效"
+              },
+              "prefix": "您是否要删除",
+              "suffix_other": "记录？",
+              "suffix_zero": "记录？"
+            },
+            "errorMessage": "无法删除记录。请重试或修改您的选择。",
+            "heading_other": "删除记录",
+            "heading_zero": "删除记录",
+            "inProgress": "正在删除记录……"
+          },
+          "popover": {
+            "successMessage_other": "已删除 {{count}} 条记录",
+            "successMessage_zero": "已删除 {{count}} 条记录",
+            "successMessageNoCount": "已删除记录"
+          },
+          "tooltip": {
+            "active": "删除所选记录",
+            "disabled": {
+              "deleteDisabled": "此工作表已禁用删除记录。",
+              "noRecordsSelected": "至少选择一条记录以删除"
+            }
+          }
+        },
+        "download": {
+          "modal": {
+            "cancelButton": "取消",
+            "confirmButton": "下载记录",
+            "description": {
+              "infix": "已选",
+              "infixType": {
+                "invalid": "无效",
+                "valid": "有效"
+              },
+              "prefix": "你是否要下载",
+              "suffix_other": "记录？",
+              "suffix_zero": "记录？"
+            },
+            "errorMessage": "无法下载记录。请重试或修改您的选择。",
+            "heading_other": "下载记录",
+            "heading_zero": "下载记录",
+            "inProgress": "正在下载记录……"
+          },
+          "tooltip": {
+            "active": {
+              "invalidFilterApplied": "下载所有无效记录",
+              "noRecordsSelected": "下载此工作表",
+              "recordsSelected": "下载所选记录",
+              "validFilterApplied": "下载所有有效记录"
+            },
+            "disabled": "没有待下载的记录"
+          }
+        }
+      },
+      "customActionsDropdown": {
+        "disabledTooltip": {
+          "hasData": "此工作表中至少有一条记录后，此操作将可用。",
+          "requireAllValid": "此操作要求所有所选行均为有效",
+          "requireAllValidTotal": "此操作要求所有行均有效。",
+          "requireSelection": "请选择一条或多条记录以使用此操作"
+        }
+      },
+      "dropdown": {
+        "delete": "删除",
+        "download": "下载"
+      },
+      "filterByError": {
+        "buttonText": "按错误筛选",
+        "dropdownPlaceholder": "搜索或选择......"
+      },
+      "filters": {
+        "all": "全部",
+        "invalid": "无效",
+        "tooltip": {
+          "countsError": "加载计数时出错",
+          "countsErrorRetry": "点击重试",
+          "filter": {
+            "invalid": "无效",
+            "total": "总计",
+            "valid": "有效"
+          },
+          "filtered": "此数据集经过筛选，只显示 {{countString}} {{filter}} 记录中的 {{filteredCount}} 条 。",
+          "filteredByError": "此数据集已通过“错误”筛选条件进行筛选，以显示 {{countString}} {{filter}} 条记录中的 {{filteredCount}} 条。",
+          "filteredByFFQL": {
+            "branded": "此数据集已通过 Flatfile 查询语言筛选，只显示 {{countString}} {{filter}} 记录中的 {{filteredCount}} 条。",
+            "whitelabeled": "此数据集经过筛选，只显示 {{countString}} {{filter}} 记录中的 {{filteredCount}} 条 。"
+          },
+          "filteredBySearch": "此数据集已通过搜索进行筛选，以显示 {{countString}} {{filter}} 条记录中的 {{filteredCount}} 条。",
+          "filteredBySearchAndError": "此数据集已通过搜索和“错误”筛选条件进行筛选，以显示 {{countString}} {{filter}} 条记录中的 {{filteredCount}} 条。",
+          "inactiveCount": "{{countString}} {{filter}} 条记录，{{filteredCount}} 条已筛选"
+        },
+        "valid": "有效"
+      },
+      "moreActions": {
+        "buttonText": "更多操作",
+        "placeholder": "搜索或选择......"
+      },
+      "savedViews": {
+        "buttonText": "视图",
+        "groups": {
+          "allViews": "所有视图",
+          "myViews": "我的视图"
+        },
+        "modalHeader": "已保存的视图",
+        "modalSubheader": "选择要应用于此表的已保存视图。",
+        "searchPlaceholder": "搜索或选择......",
+        "tooltip": "应用视图并复制链接",
+        "viewAppliedPopover": "您的视图已复制到剪贴板！"
+      },
+      "saveView": {
+        "buttons": {
+          "cancel": "取消",
+          "copy": {
+            "label": "复制分享",
+            "successLabel": "已复制到剪贴板！",
+            "warningTooltip": "有此空间访问权限的人才能使用链接打开。"
+          },
+          "save": {
+            "label": "保存视图",
+            "labelActive": "正在保存视图"
+          }
+        },
+        "error": {
+          "saveText": "无法保存视图-请重试。"
+        },
+        "headings": {
+          "saveHeader": "保存视图",
+          "saveSubheader": "选择一个能反映此视图用途的名称。这将帮助用户轻松识别其用途。",
+          "shareHeader": "分享"
+        },
+        "nameViewInput": {
+          "helperText": "请记住，此视图将对全部有此工作表访问权限的人可见。",
+          "label": "名称",
+          "placeholder": "来自{{timestamp}}的视图"
+        },
+        "summary": {
+          "filter": "的记录",
+          "filterFieldpt1": "如果",
+          "filterFieldpt2": "存在错误",
+          "invalid": "无效",
+          "q": "哪里",
+          "searchValue": "包含以下内容的任何字段",
+          "title": "汇总",
+          "valid": "有效"
+        }
+      },
+      "searchBar": {
+        "expandTooltip": "打开搜索和人工智能助手",
+        "placeholder": "搜索…...",
+        "tooltip": "按回车键进行搜索"
+      },
+      "tooltips": {
+        "lockedUntilEditingCompletes": "当工作表不再被编辑时，工具栏将可用",
+        "lockedUntilHookCompletes": "所有钩子运行完成后，工具栏将可用",
+        "lockedUntilJobCompletes": "在当前任务完成后，工具栏将可用"
+      }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "hasData": "此操作将在工作簿中至少有一条记录时可用。",
+        "hasPendingValidation": "正在验证您的工作簿……",
+        "lockedUntilEditingCompletes": "当工作表不再被编辑时，操作将可用",
+        "lockedUntilHookCompletes": "此操作将在所有挂钩运行完成后可用",
+        "lockedUntilJobCompletes": "此操作将在当前工作完成后可用",
+        "requireAllValid": "此操作需要所有工作表中的所有行均有效"
+      }
+    }
+  },
+  "sidebar": {
+    "addConnection": "添加连接",
+    "checklist": "数据检查表",
+    "connections": {
+      "tooltips": {
+        "connectionError": "在验证此工作簿连接的元数据时出现问题",
+        "connectionFresh": "已通过 {{service}} 连接到 {{source}}",
+        "connectionStale": "上次与 {{source}} 同步是在超过 24 小时以前"
+      }
+    },
+    "emptyWorkbook": "空工作簿",
+    "files": "文件",
+    "lockedIconTooltip": "此工作表已锁定",
+    "readOnlyIconTooltip": "此工作表为只读",
+    "spaceSwitcher": {
+      "placeholder": "搜索或选择一个空间......"
+    },
+    "toggle": {
+      "hide": "隐藏侧边栏",
+      "show": "显示侧边栏"
+    }
+  },
+  "snapshot": {
+    "accept": {
+      "cancelButton": "取消",
+      "cancelError": "由于发生意外错误，更改无法撤销。",
+      "cancelSuccess": "对您的工作表做出的更改已成功撤销。",
+      "empty": {
+        "createdSince": "此快照没有删除的记录。",
+        "deletedSince": "此快照没有添加的记录。",
+        "title": "无任何内容！",
+        "updatedSince": "此快照没有修改的记录。"
+      },
+      "errorMessage": "由于发生意外错误，快照更改无法应用。",
+      "filters": {
+        "createdSince": "已删除",
+        "deletedSince": "已添加",
+        "updatedSince": "已修改"
+      },
+      "header": {
+        "title": "更改内容",
+        "titleWithMeta": "通过 <3>{{action}}</3> 在 <1>{{sheet}}</1> 中所做的更改"
+      },
+      "message": "接受更改将把所有新值合并到您的工作表 {{name}} 中。",
+      "submitButton": "接受更改",
+      "submitError": "由于发生意外错误，快照更改无法应用。",
+      "submitSuccess": "已成功应用对工作表的更改。",
+      "successMessage": "更改已应用于您的工作表。",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "字段{{name}}中的{{cells}}个单元格",
+            "last": " 和字段{{name}}中的{{cells}}个单元格",
+            "middle": "，字段 {{name}} 中的 {{cells}} 个单元格"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "字段 {{name}} 将被删除",
+              "last": " 而字段 {{name}} 将被删除",
+              "middle": "，字段 {{name}} 将被删除"
+            },
+            "removed": {
+              "first": "字段 {{name}} 将被重新添加",
+              "last": " 而字段 {{name}} 将被重新添加",
+              "middle": "，字段 {{name}} 将被重新添加"
+            }
+          },
+          "singular": {
+            "first": "字段 {{name}} 中的 1 个单元格",
+            "last": " 和字段 {{name}} 中的 1 个单元格",
+            "middle": "，字段 {{name}} 中的 1 个单元格"
+          },
+          "start": " 数据修改于 "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "数据已在 {{records}} 条记录的 {{fields}} 个字段中发生更改。",
+            "noFields": "数据已在 {{records}} 条记录中发生更改。",
+            "oneField": "数据已在 {{records}} 条记录的 1 个字段中发生更改。"
+          },
+          "singular": {
+            "multipleFields": "数据已在 1 条记录的 {{fields}} 个字段中发生更改。",
+            "noFields": "数据已在 1 条记录中发生更改。",
+            "oneField": "数据已在 1 条记录的 1 个字段中发生更改。"
+          }
+        }
+      },
+      "title": "更改内容"
+    },
+    "cells": {
+      "messages": {
+        "accept": "如果您接受更改，所有新值都将合并到您的数据集中。",
+        "current": "当前值：{{value}}",
+        "empty": "没有数据",
+        "none": "您的数据集将被修改为显示的值。",
+        "restore": "您的数据集将恢复为此快照中的版本。",
+        "snapshot": "新值：{{value}}"
+      }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "不会删除任何记录。",
+        "deletedSince": "不会添加任何记录。",
+        "title": "无任何内容！",
+        "updatedSince": "不会修改任何记录。"
+      },
+      "errorMessage": "由于意外错误，无法预览更改。",
+      "filters": {
+        "createdSince": "添加",
+        "deletedSince": "删除",
+        "updatedSince": "修改"
+      },
+      "header": {
+        "title": "更改内容",
+        "titleWithMeta": "查看对<1>{{sheet}}</1>的更改"
+      },
+      "message": "下表显示了对工作表{{name}}的更改。",
+      "submitError": "由于意外错误，无法转换数据。",
+      "submitSuccess": "已成功应用对工作表的更改。",
+      "successMessage": "更改已应用于您的工作表。",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "字段{{name}}中的{{cells}}个单元格",
+            "last": " 和字段{{name}}中的{{cells}}个单元格",
+            "middle": "，字段 {{name}} 中的 {{cells}} 个单元格"
+          },
+          "singular": {
+            "first": "字段 {{name}} 中的 1 个单元格",
+            "last": " 和字段 {{name}} 中的 1 个单元格",
+            "middle": "，字段 {{name}} 中的 1 个单元格"
+          },
+          "start": " 数据将在以下位置被修改： "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "数据将在{{fields}}个字段的{{records}}条记录中更改。",
+            "noFields": "数据将在 {{records}} 个记录中发生变化。",
+            "oneField": "数据将在{{records}}跨1个字段的记录中发生变化"
+          },
+          "singular": {
+            "multipleFields": "数据将在 {{fields}} 个字段的 1 条记录中发生变化。",
+            "noFields": "数据将在 1 条记录中发生变化。",
+            "oneField": "数据将在1个字段中的1个记录中发生变化。"
+          }
+        }
+      },
+      "title": "预览所做的更改"
+    },
+    "preview": {
+      "cancelButton": "取消",
+      "empty": {
+        "createdSince": "此预览中没有要删除的记录。",
+        "deletedSince": "此预览中没有要添加的记录。",
+        "title": "无任何内容！",
+        "updatedSince": "此预览中没有要修改的记录。"
+      },
+      "errorMessage": "由于意外错误，无法预览更改。",
+      "filters": {
+        "createdSince": "删除",
+        "deletedSince": "添加",
+        "updatedSince": "修改"
+      },
+      "header": {
+        "title": "更改内容",
+        "titleWithMeta": "预览 <1>{{sheet}}</1> 中由 <3>{{aiAction}}</3> 提示所做的更改"
+      },
+      "message": "您的工作表 {{name}} 将恢复为此快照中的版本。",
+      "submitButton": "转换数据",
+      "submitError": "由于意外错误，无法转换数据。",
+      "submitSuccess": "已成功应用对工作表的更改。",
+      "successMessage": "更改已应用于您的工作表。",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "字段{{name}}中的{{cells}}个单元格",
+            "last": " 和字段{{name}}中的{{cells}}个单元格",
+            "middle": "，字段 {{name}} 中的 {{cells}} 个单元格"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "字段 {{name}} 将被删除",
+              "last": " 而字段 {{name}} 将被删除",
+              "middle": "，字段 {{name}} 将被删除"
+            },
+            "removed": {
+              "first": "字段 {{name}} 将被重新添加",
+              "last": " 而字段 {{name}} 将被重新添加",
+              "middle": "，字段 {{name}} 将被重新添加"
+            }
+          },
+          "singular": {
+            "first": "字段 {{name}} 中的 1 个单元格",
+            "last": " 和字段 {{name}} 中的 1 个单元格",
+            "middle": "，字段 {{name}} 中的 1 个单元格"
+          },
+          "start": " 数据将在以下位置被修改： "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "数据将在{{fields}}个字段的{{records}}条记录中更改。",
+            "noFields": "数据将在 {{records}} 个记录中发生变化。",
+            "oneField": "数据将在{{records}}跨1个字段的记录中发生变化"
+          },
+          "singular": {
+            "multipleFields": "数据将在 {{fields}} 个字段的 1 条记录中发生变化。",
+            "noFields": "数据将在 1 条记录中发生变化。",
+            "oneField": "数据将在1个字段中的1个记录中发生变化。"
+          }
+        }
+      },
+      "title": "预览所做的更改"
+    },
+    "restore": {
+      "cancelButton": "取消",
+      "empty": {
+        "createdSince": "此快照没有要删除的记录。",
+        "deletedSince": "此快照没有要添加的记录。",
+        "title": "无任何内容！",
+        "updatedSince": "此快照没有要修改的记录。"
+      },
+      "errorMessage": "由于发生意外错误，快照无法恢复。",
+      "filters": {
+        "createdSince": "删除",
+        "deletedSince": "添加",
+        "updatedSince": "修改"
+      },
+      "header": {
+        "title": "要在……中应用的更改"
+      },
+      "message": "您的工作表 {{name}} 将恢复为此快照中的版本。",
+      "submitButton": "还原",
+      "submitError": "由于发生意外错误，快照无法恢复。",
+      "submitSuccess": "您的工作表已恢复到较早版本。",
+      "successMessage": "您的工作表已恢复到较早版本。",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "字段{{name}}中的{{cells}}个单元格",
+            "last": " 和字段{{name}}中的{{cells}}个单元格",
+            "middle": "，字段 {{name}} 中的 {{cells}} 个单元格"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "字段 {{name}} 将被删除",
+              "last": " 而字段 {{name}} 将被删除",
+              "middle": "，字段 {{name}} 将被删除"
+            },
+            "removed": {
+              "first": "字段 {{name}} 将被重新添加",
+              "last": " 而字段 {{name}} 将被重新添加",
+              "middle": "，字段 {{name}} 将被重新添加"
+            }
+          },
+          "singular": {
+            "first": "字段 {{name}} 中的 1 个单元格",
+            "last": " 和字段 {{name}} 中的 1 个单元格",
+            "middle": "，字段 {{name}} 中的 1 个单元格"
+          },
+          "start": " 数据将在以下位置被修改： "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "数据将在{{fields}}个字段的{{records}}条记录中更改。",
+            "noFields": "数据将在 {{records}} 个记录中发生变化。",
+            "oneField": "数据将在{{records}}跨1个字段的记录中发生变化"
+          },
+          "singular": {
+            "multipleFields": "数据将在 {{fields}} 个字段的 1 条记录中发生变化。",
+            "noFields": "数据将在 1 条记录中发生变化。",
+            "oneField": "数据将在1个字段中的1个记录中发生变化。"
+          }
+        }
+      },
+      "title": "要在……中应用的更改"
+    },
+    "tooltips": {
+      "sheet": "{{workbook}} 中的 {{sheet}}"
+    }
+  },
+  "spaceLoadingMessage": "正在准备空间……",
+  "utils": {
+    "buttons": {
+      "clearAll": "清除所有",
+      "clearAllLabel": "全部清除",
+      "selectAll": "全选",
+      "selectAllLabel": "全选"
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "请使用屏幕更大的设备以访问所有功能。在此屏幕尺寸下，我们无法保证所有功能都能正常运行。",
+        "button": "仍然继续",
+        "title": "屏幕太小"
+      }
+    },
+    "poweredByFlatfile": "由 Flatfile 提供支持"
+  },
+  "versionHistory": {
+    "modals": {
+      "default": {
+        "description": "发生意外错误 - 未应用匹配操作"
+      },
+      "delete": {
+        "confirm": {
+          "closeButton": "关闭",
+          "description": "您确定要删除所选版本吗？",
+          "heading": "删除版本",
+          "proceedButton": "删除"
+        },
+        "error": {
+          "closeButton": "关闭",
+          "description": "由于意外错误，所选版本无法删除——如果问题仍然存在，请联系支持团队",
+          "heading": "无法删除版本",
+          "retryButton": "重试"
+        },
+        "success": {
+          "closeButton": "关闭",
+          "description": "所选版本已删除。",
+          "heading": "版本已删除"
+        }
+      }
+    },
+    "panel": {
+      "empty": "版本一旦生成，将会在此处显示。版本是自动生成的，通常是在发生数据批量转换时。",
+      "generatedSnapshot": "在对提示应用 AI Transform 之前生成的快照： ",
+      "generatedSnapshotForAiTransform": "在对提示应用 AI Transform 之前生成的快照： ",
+      "generatedSnapshotForBulkDelete": "在删除记录之前生成的快照",
+      "generatedSnapshotForFindReplace": "在应用查找和替换之前生成的快照",
+      "heading": "版本历史记录",
+      "thisMonth": "本月",
+      "versionRestored": "在恢复先前版本之前创建的版本"
+    },
+    "pill": {
+      "hoverText": "版本历史记录"
+    }
+  }
+}

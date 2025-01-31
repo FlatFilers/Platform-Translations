@@ -3,7 +3,7 @@
     "changedColumnsText_one": "1 column with data changed",
     "changedColumnsText_other": "{{count}} columns with data changed",
     "errors": {
-      "entilementError": {
+      "entitlementError": {
         "content": "If you think this is in error, please reach out to customer support.",
         "title": "Sorry! You don't have access to this feature."
       },
@@ -79,6 +79,15 @@
         "missingIds": "Unable to create Embedded Sheet due to missing Sheet or Workbook ID."
       }
     }
+  },
+  "common": {
+    "name": "Name",
+    "cancel": "Cancel",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "thisWeek": "This Week",
+    "lastWeek": "Last Week",
+    "older": "Older"
   },
   "checklist": {
     "dropdowns": {
@@ -180,15 +189,29 @@
   "comments": {
     "addReaction": "Add reaction",
     "commentDisabledTooltip": "Select a cell or a row to add a comment",
+    "comments": "Comments",
     "delete": "Delete comment",
     "edit": "Edit comment",
     "edited": " (edited)",
+    "hidden": "hidden by filters…",
+    "noResolvedThreads": "No threads have been resolved yet",
     "noResults": "No matches",
+    "noUpdates": "No updates",
     "placeholder": "Add your comment here…",
     "reactionList": "<0></0> reacted with {{emoji}}",
+    "reopen": "Reopen thread",
+    "repliesCount_one": "{{count}} more reply",
+    "repliesCount_other": "{{count}} more replies",
     "resolve": "Resolve thread",
+    "resolved": "Resolved",
+    "row": "Row {{row}}",
+    "rowAndColumn": "Row {{row}}, {{column}}",
     "send": "Send comment",
     "threadPlaceholder": "Reply or mention others with @…",
+    "updates": "Updates",
+    "updatesError": "An error occurred while loading updates",
+    "userCommented": "<user>{{user}}</user> commented on <identifier>{{identifier}}</identifier>",
+    "userReacted": "<0></0> reacted to your comment",
     "you": "You"
   },
   "document": {
@@ -198,6 +221,7 @@
     }
   },
   "errors": {
+    "accessDenied": "Access denied",
     "documentNotFound": "Document not found",
     "fileNotFound": "File not found",
     "missingParameter": "Parameter not provided",
@@ -207,6 +231,7 @@
     "refreshPageDescription": "Refresh the page to try again. If the problem persists, contact support.",
     "returnToDashboardButton": "Return to Dashboard",
     "sessionExpired": "Session has expired",
+    "sessionExpiredDescription": "Access to the current session has expired.",
     "sheetNotFound": "Sheet not found",
     "spaceNotFound": "Space not found",
     "unauthorized": "Your access credentials are invalid.",
@@ -378,6 +403,9 @@
           "loadingText": "Loading..."
         }
       }
+    },
+    "noListener": {
+      "learnMore": "Learn more"
     },
     "download": {
       "downloadStartedHeading": "Download started",
@@ -619,11 +647,6 @@
       "updatedAtDateFormat": "yyyy-MM-dd"
     }
   },
-  "nativeActions": {
-    "addColumn": "Add column",
-    "clearColumn": "Clear Column",
-    "removeColumn": "Remove column"
-  },
   "platform": {
     "pubnub": {
       "errors": {
@@ -639,6 +662,93 @@
       "error": "An error occured while updating the workbook. See Event Logs.",
       "halfway": "Halfway there, hang tight...",
       "updatingTable": "Updating the table to only view mapped fields"
+    }, 
+    "extraction": {
+      "retrieveFile": "Retrieving file", 
+      "parseSheets": "Parsing sheets", 
+      "createWorkbook": "Creating workbook", 
+      "createWorkbookError": "Failed to create workbook. See Event Logs.",
+      "noSheets": "No sheets found", 
+      "addingRecords": "Adding records to Sheets", 
+      "extractedFile": "Extracted file", 
+      "fileTooLarge": "File is too large to parse. Try converting this file to CSV.",
+      "failedToParseWorkbook": "Failed to parse workbook.", 
+      "extractionFailed": "Extraction failed. Try again or reach out to Support."
+    }
+  },
+  "manageUsers":{
+    "manageGuests": "Manage Guests",
+    "guest": {
+      "title": "You do not have permission to view this page",
+      "message": "Only admins can manage guests. If you think you are seeing this in error, please contact support."
+    },
+    "actions": {
+      "resendInvite": "Resend invite",
+      "copyLink": "Copy Space link",
+      "invite": "Send invite",
+      "revoke": "Revoke access"
+    },
+    "error": {
+      "title": "Unable to load the users for this space"
+    },
+    "empty": "No guests to display",
+    "accessLink": {
+      "title": "Access link",
+      "callout": "This link is valid for 24hrs. Anyone with the link can access the Space and upload, edit and otherwise manage data."
+    },
+    "invite": {
+      "title": "Invite guests",
+      "cancelButton": "Cancel",
+      "sendInvite": "Send invite",
+      "form": {
+        "collaborate": {
+          "label": "Who would you like to collaborate with?",
+          "placeholder": "Invite by email, comma separated"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Let's collaborate!"
+        }
+      }
+    },
+    "edit": {
+      "loading": "Loading edit permissions...",
+      "error": "Error fetching workbooks",
+      "title": "Edit workbook access for",
+      "description": "Removing all workbooks from a user's account removes that user from the space.",
+      "cancelButton": "Cancel",
+      "saveButton": "Save"
+    },
+    "revoke": {
+      "title": "Revoke access",
+      "confirmButton": "Confirm",
+      "removing": "Removing...",
+      "cancelButton": "Cancel"
+    }
+  },
+  "secrets": {
+    "envSecrets": "Environment Secrets",
+    "noSecrets": "There are no environment level secrets. Add one <hyperlink>here</hyperlink>.",
+    "noSpaceSecrets": "There are no space level secrets yet, click on the plus icon to add one.",
+    "noUserSecrets": "There are no user level secrets yet, click on the plus icon to add one.",
+    "userDescription": "User level secrets will override space level secrets.",
+    "value": "Secret Value",
+    "spaceSecrets": "Space Secrets",
+    "userSecrets": "User Secrets",
+    "create": "Create Secret",
+    "edit": "Edit Secret",
+    "delete": "Delete Secret",
+    "keyPlaceholder": "Enter key…",
+    "valuePlaceholder": "Enter value…",
+    "successfulAdd": "Successfully added secret {{name}}",
+    "successfulEdit": "Successfully edited secret {{name}}",
+    "failureAdd": "Failed to add secret {{name}}",
+    "failureEdit": "Failed to edit secret {{name}}",
+    "errors": {
+      "keyAlreadyExists": "A secret with this key already exists",
+      "keyCannotBeEmpty": "Key cannot be empty",
+      "keyInvalid": "The secret name must only contain alphanumeric characters and underscores",
+      "couldNotGetSecrets": "Could not get secrets, please try refreshing this page."
     }
   },
   "sheet": {
@@ -713,7 +823,7 @@
     "info": {
       "browser": "Browser",
       "copiedPopover": "Copied to clipboard",
-      "copyButton": "Click to copy!",
+      "copyButton": "Click to copy",
       "date": "Date",
       "environment": "Environment",
       "inFrame": "In iframe",
@@ -901,6 +1011,34 @@
         "query": "Query",
         "transform": "Transform"
       },
+      "restore": {
+        "label": "Restore records",
+        "tooltip": "Restore records previously marked for deletion."
+      },
+      "dataClips": {
+        "buttonText": "Clip Data",
+        "titles": {
+          "share": "Share Data Clips",
+          "review": "Review"
+        },
+        "actions": {
+          "create": "Create data clip"
+        },
+        "placeholders": {
+          "description": "Add a comment (optional)..."
+        },
+        "selectedRecords_one": "{{count}} record",
+        "selectedRecords_other": "{{count}} records",
+        "syncedRecords_one": "{{count}} synced record",
+        "syncedRecords_other": "{{count}} synced records",
+        "errors_one": "{{count}} error",
+        "errors_other": "{{count}} errors",
+        "promise": "Safe & secure sending",
+        "modal": {
+          "cancel": "Cancel",
+          "share": "Share"
+        }
+      },
       "buttons": {
         "delete": {
           "modal": {
@@ -931,6 +1069,95 @@
             "disabled": {
               "deleteDisabled": "Deleting records is disabled in this Sheet.",
               "noRecordsSelected": "Select at least one record in order to delete it"
+            }
+          }
+        },
+        "markForDeletion": {
+          "modal": {
+            "cancelButton": "Cancel",
+            "confirmButton": "Delete records",
+            "description": {
+              "infix": "selected",
+              "infixType": {
+                "invalid": "invalid",
+                "valid": "valid"
+              },
+              "prefix": "Would you like to delete the",
+              "suffix_one": "record? Doing so will also remove the record from the source sheet upon merging the data clip.",
+              "suffix_other": "records?  Doing so will also remove the records from the source sheet upon merging the data clip."
+            },
+            "errorMessage": "Unable to delete records. Please try again or modify your selection.",
+            "heading_one": "Delete Record",
+            "heading_other": "Delete Records",
+            "inProgress": "Deleting records..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} record deleted",
+            "successMessage_other": "{{count}} records deleted",
+            "successMessageNoCount": "Records deleted"
+          }
+        },
+        "restore": {
+          "modal": {
+            "cancelButton": "Cancel",
+            "confirmButton": "Restore deleted records",
+            "description": {
+              "infix": "selected",
+              "infixType": {
+                "invalid": "invalid",
+                "valid": "valid"
+              },
+              "prefix": "Would you like to restore records previously marked for deletion in this selection?",
+              "suffix_one": "",
+              "suffix_other": ""
+            },
+            "errorMessage": "Unable to add restore records. Please try again or modify your selection.",
+            "heading_one": "Restore Record",
+            "heading_other": "Restore Records",
+            "inProgress": "Restoring records..."
+          },
+          "popover": {
+            "successMessage_one": "Records previously marked for deletion have been restored.",
+            "successMessage_other": "Records previously marked for deletion have been restored.",
+            "successMessageNoCount": "Records previously marked for deletion have been restored."
+          },
+          "tooltip": {
+            "active": "Restore records previously marked for deletion within selection.",
+            "disabled": {
+              "deleteDisabled": "Restoring records is disabled in this Sheet.",
+              "noRecordsSelected": "Select at least one record in order to restore it"
+            }
+          }
+        },
+        "addToDataClip": {
+          "modal": {
+            "cancelButton": "Cancel",
+            "confirmButton": "Add records",
+            "description": {
+              "infix": "selected",
+              "infixType": {
+                "invalid": "invalid",
+                "valid": "valid"
+              },
+              "prefix": "Would you like to add the ",
+              "suffix_one": "record to data clip?",
+              "suffix_other": "records to data clip?"
+            },
+            "errorMessage": "Unable to add records to data clip. Please try again or modify your selection.",
+            "heading_one": "Add Record To Data Clip",
+            "heading_other": "Add Records To Data Clip",
+            "inProgress": "Adding records..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} record added to data clip",
+            "successMessage_other": "{{count}} records added to data clip",
+            "successMessageNoCount": "Records added to data clip"
+          },
+          "tooltip": {
+            "active": "Add selected records to data clip",
+            "disabled": {
+              "deleteDisabled": "Adding records to data clips is disabled in this Sheet.",
+              "noRecordsSelected": "Select at least one record in order to add it to a data clip"
             }
           }
         },
@@ -974,7 +1201,8 @@
       },
       "dropdown": {
         "delete": "Delete",
-        "download": "Download"
+        "download": "Download",
+        "restore": "Restore"
       },
       "filterByError": {
         "buttonText": "Filter by error",
@@ -1079,8 +1307,14 @@
     }
   },
   "sidebar": {
+    "activityLogs": "Activity logs",
     "addConnection": "Add Connection",
     "checklist": "Data checklist",
+    "collapse": {
+      "documents": "Documents",
+      "workbook": "Workbook",
+      "workbooks": "Workbooks"
+    },
     "connections": {
       "tooltips": {
         "connectionError": "There is an issue verifying the metadata of this workbook's connections",
@@ -1090,8 +1324,18 @@
     },
     "emptyWorkbook": "Empty workbook",
     "files": "Files",
+    "footer": {
+      "backToDashboard": "Back to dashboard",
+      "logout": "Log out"
+    },
     "lockedIconTooltip": "This Sheet is locked",
+    "errorIconTooltip": "This Sheet contains errors",
+    "manageGuests": "Manage guests",
+    "pill": {
+      "admin": "Admin"
+    },
     "readOnlyIconTooltip": "This Sheet is read-only",
+    "secrets": "Secrets",
     "spaceSwitcher": {
       "placeholder": "Search or select a Space..."
     },
@@ -1099,6 +1343,7 @@
       "hide": "Hide sidebar",
       "show": "Show sidebar"
     }
+
   },
   "snapshot": {
     "accept": {
@@ -1174,7 +1419,8 @@
         "empty": "no data",
         "none": "Your dataset will be modified to the values shown.",
         "restore": "Your dataset will be restored to the version in this snapshot.",
-        "snapshot": "New value: {{value}}"
+        "snapshot": "New value: {{value}}",
+        "requiresDecision": "This value requires a decision before you can modify your dataset."
       }
     },
     "none": {
@@ -1405,6 +1651,7 @@
       "generatedSnapshot": "Snapshot generated before applying AI Transform for prompt: ",
       "generatedSnapshotForAiTransform": "Snapshot generated before applying AI Transform for prompt: ",
       "generatedSnapshotForBulkDelete": "Snapshot generated before deleting records",
+      "generatedSnapshotForBulkAddToDataClip": "Snapshot generated before adding records to data clip",
       "generatedSnapshotForFindReplace": "Snapshot generated before applying Find and Replace",
       "heading": "Version History",
       "thisMonth": "This Month",
@@ -1413,5 +1660,221 @@
     "pill": {
       "hoverText": "Version History"
     }
+  },
+  "helpCenter": {
+    "panel": {
+      "heading": "Help Center",
+      "empty": "Guidance for this space will be available here if configured."
+    },
+    "pill": {
+      "hoverText": "Help Center"
+    }
+  },
+  "dataClips": {
+    "buttonText": "Clip data",
+    "detailsModal": {
+      "create": {
+        "title": "Create data clip",
+        "action": "Create"
+      },
+      "edit": {
+        "title": "Edit data clip",
+        "action": "Submit"
+      },
+      "placeholder": "Add a comment (optional)...",
+      "review": "Review"
+    },
+    "actions": {
+      "create": "Create data clip",
+      "library": "Go to data clip library",
+      "sheet_list": "See sheet's data clips",
+      "add_to_clip": "Add selections to data clip",
+      "tooltip": {
+        "none_selected": {
+          "create": "Select at least one record to create a data clip.",
+          "add_to_clip": "Select at least one record to add to a data clip."
+        },
+        "conflicts": "Please resolve conflicts before merging.",
+        "no_changes": "Make at least one change in order to merge.",
+        "review": "No changes have been made to this data clip.",
+        "no_data_clips": "Create a data clip to add to."
+      },
+      "buttons": {
+        "submit_for_review": "Submit for review",
+        "review": "Review changes",
+        "view": "View data clip",
+        "conflicts": "Resolve conflicts",
+        "back": "Back",
+        "share": "Share"
+      }
+    },
+    "library": {
+      "title": "Data clip library",
+      "search": "Search by data clip, sheet, or creator name",
+      "guest_search": "Search by data clip, or sheet name",
+      "headers": {
+        "name": "Name",
+        "sheet": "Source sheet",
+        "creator": "Creator",
+        "records": "Records",
+        "updated_at": "Last edited",
+        "status": "Status"
+      },
+      "actions": {
+        "edit": "View",
+        "edit_details": "Edit details",
+        "delete": "Delete"
+      },
+      "source_name": "Source Sheet: ",
+      "create": "Create data clip"
+    },
+    "selectedRecords_one": "{{count}} record selected",
+    "selectedRecords_other": "{{count}} records selected",
+    "syncedRecords_one": "{{count}} total record",
+    "syncedRecords_other": "{{count}} total records",
+    "errors_one": "{{count}} error",
+    "errors_other": "{{count}} errors",
+    "promise": "Safe & secure sending",
+    "modal": {
+      "cancel": "Cancel",
+      "share": "Create"
+    },
+    "status": {
+      "open": "Open",
+      "ready": "Ready for review",
+      "merged": "Merged",
+      "all": "See all",
+      "title": "Status"
+    },
+    "filter": "Filter",
+    "empty": "No data clips to display",
+    "error": "Unable to load the data clips for this space",
+    "created_by": "Created by",
+    "sort": "sort",
+    "clear": "clear",
+    "confirmation": {
+      "ready": {
+        "title": "Submit for review",
+        "description": "Your changes will be sent for review.",
+        "cancel": "Cancel",
+        "submit": "Submit" 
+      },
+      "delete": {
+        "title": "Delete",
+        "description": "This will permanently delete this data clip from your library.",
+        "cancel": "Cancel",
+        "submit": "Delete"
+      }
+    },
+    "merge": "Merge changes",
+    "next": "Next",
+    "resend": "Reopen and return",
+    "choose_action": "Choose an action:",
+    "collaborators": "Collaborators",
+    "errors": {
+      "add_records_create": "There was an unexpected error adding your records to the data clip. An empty data clip has been created.",
+      "add_to_clip": "There was an unexpected error adding your records to the data clip, please try again. If the problem persists, please contact support.",
+      "create": "There was an unexpected error creating your data clip, please try again. If the problem persists, please contact support.",
+      "edit": "There was an unexpected error editing your data clips, please try again. If the problem persists, please contact support.",
+      "mark_as_ready": "We were unable to mark the data clip as ready for merge, please try again. If the problem persists, please contact support",
+      "mark_open": "We were unable to reopen the data clip, please try again. If the problem persists, please contact support",
+      "delete": "We were unable to delete the data clip, please try again. If the problem persists, please contact support",
+      "mark_merged": "Your data clip failed to merge, please try again. If the problem persists, please contact support",
+      "mark_for_review": "Your data clip failed to submit for review, please try again. If the problem persists, please contact support",
+      "bulk_resolve_all_conflicts": "There was an unexpected error resolving conflicts, please try again. If the problem persists, please contact support",
+      "diff_view": "There was an unexpected error loading the data clip diff view, please try again. If the problem persists, please contact support",
+      "list": "There was an unexpected error loading the data clip library, please try again. If the problem persists, please contact support",
+      "link_copy": "There was an unexpected error copying the link, please try again. If the problem persists, please contact support"
+    },
+    "success": {
+      "add_records": "Records added successfully.",
+      "create": "Your data clip was successfully created.",
+      "edit": "Edits successfully saved.",
+      "mark_open": "Data clip successfully reopened and returned!",
+      "delete": "Your data clip was successfully deleted.",
+      "mark_merged": "Your data clip was successfully merged.",
+      "mark_as_ready": "Your data clip was successfully submitted for review. The clip owner has been notified.",
+      "link_copy": "Link copied successfully!",
+      "modal": {
+        "create": {
+          "title": "Your data clip has been created",
+          "description": "You can now view the new data clip.",
+          "close": "Close",
+          "button": "View data clip"
+        },
+        "ready": {
+          "title": "Changes successfully submitted!",
+          "description": "Your changes have been submitted for review. We'll notify you with any notes or change in status.",
+          "close": "Close",
+          "submit": "Return to data clip"
+        }
+      }
+    },
+    "resolutions": {
+      "conflicts_found": {
+        "title": "Conflicts found",
+        "options_title": "Choose the action",
+        "source_override": {
+          "title": "Accept values from data clip",
+          "description": "This will update all conflicted values to match the data clip on merge."
+        },
+        "clip_override": {
+          "title": "Reject values from data clip",
+          "description": "This won't change anything in the source sheet, and the conflicted data clip changes will be discarded."
+        },
+        "resolve_conflicts": {
+          "title": "Make changes individually",
+          "description": "This allows you to review each conflict in the data clip, and decide which values to merge or ignore."
+        },
+        "button_one": "{{count}} conflict",
+        "button_other": "{{count}} conflicts"
+      },
+      "complete": "Complete",
+      "merge": "Merge",
+      "cancel": "Save & exit",
+      "empty": { 
+        "title": "No changes have been detected in this data clip.",
+        "description": "Make at least one change in order to merge.",
+        "button": "Return to clip"
+      },
+      "applyAll": {
+          "description_one": "Would you like apply '{{resolveTo}}' as your selection for the remaining conflicts in the '{{columnLabel}}' column? {{count}} record will be updated.",
+          "description_other": "Would you like apply '{{resolveTo}}' as your selection for the remaining conflicts in the '{{columnLabel}}' column? {{count}} records will be updted.",
+        "button": "Apply"
+      }
+    },
+    "conflictResolution": {
+      "columnTotal": "Column total:",
+      "row": "Row",
+      "title": "Choose which change to merge",
+      "description": "There are changes in both the source sheet and the data clip. Choose which one you want to keep.",
+      "change_description": "1 record in the field \"{{fieldName}}\" will be changed.",
+      "applyAll": "Apply to all?",
+      "empty": {
+        "status": "Complete",
+        "title": "No conflicts",
+        "description": "Ready for review"
+      }
+    },
+    "share": {
+      "title": "Share data clip",
+      "description": "Collaborators will be sent an invitation to collaborate on this data clip.",
+      "empty": "No collaborators available.",
+      "none_selected": "No collaborators selected.",
+      "copy_link": "Copy link",
+      "submit": "Share",
+      "placeholder": "Add collaborators..."
+    },
+    "newConflicts": {
+      "title": "New conflicts found",
+      "description": "New conflicts have been introduced while reviewing this data clip.",
+      "close": "Close",
+      "submit": "Resolve conflicts"
+    }
+  },
+  "nativeActions": {
+    "clearColumn": "Clear Column",
+    "removeColumn": "Remove Column",
+    "addColumn": "Add Column"
   }
 }

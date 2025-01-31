@@ -1,0 +1,1441 @@
+{
+  "aiTransform": {
+    "changedColumnsText_one": "1 kolom met gewijzigde gegevens",
+    "changedColumnsText_other": "{{count}} kolommen met gewijzigde gegevens",
+    "changedColumnsText_zero": "{{count}} kolommen met gewijzigde gegevens",
+    "errors": {
+      "entilementError": {
+        "content": "Als u denkt dat dit een fout is, neem dan contact op met de klantenservice.",
+        "title": "Sorry! U hebt geen toegang tot deze functie."
+      },
+      "generalError": {
+        "title": "Er ging iets mis. Probeer opnieuw."
+      },
+      "generateMutationError": {
+        "title": "Kan de AI niet bereiken. Probeer het later opnieuw."
+      },
+      "invalidFunctionError": {
+        "content": "Waarschijnlijk hebt u gevraagd om iets ongeldigs te doen.",
+        "title": "Sorry, AI assistant kan die transformatie niet uitvoeren."
+      },
+      "keysModifiedError": {
+        "title": "Sorry, AI assistant kan alleen de waarden van bestaande velden wijzigen. Hij kan geen velden verwijderen of nieuwe toevoegen."
+      },
+      "noFunctionError": {
+        "content": "Probeer het anders te formuleren. Prompts met veldnamen zijn over het algemeen succesvoller.",
+        "title": "We begrepen uw prompt niet."
+      },
+      "noRecordsFoundError": {
+        "content": "Er zijn geen records gevonden voor de opgegeven query. Probeer het opnieuw.",
+        "title": "Geen records gevonden"
+      },
+      "noresultsError": {
+        "content": "Probeer het anders te formuleren. Prompts met veldnamen zijn over het algemeen succesvoller.",
+        "title": "Uw prompt heeft geen gegevens getransformeerd."
+      },
+      "prompttoolongError": {
+        "content": "Probeer uw prompt in te korten of uw prompt op te splitsen in meerdere stappen en probeer het opnieuw.",
+        "title": "Sorry! Uw prompt was iets te lang."
+      },
+      "versionError": {
+        "content": "Kan geen rollbackversie maken.",
+        "title": "Er ging iets mis. Probeer opnieuw."
+      }
+    },
+    "exitConfirmation": {
+      "body": "Weet u zeker dat u wilt afsluiten?",
+      "header": "Afsluitbevestiging",
+      "label": "Afsluiten"
+    },
+    "jobCompleteHeading": "AI Transformation Job voltooid",
+    "jobCompleteMessage": "De records zijn getransformeerd",
+    "promptBar": {
+      "categoricalWarning": "Dit veld heeft te veel opties en AI Transform kan dit niet verwerken.",
+      "transformButton": {
+        "tooltip": {
+          "active": "Beschrijf hoe u wilt dat gegevens in een veld worden getransformeerd op basis van logica, inclusief gegevens in welk veld dan ook",
+          "disabled": "Je moet een aantal records in je (gefilterde) werkblad hebben om de AI-assistent te kunnen gebruiken.",
+          "locked": "Het blad is vergrendeld.",
+          "noRows": "Je moet een aantal records in je (gefilterde) werkblad hebben om de AI-assistent te kunnen gebruiken.",
+          "readOnly": "Het blad is alleen-lezen",
+          "tooManyRows": "Het blad heeft te veel rijen (meer dan 1 miljoen)."
+        }
+      },
+      "warning": "Let op: sommige categorische velden in uw dataset hebben veel geconfigureerde opties. Het gebruik van die velden, zoals @{{fieldName}}, in uw prompt werkt mogelijk niet zoals verwacht."
+    },
+    "sampleMessage": "Voorbeeld van {{number}} records",
+    "scrollInfoText": "Scrollen naar de volgende gewijzigde kolom",
+    "toggleLabel": "Alleen gewijzigde gegevens weergeven"
+  },
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "Kan ingesloten Diff niet maken vanwege ongeldige eigenschap 'direction'. Geldige waarden zijn: 'sheet_to_snapshot', 'snapshot_to_sheet'.",
+        "missingIds": "Kan ingesloten verschil niet maken vanwege ontbrekende blad-, werkmap- of snapshot-ID"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "Kan ingesloten blad niet maken vanwege ontbrekende blad- of werkboek-ID."
+      }
+    }
+  },
+  "checklist": {
+    "dropdowns": {
+      "headings": {
+        "sheet": "Blad",
+        "workbook": "Werkboek"
+      }
+    },
+    "errors": {
+      "cannotLoadChecklist": "Kon de data checklijst niet laden",
+      "cannotLoadSheet": "Blad kon niet gevonden worden",
+      "noWorkbooksDescription": "Data checklijst vereist dat minimaal 1 werkmap actief is. Vraag je ontwikkelaar de configuratie te controleren. Als dit probleem aanhoudt, neem dan contact op met support.",
+      "noWorkbooksTitle": "Werkboek vereist"
+    },
+    "table": {
+      "dataTypes": {
+        "boolean": "Boolean",
+        "date": "Datum",
+        "enum": "Enum",
+        "number": "Nummer",
+        "reference": "Referentie",
+        "string": "String",
+        "unknown": "Onbekend"
+      },
+      "fieldTagComputed": "Berekend",
+      "fieldTagRequired": "Vereist",
+      "fieldTagUnique": "Uniek",
+      "headings": {
+        "dataType": "Datasoort",
+        "description": "Beschrijving",
+        "field": "Veldnaam"
+      }
+    },
+    "title": "Gegevenschecklist"
+  },
+  "commandMenu": {
+    "aiAssist": {
+      "query": {
+        "askingAI": {
+          "stepFour": "Afronden",
+          "stepOne": "Denken",
+          "stepThree": "Doen",
+          "stepTwo": "Schrijven"
+        },
+        "description": {
+          "branded": "vraag AI om een ​​query voor u te schrijven in FFQL",
+          "whitelabeled": "vraag AI om een ​​query voor u te schrijven"
+        },
+        "errorBanner": {
+          "generalError": "Er ging iets mis. Probeer opnieuw."
+        },
+        "instruction": "Beschrijf hoe u wilt dat de AI-assistent een query toepast op uw data:",
+        "review": {
+          "description": "Dit is mijn voorstel. Lees de stapsgewijze uitleg en de query en klik hieronder, als het er goed uitziet, om het toe te passen.",
+          "explanationTitle": "Uitleg",
+          "queryTitle": "Query"
+        }
+      },
+      "transform": {
+        "askingAI": {
+          "stepFour": "Afronden",
+          "stepOne": "Denken",
+          "stepThree": "Doen",
+          "stepTwo": "Schrijven"
+        }
+      }
+    },
+    "buttons": {
+      "apply": "Toepassen",
+      "cancel": "Annuleren"
+    },
+    "commands": {
+      "filter": {
+        "apply": "Filter toepassen.",
+        "description": {
+          "branded": "schrijf een FFQL-statement",
+          "whitelabeled": "schrijf een query"
+        },
+        "hiddenColumnsWarning_one": "1 veld wordt niet langer verborgen door deze query: {{fields}}",
+        "hiddenColumnsWarning_other": "{{count}} velden worden niet langer verborgen door deze query: {{fields}}",
+        "hiddenColumnsWarning_zero": "{{count}} velden worden niet langer verborgen door deze query: {{fields}}",
+        "invalidFFQL": "Ongeldige FFQL-instructie. Opnieuw proberen?",
+        "learnHow": "kom erachter hoe"
+      },
+      "search": {
+        "global": {
+          "apply": "Zoekopdracht toepassen.",
+          "description": "doorzoek het hele blad"
+        },
+        "inField": {
+          "apply": "Zoekopdracht toepassen binnen veld.",
+          "applyExample": "bv. 'voornaam' Jane Doe",
+          "description": "zoek binnen een veld"
+        }
+      }
+    },
+    "itemMessage": "druk op {{icon}} om toe te passen",
+    "placeholder": "Zoek of doe wat je maar wilt..."
+  },
+  "comments": {
+    "addReaction": "Reactie toevoegen",
+    "commentDisabledTooltip": "Selecteer een cel of een rij om een ​​opmerking toe te voegen",
+    "delete": "Opmerking verwijderen",
+    "edit": "Opmerking bewerken",
+    "edited": " (bewerkt)",
+    "noResults": "Geen overeenkomsten",
+    "placeholder": "Voeg hier uw commentaar toe…",
+    "reactionList": "<0></0> reageerde met {{emoji}}",
+    "resolve": "Thread oplossen",
+    "send": "Opmerking verzenden",
+    "threadPlaceholder": "Reageer of vermeld anderen met @…",
+    "you": "U"
+  },
+  "document": {
+    "error": {
+      "description": "Dit document lijkt niet te bestaan",
+      "title": "Document niet gevonden"
+    }
+  },
+  "errors": {
+    "documentNotFound": "Document niet gevonden",
+    "fileNotFound": "Bestand niet gevonden",
+    "missingParameter": "Parameter niet opgegeven",
+    "notFound": "Niet gevonden",
+    "notFoundPageDescription": "Deze URL bevat geen pagina. Neem contact op met Support indien u dit niet verwacht.",
+    "refreshButton": "Opnieuw proberen",
+    "refreshPageDescription": "Ververs de pagina om het opnieuw te proberen. Als het probleem aanhoudt, neem dan contact op met de ondersteuning.",
+    "returnToDashboardButton": "Terug naar Dashboard",
+    "sessionExpired": "Sessie is verlopen",
+    "sheetNotFound": "Blad niet gevonden",
+    "spaceNotFound": "Ruimte niet gevonden",
+    "unauthorized": "Je toegangsgegevens zijn ongeldig.",
+    "unknownError": "Er is iets misgegaan",
+    "workbookNotFound": "Werkboek niet gevonden"
+  },
+  "files": {
+    "availableDownloadsTab": "Beschikbare downloads",
+    "buttons": {
+      "addFile": {
+        "inProgressText": "Bestand aan het uploaden",
+        "text": "Upload bestand"
+      },
+      "addFileFrom": {
+        "box": "Vak",
+        "googleDrive": "Google Drive",
+        "text": "Bestand toevoegen vanuit..."
+      },
+      "delete": "Verwijderen",
+      "download": "Downloaden",
+      "googleDrive": "Bestand toevoegen vanuit Google Drive"
+    },
+    "connectionsModal": {
+      "box": "Vak",
+      "close": "Sluiten",
+      "googleDrive": "Google Drive",
+      "heading": "Beheer uw verbindingen",
+      "manage": "Beheren",
+      "subtext": " Klik op de onderstaande knoppen om u aan of af te melden bij uw accounts."
+    },
+    "contextMenu": {
+      "delete": "Verwijderen",
+      "download": "Downloaden"
+    },
+    "counts": "{{start}}-{{end}} van {{total}}",
+    "deleteModal": {
+      "downloadDescription_one": "Dit gedownloade bestand wordt verwijderd uit de ruimte.",
+      "downloadDescription_other": "Deze gedownloade bestanden worden verwijderd uit de ruimte.",
+      "downloadDescription_zero": "Deze gedownloade bestanden worden verwijderd uit de ruimte.",
+      "heading_one": "Verwijder bestand",
+      "heading_other": "Verwijder bestanden",
+      "heading_zero": "Verwijder bestanden",
+      "subheading_one": "Bestand:",
+      "subheading_other": "Bestanden:",
+      "subheading_zero": "Bestanden:",
+      "uploadsDescription_one": "Alle geïmporteerde gegevens worden opgeslagen. Dit zal het bestand uit de ruimte verwijderen.",
+      "uploadsDescription_other": "Alle geïmporteerde gegevens worden opgeslagen. Dit zal de bestanden uit de ruimte verwijderen.",
+      "uploadsDescription_zero": "Alle geïmporteerde data worden bewaard. Hierdoor worden de bestanden uit de ruimte verwijderd worden."
+    },
+    "downloadsTable": {
+      "headings": {
+        "createdDate": "Gegenereerd",
+        "name": "Naam",
+        "size": "Maat",
+        "sourceSheet": "Bronblad"
+      },
+      "processing": "Bezig met exporteren..."
+    },
+    "emptyState": {
+      "downloads": {
+        "description": "Gedownloade data verschijnt hier",
+        "heading": "Geen downloads beschikbaar"
+      },
+      "uploads": {
+        "description": "Sleep een bestand of upload het om te beginnen",
+        "heading": "Bestanden toevoegen"
+      }
+    },
+    "errors": {
+      "loadingError": "Kon de bestanden niet laden",
+      "uploadDisabledDescription": "Als je denkt dat dit een fout was, neem dan contact op met support.",
+      "uploadDisabledHeading": "Deze ruimte ondersteunt momenteel geen bestanduploads."
+    },
+    "title": "Bestanden",
+    "uploadedFilesTab": "Geüploade bestanden",
+    "uploadFile": {
+      "popovers": {
+        "errorUploading": "Kan bestand niet uploaden: {{fileName}}",
+        "extracting": "Bestand uitpakken...",
+        "extractionCompleted": "Uitpakken voltooid.",
+        "extractionFailed": "Uitpakken mislukt. Probeer opnieuw of neem contact op met Support.",
+        "onDragPopoverConfirmation": "Sleept bestand naar:",
+        "unsupportedFile": "Bestandstype wordt niet ondersteund. Probeer een ander bestandstype of neem contact op met Support.",
+        "unsupportedFileInfo": "We hebben geen data in dit bestand gedetecteerd. Het kan indien nodig gedownload worden.",
+        "uploadComplete": "Geüpload: {{fileName}}",
+        "uploadCompleteMany": "{{count}} bestanden geüpload",
+        "uploadError": "Fout bij het uploaden van {{fileName}}",
+        "uploadErrorMany": "Fout bij het uploaden van {{count}} bestanden",
+        "uploadingMany": "{{count}} bestanden worden geüpload",
+        "uploadInProgress": "Uploaden: {{fileName}}",
+        "uploadInProgressMany": "{{count}} bestanden worden geüpload",
+        "uploadsDisabled": "Deze ruimte ondersteunt momenteel geen bestanduploads.",
+        "waitingForExtraction": "Wachten op bestandsextractie..."
+      }
+    },
+    "uploadsTables": {
+      "headings": {
+        "name": "Naam",
+        "status": "Status",
+        "uploadedDate": "Geüpload"
+      },
+      "importButton": "Importeer",
+      "importError": "Kan bronbestand om te importeren niet vinden. Probeer het opnieuw. Als het probleem zich blijft voordoen, neem dan contact op met support.",
+      "tooltips": {
+        "cannotImport": "Importeren naar een werkboek is momenteel niet beschikbaar voor dit bestand",
+        "noExtension": "Dit bestand heeft geen extensie. Voeg de juiste bestandsextensie toe aan de bestandnaam en upload het bestand opnieuw om het te importeren naar een werkboek"
+      }
+    }
+  },
+  "guestInvite": {
+    "getNewAccessLink": {
+      "content": "We hebben een beveiligde toegangslink gestuurd naar",
+      "finePrint": "Als je problemen ondervindt met het vinden van de e-mail, controleer dan je spamfolder of ververs deze pagina om een andere toegangslink te sturen. De link werkt 5 minuten.",
+      "heading": "Controleer je Postvak In"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "Weet u zeker dat u dit venster wilt sluiten? Hiermee wordt uw huidige data-importsessie beëindigd.",
+        "primaryButtonText": "Ja, verlaten",
+        "secondaryButtonText": "Nee, blijven",
+        "title": "Venster sluiten"
+      },
+      "errorModal": {
+        "title": "Er is iets misgegaan"
+      }
+    }
+  },
+  "jobs": {
+    "customActions": {
+      "modals": {
+        "confirmModal": {
+          "cancelButton": "Annuleren",
+          "defaultConfirmButton": "Bevestig",
+          "defaultLoadingButton": "Bezig met laden...",
+          "isRequired": "{{field}} is vereist",
+          "mustBeNumber": "{{field}} moet een getal zijn"
+        },
+        "defaultJobName": "Taak",
+        "defaultResourceName": "deze bron",
+        "foregroundJobProgressModal": {
+          "defaultJobName": "Taak",
+          "defaultResourceName": "deze bron",
+          "percentComplete": "{{percent}}% voltooid",
+          "runningOn": "uitgevoerd op"
+        },
+        "outcomeModals": {
+          "acknowledgementModal": {
+            "defaultContinueButton": "Ga door"
+          },
+          "defaultDownloadLabel": "Downloaden",
+          "defaultFileName": "bestand",
+          "defaultHeading": {
+            "failed": "Taak mislukt",
+            "success": "Succes!"
+          },
+          "defaultLabel": "Bekijk bron",
+          "defaultMessage": {
+            "failed": "{{jobName}} op {{resourceName}} mislukt",
+            "success": "{{jobName}} succesvol {{resourceName}} uitgevoerd"
+          },
+          "defaultRetryLabel": "Opnieuw proberen",
+          "defaultUrlLabel": "Externe webpagina bezoeken",
+          "defaultViewLabel": "  Weergave bijwerken",
+          "permanentOutcomeModal": {
+            "defaultContinueButton": "Ga door"
+          }
+        },
+        "startModal": {
+          "confirmButton": "Bevestig",
+          "errorMessage": "Fout mij handeling",
+          "loadingText": "Bezig met laden..."
+        }
+      }
+    },
+    "download": {
+      "downloadStartedHeading": "Download gestart",
+      "downloadStartedMessage": "Het downloaden zou automatisch gestart moeten zijn.",
+      "seeAllDownloads": "Alle downloads bekijken"
+    },
+    "errors": {
+      "timeout": "Taak is in time-out geraakt"
+    },
+    "info": {
+      "copiedPopover": "Taak-ID gekopieerd",
+      "copyIdTooltip": "Taak-ID kopiëren"
+    },
+    "messages": {
+      "startingJob": "Taak wordt gestart"
+    },
+    "panel": {
+      "action": {
+        "export": "Downloaden",
+        "extract": "Importeer",
+        "mapping": "Ga naar werkboek"
+      },
+      "empty": "Taken verschijnen hier zodra ze actief of voltooid zijn",
+      "errorLoadingJob": "Niet gevonden",
+      "heading": "Taken",
+      "status": {
+        "default": {
+          "canceled": {
+            "prefix": "Taak",
+            "suffix": "Geannuleerd"
+          },
+          "complete": {
+            "prefix": "Taak",
+            "suffix": "voltooid"
+          },
+          "failed": {
+            "prefix": "Taak",
+            "suffix": "mislukt"
+          },
+          "inProgress": "Taak wordt uitgevoerd",
+          "waiting": "Wachten:"
+        },
+        "delete": {
+          "cancelled": "Verwijdering dossier geannuleerd",
+          "complete": "Verwijdering voltooid",
+          "failed": "Verwijdering mislukt",
+          "inProgress": "Dossiers verwijderen",
+          "waiting": "Wachten tot records worden verwijderd"
+        },
+        "export": {
+          "canceled": "Download geannuleerd",
+          "complete": "Download gegenereerd",
+          "failed": "Kon download niet genereren",
+          "inProgress": "Download wordt gegenereerd",
+          "waiting": "Wachten tot bestand wordt gedownload"
+        },
+        "extract": {
+          "cancelled": "Uitpakken bestand geannuleerd",
+          "complete": "Uitgepakt bestand",
+          "failed": "Kon bestand niet uitpakken",
+          "inProgress": "Bestand aan het uitpakken",
+          "waiting": "Wachten tot bestand wordt uitgepakt"
+        },
+        "flatfile-add-column": {
+          "canceled": "Kolom toevoegen geannuleerd",
+          "complete": "Kolom toevoegen voltooid",
+          "failed": "Kolom toevoegen mislukt",
+          "inProgress": "Kolom toevoegen",
+          "waiting": "Wachten om kolom toe te voegen"
+        },
+        "flatfile-remove-column": {
+          "canceled": "Verwijderen van kolom geannuleerd",
+          "complete": "Verwijderen van kolom voltooid",
+          "failed": "Verwijderen van kolom mislukt",
+          "inProgress": "Kolom wordt verwijderd",
+          "waiting": "Wachten tot kolom wordt verwijderd"
+        },
+        "mapping": {
+          "canceled": "Toewijzen aan werkboek geannuleerd",
+          "complete": "Toegewezen aan werkboek",
+          "failed": "Toewijzen aan werkboek niet gelukt",
+          "inProgress": "Toewijzen aan werkboek",
+          "waiting": "Wachten tot werkboek in kaart wordt gebracht"
+        },
+        "mutate-records": {
+          "canceled": "AI Transform geannuleerd",
+          "complete": "AI Transform voltooid",
+          "failed": "AI Transform mislukt",
+          "inProgress": "Records transformeren met AI",
+          "waiting": "Wachten tot records worden getransformeerd met AI"
+        }
+      },
+      "time": {
+        "calculating": "Resterende tijd berekenen...",
+        "completed": "Voltooid in",
+        "failed": "Mislukt na",
+        "remaining": "resterend",
+        "started": "Begonnen {{time}}",
+        "units": {
+          "hour": "uur",
+          "minute": "min",
+          "second": "sec"
+        }
+      }
+    },
+    "pill": {
+      "hoverText": "Taken",
+      "multipleJobsRunning": "{{count}} taken actief",
+      "status": {
+        "default": {
+          "complete": "Taak voltooid",
+          "failed": "Taak mislukt",
+          "inProgress": "Taak actief"
+        },
+        "delete": {
+          "complete": "Verwijdering voltooid",
+          "failed": "Verwijdering mislukt",
+          "inProgress": "Dossiers verwijderen..."
+        },
+        "extract": {
+          "complete": "Gegevensophaling voltooid",
+          "failed": "Gegevensophaling mislukt",
+          "inProgress": "Gegevens worden opgehaald..."
+        },
+        "mapping": {
+          "complete": "Toewijzen voltooid",
+          "failed": "Toewijzen mislukt",
+          "inProgress": "Toewijzen..."
+        }
+      }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "Verzenden"
+      }
+    }
+  },
+  "mapping": {
+    "clearFields": {
+      "modalHeader": "Bestemmingsvelden wissen",
+      "modalLabel": "Wissen",
+      "modalText": "Alle bestaande toewijzingen voor deze import worden gewist",
+      "modalTooltip": "Bestemmingsvelden wissen"
+    },
+    "dataPreview": {
+      "heading": "Datavoorbeeld voor {{previewKey}}",
+      "noData": "Geen voorbeelddata"
+    },
+    "dropdown": {
+      "placeholder": "Selecteren..."
+    },
+    "headerButtons": {
+      "back": "Terug",
+      "complete": "Voltooid",
+      "exit": "Afsluiten",
+      "headers": "Kopteksten kiezen",
+      "next": "Ga door"
+    },
+    "mapEnums": {
+      "destinationFields": {
+        "dropdownOptions": {
+          "doNotImport": "Niet importeren",
+          "keepAsIs": "Deze waarde in de huidige staat behouden",
+          "keepAsIsDisabledTooltip": "Een nieuwe optie aan deze lijst toevoegen wordt niet ondersteund. Een waarde importeren die geen geldige optie is, zal als foutmelding worden weergegeven."
+        },
+        "heading": "Bestemmingswaarden"
+      },
+      "incomingFields": {
+        "heading": "Binnenkomende Waarden",
+        "noData": "Cellen zonder gegevens",
+        "noDataTooltip": "Je kunt een geldige optie selecteren om de lege cellen in te vullen. Je kunt dit ook leeg laten."
+      },
+      "progressPill_one": "{{mappedCount}} van {{count}} waarde in kaart gebracht",
+      "progressPill_other": "{{mappedCount}} van {{count}} waarden in kaart gebracht",
+      "progressPill_zero": "{{mappedCount}} van {{count}} waarden in kaart gebracht",
+      "progressPillAllMapped_one": "{{count}} waarden in kaart gebracht",
+      "progressPillAllMapped_other": "{{count}} waarde in kaart gebracht",
+      "progressPillAllMapped_zero": "{{count}} waarde in kaart gebracht",
+      "subheading": "Deze velden bevatten waarden die moeten worden toegewezen aan een lijst met geldige opties.",
+      "title": "Velden toewijzen"
+    },
+    "mapFields": {
+      "destinationFields": {
+        "addNewField": {
+          "description": "Dit veld aan je blad toevoegen",
+          "label": "Als nieuw veld toevoegen"
+        },
+        "dropdownOptionLabels": {
+          "new": "Nieuw toevoegen",
+          "unused": "Ongebruikt",
+          "used": "Gebruikt"
+        },
+        "heading": "Velden van bestemming",
+        "progressPill": {
+          "missingRequiredFields": " - {{missingFieldsCount}} ontbreken",
+          "text": "{{totalDestinationsMapped}} van {{totalDestinationFields}}",
+          "tooltip": {
+            "greaterThanTenMissing": "en {{missingFieldsAfterTen}} meer...",
+            "missingRequiredFields": "Ontbrekende verplichte velden:",
+            "progress": "{{mappedDestinationFields}} van de {{totalDestinationFields}} beschikbare velden in de doelsheet zijn gemapped naar"
+          }
+        }
+      },
+      "incomingFields": {
+        "heading": "Velden inkomend",
+        "progressPill": {
+          "text": "{{totalIncomingMapped}} van {{totalIncomingFields}}",
+          "tooltip": "U heeft {{mappedIncomingFields}} van {{totalIncomingFields}} velden in uw dataset naar de doelsheet gemapped"
+        },
+        "selectHeaders": {
+          "tooltip": "Inkomende velden bewerken"
+        }
+      },
+      "subheading": "Bekijk en bevestig iedere mappingkeuze",
+      "title": "Velden in kaart brengen"
+    },
+    "mapHeaders": {
+      "subheading": "De koptekstrij voor uw brongegevens wijzigen of selecteren",
+      "title": "Kopteksten kaart"
+    },
+    "mappingPlan": {
+      "preparing": "In kaart brengen voorbereiden..."
+    },
+    "sheetSelection": {
+      "cannotLoadFile": "Kan bestand niet uploaden: {{fileName}}",
+      "cannotStartMapping": "Kan niet doorgaan met in kaart brengen - {{reason}} - Probeer het opnieuw",
+      "columns_one": "1 kolom",
+      "columns_other": "{{count}} kolommen",
+      "columns_zero": "{{count}} kolommen",
+      "errors_one": "1 fout",
+      "errors_other": "{{count}} fouten",
+      "errors_zero": "{{count}} fouten",
+      "importFromHeading": "Selecteer een sheet om data uit te laden",
+      "importToHeading": "Selecteer een sheet om deze data naartoe te importeren",
+      "lastUpdated": "Laatst bijgewerkt {{date}}",
+      "lastUpdatedDateFormat": "jjjj-mm-dd",
+      "records_one": "1 verslag",
+      "records_other": "{{count}} verslagen",
+      "records_zero": "{{count}} verslagen",
+      "sheetHasNoData": "Geen data",
+      "sheets_one": "1 sheet",
+      "sheets_other": "{{count}} sheets",
+      "sheets_zero": "{{count}} sheets",
+      "title": "Importeren naar...",
+      "updatedAtDateFormat": "jjjj-mm-dd"
+    }
+  },
+  "nativeActions": {
+    "addColumn": "Kolom toevoegen",
+    "clearColumn": "Kolom wissen",
+    "removeColumn": "Kolom verwijderen"
+  },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "Verversen",
+        "refreshTokenFailed": "Stream van event verbroken - Vernieuw om opnieuw verbinding te maken"
+      }
+    }
+  },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "Bijna klaar...",
+      "complete": "Tabel bijgewerkt. Controleer de gegevens.",
+      "error": "Er is een fout opgetreden tijdens het bijwerken van de werkmap. Zie Gebeurtenislogboeken.",
+      "halfway": "We zijn halverwege. Nog even geduld...",
+      "updatingTable": "De tabel wordt bijgewerkt zodat alleen gemapte velden worden weergegeven"
+    }
+  },
+  "sheet": {
+    "columnManagement": {
+      "clear_empty": "Lege kolommen verwijderen",
+      "errorColumnTooltip": "Filteren op deze waarde zal deze kolom niet langer verbergen",
+      "hideAll": "Alles verbergen",
+      "hideEmpty": "Lege kolommen verbergen",
+      "hideEmptyFields": "Verberg kolommen zonder data",
+      "noFields": "geen velden",
+      "noMatches": "geen overeenkomsten",
+      "placeholder_one": "Zoek of selecteer in 1 veld...",
+      "placeholder_other": "Zoek of selecteer in {{count}} velden...",
+      "placeholder_zero": "Zoek of selecteer in {{count}} velden...",
+      "toast": {
+        "action": "Niet langer verbergen?",
+        "message_one": "1 kolom met fouten is verborgen",
+        "message_other": "{{count}} Kolommen met fouten zijn verborgen.",
+        "message_zero": "{{count}} kolommen met fouten zijn verborgen."
+      },
+      "tooltip_one": "1 kolom verborgen",
+      "tooltip_other": "{{count}} kolommen verborgen",
+      "tooltip_zero": "Kolommen beheren",
+      "unhideToast": {
+        "message_one": "1 kolom is niet langer verborgen door deze zoekopdracht",
+        "message_other": "{{count}} kolommen zijn niet langer verborgen door deze zoekopdracht",
+        "message_zero": "{{count}} kolommen zijn niet langer verborgen door deze zoekopdracht"
+      }
+    },
+    "comments": {
+      "tooltip": "Een opmerking toevoegen"
+    },
+    "embedded": {
+      "maxOpenReached": "Kan niet meer dan {{maxOpenSheets}} ingesloten sheets tegelijk openen. Sluit een ingesloten sheet om deze sheet te kunnen openen.",
+      "untitled": "Sheet zonder naam"
+    },
+    "emptyView": {
+      "defaultError": {
+        "description": "Deze sheet lijkt leeg te zijn.",
+        "heading": "Er is nog niets te zien!"
+      },
+      "heading": "Laten we aan de slag gaan",
+      "manualEntry": "Handmatig gegevens invoeren",
+      "missingSheet": {
+        "buttonLabel": "Terug naar hoofdwerkblad",
+        "description": "Het werkblad dat u probeert te openen, is verwijderd of bestaat niet.",
+        "heading": "Blad niet gevonden"
+      },
+      "noColumns": {
+        "description": "Je hebt alle kolommen verborgen.",
+        "heading": "Niets te zien!"
+      },
+      "noSheetError": {
+        "description": "Deze sheet lijkt niet te bestaan.",
+        "heading": "Blad niet gevonden"
+      },
+      "readOnly": {
+        "description": "Sheets die geen nieuwe rijen en/of bewerkingen accepteren, ontvangen doorgaans dynamisch ingevulde gegevens. U kunt op dit moment geen actie ondernemen.",
+        "heading": "In afwachting van gegevens"
+      },
+      "sheetLocked": {
+        "description": "Als u denkt dat dit niet juist is, neem dan contact op met de ondersteuning.",
+        "heading": "Het toevoegen van records is momenteel uitgeschakeld"
+      },
+      "uploadFile": "Sleep een bestand of upload het om te beginnen"
+    },
+    "errors": {
+      "loading": "Werkboek kan niet worden opgehaald.",
+      "noSheets": {
+        "description": "Een werkboek moet minstens één blad bevatten. Er zijn er geen gevonden.",
+        "title": "Werkboek bevat geen bladen"
+      },
+      "notFound": "Werkboek niet gevonden"
+    },
+    "info": {
+      "browser": "Browser",
+      "copiedPopover": "Naar klembord gekopieerd",
+      "copyButton": "Klik om te kopiëren!",
+      "date": "Datum",
+      "environment": "Omgeving",
+      "inFrame": "In iframe",
+      "referrer": "Verwijzer",
+      "release": "Huidige versie",
+      "sheet": "Blad",
+      "space": "Ruimte",
+      "workbook": "Werkboek"
+    },
+    "popovers": {
+      "copyCell_one": "{{count}} cel gekopieerd",
+      "copyCell_other": "{{count}} cellen gekopieerd",
+      "copyCell_zero": "{{count}} cellen gekopieerd",
+      "copyRecord_one": "{{count}} record gekopieerd",
+      "copyRecord_other": "{{count}} records gekopieerd",
+      "copyRecord_zero": "{{count}} records gekopieerd",
+      "errors": {
+        "cellUpdateFailed": "Er is iets misgegaan. Vernieuw de pagina en probeer het opnieuw. Als dit probleem zich blijft voordoen, neem dan contact op met de ondersteuning.",
+        "invalidFFQL": "Controleer je zoekopdracht",
+        "invalidFFQLSearch": "Ongeldige FFQL-instructie",
+        "learnMore": "Meer informatie",
+        "recordsLoadFailed": "Laden van records mislukt"
+      }
+    },
+    "table": {
+      "cells": {
+        "enum": {
+          "loading": "Opties worden geladen...",
+          "loadingError": "Kan opties niet laden",
+          "noMatchesFound": "Geen matches gevonden",
+          "placeholder": "Tik hier...",
+          "seeMore": "Zoek om meer opties te zien"
+        },
+        "messages": {
+          "autogen": "✨ Automatisch gegenereerd",
+          "compositeUnique": "🧑‍🍳 Composiet {{name}} is niet uniek",
+          "invalidOption": "Ongeldige optie",
+          "invalidValue": "Waarde is geen geldige optie",
+          "reference": "Waarde bestaat niet in de referentietabel",
+          "req": "{{field}} is vereist",
+          "transformed": "🪄️ Getransformeerd van {{originalValue}}",
+          "unique": "Waarde is niet uniek"
+        }
+      },
+      "contextMenu": {
+        "filterByValue": {
+          "label": "Filteren op waarde",
+          "moreOptions": "De eerste {{pageSize}} opties worden weergegeven. Zoek om meer te zien.",
+          "noData": "geen gegevens",
+          "placeholder": "Waarden zoeken of selecteren..."
+        },
+        "findAndReplace": {
+          "findAndReplaceValues": "Zoek en vervang",
+          "modal": {
+            "cancelButton": "Annuleren",
+            "descriptionExactOnly": "Bulk-vervang alle tekst in deze kolom met een geldige waarde. We geven alleen exacte matches weer",
+            "descriptionPartialAndExact": "Bulk-vervang alle tekst in deze kolom. We ondersteunen zowel gedeeltelijke als exacte matches voor deze data",
+            "errors": {
+              "findError": "Er was een fout bij het zoeken van waardes",
+              "generalError": "Er is iets fout gegaan. Probeer het nogmaals",
+              "replaceError": "Er was een fout bij het vervangen van waarden"
+            },
+            "exactMatchesOnly": "Geef alleen exacte matches weer",
+            "finding": "Alle voorbeelden vinden",
+            "heading": "Zoek en vervang in {{columnName}}",
+            "isFiltered": "Deze dataset is gefilterd. Zoek en vervang wordt alleen op gefilterde records uitgevoerd.",
+            "replaceButton": "Vervang alles",
+            "replaceEmpty": {
+              "description": {
+                "addValues": "Dit zal alle legen cellen invullen in {{columnName}}",
+                "addValuesToAll": "Er zijn al lege cellen in {{columnName}}, je kunt deze bulk-opvallen met een geselecteerde waarde",
+                "addValuesToCount_one": "Er is {{formattedCount}} lege cel in {{columnName}}, je kunt dit bulk-opvullen met een geselecteerde waarde",
+                "addValuesToCount_other": "Er zijn {{formattedCount}} lege cellen in {{columnName}}, je kunt deze bulk-opvullen met een geselecteerde waarde",
+                "addValuesToCount_zero": "Er zijn {{formattedCount}} lege cellen in {{columnName}}, je kunt deze bulk-opvullen met een geselecteerde waarde.",
+                "noEmptyValues": "We konden geen lege cellen vinden in dit veld!"
+              },
+              "heading": {
+                "addValues": "Voeg een waarde toe aan lege cellen in {{columnName}}",
+                "addValuesToAll": "Voeg een waarde toe aan alle lege cellen in {{columnName}}",
+                "addValuesToCount_one": "Voeg een waarde toe aan {{formattedCount}} lege cel in {{columnName}}",
+                "addValuesToCount_other": "Voeg een waarde toe aan {{formattedCount}} lege cellen in  {{columnName}}",
+                "addValuesToCount_zero": "Voeg een waarde toe aan {{formattedCount}} lege cellen in {{columnName}}",
+                "noEmptyValues": "Geen lege waarden aangetroffen"
+              }
+            },
+            "replaceEnum": {
+              "moreOptions": "Eerste 100 opties worden getoond. Zoek om meer te zien.",
+              "noMatchesFound": "Geen matches gevonden",
+              "replaceWith": "Vervang met..."
+            },
+            "replaceValue": {
+              "leavingBlank": "Als dit veld leeg blijft, worden geselecteerde waardes verwijderd",
+              "noMatchesFound": "Geen waarden gevonden",
+              "replaceWith": "Vervang met..."
+            },
+            "replacing": "Waarden worden vervangen",
+            "runOnAllRecords": "Voer uit op alle records",
+            "searchForEmpty": "Als dit veld leeg is, zoeken we naar lege waarden",
+            "searchForText": "Zoek tekst...",
+            "searchResultsCount_one": "{{count}} match",
+            "searchResultsCount_other": "{{count}} matches",
+            "searchResultsCount_zero": "{{count}} matches"
+          },
+          "replaceEmptyValues": "Vervang lege waarden"
+        },
+        "pin": {
+          "apply": "Kolom vastpinnen",
+          "remove": "Pin verwijderen",
+          "tooltip": {
+            "maxPinned": "Je kunt maximaal drie kolommen vastpinnen. Verwijder een van de kolommen die momenteel vastgepind zijn om deze kolom vast te pinnen.",
+            "pin": "Prik deze kolom vast aan de linkerkant van de tabel",
+            "unpin": "Klik om deze kolom niet meer vast te pinnen"
+          }
+        },
+        "searchInField": {
+          "modal": {
+            "cancelButton": "Annuleren",
+            "placeholder": "Zoeken...",
+            "searchButton": "Zoek",
+            "searchWithin": "Zoek binnen"
+          },
+          "searchInThisField": "Zoek in dit veld"
+        },
+        "sort": {
+          "ascending": {
+            "apply": "Sorteren van A naar Z",
+            "remove": "Sortering van A naar Z verwijderen"
+          },
+          "descending": {
+            "apply": "Sorteren van Z naar A",
+            "remove": "Sortering van Z naar A verwijderen"
+          },
+          "tooltip": {
+            "notSorted": "Klik om te sorteren van A naar Z",
+            "sortedAsc": "Gesorteerd van A naar Z",
+            "sortedDes": "Gesorteerd van Z naar A"
+          }
+        }
+      },
+      "errors": {
+        "description": "De tabel heeft problemen met het weergeven van deze gegevens. Raadpleeg de console voor meer informatie over de fout.",
+        "title": "Er is iets misgegaan"
+      },
+      "header": {
+        "tooltip": {
+          "key": "sleutel: {{key}}",
+          "label": "label: {{label}}"
+        }
+      },
+      "indexRow": {
+        "tooltip": {
+          "createRow": "Voeg gegevens toe om deze rij te maken",
+          "noData": "Er zijn geen rijen beschikbaar om te selecteren. Alleen rijen met data kunnen geselecteerd worden.",
+          "rowNumber": "Rij {{number}}"
+        }
+      },
+      "maximumMessage": {
+        "plural": "...en nog {{hiddenRows}} rijen. Tabelweergaven ondersteunen wegens browserbeperkingen maximaal 500.000 records per keer. Zoeken, sorteren, filteren en bulkacties werken nog steeds op alle rijen die niet zichtbaar zijn.",
+        "singular": "...en nog 1 rij. Tabelweergaven ondersteunen wegens browserbeperkingen maximaal 500.000 records per keer. Zoeken, sorteren, filteren en bulkacties werken nog steeds op alle rijen die niet zichtbaar zijn."
+      },
+      "modals": {
+        "copyAlert": {
+          "cancelButton": "Annuleren",
+          "description": "We hebben gemerkt dat je meer dan 100 records probeert te selecteren. We beperken het kopiëren tot 100 records om de integriteit van je gegevens te behouden.",
+          "download": "Wil je dit blad downloaden als .csv?",
+          "downloadButton": "Downloaden",
+          "heading": "Wil je dit bestand downloaden?"
+        },
+        "deleteAlert": {
+          "description": "Het verwijderen van meer dan 100 bestaande records wordt op dit moment niet ondersteund. We hebben dit beperkt om een ​​betere ervaring te bieden, omdat we uw gegevens <1>intelligent wijzigen</1>.",
+          "dismissButton": "Sluiten",
+          "heading": "Je hebt onze limiet voor verwijderen bereikt!",
+          "tooltip": "Verwijder lege records, duplicaten enz."
+        },
+        "pasteAlert": {
+          "description": "Het plakken van meer dan 100 bestaande records wordt op dit moment niet ondersteund. We hebben dit beperkt om een betere ervaring te bieden terwijl we <1>op intelligente wijze je gegevens wijzigen</1>.",
+          "dismissButton": "Sluiten",
+          "heading": "Je hebt onze limiet voor plakken bereikt!",
+          "tooltip": "Verwijder lege records, duplicaten enz."
+        }
+      }
+    },
+    "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "Acties",
+        "placeholder": "Zoeken of selecteren..."
+      },
+      "aiAssist": {
+        "buttonText": "AI-assistentie",
+        "query": "Query",
+        "transform": "Transformeren"
+      },
+      "buttons": {
+        "delete": {
+          "modal": {
+            "cancelButton": "Annuleren",
+            "confirmButton": "Verwijder records",
+            "description": {
+              "infix": "geselecteerd",
+              "infixType": {
+                "invalid": "ongeldig",
+                "valid": "geldig"
+              },
+              "prefix": "Wilt u verwijderen de",
+              "suffix_one": "record?",
+              "suffix_other": "records?",
+              "suffix_zero": "records?"
+            },
+            "errorMessage": "Kan records niet verwijderen. Probeer opnieuw of wijzig uw selectie.",
+            "heading_one": "Verwijder record",
+            "heading_other": "Verwijder records",
+            "heading_zero": "Verwijder records",
+            "inProgress": "Dossiers verwijderen..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} record verwijderd",
+            "successMessage_other": "{{count}} records verwijderd",
+            "successMessage_zero": "{{count}} records verwijderd",
+            "successMessageNoCount": "Records verwijderd"
+          },
+          "tooltip": {
+            "active": "Geselecteerde records verwijderen",
+            "disabled": {
+              "deleteDisabled": "Records verwijderen is uitgeschakeld in dit blad.",
+              "noRecordsSelected": "Selecteer minstens één record om het te verwijderen"
+            }
+          }
+        },
+        "download": {
+          "modal": {
+            "cancelButton": "Annuleren",
+            "confirmButton": "Download records",
+            "description": {
+              "infix": "geselecteerd",
+              "infixType": {
+                "invalid": "ongeldig",
+                "valid": "geldig"
+              },
+              "prefix": "Wilt u downloaden het",
+              "suffix_one": "record?",
+              "suffix_other": "records?",
+              "suffix_zero": "records?"
+            },
+            "errorMessage": "Kon records niet downloaden. Probeer het nogmaals of wijzig je selectie.",
+            "heading_one": "Download record",
+            "heading_other": "Download records",
+            "heading_zero": "Download records",
+            "inProgress": "Records aan het downloaden"
+          },
+          "tooltip": {
+            "active": {
+              "invalidFilterApplied": "Alle ongeldige records downloaden",
+              "noRecordsSelected": "Dit blad downloaden",
+              "recordsSelected": "Geselecteerde records downloaden",
+              "validFilterApplied": "Alle geldige records downloaden"
+            },
+            "disabled": "Geen records om te downloaden"
+          }
+        }
+      },
+      "customActionsDropdown": {
+        "disabledTooltip": {
+          "hasData": "Deze actie wordt beschikbaar zodra er zich ten minste één verslag in deze sheet bevindt.",
+          "requireAllValid": "Voor deze actie moeten alle geselecteerde rijen geldig zijn",
+          "requireAllValidTotal": "Voor deze actie moeten alle rijen geldig zijn",
+          "requireSelection": "Selecteer één of meer records om deze actie te gebruiken"
+        }
+      },
+      "dropdown": {
+        "delete": "Verwijderen",
+        "download": "Downloaden"
+      },
+      "filterByError": {
+        "buttonText": "Filteren op fout",
+        "dropdownPlaceholder": "Zoeken of selecteren..."
+      },
+      "filters": {
+        "all": "Alles",
+        "invalid": "Ongeldig",
+        "tooltip": {
+          "countsError": "Fout bij het laden van aantallen",
+          "countsErrorRetry": "Klik om opnieuw te proberen",
+          "filter": {
+            "invalid": "ongeldig",
+            "total": "totaal",
+            "valid": "geldig"
+          },
+          "filtered": "Deze dataset is gefilterd om {{filteredCount}} van de {{countString}} {{filter}}-records te tonen.",
+          "filteredByError": "Deze dataset is gefilterd via het foutenfilter om {{filteredCount}} van de {{countString}} {{filter}}-records te tonen.",
+          "filteredByFFQL": {
+            "branded": "Deze dataset is gefilterd via de Flatfile Query Language om {{filteredCount}} van de {{countString}} {{filter}}-records te tonen.",
+            "whitelabeled": "Deze dataset is gefilterd om {{filteredCount}} van de {{countString}} {{filter}}-records te tonen."
+          },
+          "filteredBySearch": "Deze dataset is gefilterd via zoeken om {{filteredCount}} van de {{countString}} {{filter}}-records te tonen.",
+          "filteredBySearchAndError": "Deze dataset is gefilterd via zoeken en het foutenfilter om {{filteredCount}} van de {{countString}} {{filter}}-records te tonen.",
+          "inactiveCount": "{{countString}} {{filter}} records, {{filteredCount}} gefilterd"
+        },
+        "valid": "Geldig"
+      },
+      "moreActions": {
+        "buttonText": "Meer acties",
+        "placeholder": "Zoeken of selecteren..."
+      },
+      "savedViews": {
+        "buttonText": "Weergaven",
+        "groups": {
+          "allViews": "ALLE WEERGAVEN",
+          "myViews": "MIJN WEERGAVEN"
+        },
+        "modalHeader": "Opgeslagen weergaven",
+        "modalSubheader": "Selecteer een opgeslagen weergave om toe te passen op dit blad.",
+        "searchPlaceholder": "Zoeken of selecteren...",
+        "tooltip": "Weergave toepassen en link kopiëren",
+        "viewAppliedPopover": "Je weergave is opgeslagen en gekopieerd naar het klembord!"
+      },
+      "saveView": {
+        "buttons": {
+          "cancel": "Annuleren",
+          "copy": {
+            "label": "Kopiëren om te delen",
+            "successLabel": "Gekopieerd naar klembord!",
+            "warningTooltip": "Alleen mensen met toegang tot deze Ruimte kunnen de link openen."
+          },
+          "save": {
+            "label": "Weergave opslaan",
+            "labelActive": "Weergave wordt opgeslagen"
+          }
+        },
+        "error": {
+          "saveText": "Kan de weergave niet opslaan - probeer het opnieuw."
+        },
+        "headings": {
+          "saveHeader": "Weergave opslaan",
+          "saveSubheader": "Kies een naam die het doel van deze weergave weergeeft. Zo kunnen gebruikers het gebruik ervan gemakkelijk herkennen.",
+          "shareHeader": "Delen"
+        },
+        "nameViewInput": {
+          "helperText": "Onthoud dat deze weergave zichtbaar is voor iedereen die toegang heeft tot dit blad.",
+          "label": "naam",
+          "placeholder": "Weergave van {{timestamp}}"
+        },
+        "summary": {
+          "filter": "records die",
+          "filterFieldpt1": "als",
+          "filterFieldpt2": "heeft fout",
+          "invalid": "Ongeldig",
+          "q": "waar",
+          "searchValue": "enigerlei veld met inbegrip van",
+          "title": "Samenvatting",
+          "valid": "Geldig"
+        }
+      },
+      "searchBar": {
+        "expandTooltip": "Open zoeken en AI-assist",
+        "placeholder": "Zoeken...",
+        "tooltip": "Druk op enter om te zoeken"
+      },
+      "tooltips": {
+        "lockedUntilEditingCompletes": "De toolbar wordt beschikbaar zodra de sheet niet meer bewerkt wordt",
+        "lockedUntilHookCompletes": "De werkbalk is beschikbaar nadat alle hooks zijn uitgevoerd.",
+        "lockedUntilJobCompletes": "De werkbalk is beschikbaar nadat de huidige taak is voltooid."
+      }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "hasData": "Deze actie wordt beschikbaar zodra er zich ten minste één verslag in dit werkboek bevindt.",
+        "hasPendingValidation": "De validatie van uw werkmap is op dit moment aan de gang...",
+        "lockedUntilEditingCompletes": "De actie is beschikbaar wanneer het blad niet langer wordt bewerkt",
+        "lockedUntilHookCompletes": "Deze actie wordt beschikbaar nadat alle hooks gedraaid zijn",
+        "lockedUntilJobCompletes": "Deze actie wordt beschikbaar nadat de huidige taak is voltooid",
+        "requireAllValid": "Deze actie vereist dat alle rijen in alle bladen geldig zijn"
+      }
+    }
+  },
+  "sidebar": {
+    "addConnection": "Verbinding toevoegen",
+    "checklist": "Gegevenschecklist",
+    "connections": {
+      "tooltips": {
+        "connectionError": "Er is een probleem met het verifiëren van de metagegevens van de verbindingen van deze werkmap",
+        "connectionFresh": "Verbonden met {{source}} via {{service}}",
+        "connectionStale": "Laatst gesynchroniseerd met {{source}} meer dan 24 uur geleden"
+      }
+    },
+    "emptyWorkbook": "Leeg werkboek",
+    "files": "Bestanden",
+    "lockedIconTooltip": "Dit werkblad is vergrendeld",
+    "readOnlyIconTooltip": "Dit Blad is alleen-lezen",
+    "spaceSwitcher": {
+      "placeholder": "Een ruimte zoeken of selecteren ..."
+    },
+    "toggle": {
+      "hide": "Zijbalk verbergen",
+      "show": "Zijbalk tonen"
+    }
+  },
+  "snapshot": {
+    "accept": {
+      "cancelButton": "Annuleren",
+      "cancelError": "De wijzigingen konden niet teruggedraaid worden vanwege een onverwachte fout.",
+      "cancelSuccess": "Wijzigingen in uw sheet zijn succesvol teruggedraaid.",
+      "empty": {
+        "createdSince": "Dit snapshot heeft geen verwijderde records.",
+        "deletedSince": "Dit snapshot heeft geen toegevoegde records.",
+        "title": "Niets te zien!",
+        "updatedSince": "Dit snapshot heeft geen gewijzigde records."
+      },
+      "errorMessage": "De wijzigingen in de momentopname konden niet toegepast worden vanwege een onverwachte fout.",
+      "filters": {
+        "createdSince": "Verwijderd",
+        "deletedSince": "Toegevoegd",
+        "updatedSince": "Gewijzigd"
+      },
+      "header": {
+        "title": "Wijzigingen aangebracht in",
+        "titleWithMeta": "Wijzigingen aangebracht in <1>{{sheet}}</1> door <3>{{action}}</3>"
+      },
+      "message": "Bij het accepteren van wijzigingen worden alle nieuwe waarden in je blad {{name}} samengevoegd.",
+      "submitButton": "Accepteer wijzigingen",
+      "submitError": "De wijzigingen in de momentopname konden niet toegepast worden vanwege een onverwachte fout.",
+      "submitSuccess": "De wijzigingen in je blad zijn succesvol toegepast.",
+      "successMessage": "De wijzigingen zijn toegepast op je blad.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} cellen in veld {{name}}",
+            "last": " en {{cells}} cellen in veld {{name}}",
+            "middle": ", {{cells}} cellen in veld {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Veld {{name}} wordt verwijderd",
+              "last": " en veld {{name}} wordt verwijderd",
+              "middle": ", veld {{name}} wordt verwijderd"
+            },
+            "removed": {
+              "first": "veld {{name}} wordt opnieuw toegevoegd",
+              "last": " en veld {{name}} wordt opnieuw toegevoegd",
+              "middle": ", veld {{name}} wordt opnieuw toegevoegd"
+            }
+          },
+          "singular": {
+            "first": "1 cel in veld {{name}}",
+            "last": " en 1 cel in veld {{name}}",
+            "middle": ", 1 cel in veld {{name}}"
+          },
+          "start": " Gegevens zijn gewijzigd in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Gegevens gewijzigd in {{records}} records in {{fields}} velden.",
+            "noFields": "Gegevens gewijzigd in {{records}} records.",
+            "oneField": "Gegevens gewijzigd in {{records}} records in 1 veld."
+          },
+          "singular": {
+            "multipleFields": "Data gewijzigd in 1 record in {{fields}} velden.",
+            "noFields": "Data gewijzigd in 1 record.",
+            "oneField": "Dat gewijzigd in1 record in 1 veld."
+          }
+        }
+      },
+      "title": "Wijzigingen aangebracht in"
+    },
+    "cells": {
+      "messages": {
+        "accept": "Als u de wijzigingen accepteert, worden alle nieuwe waarden samengevoegd in uw dataset.",
+        "current": "Huidige waarde: {{value}}",
+        "empty": "geen gegevens",
+        "none": "Je dataset wordt aangepast naar de getoonde waarden.",
+        "restore": "Uw dataset wordt hersteld naar de versie in deze momentopname.",
+        "snapshot": "Nieuwe waarde: {{value}}"
+      }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "Er zullen geen records worden verwijderd.",
+        "deletedSince": "Er zullen geen records worden toegevoegd.",
+        "title": "Niets te zien!",
+        "updatedSince": "Er zullen geen records worden aangepast."
+      },
+      "errorMessage": "De wijzigingen konden niet vooraf worden bekeken vanwege een onverwachte fout.",
+      "filters": {
+        "createdSince": "Toevoegen",
+        "deletedSince": "Verwijderen",
+        "updatedSince": "Aanpassen"
+      },
+      "header": {
+        "title": "Wijzigingen aangebracht in",
+        "titleWithMeta": "Wijzigingen aan 1>{{sheet}}</1> controleren"
+      },
+      "message": "De tabel hieronder toont de wijzigingen in je blad {{name}}.",
+      "submitError": "De gegevens konden niet worden getransformeerd vanwege een onverwachte fout.",
+      "submitSuccess": "De wijzigingen in je blad zijn succesvol toegepast.",
+      "successMessage": "De wijzigingen zijn toegepast op je blad.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} cellen in veld {{name}}",
+            "last": " en {{cells}} cellen in veld {{name}}",
+            "middle": ", {{cells}} cellen in veld {{name}}"
+          },
+          "singular": {
+            "first": "1 cel in veld {{name}}",
+            "last": " en 1 cel in veld {{name}}",
+            "middle": ", 1 cel in veld {{name}}"
+          },
+          "start": " Gegevens worden aangepast in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Gegevens worden gewijzigd in {{records}} records binnen {{fields}} velden.",
+            "noFields": "Gegevens worden gewijzigd in {{records}} records.",
+            "oneField": "Gegevens worden gewijzigd in {{records}} records binnen 1 veld."
+          },
+          "singular": {
+            "multipleFields": "Gegevens worden gewijzigd in 1 record binnen {{fields}} velden.",
+            "noFields": "Gegevens worden gewijzigd in 1 record.",
+            "oneField": "Gegevens worden gewijzigd in 1 record binnen 1 veld."
+          }
+        }
+      },
+      "title": "Bekijk een voorbeeld van wijzigingen die zijn gemaakt in"
+    },
+    "preview": {
+      "cancelButton": "Annuleren",
+      "empty": {
+        "createdSince": "Dit voorbeeld bevat geen bestanden die verwijderd worden.",
+        "deletedSince": "Dit voorbeeld bevat geen bestanden die toegevoegd worden.",
+        "title": "Niets te zien!",
+        "updatedSince": "Dit voorbeeld bevat geen bestanden die gewijzigd worden."
+      },
+      "errorMessage": "De wijzigingen konden niet vooraf worden bekeken vanwege een onverwachte fout.",
+      "filters": {
+        "createdSince": "Verwijderen",
+        "deletedSince": "Toevoegen",
+        "updatedSince": "Aanpassen"
+      },
+      "header": {
+        "title": "Wijzigingen aangebracht in",
+        "titleWithMeta": "Preview geven van wijzigingen in <1>{{sheet}}</1> door <3>{{aiAction}}</3> prompt"
+      },
+      "message": "Uw sheet {{name}} wordt hersteld naar de versie in deze snapshot.",
+      "submitButton": "Transformeer data",
+      "submitError": "De gegevens konden niet worden getransformeerd vanwege een onverwachte fout.",
+      "submitSuccess": "De wijzigingen in je blad zijn succesvol toegepast.",
+      "successMessage": "De wijzigingen zijn toegepast op je blad.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} cellen in veld {{name}}",
+            "last": " en {{cells}} cellen in veld {{name}}",
+            "middle": ", {{cells}} cellen in veld {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Veld {{name}} wordt verwijderd",
+              "last": " en veld {{name}} wordt verwijderd",
+              "middle": ", veld {{name}} wordt verwijderd"
+            },
+            "removed": {
+              "first": "veld {{name}} wordt opnieuw toegevoegd",
+              "last": " en veld {{name}} wordt opnieuw toegevoegd",
+              "middle": ", veld {{name}} wordt opnieuw toegevoegd"
+            }
+          },
+          "singular": {
+            "first": "1 cel in veld {{name}}",
+            "last": " en 1 cel in veld {{name}}",
+            "middle": ", 1 cel in veld {{name}}"
+          },
+          "start": " Gegevens worden aangepast in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Gegevens worden gewijzigd in {{records}} records binnen {{fields}} velden.",
+            "noFields": "Gegevens worden gewijzigd in {{records}} records.",
+            "oneField": "Gegevens worden gewijzigd in {{records}} records binnen 1 veld."
+          },
+          "singular": {
+            "multipleFields": "Gegevens worden gewijzigd in 1 record binnen {{fields}} velden.",
+            "noFields": "Gegevens worden gewijzigd in 1 record.",
+            "oneField": "Gegevens worden gewijzigd in 1 record binnen 1 veld."
+          }
+        }
+      },
+      "title": "Bekijk een voorbeeld van wijzigingen die zijn gemaakt in"
+    },
+    "restore": {
+      "cancelButton": "Annuleren",
+      "empty": {
+        "createdSince": "Deze snapshot heeft geen records die verwijderd worden.",
+        "deletedSince": "Deze snapshot heeft geen records die toegevoegd worden.",
+        "title": "Niets te zien!",
+        "updatedSince": "Deze snapshot heeft geen records die gewijzigd worden."
+      },
+      "errorMessage": "De momentopname kon niet hersteld worden vanwege een onverwachte fout.",
+      "filters": {
+        "createdSince": "Verwijderen",
+        "deletedSince": "Toevoegen",
+        "updatedSince": "Aanpassen"
+      },
+      "header": {
+        "title": "Wijzigingen om toe te passen in"
+      },
+      "message": "Uw sheet {{name}} wordt hersteld naar de versie in deze snapshot.",
+      "submitButton": "Herstel",
+      "submitError": "De momentopname kon niet hersteld worden vanwege een onverwachte fout.",
+      "submitSuccess": "Uw sheet is teruggezet naar een eerdere versie.",
+      "successMessage": "Uw sheet is teruggezet naar een eerdere versie.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} cellen in veld {{name}}",
+            "last": " en {{cells}} cellen in veld {{name}}",
+            "middle": ", {{cells}} cellen in veld {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Veld {{name}} wordt verwijderd",
+              "last": " en veld {{name}} wordt verwijderd",
+              "middle": ", veld {{name}} wordt verwijderd"
+            },
+            "removed": {
+              "first": "veld {{name}} wordt opnieuw toegevoegd",
+              "last": " en veld {{name}} wordt opnieuw toegevoegd",
+              "middle": ", veld {{name}} wordt opnieuw toegevoegd"
+            }
+          },
+          "singular": {
+            "first": "1 cel in veld {{name}}",
+            "last": " en 1 cel in veld {{name}}",
+            "middle": ", 1 cel in veld {{name}}"
+          },
+          "start": " Gegevens worden aangepast in "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Gegevens worden gewijzigd in {{records}} records binnen {{fields}} velden.",
+            "noFields": "Gegevens worden gewijzigd in {{records}} records.",
+            "oneField": "Gegevens worden gewijzigd in {{records}} records binnen 1 veld."
+          },
+          "singular": {
+            "multipleFields": "Gegevens worden gewijzigd in 1 record binnen {{fields}} velden.",
+            "noFields": "Gegevens worden gewijzigd in 1 record.",
+            "oneField": "Gegevens worden gewijzigd in 1 record binnen 1 veld."
+          }
+        }
+      },
+      "title": "Wijzigingen om toe te passen in"
+    },
+    "tooltips": {
+      "sheet": "{{sheet}} in {{workbook}}"
+    }
+  },
+  "spaceLoadingMessage": "Ruimte voorbereiden...",
+  "utils": {
+    "buttons": {
+      "clearAll": "Alles wissen",
+      "clearAllLabel": "Alles wissen",
+      "selectAll": "Alles selecteren",
+      "selectAllLabel": "Alles selecteren"
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "Gebruik een apparaat met een groter scherm om toegang te krijgen tot alle functies. We kunnen niet garanderen dat alle functies werken zoals verwacht op dit schermformaat.",
+        "button": "Toch doorgaan",
+        "title": "Scherm te klein"
+      }
+    },
+    "poweredByFlatfile": "Mogelijk gemaakt door Flatfile"
+  },
+  "versionHistory": {
+    "modals": {
+      "default": {
+        "description": "Er is een onverwachte fout opgetreden - geen overeenkomende actie toegepast"
+      },
+      "delete": {
+        "confirm": {
+          "closeButton": "Sluiten",
+          "description": "Weet je zeker dat je de geselecteerde versie wilt verwijderen?",
+          "heading": "Versie verwijderen",
+          "proceedButton": "Verwijderen"
+        },
+        "error": {
+          "closeButton": "Sluiten",
+          "description": "De geselecteerde versie kon niet worden verwijderd vanwege een onverwachte fout - als het probleem aanhoudt, neem dan contact op met ondersteuning",
+          "heading": "Versie kan niet worden verwijderd",
+          "retryButton": "Opnieuw proberen"
+        },
+        "success": {
+          "closeButton": "Sluiten",
+          "description": "De geselecteerde versie is verwijderd.",
+          "heading": "Versie verwijderd"
+        }
+      }
+    },
+    "panel": {
+      "empty": "Eenmaal gegenereerde versies verschijnen hier. Versies worden automatisch gegenereerd, vaak wanneer een bulktransformatie van gegevens plaatsvindt.",
+      "generatedSnapshot": "Snapshot gegenereerd vóór het toepassen van AI Transform voor prompt: ",
+      "generatedSnapshotForAiTransform": "Snapshot gegenereerd vóór het toepassen van AI Transform voor prompt: ",
+      "generatedSnapshotForBulkDelete": "Snapshot gegenereerd vóór het verwijderen van records",
+      "generatedSnapshotForFindReplace": "Snapshot gemaakt voordat Zoeken en vervangen werd toegepast",
+      "heading": "Versiegeschiedenis",
+      "thisMonth": "Deze maand",
+      "versionRestored": "Versie gemaakt vóór het terugzetten van een vorige versie"
+    },
+    "pill": {
+      "hoverText": "Versiegeschiedenis"
+    }
+  }
+}

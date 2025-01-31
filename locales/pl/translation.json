@@ -1,0 +1,1493 @@
+{
+  "aiTransform": {
+    "changedColumnsText_few": "Kolumny ze zmienionymi danymi: {{count}}",
+    "changedColumnsText_many": "Kolumny ze zmienionymi danymi: {{count}}",
+    "changedColumnsText_one": "1 kolumna ze zmienionymi danymi",
+    "changedColumnsText_other": "Kolumny ze zmienionymi danymi: {{count}}",
+    "changedColumnsText_zero": "Kolumny ze zmienionymi danymi: {{count}}",
+    "errors": {
+      "entilementError": {
+        "content": "Jeśli uważasz, że jest to błąd, skontaktuj się z obsługą klienta.",
+        "title": "Przepraszamy! Nie masz dostępu do tej funkcji."
+      },
+      "generalError": {
+        "title": "Coś poszło nie tak. Spróbuj ponownie."
+      },
+      "generateMutationError": {
+        "title": "Nie można połączyć się z AI. Spróbuj ponownie później."
+      },
+      "invalidFunctionError": {
+        "content": "Najprawdopodobniej poprosiłeś go o zrobienie czegoś nieprawidłowego.",
+        "title": "Niestety, asystent AI nie jest w stanie wykonać tej transformacji."
+      },
+      "keysModifiedError": {
+        "title": "Niestety, asystent AI może jedynie modyfikować wartości istniejących pól. Nie może usuwać pól ani dodawać nowych."
+      },
+      "noFunctionError": {
+        "content": "Spróbuj sformułować je inaczej. Zapytania zawierające nazwy pól są zazwyczaj bardziej skuteczne.",
+        "title": "Nie mogliśmy zrozumieć twojego zapytania."
+      },
+      "noRecordsFoundError": {
+        "content": "Nie znaleziono rekordów dla podanego pytania. Spróbuj ponownie.",
+        "title": "Nie znaleziono rekordów"
+      },
+      "noresultsError": {
+        "content": "Spróbuj sformułować je inaczej. Zapytania zawierające nazwy pól są zazwyczaj bardziej skuteczne.",
+        "title": "Twoje zapytanie nie przekształciło żadnych danych."
+      },
+      "prompttoolongError": {
+        "content": "Spróbuj skrócić zapytanie lub podzielić je na kilka kroków i spróbuj ponownie.",
+        "title": "Przepraszamy! Twoje zapytanie było trochę za długie."
+      },
+      "versionError": {
+        "content": "Nie udało się utworzyć wersji do przywrócenia.",
+        "title": "Coś poszło nie tak. Spróbuj ponownie."
+      }
+    },
+    "exitConfirmation": {
+      "body": "Czy na pewno chcesz wyjść?",
+      "header": "Potwierdzenie wyjścia",
+      "label": "Wyjdź"
+    },
+    "jobCompleteHeading": "Zakończono zadanie transformacji AI",
+    "jobCompleteMessage": "Rekordy zostały przekształcone",
+    "promptBar": {
+      "categoricalWarning": "To pole zawiera zbyt wiele opcji do wykonania transformacji AI.",
+      "transformButton": {
+        "tooltip": {
+          "active": "Opisz, w jaki sposób dane w polu mają być przekształcane w oparciu o dowolną logikę, w tym dane w dowolnym polu",
+          "disabled": "Aby skorzystać z asystenta AI, Twój (przefiltrowany) arkusz musi zawierać rekordy.",
+          "locked": "Arkusz jest zablokowany.",
+          "noRows": "Aby skorzystać z asystenta AI, Twój (przefiltrowany) arkusz musi zawierać rekordy.",
+          "readOnly": "Arkusz jest tylko do odczytu.",
+          "tooManyRows": "Arkusz ma zbyt wiele wierszy (ponad 1 milion)."
+        }
+      },
+      "warning": "Uwaga: Niektóre pola kategoryczne w twoim zbiorze danych mają wiele skonfigurowanych opcji. Korzystanie z tych pól (takich jak @{{fieldName}}) w zapytaniu może nie działać zgodnie z oczekiwaniami."
+    },
+    "sampleMessage": "Podgląd {{number}} rekordów",
+    "scrollInfoText": "Przewiń do następnej zmienionej kolumny",
+    "toggleLabel": "Pokaż tylko zmodyfikowane dane"
+  },
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "Nie można utworzyć osadzonego narzędzia Diff z powodu nieprawidłowej właściwości 'direction'. Prawidłowe wartości to: 'sheet_to_snapshot', 'snapshot_to_sheet'",
+        "missingIds": "Nie można utworzyć osadzonego narzędzia Diff z powodu brakującego ID arkusza, skoroszytu lub migawki"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "Nie można utworzyć arkusza osadzonego z powodu braku identyfikatora arkusza lub skoroszytu."
+      }
+    }
+  },
+  "checklist": {
+    "dropdowns": {
+      "headings": {
+        "sheet": "Arkusz",
+        "workbook": "Skoroszyt"
+      }
+    },
+    "errors": {
+      "cannotLoadChecklist": "Nie można załadować listy kontrolnej danych",
+      "cannotLoadSheet": "Nie można znaleźć arkusza",
+      "noWorkbooksDescription": "Lista kontrolna danych wymaga co najmniej 1 aktywnego skoroszytu. Poproś programistę o sprawdzenie konfiguracji. Jeśli problem nie ustąpi, skontaktuj się z pomocą techniczną.",
+      "noWorkbooksTitle": "Skoroszyt wymagany"
+    },
+    "table": {
+      "dataTypes": {
+        "boolean": "Boolean",
+        "date": "Data",
+        "enum": "Enum",
+        "number": "Liczba",
+        "reference": "Referencja",
+        "string": "Ciąg",
+        "unknown": "Nieznane"
+      },
+      "fieldTagComputed": "Obliczone",
+      "fieldTagRequired": "Wymagane",
+      "fieldTagUnique": "Unikalne",
+      "headings": {
+        "dataType": "Typ danych",
+        "description": "Opis",
+        "field": "Nazwa pola"
+      }
+    },
+    "title": "Lista kontrolna danych"
+  },
+  "commandMenu": {
+    "aiAssist": {
+      "query": {
+        "askingAI": {
+          "stepFour": "Kończenie w toku",
+          "stepOne": "Myślenie w toku",
+          "stepThree": "Wykonywanie akcji",
+          "stepTwo": "Pisanie w toku"
+        },
+        "description": {
+          "branded": "poproś SI o napisanie zapytania w języku FFQL",
+          "whitelabeled": "poproś SI o napisanie zapytania"
+        },
+        "errorBanner": {
+          "generalError": "Coś poszło nie tak. Spróbuj ponownie."
+        },
+        "instruction": "Opisz, w jaki sposób asystent AI ma przeszukać dane:",
+        "review": {
+          "description": "Oto moje propozycje. Przeczytaj wyjaśnienie krok po kroku i zapytanie, i jeśli wszystko jest w porządku, kliknij poniżej, aby je zastosować.",
+          "explanationTitle": "Wyjaśnienie",
+          "queryTitle": "Pytanie"
+        }
+      },
+      "transform": {
+        "askingAI": {
+          "stepFour": "Kończenie w toku",
+          "stepOne": "Myślenie w toku",
+          "stepThree": "Wykonywanie akcji",
+          "stepTwo": "Pisanie w toku"
+        }
+      }
+    },
+    "buttons": {
+      "apply": "Zastosuj",
+      "cancel": "Anuluj"
+    },
+    "commands": {
+      "filter": {
+        "apply": "Zastosuj filtr.",
+        "description": {
+          "branded": "napisz instrukcję w języku FFQL",
+          "whitelabeled": "napisz zapytanie"
+        },
+        "hiddenColumnsWarning_few": "{{count}} pola zostaną odkryte w ramach tego zapytania: {{fields}}",
+        "hiddenColumnsWarning_many": "{{count}} pól zostanie odkrytych w ramach tego zapytania: {{fields}}",
+        "hiddenColumnsWarning_one": "1 pole zostanie odkryte w ramach tego zapytania: {{fields}}",
+        "hiddenColumnsWarning_other": "{{count}} pola/pól zostaną/zostanie odkryte/odkrytych w ramach tego zapytania: {{fields}}",
+        "hiddenColumnsWarning_zero": "{{count}} pól zostanie odkrytych w ramach tego zapytania: {{fields}}",
+        "invalidFFQL": "Nieprawidłowe oświadczenie FFQL. Chcesz spróbować ponownie?",
+        "learnHow": "dowiedz się, jak"
+      },
+      "search": {
+        "global": {
+          "apply": "Zastosuj wyszukiwanie.",
+          "description": "przeszukać cały arkusz"
+        },
+        "inField": {
+          "apply": "Zastosuj wyszukiwanie do pola.",
+          "applyExample": "np. 'first_name' Janina Kowalska",
+          "description": "wyszukać w obrębie pola"
+        }
+      }
+    },
+    "itemMessage": "naciśnij ikonę {{icon}}, aby zastosować",
+    "placeholder": "Znajdź lub zrób cokolwiek..."
+  },
+  "comments": {
+    "addReaction": "Dodaj reakcję",
+    "commentDisabledTooltip": "Wybierz komórkę lub wiersz, aby dodać komentarz",
+    "delete": "Usuń komentarz",
+    "edit": "Edytuj komentarz",
+    "edited": " (edytowano)",
+    "noResults": "Brak pasujących",
+    "placeholder": "Dodaj swój komentarz tutaj...",
+    "reactionList": "<0></0> zareagował(a) {{emoji}}",
+    "resolve": "Rozwiąż wątek",
+    "send": "Wyślij komentarz",
+    "threadPlaceholder": "Odpowiedz lub wspomnij innych za pomocą @...",
+    "you": "Ty"
+  },
+  "document": {
+    "error": {
+      "description": "Wydaje się, że ten dokument nie istnieje",
+      "title": "Nie znaleziono dokumentu"
+    }
+  },
+  "errors": {
+    "documentNotFound": "Nie znaleziono dokumentu",
+    "fileNotFound": "Nie znaleziono pliku",
+    "missingParameter": "Parametr nie został podany",
+    "notFound": "Nie znaleziono",
+    "notFoundPageDescription": "Pod tym adresem URL nie istnieje żadna strona. Jeśli jest to nieoczekiwane, skontaktuj się z pomocą techniczną.",
+    "refreshButton": "Spróbuj ponownie",
+    "refreshPageDescription": "Odśwież stronę, aby spróbować ponownie. Jeśli problem nie ustąpi, skontaktuj się z pomocą techniczną.",
+    "returnToDashboardButton": "Powrót do Pulpitu",
+    "sessionExpired": "Sesja wygasła",
+    "sheetNotFound": "Nie znaleziono arkusza",
+    "spaceNotFound": "Nie znaleziono przestrzeni",
+    "unauthorized": "Twoje poświadczenia dostępu są nieprawidłowe.",
+    "unknownError": "Coś poszło nie tak",
+    "workbookNotFound": "Nie znaleziono skoroszytu"
+  },
+  "files": {
+    "availableDownloadsTab": "Dostępne do pobrania",
+    "buttons": {
+      "addFile": {
+        "inProgressText": "Przesyłanie pliku",
+        "text": "Prześlij plik"
+      },
+      "addFileFrom": {
+        "box": "Pole",
+        "googleDrive": "Dysk Google",
+        "text": "Dodaj plik z..."
+      },
+      "delete": "Usuń",
+      "download": "Pobierz",
+      "googleDrive": "Dodaj plik z Google Drive"
+    },
+    "connectionsModal": {
+      "box": "Pole",
+      "close": "Zamknij",
+      "googleDrive": "Dysk Google",
+      "heading": "Zarządzaj połączeniami",
+      "manage": "Zarządzaj",
+      "subtext": " Kliknij poniższe przyciski, aby zalogować się lub wylogować ze swoich kont."
+    },
+    "contextMenu": {
+      "delete": "Usuń",
+      "download": "Pobierz"
+    },
+    "counts": "{{start}}-{{end}} z {{total}}",
+    "deleteModal": {
+      "downloadDescription_few": "Pobrane pliki zostaną usunięte z przestrzeni.",
+      "downloadDescription_many": "Pobrane pliki zostaną usunięte z przestrzeni.",
+      "downloadDescription_one": "Pobrany plik zostanie usunięty z przestrzeni.",
+      "downloadDescription_other": "Pobrane pliki zostaną usunięte z przestrzeni.",
+      "downloadDescription_zero": "Pobrane pliki zostaną usunięte z przestrzeni. ",
+      "heading_few": "Usuń pliki",
+      "heading_many": "Usuń pliki",
+      "heading_one": "Usuń plik",
+      "heading_other": "Usuń pliki",
+      "heading_zero": "Usuń pliki",
+      "subheading_few": "Pliki:",
+      "subheading_many": "Pliki:",
+      "subheading_one": "Plik:",
+      "subheading_other": "Pliki:",
+      "subheading_zero": "Pliki:",
+      "uploadsDescription_few": "Wszystkie zaimportowane dane zostaną zapisane. Spowoduje to usunięcie plików z przestrzeni.",
+      "uploadsDescription_many": "Wszystkie zaimportowane dane zostaną zapisane. Spowoduje to usunięcie plików z przestrzeni.",
+      "uploadsDescription_one": "Wszystkie zaimportowane dane zostaną zapisane. Spowoduje to usunięcie pliku z przestrzeni.",
+      "uploadsDescription_other": "Wszystkie zaimportowane dane zostaną zapisane. Spowoduje to usunięcie plików z przestrzeni.",
+      "uploadsDescription_zero": "Wszystkie zaimportowane dane zostaną zapisane. Spowoduje to usunięcie plików z przestrzeni."
+    },
+    "downloadsTable": {
+      "headings": {
+        "createdDate": "Wygenerowano",
+        "name": "Nazwa",
+        "size": "Rozmiar",
+        "sourceSheet": "Arkusz źródłowy"
+      },
+      "processing": "Eksportowanie..."
+    },
+    "emptyState": {
+      "downloads": {
+        "description": "Pobrane dane pojawią się tutaj",
+        "heading": "Brak dostępnych plików do pobrania"
+      },
+      "uploads": {
+        "description": "Aby zacząć, przeciągnij i upuść plik lub go wczytaj.",
+        "heading": "Dodaj pliki"
+      }
+    },
+    "errors": {
+      "loadingError": "Nie można załadować plików",
+      "uploadDisabledDescription": "Jeśli uważasz, że jest to błąd, skontaktuj się z pomocą techniczną.",
+      "uploadDisabledHeading": "Ta przestrzeń nie obsługuje obecnie przesyłania plików."
+    },
+    "title": "Pliki",
+    "uploadedFilesTab": "Przesłane pliki",
+    "uploadFile": {
+      "popovers": {
+        "errorUploading": "Nie można przesłać pliku: {{fileName}}",
+        "extracting": "Wyodrębnianie pliku...",
+        "extractionCompleted": "Wyodrębnianie zakończone.",
+        "extractionFailed": "Wyodrębnianie nie powiodło się. Spróbuj ponownie lub skontaktuj się z pomocą techniczną.",
+        "onDragPopoverConfirmation": "Upuszczanie pliku do:",
+        "unsupportedFile": "Nieobsługiwany typ pliku. Wypróbuj inny typ pliku lub skontaktuj się z pomocą techniczną.",
+        "unsupportedFileInfo": "Nie wykryliśmy danych w tym pliku. W razie potrzeby możesz go pobrać.",
+        "uploadComplete": "Przesłano: {{fileName}}",
+        "uploadCompleteMany": "Przesłano {{count}} pliki(-ów)",
+        "uploadError": "Błąd przesyłania pliku {{fileName}}",
+        "uploadErrorMany": "Błąd przesyłania {{count}} plików",
+        "uploadingMany": "Przesyłanie {{count}} plików",
+        "uploadInProgress": "Przesyłanie: {{fileName}}",
+        "uploadInProgressMany": "Przesyłanie {{count}} plików",
+        "uploadsDisabled": "Ta przestrzeń nie obsługuje obecnie przesyłania plików.",
+        "waitingForExtraction": "Oczekiwanie na wyodrębnienie pliku..."
+      }
+    },
+    "uploadsTables": {
+      "headings": {
+        "name": "Nazwa",
+        "status": "Status",
+        "uploadedDate": "Przesłano"
+      },
+      "importButton": "Import",
+      "importError": "Nie można zlokalizować pliku źródłowego do zaimportowania – spróbuj ponownie. Jeśli problem nadal występuje, skontaktuj się z pomocą techniczną.",
+      "tooltips": {
+        "cannotImport": "Importowanie do skoroszytu nie jest obecnie dostępne dla tego pliku",
+        "noExtension": "Ten plik nie ma rozszerzenia. Dodaj prawidłowe rozszerzenie do nazwy pliku i prześlij plik ponownie, aby zaimportować go do skoroszytu."
+      }
+    }
+  },
+  "guestInvite": {
+    "getNewAccessLink": {
+      "content": "Wysłaliśmy bezpieczny link dostępu na adres",
+      "finePrint": "Jeśli nie udało Ci się zlokalizować wiadomości e-mail, sprawdź folder spamu lub odśwież tę stronę i wyslemy Ci nowy link dostępu. Link będzie aktywny przez 5 minut.",
+      "heading": "Sprawdź swoją skrzynkę odbiorczą"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "Czy na pewno chcesz zamknąć to okno? Spowoduje to zakończenie bieżącej sesji importu danych.",
+        "primaryButtonText": "Tak, wyjdź",
+        "secondaryButtonText": "Nie, zostań",
+        "title": "Zamknij okno"
+      },
+      "errorModal": {
+        "title": "Coś poszło nie tak"
+      }
+    }
+  },
+  "jobs": {
+    "customActions": {
+      "modals": {
+        "confirmModal": {
+          "cancelButton": "Anuluj",
+          "defaultConfirmButton": "Potwierdź",
+          "defaultLoadingButton": "Wczytywanie…",
+          "isRequired": "{{field}} jest wymagane",
+          "mustBeNumber": "{{field}} musi być liczbą"
+        },
+        "defaultJobName": "Zadanie",
+        "defaultResourceName": "ten zasób",
+        "foregroundJobProgressModal": {
+          "defaultJobName": "Zadanie",
+          "defaultResourceName": "ten zasób",
+          "percentComplete": "Ukończono {{percent}}%",
+          "runningOn": "działa na"
+        },
+        "outcomeModals": {
+          "acknowledgementModal": {
+            "defaultContinueButton": "Kontynuuj"
+          },
+          "defaultDownloadLabel": "Pobierz",
+          "defaultFileName": "plik",
+          "defaultHeading": {
+            "failed": "Błąd zadania",
+            "success": "Udało się!"
+          },
+          "defaultLabel": "Wyświetl zasób",
+          "defaultMessage": {
+            "failed": "Błąd {{jobName}} na: {{resourceName}}",
+            "success": "{{jobName}} pomyślnie uruchomiono na: {{resourceName}}"
+          },
+          "defaultRetryLabel": "Spróbuj ponownie",
+          "defaultUrlLabel": "Odwiedź witrynę zewnętrzną",
+          "defaultViewLabel": "  Aktualizuj widok",
+          "permanentOutcomeModal": {
+            "defaultContinueButton": "Kontynuuj"
+          }
+        },
+        "startModal": {
+          "confirmButton": "Potwierdź",
+          "errorMessage": "Błąd dotyczący czynności",
+          "loadingText": "Wczytywanie…"
+        }
+      }
+    },
+    "download": {
+      "downloadStartedHeading": "Rozpoczęto pobieranie",
+      "downloadStartedMessage": "Pobieranie powinno było rozpocząć się automatycznie.",
+      "seeAllDownloads": "Zobacz wszystkie pobrane pliki"
+    },
+    "errors": {
+      "timeout": "Upłynął limit czasu dla tego zadania."
+    },
+    "info": {
+      "copiedPopover": "Skopiowano ID zadania",
+      "copyIdTooltip": "Kopiuj ID zadania"
+    },
+    "messages": {
+      "startingJob": "Rozpoczynanie zadania"
+    },
+    "panel": {
+      "action": {
+        "export": "Pobierz",
+        "extract": "Import",
+        "mapping": "Idź do skoroszytu"
+      },
+      "empty": "Zadania pojawią się tutaj, gdy są uruchomione lub zakończone",
+      "errorLoadingJob": "Nie znaleziono",
+      "heading": "Zadania",
+      "status": {
+        "default": {
+          "canceled": {
+            "prefix": "Zadanie",
+            "suffix": "anulowane"
+          },
+          "complete": {
+            "prefix": "Zadanie",
+            "suffix": "zakończone"
+          },
+          "failed": {
+            "prefix": "Zadanie",
+            "suffix": "błąd"
+          },
+          "inProgress": "Uruchomione zadanie",
+          "waiting": "Oczekiwanie:"
+        },
+        "delete": {
+          "cancelled": "Anulowano usuwanie rekordu",
+          "complete": "Usuwanie zakończone",
+          "failed": "Błąd usuwania",
+          "inProgress": "Usuwanie rekordów",
+          "waiting": "Oczekiwanie na usunięcie rekordów"
+        },
+        "export": {
+          "canceled": "Anulowano pobieranie",
+          "complete": "Wygenerowano pobieranie",
+          "failed": "Błąd generowania pobierania",
+          "inProgress": "Generowanie pobierania",
+          "waiting": "Oczekiwanie na wygenerowanie pliku do pobrania"
+        },
+        "extract": {
+          "cancelled": "Anulowano wyodrębnianie pliku",
+          "complete": "Wyodrębniony plik",
+          "failed": "Błąd wyodrębniania pliku",
+          "inProgress": "Wyodrębnianie pliku",
+          "waiting": "Oczekiwanie na wyodrębnienie pliku"
+        },
+        "flatfile-add-column": {
+          "canceled": "Anulowano dodanie kolumny",
+          "complete": "Zakończono dodanie kolumny",
+          "failed": "Błąd dodawania kolumny",
+          "inProgress": "Dodawanie kolumny",
+          "waiting": "Oczekiwanie na dodanie kolumny"
+        },
+        "flatfile-remove-column": {
+          "canceled": "Anulowano usuwanie kolumny",
+          "complete": "Zakończono usuwanie kolumny",
+          "failed": "Usuwanie kolumny się nie powiodło",
+          "inProgress": "Usuwanie kolumny",
+          "waiting": "Oczekiwanie na usunięcie kolumny"
+        },
+        "mapping": {
+          "canceled": "Anulowano mapowanie do skoroszytu",
+          "complete": "Zmapowano do skoroszytu",
+          "failed": "Błąd mapowania do skoroszytu",
+          "inProgress": "Mapowanie do skoroszytu",
+          "waiting": "Oczekiwanie na powiązanie ze skoroszytem"
+        },
+        "mutate-records": {
+          "canceled": "Anulowano transformację AI",
+          "complete": "Zakończono transformację AI",
+          "failed": "Transformacja AI nie powiodła się",
+          "inProgress": "Transformacja rekordów za pomocą AI",
+          "waiting": "Oczekiwanie na przekształcenie rekordów z użyciem AI"
+        }
+      },
+      "time": {
+        "calculating": "Obliczanie pozostałego czasu...",
+        "completed": "Zakończone w",
+        "failed": "Błąd po",
+        "remaining": "pozostało",
+        "started": "Rozpoczęto {{time}}",
+        "units": {
+          "hour": "godz.",
+          "minute": "min.",
+          "second": "s."
+        }
+      }
+    },
+    "pill": {
+      "hoverText": "Zadania",
+      "multipleJobsRunning": "Uruchomione zadania: {{count}}",
+      "status": {
+        "default": {
+          "complete": "Zadanie zakończone",
+          "failed": "Błąd zadania",
+          "inProgress": "Zadanie uruchomione"
+        },
+        "delete": {
+          "complete": "Usuwanie zakończone",
+          "failed": "Błąd usuwania",
+          "inProgress": "Usuwanie rekordów..."
+        },
+        "extract": {
+          "complete": "Wyodrębnianie zakończone",
+          "failed": "Błąd wyodrębniania",
+          "inProgress": "Wyodrębnianie danych..."
+        },
+        "mapping": {
+          "complete": "Mapowanie zakończone",
+          "failed": "Błąd mapowania",
+          "inProgress": "Mapowanie..."
+        }
+      }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "Prześlij"
+      }
+    }
+  },
+  "mapping": {
+    "clearFields": {
+      "modalHeader": "Wyczyść pola docelowe",
+      "modalLabel": "Wyczyść",
+      "modalText": "Wszystkie istniejące mapowania dla tego importu zostaną wyczyszczone",
+      "modalTooltip": "Wyczyść pola docelowe"
+    },
+    "dataPreview": {
+      "heading": "Podgląd danych dla {{previewKey}}",
+      "noData": "Brak danych podglądu"
+    },
+    "dropdown": {
+      "placeholder": "Wybierz..."
+    },
+    "headerButtons": {
+      "back": "Wstecz",
+      "complete": "Zakończ",
+      "exit": "Wyjdź",
+      "headers": "Wybierz nagłówki",
+      "next": "Kontynuuj"
+    },
+    "mapEnums": {
+      "destinationFields": {
+        "dropdownOptions": {
+          "doNotImport": "Nie importuj",
+          "keepAsIs": "Zachowaj tę wartość bez zmian",
+          "keepAsIsDisabledTooltip": "Dodanie nowej opcji do tej listy nie jest obsługiwane. Zaimportowanie wartości, która nie jest prawidłową opcją, spowoduje wyświetlenie błędu."
+        },
+        "heading": "Wartości docelowe"
+      },
+      "incomingFields": {
+        "heading": "Wartości wejściowe",
+        "noData": "Komórki bez danych",
+        "noDataTooltip": "Możesz wybrać prawidłową opcję, aby wypełnić wszystkie puste komórki. Możesz również pozostawić to pole puste."
+      },
+      "progressPill_few": "Zmapowano {{mappedCount}} z {{count}} wartości",
+      "progressPill_many": "Zmapowano {{mappedCount}} z {{count}} wartości",
+      "progressPill_one": "Zmapowano {{mappedCount}} z {{count}} wartości",
+      "progressPill_other": "Zmapowano {{mappedCount}} z {{count}} wartości",
+      "progressPill_zero": "Zmapowano {{mappedCount}} z {{count}} wartości",
+      "progressPillAllMapped_few": "Zmapowano {{count}} wartości",
+      "progressPillAllMapped_many": "Zmapowano {{count}} wartości",
+      "progressPillAllMapped_one": "Zmapowano {{count}} wartości",
+      "progressPillAllMapped_other": "Zmapowano {{count}} wartości",
+      "progressPillAllMapped_zero": "Zmapowano {{count}} wartości",
+      "subheading": "Pola te mają wartości, które muszą być mapowane na listę prawidłowych opcji.",
+      "title": "Mapuj pola"
+    },
+    "mapFields": {
+      "destinationFields": {
+        "addNewField": {
+          "description": "Dodaj to pole do swojego arkusza",
+          "label": "Dodaj jako nowe pole"
+        },
+        "dropdownOptionLabels": {
+          "new": "Dodaj nowe",
+          "unused": "Nieużyte",
+          "used": "Użyte"
+        },
+        "heading": "Pola docelowe",
+        "progressPill": {
+          "missingRequiredFields": " - brakuje {{missingFieldsCount}}",
+          "text": "{{totalDestinationsMapped}} z {{totalDestinationFields}}",
+          "tooltip": {
+            "greaterThanTenMissing": "oraz dodatkowo {{missingFieldsAfterTen}}...",
+            "missingRequiredFields": "Wymagane brakujące pola:",
+            "progress": "{{mappedDestinationFields}} z {{totalDestinationFields}} dostępnych pól w arkuszu docelowym powinno zostać zmapowanych na"
+          }
+        }
+      },
+      "incomingFields": {
+        "heading": "Pola wejściowe",
+        "progressPill": {
+          "text": "{{totalIncomingMapped}} z {{totalIncomingFields}}",
+          "tooltip": "Zmapowałeś {{mappedIncomingFields}} z {{totalIncomingFields}} pól w swoim zbiorze danych na arkusz docelowy"
+        },
+        "selectHeaders": {
+          "tooltip": "Edytuj pola wejściowe"
+        }
+      },
+      "subheading": "Przejrzyj i potwierdź każdy wybór mapowania",
+      "title": "Mapuj pola"
+    },
+    "mapHeaders": {
+      "subheading": "Zmień lub wybierz wiersz nagłówka dla danych źródłowych",
+      "title": "Nagłówki map"
+    },
+    "mappingPlan": {
+      "preparing": "Mapowanie w przygotowaniu..."
+    },
+    "sheetSelection": {
+      "cannotLoadFile": "Nie można przesłać pliku: {{fileName}}",
+      "cannotStartMapping": "Nie można kontynuować mapowania – {{reason}} – Spróbuj ponownie",
+      "columns_few": "Kolumny: {{count}}",
+      "columns_many": "Kolumny: {{count}}",
+      "columns_one": "1 kolumna",
+      "columns_other": "Kolumny: {{count}}",
+      "columns_zero": "Kolumny: {{count}}",
+      "errors_few": "Błędy: {{count}}",
+      "errors_many": "Błędy: {{count}}",
+      "errors_one": "1 błąd",
+      "errors_other": "Błędy: {{count}}",
+      "errors_zero": "Błędy: {{count}}",
+      "importFromHeading": "Wybierz arkusz, z którego chcesz wczytać dane",
+      "importToHeading": "Wybierz arkusz, do którego chcesz zaimportować te dane",
+      "lastUpdated": "Ostatnia aktualizacja: {{date}}",
+      "lastUpdatedDateFormat": "rrrr-mm-dd",
+      "records_few": "Rekordy: {{count}}",
+      "records_many": "Rekordy: {{count}}",
+      "records_one": "1 rekord",
+      "records_other": "Rekordy: {{count}}",
+      "records_zero": "Rekordy: {{count}}",
+      "sheetHasNoData": "Brak danych",
+      "sheets_few": "Arkusze: {{count}}",
+      "sheets_many": "Arkusze: {{count}}",
+      "sheets_one": "1 arkusz",
+      "sheets_other": "Arkusze: {{count}}",
+      "sheets_zero": "Arkusze: {{count}}",
+      "title": "Importuj do...",
+      "updatedAtDateFormat": "rrrr-MM-dd"
+    }
+  },
+  "nativeActions": {
+    "addColumn": "Dodaj kolumnę",
+    "clearColumn": "Wyczyść kolumnę",
+    "removeColumn": "Usuń kolumnę"
+  },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "Odśwież",
+        "refreshTokenFailed": "Strumień zdarzeń rozłączony – odśwież, aby ponownie nawiązać połączenie"
+      }
+    }
+  },
+  "plugins": {
+    "viewMapped": {
+      "almostDone": "Prawie gotowe...",
+      "complete": "Zakończono aktualizację tabeli. Zrób audyt danych",
+      "error": "Podczas aktualizacji skoroszytu wystąpił błąd. Sprawdź dzienniki wydarzeń.",
+      "halfway": "Jesteśmy w połowie, jeszcze trochę cierpliwości...",
+      "updatingTable": "Aktualizacja tabeli, aby widoczne były tylko zmapowane pola"
+    }
+  },
+  "sheet": {
+    "columnManagement": {
+      "clear_empty": "Wyczyść puste kolumny",
+      "errorColumnTooltip": "Filtrowanie wg tej wartości spowoduje odkrycie tej kolumny",
+      "hideAll": "Ukryj wszystko",
+      "hideEmpty": "Ukryj puste kolumny",
+      "hideEmptyFields": "Ukryj kolumny bez danych",
+      "noFields": "brak pól",
+      "noMatches": "brak dopasowań",
+      "placeholder_few": "Wyszukaj lub wybierz z {{count}} pól...",
+      "placeholder_many": "Wyszukaj lub wybierz z {{count}} pól...",
+      "placeholder_one": "Wyszukaj lub wybierz z 1 pola...",
+      "placeholder_other": "Wyszukaj lub wybierz z {{count}} pól...",
+      "placeholder_zero": "Wyszukaj lub wybierz z {{count}} pól...",
+      "toast": {
+        "action": "Odkryć?",
+        "message_few": "{{count}} kolumny z błędami są ukryte",
+        "message_many": "{{count}} kolumn z błędami jest ukrytych",
+        "message_one": "1 kolumna z błędami jest ukryta",
+        "message_other": "{{count}} kolumny/kolumn z błędami są/jest ukryte/ukrytych",
+        "message_zero": "{{count}} kolumn z błędami jest ukrytych"
+      },
+      "tooltip_few": "{{count}} kolumny ukryte",
+      "tooltip_many": "{{count}} kolumn ukrytych",
+      "tooltip_one": "1 kolumna ukryta",
+      "tooltip_other": "{{count}} kolumn(-y) ukrytych(-te)",
+      "tooltip_zero": "Zarządzaj kolumnami",
+      "unhideToast": {
+        "message_few": "{{count}} kolumny zostały odkryte w ramach tego zapytania",
+        "message_many": "{{count}} kolumn zostało odkrytych w ramach tego zapytania",
+        "message_one": "1 kolumna została odkryta w ramach tego zapytania",
+        "message_other": "{{count}} kolumn(-y) zostało(-ły) odkrytych(-te) w ramach tego zapytania",
+        "message_zero": "{{count}} kolumn zostało odkrytych w ramach tego zapytania"
+      }
+    },
+    "comments": {
+      "tooltip": "Dodaj komentarz"
+    },
+    "embedded": {
+      "maxOpenReached": "Jednocześnie nie można otworzyć więcej niż {{maxOpenSheets}} osadzonych arkuszy. W celu otwarcia tego arkusza zamknij jakiś osadzony arkusz.",
+      "untitled": "Arkusz bez nazwy"
+    },
+    "emptyView": {
+      "defaultError": {
+        "description": "Ten arkusz wydaje się być pusty.",
+        "heading": "Nie ma tu jeszcze nic do zobaczenia!"
+      },
+      "heading": "Zacznijmy",
+      "manualEntry": "Ręcznie wpisz dane",
+      "missingSheet": {
+        "buttonLabel": "Wróć do głównego arkusza",
+        "description": "Arkusz, do którego próbujesz uzyskać dostęp, został usunięty lub nie istnieje.",
+        "heading": "Nie znaleziono arkusza"
+      },
+      "noColumns": {
+        "description": "Wszystkie kolumny zostały przez Ciebie ukryte.",
+        "heading": "Nic tu nie ma!"
+      },
+      "noSheetError": {
+        "description": "Wydaje się, że ten arkusz nie istnieje.",
+        "heading": "Nie znaleziono arkusza"
+      },
+      "readOnly": {
+        "description": "Arkusze, które nie akceptują nowych wierszy i/lub edycji, zwykle otrzymują dane wypełniane dynamicznie. W tym momencie nie możesz podjąć żadnego działania.",
+        "heading": "Oczekiwanie na dane"
+      },
+      "sheetLocked": {
+        "description": "Jeśli uważasz, że to błąd, skontaktuj się z działem wsparcia.",
+        "heading": "Dodawanie rekordów jest aktualnie wyłączone"
+      },
+      "uploadFile": "Aby zacząć, przeciągnij i upuść plik lub go wczytaj."
+    },
+    "errors": {
+      "loading": "Nie można pobrać skoroszytu.",
+      "noSheets": {
+        "description": "Skoroszyt musi zawierać co najmniej jeden arkusz. Nie znaleziono żadnego.",
+        "title": "Skoroszyt nie zawiera żadnych arkuszy"
+      },
+      "notFound": "Nie znaleziono skoroszytu"
+    },
+    "info": {
+      "browser": "Przeglądarka",
+      "copiedPopover": "Skopiowano do schowka",
+      "copyButton": "Kliknij, aby skopiować!",
+      "date": "Data",
+      "environment": "Środowisko",
+      "inFrame": "W iframe",
+      "referrer": "Polecający",
+      "release": "Bieżąca wersja",
+      "sheet": "Arkusz",
+      "space": "Przestrzeń",
+      "workbook": "Skoroszyt"
+    },
+    "popovers": {
+      "copyCell_few": "Liczba skopiowanych komórek: {{count}}",
+      "copyCell_many": "Liczba skopiowanych komórek: {{count}}",
+      "copyCell_one": "Liczba skopiowanych komórek: {{count}}",
+      "copyCell_other": "Liczba skopiowanych komórek: {{count}}",
+      "copyCell_zero": "Skopiowano {{count}} komórek",
+      "copyRecord_few": "Liczba skopiowanych rekordów: {{count}}",
+      "copyRecord_many": "Liczba skopiowanych rekordów: {{count}}",
+      "copyRecord_one": "Liczba skopiowanych rekordów: {{count}}",
+      "copyRecord_other": "Liczba skopiowanych rekordów: {{count}}",
+      "copyRecord_zero": "Liczba skopiowanych rekordów: {{count}}",
+      "errors": {
+        "cellUpdateFailed": "Coś poszło nie tak. Odśwież stronę i spróbuj ponownie. Jeśli będzie tak dalej, skontaktuj się z działem wsparcia.",
+        "invalidFFQL": "Sprawdź swoje zapytanie",
+        "invalidFFQLSearch": "Niepoprawne oświadczenie FFQL",
+        "learnMore": "Dowiedz się więcej",
+        "recordsLoadFailed": "Nie udało się wczytać zapisów"
+      }
+    },
+    "table": {
+      "cells": {
+        "enum": {
+          "loading": "Ładowanie opcji...",
+          "loadingError": "Nie można załadować opcji",
+          "noMatchesFound": "Nie znaleziono dopasowań",
+          "placeholder": "Wpisz tutaj...",
+          "seeMore": "Wyszukaj, aby zobaczyć więcej opcji"
+        },
+        "messages": {
+          "autogen": "✨ Wygenerowano automatycznie",
+          "compositeUnique": "🧑‍🍳 Kompozyt {{name}} nie jest unikalny",
+          "invalidOption": "Niepoprawna opcja",
+          "invalidValue": "Wartość nie jest poprawną opcją",
+          "reference": "Wartość nie istnieje w tabeli referencyjnej",
+          "req": "{{field}} jest wymagane",
+          "transformed": "Przekształcono z: {{originalValue}}",
+          "unique": "Wartość nie jest unikalna"
+        }
+      },
+      "contextMenu": {
+        "filterByValue": {
+          "label": "Filtru według wartości",
+          "moreOptions": "Pokazywanie pierwszych {{pageSize}} opcji. Wyszukaj, aby zobaczyć więcej.",
+          "noData": "brak danych",
+          "placeholder": "Wyszukaj lub wybierz wartości..."
+        },
+        "findAndReplace": {
+          "findAndReplaceValues": "Znajdź i zamień",
+          "modal": {
+            "cancelButton": "Anuluj",
+            "descriptionExactOnly": "Zbiorczo zamień dowolny tekst w tej kolumnie poprawną wartością. Ujawniamy tylko dopasowania całkowite",
+            "descriptionPartialAndExact": "Zbiorczo zamień dowolny tekst w tej kolumnie. W przypadku tych danych obsługujemy dopasowania częściowe oraz całkowite",
+            "errors": {
+              "findError": "Wystąpił błąd podczas wyszukiwania wartości",
+              "generalError": "Coś poszło nie tak. Spróbuj ponownie",
+              "replaceError": "Wystąpił błąd podczas zastępowania wartości"
+            },
+            "exactMatchesOnly": "Ujawnij tylko dopasowania całkowite",
+            "finding": "Znajdowanie wszystkich wystąpień",
+            "heading": "Znajdź i zamień w kolumnie {{columnName}}",
+            "isFiltered": "Ten zestaw danych został odfiltrowany. Operacja wyszukiwania i zamiany zostanie wykonana tylko na rekordach pozostałych po filtrowaniu.",
+            "replaceButton": "Zastąp wszystko",
+            "replaceEmpty": {
+              "description": {
+                "addValues": "To spowoduje wypełnienie wszystkich pustych komórek w kolumnie {{columnName}}",
+                "addValuesToAll": "W kolumnie {{columnName}} wszystkie komórki są puste. Możesz zbiorczo wypełnić je wybraną wartością",
+                "addValuesToCount_few": "W kolumnie {{columnName}} jest {{formattedCount}} pustych komórek. Możesz zbiorczo wypełnić je wybraną wartością",
+                "addValuesToCount_many": "W kolumnie {{columnName}} jest {{formattedCount}} pustych komórek. Możesz zbiorczo wypełnić je wybraną wartością",
+                "addValuesToCount_one": "W kolumnie {{columnName}} jest {{formattedCount}} pusta komórka. Możesz zbiorczo wypełnić ją wybraną wartością",
+                "addValuesToCount_other": "W kolumnie {{columnName}} są {{formattedCount}} puste komórki. Możesz zbiorczo wypełnić je wybraną wartością",
+                "addValuesToCount_zero": "W kolumnie {{columnName}} są {{formattedCount}} puste komórki. Możesz zbiorczo wypełnić je wybraną wartością",
+                "noEmptyValues": "Nie znaleźliśmy żadnych pustych komórek w tym polu!"
+              },
+              "heading": {
+                "addValues": "Dodaj wartość do pustych komórek w kolumnie {{columnName}}",
+                "addValuesToAll": "Dodaj wartość do wszystkich pustych komórek w kolumnie {{columnName}}",
+                "addValuesToCount_few": "Dodaj wartość do {{formattedCount}} pustych komórek w kolumnie {{columnName}}",
+                "addValuesToCount_many": "Dodaj wartość do {{formattedCount}} pustych komórek w kolumnie {{columnName}}",
+                "addValuesToCount_one": "Dodaj wartość do {{formattedCount}} pustej komórki w kolumnie {{columnName}}",
+                "addValuesToCount_other": "Dodaj wartość do {{formattedCount}} pustych komórek w kolumnie {{columnName}}",
+                "addValuesToCount_zero": "Dodaj wartość do {{formattedCount}} pustych komórek w kolumnie {{columnName}}",
+                "noEmptyValues": "Nie znaleziono pustych wartości"
+              }
+            },
+            "replaceEnum": {
+              "moreOptions": "Pokazywanie pierwszych 100 opcji. Wyszukaj, aby zobaczyć więcej.",
+              "noMatchesFound": "Nie znaleziono dopasowań",
+              "replaceWith": "Zastąp..."
+            },
+            "replaceValue": {
+              "leavingBlank": "Pozostawienie tego pola pustego spowoduje usunięcie wybranych wartości",
+              "noMatchesFound": "Nie znaleziono wartości",
+              "replaceWith": "Zastąp..."
+            },
+            "replacing": "Zastępowanie wartości",
+            "runOnAllRecords": "Wykonaj względem wszystkich rekordów",
+            "searchForEmpty": "Jeśli to pole pozostanie puste, wyszukiwane będą wartości puste",
+            "searchForText": "Wyszukaj tekst...",
+            "searchResultsCount_few": "{{count}} dopasowania",
+            "searchResultsCount_many": "{{count}} dopasowań",
+            "searchResultsCount_one": "{{count}} dopasowanie",
+            "searchResultsCount_other": "{{count}} dopasowań",
+            "searchResultsCount_zero": "{{count}} dopasowań"
+          },
+          "replaceEmptyValues": "Zamień puste wartości"
+        },
+        "pin": {
+          "apply": "Przypnij kolumnę",
+          "remove": "Usuń pinezkę",
+          "tooltip": {
+            "maxPinned": "Możesz przypiąć maksymalnie trzy kolumny. W celu przypięcia tej kolumny odepnij jedną z aktualnie przypiętych kolumn",
+            "pin": "Przypnij te kolumnę po lewej stronie tabeli",
+            "unpin": "Kliknij, aby odpiąć tę kolumnę"
+          }
+        },
+        "searchInField": {
+          "modal": {
+            "cancelButton": "Anuluj",
+            "placeholder": "Szukaj...",
+            "searchButton": "Szukaj",
+            "searchWithin": "Szukaj w obrębie"
+          },
+          "searchInThisField": "Szukaj w tym polu"
+        },
+        "sort": {
+          "ascending": {
+            "apply": "Sortuj w kolejności A–Z",
+            "remove": "Usuń sortowanie w kolejności A–Z"
+          },
+          "descending": {
+            "apply": "Sortuj w kolejności Z–A",
+            "remove": "Usuń sortowanie w kolejności Z–A"
+          },
+          "tooltip": {
+            "notSorted": "Kliknij, aby posortować w kolejności A–Z",
+            "sortedAsc": "Posortowano w kolejności A–Z",
+            "sortedDes": "Posortowano w kolejności Z–A"
+          }
+        }
+      },
+      "errors": {
+        "description": "Występują trudności z wyświetleniem tych danych w tabeli. W konsoli wyświetl szczegóły błędu.",
+        "title": "Coś poszło nie tak"
+      },
+      "header": {
+        "tooltip": {
+          "key": "klucz: {{key}}",
+          "label": "etykieta: {{label}}"
+        }
+      },
+      "indexRow": {
+        "tooltip": {
+          "createRow": "Dodaj dane, aby utworzyć ten wiersz",
+          "noData": "Nie ma dostępnych wierszy do zaznaczenia. Możesz wybrać tylko wiersze zawierające dane.",
+          "rowNumber": "Wiersz {{number}}"
+        }
+      },
+      "maximumMessage": {
+        "plural": "...i jeszcze {{hiddenRows}} wiersz(y). Widok tabeli obsługuje maksymalnie 500 000 rekordów jednocześnie ze względu na ograniczenia przeglądarki. Wyszukiwanie, sortowanie, filtry i akcje zbiorcze będą nadal działać na wszystkich ukrytych wierszach.",
+        "singular": "...i jeszcze 1 wiersz. Widok tabeli obsługuje maksymalnie 500 000 rekordów jednocześnie ze względu na ograniczenia przeglądarki. Wyszukiwanie, sortowanie, filtry i akcje zbiorcze będą nadal działać na wszystkich ukrytych wierszach."
+      },
+      "modals": {
+        "copyAlert": {
+          "cancelButton": "Anuluj",
+          "description": "Zauważyliśmy, że próbujesz wybrać ponad 100 zapisów. Ograniczamy kopiowanie do 100 zapisów, aby zachować integralność danych.",
+          "download": "Czy chcesz pobrać ten arkusz jako plik .csv?",
+          "downloadButton": "Pobierz",
+          "heading": "Czy chcesz pobrać ten plik?"
+        },
+        "deleteAlert": {
+          "description": "Usunięcie więcej niż 100 istniejących rekordów nie jest w tym momencie obsługiwane. Wprowadziliśmy takie ograniczenie, aby zapewnić lepsze działanie tego rozwiązania, gdy <1>inteligentnie modyfikujemy</1> Twoje dane.",
+          "dismissButton": "Odrzuć",
+          "heading": "Udało Ci się osiągnąć nasz limit usuwania!",
+          "tooltip": "Usuń puste rekordy, duplikaty itp."
+        },
+        "pasteAlert": {
+          "description": "Wklejenie więcej niż 100 istniejących rekordów nie jest w tym momencie obsługiwane. Wprowadziliśmy takie ograniczenie, aby zapewnić lepsze działanie tego rozwiązania, gdy <1>inteligentnie modyfikujemy</1> Twoje dane.",
+          "dismissButton": "Odrzuć",
+          "heading": "Osiągnięto limit wklejania.",
+          "tooltip": "Usuń puste rekordy, duplikaty itp."
+        }
+      }
+    },
+    "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "Akcje",
+        "placeholder": "Wyszukaj lub wybierz..."
+      },
+      "aiAssist": {
+        "buttonText": "Asysta AI",
+        "query": "Pytanie",
+        "transform": "Transformacja"
+      },
+      "buttons": {
+        "delete": {
+          "modal": {
+            "cancelButton": "Anuluj",
+            "confirmButton": "Usuń rekordy",
+            "description": {
+              "infix": "wybrany(-e)",
+              "infixType": {
+                "invalid": "nieprawidłowy(-e)",
+                "valid": "prawidłowy(-e)"
+              },
+              "prefix": "Czy chcesz usunąć",
+              "suffix_few": "rekordy?",
+              "suffix_many": "rekordy?",
+              "suffix_one": "rekord?",
+              "suffix_other": "rekordy?",
+              "suffix_zero": "rekordy?"
+            },
+            "errorMessage": "Nie można usunąć rekordów. Spróbuj ponownie lub zmień swój wybór.",
+            "heading_few": "Usuń rekordy",
+            "heading_many": "Usuń rekordy",
+            "heading_one": "Usuń rekord",
+            "heading_other": "Usuń rekordy",
+            "heading_zero": "Usuń rekordy",
+            "inProgress": "Usuwanie rekordów..."
+          },
+          "popover": {
+            "successMessage_few": "Usunięte rekordy: {{count}}",
+            "successMessage_many": "Usunięte rekordy: {{count}}",
+            "successMessage_one": "Usunięty rekord: {{count}}",
+            "successMessage_other": "Usunięte rekordy: {{count}}",
+            "successMessage_zero": "Usunięte rekordy: {{count}}",
+            "successMessageNoCount": "Usunięto rekordy"
+          },
+          "tooltip": {
+            "active": "Usuń wybrane rekordy",
+            "disabled": {
+              "deleteDisabled": "Usuwanie rekordów jest wyłączone w tym arkuszu.",
+              "noRecordsSelected": "Wybierz co najmniej jeden rekord, aby go usunąć."
+            }
+          }
+        },
+        "download": {
+          "modal": {
+            "cancelButton": "Anuluj",
+            "confirmButton": "Pobierz rekordy",
+            "description": {
+              "infix": "wybrany(-e)",
+              "infixType": {
+                "invalid": "nieprawidłowy(-e)",
+                "valid": "prawidłowy(-e)"
+              },
+              "prefix": "Czy chcesz pobrać",
+              "suffix_few": "rekordy?",
+              "suffix_many": "rekordy?",
+              "suffix_one": "rekord?",
+              "suffix_other": "rekordy?",
+              "suffix_zero": "rekordy?"
+            },
+            "errorMessage": "Nie można pobrać rekordów. Spróbuj ponownie lub zmień swój wybór.",
+            "heading_few": "Pobierz rekordy",
+            "heading_many": "Pobierz rekordy",
+            "heading_one": "Pobierz rekord",
+            "heading_other": "Pobierz rekordy",
+            "heading_zero": "Pobierz rekordy",
+            "inProgress": "Pobieranie rekordów..."
+          },
+          "tooltip": {
+            "active": {
+              "invalidFilterApplied": "Pobierz wszystkie nieprawidłowe rekordy",
+              "noRecordsSelected": "Pobierz ten arkusz",
+              "recordsSelected": "Pobierz wybrane rekordy",
+              "validFilterApplied": "Pobierz wszystkie prawidłowe rekordy"
+            },
+            "disabled": "Brak rekordów do pobrania"
+          }
+        }
+      },
+      "customActionsDropdown": {
+        "disabledTooltip": {
+          "hasData": "Ta akcja będzie dostępna, gdy w tym arkuszu znajdzie się co najmniej jeden rekord.",
+          "requireAllValid": "Ta akcja wymaga, by wszystkie wybrane wiersze były prawidłowe.",
+          "requireAllValidTotal": "Ta akcja wymaga, aby wszystkie wiersze były prawidłowe",
+          "requireSelection": "Wybierz jeden lub więcej rekordów, aby użyć tej akcji"
+        }
+      },
+      "dropdown": {
+        "delete": "Usuń",
+        "download": "Pobierz"
+      },
+      "filterByError": {
+        "buttonText": "Zastosuj filtr błędów",
+        "dropdownPlaceholder": "Wyszukaj lub wybierz..."
+      },
+      "filters": {
+        "all": "Wszystko",
+        "invalid": "Nieprawidłowy",
+        "tooltip": {
+          "countsError": "Błąd wczytywania ilości",
+          "countsErrorRetry": "Kliknij, aby spróbować ponownie",
+          "filter": {
+            "invalid": "nieprawidłowy(-e)",
+            "total": "razem",
+            "valid": "prawidłowy(-e)"
+          },
+          "filtered": "Ten zbiór danych został poddany filtrowaniu celem pokazania {{filteredCount}} z {{countString}} {{filter}} rekordów.",
+          "filteredByError": "Ten zbiór danych został wyfiltrowany przez zastosowanie filtra błędów, aby wyświetlić {{filteredCount}} spośród {{countString}} {{filter}} rekordów.",
+          "filteredByFFQL": {
+            "branded": "Ten zbiór danych został poddany filtrowaniu za pomocą języka Flatfile Query Language celem pokazania {{filteredCount}} z {{countString}} {{filter}} rekordów.",
+            "whitelabeled": "Ten zbiór danych został poddany filtrowaniu celem pokazania {{filteredCount}} z {{countString}} {{filter}} rekordów."
+          },
+          "filteredBySearch": "Ten zbiór danych został wyfiltrowany przez wyszukiwanie, aby wyświetlić {{filteredCount}} spośród {{countString}} {{filter}} rekordów.",
+          "filteredBySearchAndError": "Ten zbiór danych został wyfiltrowany przez wyszukiwanie i zastosowanie filtra błędów, aby wyświetlić {{filteredCount}} spośród {{countString}} {{filter}} rekordów.",
+          "inactiveCount": "Rekordy: {{countString}} {{filter}}, wyfiltrowane: {{filteredCount}}"
+        },
+        "valid": "Prawidłowy"
+      },
+      "moreActions": {
+        "buttonText": "Więcej akcji",
+        "placeholder": "Wyszukaj lub wybierz..."
+      },
+      "savedViews": {
+        "buttonText": "Widoki",
+        "groups": {
+          "allViews": "WSZYSTKIE WIDOKI",
+          "myViews": "MOJE WIDOKI"
+        },
+        "modalHeader": "Zapisane widoki",
+        "modalSubheader": "Wybierz zapisany widok, aby zastosować go do tego arkusza.",
+        "searchPlaceholder": "Wyszukaj lub wybierz...",
+        "tooltip": "Zastosuj widok i skopiuj link",
+        "viewAppliedPopover": "Twój widok został skopiowany do schowka!"
+      },
+      "saveView": {
+        "buttons": {
+          "cancel": "Anuluj",
+          "copy": {
+            "label": "Kopiuj, aby udostępnić",
+            "successLabel": "Skopiowano do schowka!",
+            "warningTooltip": "Link mogą otworzyć tylko osoby z dostępem do tej Przestrzeni."
+          },
+          "save": {
+            "label": "Zapisz widok",
+            "labelActive": "Trwa zapisywanie widoku"
+          }
+        },
+        "error": {
+          "saveText": "Nie można zapisać widoku – spróbuj ponownie."
+        },
+        "headings": {
+          "saveHeader": "Zapisz widok",
+          "saveSubheader": "Nazwij widok tak, aby jego nazwa odzwierciedlała jego przeznaczenie. Ułatwi to użytkownikom zrozumienie, do czego służy.",
+          "shareHeader": "Udostępnij"
+        },
+        "nameViewInput": {
+          "helperText": "Pamiętaj, że ten widok będzie widoczny dla każdego, kto ma dostęp do tego arkusza.",
+          "label": "nazwa",
+          "placeholder": "Widok z {{timestamp}}"
+        },
+        "summary": {
+          "filter": "rekordy, które są",
+          "filterFieldpt1": "jeśli",
+          "filterFieldpt2": "zawiera błąd",
+          "invalid": "Nieprawidłowy",
+          "q": "gdzie",
+          "searchValue": "dowolne pole, które zawiera",
+          "title": "Podsumowanie",
+          "valid": "Prawidłowy"
+        }
+      },
+      "searchBar": {
+        "expandTooltip": "Otwórz wyszukiwanie i wsparcie AI",
+        "placeholder": "Szukaj...",
+        "tooltip": "Naciśnij enter, aby wyszukać"
+      },
+      "tooltips": {
+        "lockedUntilEditingCompletes": "Pasek narzędzi będzie dostępny, gdy arkusz nie będzie już edytowany",
+        "lockedUntilHookCompletes": "Pasek zadań będzie dostępny, gdy skończą działać wszystkie punkty wpięcia usługi",
+        "lockedUntilJobCompletes": "Pasek zadań będzie dostępny po zakończeniu bieżącego zadania"
+      }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "hasData": "Ta akcja będzie dostępna, gdy w tym skoroszycie znajdzie się co najmniej jeden rekord.",
+        "hasPendingValidation": "Weryfikacja twojego skoroszytu jest obecnie w toku...",
+        "lockedUntilEditingCompletes": "Akcja będzie dostępna, gdy arkusz nie będzie już edytowany",
+        "lockedUntilHookCompletes": "Ta akcja będzie dostępna po zakończeniu działania wszystkich hooków",
+        "lockedUntilJobCompletes": "Ta akcja będzie dostępna po zakończeniu bieżącego zadania",
+        "requireAllValid": "To działanie wymaga, aby wszystkie wiersze we wszystkich arkuszach były poprawne"
+      }
+    }
+  },
+  "sidebar": {
+    "addConnection": "Dodaj połączenie",
+    "checklist": "Lista kontrolna danych",
+    "connections": {
+      "tooltips": {
+        "connectionError": "Wystąpił problem z weryfikowaniem metadanych połączeń tego skoroszytu",
+        "connectionFresh": "Połączono z {{source}} za pośrednictwem {{service}}",
+        "connectionStale": "Ostatnia synchronizacja z {{source}} miała miejsce ponad 24 godziny temu"
+      }
+    },
+    "emptyWorkbook": "Pusty skoroszyt",
+    "files": "Pliki",
+    "lockedIconTooltip": "Ten arkusz jest zablokowany",
+    "readOnlyIconTooltip": "Ten arkusz jest tylko do odczytu",
+    "spaceSwitcher": {
+      "placeholder": "Wyszukaj lub wybierz przestrzeń..."
+    },
+    "toggle": {
+      "hide": "Ukryj pasek boczny",
+      "show": "Pokaż pasek boczny"
+    }
+  },
+  "snapshot": {
+    "accept": {
+      "cancelButton": "Anuluj",
+      "cancelError": "Zmian nie można było wycofać z powodu nieoczekiwanego błędu.",
+      "cancelSuccess": "Pomyślnie wycofano zmiany Twojego arkusza.",
+      "empty": {
+        "createdSince": "Ta migawka nie zawiera usuniętych rekordów.",
+        "deletedSince": "Ta migawka nie zawiera dodanych rekordów.",
+        "title": "Nic tu nie ma!",
+        "updatedSince": "Ta migawka nie zawiera zmodyfikowanych rekordów."
+      },
+      "errorMessage": "Zastosowanie zmian migawki było niemożliwe z powodu nieoczekiwanego błędu.",
+      "filters": {
+        "createdSince": "Usunięto",
+        "deletedSince": "Dodano",
+        "updatedSince": "Zmodyfikowano"
+      },
+      "header": {
+        "title": "Zmiany w prowadzone w",
+        "titleWithMeta": "Wprowadzono zmiany w <1>{{sheet}}</1> za pomocą operacji <3>{{action}}</3>"
+      },
+      "message": "Zaakceptowanie zmian spowoduje scalenie wszystkich nowych wartości do Twojego arkusza {{name}}.",
+      "submitButton": "Akceptuj zmiany",
+      "submitError": "Zastosowanie zmian migawki było niemożliwe z powodu nieoczekiwanego błędu.",
+      "submitSuccess": "Udało się wprowadzić zmiany do arkusza.",
+      "successMessage": "Zastosowano zmiany do Twojego arkusza.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} komórki(-rek) w polu {{name}}",
+            "last": " i {{cells}} komórki(-rek) w polu {{name}}",
+            "middle": ", {{cells}} komórki(-rek) w polu {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Pole {{name}} zostanie usunięte",
+              "last": " i pole {{name}} zostanie usunięte",
+              "middle": ", pole {{name}} zostanie usunięte"
+            },
+            "removed": {
+              "first": "pole {{name}} zostanie ponownie dodane",
+              "last": " i pole {{name}} zostanie ponownie dodane",
+              "middle": ", pole {{name}} zostanie ponownie dodane"
+            }
+          },
+          "singular": {
+            "first": "1 komórka w polu {{name}}",
+            "last": " i 1 komórka w polu {{name}}",
+            "middle": ", 1 komórka w polu {{name}}"
+          },
+          "start": " Dane zostały zmodyfikowane w "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Dane zostały zmienione w {{records}} rekordach w {{fields}} polach.",
+            "noFields": "Zmiany zostały zmienione w {{records}} rekordach.",
+            "oneField": "Zmiany zostały zmienione w {{records}} rekordach w 1 polu."
+          },
+          "singular": {
+            "multipleFields": "Zmiany zostały zmienione w 1 rekordzie w {{fields}} polach.",
+            "noFields": "Dane zostały zmienione w 1 rekordzie.",
+            "oneField": "Dane zostały zmienione w 1 rekordzie w 1 polu."
+          }
+        }
+      },
+      "title": "Zmiany w prowadzone w"
+    },
+    "cells": {
+      "messages": {
+        "accept": "Jeśli zaakceptujesz zmiany, wszystkie nowe wartości zostaną scalone do Twojego zbioru danych.",
+        "current": "Bieżąca wartość: {{value}}",
+        "empty": "brak danych",
+        "none": "Twój zbiór danych zostanie dostosowany do widocznych danych.",
+        "restore": "Twój zbiór danych zostanie przywrócony do wersji z tej migawki.",
+        "snapshot": "Nowa wartość: {{value}}"
+      }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "Żadne rekordy nie zostaną usunięte.",
+        "deletedSince": "Żadne rekordy nie zostaną dodane.",
+        "title": "Nic tu nie ma!",
+        "updatedSince": "Żadne rekordy nie zostaną zmodyfikowane."
+      },
+      "errorMessage": "Podgląd zmian nie był możliwy z powodu niespodziewanego błędu.",
+      "filters": {
+        "createdSince": "Dodaj",
+        "deletedSince": "Usuń",
+        "updatedSince": "Modyfikuj"
+      },
+      "header": {
+        "title": "Zmiany w prowadzone w",
+        "titleWithMeta": "Przejrzyj zmiany do arkusza <1>{{sheet}}</1>"
+      },
+      "message": "W poniższej tabeli widoczne są zmiany w arkuszu {{name}}.",
+      "submitError": "Nie udało się przekształcić danych z powodu niespodziewanego błędu.",
+      "submitSuccess": "Udało się wprowadzić zmiany do arkusza.",
+      "successMessage": "Zastosowano zmiany do Twojego arkusza.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} komórki(-rek) w polu {{name}}",
+            "last": " i {{cells}} komórki(-rek) w polu {{name}}",
+            "middle": ", {{cells}} komórki(-rek) w polu {{name}}"
+          },
+          "singular": {
+            "first": "1 komórka w polu {{name}}",
+            "last": " i 1 komórka w polu {{name}}",
+            "middle": ", 1 komórka w polu {{name}}"
+          },
+          "start": " Dane zostaną zmodyfikowane w "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data zmieni się w rekordach {{records}} w polach {{fields}}.",
+            "noFields": "Dane zostaną zmienione w rekordach {{records}}.",
+            "oneField": "Dane zostaną zmienione w rekordach {{records}} w 1 polu."
+          },
+          "singular": {
+            "multipleFields": "Dane zostaną zmienione w 1 rekordzie w {{fields}} polach.",
+            "noFields": "Dane zostaną zmienione w 1 rekordzie.",
+            "oneField": "Dane zostaną zmienione w 1 rekordzie w 1 polu."
+          }
+        }
+      },
+      "title": "Podejrzyj zmiany wprowadzone w"
+    },
+    "preview": {
+      "cancelButton": "Anuluj",
+      "empty": {
+        "createdSince": "W tym podglądzie nie ma rekordów, które zostaną usunięte.",
+        "deletedSince": "W tym podglądzie nie ma rekordów, które zostaną dodane.",
+        "title": "Nic tu nie ma!",
+        "updatedSince": "Ten podgląd nie zawiera rekordów, które zostaną zmodyfikowane."
+      },
+      "errorMessage": "Podgląd zmian nie był możliwy z powodu niespodziewanego błędu.",
+      "filters": {
+        "createdSince": "Usuń",
+        "deletedSince": "Dodaj",
+        "updatedSince": "Modyfikuj"
+      },
+      "header": {
+        "title": "Zmiany w prowadzone w",
+        "titleWithMeta": "Podgląd zmian dokonanych w arkuszu <1>{{sheet}}</1> przez zapytanie <3>{{aiAction}}</3>"
+      },
+      "message": "Twój arkusz {{name}} zostanie przywrócony do wersji z tej migawki.",
+      "submitButton": "Transformuj dane",
+      "submitError": "Nie udało się przekształcić danych z powodu niespodziewanego błędu.",
+      "submitSuccess": "Udało się wprowadzić zmiany do arkusza.",
+      "successMessage": "Zastosowano zmiany do Twojego arkusza.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} komórki(-rek) w polu {{name}}",
+            "last": " i {{cells}} komórki(-rek) w polu {{name}}",
+            "middle": ", {{cells}} komórki(-rek) w polu {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Pole {{name}} zostanie usunięte",
+              "last": " i pole {{name}} zostanie usunięte",
+              "middle": ", pole {{name}} zostanie usunięte"
+            },
+            "removed": {
+              "first": "pole {{name}} zostanie ponownie dodane",
+              "last": " i pole {{name}} zostanie ponownie dodane",
+              "middle": ", pole {{name}} zostanie ponownie dodane"
+            }
+          },
+          "singular": {
+            "first": "1 komórka w polu {{name}}",
+            "last": " i 1 komórka w polu {{name}}",
+            "middle": ", 1 komórka w polu {{name}}"
+          },
+          "start": " Dane zostaną zmodyfikowane w "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data zmieni się w rekordach {{records}} w polach {{fields}}.",
+            "noFields": "Dane zostaną zmienione w rekordach {{records}}.",
+            "oneField": "Dane zostaną zmienione w rekordach {{records}} w 1 polu."
+          },
+          "singular": {
+            "multipleFields": "Dane zostaną zmienione w 1 rekordzie w {{fields}} polach.",
+            "noFields": "Dane zostaną zmienione w 1 rekordzie.",
+            "oneField": "Dane zostaną zmienione w 1 rekordzie w 1 polu."
+          }
+        }
+      },
+      "title": "Podejrzyj zmiany wprowadzone w"
+    },
+    "restore": {
+      "cancelButton": "Anuluj",
+      "empty": {
+        "createdSince": "Ta migawka nie zawiera rekordów, które zostaną usunięte.",
+        "deletedSince": "Ta migawka nie zawiera rekordów, które zostaną dodane.",
+        "title": "Nic tu nie ma!",
+        "updatedSince": "Ta migawka nie zawiera rekordów, które zostaną zmodyfikowane."
+      },
+      "errorMessage": "Migawka nie mogła zostać przywrócona z powodu nieoczekiwanego błędu.",
+      "filters": {
+        "createdSince": "Usuń",
+        "deletedSince": "Dodaj",
+        "updatedSince": "Modyfikuj"
+      },
+      "header": {
+        "title": "Zmiany do zastosowania w"
+      },
+      "message": "Twój arkusz {{name}} zostanie przywrócony do wersji z tej migawki.",
+      "submitButton": "Przywróć",
+      "submitError": "Migawka nie mogła zostać przywrócona z powodu nieoczekiwanego błędu.",
+      "submitSuccess": "Twój arkusz został przywrócony do wcześniejszej wersji.",
+      "successMessage": "Twój arkusz został przywrócony do wcześniejszej wersji.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} komórki(-rek) w polu {{name}}",
+            "last": " i {{cells}} komórki(-rek) w polu {{name}}",
+            "middle": ", {{cells}} komórki(-rek) w polu {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Pole {{name}} zostanie usunięte",
+              "last": " i pole {{name}} zostanie usunięte",
+              "middle": ", pole {{name}} zostanie usunięte"
+            },
+            "removed": {
+              "first": "pole {{name}} zostanie ponownie dodane",
+              "last": " i pole {{name}} zostanie ponownie dodane",
+              "middle": ", pole {{name}} zostanie ponownie dodane"
+            }
+          },
+          "singular": {
+            "first": "1 komórka w polu {{name}}",
+            "last": " i 1 komórka w polu {{name}}",
+            "middle": ", 1 komórka w polu {{name}}"
+          },
+          "start": " Dane zostaną zmodyfikowane w "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Data zmieni się w rekordach {{records}} w polach {{fields}}.",
+            "noFields": "Dane zostaną zmienione w rekordach {{records}}.",
+            "oneField": "Dane zostaną zmienione w rekordach {{records}} w 1 polu."
+          },
+          "singular": {
+            "multipleFields": "Dane zostaną zmienione w 1 rekordzie w {{fields}} polach.",
+            "noFields": "Dane zostaną zmienione w 1 rekordzie.",
+            "oneField": "Dane zostaną zmienione w 1 rekordzie w 1 polu."
+          }
+        }
+      },
+      "title": "Zmiany do zastosowania w"
+    },
+    "tooltips": {
+      "sheet": "{{sheet}} w {{workbook}}"
+    }
+  },
+  "spaceLoadingMessage": "Trwa przygotowanie przestrzeni...",
+  "utils": {
+    "buttons": {
+      "clearAll": "Wyczyść wszystko",
+      "clearAllLabel": "Wyczyść wszystko",
+      "selectAll": "Wybierz wszystko",
+      "selectAllLabel": "Zaznacz wszystko"
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "Użyj urządzenia z większym ekranem, aby uzyskać dostęp do wszystkich funkcji. Nie możemy zagwarantować, że wszystkie funkcje będą działać poprawnie na ekranie o tej wielkości.",
+        "button": "Kontynuuj mimo to",
+        "title": "Za mały ekran"
+      }
+    },
+    "poweredByFlatfile": "Obsługiwane przez Flatfile"
+  },
+  "versionHistory": {
+    "modals": {
+      "default": {
+        "description": "Wystąpił nieoczekiwany błąd – nie zastosowano żadnej pasującej czynności"
+      },
+      "delete": {
+        "confirm": {
+          "closeButton": "Zamknij",
+          "description": "Czy na pewno chcesz usunąć wybraną wersję?",
+          "heading": "Usuń wersję",
+          "proceedButton": "Usuń"
+        },
+        "error": {
+          "closeButton": "Zamknij",
+          "description": "Nie udało się usunąć wybranej wersji z powodu nieoczekiwanego błędu. Jeśli problem nie zniknie, skontaktuj się z działem wsparcia.",
+          "heading": "Nie można usunąć wersji",
+          "retryButton": "Spróbuj ponownie"
+        },
+        "success": {
+          "closeButton": "Zamknij",
+          "description": "Wybrana wersja została usunięta.",
+          "heading": "Usunięto wersję"
+        }
+      }
+    },
+    "panel": {
+      "empty": "Tu pojawią się wersje po wygenerowaniu. Są one generowane automatycznie, często gdy dochodzi do zbiorczego przekształcenia danych.",
+      "generatedSnapshot": "Migawka wygenerowana przed zastosowaniem promptu AI Transform: ",
+      "generatedSnapshotForAiTransform": "Migawka wygenerowana przed zastosowaniem promptu AI Transform: ",
+      "generatedSnapshotForBulkDelete": "Migawka wygenerowana przed usunięciem rekordów",
+      "generatedSnapshotForFindReplace": "Migawka wygenerowana przed zastosowaniem poleceń Znajdź i Zamień",
+      "heading": "Historia wersji",
+      "thisMonth": "Ten miesiąc",
+      "versionRestored": "Wersja utworzona przed przywróceniem poprzedniej"
+    },
+    "pill": {
+      "hoverText": "Historia wersji"
+    }
+  }
+}
