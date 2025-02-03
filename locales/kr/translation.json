@@ -3,9 +3,9 @@
     "changedColumnsText_other": "데이터가 변경된 열 {{count}}개",
     "changedColumnsText_zero": "데이터가 변경된 열 {{count}}개",
     "errors": {
-      "entilementError": {
-        "content": "오류라고 생각하시면 고객 지원팀에 문의해 주세요.",
-        "title": "죄송합니다! 이 기능에 액세스할 수 없습니다."
+      "entitlementError": {
+        "content": "이 메시지가 잘못 표시되었다고 생각하시면 고객 지원팀에 문의해 주세요.",
+        "title": "죄송합니다만, 이 기능에 액세스할 수 없습니다."
       },
       "generalError": {
         "title": "문제가 발생했습니다. 다시 시도해 주세요."
@@ -180,16 +180,241 @@
   "comments": {
     "addReaction": "반응 추가",
     "commentDisabledTooltip": "댓글을 추가할 셀 또는 행을 선택합니다",
+    "comments": "댓글",
     "delete": "댓글 삭제",
     "edit": "댓글 수정",
     "edited": " (수정됨)",
+    "hidden": "필터로 숨겨짐",
+    "noResolvedThreads": "아직 해결된 스레드가 없습니다",
     "noResults": "일치 항목 없음",
+    "noUpdates": "업데이트 없음",
     "placeholder": "여기에 댓글을 추가하세요.",
     "reactionList": "<0></0> {{emoji}} 이모지로 반응했습니다",
+    "reopen": "스레드 다시 열기",
+    "repliesCount_other": "답글 {{count}}개 더",
+    "repliesCount_zero": "답글 {{count}}개 더",
     "resolve": "스레드 해결",
+    "resolved": "해결됨",
+    "row": "{{row}}행",
+    "rowAndColumn": "{{row}}행, {{column}}",
     "send": "댓글 보내기",
     "threadPlaceholder": "@으로 답글을 남기거나 멘션하세요.",
+    "updates": "업데이트",
+    "updatesError": "업데이트를 불러오던 중 오류가 발생했습니다",
+    "userCommented": "<user>{{user}}</user> 님이 <identifier>{{identifier}}</identifier>에 댓글을 남겼습니다",
+    "userReacted": "<0></0> 님이 댓글에 반응했습니다",
     "you": "나"
+  },
+  "common": {
+    "cancel": "취소",
+    "lastWeek": "지난주",
+    "name": "이름",
+    "older": "이전",
+    "thisWeek": "이번 주",
+    "today": "오늘",
+    "yesterday": "어제"
+  },
+  "dataClips": {
+    "actions": {
+      "add_to_clip": "데이터 클립에 선택 항목 추가",
+      "buttons": {
+        "back": "뒤로 가기",
+        "conflicts": "충돌 해결",
+        "review": "변경 사항 검토",
+        "share": "공유",
+        "submit_for_review": "검토 단계로 제출",
+        "view": "데이터 클립 보기"
+      },
+      "create": "데이터 클립 만들기",
+      "library": "데이터 클립 라이브러리로 가기",
+      "sheet_list": "시트의 데이터 클립 보기",
+      "tooltip": {
+        "conflicts": "병합하기 전에 충돌을 해결하세요.",
+        "no_changes": "병합하려면 최소한 한 가지 변경을 해야 합니다.",
+        "no_data_clips": "항목을 추가할 데이터 클립을 생성하세요.",
+        "none_selected": {
+          "add_to_clip": "데이터 클립에 추가할 기록을 하나 이상 선택하세요.",
+          "create": "데이터 클립을 생성할 기록을 하나 이상 선택하세요."
+        },
+        "review": "이 데이터 클립에는 변경 사항이 없습니다."
+      }
+    },
+    "buttonText": "데이터 클립",
+    "choose_action": "작업을 선택하세요:",
+    "clear": "초기화",
+    "collaborators": "공동 작업자",
+    "confirmation": {
+      "delete": {
+        "cancel": "취소",
+        "description": "라이브러리에서 이 데이터 클립이 영구적으로 삭제됩니다.",
+        "submit": "삭제",
+        "title": "삭제"
+      },
+      "ready": {
+        "cancel": "취소",
+        "description": "변경 사항이 검토를 위해 전송됩니다.",
+        "submit": "제출",
+        "title": "검토 단계로 제출"
+      }
+    },
+    "conflictResolution": {
+      "applyAll": "전체에 적용할까요?",
+      "change_description": "“{{fieldName}}” 필드의 기록 1개가 변경됩니다.",
+      "columnTotal": "열 합계:",
+      "description": "원본 시트와 데이터 클립 모두에 변화가 있습니다. 어느 항목을 유지할지 선택하세요.",
+      "empty": {
+        "description": "검토 준비 완료",
+        "status": "완료",
+        "title": "충돌 없음"
+      },
+      "row": "행",
+      "title": "병합할 변경 사항 선택"
+    },
+    "created_by": "만든 사람",
+    "detailsModal": {
+      "create": {
+        "action": "만들기",
+        "title": "데이터 클립 만들기"
+      },
+      "edit": {
+        "action": "제출",
+        "title": "데이터 클립 편집"
+      },
+      "placeholder": "댓글 추가(선택 사항)",
+      "review": "검토"
+    },
+    "empty": "표시할 데이터 클립이 없습니다.",
+    "error": "이 공간에 대한 데이터 클립을 로드할 수 없습니다.",
+    "errors_other": "오류 {{count}}개",
+    "errors_zero": "오류 {{count}}개",
+    "errors": {
+      "add_records_create": "데이터 클립에 레코드를 추가하는 동안 예기치 않은 오류가 발생했습니다. 빈 데이터 클립이 생성되었습니다.",
+      "add_to_clip": "데이터 클립에 기록을 추가하는 동안 예기치 않은 오류가 발생했습니다. 다시 시도해 주세요. 문제가 지속되면 지원팀에 문의해 주세요.",
+      "bulk_resolve_all_conflicts": "충돌을 해결하는 과정에서 예기치 않은 오류가 발생했습니다. 다시 시도해 주세요. 문제가 지속되면 지원팀에 문의해 주세요.",
+      "create": "데이터 클립을 만드는 동안 예기치 않은 오류가 발생했습니다. 다시 시도해 주세요. 문제가 지속되면 지원팀에 문의해 주세요.",
+      "delete": "데이터 클립을 삭제할 수 없습니다. 다시 시도해 주세요. 문제가 지속되면 지원팀에 문의해 주세요.",
+      "diff_view": "데이터 클립 비교 보기 로딩 중 예기치 않은 오류가 발생했습니다. 다시 시도해 주세요. 문제가 지속되면 지원팀에 문의해 주세요.",
+      "edit": "데이터 클립을 편집하는 동안 예기치 않은 오류가 발생했습니다. 다시 시도해 주세요. 문제가 지속되면 지원팀에 문의해 주세요.",
+      "link_copy": "링크 복사 중 예기치 않은 오류가 발생했습니다. 다시 시도해 주세요. 문제가 지속되면 지원팀에 문의해 주세요.",
+      "list": "데이터 클립 라이브러리를 로딩하는 동안 예기치 않은 오류가 발생했습니다. 다시 시도해 주세요. 문제가 지속되면 지원팀에 문의해 주세요.",
+      "mark_as_ready": "데이터 클립을 병합 준비 상태로 표시할 수 없습니다. 다시 시도해 주세요. 문제가 지속되면 지원팀에 문의해 주세요.",
+      "mark_for_review": "데이터 클립이 검토를 위해 제출되지 않았습니다. 다시 시도해 주세요. 문제가 지속되면 지원팀에 문의해 주세요.",
+      "mark_merged": "데이터 클립이 병합되지 않았습니다. 다시 시도해 주세요. 문제가 지속되면 지원팀에 문의해 주세요.",
+      "mark_open": "데이터 클립을 다시 열 수 없습니다. 다시 시도해 주세요. 문제가 지속되면 지원팀에 문의해 주세요."
+    },
+    "filter": "필터",
+    "library": {
+      "actions": {
+        "delete": "삭제",
+        "edit": "보기",
+        "edit_details": "세부 정보 편집"
+      },
+      "create": "데이터 클립 만들기",
+      "guest_search": "데이터 클립 또는 시트 이름으로 검색",
+      "headers": {
+        "creator": "생성자",
+        "name": "이름",
+        "records": "기록",
+        "sheet": "소스 시트",
+        "status": "상태",
+        "updated_at": "마지막으로 편집됨"
+      },
+      "search": "데이터 클립, 시트 또는 생성자 이름으로 검색",
+      "source_name": "원본 시트: ",
+      "title": "데이터 클립 라이브러리"
+    },
+    "merge": "변경 내용 병합",
+    "modal": {
+      "cancel": "취소",
+      "share": "만들기"
+    },
+    "newConflicts": {
+      "close": "닫기",
+      "description": "이 데이터 클립의 검토 중 새로운 충돌이 발생했습니다.",
+      "submit": "충돌 해결",
+      "title": "새 충돌 발견됨"
+    },
+    "next": "다음",
+    "promise": "안전한 보안 전송",
+    "resend": "다시 열고 반환",
+    "resolutions": {
+      "applyAll": {
+        "button": "적용",
+        "description_other": "'{{resolveTo}}'을(를) '{{columnLabel}}' 열의 나머지 충돌에 대한 선택 항목으로 적용할까요? {{count}}개의 기록이 업데이트됩니다.",
+        "description_zero": "'{{resolveTo}}'을(를) '{{columnLabel}}' 열의 나머지 충돌에 대한 선택 항목으로 적용할까요? {{count}}개의 기록이 업데이트됩니다."
+      },
+      "cancel": "저장 후 종료",
+      "complete": "완료",
+      "conflicts_found": {
+        "button_other": "충돌 {{count}}개",
+        "button_zero": "충돌 {{count}}개",
+        "clip_override": {
+          "description": "이 작업은 원본 시트에 아무런 영향을 미치지 않으며, 충돌하는 데이터 클립 변경 사항은 취소됩니다.",
+          "title": "데이터 클립의 값 거부"
+        },
+        "options_title": "작업을 선택하세요",
+        "resolve_conflicts": {
+          "description": "이를 통해 데이터 클립의 각 충돌을 검토하고, 어떤 값을 병합하고 무시할지 결정할 수 있습니다.",
+          "title": "개별적으로 변경"
+        },
+        "source_override": {
+          "description": "선택 시 충돌하는 모든 값이 병합 시 데이터 클립과 일치하도록 업데이트됩니다.",
+          "title": "데이터 클립의 값 수락"
+        },
+        "title": "충돌 발견됨"
+      },
+      "empty": {
+        "button": "클립으로 돌아가기",
+        "description": "병합하려면 최소한 한 가지 변경을 해야 합니다.",
+        "title": "이 데이터 클립에서 변경 사항이 감지되지 않았습니다."
+      },
+      "merge": "병합"
+    },
+    "selectedRecords_other": "기록 {{count}}개 선택함",
+    "selectedRecords_zero": "기록 {{count}}개 선택함",
+    "share": {
+      "copy_link": "링크 복사",
+      "description": "이 데이터 클립에 대한 협업 초대가 공동 작업자에게 전송됩니다.",
+      "empty": "공동 작업자가 없습니다.",
+      "none_selected": "선택한 공동 작업자 없음.",
+      "placeholder": "공동 작업자 추가...",
+      "submit": "공유",
+      "title": "데이터 클립 공유"
+    },
+    "sort": "정렬",
+    "status": {
+      "all": "전체 보기",
+      "merged": "병합됨",
+      "open": "열기",
+      "ready": "검토 준비 완료",
+      "title": "상태"
+    },
+    "success": {
+      "add_records": "기록이 성공적으로 추가되었습니다.",
+      "create": "데이터 클립이 성공적으로 생성되었습니다.",
+      "delete": "데이터 클립이 성공적으로 삭제되었습니다.",
+      "edit": "편집을 성공적으로 저장했습니다.",
+      "link_copy": "링크가 복사되었습니다!",
+      "mark_as_ready": "나의 데이터 클립이 검토를 위해 제출되었습니다. 클립 소유자에게 알림이 전송되었습니다.",
+      "mark_merged": "데이터 클립이 성공적으로 병합되었습니다.",
+      "mark_open": "데이터 클립을 성공적으로 다시 열고 반환했습니다!",
+      "modal": {
+        "create": {
+          "button": "데이터 클립 보기",
+          "close": "닫기",
+          "description": "이제 새 데이터 클립을 볼 수 있습니다.",
+          "title": "데이터 클립이 생성되었습니다."
+        },
+        "ready": {
+          "close": "닫기",
+          "description": "변경 사항이 검토를 위해 제출되었습니다. 변경 사항에 대한 메모나 상태 변경 사항이 있을 경우 알려드리겠습니다.",
+          "submit": "데이터 클립으로 돌아가기",
+          "title": "변경 사항을 성공적으로 제출했습니다!"
+        }
+      }
+    },
+    "syncedRecords_other": "총 기록 {{count}}개",
+    "syncedRecords_zero": "총 기록 {{count}}개"
   },
   "document": {
     "error": {
@@ -198,6 +423,7 @@
     }
   },
   "errors": {
+    "accessDenied": "액세스 거부됨",
     "documentNotFound": "문서를 찾을 수 없음",
     "fileNotFound": "파일을 찾을 수 없음",
     "missingParameter": "매개변수가 제공되지 않음",
@@ -207,6 +433,7 @@
     "refreshPageDescription": "페이지를 새로고침해 다시 시도하세요. 문제가 계속 발생할 경우 지원팀에 문의하세요.",
     "returnToDashboardButton": "대시보드로 돌아가기",
     "sessionExpired": "세션이 만료됨",
+    "sessionExpiredDescription": "현재 세션에 대한 액세스가 만료되었습니다.",
     "sheetNotFound": "시트를 찾을 수 없음",
     "spaceNotFound": "공간을 찾을 수 없음",
     "unauthorized": "액세스 자격 증명이 유효하지 않습니다.",
@@ -319,6 +546,15 @@
       "heading": "받은 편지함을 확인"
     }
   },
+  "helpCenter": {
+    "panel": {
+      "empty": "이 공간에 대한 안내는 설정된 경우 여기에서 확인할 수 있습니다.",
+      "heading": "지원 센터"
+    },
+    "pill": {
+      "hoverText": "지원 센터"
+    }
+  },
   "host": {
     "modals": {
       "closeModal": {
@@ -393,6 +629,9 @@
     },
     "messages": {
       "startingJob": "작업 시작"
+    },
+    "noListener": {
+      "learnMore": "자세히 보기"
     },
     "panel": {
       "action": {
@@ -515,6 +754,56 @@
       }
     }
   },
+  "manageUsers": {
+    "accessLink": {
+      "callout": "이 링크는 24시간 동안 유효합니다. 링크를 가진 누구나 공간에 액세스하여 데이터를 업로드, 편집, 관리할 수 있습니다.",
+      "title": "액세스 링크"
+    },
+    "actions": {
+      "copyLink": "공간 링크 복사",
+      "invite": "초대 전송",
+      "resendInvite": "초대 재전송",
+      "revoke": "접근 권한 취소"
+    },
+    "edit": {
+      "cancelButton": "취소",
+      "description": "사용자 계정에서 모든 워크북을 제거하면 해당 사용자는 스페이스에서 제거됩니다.",
+      "error": "워크북 가져오기 오류",
+      "loading": "편집 권한 로딩 중...",
+      "saveButton": "저장",
+      "title": "워크북 액세스 권한 편집"
+    },
+    "empty": "표시할 게스트 없음",
+    "error": {
+      "title": "이 공간에 사용자를 불러올 수 없습니다"
+    },
+    "guest": {
+      "message": "관리자만 게스트를 관리할 수 있습니다. 이 메시지가 잘못 표시되었다고 생각하시면 지원팀에 문의해 주세요.",
+      "title": "이 페이지를 볼 수 있는 권한이 없습니다"
+    },
+    "invite": {
+      "cancelButton": "취소",
+      "form": {
+        "collaborate": {
+          "label": "누구를 공동 작업자로 선택하셨나요?",
+          "placeholder": "이메일로 초대, 쉼표로 구분"
+        },
+        "message": {
+          "label": "메시지",
+          "placeholder": "공동 작업에 초대합니다!"
+        }
+      },
+      "sendInvite": "초대 전송",
+      "title": "게스트 초대"
+    },
+    "manageGuests": "게스트 관리",
+    "revoke": {
+      "cancelButton": "취소",
+      "confirmButton": "확인",
+      "removing": "제거 중...",
+      "title": "접근 권한 취소"
+    }
+  },
   "mapping": {
     "clearFields": {
       "modalHeader": "대상 필드 지우기",
@@ -633,6 +922,18 @@
     }
   },
   "plugins": {
+    "extraction": {
+      "addingRecords": "시트에 기록 추가 중",
+      "createWorkbook": "통합 문서 생성 중",
+      "createWorkbookError": "통합 문서를 생성하지 못했습니다. 이벤트 로그를 확인하세요.",
+      "extractedFile": "추출된 파일",
+      "extractionFailed": "추출하지 못했습니다. 다시 시도하거나 지원팀에 문의해 주세요.",
+      "failedToParseWorkbook": "통합 문서를 분석하지 못했습니다.",
+      "fileTooLarge": "파일이 너무 커서 분석할 수 없습니다. 이 파일을 CSV로 변환해 보세요.",
+      "noSheets": "시트를 찾을 수 없음",
+      "parseSheets": "시트 분석 중",
+      "retrieveFile": "파일 가져오는 중"
+    },
     "viewMapped": {
       "almostDone": "거의 완료되었습니다...",
       "complete": "표가 업데이트되었습니다. 데이터를 검토하세요.",
@@ -640,6 +941,31 @@
       "halfway": "절반 정도 완료되었으니 기다려 주세요...",
       "updatingTable": "매핑된 필드만 보도록 표 업데이트"
     }
+  },
+  "secrets": {
+    "create": "시크릿 만들기",
+    "delete": "시크릿 삭제",
+    "edit": "시크릿 편집",
+    "envSecrets": "환경 시크릿",
+    "errors": {
+      "couldNotGetSecrets": "시크릿을 입력할 수 없습니다. 페이지를 새로 고침해 보세요.",
+      "keyAlreadyExists": "이 키의 시크릿이 이미 존재합니다.",
+      "keyCannotBeEmpty": "키는 비워둘 수 없습니다",
+      "keyInvalid": "시크릿 이름은 영숫자와 밑줄만 포함해야 합니다."
+    },
+    "failureAdd": "시크릿 {{name}} 추가 실패",
+    "failureEdit": "시크릿 {{name}} 편집 실패",
+    "keyPlaceholder": "키 입력...",
+    "noSecrets": "환경 수준에 대한 시크릿이 없습니다. <hyperlink>여기</hyperlink>에 하나를 추가하세요.",
+    "noSpaceSecrets": "아직 공간 레벨 시크릿이 없습니다. 추가하려면 더하기 아이콘을 클릭하세요.",
+    "noUserSecrets": "아직 사용자 레벨 시크릿이 없습니다. 추가하려면 더하기 아이콘을 클릭하세요.",
+    "spaceSecrets": "공간 시크릿",
+    "successfulAdd": "시크릿 {{name}} 추가 완료",
+    "successfulEdit": "시크릿 {{name}} 편집 완료",
+    "userDescription": "사용자 레벨 시크릿은 공간 레벨 시크릿보다 우선합니다.",
+    "userSecrets": "사용자 시크릿",
+    "value": "시크릿 값",
+    "valuePlaceholder": "값 입력..."
   },
   "sheet": {
     "columnManagement": {
@@ -901,6 +1227,38 @@
         "transform": "변환"
       },
       "buttons": {
+        "addToDataClip": {
+          "modal": {
+            "cancelButton": "취소",
+            "confirmButton": "기록 추가하기",
+            "description": {
+              "infix": "선택함",
+              "infixType": {
+                "invalid": "무효",
+                "valid": "유효"
+              },
+              "prefix": "데이터 클립에 기록을 ",
+              "suffix_other": "추가할까요?",
+              "suffix_zero": "추가할까요?"
+            },
+            "errorMessage": "데이터 클립에 기록을 추가할 수 없습니다. 다시 시도하거나 선택 항목을 수정하세요.",
+            "heading_other": "데이터 클립에 기록 추가",
+            "heading_zero": "데이터 클립에 기록 추가",
+            "inProgress": "기록 추가 중..."
+          },
+          "popover": {
+            "successMessage_other": "기록 {{count}}개 데이터 클립에 추가됨",
+            "successMessage_zero": "기록 {{count}}개 데이터 클립에 추가됨",
+            "successMessageNoCount": "데이터 클립에 기록 추가됨"
+          },
+          "tooltip": {
+            "active": "선택한 기록을 데이터 클립에 추가",
+            "disabled": {
+              "deleteDisabled": "이 시트에서는 데이터 클립에 레코드를 추가할 수 없습니다.",
+              "noRecordsSelected": "데이터 클립에 추가하려면 최소한 하나의 기록을 선택하세요."
+            }
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "취소하기",
@@ -961,6 +1319,61 @@
             },
             "disabled": "다운로드할 기록이 없음"
           }
+        },
+        "markForDeletion": {
+          "modal": {
+            "cancelButton": "취소",
+            "confirmButton": "기록 삭제하기",
+            "description": {
+              "infix": "선택함",
+              "infixType": {
+                "invalid": "무효",
+                "valid": "유효"
+              },
+              "prefix": "다음 기록을 삭제",
+              "suffix_other": "하시겠어요? 삭제할 경우 데이터 클립을 병합할 때 원본 시트에서 기록이 제거됩니다.",
+              "suffix_zero": "하시겠어요? 삭제할 경우 데이터 클립을 병합할 때 원본 시트에서 기록이 제거됩니다."
+            },
+            "errorMessage": "기록을 삭제할 수 없습니다. 다시 시도하거나 선택 항목을 수정하세요.",
+            "heading_other": "기록 삭제하기",
+            "heading_zero": "기록 삭제하기",
+            "inProgress": "기록 삭제 중..."
+          },
+          "popover": {
+            "successMessage_other": "기록 {{count}}개 삭제됨",
+            "successMessage_zero": "기록 {{count}}개 삭제됨",
+            "successMessageNoCount": "기록 삭제됨"
+          }
+        },
+        "restore": {
+          "modal": {
+            "cancelButton": "취소",
+            "confirmButton": "삭제된 기록 복원하기",
+            "description": {
+              "infix": "선택함",
+              "infixType": {
+                "invalid": "무효",
+                "valid": "유효"
+              },
+              "prefix": "이 선택 항목에서 이전에 삭제로 표시된 기록을 복원할까요?"
+            },
+            "errorMessage": "복원 기록을 추가할 수 없습니다. 다시 시도하거나 선택 사항을 수정하세요.",
+            "heading_other": "기록 복원하기",
+            "heading_zero": "기록 복원하기",
+            "inProgress": "기록 복원 중..."
+          },
+          "popover": {
+            "successMessage_other": "이전에 삭제로 표시된 기록이 복구되었습니다.",
+            "successMessage_zero": "이전에 삭제로 표시된 기록들이 복구되었습니다.",
+            "successMessageNoCount": "이전에 삭제로 표시된 기록이 복구되었습니다."
+          },
+          "tooltip": {
+            "active": "선택 범위 내에서 이전에 삭제로 표시된 기록을 복원합니다.",
+            "disabled": {
+              "deleteDisabled": "이 시트에서는 기록 복원이 비활성화되어 있습니다.",
+              "noRecordsSelected": "복원하려면 최소한 하나의 기록을 선택하세요"
+            }
+          }
         }
       },
       "customActionsDropdown": {
@@ -971,9 +1384,34 @@
           "requireSelection": "이 실행을 사용하려면 하나 이상의 기록을 선택하세요"
         }
       },
+      "dataClips": {
+        "actions": {
+          "create": "데이터 클립 만들기"
+        },
+        "buttonText": "클립 데이터",
+        "errors_other": "오류 {{count}}개",
+        "errors_zero": "오류 {{count}}개",
+        "modal": {
+          "cancel": "취소",
+          "share": "공유"
+        },
+        "placeholders": {
+          "description": "댓글 추가(선택 사항)"
+        },
+        "promise": "안전한 보안 전송",
+        "selectedRecords_other": "기록 {{count}}개",
+        "selectedRecords_zero": "기록 {{count}}개",
+        "syncedRecords_other": "동기화된 기록 {{count}}개",
+        "syncedRecords_zero": "동기화된 기록 {{count}}개",
+        "titles": {
+          "review": "검토",
+          "share": "데이터 클립 공유"
+        }
+      },
       "dropdown": {
         "delete": "삭제",
-        "download": "다운로드"
+        "download": "다운로드",
+        "restore": "복원"
       },
       "filterByError": {
         "buttonText": "오류로 필터링",
@@ -1005,6 +1443,10 @@
       "moreActions": {
         "buttonText": "더 많은 실행",
         "placeholder": "검색하거나 선택하세요..."
+      },
+      "restore": {
+        "label": "기록 복원",
+        "tooltip": "이전에 삭제로 표시된 기록을 복원합니다."
       },
       "savedViews": {
         "buttonText": "보기",
@@ -1078,8 +1520,14 @@
     }
   },
   "sidebar": {
+    "activityLogs": "활동 로그",
     "addConnection": "연결 추가",
     "checklist": "데이터 체크리스트",
+    "collapse": {
+      "documents": "문서",
+      "workbook": "통합 문서",
+      "workbooks": "통합 문서"
+    },
     "connections": {
       "tooltips": {
         "connectionError": "이 통합 문서 연결의 메타데이터를 확인하는 데 문제가 있습니다.",
@@ -1088,9 +1536,19 @@
       }
     },
     "emptyWorkbook": "빈 통합 문서",
+    "errorIconTooltip": "이 시트에 오류가 있습니다",
     "files": "파일",
+    "footer": {
+      "backToDashboard": "대시보드로 돌아가기",
+      "logout": "로그아웃"
+    },
     "lockedIconTooltip": "잠긴 시트입니다",
+    "manageGuests": "게스트 관리",
+    "pill": {
+      "admin": "관리자"
+    },
     "readOnlyIconTooltip": "이 시트는 읽기 전용입니다",
+    "secrets": "숨겨진 정보",
     "spaceSwitcher": {
       "placeholder": "공간을 검색하거나 선택하세요..."
     },
@@ -1172,6 +1630,7 @@
         "current": "현재 값: {{value}}",
         "empty": "데이터 없음",
         "none": "데이터 세트가 표시된 값으로 수정됩니다.",
+        "requiresDecision": "데이터 집합을 수정하기 전에 이 값에 대한 결정을 내려야 합니다.",
         "restore": "데이터세트가 이 스냅샷 버전으로 복원됩니다.",
         "snapshot": "새 값: {{value}}"
       }
@@ -1403,6 +1862,7 @@
       "empty": "버전이 생성되면 여기에 표시됩니다. 버전은 데이터의 대량 변환이 발생할 때 자동으로 생성됩니다.",
       "generatedSnapshot": "AI 변환을 적용하기 전에 생성된 프롬프트용 스냅샷: ",
       "generatedSnapshotForAiTransform": "프롬프트에 AI Transform 적용 전 생성한 스냅샷: ",
+      "generatedSnapshotForBulkAddToDataClip": "데이터 클립에 기록을 추가하기 전에 생성된 스냅샷",
       "generatedSnapshotForBulkDelete": "기록 삭제 전에 생성한 스냅샷",
       "generatedSnapshotForFindReplace": "찾아서 바꾸기 전에 생성한 스냅샷",
       "heading": "버전 기록",

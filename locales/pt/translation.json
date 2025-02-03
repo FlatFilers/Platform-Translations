@@ -4,9 +4,9 @@
     "changedColumnsText_other": "{{count}} colunas com dados foram alteradas",
     "changedColumnsText_zero": "{{count}} colunas com dados foram alteradas",
     "errors": {
-      "entilementError": {
-        "content": "Se achar que se trata de um erro, contacte o suporte ao cliente.",
-        "title": "Pedimos desculpa! Não tem acesso a esta funcionalidade."
+      "entitlementError": {
+        "content": "Se considerar que existe um erro, contacte o apoio ao cliente.",
+        "title": "Desculpe! Não tem acesso a esta funcionalidade."
       },
       "generalError": {
         "title": "Algo correu mal. Tente de novo."
@@ -182,16 +182,247 @@
   "comments": {
     "addReaction": "Adicionar reação",
     "commentDisabledTooltip": "Selecione uma célula ou uma linha para adicionar um comentário",
+    "comments": "Comentários",
     "delete": "Eliminar comentário",
     "edit": "Editar comentário",
     "edited": " (editado)",
+    "hidden": "oculto por filtros...",
+    "noResolvedThreads": "Ainda não foram resolvidos quaisquer tópicos",
     "noResults": "Nenhuma correspondência",
+    "noUpdates": "Sem atualizações",
     "placeholder": "Adicione o seu comentário aqui...",
     "reactionList": "<0></0> reagiu com {{emoji}}",
+    "reopen": "Reabrir o tópico",
+    "repliesCount_one": "Mais {{count}} resposta",
+    "repliesCount_other": "Mais {{count}} respostas",
+    "repliesCount_zero": "Mais {{count}} respostas",
     "resolve": "Resolver discussão",
+    "resolved": "Resolvido",
+    "row": "Linha {{row}}",
+    "rowAndColumn": "Linha {{row}}, {{column}}",
     "send": "Enviar comentário",
     "threadPlaceholder": "Responda ou mencione outros com @...",
+    "updates": "Atualizações",
+    "updatesError": "Ocorreu um erro ao carregar as atualizações",
+    "userCommented": "<user>{{user}}</user> comentou sobre <identifier>{{identifier}}</identifier>",
+    "userReacted": "<0></0> reagiu ao seu comentário",
     "you": "Você"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "lastWeek": "Última semana",
+    "name": "Nome",
+    "older": "Mais antigo",
+    "thisWeek": "Esta semana",
+    "today": "Hoje",
+    "yesterday": "Ontem"
+  },
+  "dataClips": {
+    "actions": {
+      "add_to_clip": "Adicionar seleções a clipe de dados",
+      "buttons": {
+        "back": "Retroceder",
+        "conflicts": "Resolver conflitos",
+        "review": "Rever alterações",
+        "share": "Partilhar",
+        "submit_for_review": "Enviar para revisão",
+        "view": "Visualizar clipe de dados"
+      },
+      "create": "Criar clipe de dados",
+      "library": "Ir para a biblioteca de clipes de dados",
+      "sheet_list": "Ver os clipes de dados da folha",
+      "tooltip": {
+        "conflicts": "Antes de intercalar, resolva os conflitos.",
+        "no_changes": "Para intercalar, faça, pelo menos, uma alteração.",
+        "no_data_clips": "Criar um clipe de dados ao qual adicionar.",
+        "none_selected": {
+          "add_to_clip": "Selecione um registo, pelo menos, para adicionar a um clipe de dados.",
+          "create": "Selecione um registo, pelo menos, para criar um clipe de dados."
+        },
+        "review": "Não foram feitas quaisquer alterações a este clipe de dados."
+      }
+    },
+    "buttonText": "Dados do clipe",
+    "choose_action": "Escolha uma ação:",
+    "clear": "limpar",
+    "collaborators": "Colaboradores",
+    "confirmation": {
+      "delete": {
+        "cancel": "Cancelar",
+        "description": "Isto irá eliminar permanentemente este clipe de dados da sua biblioteca.",
+        "submit": "Eliminar",
+        "title": "Eliminar"
+      },
+      "ready": {
+        "cancel": "Cancelar",
+        "description": "As suas alterações serão enviadas para revisão.",
+        "submit": "Enviar",
+        "title": "Enviar para revisão"
+      }
+    },
+    "conflictResolution": {
+      "applyAll": "Aplicar a todos?",
+      "change_description": "1 registo no campo \"{{fieldName}}\" será alterado.",
+      "columnTotal": "Total da coluna:",
+      "description": "Há alterações tanto na folha de origem quanto no extrato de dados. Escolha qual deles pretende manter.",
+      "empty": {
+        "description": "Pronto para revisão",
+        "status": "Completar",
+        "title": "Sem conflitos"
+      },
+      "row": "Linha",
+      "title": "Escolha a alteração a fundir"
+    },
+    "created_by": "Criado por",
+    "detailsModal": {
+      "create": {
+        "action": "Criar",
+        "title": "Criar clipe de dados"
+      },
+      "edit": {
+        "action": "Enviar",
+        "title": "Editar clipe de dados"
+      },
+      "placeholder": "Adicionar um comentário (opcional)...",
+      "review": "Rever"
+    },
+    "empty": "Nenhum clipe de dados para apresentar",
+    "error": "Não foi possível carregar os clipes de dados para este espaço",
+    "errors_one": "{{count}} erro",
+    "errors_other": "{{count}} erros",
+    "errors_zero": "{{count}} erros",
+    "errors": {
+      "add_records_create": "Ocorreu um erro inesperado ao adicionar os seus registos ao clipe de dados. Foi criado um clipe de dados vazio.",
+      "add_to_clip": "Ocorreu um erro inesperado ao adicionar os seus registos ao clipe de dados. Tente de novo. Em caso de persistência do problema, contacte o suporte.",
+      "bulk_resolve_all_conflicts": "Ocorreu um erro inesperado na resolução de conflitos. Tente de novo. Em caso de persistência do problema, contacte o suporte",
+      "create": "Ocorreu um erro inesperado ao criar o seu clipe de dados. Tente de novo. Em caso de persistência do problema, contacte o suporte.",
+      "delete": "Não conseguimos eliminar o clipe de dados. Tente de novo. Em caso de persistência do problema, contacte o suporte",
+      "diff_view": "Ocorreu um erro inesperado ao carregar a vista diferenciada do clipe. Tente de novo. Em caso de persistência do problema, contacte o suporte",
+      "edit": "Ocorreu um erro inesperado ao editar os seus clipes de dados. Tente de novo. Em caso de persistência do problema, contacte o suporte.",
+      "link_copy": "Ocorreu um erro inesperado ao copiar a ligação. Tente de novo. Em caso de persistência do problema, contacte o suporte",
+      "list": "Ocorreu um erro inesperado ao carregar a biblioteca de clipes de dados. Tente de novo. Em caso de persistência do problema, contacte o suporte",
+      "mark_as_ready": "Não conseguimos marcar o clipe de dados como estando pronto para efeitos de intercalação. Tente de novo. Em caso de persistência do problema, contacte o suporte",
+      "mark_for_review": "Ocorreu uma falha no envio do seu clipe de dados para revisão. Tente de novo. Em caso de persistência do problema, contacte o suporte",
+      "mark_merged": "Ocorreu uma falha na intercalação do seu clipe de dados. Tente de novo. Em caso de persistência do problema, contacte o suporte",
+      "mark_open": "Não conseguimos reabrir o clipe de dados. Tente de novo. Em caso de persistência do problema, contacte o suporte"
+    },
+    "filter": "Filtro",
+    "library": {
+      "actions": {
+        "delete": "Eliminar",
+        "edit": "Visualizar",
+        "edit_details": "Editar detalhes"
+      },
+      "create": "Criar clipe de dados",
+      "guest_search": "Pesquisar por nome do clipe de dados ou da folha",
+      "headers": {
+        "creator": "Criador",
+        "name": "Nome",
+        "records": "Registos",
+        "sheet": "Folha de origem",
+        "status": "Estado",
+        "updated_at": "Última edição"
+      },
+      "search": "Pesquisar por clipe de dados, folha ou nome do criador",
+      "source_name": "Folha de origem: ",
+      "title": "Biblioteca de clipes de dados"
+    },
+    "merge": "Intercalar alterações",
+    "modal": {
+      "cancel": "Cancelar",
+      "share": "Criar"
+    },
+    "newConflicts": {
+      "close": "Fechar",
+      "description": "Foram introduzidos novos conflitos aquando da revisão deste extrato de dados.",
+      "submit": "Resolver conflitos",
+      "title": "Novos conflitos encontrados"
+    },
+    "next": "Seguinte",
+    "promise": "Envio seguro e protegido",
+    "resend": "Reabrir e regressar",
+    "resolutions": {
+      "applyAll": {
+        "button": "Aplicar",
+        "description_one": "Gostaria de aplicar '{{resolveTo}}' como sendo a sua seleção para os conflitos restantes na coluna '{{columnLabel}}'? Serão atualizados {{count}} registos.",
+        "description_other": "Gostaria de aplicar '{{resolveTo}}' como sendo a sua seleção para os conflitos restantes na coluna '{{columnLabel}}'? Serão atualizados {{count}} registos.",
+        "description_zero": "Gostaria de aplicar '{{resolveTo}}' como sendo a sua seleção para os conflitos restantes na coluna '{{columnLabel}}'? Serão atualizados {{count}} registos."
+      },
+      "cancel": "Guardar e sair",
+      "complete": "Completar",
+      "conflicts_found": {
+        "button_one": "{{count}} conflito",
+        "button_other": "{{count}} conflitos",
+        "button_zero": "{{count}} conflitos",
+        "clip_override": {
+          "description": "Isto não irá alterar nada na folha de origem e as mudanças conflituantes no clipe de dados serão descartadas.",
+          "title": "Rejeitar valores do clipe de dados"
+        },
+        "options_title": "Escolher a ação",
+        "resolve_conflicts": {
+          "description": "Isto permite-lhe rever cada conflito no clipe de dados e decidir que valores intercalar ou ignorar.",
+          "title": "Alterar individualmente"
+        },
+        "source_override": {
+          "description": "Isto irá atualizar todos os valores conflituantes, a fim de corresponderem ao clipe de dados no momento da intercalação.",
+          "title": "Aceitar valores do clipe de dados"
+        },
+        "title": "Conflitos encontrados"
+      },
+      "empty": {
+        "button": "Voltar ao clipe",
+        "description": "Para intercalar, faça, pelo menos, uma alteração.",
+        "title": "Não foram detetadas quaisquer alterações neste clipe de dados."
+      },
+      "merge": "Intercalar"
+    },
+    "selectedRecords_one": "{{count}} registo selecionado",
+    "selectedRecords_other": "{{count}} registos selecionados",
+    "selectedRecords_zero": "{{count}} registos selecionados",
+    "share": {
+      "copy_link": "Copiar ligação",
+      "description": "Os colaboradores receberão um convite para colaborar neste extrato de dados.",
+      "empty": "Não há colaboradores disponíveis.",
+      "none_selected": "Não foram selecionados colaboradores.",
+      "placeholder": "Adicionar colaboradores...",
+      "submit": "Partilhar",
+      "title": "Partilhar extrato de dados"
+    },
+    "sort": "ordenar",
+    "status": {
+      "all": "Ver tudo",
+      "merged": "Intercalado",
+      "open": "Abrir",
+      "ready": "Pronto para revisão",
+      "title": "Estado"
+    },
+    "success": {
+      "add_records": "Registos adicionados com êxito.",
+      "create": "O seu clipe de dados foi criado com êxito.",
+      "delete": "O seu clipe de dados foi eliminado com êxito.",
+      "edit": "Edições guardadas com êxito.",
+      "link_copy": "Ligação copiada com êxito!",
+      "mark_as_ready": "O seu clipe de dados foi enviado com êxito para revisão. O proprietário do clipe foi notificado.",
+      "mark_merged": "O seu clipe de dados foi intercalado com êxito.",
+      "mark_open": "Clipe de dados reaberto e devolvido com êxito!",
+      "modal": {
+        "create": {
+          "button": "Visualizar clipe de dados",
+          "close": "Fechar",
+          "description": "Já pode visualizar o novo clipe de dados.",
+          "title": "O seu clipe de dados foi criado com êxito"
+        },
+        "ready": {
+          "close": "Fechar",
+          "description": "As suas alterações foram enviadas para revisão. Será notificado por nós relativamente a quaisquer notas ou mudanças de estado.",
+          "submit": "Voltar ao clipe de dados",
+          "title": "Alterações enviadas com êxito!"
+        }
+      }
+    },
+    "syncedRecords_one": "Total de {{count}} registo",
+    "syncedRecords_other": "Total de {{count}} registos",
+    "syncedRecords_zero": "Total de {{count}} registos"
   },
   "document": {
     "error": {
@@ -200,6 +431,7 @@
     }
   },
   "errors": {
+    "accessDenied": "Acesso negado",
     "documentNotFound": "Documento não encontrado",
     "fileNotFound": "Ficheiro não encontrado",
     "missingParameter": "Parâmetro não disponibilizado",
@@ -209,6 +441,7 @@
     "refreshPageDescription": "Atualize a página para tentar novamente. Se o problema persistir contacte a equipa de suporte.",
     "returnToDashboardButton": "Regressar ao painel de controlo",
     "sessionExpired": "A sessão expirou",
+    "sessionExpiredDescription": "O acesso à sessão atual expirou.",
     "sheetNotFound": "Folha não encontrada",
     "spaceNotFound": "Espaço não encontrado",
     "unauthorized": "As suas credenciais de acesso são inválidas.",
@@ -325,6 +558,15 @@
       "heading": "Consulte a sua caixa de entrada"
     }
   },
+  "helpCenter": {
+    "panel": {
+      "empty": "A orientação para este espaço será disponibilizada aqui, se tiver sido configurada.",
+      "heading": "Centro de Ajuda"
+    },
+    "pill": {
+      "hoverText": "Centro de Ajuda"
+    }
+  },
   "host": {
     "modals": {
       "closeModal": {
@@ -399,6 +641,9 @@
     },
     "messages": {
       "startingJob": "A começar trabalho"
+    },
+    "noListener": {
+      "learnMore": "Saiba mais"
     },
     "panel": {
       "action": {
@@ -519,6 +764,56 @@
       "button": {
         "defaultLabel": "Submeter"
       }
+    }
+  },
+  "manageUsers": {
+    "accessLink": {
+      "callout": "Esta ligação é válida durante 24 horas. Qualquer pessoa com a ligação pode aceder ao espaço e carregar, editar e gerir dados.",
+      "title": "Ligação de acesso"
+    },
+    "actions": {
+      "copyLink": "Copiar a ligação do espaço",
+      "invite": "Enviar convite",
+      "resendInvite": "Reenviar convite",
+      "revoke": "Revogar acesso"
+    },
+    "edit": {
+      "cancelButton": "Cancelar",
+      "description": "Remover todos os livros de exercícios de uma conta de utilizador remove esse utilizador do espaço.",
+      "error": "Erro a obter os livros de exercícios",
+      "loading": "A carregar permissões de carregamento...",
+      "saveButton": "Guardar",
+      "title": "Editar o acesso ao livro de exercícios para"
+    },
+    "empty": "Nenhum convidado a apresentar",
+    "error": {
+      "title": "Não é possível carregar os utilizadores para este espaço"
+    },
+    "guest": {
+      "message": "Apenas os administradores podem gerir os convidados. Se pensa que está a ver isto por engano, contacte o apoio ao cliente.",
+      "title": "Não tem autorização para visualizar esta página"
+    },
+    "invite": {
+      "cancelButton": "Cancelar",
+      "form": {
+        "collaborate": {
+          "label": "Com quem gostaria de colaborar?",
+          "placeholder": "Convite por e-mail, separado por vírgula"
+        },
+        "message": {
+          "label": "Mensagem",
+          "placeholder": "Vamos colaborar!"
+        }
+      },
+      "sendInvite": "Enviar convite",
+      "title": "Convidar pessoas"
+    },
+    "manageGuests": "Gerir convidados",
+    "revoke": {
+      "cancelButton": "Cancelar",
+      "confirmButton": "Confirmar",
+      "removing": "A remover...",
+      "title": "Revogar acesso"
     }
   },
   "mapping": {
@@ -645,6 +940,18 @@
     }
   },
   "plugins": {
+    "extraction": {
+      "addingRecords": "Adicionar registos a folhas",
+      "createWorkbook": "Criar livro",
+      "createWorkbookError": "Falha ao criar livro. Ver registos de eventos.",
+      "extractedFile": "Ficheiro extraído",
+      "extractionFailed": "A extração falhou. Tente novamente ou entre em contacto com o apoio ao cliente.",
+      "failedToParseWorkbook": "Falha ao analisar o livro.",
+      "fileTooLarge": "O ficheiro é demasiado grande para ser analisado. Tente converter este ficheiro para CSV.",
+      "noSheets": "Não foram encontradas folhas",
+      "parseSheets": "Analisar folhas",
+      "retrieveFile": "Recuperar ficheiro"
+    },
     "viewMapped": {
       "almostDone": "Está quase...",
       "complete": "Atualização da tabela concluída. Verifique os dados",
@@ -652,6 +959,31 @@
       "halfway": "Ainda vai a meio, aguarde...",
       "updatingTable": "A atualizar a tabela para ver apenas os campos mapeados"
     }
+  },
+  "secrets": {
+    "create": "Criar Segredo",
+    "delete": "Apagar Segredo",
+    "edit": "Editar Segredo",
+    "envSecrets": "Segredos do Meio Ambiente",
+    "errors": {
+      "couldNotGetSecrets": "Não foi possível obter segredos, tente atualizar esta página.",
+      "keyAlreadyExists": "Já existe um segredo com esta chave",
+      "keyCannotBeEmpty": "A chave não pode estar vazia",
+      "keyInvalid": "O nome do segredo apenas deve conter caracteres alfanuméricos e sublinhados"
+    },
+    "failureAdd": "Não foi possível adicionar o segredo {{name}}",
+    "failureEdit": "Não foi possível editar o segredo {{name}}",
+    "keyPlaceholder": "Introduzir chave...",
+    "noSecrets": "Não existem segredos do nível do meio ambiente. Adicione um <hyperlink>aqui</hyperlink>.",
+    "noSpaceSecrets": "Ainda não existem segredos do nível do espaço, clique no ícone mais para adicionar um.",
+    "noUserSecrets": "Ainda não existem segredos do nível do utilizador, clique no ícone mais para adicionar um.",
+    "spaceSecrets": "Segredos do Espaço",
+    "successfulAdd": "Segredo {{name}} adicionado com sucesso",
+    "successfulEdit": "Segredo {{name}} editado com sucesso",
+    "userDescription": "Os segredos do nível do utilizador irão sobrepor-se aos segredos do nível do espaço.",
+    "userSecrets": "Segredos do Utilizador",
+    "value": "Valor Secreto",
+    "valuePlaceholder": "Introduzir valor..."
   },
   "sheet": {
     "columnManagement": {
@@ -922,6 +1254,41 @@
         "transform": "Transformar"
       },
       "buttons": {
+        "addToDataClip": {
+          "modal": {
+            "cancelButton": "Cancelar",
+            "confirmButton": "Adicionar registos",
+            "description": {
+              "infix": "selecionado",
+              "infixType": {
+                "invalid": "inválido",
+                "valid": "válido"
+              },
+              "prefix": "Gostaria de adicionar os ",
+              "suffix_one": "registo para o extrato de dados?",
+              "suffix_other": "registos para o extrato de dados?",
+              "suffix_zero": "registos para o extrato de dados?"
+            },
+            "errorMessage": "Não foi possível adicionar registos ao clipe de dados. Tente de novo ou modifique a sua seleção.",
+            "heading_one": "Adicionar Registo ao Clipe de Dados",
+            "heading_other": "Adicionar Registos ao Clipe de Dados",
+            "heading_zero": "Adicionar Registos ao Clipe de Dados",
+            "inProgress": "A adicionar registos..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} registo adicionado ao clipe de dados",
+            "successMessage_other": "{{count}} registos adicionados ao clipe de dados",
+            "successMessage_zero": "{{count}} registos adicionados ao clipe de dados",
+            "successMessageNoCount": "Registos adicionados ao clipe de dados"
+          },
+          "tooltip": {
+            "active": "Adicionar registos selecionados ao clipe de dados",
+            "disabled": {
+              "deleteDisabled": "A adição de registos aos clipes de dados encontra-se desativada nesta folha de cálculo.",
+              "noRecordsSelected": "Selecione um registo, pelo menos, para adicionar ao clipe de dados"
+            }
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Cancelar",
@@ -987,6 +1354,66 @@
             },
             "disabled": "Nenhum registo para descarregar"
           }
+        },
+        "markForDeletion": {
+          "modal": {
+            "cancelButton": "Cancelar",
+            "confirmButton": "Eliminar registos",
+            "description": {
+              "infix": "selecionado",
+              "infixType": {
+                "invalid": "inválido",
+                "valid": "válido"
+              },
+              "prefix": "Gostaria de apagar os",
+              "suffix_one": "registo? Se o fizer, também removerá o registo da folha de origem ao combinar o extrato de dados.",
+              "suffix_other": "registos?  Se o fizer, também removerá os registos da folha de origem ao combinar o extrato de dados.",
+              "suffix_zero": "registos?  Se o fizer, também removerá os registos da folha de origem ao combinar o extrato de dados."
+            },
+            "errorMessage": "Não é possível eliminar registos. Tente novamente ou modifique a sua seleção.",
+            "heading_one": "Eliminar registo",
+            "heading_other": "Eliminar registos",
+            "heading_zero": "Eliminar registos",
+            "inProgress": "A eliminar registos..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} registo eliminado",
+            "successMessage_other": "{{count}} registos eliminados",
+            "successMessage_zero": "{{count}} registos eliminados",
+            "successMessageNoCount": "Registos eliminados"
+          }
+        },
+        "restore": {
+          "modal": {
+            "cancelButton": "Cancelar",
+            "confirmButton": "Restaurar registos eliminados",
+            "description": {
+              "infix": "selecionado",
+              "infixType": {
+                "invalid": "inválido",
+                "valid": "válido"
+              },
+              "prefix": "Deseja restaurar registos previamente marcados para eliminação nesta seleção?"
+            },
+            "errorMessage": "Não é possível adicionar registos de restauro. Tente novamente ou modifique a sua seleção.",
+            "heading_one": "Restaurar registo",
+            "heading_other": "Restaurar registos",
+            "heading_zero": "Restaurar registos",
+            "inProgress": "A restaurar registos..."
+          },
+          "popover": {
+            "successMessage_one": "Os registos anteriormente marcados para eliminação foram restaurados.",
+            "successMessage_other": "Os registos anteriormente marcados para eliminação foram restaurados.",
+            "successMessage_zero": "Os registos anteriormente marcados para eliminação foram restaurados.",
+            "successMessageNoCount": "Os registos anteriormente marcados para eliminação foram restaurados."
+          },
+          "tooltip": {
+            "active": "Restaurar registos previamente marcados para eliminação dentro da seleção.",
+            "disabled": {
+              "deleteDisabled": "O restauro de registos está desativado nesta folha.",
+              "noRecordsSelected": "Selecione pelo menos um registo para o restaurar"
+            }
+          }
         }
       },
       "customActionsDropdown": {
@@ -997,9 +1424,37 @@
           "requireSelection": "Selecione um ou mais registos para usar esta ação"
         }
       },
+      "dataClips": {
+        "actions": {
+          "create": "Criar clipe de dados"
+        },
+        "buttonText": "Clipe de Dados",
+        "errors_one": "{{count}} erro",
+        "errors_other": "{{count}} erros",
+        "errors_zero": "{{count}} erros",
+        "modal": {
+          "cancel": "Cancelar",
+          "share": "Partilhar"
+        },
+        "placeholders": {
+          "description": "Adicionar um comentário (opcional)..."
+        },
+        "promise": "Envio seguro e protegido",
+        "selectedRecords_one": "{{count}} registo",
+        "selectedRecords_other": "{{count}} registos",
+        "selectedRecords_zero": "{{count}} registos",
+        "syncedRecords_one": "{{count}} registo sincronizado",
+        "syncedRecords_other": "{{count}} registos sincronizados",
+        "syncedRecords_zero": "{{count}} registos sincronizados",
+        "titles": {
+          "review": "Rever",
+          "share": "Partilhar Clipes de Dados"
+        }
+      },
       "dropdown": {
         "delete": "Eliminar",
-        "download": "Descarregar"
+        "download": "Descarregar",
+        "restore": "Restaurar"
       },
       "filterByError": {
         "buttonText": "Filtrar por erro",
@@ -1031,6 +1486,10 @@
       "moreActions": {
         "buttonText": "Mais ações",
         "placeholder": "Procurar ou selecionar..."
+      },
+      "restore": {
+        "label": "Repor registos",
+        "tooltip": "Repor dados anteriormente marcados para eliminação."
       },
       "savedViews": {
         "buttonText": "Vistas",
@@ -1104,8 +1563,14 @@
     }
   },
   "sidebar": {
+    "activityLogs": "Registos de atividade",
     "addConnection": "Adicionar Ligação",
     "checklist": "Lista de verificação de dados",
+    "collapse": {
+      "documents": "Documentos",
+      "workbook": "Livro",
+      "workbooks": "Livros"
+    },
     "connections": {
       "tooltips": {
         "connectionError": "Ocorreu um erro ao verificar os metadados das ligações desta pasta de trabalho",
@@ -1114,9 +1579,19 @@
       }
     },
     "emptyWorkbook": "Pasta de trabalho vazia",
+    "errorIconTooltip": "Esta folha de cálculo contém erros",
     "files": "Ficheiros",
+    "footer": {
+      "backToDashboard": "Voltar ao painel de controlo",
+      "logout": "Terminar sessão"
+    },
     "lockedIconTooltip": "Esta folha de cálculo está bloqueada",
+    "manageGuests": "Gerir convidados",
+    "pill": {
+      "admin": "Administrador"
+    },
     "readOnlyIconTooltip": "Esta lista é apenas para leitura",
+    "secrets": "Segredos",
     "spaceSwitcher": {
       "placeholder": "Pesquisar ou selecionar um Espaço..."
     },
@@ -1198,6 +1673,7 @@
         "current": "Valor atual: {{value}}",
         "empty": "sem dados",
         "none": "O seu conjunto de dados será modificado para os valores apresentados.",
+        "requiresDecision": "Este valor exige que seja tomada uma decisão antes de poder modificar o seu conjunto de dados.",
         "restore": "O seu conjunto de dados será restaurado para versão nesta imagem.",
         "snapshot": "Novo valor: {{value}}"
       }
@@ -1429,6 +1905,7 @@
       "empty": "As versões, assim que geradas, irão aparecer aqui. As versões são geradas automaticamente, muitas vezes quando ocorre um transformação em massa de dados.",
       "generatedSnapshot": "Imagem gerada antes de aplicar a Transformação de IA para o pedido: ",
       "generatedSnapshotForAiTransform": "Imagem gerada antes de aplicar a Transformação de IA para o pedido: ",
+      "generatedSnapshotForBulkAddToDataClip": "Instantâneo gerado antes de terem sido adicionados registos ao clipe",
       "generatedSnapshotForBulkDelete": "Imagem gerada antes de eliminar registos",
       "generatedSnapshotForFindReplace": "Imagem gerada antes de aplicar a função Localizar e Substituir",
       "heading": "Histórico de Versões",

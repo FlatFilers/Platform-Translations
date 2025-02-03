@@ -4,9 +4,9 @@
     "changedColumnsText_other": "{{count}} kolommen met gewijzigde gegevens",
     "changedColumnsText_zero": "{{count}} kolommen met gewijzigde gegevens",
     "errors": {
-      "entilementError": {
+      "entitlementError": {
         "content": "Als u denkt dat dit een fout is, neem dan contact op met de klantenservice.",
-        "title": "Sorry! U hebt geen toegang tot deze functie."
+        "title": "Sorry! U heeft geen toegang tot deze functie."
       },
       "generalError": {
         "title": "Er ging iets mis. Probeer opnieuw."
@@ -181,16 +181,247 @@
   "comments": {
     "addReaction": "Reactie toevoegen",
     "commentDisabledTooltip": "Selecteer een cel of een rij om een ​​opmerking toe te voegen",
+    "comments": "Opmerkingen",
     "delete": "Opmerking verwijderen",
     "edit": "Opmerking bewerken",
     "edited": " (bewerkt)",
+    "hidden": "verborgen door filters...",
+    "noResolvedThreads": "Er zijn nog geen threads opgelost",
     "noResults": "Geen overeenkomsten",
+    "noUpdates": "Geen updates",
     "placeholder": "Voeg hier uw commentaar toe…",
     "reactionList": "<0></0> reageerde met {{emoji}}",
+    "reopen": "Thread heropenen",
+    "repliesCount_one": "Nog {{count}} reactie",
+    "repliesCount_other": "Nog {{count}} reacties",
+    "repliesCount_zero": "Nog {{count}} reacties",
     "resolve": "Thread oplossen",
+    "resolved": "Opgelost",
+    "row": "Rij {{row}}",
+    "rowAndColumn": "Rij {{row}}, {{column}}",
     "send": "Opmerking verzenden",
     "threadPlaceholder": "Reageer of vermeld anderen met @…",
+    "updates": "Updates",
+    "updatesError": "Er is een fout opgetreden tijdens het laden van updates",
+    "userCommented": "<user>{{user}}</user> heeft een opmerking geplaatst bij <identifier>{{identifier}}</identifier>",
+    "userReacted": "<0></0> reageerde op uw opmerking",
     "you": "U"
+  },
+  "common": {
+    "cancel": "Annuleren",
+    "lastWeek": "Vorige week",
+    "name": "Naam",
+    "older": "Ouder",
+    "thisWeek": "Deze week",
+    "today": "Vandaag",
+    "yesterday": "Gisteren"
+  },
+  "dataClips": {
+    "actions": {
+      "add_to_clip": "Voeg selecties toe aan gegevensclip",
+      "buttons": {
+        "back": "Terug",
+        "conflicts": "Conflicten oplossen",
+        "review": "Wijzigingen controleren",
+        "share": "Delen",
+        "submit_for_review": "Indienen voor controle",
+        "view": "Gegevensclip bekijken"
+      },
+      "create": "Gegevensclip aanmaken",
+      "library": "Ga naar de gegevensclipbibliotheek",
+      "sheet_list": "Bekijk gegevensclips van blad",
+      "tooltip": {
+        "conflicts": "Los conflicten op vóór het samenvoegen.",
+        "no_changes": "Breng ten minste één wijziging aan om samen te voegen.",
+        "no_data_clips": "Maak een gegevensclip om aan toe te voegen.",
+        "none_selected": {
+          "add_to_clip": "Selecteer ten minste één record om toe te voegen aan een gegevensclip.",
+          "create": "Selecteer ten minste één record om een gegevensclip aan te maken."
+        },
+        "review": "Er zijn geen wijzigingen aangebracht in deze gegevensclip."
+      }
+    },
+    "buttonText": "Clipgegevens",
+    "choose_action": "Kies een actie:",
+    "clear": "wissen",
+    "collaborators": "Samenwerkers",
+    "confirmation": {
+      "delete": {
+        "cancel": "Annuleren",
+        "description": "Hierdoor wordt deze gegevensclip permanent verwijderd uit uw bibliotheek.",
+        "submit": "Verwijderen",
+        "title": "Verwijderen"
+      },
+      "ready": {
+        "cancel": "Annuleren",
+        "description": "Uw wijzigingen zullen worden ingezonden voor controle",
+        "submit": "Indienen",
+        "title": "Indienen voor controle"
+      }
+    },
+    "conflictResolution": {
+      "applyAll": "Op alles toepassen?",
+      "change_description": "1 record in het veld '{{fieldName}}' wordt gewijzigd.",
+      "columnTotal": "Kolomtotaal:",
+      "description": "Er zijn wijzigingen in zowel het bronblad als de gegevensclip. Kies welke u wilt behouden.",
+      "empty": {
+        "description": "Gereed voor controle",
+        "status": "Voltooid",
+        "title": "Geen conflicten"
+      },
+      "row": "Rij",
+      "title": "Kies de wijziging om samen te voegen"
+    },
+    "created_by": "Aangemaakt door",
+    "detailsModal": {
+      "create": {
+        "action": "Aanmaken",
+        "title": "Gegevensclip aanmaken"
+      },
+      "edit": {
+        "action": "Indienen",
+        "title": "Gegevensclip bewerken"
+      },
+      "placeholder": "Voeg een opmerking toe (optioneel)...",
+      "review": "Controleren"
+    },
+    "empty": "Geen gegevensclips om weer te geven",
+    "error": "De gegevensclips voor deze ruimte kunnen niet worden laden",
+    "errors_one": "{{count}} fout",
+    "errors_other": "{{count}} fouten",
+    "errors_zero": "{{count}} fouten",
+    "errors": {
+      "add_records_create": "Er is een onverwachte fout opgetreden bij het toevoegen van uw records aan de gegevensclip. Er is een lege gegevensclip gemaakt.",
+      "add_to_clip": "Er is een onverwachte fout opgetreden bij het toevoegen van uw records aan de gegevensclip. Neem contact op met de ondersteuning als het probleem zich blijft voordoen.",
+      "bulk_resolve_all_conflicts": "Er is een onverwachte fout opgetreden bij het oplossen van conflicten. Als het probleem zich blijft voordoen, neem dan contact op met de ondersteuning.",
+      "create": "Er is een onverwachte fout opgetreden bij het maken van uw gegevensclip. Als het probleem zich blijft voordoen, neem dan contact op met de ondersteuning.",
+      "delete": "We konden de gegevensclip niet verwijderen. Probeer het opnieuw. Als het probleem zich blijft voordoen, neem dan contact op met de ondersteuning.",
+      "diff_view": "Er is een onverwachte fout opgetreden bij het laden van de diff-weergave van de gegevensclip. Als het probleem zich blijft voordoen, neem dan contact op met de ondersteuning.",
+      "edit": "Er is een onverwachte fout opgetreden bij het bewerken van uw gegevensclips. Als het probleem zich blijft voordoen, neem dan contact op met de ondersteuning.",
+      "link_copy": "Er is een onverwachte fout opgetreden bij het kopiëren van de link. Probeer het opnieuw. Als het probleem zich blijft voordoen, neem dan contact op met de ondersteuning.",
+      "list": "Er is een onverwachte fout opgetreden bij het laden van de gegevensclipbibliotheek. Als het probleem zich blijft voordoen, neem dan contact op met de ondersteuning.",
+      "mark_as_ready": "We konden de gegevensclip niet markeren als klaar voor samenvoeging, probeer het opnieuw. Als het probleem zich blijft voordoen, neem dan contact op met de ondersteuning.",
+      "mark_for_review": "Uw gegevensclip is niet ingediend voor beoordeling. Probeer het opnieuw. Als het probleem zich blijft voordoen, neem dan contact op met de ondersteuning.",
+      "mark_merged": "Het samenvoegen van uw gegevensclip is mislukt. Probeer het opnieuw. Als het probleem zich blijft voordoen, neem dan contact op met de ondersteuning.",
+      "mark_open": "We konden de gegevensclip niet opnieuw openen. Probeer het opnieuw. Als het probleem zich blijft voordoen, neem dan contact op met de ondersteuning."
+    },
+    "filter": "Filter",
+    "library": {
+      "actions": {
+        "delete": "Verwijderen",
+        "edit": "Bekijken",
+        "edit_details": "Details bewerken"
+      },
+      "create": "Gegevensclip aanmaken",
+      "guest_search": "Zoeken op gegevensclip of bladnaam",
+      "headers": {
+        "creator": "Maker",
+        "name": "Naam",
+        "records": "Records",
+        "sheet": "Bronblad",
+        "status": "Status",
+        "updated_at": "Voor het laatst bewerkt"
+      },
+      "search": "Zoeken op naam van gegevensclip, blad of maker",
+      "source_name": "Bronblad: ",
+      "title": "Gegevensclipbibliotheek"
+    },
+    "merge": "Wijzigingen samenvoegen",
+    "modal": {
+      "cancel": "Annuleren",
+      "share": "Aanmaken"
+    },
+    "newConflicts": {
+      "close": "Sluiten",
+      "description": "Er zijn nieuwe conflicten geïntroduceerd bij het controleren van deze gegevensclip.",
+      "submit": "Conflicten oplossen",
+      "title": "Geen conflicten gevonden"
+    },
+    "next": "Volgende",
+    "promise": "Veilig en betrouwbaar verzenden",
+    "resend": "Heropenen en teruggaan",
+    "resolutions": {
+      "applyAll": {
+        "button": "Toepassen",
+        "description_one": "Wilt u '{{resolveTo}}' toepassen als uw selectie voor de resterende conflicten in de kolom '{{columnLabel}}'? {{count}} record wordt bijgewerkt.",
+        "description_other": "Wilt u '{{resolveTo}}' toepassen als uw selectie voor de resterende conflicten in de kolom '{{columnLabel}}'? {{count}} records worden bijgewerkt.",
+        "description_zero": "Wilt u '{{resolveTo}}' toepassen als uw selectie voor de resterende conflicten in de kolom '{{columnLabel}}'? {{count}} records worden bijgewerkt."
+      },
+      "cancel": "Opslaan en afsluiten",
+      "complete": "Voltooid",
+      "conflicts_found": {
+        "button_one": "{{count}} conflict",
+        "button_other": "{{count}} conflicten",
+        "button_zero": "{{count}} conflicten",
+        "clip_override": {
+          "description": "Dit verandert niets in het bronblad en de conflicterende wijzigingen in de gegevensclip worden verwijderd.",
+          "title": "Waarden uit gegevensclip verwerpen"
+        },
+        "options_title": "Kies de actie",
+        "resolve_conflicts": {
+          "description": "Zo kunt u elk conflict in de gegevensclip bekijken en beslissen welke waarden u wilt samenvoegen of negeren.",
+          "title": "Individueel wijzigingen aanbrengen"
+        },
+        "source_override": {
+          "description": "Hierdoor worden alle conflicterende waarden bijgewerkt zodat ze overeenkomen met de gegevensclip bij het samenvoegen.",
+          "title": "Waarden van gegevensclip accepteren"
+        },
+        "title": "Conflicten gevonden"
+      },
+      "empty": {
+        "button": "Terug naar clip",
+        "description": "Breng ten minste één wijziging aan om samen te voegen.",
+        "title": "Er zijn geen wijzigingen gedetecteerd in deze gegevensclip."
+      },
+      "merge": "Samenvoegen"
+    },
+    "selectedRecords_one": "{{count}} record geselecteerd",
+    "selectedRecords_other": "{{count}} records geselecteerd",
+    "selectedRecords_zero": "{{count}} records geselecteerd",
+    "share": {
+      "copy_link": "Link kopiëren",
+      "description": "Medewerkers krijgen een uitnodiging om mee te werken aan deze gegevensclip.",
+      "empty": "Geen medewerkers beschikbaar.",
+      "none_selected": "Geen medewerkers geselecteerd.",
+      "placeholder": "Medewerkers toevoegen...",
+      "submit": "Delen",
+      "title": "Gegevensclip delen"
+    },
+    "sort": "sorteren",
+    "status": {
+      "all": "Alles bekijken",
+      "merged": "Samengevoegd",
+      "open": "Openen",
+      "ready": "Gereed voor controle",
+      "title": "Status"
+    },
+    "success": {
+      "add_records": "Records succesvol toegevoegd.",
+      "create": "Uw gegevensclip is met succes aangemaakt.",
+      "delete": "Uw gegevensclip is met succes verwijderd.",
+      "edit": "Bewerkingen succesvol opgeslagen.",
+      "link_copy": "Link succesvol gekopieerd!",
+      "mark_as_ready": "Uw gegevensclip is ingediend voor beoordeling. De eigenaar van de clip is op de hoogte gebracht.",
+      "mark_merged": "Uw gegevensclip is succesvol samengevoegd.",
+      "mark_open": "gegevensclip succesvol heropend en teruggestuurd!",
+      "modal": {
+        "create": {
+          "button": "Gegevensclip bekijken",
+          "close": "Sluiten",
+          "description": "U kunt nu de nieuwe gegevensclip bekijken.",
+          "title": "Uw gegevensclip is gemaakt"
+        },
+        "ready": {
+          "close": "Sluiten",
+          "description": "Uw wijzigingen zijn ingediend ter beoordeling. We brengen u op de hoogte van eventuele opmerkingen of wijzigingen in de status.",
+          "submit": "Terug naar gegevensclip",
+          "title": "Wijzigingen succesvol ingediend!"
+        }
+      }
+    },
+    "syncedRecords_one": "{{count}} record in totaal",
+    "syncedRecords_other": "{{count}} records in totaal",
+    "syncedRecords_zero": "{{count}} records in totaal"
   },
   "document": {
     "error": {
@@ -199,6 +430,7 @@
     }
   },
   "errors": {
+    "accessDenied": "Toegang geweigerd",
     "documentNotFound": "Document niet gevonden",
     "fileNotFound": "Bestand niet gevonden",
     "missingParameter": "Parameter niet opgegeven",
@@ -208,6 +440,7 @@
     "refreshPageDescription": "Ververs de pagina om het opnieuw te proberen. Als het probleem aanhoudt, neem dan contact op met de ondersteuning.",
     "returnToDashboardButton": "Terug naar Dashboard",
     "sessionExpired": "Sessie is verlopen",
+    "sessionExpiredDescription": "Toegang tot de huidige sessie is verlopen.",
     "sheetNotFound": "Blad niet gevonden",
     "spaceNotFound": "Ruimte niet gevonden",
     "unauthorized": "Je toegangsgegevens zijn ongeldig.",
@@ -324,6 +557,15 @@
       "heading": "Controleer je Postvak In"
     }
   },
+  "helpCenter": {
+    "panel": {
+      "empty": "Richtlijnen voor deze ruimte zullen hier beschikbaar zijn indien geconfigureerd.",
+      "heading": "Hulpcentrum"
+    },
+    "pill": {
+      "hoverText": "Hulpcentrum"
+    }
+  },
   "host": {
     "modals": {
       "closeModal": {
@@ -398,6 +640,9 @@
     },
     "messages": {
       "startingJob": "Taak wordt gestart"
+    },
+    "noListener": {
+      "learnMore": "Meer informatie"
     },
     "panel": {
       "action": {
@@ -518,6 +763,56 @@
       "button": {
         "defaultLabel": "Verzenden"
       }
+    }
+  },
+  "manageUsers": {
+    "accessLink": {
+      "callout": "Deze link is 24 uur geldig. Iedereen met de link kan toegang krijgen tot de ruimte en gegevens uploaden, bewerken en anderszins beheren.",
+      "title": "Toegangslink"
+    },
+    "actions": {
+      "copyLink": "Ruimtelink kopiëren",
+      "invite": "Uitnodiging versturen",
+      "resendInvite": "Uitnodiging opnieuw verzenden",
+      "revoke": "Toegang intrekken"
+    },
+    "edit": {
+      "cancelButton": "Annuleren",
+      "description": "Door alle werkmappen van een gebruikersaccount te verwijderen, wordt die gebruiker verwijderd uit de ruimte.",
+      "error": "Fout bij het ophalen van werkboeken",
+      "loading": "Bewerktoestemmingen laden...",
+      "saveButton": "Opslaan",
+      "title": "Werkboektoegang bewerken voor"
+    },
+    "empty": "Geen gasten om weer te geven",
+    "error": {
+      "title": "De gebruikers voor deze ruimte kunnen niet worden geladen"
+    },
+    "guest": {
+      "message": "Alleen beheerders kunnen gasten beheren. Als u denkt dat u dit per ongeluk ziet, neem dan contact op met support.",
+      "title": "U heeft geen toestemming om deze pagina te bekijken"
+    },
+    "invite": {
+      "cancelButton": "Annuleren",
+      "form": {
+        "collaborate": {
+          "label": "Met wie wilt u samenwerken?",
+          "placeholder": "Uitnodigen per e-mail, gescheiden door komma"
+        },
+        "message": {
+          "label": "Bericht",
+          "placeholder": "Laten we samenwerken!"
+        }
+      },
+      "sendInvite": "Uitnodiging versturen",
+      "title": "Gasten uitnodigen"
+    },
+    "manageGuests": "Gasten beheren",
+    "revoke": {
+      "cancelButton": "Annuleren",
+      "confirmButton": "Bevestigen",
+      "removing": "Verwijderen...",
+      "title": "Toegang intrekken"
     }
   },
   "mapping": {
@@ -644,6 +939,18 @@
     }
   },
   "plugins": {
+    "extraction": {
+      "addingRecords": "Records toevoegen aan bladen",
+      "createWorkbook": "Werkboek aanmaken",
+      "createWorkbookError": "Aanmaken van de werkmap mislukt. Zie Gebeurtenislogboeken.",
+      "extractedFile": "Uitgepakt bestand",
+      "extractionFailed": "Uitpakken mislukt. Probeer het opnieuw of neem contact op met de ondersteuning.",
+      "failedToParseWorkbook": "Parsen van werkboek mislukt.",
+      "fileTooLarge": "Bestand is te groot om te verwerken. Probeer dit bestand te converteren naar CSV.",
+      "noSheets": "Geen bladen gevonden",
+      "parseSheets": "Bladen parsen",
+      "retrieveFile": "Bestand wordt opgehaald"
+    },
     "viewMapped": {
       "almostDone": "Bijna klaar...",
       "complete": "Tabel bijgewerkt. Controleer de gegevens.",
@@ -651,6 +958,31 @@
       "halfway": "We zijn halverwege. Nog even geduld...",
       "updatingTable": "De tabel wordt bijgewerkt zodat alleen gemapte velden worden weergegeven"
     }
+  },
+  "secrets": {
+    "create": "Geheim aanmaken",
+    "delete": "Geheim verwijderen",
+    "edit": "Geheim bewerken",
+    "envSecrets": "Omgevingsgeheimen",
+    "errors": {
+      "couldNotGetSecrets": "Geheimen konden niet worden opgehaald. Probeer deze pagina te verversen.",
+      "keyAlreadyExists": "Er bestaat al een geheim met deze key",
+      "keyCannotBeEmpty": "Key mag niet leeg zijn",
+      "keyInvalid": "De geheime naam mag alleen alfanumerieke tekens en lage streepjes bevatten."
+    },
+    "failureAdd": "Toevoegen van geheim {{name}} mislukt",
+    "failureEdit": "Bewerken van geheim {{name}} mislukt",
+    "keyPlaceholder": "Voer key in...",
+    "noSecrets": "Er zijn geen geheimen op omgevingsniveau. Voeg er <hyperlink>hier</hyperlink> een toe.",
+    "noSpaceSecrets": "Er zijn nog geen geheimen op ruimteniveau. Klik op het plus-pictogram om er een toe te voegen.",
+    "noUserSecrets": "Er zijn nog geen geheimen op gebruikersniveau. Klik op het plus-pictogram om er een toe te voegen.",
+    "spaceSecrets": "Ruimtegeheimen",
+    "successfulAdd": "Geheim {{name}} met succes toegevoegd",
+    "successfulEdit": "Geheim {{name}} met succes bewerkt",
+    "userDescription": "Geheimen op gebruikersniveau hebben voorrang op geheimen op ruimteniveau.",
+    "userSecrets": "Gebruikersgeheimen",
+    "value": "Geheime waarde",
+    "valuePlaceholder": "Voer waarde in..."
   },
   "sheet": {
     "columnManagement": {
@@ -921,6 +1253,41 @@
         "transform": "Transformeren"
       },
       "buttons": {
+        "addToDataClip": {
+          "modal": {
+            "cancelButton": "Annuleren",
+            "confirmButton": "Records toevoegen",
+            "description": {
+              "infix": "geselecteerd",
+              "infixType": {
+                "invalid": "ongeldig",
+                "valid": "geldig"
+              },
+              "prefix": "Bevestig het toevoegen van de ",
+              "suffix_one": "record aan de gegevensclip?",
+              "suffix_other": "records aan gegevensclip?",
+              "suffix_zero": "records aan de gegevensclip?"
+            },
+            "errorMessage": "Kan geen records aan gegevensclip toevoegen. Probeer het opnieuw of wijzig uw selectie.",
+            "heading_one": "Record toevoegen aan gegevensclip",
+            "heading_other": "Records toevoegen aan gegevensclip",
+            "heading_zero": "Records toevoegen aan gegevensclip",
+            "inProgress": "Records toevoegen..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} record toegevoegd aan gegevensclip",
+            "successMessage_other": "{{count}} records toegevoegd aan gegevensclip",
+            "successMessage_zero": "{{count}} records toegevoegd aan gegevensclip",
+            "successMessageNoCount": "Records toegevoegd aan gegevensclip"
+          },
+          "tooltip": {
+            "active": "Geselecteerde records toevoegen aan gegevensclip",
+            "disabled": {
+              "deleteDisabled": "Records toevoegen aan gegevensclips is uitgeschakeld in dit blad.",
+              "noRecordsSelected": "Selecteer minstens één record om het aan een gegevensclip toe te voegen"
+            }
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Annuleren",
@@ -986,6 +1353,66 @@
             },
             "disabled": "Geen records om te downloaden"
           }
+        },
+        "markForDeletion": {
+          "modal": {
+            "cancelButton": "Annuleren",
+            "confirmButton": "Records verwijderen",
+            "description": {
+              "infix": "geselecteerd",
+              "infixType": {
+                "invalid": "ongeldig",
+                "valid": "geldig"
+              },
+              "prefix": "Bevestig het verwijderen van de",
+              "suffix_one": "record? Als u dit doet, wordt de record ook verwijderd uit het bronblad wanneer de gegevensclip wordt samengevoegd.",
+              "suffix_other": "records? Als u dit doet, worden de records ook verwijderd uit het bronblad wanneer de gegevensclip wordt samengevoegd.",
+              "suffix_zero": "records? Als u dit doet, worden de records ook verwijderd uit het bronblad wanneer de gegevensclip wordt samengevoegd."
+            },
+            "errorMessage": "Kan geen records verwijderen. Probeer het opnieuw of wijzig uw selectie.",
+            "heading_one": "Record verwijderen",
+            "heading_other": "Records verwijderen",
+            "heading_zero": "Records verwijderen",
+            "inProgress": "Records verwijderen..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} record verwijderd",
+            "successMessage_other": "{{count}} records verwijderd",
+            "successMessage_zero": "{{count}} records verwijderd",
+            "successMessageNoCount": "Records verwijderd"
+          }
+        },
+        "restore": {
+          "modal": {
+            "cancelButton": "Annuleren",
+            "confirmButton": "Verwijderde records herstellen",
+            "description": {
+              "infix": "geselecteerd",
+              "infixType": {
+                "invalid": "ongeldig",
+                "valid": "geldig"
+              },
+              "prefix": "Wilt u records herstellen die eerder zijn gemarkeerd voor verwijdering in deze selectie?"
+            },
+            "errorMessage": "Kan geen herstelrecords toevoegen. Probeer het opnieuw of wijzig uw selectie.",
+            "heading_one": "Record herstellen",
+            "heading_other": "Records herstellen",
+            "heading_zero": "Records herstellen",
+            "inProgress": "Records herstellen..."
+          },
+          "popover": {
+            "successMessage_one": "Records die eerder waren gemarkeerd voor verwijdering zijn hersteld.",
+            "successMessage_other": "Records die eerder waren gemarkeerd voor verwijdering zijn hersteld.",
+            "successMessage_zero": "Records die eerder waren gemarkeerd voor verwijdering zijn hersteld.",
+            "successMessageNoCount": "Records die eerder waren gemarkeerd voor verwijdering zijn hersteld."
+          },
+          "tooltip": {
+            "active": "Records herstellen die eerder waren gemarkeerd voor verwijdering binnen selectie.",
+            "disabled": {
+              "deleteDisabled": "Het herstellen van records is uitgeschakeld in dit blad.",
+              "noRecordsSelected": "Selecteer minstens één record om het te herstellen"
+            }
+          }
         }
       },
       "customActionsDropdown": {
@@ -996,9 +1423,37 @@
           "requireSelection": "Selecteer één of meer records om deze actie te gebruiken"
         }
       },
+      "dataClips": {
+        "actions": {
+          "create": "Gegevensclip aanmaken"
+        },
+        "buttonText": "Clipgegevens",
+        "errors_one": "{{count}} fout",
+        "errors_other": "{{count}} fouten",
+        "errors_zero": "{{count}} fouten",
+        "modal": {
+          "cancel": "Annuleren",
+          "share": "Delen"
+        },
+        "placeholders": {
+          "description": "Voeg een opmerking toe (optioneel)..."
+        },
+        "promise": "Veilig en betrouwbaar verzenden",
+        "selectedRecords_one": "{{count}} record",
+        "selectedRecords_other": "{{count}} records",
+        "selectedRecords_zero": "{{count}} records",
+        "syncedRecords_one": "{{count}} gesynchroniseerde record",
+        "syncedRecords_other": "{{count}} gesynchroniseerde records",
+        "syncedRecords_zero": "{{count}} gesynchroniseerde records",
+        "titles": {
+          "review": "Controleren",
+          "share": "Gegevensclips delen"
+        }
+      },
       "dropdown": {
         "delete": "Verwijderen",
-        "download": "Downloaden"
+        "download": "Downloaden",
+        "restore": "Herstellen"
       },
       "filterByError": {
         "buttonText": "Filteren op fout",
@@ -1030,6 +1485,10 @@
       "moreActions": {
         "buttonText": "Meer acties",
         "placeholder": "Zoeken of selecteren..."
+      },
+      "restore": {
+        "label": "Records herstellen",
+        "tooltip": "Records herstellen die eerder gemarkeerd waren voor verwijdering."
       },
       "savedViews": {
         "buttonText": "Weergaven",
@@ -1103,8 +1562,14 @@
     }
   },
   "sidebar": {
+    "activityLogs": "Activiteitenlogs",
     "addConnection": "Verbinding toevoegen",
     "checklist": "Gegevenschecklist",
+    "collapse": {
+      "documents": "Documenten",
+      "workbook": "Werkboek",
+      "workbooks": "Werkboeken"
+    },
     "connections": {
       "tooltips": {
         "connectionError": "Er is een probleem met het verifiëren van de metagegevens van de verbindingen van deze werkmap",
@@ -1113,9 +1578,19 @@
       }
     },
     "emptyWorkbook": "Leeg werkboek",
+    "errorIconTooltip": "Dit blad bevat fouten",
     "files": "Bestanden",
+    "footer": {
+      "backToDashboard": "Terug naar dashboard",
+      "logout": "Uitloggen"
+    },
     "lockedIconTooltip": "Dit werkblad is vergrendeld",
+    "manageGuests": "Gasten beheren",
+    "pill": {
+      "admin": "Beheerder"
+    },
     "readOnlyIconTooltip": "Dit Blad is alleen-lezen",
+    "secrets": "Geheimen",
     "spaceSwitcher": {
       "placeholder": "Een ruimte zoeken of selecteren ..."
     },
@@ -1197,6 +1672,7 @@
         "current": "Huidige waarde: {{value}}",
         "empty": "geen gegevens",
         "none": "Je dataset wordt aangepast naar de getoonde waarden.",
+        "requiresDecision": "Deze waarde vereist een beslissing voordat u uw dataset kunt wijzigen.",
         "restore": "Uw dataset wordt hersteld naar de versie in deze momentopname.",
         "snapshot": "Nieuwe waarde: {{value}}"
       }
@@ -1428,6 +1904,7 @@
       "empty": "Eenmaal gegenereerde versies verschijnen hier. Versies worden automatisch gegenereerd, vaak wanneer een bulktransformatie van gegevens plaatsvindt.",
       "generatedSnapshot": "Snapshot gegenereerd vóór het toepassen van AI Transform voor prompt: ",
       "generatedSnapshotForAiTransform": "Snapshot gegenereerd vóór het toepassen van AI Transform voor prompt: ",
+      "generatedSnapshotForBulkAddToDataClip": "Momentopname gemaakt voordat records aan gegevensclip worden toegevoegd",
       "generatedSnapshotForBulkDelete": "Snapshot gegenereerd vóór het verwijderen van records",
       "generatedSnapshotForFindReplace": "Snapshot gemaakt voordat Zoeken en vervangen werd toegepast",
       "heading": "Versiegeschiedenis",

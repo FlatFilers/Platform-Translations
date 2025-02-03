@@ -4,9 +4,9 @@
     "changedColumnsText_other": "{{count}} Spalten mit geänderten Daten",
     "changedColumnsText_zero": "{{count}} Spalten mit geänderten Daten",
     "errors": {
-      "entilementError": {
-        "content": "Wenn Sie glauben, dass dies ein Fehler ist, wenden Sie sich bitte an den Kundensupport.",
-        "title": "Entschuldigung! Sie haben keinen Zugriff auf diese Funktion."
+      "entitlementError": {
+        "content": "Wenn Sie glauben, dass dies ein Fehler ist, wenden Sie sich bitte an den Kundendienst.",
+        "title": "Sorry! Sie haben keinen Zugriff auf diese Funktion."
       },
       "generalError": {
         "title": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
@@ -182,16 +182,247 @@
   "comments": {
     "addReaction": "Reaktion hinzufügen",
     "commentDisabledTooltip": "Wähle eine Zelle oder eine Zeile, um einen Kommentar hinzuzufügen",
+    "comments": "Kommentare",
     "delete": "Kommentar löschen",
     "edit": "Kommentar bearbeiten",
     "edited": " (bearbeitet)",
+    "hidden": "durch Filter ausgeblendet ...",
+    "noResolvedThreads": "Es wurden noch keine Themen gelöst",
     "noResults": "Keine Übereinstimmungen",
+    "noUpdates": "Keine Aktualisierungen",
     "placeholder": "Fügen Sie hier Ihren Kommentar hinzu ...",
     "reactionList": "<0></0> hat reagiert mit {{emoji}}",
+    "reopen": "Thema erneut öffnen",
+    "repliesCount_one": "{{count}} weitere Antworten",
+    "repliesCount_other": "{{count}} weitere Antworten",
+    "repliesCount_zero": "{{count}} weitere Antworten",
     "resolve": "Thema auflösen",
+    "resolved": "Gelöst",
+    "row": "Zeile {{row}}",
+    "rowAndColumn": "Zeile {{row}}, {{column}}",
     "send": "Kommentar senden",
     "threadPlaceholder": "Antworten oder andere mit @ erwähnen ...",
+    "updates": "Aktualisierungen",
+    "updatesError": "Beim Laden der Aktualisierungen ist ein Fehler aufgetreten",
+    "userCommented": "<user>{{user}}</user> hat <identifier>{{identifier}}</identifier> kommentiert",
+    "userReacted": "<0></0> hat auf Ihren Kommentar reagiert",
     "you": "Du"
+  },
+  "common": {
+    "cancel": "Abbrechen",
+    "lastWeek": "Letzte Woche",
+    "name": "Name",
+    "older": "Ältere",
+    "thisWeek": "Diese Woche",
+    "today": "Heute",
+    "yesterday": "Gestern"
+  },
+  "dataClips": {
+    "actions": {
+      "add_to_clip": "Ausgewählte Elemente zum Datenclip hinzufügen",
+      "buttons": {
+        "back": "Zurück",
+        "conflicts": "Konflikte lösen",
+        "review": "Änderungen überprüfen",
+        "share": "Teilen",
+        "submit_for_review": "Zur Überprüfung übermitteln",
+        "view": "Datenclip anzeigen"
+      },
+      "create": "Datenclip erstellen",
+      "library": "Zur Datenclip-Bibliothek gehen",
+      "sheet_list": "Datenclips der Tabelle anzeigen",
+      "tooltip": {
+        "conflicts": "Bitte lösen Sie Konflikte vor der Zusammenführung.",
+        "no_changes": "Nehmen Sie mindestens eine Änderung vor der Zusammenführung vor.",
+        "no_data_clips": "Erstellen Sie einen Datenclip zum Hinzufügen.",
+        "none_selected": {
+          "add_to_clip": "Wählen Sie mindestens einen Datensatz aus, den Sie zu einem Datenclip hinzufügen möchten.",
+          "create": "Wählen Sie mindestens einen Datensatz aus, um einen Datenclip zu erstellen."
+        },
+        "review": "An diesem Datenclip wurden keine Änderungen vorgenommen."
+      }
+    },
+    "buttonText": "Clip-Daten",
+    "choose_action": "Wählen Sie eine Aktion:",
+    "clear": "löschen",
+    "collaborators": "Mitwirkende",
+    "confirmation": {
+      "delete": {
+        "cancel": "Abbrechen",
+        "description": "Damit wird dieser Datenclip endgültig aus Ihrer Bibliothek gelöscht.",
+        "submit": "Löschen",
+        "title": "Löschen"
+      },
+      "ready": {
+        "cancel": "Abbrechen",
+        "description": "Ihre Änderungen werden zur Überprüfung gesendet.",
+        "submit": "Absenden",
+        "title": "Zur Überprüfung übermitteln"
+      }
+    },
+    "conflictResolution": {
+      "applyAll": "Auf alle anwenden?",
+      "change_description": "1 Datensatz im Feld „{{fieldName}}“ wird geändert.",
+      "columnTotal": "Spaltensumme:",
+      "description": "Es gibt Änderungen sowohl im Ausgangsblatt als auch im Datenclip. Wählen Sie, welche Sie behalten möchten.",
+      "empty": {
+        "description": "Bereit zur Überprüfung",
+        "status": "Vollständig",
+        "title": "Keine Konflikte"
+      },
+      "row": "Zeile",
+      "title": "Wählen Sie, welche Änderung Sie zusammenführen möchten"
+    },
+    "created_by": "Erstellt von",
+    "detailsModal": {
+      "create": {
+        "action": "Erstellen",
+        "title": "Datenclip erstellen"
+      },
+      "edit": {
+        "action": "Absenden",
+        "title": "Datenclip bearbeiten"
+      },
+      "placeholder": "Einen Kommentar hinzufügen (optional) …",
+      "review": "Überprüfung"
+    },
+    "empty": "Keine Datenclips zum Anzeigen",
+    "error": "Die Datenclips für diesen Bereich können nicht geladen werden",
+    "errors_one": "{{count}} Fehler",
+    "errors_other": "{{count}} Fehler",
+    "errors_zero": "{{count}} Fehler",
+    "errors": {
+      "add_records_create": "Beim Hinzufügen Ihrer Datensätze zum Datenclip ist ein unerwarteter Fehler aufgetreten. Es wurde ein leerer Datenclip erstellt.",
+      "add_to_clip": "Beim Hinzufügen Ihrer Datensätze zum Datenclip ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support.",
+      "bulk_resolve_all_conflicts": "Beim Lösen von Konflikten ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support.",
+      "create": "Beim Erstellen Ihres Datenclips ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support.",
+      "delete": "Wir konnten den Datenclip nicht löschen. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support.",
+      "diff_view": "Beim Laden der Datenclip-Vergleichsansicht ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support.",
+      "edit": "Beim Bearbeiten Ihrer Datenclips ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support.",
+      "link_copy": "Beim Kopieren des Links ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support.",
+      "list": "Beim Laden der Datenclip-Bibliothek ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support.",
+      "mark_as_ready": "Wir konnten den Datenclip nicht als zusammenführbar markieren. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support.",
+      "mark_for_review": "Ihr Datenclip konnte nicht zur Überprüfung eingereicht werden. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support.",
+      "mark_merged": "Ihr Datenclip konnte nicht zusammengeführt werden. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support.",
+      "mark_open": "Wir konnten den Datenclip nicht erneut öffnen. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support."
+    },
+    "filter": "Filtern",
+    "library": {
+      "actions": {
+        "delete": "Löschen",
+        "edit": "Ansicht",
+        "edit_details": "Details bearbeiten"
+      },
+      "create": "Datenclip erstellen",
+      "guest_search": "Suche nach Datenclip oder Blattname",
+      "headers": {
+        "creator": "Ersteller",
+        "name": "Name",
+        "records": "Datensätze",
+        "sheet": "Quellblatt",
+        "status": "Status",
+        "updated_at": "Zuletzt bearbeitet"
+      },
+      "search": "Suche nach Datenclip, Blatt oder Name des Erstellers",
+      "source_name": "Quellblatt: ",
+      "title": "Datenclip-Bibliothek"
+    },
+    "merge": "Änderungen zusammenführen",
+    "modal": {
+      "cancel": "Abbrechen",
+      "share": "Erstellen"
+    },
+    "newConflicts": {
+      "close": "Schließen",
+      "description": "Bei der Überprüfung dieses Datenclips wurden neue Konflikte festgestellt.",
+      "submit": "Konflikte lösen",
+      "title": "Neue Konflikte gefunden"
+    },
+    "next": "Weiter",
+    "promise": "Sicheres Senden",
+    "resend": "Neu öffnen und zurückkehren",
+    "resolutions": {
+      "applyAll": {
+        "button": "Anwenden",
+        "description_one": "Möchten Sie „{{resolveTo}}“ als Ihre Auswahl für die verbleibenden Konflikte in der Spalte „{{columnLabel}}“ übernehmen? {{count}} Datensätze werden aktualisiert.",
+        "description_other": "Möchten Sie „{{resolveTo}}“ als Ihre Auswahl für die verbleibenden Konflikte in der Spalte „{{columnLabel}}“ übernehmen? {{count}} Datensätze werden aktualisiert.",
+        "description_zero": "Möchten Sie „{{resolveTo}}“ als Ihre Auswahl für die verbleibenden Konflikte in der Spalte „{{columnLabel}}“ übernehmen? {{count}} Datensätze werden aktualisiert."
+      },
+      "cancel": "Speichern und beenden",
+      "complete": "Vollständig",
+      "conflicts_found": {
+        "button_one": "{{count}} Konflikt",
+        "button_other": "{{count}} Konflikte",
+        "button_zero": "{{count}} Konflikte",
+        "clip_override": {
+          "description": "Dadurch wird nichts an der Quelltabelle geändert und die Änderungen am Datenclip, bei dem ein Konflikt besteht, werden verworfen.",
+          "title": "Werte aus Datenclip ablehnen"
+        },
+        "options_title": "Wählen Sie die Aktion aus",
+        "resolve_conflicts": {
+          "description": "Dadurch können Sie jeden Konflikt im Datenclip überprüfen und entscheiden, welche Werte zusammengeführt oder ignoriert werden sollen.",
+          "title": "Änderungen einzeln vornehmen"
+        },
+        "source_override": {
+          "description": "Dadurch werden alle Werte, die in Konflikt stehen, aktualisiert, sodass sie beim Zusammenführen mit dem Datenclip übereinstimmen.",
+          "title": "Werte aus Datenclip akzeptieren"
+        },
+        "title": "Konflikte gefunden"
+      },
+      "empty": {
+        "button": "Zurück zum Clip",
+        "description": "Nehmen Sie mindestens eine Änderung vor der Zusammenführung vor.",
+        "title": "In diesem Datenclip wurden keine Änderungen festgestellt."
+      },
+      "merge": "Zusammenführen"
+    },
+    "selectedRecords_one": "{{count}} Datensatz ausgewählt",
+    "selectedRecords_other": "{{count}} Datensätze ausgewählt",
+    "selectedRecords_zero": "{{count}} Datensätze ausgewählt",
+    "share": {
+      "copy_link": "Link kopieren",
+      "description": "Mitarbeiter erhalten eine Einladung, an diesem Datenclip mitzuarbeiten.",
+      "empty": "Keine Mitwirkenden verfügbar.",
+      "none_selected": "Keine Mitwirkenden ausgewählt.",
+      "placeholder": "Mitarbeiter hinzufügen ...",
+      "submit": "Teilen",
+      "title": "Datenclip freigeben"
+    },
+    "sort": "sortieren",
+    "status": {
+      "all": "Alle anzeigen",
+      "merged": "Zusammengeführt",
+      "open": "Öffnen",
+      "ready": "Bereit zur Überprüfung",
+      "title": "Status"
+    },
+    "success": {
+      "add_records": "Datensätze erfolgreich hinzugefügt.",
+      "create": "Ihr Datenclip wurde erfolgreich erstellt.",
+      "delete": "Ihr Datenclip wurde erfolgreich gelöscht.",
+      "edit": "Änderungen erfolgreich gespeichert.",
+      "link_copy": "Link erfolgreich kopiert!",
+      "mark_as_ready": "Ihr Datenclip wurde erfolgreich zur Überprüfung eingereicht. Der Clip-Eigentümer wurde benachrichtigt.",
+      "mark_merged": "Ihr Datenclip wurde erfolgreich zusammengeführt.",
+      "mark_open": "Datenclip erfolgreich erneut geöffnet und zurückgegeben!",
+      "modal": {
+        "create": {
+          "button": "Datenclip anzeigen",
+          "close": "Schließen",
+          "description": "Sie können nun den neuen Datenclip anzeigen.",
+          "title": "Ihr Datenclip wurde erstellt."
+        },
+        "ready": {
+          "close": "Schließen",
+          "description": "Ihre Änderungen wurden zur Überprüfung übermittelt. Wir benachrichtigen Sie, wenn es Anmerkungen oder Statusänderungen gibt.",
+          "submit": "Zurück zum Datenclip",
+          "title": "Änderungen erfolgreich übermittelt!"
+        }
+      }
+    },
+    "syncedRecords_one": "{{count}} Datensatz gesamt",
+    "syncedRecords_other": "{{count}} Datensätze gesamt",
+    "syncedRecords_zero": "{{count}} Datensätze gesamt"
   },
   "document": {
     "error": {
@@ -200,6 +431,7 @@
     }
   },
   "errors": {
+    "accessDenied": "Zugriff verweigert",
     "documentNotFound": "Dokument nicht gefunden",
     "fileNotFound": "Datei nicht gefunden",
     "missingParameter": "Parameter nicht angegeben",
@@ -209,6 +441,7 @@
     "refreshPageDescription": "Aktualisieren Sie die Seite und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich bitte an den Support.",
     "returnToDashboardButton": "Zurück zum Dashboard",
     "sessionExpired": "Die Sitzung ist abgelaufen",
+    "sessionExpiredDescription": "Der Zugriff auf die aktuelle Sitzung ist abgelaufen.",
     "sheetNotFound": "Arbeitsblatt nicht gefunden",
     "spaceNotFound": "Bereich nicht gefunden",
     "unauthorized": "Ihre Zugangsdaten sind ungültig.",
@@ -325,6 +558,15 @@
       "heading": "Prüfen Sie Ihren Posteingang"
     }
   },
+  "helpCenter": {
+    "panel": {
+      "empty": "Wenn für diesen Bereich eine Anleitung konfiguriert wurde, ist sie hier abrufbar.",
+      "heading": "Hilfecenter"
+    },
+    "pill": {
+      "hoverText": "Hilfecenter"
+    }
+  },
   "host": {
     "modals": {
       "closeModal": {
@@ -399,6 +641,9 @@
     },
     "messages": {
       "startingJob": "Job starten"
+    },
+    "noListener": {
+      "learnMore": "Weitere Informationen"
     },
     "panel": {
       "action": {
@@ -519,6 +764,56 @@
       "button": {
         "defaultLabel": "Absenden"
       }
+    }
+  },
+  "manageUsers": {
+    "accessLink": {
+      "callout": "Dieser Link ist 24 Stunden lang gültig. Jeder, der über den Link verfügt, kann auf den Bereich zugreifen und Daten hochladen, bearbeiten und anderweitig verwalten.",
+      "title": "Zugriffslink"
+    },
+    "actions": {
+      "copyLink": "Space-Link kopieren",
+      "invite": "Einladung senden",
+      "resendInvite": "Einladung erneut senden",
+      "revoke": "Zugriff widerrufen"
+    },
+    "edit": {
+      "cancelButton": "Abbrechen",
+      "description": "Durch das Entfernen aller Arbeitsmappen aus dem Konto eines Benutzers wird dieser Benutzer aus dem Bereich entfernt.",
+      "error": "Fehler beim Abrufen der Arbeitsmappen",
+      "loading": "Bearbeitungsberechtigungen werden geladen",
+      "saveButton": "Speichern",
+      "title": "Bearbeitungszugriff auf Arbeitsmappe für"
+    },
+    "empty": "Keine Gäste zur Anzeige",
+    "error": {
+      "title": "Die Benutzer für diesen Bereich können nicht geladen werden"
+    },
+    "guest": {
+      "message": "Nur Administratoren können Gäste verwalten. Wenn Sie glauben, dass dies fälschlicherweise angezeigt wird, wenden Sie sich bitte an den Support.",
+      "title": "Sie haben keine Berechtigung zum Anzeigen dieser Seite."
+    },
+    "invite": {
+      "cancelButton": "Abbrechen",
+      "form": {
+        "collaborate": {
+          "label": "Mit wem würden Sie gerne zusammenarbeiten?",
+          "placeholder": "Per E-Mail einladen (durch Komma getrennt)"
+        },
+        "message": {
+          "label": "Nachricht",
+          "placeholder": "Lassen Sie uns zusammenarbeiten!"
+        }
+      },
+      "sendInvite": "Einladung senden",
+      "title": "Gäste einladen"
+    },
+    "manageGuests": "Gäste verwalten",
+    "revoke": {
+      "cancelButton": "Abbrechen",
+      "confirmButton": "Bestätigen",
+      "removing": "Entfernen",
+      "title": "Zugriff widerrufen"
     }
   },
   "mapping": {
@@ -645,6 +940,18 @@
     }
   },
   "plugins": {
+    "extraction": {
+      "addingRecords": "Datensätze werden zu Tabellenblättern hinzugefügt",
+      "createWorkbook": "Arbeitsmappe wird erstellt",
+      "createWorkbookError": "Arbeitsmappe konnte nicht erstellt werden. Siehe Ereignisprotokolle.",
+      "extractedFile": "Extrahierte Datei",
+      "extractionFailed": "Extraktion fehlgeschlagen. Versuchen Sie es erneut oder wenden Sie sich an den Support.",
+      "failedToParseWorkbook": "Arbeitsmappe konnte nicht analysiert werden.",
+      "fileTooLarge": "Datei ist zu groß zum Analysieren. Versuchen Sie, diese Datei in CSV zu konvertieren.",
+      "noSheets": "Keine Tabellenblätter gefunden",
+      "parseSheets": "Tabellenblätter werden analysiert",
+      "retrieveFile": "Datei wird abgerufen"
+    },
     "viewMapped": {
       "almostDone": "Fast fertig ...",
       "complete": "Tabellenaktualisierung abgeschlossen. Bitte überprüfen Sie die Daten.",
@@ -652,6 +959,31 @@
       "halfway": "Halb geschafft, bleiben Sie dran ...",
       "updatingTable": "Aktualisieren der Tabelle, um nur zugeordnete Felder anzuzeigen"
     }
+  },
+  "secrets": {
+    "create": "Geheimnis erstellen",
+    "delete": "Geheimnis löschen",
+    "edit": "Geheimnis bearbeiten",
+    "envSecrets": "Umweltgeheimnisse",
+    "errors": {
+      "couldNotGetSecrets": "Es konnten keine Geheimnisse gefunden werden. Bitte versuchen Sie, diese Seite zu aktualisieren.",
+      "keyAlreadyExists": "Es existiert bereits ein Geheimnis mit diesem Schlüssel.",
+      "keyCannotBeEmpty": "Der Schlüssel darf nicht leer sein.",
+      "keyInvalid": "Der Geheimnisname darf nur alphanumerische Zeichen und Unterstriche enthalten."
+    },
+    "failureAdd": "Das Hinzufügen des Geheimnisses {{name}} ist fehlgeschlagen.",
+    "failureEdit": "Das Bearbeiten des Geheimnisses {{name}} ist fehlgeschlagen.",
+    "keyPlaceholder": "Schlüssel eingeben",
+    "noSecrets": "Es sind noch keine Umgebungslevel-Geheimnisse vorhanden. Fügen Sie eines <hyperlink>hier</hyperlink> hinzu.",
+    "noSpaceSecrets": "Es sind noch keine Weltraumgeheimnisse vorhanden. Klicken Sie auf das Plus-Symbol, um eines hinzuzufügen.",
+    "noUserSecrets": "Es sind noch keine Benutzerlevel-Geheimnisse vorhanden. Klicken Sie auf das Plus-Symbol, um eines hinzuzufügen.",
+    "spaceSecrets": "Weltraumgeheimnisse",
+    "successfulAdd": "Das Geheimnis {{name}} wurde erfolgreich hinzugefügt.",
+    "successfulEdit": "Das Geheimnis {{name}} wurde erfolgreich geändert.",
+    "userDescription": "Benutzerlevel-Geheimnisse haben Vorrang vor Raumlevel-Geheimnissen.",
+    "userSecrets": "Benutzergeheimnisse",
+    "value": "Geheimer Wert",
+    "valuePlaceholder": "Wert eingeben"
   },
   "sheet": {
     "columnManagement": {
@@ -922,6 +1254,41 @@
         "transform": "Transformieren"
       },
       "buttons": {
+        "addToDataClip": {
+          "modal": {
+            "cancelButton": "Abbrechen",
+            "confirmButton": "Datensätze hinzufügen",
+            "description": {
+              "infix": "ausgewählt",
+              "infixType": {
+                "invalid": "ungültig",
+                "valid": "gültig"
+              },
+              "prefix": "Möchten Sie den/die ",
+              "suffix_one": "Datensatz zum Datenclip hinzufügen?",
+              "suffix_other": "Datensätze zum Datenclip hinzufügen?",
+              "suffix_zero": "Datensätze zum Datenclip hinzufügen?"
+            },
+            "errorMessage": "Es konnten keine Datensätze zum Datenclip hinzugefügt werden. Versuchen Sie es erneut oder ändern Sie Ihre Auswahl.",
+            "heading_one": "Datensatz zum Datenclip hinzufügen",
+            "heading_other": "Datensätze zum Datenclip hinzufügen",
+            "heading_zero": "Datensätze zum Datenclip hinzufügen",
+            "inProgress": "Datensätze werden hinzugefügt …"
+          },
+          "popover": {
+            "successMessage_one": "{{count}} Datensatz wurde zum Datenclip hinzugefügt",
+            "successMessage_other": "{{count}} Datensätze wurden zum Datenclip hinzugefügt",
+            "successMessage_zero": "{{count}} Datensätze wurden zum Datenclip hinzugefügt",
+            "successMessageNoCount": "Datensätze wurden zum Datenclip hinzugefügt"
+          },
+          "tooltip": {
+            "active": "Ausgewählte Datensätze zum Datensatzclip hinzufügen",
+            "disabled": {
+              "deleteDisabled": "Das Hinzufügen von Datensätzen zu Datenclips ist in dieser Tabelle deaktiviert.",
+              "noRecordsSelected": "Wählen Sie mindestens einen Datensatz aus, um ihn einem Datenclip hinzuzufügen."
+            }
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Abbrechen",
@@ -987,6 +1354,66 @@
             },
             "disabled": "Es sind keine Einträge zum Herunterladen verfügbar"
           }
+        },
+        "markForDeletion": {
+          "modal": {
+            "cancelButton": "Abbrechen",
+            "confirmButton": "Datensätze löschen",
+            "description": {
+              "infix": "ausgewählt",
+              "infixType": {
+                "invalid": "ungültig",
+                "valid": "gültig"
+              },
+              "prefix": "Möchten Sie den/die",
+              "suffix_one": "Datensatz löschen? Dadurch wird beim Zusammenführen des Datenclips auch der Datensatz aus dem Quellblatt entfernt.",
+              "suffix_other": "Datensätze löschen? Dadurch werden beim Zusammenführen des Datenclips auch die Datensätze aus dem Quellblatt entfernt.",
+              "suffix_zero": "Datensätze löschen? Dadurch werden beim Zusammenführen des Datenclips auch die Datensätze aus dem Quellblatt entfernt."
+            },
+            "errorMessage": "Datensätze können nicht gelöscht werden. Bitte versuchen Sie es erneut oder ändern Sie Ihre Auswahl.",
+            "heading_one": "Datensatz löschen",
+            "heading_other": "Datensätze löschen",
+            "heading_zero": "Datensätze löschen",
+            "inProgress": "Datensätze werden gelöscht ..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} Datensatz gelöscht",
+            "successMessage_other": "{{count}} Datensätze gelöscht",
+            "successMessage_zero": "{{count}} Datensätze gelöscht",
+            "successMessageNoCount": "Datensätze gelöscht"
+          }
+        },
+        "restore": {
+          "modal": {
+            "cancelButton": "Abbrechen",
+            "confirmButton": "Gelöschte Datensätze wiederherstellen",
+            "description": {
+              "infix": "ausgewählt",
+              "infixType": {
+                "invalid": "ungültig",
+                "valid": "gültig"
+              },
+              "prefix": "Möchten Sie Datensätze wiederherstellen, die zuvor in dieser Auswahl zur Löschung markiert wurden?"
+            },
+            "errorMessage": "Es können keine Datensätze zur Wiederherstellung hinzugefügt werden. Bitte versuchen Sie es erneut oder ändern Sie Ihre Auswahl.",
+            "heading_one": "Datensatz wiederherstellen",
+            "heading_other": " Datensätze wiederherstellen",
+            "heading_zero": "Datensätze wiederherstellen",
+            "inProgress": "Datensätze werden wiederhergestellt ..."
+          },
+          "popover": {
+            "successMessage_one": "Datensätze, die zuvor zum Löschen markiert waren, wurden wiederhergestellt.",
+            "successMessage_other": "Datensätze, die zuvor zum Löschen markiert waren, wurden wiederhergestellt.",
+            "successMessage_zero": "Datensätze, die zuvor zum Löschen markiert waren, wurden wiederhergestellt.",
+            "successMessageNoCount": "Datensätze, die zuvor zum Löschen markiert waren, wurden wiederhergestellt."
+          },
+          "tooltip": {
+            "active": "Zuvor zum Löschen markierte Datensätze innerhalb der Auswahl wiederherstellen.",
+            "disabled": {
+              "deleteDisabled": "Das Wiederherstellen von Datensätzen ist in diesem Blatt deaktiviert.",
+              "noRecordsSelected": "Wählen Sie mindestens einen Datensatz aus, um ihn wiederherzustellen."
+            }
+          }
         }
       },
       "customActionsDropdown": {
@@ -997,9 +1424,37 @@
           "requireSelection": "Für diese Aktion bitte einen oder mehrere Einträge auswählen"
         }
       },
+      "dataClips": {
+        "actions": {
+          "create": "Datenclip erstellen"
+        },
+        "buttonText": "Clip-Daten",
+        "errors_one": "{{count}} Fehler",
+        "errors_other": "{{count}} Fehler",
+        "errors_zero": "{{count}} Fehler",
+        "modal": {
+          "cancel": "Abbrechen",
+          "share": "Teilen"
+        },
+        "placeholders": {
+          "description": "Einen Kommentar hinzufügen (optional) …"
+        },
+        "promise": "Sicheres Senden",
+        "selectedRecords_one": "{{count}} Datensatz\n",
+        "selectedRecords_other": "{{count}} Datensätze\n",
+        "selectedRecords_zero": "{{count}} Datensätze\n",
+        "syncedRecords_one": "{{count}} synchronisierter Datensatz\n",
+        "syncedRecords_other": "{{count}} synchronisierte Datensätze\n",
+        "syncedRecords_zero": "{{count}} synchronisierte Datensätze\n",
+        "titles": {
+          "review": "Überprüfung",
+          "share": "Clip-Daten teilen"
+        }
+      },
       "dropdown": {
         "delete": "Löschen",
-        "download": "Herunterladen"
+        "download": "Herunterladen",
+        "restore": "Wiederherstellen"
       },
       "filterByError": {
         "buttonText": "Nach Fehler filtern",
@@ -1031,6 +1486,10 @@
       "moreActions": {
         "buttonText": "Weitere Aktionen",
         "placeholder": "Suchen oder auswählen …"
+      },
+      "restore": {
+        "label": "Datensätze wiederherstellen",
+        "tooltip": "Datensätze, die zuvor zur Löschung markiert wurden, wiederherstellen."
       },
       "savedViews": {
         "buttonText": "Ansichten",
@@ -1104,8 +1563,14 @@
     }
   },
   "sidebar": {
+    "activityLogs": "Aktivitätsprotokolle",
     "addConnection": "Verbindung hinzufügen",
     "checklist": "Daten-Checkliste",
+    "collapse": {
+      "documents": "Dokumente",
+      "workbook": "Arbeitsmappe",
+      "workbooks": "Arbeitsmappen"
+    },
     "connections": {
       "tooltips": {
         "connectionError": "Es gibt ein Problem beim Überprüfen der Metadaten der Verbindungen dieser Arbeitsmappe",
@@ -1114,9 +1579,19 @@
       }
     },
     "emptyWorkbook": "Leeres Arbeitsbuch",
+    "errorIconTooltip": "Diese Tabelle enthält Fehler",
     "files": "Dateien",
+    "footer": {
+      "backToDashboard": "Zurück zum Dashboard",
+      "logout": "Ausloggen"
+    },
     "lockedIconTooltip": "Dieses Blatt ist gesperrt",
+    "manageGuests": "Gäste verwalten",
+    "pill": {
+      "admin": "Admin"
+    },
     "readOnlyIconTooltip": "Dieses Arbeitsblatt ist schreibgeschützt",
+    "secrets": "Geheimnisse",
     "spaceSwitcher": {
       "placeholder": "Suchen oder wählen Sie einen Platz ..."
     },
@@ -1198,6 +1673,7 @@
         "current": "Aktueller Wert: {{value}}",
         "empty": "keine Daten",
         "none": "Ihr Datensatz wird mit den angezeigten Werten geändert.",
+        "requiresDecision": "Sie müssen diesen Wert festlegen, bevor Sie Ihren Datensatz ändern können.",
         "restore": "Ihr Datensatz wird mit der Version in diesem Snapshot wiederhergestellt.",
         "snapshot": "Neuer Wert: {{value}}"
       }
@@ -1429,6 +1905,7 @@
       "empty": "Generierte Versionen erscheinen hier. Versionen werden automatisch generiert, oft wenn eine Massenumwandlung von Daten stattfindet.",
       "generatedSnapshot": "Schnappschuss, der vor der Anwendung von AI Transform für die Eingabeaufforderung erstellt wurde: ",
       "generatedSnapshotForAiTransform": "Schnappschuss, der vor der Anwendung von AI Transform für die Eingabeaufforderung erstellt wurde: ",
+      "generatedSnapshotForBulkAddToDataClip": "Momentaufnahme, die vor dem Hinzufügen von Datensätzen zum Datenclip erstellt wurde",
       "generatedSnapshotForBulkDelete": "Schnappschuss vor dem Löschen von Datensätzen",
       "generatedSnapshotForFindReplace": "Schnappschuss vor der Anwendung von Suchen und Ersetzen",
       "heading": "Versionsverlauf",

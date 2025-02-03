@@ -4,9 +4,9 @@
     "changedColumnsText_other": "Verileri değiştirilmiş {{count}} sütun",
     "changedColumnsText_zero": "Verileri değiştirilmiş {{count}} sütun",
     "errors": {
-      "entilementError": {
-        "content": "Bunun bir hata olduğunu düşünüyorsanız lütfen müşteri desteğine başvurun.",
-        "title": "Üzgünüm! Bu özelliğe erişiminiz yok."
+      "entitlementError": {
+        "content": "Bunun bir hata olduğunu düşünüyorsanız lütfen müşteri desteğine ulaşın.",
+        "title": "Üzgünüz! Bu özelliğe erişiminiz yok."
       },
       "generalError": {
         "title": "Bir şeyler ters gitti. Lütfen tekrar deneyin."
@@ -182,16 +182,247 @@
   "comments": {
     "addReaction": "Tepki ekleyin",
     "commentDisabledTooltip": "Yorum eklemek için bir hücre veya satır seçin",
+    "comments": "Yorumlar",
     "delete": "Yorumu silin",
     "edit": "Yorumu düzenleyin",
     "edited": " (düzenlendi)",
+    "hidden": "filtrelerle gizlendi…",
+    "noResolvedThreads": "Henüz hiçbir konu çözülmedi",
     "noResults": "Eşleşme yok",
+    "noUpdates": "Güncelleme yok",
     "placeholder": "Yorumunu buraya ekle...",
     "reactionList": "<0></0> {{emoji}} ile tepki verdi",
+    "reopen": "Konuyu yeniden aç",
+    "repliesCount_one": "{{count}} daha fazla yanıt",
+    "repliesCount_other": "{{count}} daha fazla yanıt",
+    "repliesCount_zero": "{{count}} daha fazla yanıt",
     "resolve": "Mesajı çözün",
+    "resolved": "Çözüldü",
+    "row": "Satır {{row}}",
+    "rowAndColumn": "Satır {{row}}, {{column}}",
     "send": "Yorum gönder",
     "threadPlaceholder": "@ ile başkalarına yanıt ver veya bahset...",
+    "updates": "Güncellemeler",
+    "updatesError": "Güncellemeler yüklenirken bir hata oluştu",
+    "userCommented": "<user>{{user}}</user> <identifier>{{identifier}}</identifier> hakkında yorum yaptı",
+    "userReacted": "<0></0> yorumunuza tepki verdi",
     "you": "Siz"
+  },
+  "common": {
+    "cancel": "İptal et",
+    "lastWeek": "Geçen Hafta",
+    "name": "Ad",
+    "older": "Daha Eski",
+    "thisWeek": "Bu Hafta",
+    "today": "Bugün",
+    "yesterday": "Dün"
+  },
+  "dataClips": {
+    "actions": {
+      "add_to_clip": "Seçimleri veri parçasına ekle",
+      "buttons": {
+        "back": "Geri",
+        "conflicts": "Çakışmaları çöz.",
+        "review": "Değişiklikleri incele",
+        "share": "Paylaş",
+        "submit_for_review": "İnceleme için gönder",
+        "view": "Veri klibini görüntüle"
+      },
+      "create": "Veri klibi oluştur",
+      "library": "Veri parçası kütüphanesine git",
+      "sheet_list": "Sayfanın veri parçalarını gör",
+      "tooltip": {
+        "conflicts": "Birleştirmeden önce lütfen çatışmaları çözümleyin.",
+        "no_changes": "Birleştirmek için en az bir değişiklik yapın.",
+        "no_data_clips": "Eklenecek bir veri parçası oluşturun.",
+        "none_selected": {
+          "add_to_clip": "Bir veri parçası eklemek için en az bir kayıt seçin",
+          "create": "Bir veri parçası oluşturmak için en az bir kayıt seçin"
+        },
+        "review": "Bu veri parçası üzerinde değişiklik yapılmadı."
+      }
+    },
+    "buttonText": "Parça verisi",
+    "choose_action": "Bir eylem seç:",
+    "clear": "temizle",
+    "collaborators": "Ortak Çalışanlar",
+    "confirmation": {
+      "delete": {
+        "cancel": "İptal et",
+        "description": "Bu, bu veri klibini kitaplığınızdan kalıcı olarak silecektir.",
+        "submit": "Sil",
+        "title": "Sil"
+      },
+      "ready": {
+        "cancel": "İptal et",
+        "description": "Değişiklikleriniz inceleme için gönderilecek.",
+        "submit": "Gönder",
+        "title": "İnceleme için gönder"
+      }
+    },
+    "conflictResolution": {
+      "applyAll": "Herkese uygulansın mı?",
+      "change_description": "\"{{fieldName}}\" alanındaki 1 kayıt değiştirilecek.",
+      "columnTotal": "Sütun toplamı:",
+      "description": "Hem kaynak sayfada hem de veri klibinde değişiklikler var. Hangisini tutmak istediğinizi seçin.",
+      "empty": {
+        "description": "İncelemeye hazır",
+        "status": "Tamamlandı",
+        "title": "Çakışma yok"
+      },
+      "row": "Sıra",
+      "title": "Hangi değişikliğin birleştirileceğini seçin"
+    },
+    "created_by": "Oluşturan",
+    "detailsModal": {
+      "create": {
+        "action": "Oluştur",
+        "title": "Veri klibi oluştur"
+      },
+      "edit": {
+        "action": "Gönder",
+        "title": "Veri parçasını düzenle"
+      },
+      "placeholder": "Bir yorum ekle (opsiyonel)...",
+      "review": "İnceleme"
+    },
+    "empty": "Görüntülenecek veri klibi yok",
+    "error": "Bu alan için veri klipleri yüklenemedi",
+    "errors_one": "{{count}} hata",
+    "errors_other": "{{count}} hatalar",
+    "errors_zero": "{{count}} hatalar",
+    "errors": {
+      "add_records_create": "Kayıtlarınızı veri klibine eklerken beklenmedik bir hata oluştu. Boş bir veri klibi oluşturuldu.",
+      "add_to_clip": "Kayıtlarınızı veri klibine eklerken beklenmedik bir hata oluştu, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin.",
+      "bulk_resolve_all_conflicts": "Çakışmaları çözerken beklenmedik bir hata oluştu, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin",
+      "create": "Veri klibinizi oluştururken beklenmedik bir hata oluştu, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin.",
+      "delete": "Veri klibini silemedik, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin",
+      "diff_view": "Veri klibi fark görünümü yüklenirken beklenmedik bir hata oluştu, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin",
+      "edit": "Veri kliplerinizi düzenlerken beklenmedik bir hata oluştu, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin.",
+      "link_copy": "Bağlantı kopyalanırken beklenmedik bir hata oluştu, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin",
+      "list": "Veri klibi kitaplığı yüklenirken beklenmedik bir hata oluştu, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin",
+      "mark_as_ready": "Veri klibini birleştirme için hazır olarak işaretleyemedik, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin",
+      "mark_for_review": "Veri klibiniz incelemeye gönderilemedi, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin",
+      "mark_merged": "Veri klibiniz birleştirilemedi, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin",
+      "mark_open": "Veri klibini yeniden açamadık, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin"
+    },
+    "filter": "Filtrele",
+    "library": {
+      "actions": {
+        "delete": "Sil",
+        "edit": "Görüntüle",
+        "edit_details": "Ayrıntıları düzenle"
+      },
+      "create": "Veri klibi oluştur",
+      "guest_search": "Veri klibi veya sayfa adına göre arama",
+      "headers": {
+        "creator": "Oluşturucu",
+        "name": "Ad",
+        "records": "Kayıtlar",
+        "sheet": "Kaynak sayfası",
+        "status": "Durum",
+        "updated_at": "Son düzenleme"
+      },
+      "search": "Veri klibi, sayfa veya oluşturucu adına göre arama",
+      "source_name": "Kaynak Sayfası: ",
+      "title": "Veri klibi kütüphanesi"
+    },
+    "merge": "Değişiklikleri birleştir",
+    "modal": {
+      "cancel": "İptal et",
+      "share": "Oluştur"
+    },
+    "newConflicts": {
+      "close": "Kapat",
+      "description": "Bu veri klibini incelerken yeni çakışmalar ortaya çıktı.",
+      "submit": "Çakışmaları çöz.",
+      "title": "Yeni çakışmalar bulundu"
+    },
+    "next": "Sonraki",
+    "promise": "Güvenli ve emniyetli gönderim",
+    "resend": "Yeniden aç ve geri dön",
+    "resolutions": {
+      "applyAll": {
+        "button": "Uygula",
+        "description_one": "\"{{columnLabel}}\" sütunundaki geri kalan çakışmalar için \"{{resolveTo}}\" seçeneğini seçiminiz olarak uygulamak ister misiniz? {{count}} kayıt güncellenecektir.",
+        "description_other": "\"{{columnLabel}}\" sütunundaki geri kalan çakışmalar için \"{{resolveTo}}\" seçeneğini seçiminiz olarak uygulamak ister misiniz? {{count}} kayıt güncellenecektir.",
+        "description_zero": "\"{{columnLabel}}\" sütunundaki geri kalan çakışmalar için \"{{resolveTo}}\" seçeneğini seçiminiz olarak uygulamak ister misiniz? {{count}} kayıt güncellenecektir."
+      },
+      "cancel": "Kaydet ve çık",
+      "complete": "Tamamlandı",
+      "conflicts_found": {
+        "button_one": "{{count}} çakışma",
+        "button_other": "{{count}} çakışma",
+        "button_zero": "{{count}} çakışma",
+        "clip_override": {
+          "description": "Bu, kaynak sayfadaki hiçbir şeyi değiştirmez ve çakışan veri klibi değişiklikleri atılır.",
+          "title": "Veri klibinden değerleri reddet"
+        },
+        "options_title": "Eylemi seçin",
+        "resolve_conflicts": {
+          "description": "Bu seçenek, veri klibindeki her çakışmayı gözden geçirmenize ve hangi değerlerin birleştirileceğine veya yok sayılacağına karar vermenize olanak tanır.",
+          "title": "Değişiklikleri ayrı ayrı yap"
+        },
+        "source_override": {
+          "description": "Bu, birleştirme sırasındaki tüm çakışan değerleri veri klibiyle eşleşecek şekilde güncelleyecektir.",
+          "title": "Veri klibinden değerleri kabul et"
+        },
+        "title": "Çakışmalar bulundu"
+      },
+      "empty": {
+        "button": "Klibe dön",
+        "description": "Birleştirmek için en az bir değişiklik yapın.",
+        "title": "Bu veri klibinde değişiklik algılanmadı."
+      },
+      "merge": "Birleştir"
+    },
+    "selectedRecords_one": "{{count}} kayıt seçildi",
+    "selectedRecords_other": "{{count}} kayıt seçildi",
+    "selectedRecords_zero": "{{count}} kayıt seçildi",
+    "share": {
+      "copy_link": "Bağlantıyı kopyala",
+      "description": "Ortaklara bu veri klibi üzerinde işbirliği yapmaları için bir davetiye gönderilecek.",
+      "empty": "Uygun ortak yok",
+      "none_selected": "Hiçbir ortak seçilmedi.",
+      "placeholder": "Ortak ekle...",
+      "submit": "Paylaş",
+      "title": "Veri klibini paylaşın"
+    },
+    "sort": "sırala",
+    "status": {
+      "all": "Tümünü gör",
+      "merged": "Birleştirildi",
+      "open": "Aç",
+      "ready": "İncelemeye hazır",
+      "title": "Durum"
+    },
+    "success": {
+      "add_records": "Kayıtlar başarıyla eklendi.",
+      "create": "Veri klibiniz başarıyla oluşturuldu.",
+      "delete": "Veri klibiniz başarıyla silindi.",
+      "edit": "Düzenlemeler başarıyla kaydedildi.",
+      "link_copy": "Bağlantı başarıyla kopyalandı!",
+      "mark_as_ready": "Veri klibiniz inceleme için başarıyla gönderildi. Klip sahibi bilgilendirildi.",
+      "mark_merged": "Veri klibiniz başarıyla birleştirildi.",
+      "mark_open": "Veri klibi başarıyla tekrar açıldı ve iade edildi!",
+      "modal": {
+        "create": {
+          "button": "Veri klibini görüntüle",
+          "close": "Kapat",
+          "description": "Artık yeni veri klibini görüntüleyebilirsiniz.",
+          "title": "Veri klibiniz oluşturuldu"
+        },
+        "ready": {
+          "close": "Kapat",
+          "description": "Değişiklikleriniz incelenmek üzere gönderildi. Herhangi bir not veya durum değişikliği durumunda sizi bilgilendireceğiz.",
+          "submit": "Veri klibine dön",
+          "title": "Değişiklikler başarıyla gönderildi!"
+        }
+      }
+    },
+    "syncedRecords_one": "{{count}} toplam kayıt",
+    "syncedRecords_other": "{{count}} toplam kayıt",
+    "syncedRecords_zero": "{{count}} toplam kayıt"
   },
   "document": {
     "error": {
@@ -200,6 +431,7 @@
     }
   },
   "errors": {
+    "accessDenied": "Erişim reddedildi",
     "documentNotFound": "Belge bulunamadı",
     "fileNotFound": "Dosya bulunamadı",
     "missingParameter": "Parametre sağlanmadı",
@@ -209,6 +441,7 @@
     "refreshPageDescription": "Tekrar denemek için sayfayı yenileyin. Sorun devam ederse destek ekimize başvurun.",
     "returnToDashboardButton": "Gösterge Paneline Dön",
     "sessionExpired": "Oturumun süresi doldu",
+    "sessionExpiredDescription": "Geçerli oturuma erişim süresi doldu.",
     "sheetNotFound": "Çalışma sayfası bulunamadı",
     "spaceNotFound": "Alan bulunamadı",
     "unauthorized": "Erişim bilgileriniz geçersiz.",
@@ -325,6 +558,15 @@
       "heading": "Gelen kutunuzu kontrol edin"
     }
   },
+  "helpCenter": {
+    "panel": {
+      "empty": "Eğer ayarlanırsa bu alan için rehberlik uygun olacaktır.",
+      "heading": "Yardım Merkezi"
+    },
+    "pill": {
+      "hoverText": "Yardım Merkezi"
+    }
+  },
   "host": {
     "modals": {
       "closeModal": {
@@ -399,6 +641,9 @@
     },
     "messages": {
       "startingJob": "Başlangıç ​​işi"
+    },
+    "noListener": {
+      "learnMore": "Daha fazla bilgi edinin"
     },
     "panel": {
       "action": {
@@ -519,6 +764,56 @@
       "button": {
         "defaultLabel": "Gönder"
       }
+    }
+  },
+  "manageUsers": {
+    "accessLink": {
+      "callout": "Bu bağlantı 24 saat geçerlidir. Bağlantıya sahip olan herkes Alana erişebilir ve verileri yükleyebilir, düzenleyebilir ve başka şekillerde yönetebilir.",
+      "title": "Erişim bağlantısı"
+    },
+    "actions": {
+      "copyLink": "Alan bağlantısını kopyala",
+      "invite": "Davet gönder",
+      "resendInvite": "Daveti yeniden gönder",
+      "revoke": "Erişimi iptal et"
+    },
+    "edit": {
+      "cancelButton": "İptal et",
+      "description": "Bir kullanıcının hesabından tüm çalışma kitaplarını kaldırmak, o kullanıcıyı alandan kaldırır.",
+      "error": "Çalışma kitapları alınırken hata oluştu",
+      "loading": "Düzenleme izinleri yükleniyor...",
+      "saveButton": "Kaydet",
+      "title": "Çalışma kitabı erişimini düzenle"
+    },
+    "empty": "Görüntülenecek konuk yok",
+    "error": {
+      "title": "Bu alan için kullanıcılar yüklenemedi"
+    },
+    "guest": {
+      "message": "Yalnızca yöneticiler konukları yönetebilir. Bunu yanlışlıkla gördüğünüzü düşünüyorsanız lütfen destek ekibine ulaşın.",
+      "title": "Bu sayfayı görüntüleme izniniz yok"
+    },
+    "invite": {
+      "cancelButton": "İptal et",
+      "form": {
+        "collaborate": {
+          "label": "Kiminle işbirliği yapmak istersiniz?",
+          "placeholder": "E-posta ile davet et, virgülle ayrılmış"
+        },
+        "message": {
+          "label": "Mesaj",
+          "placeholder": "Haydi işbirliği yapalım!"
+        }
+      },
+      "sendInvite": "Davet gönder",
+      "title": "Konukları davet et"
+    },
+    "manageGuests": "Konukları Yönet",
+    "revoke": {
+      "cancelButton": "İptal et",
+      "confirmButton": "Onayla",
+      "removing": "Kaldırılıyor...",
+      "title": "Erişimi iptal et"
     }
   },
   "mapping": {
@@ -645,6 +940,18 @@
     }
   },
   "plugins": {
+    "extraction": {
+      "addingRecords": "Sayfalara kayıt ekleniyor",
+      "createWorkbook": "Çalışma kitabı oluşturuluyor",
+      "createWorkbookError": "Çalışma kitabı oluşturulamadı. Olay Günlüklerine bakın.",
+      "extractedFile": "Dosya çıkarıldı",
+      "extractionFailed": "Ayırma başarısız oldu. Tekrar deneyin veya Destek ekibine ulaşın.",
+      "failedToParseWorkbook": "Çalışma kitabı ayrıştırılamadı.",
+      "fileTooLarge": "Dosya ayrıştırılamayacak kadar büyük. Bu dosyayı CSV'ye dönüştürmeyi deneyin.",
+      "noSheets": "Sayfa bulunamadı",
+      "parseSheets": "Sayfalar ayrıştırılıyor",
+      "retrieveFile": "Dosya alınıyor"
+    },
     "viewMapped": {
       "almostDone": "Neredeyse bitti...",
       "complete": "Tablo güncellemesi tamamlandı. Lütfen verileri denetleyin.",
@@ -652,6 +959,31 @@
       "halfway": "Yolun yarısı, sıkı tutun.",
       "updatingTable": "Tablo, yalnızca eşlenen alanları görüntüleyecek şekilde güncelleniyor"
     }
+  },
+  "secrets": {
+    "create": "Sır Oluştur",
+    "delete": "Sırrı Sil",
+    "edit": "Sırrı Düzenle",
+    "envSecrets": "Ortam Sırları",
+    "errors": {
+      "couldNotGetSecrets": "Gizli anahtarlar alınamadı, lütfen bu sayfayı yenilemeyi deneyin.",
+      "keyAlreadyExists": "Bu anahtara sahip bir gizli anahtar zaten var",
+      "keyCannotBeEmpty": "Anahtar boş olamaz",
+      "keyInvalid": "Gizli anahtar adı yalnızca alfanümerik karakterler ve alt çizgiler içermelidir"
+    },
+    "failureAdd": "Gizli anahtar eklenemedi {{name}}",
+    "failureEdit": "Gizli anahtar düzenlenemedi {{name}}",
+    "keyPlaceholder": "Anahtarı gir...",
+    "noSecrets": "Ortam düzeyinde sır yok. <hyperlink>Buraya</hyperlink> bir tane ekleyin.",
+    "noSpaceSecrets": "Henüz alan düzeyinde sır yok, bir tane eklemek için artı simgesine tıklayın.",
+    "noUserSecrets": "Henüz kullanıcı düzeyinde sır yok, bir tane eklemek için artı simgesine tıklayın.",
+    "spaceSecrets": "Alan Sırları",
+    "successfulAdd": "Gizli anahtar başarıyla eklendi {{name}}",
+    "successfulEdit": "Gizli anahtar başarıyla düzenlendi {{name}}",
+    "userDescription": "Kullanıcı düzeyindeki sırlar, alan düzeyindeki sırları geçersiz kılar.",
+    "userSecrets": "Kullanıcı Sırları",
+    "value": "Gizli Değer",
+    "valuePlaceholder": "Değeri gir..."
   },
   "sheet": {
     "columnManagement": {
@@ -922,6 +1254,41 @@
         "transform": "Dönüştür"
       },
       "buttons": {
+        "addToDataClip": {
+          "modal": {
+            "cancelButton": "İptal et",
+            "confirmButton": "Kayıtlar ekle",
+            "description": {
+              "infix": "seçildi",
+              "infixType": {
+                "invalid": "geçersiz",
+                "valid": "geçerli"
+              },
+              "prefix": "Şunu eklemek ister misiniz: ",
+              "suffix_one": "veri klibine kayıt?",
+              "suffix_other": "veri klibine kayıtlar?",
+              "suffix_zero": "veri klibine kayıtlar?"
+            },
+            "errorMessage": "Kayıtlar veri parçasına eklenemedi. Lütfen tekrar deneyin veya seçiminizi değiştirin.",
+            "heading_one": "Kaydı Veri Parçasına Ekle",
+            "heading_other": "Kayıtları Veri Parçasına Ekle",
+            "heading_zero": "Kayıtları Veri Parçasına Ekle",
+            "inProgress": "Kayıtlar ekleniyor..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} kayıt veri parçasına eklendi",
+            "successMessage_other": "{{count}} kayıt veri parçasına eklendi",
+            "successMessage_zero": "{{count}} kayıt veri parçasına eklendi",
+            "successMessageNoCount": "Kayıtlar veri parçasına eklendi"
+          },
+          "tooltip": {
+            "active": "Seçilen kayıtları veri parçasına ekle",
+            "disabled": {
+              "deleteDisabled": "Kayıtların veri parçasına eklenmesi bu Sayfada engellenmiştir",
+              "noRecordsSelected": "Bir veri parçasına eklemek için en az bir kayıt seçin"
+            }
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "İptal",
@@ -987,6 +1354,66 @@
             },
             "disabled": "İndirilecek kayıt yok"
           }
+        },
+        "markForDeletion": {
+          "modal": {
+            "cancelButton": "İptal et",
+            "confirmButton": "Kayıtları sil",
+            "description": {
+              "infix": "seçildi",
+              "infixType": {
+                "invalid": "geçersiz",
+                "valid": "geçerli"
+              },
+              "prefix": "Şunu silmek ister misiniz:",
+              "suffix_one": "kayıtlar?  Bunu yapmak, veri klibini birleştirdikten sonra kaydı kaynak sayfadan da kaldıracaktır.",
+              "suffix_other": "kayıtlar?  Bunu yapmak, veri klibini birleştirdikten sonra kayıtları kaynak sayfadan da kaldıracaktır.",
+              "suffix_zero": "kayıtlar?  Bunu yapmak, veri klibini birleştirdikten sonra kayıtları kaynak sayfadan da kaldıracaktır."
+            },
+            "errorMessage": "Kayıtlar silinemiyor. Lütfen tekrar deneyin veya seçiminizi değiştirin.",
+            "heading_one": "Kaydı Sil",
+            "heading_other": "Kayıtları Sil",
+            "heading_zero": "Kayıtları Sil",
+            "inProgress": "Kayıtlar siliniyor..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} kayıt silindi",
+            "successMessage_other": "{{count}} kayıt silindi",
+            "successMessage_zero": "{{count}} kayıt silindi",
+            "successMessageNoCount": "Kayıtlar silindi"
+          }
+        },
+        "restore": {
+          "modal": {
+            "cancelButton": "İptal et",
+            "confirmButton": "Silinen kayıtları geri yükle",
+            "description": {
+              "infix": "seçildi",
+              "infixType": {
+                "invalid": "geçersiz",
+                "valid": "geçerli"
+              },
+              "prefix": "Bu seçimde daha önce silinmek üzere işaretlenmiş kayıtları geri yüklemek ister misiniz?"
+            },
+            "errorMessage": "Geri yükleme kayıtları eklenemiyor. Lütfen tekrar deneyin veya seçiminizi değiştirin.",
+            "heading_one": "Kaydı Geri Yükle",
+            "heading_other": "Kayıtları Geri Yükle",
+            "heading_zero": "Kayıtları Geri Yükle",
+            "inProgress": "Kayıtları geri yükleniyor..."
+          },
+          "popover": {
+            "successMessage_one": "Daha önce silinmek üzere işaretlenen kayıtlar geri yüklendi.",
+            "successMessage_other": "Daha önce silinmek üzere işaretlenen kayıtlar geri yüklendi.",
+            "successMessage_zero": "Daha önce silinmek üzere işaretlenen kayıtlar geri yüklendi.",
+            "successMessageNoCount": "Daha önce silinmek üzere işaretlenen kayıtlar geri yüklendi."
+          },
+          "tooltip": {
+            "active": "Seçim içinde daha önce silinmek üzere işaretlenmiş kayıtları geri yükleyin.",
+            "disabled": {
+              "deleteDisabled": "Kayıtların geri yüklenmesi bu Sayfada devre dışı bırakılmış.",
+              "noRecordsSelected": "Geri yüklemek için en az bir kayıt seçin"
+            }
+          }
         }
       },
       "customActionsDropdown": {
@@ -997,9 +1424,37 @@
           "requireSelection": "Bu eylemi kullanması için lütfen bir veya daha fazla kayıt seçin"
         }
       },
+      "dataClips": {
+        "actions": {
+          "create": "Veri klibi oluştur"
+        },
+        "buttonText": "Klip Verisi",
+        "errors_one": "{{count}} hata",
+        "errors_other": "{{count}} hata",
+        "errors_zero": "{{count}} hatalar",
+        "modal": {
+          "cancel": "İptal et",
+          "share": "Paylaş"
+        },
+        "placeholders": {
+          "description": "Bir yorum ekle (opsiyonel)..."
+        },
+        "promise": "Güvenli ve emniyetli gönderim",
+        "selectedRecords_one": "{{count}} kayıt",
+        "selectedRecords_other": "{{count}} kayıt",
+        "selectedRecords_zero": "{{count}} kayıt",
+        "syncedRecords_one": "{{count}} senkronize kayıt",
+        "syncedRecords_other": "{{count}} senkronize kayıt",
+        "syncedRecords_zero": "{{count}} senkronize kayıt",
+        "titles": {
+          "review": "İnceleme",
+          "share": "Veri Kliplerini Paylaş"
+        }
+      },
       "dropdown": {
         "delete": "Sil",
-        "download": "İndir"
+        "download": "İndir",
+        "restore": "Kurtar"
       },
       "filterByError": {
         "buttonText": "Hataya göre filtrele",
@@ -1031,6 +1486,10 @@
       "moreActions": {
         "buttonText": "Daha fazla eylem",
         "placeholder": "Aratın veya seçin..."
+      },
+      "restore": {
+        "label": "Kayıtları geri yükle",
+        "tooltip": "Daha önce silinmek üzere işaretlenen kayıtları geri yükle."
       },
       "savedViews": {
         "buttonText": "Görünümler",
@@ -1104,8 +1563,14 @@
     }
   },
   "sidebar": {
+    "activityLogs": "Etkinlik kayıtları",
     "addConnection": "Bağlantı Ekle",
     "checklist": "Veri kontrol listesi",
+    "collapse": {
+      "documents": "Belgeler",
+      "workbook": "Çalışma kitabı",
+      "workbooks": "Çalışma kitapları"
+    },
     "connections": {
       "tooltips": {
         "connectionError": "Bu çalışma kitabının bağlantılarının metaverisini doğrulamada bir hata mevcut",
@@ -1114,9 +1579,19 @@
       }
     },
     "emptyWorkbook": "Boş çalışma kitabı",
+    "errorIconTooltip": "Bu Sayfa hatalar içeriyor",
     "files": "Dosyalar",
+    "footer": {
+      "backToDashboard": "Ana sayfaya dön",
+      "logout": "Çıkış yap"
+    },
     "lockedIconTooltip": "Bu Sayfa kilitli",
+    "manageGuests": "Konukları yönet",
+    "pill": {
+      "admin": "Yönetici"
+    },
     "readOnlyIconTooltip": "Bu Sayfa salt okunurdur",
+    "secrets": "Sırlar",
     "spaceSwitcher": {
       "placeholder": "Ara veya bir Alan ara..."
     },
@@ -1198,6 +1673,7 @@
         "current": "Mevcut değer: {{value}}",
         "empty": "veri yok",
         "none": "Veri kümeniz gösterilen değerlere göre değiştirilecektir.",
+        "requiresDecision": "Bu değer veri setinizi değiştirmeden önce bir karara ihtiyaç duyuyor.",
         "restore": "Veri kümen bu anlık görüntüdeki sürüme geri yüklenecek.",
         "snapshot": "Yeni değer: {{value}}"
       }
@@ -1429,6 +1905,7 @@
       "empty": "Sürümler oluşturulduktan sonra burada görünecektir. Sürümler, genellikle verilerde toplu dönüşüm gerçekleştiğinde otomatik olarak oluşturulur.",
       "generatedSnapshot": "Bilgi mesajı için YZ Dönüşümü uygulanmadan önce oluşturulan anlık görüntü: ",
       "generatedSnapshotForAiTransform": "İstem için Yapay Zekâ Dönüşümü uygulanmadan önce oluşturulan anlık görüntü: ",
+      "generatedSnapshotForBulkAddToDataClip": "Kayıtlar veri parçasına eklenmeden önce ekran görüntüsü oluşturuldu",
       "generatedSnapshotForBulkDelete": "Kayıtlar silinmeden önce oluşturulan anlık görüntü",
       "generatedSnapshotForFindReplace": "Bul ve Değiştir komutu uygulanmadan önce oluşturulan anlık görüntü",
       "heading": "Sürüm Geçmişi",

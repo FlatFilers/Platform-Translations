@@ -3,10 +3,6 @@
     "changedColumnsText_other": "{{count}} 个数据已变更的列",
     "changedColumnsText_zero": "{{count}} 个数据已变更的列",
     "errors": {
-      "entilementError": {
-        "content": "如果您认为出错了，请联系客户支持。",
-        "title": "抱歉！您没有此功能的使用权限。"
-      },
       "generalError": {
         "title": "出错了。请重试。"
       },

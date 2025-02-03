@@ -4,8 +4,8 @@
     "changedColumnsText_other": "{{count}} kolumner med data har ändrats",
     "changedColumnsText_zero": "{{count}} kolumner med data har ändrats",
     "errors": {
-      "entilementError": {
-        "content": "Om du tror att det här är fel, vänligen kontakta kundservice.",
+      "entitlementError": {
+        "content": "Om du tror att det här är felaktigt, vänligen kontakta kundservice.",
         "title": "Tyvärr! Du har inte tillgång till den här funktionen."
       },
       "generalError": {
@@ -181,16 +181,247 @@
   "comments": {
     "addReaction": "Lägg till reaktion",
     "commentDisabledTooltip": "Välj en cell eller en rad för att lägga till en kommentar",
+    "comments": "Kommentarer",
     "delete": "Radera kommentar",
     "edit": "Redigera kommentar",
     "edited": " (redigerad)",
+    "hidden": "dolda av filter...",
+    "noResolvedThreads": "Inga trådar har åtgärdats ännu",
     "noResults": "Inga träffar",
+    "noUpdates": "Inga uppdateringar",
     "placeholder": "Lägg till din kommentar här ...",
     "reactionList": "<0></0> reagerade med {{emoji}}",
+    "reopen": "Öppna tråden igen",
+    "repliesCount_one": "{{count}} ytterligare svar",
+    "repliesCount_other": "{{count}} ytterligare svar",
+    "repliesCount_zero": "{{count}} ytterligare svar",
     "resolve": "Lös tråden",
+    "resolved": "Åtgärdad",
+    "row": "Rad {{row}}",
+    "rowAndColumn": "Rad {{row}}, {{column}}",
     "send": "Skicka kommentar",
     "threadPlaceholder": "Svara eller nämn andra med @ ...",
+    "updates": "Uppdateringar",
+    "updatesError": "Ett fel uppstod när uppdateringarna skulle laddas",
+    "userCommented": "<user>{{user}}</user> kommenterade på <identifier>{{identifier}}</identifier>",
+    "userReacted": "<0></0> reagerade på din kommentar",
     "you": "Du"
+  },
+  "common": {
+    "cancel": "Avbryt",
+    "lastWeek": "Förra veckan",
+    "name": "Namn",
+    "older": "Äldre",
+    "thisWeek": "Den här veckan",
+    "today": "Idag",
+    "yesterday": "Igår"
+  },
+  "dataClips": {
+    "actions": {
+      "add_to_clip": "Lägg till urval i dataklipp",
+      "buttons": {
+        "back": "Åter",
+        "conflicts": "Lös konflikterna",
+        "review": "Granska ändringar",
+        "share": "Dela",
+        "submit_for_review": "Skicka in för granskning",
+        "view": "Visa dataklipp"
+      },
+      "create": "Skapa dataklipp",
+      "library": "Gå till dataklippsbibliotek",
+      "sheet_list": "Se arkets dataklipp",
+      "tooltip": {
+        "conflicts": "Vänligen åtgärda konflikter före sammanfogning.",
+        "no_changes": "Gör minst en ändring för att slå samman.",
+        "no_data_clips": "Skapa ett dataklipp att lägga till i.",
+        "none_selected": {
+          "add_to_clip": "Välj minst en post att lägga till i ett dataklipp.",
+          "create": "Välj minst en post för att skapa ett dataklipp."
+        },
+        "review": "Inga ändringar har gjorts i det här dataklippet."
+      }
+    },
+    "buttonText": "Klippdata",
+    "choose_action": "Välj en åtgärd:",
+    "clear": "rensa",
+    "collaborators": "Samarbetspartners",
+    "confirmation": {
+      "delete": {
+        "cancel": "Avbryt",
+        "description": "Med detta raderas dataklippet permanent från ditt bibliotek.",
+        "submit": "Radera",
+        "title": "Radera"
+      },
+      "ready": {
+        "cancel": "Avbryt",
+        "description": "Dina ändringar skickas härmed in för granskning.",
+        "submit": "Skicka in",
+        "title": "Skicka in för granskning"
+      }
+    },
+    "conflictResolution": {
+      "applyAll": "Tillämpa på alla?",
+      "change_description": "En post i fältet ”{{fieldName}}” kommer att ändras.",
+      "columnTotal": "Totalt för kolumnen:",
+      "description": "Det finns ändringar i både källan och dataklippet. Välj vad du vill behålla.",
+      "empty": {
+        "description": "Klar för granskning",
+        "status": "Komplett",
+        "title": "Inga konflikter"
+      },
+      "row": "Rad",
+      "title": "Välj vilken ändring som ska slås samman"
+    },
+    "created_by": "Skapad av",
+    "detailsModal": {
+      "create": {
+        "action": "Skapa",
+        "title": "Skapa dataklipp"
+      },
+      "edit": {
+        "action": "Skicka in",
+        "title": "Redigera dataklipp"
+      },
+      "placeholder": "Lägg till en kommentar (valfritt)...",
+      "review": "Granska"
+    },
+    "empty": "Inga dataklipp att visa",
+    "error": "Det gick inte att ladda dataklippen för denna plats",
+    "errors_one": "{{count}} fel",
+    "errors_other": "{{count}} fel",
+    "errors_zero": "{{count}} fel",
+    "errors": {
+      "add_records_create": "Något gick oväntat fel när dina poster skulle läggas till i dataklippet. Ett tomt dataklipp har skapats.",
+      "add_to_clip": "Något gick oväntat fel när dina poster skulle läggas till i dataklippet. Försök igen, tack. Kontakta supporten om problemet kvarstår.",
+      "bulk_resolve_all_conflicts": "Något gick oväntat fel med konfliktlösningen. Gör ett nytt försök, tack. Kontakta supporten om problemet kvarstår.",
+      "create": "Något gick oväntat fel när ditt dataklipp skulle skapas. Försök igen, tack. Kontakta supporten om problemet kvarstår.",
+      "delete": "Vi kunde inte radera dataklippet. Gör ett nytt försök, tack. Kontakta supporten om problemet kvarstår.",
+      "diff_view": "Något gick oväntat fel vid laddning av diff-vyn för dataklipp. Gör ett nytt försök, tack. Kontakta supporten om problemet kvarstår.",
+      "edit": "Något gick oväntat fel vid redigering av dina dataklipp. Försök igen, tack. Kontakta supporten om problemet kvarstår.",
+      "link_copy": "Något gick oväntat fel vid kopiering av länken. Gör ett nytt försök, tack. Kontakta supporten om problemet kvarstår.",
+      "list": "Något gick oväntat fel vid laddning av biblioteket med dataklipp. Gör ett nytt försök, tack. Kontakta supporten om problemet kvarstår.",
+      "mark_as_ready": "Vi kunde inte markera dataklippet som klart för sammanslagning. Försök igen, tack. Kontakta supporten om problemet kvarstår.",
+      "mark_for_review": "Ditt dataklipp kunde inte skickas in för granskning. Gör ett nytt försök, tack. Kontakta supporten om problemet kvarstår.",
+      "mark_merged": "Ditt dataklipp kunde inte slås samman. Gör ett nytt försök, tack. Kontakta supporten om problemet kvarstår.",
+      "mark_open": "Vi kunde inte öppna dataklippet igen. Gör ett nytt försök, tack. Kontakta supporten om problemet kvarstår."
+    },
+    "filter": "Filtrera",
+    "library": {
+      "actions": {
+        "delete": "Radera",
+        "edit": "Visa",
+        "edit_details": "Redigera detaljer"
+      },
+      "create": "Skapa dataklipp",
+      "guest_search": "Sök på dataklipp eller arkets namn",
+      "headers": {
+        "creator": "Skapare",
+        "name": "Namn",
+        "records": "Poster",
+        "sheet": "Källark",
+        "status": "Status",
+        "updated_at": "Senast redigerad"
+      },
+      "search": "Sök på dataklipp, ark eller skaparens namn",
+      "source_name": "Källark: ",
+      "title": "Bibliotek med dataklipp"
+    },
+    "merge": "Slå samman ändringar",
+    "modal": {
+      "cancel": "Avbryt",
+      "share": "Skapa"
+    },
+    "newConflicts": {
+      "close": "Stäng",
+      "description": "Nya konflikter har tillkommit under granskningen av detta dataklipp.",
+      "submit": "Lös konflikterna",
+      "title": "Nya konflikter hittade"
+    },
+    "next": "Nästa",
+    "promise": "Säker och trygg försändelse",
+    "resend": "Öppna igen och återgå",
+    "resolutions": {
+      "applyAll": {
+        "button": "Tillämpa",
+        "description_one": "Vill du välja ”{{resolveTo}}” för resterande konflikter i kolumnen ”{{columnLabel}}”? {{count}} post kommer att uppdateras.",
+        "description_other": "Vill du välja ”{{resolveTo}}” för resterande konflikter i kolumnen ”{{columnLabel}}”? {{count}} poster kommer att uppdateras.",
+        "description_zero": "Vill du välja ”{{resolveTo}}” för resterande konflikter i kolumnen ”{{columnLabel}}”? {{count}} poster kommer att uppdateras."
+      },
+      "cancel": "Spara och avsluta",
+      "complete": "Komplett",
+      "conflicts_found": {
+        "button_one": "{{count}} konflikt",
+        "button_other": "{{count}} konflikter",
+        "button_zero": "{{count}} konflikter",
+        "clip_override": {
+          "description": "Med detta ändras ingenting i källan, och de motstridiga ändringarna i dataklippet kommer att annulleras.",
+          "title": "Avvisa värden från dataklipp"
+        },
+        "options_title": "Välj åtgärd",
+        "resolve_conflicts": {
+          "description": "Detta låter dig granska konflikterna i dataklippet var för sig och bestämma vilka värden som ska slås samman och vilka som ska ignoreras.",
+          "title": "Gör ändringar individuellt"
+        },
+        "source_override": {
+          "description": "Härmed uppdateras alla icke samstämmiga värden så att de överensstämmer med dataklippet vid sammanslagning.",
+          "title": "Godta värden från dataklipp"
+        },
+        "title": "Konflikter upptäckta"
+      },
+      "empty": {
+        "button": "Åter till klipp",
+        "description": "Gör minst en ändring för att slå samman.",
+        "title": "Inga ändringar hittades i detta dataklipp."
+      },
+      "merge": "Sammanfoga"
+    },
+    "selectedRecords_one": "{{count}} post vald",
+    "selectedRecords_other": "{{count}} poster valda",
+    "selectedRecords_zero": "{{count}} poster valda",
+    "share": {
+      "copy_link": "Kopiera länk",
+      "description": "Medarbetare blir erbjudna att samarbeta på detta dataklipp.",
+      "empty": "Inga medarbetare är tillgängliga.",
+      "none_selected": "Inga medarbetare valda.",
+      "placeholder": "Lägg till medarbetare ...",
+      "submit": "Dela",
+      "title": "Dela dataklipp"
+    },
+    "sort": "ordna",
+    "status": {
+      "all": "Se alla",
+      "merged": "Sammanfogad",
+      "open": "Öppna",
+      "ready": "Klar för granskning",
+      "title": "Status"
+    },
+    "success": {
+      "add_records": "Posterna är nu tillagda.",
+      "create": "Ditt dataklipp är nu skapat.",
+      "delete": "Ditt dataklipp raderades.",
+      "edit": "Redigeringar sparade.",
+      "link_copy": "Länken kopierades!",
+      "mark_as_ready": "Ditt dataklipp skickades in för granskning. Klippets ägare har meddelats.",
+      "mark_merged": "Ditt dataklipp sammanfogades.",
+      "mark_open": "Dataklippet har öppnats på nytt och skickats tillbaka!",
+      "modal": {
+        "create": {
+          "button": "Visa dataklipp",
+          "close": "Stäng",
+          "description": "Du kan nu se det nya dataklippet.",
+          "title": "Ditt dataklipp är skapat"
+        },
+        "ready": {
+          "close": "Stäng",
+          "description": "Dina ändringar är inskickade för granskning. Vi meddelar dig om någon anteckning görs eller om statusen ändras.",
+          "submit": "Åter till dataklipp",
+          "title": "Ändringarna inskickade!"
+        }
+      }
+    },
+    "syncedRecords_one": "{{count}} post totalt",
+    "syncedRecords_other": "{{count}} poster totalt",
+    "syncedRecords_zero": "{{count}} poster totalt"
   },
   "document": {
     "error": {
@@ -199,6 +430,7 @@
     }
   },
   "errors": {
+    "accessDenied": "Åtkomst nekades",
     "documentNotFound": "Dokumentet hittades inte",
     "fileNotFound": "Filen hittades inte",
     "missingParameter": "Parameter ej tillhandahållen",
@@ -208,6 +440,7 @@
     "refreshPageDescription": "Uppdatera sidan för att försöka igen. Kontakta supporten om problemet kvarstår.",
     "returnToDashboardButton": "Återgå till instrumentpanelen",
     "sessionExpired": "Sessionen har löpt ut",
+    "sessionExpiredDescription": "Åtkomsten till den aktuella sessionen har löpt ut.",
     "sheetNotFound": "Bladet hittades inte",
     "spaceNotFound": "Platsen hittades inte",
     "unauthorized": "Dina inloggningsuppgifter är ogiltiga.",
@@ -324,6 +557,15 @@
       "heading": "Kontrollera din inkorg"
     }
   },
+  "helpCenter": {
+    "panel": {
+      "empty": "Vägledning för det här utrymmet kommer att finnas tillgänglig här om det konfigureras.",
+      "heading": "Hjälpcenter"
+    },
+    "pill": {
+      "hoverText": "Hjälpcenter"
+    }
+  },
   "host": {
     "modals": {
       "closeModal": {
@@ -398,6 +640,9 @@
     },
     "messages": {
       "startingJob": "Påbörjar jobbet"
+    },
+    "noListener": {
+      "learnMore": "Läs mer"
     },
     "panel": {
       "action": {
@@ -518,6 +763,56 @@
       "button": {
         "defaultLabel": "Skicka in"
       }
+    }
+  },
+  "manageUsers": {
+    "accessLink": {
+      "callout": "Den här länken är giltig i 24 timmar. Vem som helst som har länken har åtkomst till utrymmet och kan ladda upp, redigera och på annat sätt hantera data.",
+      "title": "Åtkomstlänk"
+    },
+    "actions": {
+      "copyLink": "Kopiera utrymmeslänk",
+      "invite": "Skicka inbjudan",
+      "resendInvite": "Skicka inbjudan igen",
+      "revoke": "Dra tillbaka åtkomst"
+    },
+    "edit": {
+      "cancelButton": "Avbryt",
+      "description": "Om alla arbetsböcker tas bort från en användares konto, tas den användaren bort från utrymmet.",
+      "error": "Fel vid hämtning av arbetsböcker",
+      "loading": "Laddar redigeringsbehörigheter...",
+      "saveButton": "Spara",
+      "title": "Redigera åtkomst till arbetsböcker för"
+    },
+    "empty": "Inga gäster att visa",
+    "error": {
+      "title": "Det gick inte att ladda användarna för det här utrymmet"
+    },
+    "guest": {
+      "message": "Endast administratörer kan hantera gäster. Om du tror att det här visas för dig av misstag, vänligen kontakta support.",
+      "title": "Du saknar behörighet för att se den här sidan"
+    },
+    "invite": {
+      "cancelButton": "Avbryt",
+      "form": {
+        "collaborate": {
+          "label": "Vem vill du samarbeta med?",
+          "placeholder": "Inbjudan via e-post, kommaseparerad"
+        },
+        "message": {
+          "label": "Meddelande",
+          "placeholder": "Låt oss samarbeta!"
+        }
+      },
+      "sendInvite": "Skicka inbjudan",
+      "title": "Bjud in gäster"
+    },
+    "manageGuests": "Hantera gäster",
+    "revoke": {
+      "cancelButton": "Avbryt",
+      "confirmButton": "Bekräfta",
+      "removing": "Tar bort...",
+      "title": "Dra tillbaka åtkomst"
     }
   },
   "mapping": {
@@ -644,6 +939,18 @@
     }
   },
   "plugins": {
+    "extraction": {
+      "addingRecords": "Lägga till poster till ark",
+      "createWorkbook": "Skapa arbetsbok",
+      "createWorkbookError": "Det gick inte att skapa en arbetsbok. Se händelseloggar.",
+      "extractedFile": "Extraherad fil",
+      "extractionFailed": "Det gick inte att extrahera. Försök igen eller kontakta support.",
+      "failedToParseWorkbook": "Det gick inte att tolka arbetsboken.",
+      "fileTooLarge": "Filen är för stor för tolkning. Prova att konvertera den här filen till CSV.",
+      "noSheets": "Inga ark hittades",
+      "parseSheets": "Tolka ark",
+      "retrieveFile": "Hämta fil"
+    },
     "viewMapped": {
       "almostDone": "Nästan färdigt ...",
       "complete": "Tabelluppdateringen är klar. Granska informationen, tack.",
@@ -651,6 +958,31 @@
       "halfway": "Vi är halvvägs, håll i ...",
       "updatingTable": "Uppdaterar tabellen så att endast kartlagda fält visas"
     }
+  },
+  "secrets": {
+    "create": "Skapa hemlighet",
+    "delete": "Radera hemlighet",
+    "edit": "Redigera hemlighet",
+    "envSecrets": "Miljöhemligheter",
+    "errors": {
+      "couldNotGetSecrets": "Det gick inte att hämta hemligheterna. Prova att uppdatera den här sidan.",
+      "keyAlreadyExists": "Det finns redan en hemlighet med den här nyckeln",
+      "keyCannotBeEmpty": "Nyckeln får inte vara tom",
+      "keyInvalid": "Det hemliga namnet får endast innehålla alfanumeriska tecken och understreck"
+    },
+    "failureAdd": "Det gick inte att lägga till hemligheten {{name}}",
+    "failureEdit": "Det gick inte att redigera hemligheten {{name}}",
+    "keyPlaceholder": "Ange nyckel...",
+    "noSecrets": "Det finns inga miljönivåhemligheter. Lägg till en <hyperlink>här</hyperlink>.",
+    "noSpaceSecrets": "Det finns inga utrymmesnivåhemligheter ännu. Klicka på plusikonen för att lägga till en.",
+    "noUserSecrets": "Det finns inga användarnivåhemligheter ännu. Klicka på plusikonen för att lägga till en.",
+    "spaceSecrets": "Utrymmeshemligheter",
+    "successfulAdd": "Hemligheten {{name}} har nu lagts till",
+    "successfulEdit": "Hemligheten {{name}} har nu redigerats",
+    "userDescription": "Användarnivåhemligheter åsidosätter utrymmesnivåhemligheter.",
+    "userSecrets": "Användarhemligheter",
+    "value": "Hemligt värde",
+    "valuePlaceholder": "Ange värde..."
   },
   "sheet": {
     "columnManagement": {
@@ -921,6 +1253,41 @@
         "transform": "Förvandla"
       },
       "buttons": {
+        "addToDataClip": {
+          "modal": {
+            "cancelButton": "Avbryt",
+            "confirmButton": "Lägg till poster",
+            "description": {
+              "infix": "valda",
+              "infixType": {
+                "invalid": "ogiltig",
+                "valid": "giltig"
+              },
+              "prefix": "Vill du lägga till ",
+              "suffix_one": "posten till dataklippet?",
+              "suffix_other": "poster till dataklippet?",
+              "suffix_zero": "posterna till dataklippet?"
+            },
+            "errorMessage": "Det gick inte att lägga till poster i dataklippet. Försök igen eller ändra ditt urval.",
+            "heading_one": "Lägg till post i dataklipp",
+            "heading_other": "Lägg till poster i dataklipp",
+            "heading_zero": "Lägg till poster i dataklipp",
+            "inProgress": "Lägger till poster..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} post har lagts till i dataklippet",
+            "successMessage_other": "{{count}} poster har lagts till i dataklippet",
+            "successMessage_zero": "{{count}} poster har lagts till i dataklippet",
+            "successMessageNoCount": "Posterna har lagts till i dataklippet"
+          },
+          "tooltip": {
+            "active": "Lägg till de valda posterna i dataklippet",
+            "disabled": {
+              "deleteDisabled": "Möjligheten att lägga till poster i dataklipp är inaktiverad i det här arket.",
+              "noRecordsSelected": "Välj minst en post för att kunna lägga till den i ett dataklipp"
+            }
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Avbryt",
@@ -986,6 +1353,66 @@
             },
             "disabled": "Inga poster att ladda ned"
           }
+        },
+        "markForDeletion": {
+          "modal": {
+            "cancelButton": "Avbryt",
+            "confirmButton": "Radera poster",
+            "description": {
+              "infix": "valda",
+              "infixType": {
+                "invalid": "ogiltig",
+                "valid": "giltig"
+              },
+              "prefix": "Vill du radera",
+              "suffix_one": "posten? Om du gör det kommer posten också att tas bort från källbladet när dataklippet sammanfogas.",
+              "suffix_other": "posterna? Om du gör det kommer posterna också att tas bort från källbladet när dataklippet sammanfogas.",
+              "suffix_zero": "posterna? Om du gör det kommer posterna också att tas bort från källbladet när dataklippet sammanfogas."
+            },
+            "errorMessage": "Det gick inte att radera posterna. Försök igen eller ändra ditt urval.",
+            "heading_one": "Radera posten",
+            "heading_other": "Radera posterna",
+            "heading_zero": "Radera posterna",
+            "inProgress": "Raderar posterna ..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} raderad post",
+            "successMessage_other": "{{count}} raderade poster",
+            "successMessage_zero": "{{count}} raderade poster",
+            "successMessageNoCount": "Raderade poster"
+          }
+        },
+        "restore": {
+          "modal": {
+            "cancelButton": "Avbryt",
+            "confirmButton": "Återställ raderade poster",
+            "description": {
+              "infix": "valda",
+              "infixType": {
+                "invalid": "ogiltig",
+                "valid": "giltig"
+              },
+              "prefix": "Vill du återställa posterna som tidigare markerats för radering i det här urvalet?"
+            },
+            "errorMessage": "Det gick inte att återställa posterna. Försök igen eller ändra ditt urval.",
+            "heading_one": "Återställ posten",
+            "heading_other": "Återställ posterna",
+            "heading_zero": "Återställ posterna",
+            "inProgress": "Återställer posterna ..."
+          },
+          "popover": {
+            "successMessage_one": "Posterna som tidigare markerats för radering har återställts.",
+            "successMessage_other": "Posterna som tidigare markerats för radering har återställts.",
+            "successMessage_zero": "Posterna som tidigare markerats för radering har återställts.",
+            "successMessageNoCount": "Posterna som tidigare markerats för radering har återställts."
+          },
+          "tooltip": {
+            "active": "Återställ posterna som tidigare markerats för radering i det här urvalet.",
+            "disabled": {
+              "deleteDisabled": "Återställning av poster är inaktiverat på det här bladet.",
+              "noRecordsSelected": "Välj minst en post för att återställa den"
+            }
+          }
         }
       },
       "customActionsDropdown": {
@@ -996,9 +1423,37 @@
           "requireSelection": "Vänligen välj en eller flera poster för att använda den här åtgärden"
         }
       },
+      "dataClips": {
+        "actions": {
+          "create": "Skapa dataklipp"
+        },
+        "buttonText": "Klipp data",
+        "errors_one": "{{count}} fel",
+        "errors_other": "{{count}} fel",
+        "errors_zero": "{{count}} fel",
+        "modal": {
+          "cancel": "Avbryt",
+          "share": "Dela"
+        },
+        "placeholders": {
+          "description": "Lägg till en kommentar (valfritt)..."
+        },
+        "promise": "Säker och trygg försändelse",
+        "selectedRecords_one": "{{count}} post",
+        "selectedRecords_other": "{{count}} poster",
+        "selectedRecords_zero": "{{count}} poster",
+        "syncedRecords_one": "{{count}} synkroniserad post",
+        "syncedRecords_other": "{{count}} synkroniserade poster",
+        "syncedRecords_zero": "{{count}} synkroniserade poster",
+        "titles": {
+          "review": "Granska",
+          "share": "Dela dataklipp"
+        }
+      },
       "dropdown": {
         "delete": "Radera",
-        "download": "Ladda ner"
+        "download": "Ladda ner",
+        "restore": "Återställ"
       },
       "filterByError": {
         "buttonText": "Filtrera efter fel",
@@ -1030,6 +1485,10 @@
       "moreActions": {
         "buttonText": "Fler åtgärder",
         "placeholder": "Sök eller välj ..."
+      },
+      "restore": {
+        "label": "Återställ poster",
+        "tooltip": "Återställ poster som tidigare har markerats för borttagning."
       },
       "savedViews": {
         "buttonText": "Visningar",
@@ -1103,8 +1562,14 @@
     }
   },
   "sidebar": {
+    "activityLogs": "Aktivitetsloggar",
     "addConnection": "Lägg till anslutning",
     "checklist": "Datachecklista",
+    "collapse": {
+      "documents": "Dokument",
+      "workbook": "Arbetsbok",
+      "workbooks": "Arbetsböcker"
+    },
     "connections": {
       "tooltips": {
         "connectionError": "Det finns ett problem med att verifiera metadata för den här arbetsbokens anslutningar",
@@ -1113,9 +1578,19 @@
       }
     },
     "emptyWorkbook": "Tom arbetsbok",
+    "errorIconTooltip": "Det här arket innehåller fel",
     "files": "Filer",
+    "footer": {
+      "backToDashboard": "Tillbaka till kontrollpanelen",
+      "logout": "Logga ut"
+    },
     "lockedIconTooltip": "Detta blad är låst",
+    "manageGuests": "Hantera gäster",
+    "pill": {
+      "admin": "Administratör"
+    },
     "readOnlyIconTooltip": "Detta ark är skrivskyddat",
+    "secrets": "Hemligheter",
     "spaceSwitcher": {
       "placeholder": "Sök eller välj ett utrymme ..."
     },
@@ -1197,6 +1672,7 @@
         "current": "Aktuellt värde: {{value}}",
         "empty": "inga data",
         "none": "Ditt dataset kommer att ändras till de visade värdena.",
+        "requiresDecision": "Det här värdet kräver ett beslut innan du kan ändra datamängden.",
         "restore": "Din datamängd kommer att återställas till versionen i denna ögonblicksbild.",
         "snapshot": "Nytt värde: {{value}}"
       }
@@ -1428,6 +1904,7 @@
       "empty": "När versioner har genererats visas de här. Versioner genereras automatiskt, ofta när en massomvandling av data sker.",
       "generatedSnapshot": "Ögonblicksbild genererad innan AI Transform användes för kommandot: ",
       "generatedSnapshotForAiTransform": "Ögonblicksbild genererad innan AI Transform användes för kommandot: ",
+      "generatedSnapshotForBulkAddToDataClip": "Ögonblicksbild som genereras innan poster läggs till i dataklipp",
       "generatedSnapshotForBulkDelete": "Ögonblicksbild genererad före radering av poster",
       "generatedSnapshotForFindReplace": "Ögonblicksbild genererad innan Sök och ersätt gjordes",
       "heading": "Versionshistorik",

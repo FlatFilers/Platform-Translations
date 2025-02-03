@@ -3,9 +3,9 @@
     "changedColumnsText_other": "{{count}} cột có dữ liệu đã thay đổi",
     "changedColumnsText_zero": "{{count}} cột có dữ liệu đã thay đổi",
     "errors": {
-      "entilementError": {
-        "content": "Nếu bạn cho rằng đây là lỗi, vui lòng liên hệ với bộ phận hỗ trợ khách hàng.",
-        "title": "Rất tiếc! Bạn không có quyền truy cập vào tính năng này."
+      "entitlementError": {
+        "content": "Nếu bạn cho rằng đây là do nhầm lẫn, vui lòng liên hệ với bộ phận hỗ trợ khách hàng.",
+        "title": "Rất tiếc! Bạn không có quyền truy cập tính năng này."
       },
       "generalError": {
         "title": "Đã xảy ra lỗi. Vui lòng thử lại."
@@ -180,16 +180,241 @@
   "comments": {
     "addReaction": "Thêm biểu tượng cảm xúc",
     "commentDisabledTooltip": "Chọn một ô hoặc một hàng để thêm bình luận",
+    "comments": "Bình luận",
     "delete": "Xóa bình luận",
     "edit": "Chỉnh sửa bình luận",
     "edited": " (đã chỉnh sửa)",
+    "hidden": "bị ẩn bởi bộ lọc…",
+    "noResolvedThreads": "Chưa có chủ đề nào được giải quyết",
     "noResults": "Không có kết quả phù hợp",
+    "noUpdates": "Chưa có thông tin cập nhật",
     "placeholder": "Thêm bình luận của bạn ở đây...",
     "reactionList": "<0></0> đã bày tỏ cảm xúc với {{emoji}}",
+    "reopen": "Mở lại chủ đề",
+    "repliesCount_other": "{{count}} câu trả lời khác",
+    "repliesCount_zero": "{{count}} câu trả lời khác",
     "resolve": "Giải quyết chuỗi bình luận",
+    "resolved": "Đã giải quyết",
+    "row": "Hàng {{row}}",
+    "rowAndColumn": "Hàng {{row}}, {{column}}",
     "send": "Gửi bình luận",
     "threadPlaceholder": "Trả lời hoặc nhắc đến nguời khác bằng @...",
+    "updates": "Thông tin cập nhật",
+    "updatesError": "Đã xảy ra lỗi khi tải nội dung cập nhật",
+    "userCommented": "<user>{{user}}</user> đã bình luận về <identifier>{{identifier}}</identifier>",
+    "userReacted": "<0></0> đã phản hồi bình luận của bạn",
     "you": "Bạn"
+  },
+  "common": {
+    "cancel": "Hủy",
+    "lastWeek": "Tuần trước",
+    "name": "Tên",
+    "older": "Cũ hơn",
+    "thisWeek": "Tuần này",
+    "today": "Hôm nay",
+    "yesterday": "Hôm qua"
+  },
+  "dataClips": {
+    "actions": {
+      "add_to_clip": "Thêm các mục đã chọn vào clip dữ liệu",
+      "buttons": {
+        "back": "Quay lại",
+        "conflicts": "Xử lý xung đột",
+        "review": "Xem xét thay đổi",
+        "share": "Chia sẻ",
+        "submit_for_review": "Gửi để xét duyệt",
+        "view": "Xem dữ liệu clip"
+      },
+      "create": "Tạo clip dữ liệu",
+      "library": "Vào thư viện clip dữ liệu",
+      "sheet_list": "Xem clip dữ liệu của trang tính",
+      "tooltip": {
+        "conflicts": "Vui lòng giải quyết xung đột trước khi gộp.",
+        "no_changes": "Hãy thực hiện ít nhất một thay đổi để có thể hợp nhất.",
+        "no_data_clips": "Tạo clip dữ liệu để thêm vào.",
+        "none_selected": {
+          "add_to_clip": "Hãy chọn ít nhất một bản ghi để tạo clip dữ liệu.",
+          "create": "Hãy chọn ít nhất một bản ghi để tạo clip dữ liệu."
+        },
+        "review": "Clip dữ liệu chưa có thay đổi nào."
+      }
+    },
+    "buttonText": "Clip dữ liệu",
+    "choose_action": "Chọn một hành động:",
+    "clear": "xóa",
+    "collaborators": "Người cộng tác",
+    "confirmation": {
+      "delete": {
+        "cancel": "Hủy",
+        "description": "Hành động này sẽ xóa clip dữ liệu khỏi thư viện của bạn vĩnh viễn.",
+        "submit": "Xóa",
+        "title": "Xóa"
+      },
+      "ready": {
+        "cancel": "Hủy",
+        "description": "Các thay đổi của bạn sẽ được gửi đi để xét duyệt.",
+        "submit": "Gửi",
+        "title": "Gửi để xét duyệt"
+      }
+    },
+    "conflictResolution": {
+      "applyAll": "Có áp dụng cho tất cả không?",
+      "change_description": "1 bản ghi trong trường '{{fieldName}}' sẽ được thay đổi.",
+      "columnTotal": "Tổng cột:",
+      "description": "Có thay đổi trong cả bảng nguồn và dữ liệu clip. Hãy chọn phần thay đổi bạn muốn giữ lại.",
+      "empty": {
+        "description": "Sẵn sàng để xem xét",
+        "status": "Hoàn thành",
+        "title": "Không có xung đột nào"
+      },
+      "row": "Hàng",
+      "title": "Chọn phần thay đổi để hợp nhất"
+    },
+    "created_by": "Được tạo bởi",
+    "detailsModal": {
+      "create": {
+        "action": "Tạo",
+        "title": "Tạo clip dữ liệu"
+      },
+      "edit": {
+        "action": "Gửi",
+        "title": "Sửa clip dữ liệu"
+      },
+      "placeholder": "Thêm bình luận (không bắt buộc)...",
+      "review": "Xét duyệt"
+    },
+    "empty": "Không có clip dữ liệu nào để hiển thị",
+    "error": "Không thể tải clip dữ liệu cho không gian này",
+    "errors_other": "{{count}} lỗi",
+    "errors_zero": "{{count}} lỗi",
+    "errors": {
+      "add_records_create": "Quá trình thêm bản ghi của bạn vào clip dữ liệu đã xảy ra lỗi ngoài dự kiến. Một clip dữ liệu trống đã được tạo ra.",
+      "add_to_clip": "Quá trình thêm bản ghi của bạn vào clip dữ liệu đã xảy ra lỗi ngoài dự kiến, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ.",
+      "bulk_resolve_all_conflicts": "Quá trình giải quyết xung đột đã xảy ra lỗi ngoài dự kiến, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ",
+      "create": "Quá trình tạo clip dữ liệu của bạn đã xảy ra lỗi ngoài dự kiến, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ.",
+      "delete": "Chúng tôi không thể xóa clip dữ liệu, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ",
+      "diff_view": "Quá trình tải chế độ so sánh clip dữ liệu đã xảy ra lỗi ngoài dự kiến, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ",
+      "edit": "Quá trình sửa clip dữ liệu của bạn đã xảy ra lỗi ngoài dự kiến, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ.",
+      "link_copy": "Quá trình sao chép liên kết đã xảy ra lỗi ngoài dự kiến, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ",
+      "list": "Quá trình tải thư viện clip dữ liệu đã xảy ra lỗi ngoài dự kiến, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ",
+      "mark_as_ready": "Chúng tôi không thể đánh dấu rằng clip dữ liệu đã sẵn sàng gộp, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ",
+      "mark_for_review": "Clip dữ liệu của bạn đã không được gửi đi để xét duyệt, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ",
+      "mark_merged": "Clip dữ liệu của bạn đã không gộp thành công, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ",
+      "mark_open": "Chúng tôi không thể mở lại clip dữ liệu, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ"
+    },
+    "filter": "Bộ lọc",
+    "library": {
+      "actions": {
+        "delete": "Xóa",
+        "edit": "Xem",
+        "edit_details": "Sửa thông tin"
+      },
+      "create": "Tạo clip dữ liệu",
+      "guest_search": "Tìm kiếm theo clip dữ liệu hoặc tên trang tính",
+      "headers": {
+        "creator": "Người tạo",
+        "name": "Tên",
+        "records": "Bản ghi",
+        "sheet": "Trang tính nguôn",
+        "status": "Trạng thái",
+        "updated_at": "Sửa lần cuối"
+      },
+      "search": "Tìm kiếm theo clip dữ liệu, trang tính hay tên người tạo",
+      "source_name": "Trang tính nguồn: ",
+      "title": "Thư viện clip dữ liệu"
+    },
+    "merge": "Gộp thay đổi",
+    "modal": {
+      "cancel": "Hủy",
+      "share": "Tạo"
+    },
+    "newConflicts": {
+      "close": "Đóng",
+      "description": "Các xung đột mới đã phát sinh trong quá trình xem lại clip dữ liệu này.",
+      "submit": "Xử lý xung đột",
+      "title": "Đã tìm thấy xung đột mới"
+    },
+    "next": "Tiếp theo",
+    "promise": "Gửi an toàn và bảo mật",
+    "resend": "Mở lại và trở lại",
+    "resolutions": {
+      "applyAll": {
+        "button": "Áp dụng",
+        "description_other": "Bạn có muốn áp dụng '{{resolveTo}}' làm lựa chọn cho các xung đột còn lại trong cột '{{columnLabel}}' không? {{count}} bản ghi sẽ được cập nhật.",
+        "description_zero": "Bạn có muốn áp dụng '{{resolveTo}}' làm lựa chọn cho các xung đột còn lại trong cột '{{columnLabel}}' không? {{count}} bản ghi sẽ được cập nhật."
+      },
+      "cancel": "Lưu & thoát",
+      "complete": "Hoàn thành",
+      "conflicts_found": {
+        "button_other": "{{count}} xung đột",
+        "button_zero": "{{count}} xung đột",
+        "clip_override": {
+          "description": "Điều này sẽ không thay đổi bất kỳ điều gì trong bảng nguồn và các thay đổi xung đột trong dữ liệu clip sẽ bị loại bỏ.",
+          "title": "Từ chối các giá trị của dữ liệu clip"
+        },
+        "options_title": "Chọn hành động",
+        "resolve_conflicts": {
+          "description": "Điều này cho phép bạn xem xét từng xung đột trong dữ liệu clip và quyết định giá trị nào sẽ được hợp nhất hoặc bỏ qua.",
+          "title": "Thực hiện thay đổi riêng lẻ"
+        },
+        "source_override": {
+          "description": "Điều này sẽ cập nhật tất cả các giá trị xung đột để khớp với dữ liệu clip khi được hợp nhất.",
+          "title": "Chấp nhận các giá trị của dữ liệu clip"
+        },
+        "title": "Đã tìm thấy xung đột"
+      },
+      "empty": {
+        "button": "Quay lại clip",
+        "description": "Hãy thực hiện ít nhất một thay đổi để có thể hợp nhất.",
+        "title": "Không phát hiện ra thay đổi nào trong dữ liệu clip này."
+      },
+      "merge": "Hợp nhất"
+    },
+    "selectedRecords_other": "Đã chọn {{count}} bản ghi",
+    "selectedRecords_zero": "Đã chọn {{count}} bản ghi",
+    "share": {
+      "copy_link": "Sao chép đường liên kết",
+      "description": "Những cộng tác viên sẽ được gửi lời mời để hợp tác thực hiện dữ liệu clip này.",
+      "empty": "Không có sẵn cộng tác viên.",
+      "none_selected": "Không có cộng tác viên nào được chọn.",
+      "placeholder": "Thêm cộng tác viên...",
+      "submit": "Chia sẻ",
+      "title": "Chia sẻ dữ liệu clip"
+    },
+    "sort": "sắp xếp",
+    "status": {
+      "all": "Xem tất cả",
+      "merged": "Đã gộp",
+      "open": "Mở",
+      "ready": "Sẵn sàng để xem xét",
+      "title": "Trạng thái"
+    },
+    "success": {
+      "add_records": "Đã thêm bản ghi thành công.",
+      "create": "Dữ liệu clip của bạn đã được tạo thành công.",
+      "delete": "Dữ liệu clip của bạn đã được xóa thành công.",
+      "edit": "Phần chỉnh sửa đã được lưu thành công.",
+      "link_copy": "Đã sao chép đường liên kết thành công!",
+      "mark_as_ready": "Dữ liệu clip của bạn đã được gửi đi để xem xét thành công. Chủ sở hữu clip đã được thông báo.",
+      "mark_merged": "Dữ liệu clip của bạn đã được hợp nhất thành công.",
+      "mark_open": "Dữ liệu clip đã được mở lại và trả lại thành công!",
+      "modal": {
+        "create": {
+          "button": "Xem dữ liệu clip",
+          "close": "Đóng",
+          "description": "Bạn có thể xem dữ liệu clip mới ngay bây giờ.",
+          "title": "Dữ liệu clip của bạn đã được tạo."
+        },
+        "ready": {
+          "close": "Đóng",
+          "description": "Phần thay đổi của bạn đã được gửi đi để xem xét. Chúng tôi sẽ thông báo cho bạn về mọi ghi chú hoặc thay đổi về trạng thái.",
+          "submit": "Quay lại dữ liệu clip",
+          "title": "Các thay đổi đã được gửi thành công!"
+        }
+      }
+    },
+    "syncedRecords_other": "Tổng {{count}} bản ghi",
+    "syncedRecords_zero": "Tổng {{count}} bản ghi"
   },
   "document": {
     "error": {
@@ -198,6 +423,7 @@
     }
   },
   "errors": {
+    "accessDenied": "Truy cập bị từ chối",
     "documentNotFound": "Không tìm thấy văn bản",
     "fileNotFound": "Không tìm thấy tệp",
     "missingParameter": "Chưa cung cấp tham số",
@@ -207,6 +433,7 @@
     "refreshPageDescription": "Làm mới trang để thử lại. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với bộ phận hỗ trợ.",
     "returnToDashboardButton": "Quay lại Trang tổng quan",
     "sessionExpired": "Phiên đã hết hạn",
+    "sessionExpiredDescription": "Quyền truy cập phiên hiện tại đã hết hạn.",
     "sheetNotFound": "Không tìm thấy trang tính",
     "spaceNotFound": "Không tìm thấy không gian",
     "unauthorized": "Thông tin truy cập của bạn không hợp lệ.",
@@ -319,6 +546,15 @@
       "heading": "Kiểm tra hộp thư đến của bạn"
     }
   },
+  "helpCenter": {
+    "panel": {
+      "empty": "Nếu được đặt cấu hình, bản hướng dẫn dành cho không gian này sẽ hiển thị ở đây.",
+      "heading": "Trung tâm trợ giúp"
+    },
+    "pill": {
+      "hoverText": "Trung tâm trợ giúp"
+    }
+  },
   "host": {
     "modals": {
       "closeModal": {
@@ -393,6 +629,9 @@
     },
     "messages": {
       "startingJob": "Bắt đầu công việc"
+    },
+    "noListener": {
+      "learnMore": "Tìm hiểu thêm"
     },
     "panel": {
       "action": {
@@ -515,6 +754,56 @@
       }
     }
   },
+  "manageUsers": {
+    "accessLink": {
+      "callout": "Liên kết này có hiệu lực trong 24 giờ. Bất kỳ ai có liên kết đều có thể truy cập Không gian và tải lên, chỉnh sửa cũng như quản lý dữ liệu.",
+      "title": "Liên kết truy cập"
+    },
+    "actions": {
+      "copyLink": "Sao chép liên kết Không gian",
+      "invite": "Gửi lời mời",
+      "resendInvite": "Gửi lại lời mời",
+      "revoke": "Thu hồi quyền truy cập"
+    },
+    "edit": {
+      "cancelButton": "Hủy",
+      "description": "Hành động xóa mỏi sổ làm việc khỏi tài khoản của người dùng sẽ xóa người dùng đó khỏi không gian.",
+      "error": "Đã xảy ra lỗi khi tìm sổ làm việc",
+      "loading": "Đang tải quyền cho phép chỉnh sửa...",
+      "saveButton": "Lưu",
+      "title": "Sửa quyền truy cập vào sổ làm việc đối với"
+    },
+    "empty": "Chưa có khách để hiển thị",
+    "error": {
+      "title": "Không thể tải người dùng cho không gian này"
+    },
+    "guest": {
+      "message": "Chỉ có quản trị viên mới có thể quản lý khách. Nếu bạn cho rằng mình thấy điều này là do nhầm lẫn, vui lòng liên hệ với bộ phận hỗ trợ.",
+      "title": "Bạn không có quyền xem trang này"
+    },
+    "invite": {
+      "cancelButton": "Hủy",
+      "form": {
+        "collaborate": {
+          "label": "Bạn muốn hợp tác cùng ai?",
+          "placeholder": "Mời qua email, ngăn cách bởi dấu phẩy"
+        },
+        "message": {
+          "label": "Tin nhắn",
+          "placeholder": "Ta cùng làm nào!"
+        }
+      },
+      "sendInvite": "Gửi lời mời",
+      "title": "Mời khách"
+    },
+    "manageGuests": "Quản lý khách",
+    "revoke": {
+      "cancelButton": "Hủy",
+      "confirmButton": "Xác nhận",
+      "removing": "Đang xóa...",
+      "title": "Thu hồi quyền truy cập"
+    }
+  },
   "mapping": {
     "clearFields": {
       "modalHeader": "Xóa các miền điểm đến",
@@ -633,6 +922,18 @@
     }
   },
   "plugins": {
+    "extraction": {
+      "addingRecords": "Thêm bản ghi vào Trang tính",
+      "createWorkbook": "Tạo bảng tính",
+      "createWorkbookError": "Không thể tạo bảng tính. Hãy xem Nhật ký sự kiện.",
+      "extractedFile": "Tập tin đã trích xuất",
+      "extractionFailed": "Không thể trích xuất. Hãy thử lại hoặc liên hệ với bộ phận Hỗ trợ.",
+      "failedToParseWorkbook": "Không thể phân tách bảng tính.",
+      "fileTooLarge": "Tập tin quá lớn để phân tách. Hãy thử chuyển đổi tập tin này sang định dạng CSV.",
+      "noSheets": "Không tìm thấy trang tính",
+      "parseSheets": "Phân tách các trang tính",
+      "retrieveFile": "Đang truy xuất tập tin"
+    },
     "viewMapped": {
       "almostDone": "Sắp xong rồi...",
       "complete": "Cập nhật bảng thành công. Vui lòng kiểm tra dữ liệu",
@@ -640,6 +941,31 @@
       "halfway": "Xong một nửa rồi, hãy chờ nhé...",
       "updatingTable": "Đang cập nhật bảng để chỉ xem những trường đã được lập sơ đồ"
     }
+  },
+  "secrets": {
+    "create": "Tạo bí mật",
+    "delete": "Xóa bí mật",
+    "edit": "Sửa bí mật",
+    "envSecrets": "Những bí mật từ môi trường",
+    "errors": {
+      "couldNotGetSecrets": "Không thể tải bí mật, vui lòng thử tải lại trang này.",
+      "keyAlreadyExists": "Đã có bí mật khác chứa mã khóa này",
+      "keyCannotBeEmpty": "Không thể để trống mã khóa",
+      "keyInvalid": "Tên bí mật chỉ được chứa các kỹ tự chữ cái, chữ số và dấu gạch dướia"
+    },
+    "failureAdd": "Thêm bí mật {{name}} thất bại",
+    "failureEdit": "Sửa bí mật {{name}} thất bại",
+    "keyPlaceholder": "Hãy nhập mã khóa...",
+    "noSecrets": "Không có bí mật cấp độ môi trường. Hãy thêm bí mật <hyperlink>ở đây</hyperlink>.",
+    "noSpaceSecrets": "Chưa có bí mật nào cấp độ không gian, hãy nhấp vào biểu tượng dấu cộng để thêm bí mật.",
+    "noUserSecrets": "Chưa có bí mật nào cấp độ người dùng, hãy nhấp vào biểu tượng dấu cộng để thêm bí mật.",
+    "spaceSecrets": "Bí mật về không gian",
+    "successfulAdd": "Đã thêm bí mật {{name}} thành công",
+    "successfulEdit": "Đã sửa bí mật {{name}} thành công",
+    "userDescription": "Những bí mật cấp độ người dùng sẽ ghi đề lên so với bí mật cấp độ không gian.",
+    "userSecrets": "Bí mật của người dùng",
+    "value": "Giá trị bí mật",
+    "valuePlaceholder": "Hãy nhập giá trị..."
   },
   "sheet": {
     "columnManagement": {
@@ -901,6 +1227,38 @@
         "transform": "Chuyển hóa"
       },
       "buttons": {
+        "addToDataClip": {
+          "modal": {
+            "cancelButton": "Hủy",
+            "confirmButton": "Thêm bản ghi",
+            "description": {
+              "infix": "đã chọn",
+              "infixType": {
+                "invalid": "không hợp lệ",
+                "valid": "hợp lệ"
+              },
+              "prefix": "Bạn có muốn thêm ",
+              "suffix_other": "bản ghi vào clip dữ liệu?",
+              "suffix_zero": "bản ghi vào clip dữ liệu?"
+            },
+            "errorMessage": "Không thể thêm bản ghi vào clip dữ liệu. Vui lòng thử lại hoặc điều chỉnh những mục bạn đã chọn.",
+            "heading_other": "Thêm bản ghi vào clip dữ liệu",
+            "heading_zero": "Thêm bản ghi vào clip dữ liệu",
+            "inProgress": "Đang thêm bản ghi..."
+          },
+          "popover": {
+            "successMessage_other": "Đã thêm {{count}} bản ghi vào clip dữ liệu",
+            "successMessage_zero": "Đã thêm {{count}} bản ghi vào clip dữ liệu",
+            "successMessageNoCount": "Đã thêm bản ghi vào clip dữ liệu"
+          },
+          "tooltip": {
+            "active": "Thêm bản ghi đã chọn vào clip dữ liệu",
+            "disabled": {
+              "deleteDisabled": "Hành động thêm bản ghi vào clip dữ liệu hiện đang tắt đối với Trang tính này.",
+              "noRecordsSelected": "Hãy chọn ít nhất một bản ghi để thêm nó vào clip dữ liệu"
+            }
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Hủy",
@@ -961,6 +1319,61 @@
             },
             "disabled": "Không có bản ghi nào để tải xuống"
           }
+        },
+        "markForDeletion": {
+          "modal": {
+            "cancelButton": "Hủy",
+            "confirmButton": "Xóa bản ghi",
+            "description": {
+              "infix": "đã chọn",
+              "infixType": {
+                "invalid": "không hợp lệ",
+                "valid": "hợp lệ"
+              },
+              "prefix": "Bạn có muốn xóa",
+              "suffix_other": "bản ghi? Hành động này cũng sẽ xóa bản ghi khỏi trang tính nguồn khi gộp clip dữ liệu.",
+              "suffix_zero": "bản ghi? Hành động này cũng sẽ xóa bản ghi khỏi trang tính nguồn khi gộp clip dữ liệu."
+            },
+            "errorMessage": "Không thể xóa bản ghi. Vui lòng thử lại hoặc điều chỉnh những mục bạn đã chọn.",
+            "heading_other": "Xóa bản ghi",
+            "heading_zero": "Xóa bản ghi",
+            "inProgress": "Đang xóa bản ghi..."
+          },
+          "popover": {
+            "successMessage_other": "Đã xóa {{count}} bản ghi",
+            "successMessage_zero": "Đã xóa {{count}} bản ghi",
+            "successMessageNoCount": "Đã xóa bản ghi"
+          }
+        },
+        "restore": {
+          "modal": {
+            "cancelButton": "Hủy",
+            "confirmButton": "Khôi phục bản ghi đã xóa",
+            "description": {
+              "infix": "đã chọn",
+              "infixType": {
+                "invalid": "không hợp lệ",
+                "valid": "hợp lệ"
+              },
+              "prefix": "Bạn có muốn khôi phục những bản ghi đã từng được đánh dấu xóa trong các mục đã chọn không?"
+            },
+            "errorMessage": "Không thể thêm bản ghi khôi phục. Vui lòng thử lại hoặc điều chỉnh những mục bạn đã chọn.",
+            "heading_other": "Khôi phục bản ghi",
+            "heading_zero": "Khôi phục bản ghi",
+            "inProgress": "Đang khôi phục bản ghi..."
+          },
+          "popover": {
+            "successMessage_other": "Những bản ghi từng được đánh dấu xóa đã được khôi phục.",
+            "successMessage_zero": "Những bản ghi từng được đánh dấu xóa đã được khôi phục.",
+            "successMessageNoCount": "Những bản ghi từng được đánh dấu xóa đã được khôi phục."
+          },
+          "tooltip": {
+            "active": "Khôi phục bản ghi từng được đánh dấu xóa trong những mục đã chọn.",
+            "disabled": {
+              "deleteDisabled": "Hành động khôi phục bản ghi hiện đang tắt đối với Trang tính này.",
+              "noRecordsSelected": "Hãy chọn ít nhất một bản ghi để khôi phục"
+            }
+          }
         }
       },
       "customActionsDropdown": {
@@ -971,9 +1384,34 @@
           "requireSelection": "Vui lòng chọn một hoặc nhiều bản ghi để sử dụng hành động này"
         }
       },
+      "dataClips": {
+        "actions": {
+          "create": "Tạo clip dữ liệu"
+        },
+        "buttonText": "Clip dữ liệu",
+        "errors_other": "{{count}} lỗi",
+        "errors_zero": "{{count}} lỗi",
+        "modal": {
+          "cancel": "Hủy",
+          "share": "Chia sẻ"
+        },
+        "placeholders": {
+          "description": "Thêm bình luận (không bắt buộc)..."
+        },
+        "promise": "Gửi an toàn và bảo mật",
+        "selectedRecords_other": "{{count}} bản ghi",
+        "selectedRecords_zero": "{{count}} bản ghi",
+        "syncedRecords_other": "{{count}} bản ghi đã đồng bộ hóa",
+        "syncedRecords_zero": "{{count}} bản ghi đã đồng bộ hóa",
+        "titles": {
+          "review": "Xét duyệt",
+          "share": "Chia sẻ clip dữ liệu"
+        }
+      },
       "dropdown": {
         "delete": "Xóa",
-        "download": "Tải xuống"
+        "download": "Tải xuống",
+        "restore": "Khôi phục"
       },
       "filterByError": {
         "buttonText": "Lọc theo lỗi",
@@ -1005,6 +1443,10 @@
       "moreActions": {
         "buttonText": "Hành động khác",
         "placeholder": "Tìm kiếm hoặc chọn..."
+      },
+      "restore": {
+        "label": "Khôi phục bản ghi",
+        "tooltip": "Khôi phục bản ghi từng được đánh dấu xóa."
       },
       "savedViews": {
         "buttonText": "Chế độ xem",
@@ -1078,8 +1520,14 @@
     }
   },
   "sidebar": {
+    "activityLogs": "Lịch sử hoạt động",
     "addConnection": "Thêm Kết nối",
     "checklist": "Danh sách kiểm tra dữ liệu",
+    "collapse": {
+      "documents": "Tài liệu",
+      "workbook": "Sổ làm việc",
+      "workbooks": "Sổ làm việc"
+    },
     "connections": {
       "tooltips": {
         "connectionError": "Đã xảy ra sự cố khi xác minh siêu dữ liệu về các kết nối của sổ làm việc này",
@@ -1088,9 +1536,19 @@
       }
     },
     "emptyWorkbook": "Sổ làm việc trống",
+    "errorIconTooltip": "Trang tính này có chứa lỗi",
     "files": "Tệp",
+    "footer": {
+      "backToDashboard": "Quay lại bảng điều khiển",
+      "logout": "Đăng xuất"
+    },
     "lockedIconTooltip": "Trang tính này đã bị khóa",
+    "manageGuests": "Quản lý khách",
+    "pill": {
+      "admin": "Quản trị viên"
+    },
     "readOnlyIconTooltip": "Trang tính này ở chế độ chỉ đọc",
+    "secrets": "Bí mật",
     "spaceSwitcher": {
       "placeholder": "Tìm kiếm hoặc chọn một Không gian..."
     },
@@ -1172,6 +1630,7 @@
         "current": "Giá trị hiện tại: {{value}}",
         "empty": "không có dữ liệu",
         "none": "Bộ dữ liệu của bạn sẽ được điều chỉnh theo những giá trị được hiển thị.",
+        "requiresDecision": "Giá trị này yêu cầu đưa ra quyết định trước khi bạn có thể điều chỉnh dataset của mình.",
         "restore": "Tập dữ liệu của bạn sẽ được khôi phục về phiên bản trong ảnh chụp nhanh này.",
         "snapshot": "Giá trị mới: {{value}}"
       }
@@ -1403,6 +1862,7 @@
       "empty": "Sau khi được tạo, các phiên bản sẽ hiển thị ở đây. Chúng được tạo ra một cách tự động, thường là khi xảy ra chuyển đổi dữ liệu hàng loạt.",
       "generatedSnapshot": "Đã tạo ảnh chụp trước khi áp dụng Chuyển đổi AI cho câu lệnh: ",
       "generatedSnapshotForAiTransform": "Ảnh chụp nhanh được tạo trước khi áp dụng Chuyển đổi AI cho câu lệnh; ",
+      "generatedSnapshotForBulkAddToDataClip": "Đã tạo ảnh chụp trước khi thêm bản ghi vào clip dữ liệu",
       "generatedSnapshotForBulkDelete": "Ảnh chụp nhanh được tạo trước khi xóa các bản ghi",
       "generatedSnapshotForFindReplace": "Ảnh chụp nhanh được tạo trước khi áp dụng Tìm và Thay thế",
       "heading": "Lịch sử phiên bản",

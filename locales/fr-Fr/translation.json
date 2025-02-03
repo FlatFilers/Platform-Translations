@@ -4,9 +4,9 @@
     "changedColumnsText_other": "{{count}} colonnes avec des données modifiées",
     "changedColumnsText_zero": "{{count}} colonnes avec des données modifiées",
     "errors": {
-      "entilementError": {
-        "content": "Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le support client.",
-        "title": "Désolé ! Vous n'avez pas accès à cette fonctionnalité."
+      "entitlementError": {
+        "content": "Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le service clientèle.",
+        "title": "Désolé, vous n'avez pas accès à cette fonctionnalité."
       },
       "generalError": {
         "title": "Une erreur est survenue. Veuillez réessayer."
@@ -182,16 +182,247 @@
   "comments": {
     "addReaction": "Ajouter une réaction",
     "commentDisabledTooltip": "Sélectionnez une cellule ou une ligne pour ajouter un commentaire",
+    "comments": "Commentaires",
     "delete": "Supprimer le commentaire",
     "edit": "Modifier le commentaire",
     "edited": " (modifié)",
+    "hidden": "caché par les filtres...",
+    "noResolvedThreads": "Aucun fil de discussion n'a encore été résolu",
     "noResults": "Aucune correspondance",
+    "noUpdates": "Aucune mise à jour",
     "placeholder": "Ajoutez votre commentaire ici...",
     "reactionList": "<0></0> a réagi avec {{emoji}}",
+    "reopen": "Rouvrir le fil de discussion",
+    "repliesCount_one": "encore {{count}} réponse",
+    "repliesCount_other": "encore {{count}} réponses",
+    "repliesCount_zero": "encore {{count}} réponses",
     "resolve": "Résoudre le problème",
+    "resolved": "Résolues",
+    "row": "Ligne {{row}}",
+    "rowAndColumn": "Ligne {{row}}, {{column}}",
     "send": "Envoyer un commentaire",
     "threadPlaceholder": "Répondez ou mentionnez d'autres utilisateurs avec @...",
+    "updates": "Mises à jour",
+    "updatesError": "Une erreur est survenue lors du chargement des mises à jour",
+    "userCommented": "<user>{{user}}</user> a commenté au sujet de <identifier>{{identifier}}</identifier>",
+    "userReacted": "<0></0> a réagi à votre commentaire",
     "you": "Vous"
+  },
+  "common": {
+    "cancel": "Annuler",
+    "lastWeek": "La semaine dernière",
+    "name": "Nom",
+    "older": "Plus anciennes",
+    "thisWeek": "Cette semaine",
+    "today": "Aujourd'hui",
+    "yesterday": "Hier"
+  },
+  "dataClips": {
+    "actions": {
+      "add_to_clip": "Ajouter des sélections au clip de données",
+      "buttons": {
+        "back": "Retour",
+        "conflicts": "Résoudre les conflits",
+        "review": "Examiner les modifications",
+        "share": "Partager",
+        "submit_for_review": "Soumettre pour examen",
+        "view": "Afficher le clip de données"
+      },
+      "create": "Créer un clip de données",
+      "library": "Accéder à la bibliothèque de clips de données",
+      "sheet_list": "Voir les clips de données de la feuille",
+      "tooltip": {
+        "conflicts": "Veuillez résoudre les conflits avant de fusionner.",
+        "no_changes": "Apportez au moins une modification pour effectuer la fusion.",
+        "no_data_clips": "Créer un clip de données à ajouter.",
+        "none_selected": {
+          "add_to_clip": "Sélectionnez au moins un enregistrement à ajouter à un clip de données.",
+          "create": "Sélectionnez au moins un enregistrement pour créer un clip de données."
+        },
+        "review": "Aucune modification n'a été apportée à ce clip de données."
+      }
+    },
+    "buttonText": "Données sur les clips",
+    "choose_action": "Choisissez une action :",
+    "clear": "effacer",
+    "collaborators": "Collaborateurs",
+    "confirmation": {
+      "delete": {
+        "cancel": "Annuler",
+        "description": "Cela supprimera définitivement ce clip de données de votre bibliothèque.",
+        "submit": "Supprimer",
+        "title": "Supprimer"
+      },
+      "ready": {
+        "cancel": "Annuler",
+        "description": "Vos modifications seront envoyées pour examen.",
+        "submit": "Soumettre",
+        "title": "Soumettre pour examen"
+      }
+    },
+    "conflictResolution": {
+      "applyAll": "Appliquer à tous ?",
+      "change_description": "Un enregistrement dans le champ « {{fieldName}} » sera modifié.",
+      "columnTotal": "Total colonne :",
+      "description": "Des modifications ont été apportées à la fois à la feuille source et au clip de données. Choisissez celle que vous souhaitez conserver.",
+      "empty": {
+        "description": "Prêt pour révision",
+        "status": "Terminer",
+        "title": "Pas de conflit"
+      },
+      "row": "Ligne",
+      "title": "Choisir la modification à fusionner"
+    },
+    "created_by": "Créé par",
+    "detailsModal": {
+      "create": {
+        "action": "Créer",
+        "title": "Créer un clip de données"
+      },
+      "edit": {
+        "action": "Soumettre",
+        "title": "Modifier le clip de données"
+      },
+      "placeholder": "Ajouter un commentaire (facultatif)...",
+      "review": "Révision"
+    },
+    "empty": "Aucun clip de données à afficher",
+    "error": "Impossible de charger les clips de données pour cet espace",
+    "errors_one": "{{count}} erreur",
+    "errors_other": "{{count}} erreurs",
+    "errors_zero": "{{count}} erreurs",
+    "errors": {
+      "add_records_create": "Une erreur inattendue s'est produite lors de l'ajout de vos enregistrements au clip de données. Un nouveau clip de données a été créé.",
+      "add_to_clip": "Une erreur inattendue s'est produite lors de l'ajout de vos enregistrements au clip de données. Veuillez réessayer. Si le problème persiste, veuillez contacter l'assistance.",
+      "bulk_resolve_all_conflicts": "Une erreur inattendue s'est produite lors de la résolution des conflits. Veuillez réessayer. Si le problème persiste, veuillez contacter l'assistance.",
+      "create": "Une erreur inattendue s'est produite lors de la création de votre clip de données. Si le problème persiste, veuillez contacter l'assistance.",
+      "delete": "Votre clip de données n'a pas pu être supprimé. Veuillez réessayer. Si le problème persiste, veuillez contacter l'assistance.",
+      "diff_view": "Une erreur inattendue s'est produite lors du chargement de l'affichage des différences entre les clips de données. Veuillez réessayer. Si le problème persiste, veuillez contacter l'assistance.",
+      "edit": "Une erreur inattendue s'est produite lors de la modification de vos clips de données. Veuillez réessayer. Si le problème persiste, veuillez contacter l'assistance.",
+      "link_copy": "Une erreur inattendue s'est produite lors de la copie du lien. Veuillez réessayer. Si le problème persiste, veuillez contacter l'assistance.",
+      "list": "Une erreur inattendue s'est produite lors du chargement de la bibliothèque de clips de données. Veuillez réessayer. Si le problème persiste, veuillez contacter l'assistance.",
+      "mark_as_ready": "Votre clip de données n'a pas pu être marqué comme prêt pour la fusion. Veuillez réessayer. Si le problème persiste, veuillez contacter l'assistance.",
+      "mark_for_review": "Votre clip de données n'a pas pu être soumis pour examen. Veuillez réessayer. Si le problème persiste, veuillez contacter l'assistance.",
+      "mark_merged": "Votre clip de données n'a pas pu être fusionné. Veuillez réessayer. Si le problème persiste, veuillez contacter l'assistance.",
+      "mark_open": "Votre clip de données n'a pas pu être rouvert. Veuillez réessayer. Si le problème persiste, veuillez contacter l'assistance."
+    },
+    "filter": "Filtrer",
+    "library": {
+      "actions": {
+        "delete": "Supprimer",
+        "edit": "Voir",
+        "edit_details": "Modifier les détails"
+      },
+      "create": "Créer un clip de données",
+      "guest_search": "Rechercher par clip de données, ou nom de feuille",
+      "headers": {
+        "creator": "Créateur",
+        "name": "Nom",
+        "records": "Enregistrements",
+        "sheet": "Feuille source",
+        "status": "Statut",
+        "updated_at": "Dernier modifié"
+      },
+      "search": "Rechercher par clip de données, par feuille ou par nom de créateur",
+      "source_name": "Feuille source : ",
+      "title": "Bibliothèque de clips de données"
+    },
+    "merge": "Fusionner les modifications",
+    "modal": {
+      "cancel": "Annuler",
+      "share": "Créer"
+    },
+    "newConflicts": {
+      "close": "Fermer",
+      "description": "De nouveaux conflits ont été introduits lors de la révision de ce clip de données.",
+      "submit": "Résoudre les conflits",
+      "title": "Nouveaux conflits trouvés"
+    },
+    "next": "Suivant",
+    "promise": "Envoi sécurisé",
+    "resend": "Réouverture et retour",
+    "resolutions": {
+      "applyAll": {
+        "button": "Appliquer",
+        "description_one": "Souhaitez-vous appliquer « {{resolveTo}} » comme sélection par défaut des conflits restants dans la colonne « {{columnLabel}} » ? {{count}} enregistrement sera mis à jour.",
+        "description_other": "Souhaitez-vous appliquer « {{resolveTo}} » comme sélection par défaut des conflits restants dans la colonne « {{columnLabel}} » ? {{count}} enregistrements seront mis à jour.",
+        "description_zero": "Souhaitez-vous appliquer « {{resolveTo}} » comme sélection par défaut des conflits restants dans la colonne « {{columnLabel}} » ? {{count}} enregistrements seront mis à jour."
+      },
+      "cancel": "Enregistrer et quitter",
+      "complete": "Terminer",
+      "conflicts_found": {
+        "button_one": "{{count}} conflit\n",
+        "button_other": "{{count}} conflits\n",
+        "button_zero": "{{count}} conflits",
+        "clip_override": {
+          "description": "La feuille source ne sera pas modifiée et les modifications de clips de données en conflit seront ignorées.",
+          "title": "Rejeter les valeurs du clip de données"
+        },
+        "options_title": "Choisissez une action",
+        "resolve_conflicts": {
+          "description": "Vous pourrez examiner chaque conflit du clip de données et choisir les valeurs à fusionner ou à ignorer.",
+          "title": "Modifier séparément"
+        },
+        "source_override": {
+          "description": "Les valeurs en conflit seront mises à jour pour correspondre au clip de données lors de la fusion.",
+          "title": "Accepter les valeurs du clip de données"
+        },
+        "title": "Conflits trouvés"
+      },
+      "empty": {
+        "button": "Retourner au clip",
+        "description": "Apportez au moins une modification pour effectuer la fusion.",
+        "title": "Aucune modification n'a été détectée dans ce clip de données."
+      },
+      "merge": "Fusionner"
+    },
+    "selectedRecords_one": "{{count}} enregistrement sélectionné",
+    "selectedRecords_other": "{{count}} enregistrements sélectionnés",
+    "selectedRecords_zero": "{{count}} enregistrements sélectionnés",
+    "share": {
+      "copy_link": "Copier le lien",
+      "description": "Les collaborateurs recevront une invitation à collaborer sur ce clip de données.",
+      "empty": "Aucun collaborateur disponible.",
+      "none_selected": "Aucun collaborateur sélectionné.",
+      "placeholder": "Ajouter des collaborateurs...",
+      "submit": "Partager",
+      "title": "Partager le clip de données"
+    },
+    "sort": "trier",
+    "status": {
+      "all": "Voir tout",
+      "merged": "Fusionné",
+      "open": "Ouvrir",
+      "ready": "Prêt pour révision",
+      "title": "Statut"
+    },
+    "success": {
+      "add_records": "Enregistrements ajoutés avec succès.",
+      "create": "Votre clip de données a été créé avec succès.",
+      "delete": "Votre clip de données a été supprimé avec succès.",
+      "edit": "Modifications enregistrées avec succès.",
+      "link_copy": "Lien copié avec succès !",
+      "mark_as_ready": "Votre clip de données a été soumis pour examen avec succès. Le propriétaire du clip de données a été informé.",
+      "mark_merged": "Votre clip de données a été fusionné avec succès.",
+      "mark_open": "Clip de données rouvert et renvoyé avec succès !",
+      "modal": {
+        "create": {
+          "button": "Afficher le clip de données",
+          "close": "Fermer",
+          "description": "Vous pouvez maintenant afficher le nouveau clip de données.",
+          "title": "Votre clip de données a été créé"
+        },
+        "ready": {
+          "close": "Fermer",
+          "description": "Vos modifications ont été soumises pour examen. Nous vous informerons en cas de note ou de modification concernant le statut.",
+          "submit": "Retourner au clip de données",
+          "title": "Modifications soumises avec succès !"
+        }
+      }
+    },
+    "syncedRecords_one": "{{count}} enregistrement au total",
+    "syncedRecords_other": "{{count}} enregistrements au total",
+    "syncedRecords_zero": "{{count}} enregistrement sélectionné"
   },
   "document": {
     "error": {
@@ -200,6 +431,7 @@
     }
   },
   "errors": {
+    "accessDenied": "Accès refusé",
     "documentNotFound": "Le document n'a pas été trouvé",
     "fileNotFound": "Fichier introuvable",
     "missingParameter": "Paramètre non fourni",
@@ -209,6 +441,7 @@
     "refreshPageDescription": "Actualisez la page pour réessayer. Si le problème persiste, contactez l'assistance.",
     "returnToDashboardButton": "Revenir au tableau de bord",
     "sessionExpired": "La session a expiré",
+    "sessionExpiredDescription": "L'accès à la session en cours a expiré.",
     "sheetNotFound": "Feuille introuvable",
     "spaceNotFound": "Espace introuvable",
     "unauthorized": "Vos identifiants d'accès ne sont pas valides.",
@@ -325,6 +558,15 @@
       "heading": "Vérifiez votre boîte de réception"
     }
   },
+  "helpCenter": {
+    "panel": {
+      "empty": "Des conseils pour cet espace seront disponibles ici s'ils sont configurés.",
+      "heading": "Centre d'aide"
+    },
+    "pill": {
+      "hoverText": "Centre d'aide"
+    }
+  },
   "host": {
     "modals": {
       "closeModal": {
@@ -399,6 +641,9 @@
     },
     "messages": {
       "startingJob": "Emploi initial"
+    },
+    "noListener": {
+      "learnMore": "En savoir plus"
     },
     "panel": {
       "action": {
@@ -519,6 +764,56 @@
       "button": {
         "defaultLabel": "Envoyer"
       }
+    }
+  },
+  "manageUsers": {
+    "accessLink": {
+      "callout": "Ce lien est valable pendant 24 heures. Toute personne possédant ce lien peut accéder à l'Espace et téléverser, modifier et gérer les données.",
+      "title": "Lien d'accès"
+    },
+    "actions": {
+      "copyLink": "Copier le lien de l'Espace",
+      "invite": "Envoyer l'invitation",
+      "resendInvite": "Renvoyer l'invitation",
+      "revoke": "Révoquer l'accès"
+    },
+    "edit": {
+      "cancelButton": "Annuler",
+      "description": "Supprimer tous les classeurs du compte d'un utilisateur supprimera cet utilisateur de l'espace.",
+      "error": "Erreur dans l'extraction des classeurs",
+      "loading": "Chargement des autorisations de modification en cours...",
+      "saveButton": "Enregistrer",
+      "title": "Modifier l'accès au classeur pour"
+    },
+    "empty": "Aucun invité à afficher",
+    "error": {
+      "title": "Impossible de charger les utilisateurs de cet espace"
+    },
+    "guest": {
+      "message": "Seuls les administrateurs peuvent gérer les invités. Si vous pensez que vous voyez cette page par erreur, veuillez contacter le service d'Assistance.",
+      "title": "Vous n'avez pas le droit de voir cette page"
+    },
+    "invite": {
+      "cancelButton": "Annuler",
+      "form": {
+        "collaborate": {
+          "label": "Avec qui souhaitez-vous collaborer ?",
+          "placeholder": "Invitez par e-mails, séparés par des virgules"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Collaborons !"
+        }
+      },
+      "sendInvite": "Envoyer l'invitation",
+      "title": "Inviter des invités"
+    },
+    "manageGuests": "Gérer les invités",
+    "revoke": {
+      "cancelButton": "Annuler",
+      "confirmButton": "Confirmer",
+      "removing": "Suppression en cours...",
+      "title": "Révoquer l'accès"
     }
   },
   "mapping": {
@@ -645,6 +940,18 @@
     }
   },
   "plugins": {
+    "extraction": {
+      "addingRecords": "Ajout des enregistrements aux feuilles",
+      "createWorkbook": "Création d'un classeur",
+      "createWorkbookError": "Échec de la création d'un classeur. Voir les Journaux d'événements.",
+      "extractedFile": "Fichier extrait",
+      "extractionFailed": "L'extraction a échoué. Réessayez ou contactez le service d'Assistance.",
+      "failedToParseWorkbook": "Échec de l'analyse du classeur.",
+      "fileTooLarge": "Le fichier est trop volumineux pour être analysé. Essayez de convertir ce fichier au format CSV.",
+      "noSheets": "Aucune feuille trouvée",
+      "parseSheets": "Analyse des feuilles",
+      "retrieveFile": "Récupération d'un fichier"
+    },
     "viewMapped": {
       "almostDone": "Presque terminé...",
       "complete": "La mise à jour du tableau est terminée. Veuillez vérifier les données",
@@ -652,6 +959,31 @@
       "halfway": "A mi-chemin, accrochez-vous...",
       "updatingTable": "Mise à jour de la table afin d'afficher uniquement les champs mappés"
     }
+  },
+  "secrets": {
+    "create": "Créer un secret",
+    "delete": "Supprimer le secret",
+    "edit": "Modifier le secret",
+    "envSecrets": "Secrets de l'environnement",
+    "errors": {
+      "couldNotGetSecrets": "Impossible de retrouver les secrets, essayez de rafraîchir la page.",
+      "keyAlreadyExists": "Il existe déjà un secret avec cette clé",
+      "keyCannotBeEmpty": "La clé ne peut pas être vide",
+      "keyInvalid": "Le nom du secret doit contenir uniquement des caractères alphanumériques et des tirets bas"
+    },
+    "failureAdd": "Le secret {{name}} n'a pas pu être ajouté",
+    "failureEdit": "Le secret {{name}} n'a pas pu être modifié",
+    "keyPlaceholder": "Entrez la clé...",
+    "noSecrets": "Il n'y a pas de secrets au niveau de l'environnement. Ajoutez-en un <hyperlink>ici</hyperlink>.",
+    "noSpaceSecrets": "Il n'y a pas encore de secrets au niveau de l'espace, cliquez sur l'icône Plus pour en ajouter un.",
+    "noUserSecrets": "Il n'y a pas encore de secret au niveau de l'utilisateur, cliquez sur l'icône Plus pour en ajouter un.",
+    "spaceSecrets": "Secrets de l'espace",
+    "successfulAdd": "Le secret {{name}} a bien été ajouté",
+    "successfulEdit": "Le secret {{name}} a bien été modifié",
+    "userDescription": "Les secrets au niveau de l'utilisateur auront la priorité sur les secrets de l'espace.",
+    "userSecrets": "Secrets de l'utilisateur",
+    "value": "Valeur du secret",
+    "valuePlaceholder": "Entrez la valeur..."
   },
   "sheet": {
     "columnManagement": {
@@ -922,6 +1254,41 @@
         "transform": "Transformer"
       },
       "buttons": {
+        "addToDataClip": {
+          "modal": {
+            "cancelButton": "Annuler",
+            "confirmButton": "Ajouter les enregistrements",
+            "description": {
+              "infix": "sélectionnés",
+              "infixType": {
+                "invalid": "non valide",
+                "valid": "valide"
+              },
+              "prefix": "Voulez-vous ajouter les ",
+              "suffix_one": "enregistrements au segment de données ?",
+              "suffix_other": "enregistrements au segment de données ?",
+              "suffix_zero": "enregistrements au segment de données ?"
+            },
+            "errorMessage": "Impossible d'ajouter des enregistrements au clip de données. Veuillez réessayer ou modifier votre sélection.",
+            "heading_one": "Ajouter un enregistrement à un clip de données",
+            "heading_other": "Ajouter des enregistrements à un clip de données",
+            "heading_zero": "Ajouter des enregistrements à un clip de données",
+            "inProgress": "Ajout d'enregistrements..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} enregistrement ajouté au clip de données ",
+            "successMessage_other": "{{count}} enregistrements ajoutés au clip de données ",
+            "successMessage_zero": "{{count}} enregistrements ajoutés au clip de données ",
+            "successMessageNoCount": "Enregistrements ajoutés au clip de données"
+          },
+          "tooltip": {
+            "active": "Ajouter les enregistrements sélectionnés au clip de données",
+            "disabled": {
+              "deleteDisabled": "L'ajout d'enregistrements aux clips de données est désactivé dans cette feuille.",
+              "noRecordsSelected": "Sélectionnez au moins un enregistrement pour l'ajouter à un clip de données"
+            }
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Annuler",
@@ -987,6 +1354,66 @@
             },
             "disabled": "Aucun enregistrement à télécharger"
           }
+        },
+        "markForDeletion": {
+          "modal": {
+            "cancelButton": "Annuler",
+            "confirmButton": "Supprimer les enregistrements",
+            "description": {
+              "infix": "sélectionnés",
+              "infixType": {
+                "invalid": "non valide",
+                "valid": "valide"
+              },
+              "prefix": "Voulez-vous supprimer les",
+              "suffix_one": "enregistrements ? Cela les supprimera également de la feuille source lors de la fusion du segment de données.",
+              "suffix_other": "enregistrements ? Cela les supprimera également de la feuille source lors de la fusion du segment de données.",
+              "suffix_zero": "enregistrements ? Cela les supprimera également de la feuille source lors de la fusion du segment de données."
+            },
+            "errorMessage": "Impossible de supprimer les enregistrements. Veuillez réessayer ou modifier votre sélection.",
+            "heading_one": "Supprimer l'enregistrement",
+            "heading_other": "Supprimer les enregistrements",
+            "heading_zero": "Supprimer les enregistrements",
+            "inProgress": "Suppression des enregistrements..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} enregistrements supprimés",
+            "successMessage_other": "{{count}} enregistrements supprimés",
+            "successMessage_zero": "{{count}} enregistrements supprimés",
+            "successMessageNoCount": "Enregistrements supprimés"
+          }
+        },
+        "restore": {
+          "modal": {
+            "cancelButton": "Annuler",
+            "confirmButton": "Restaurer les enregistrements supprimés",
+            "description": {
+              "infix": "sélectionnés",
+              "infixType": {
+                "invalid": "non valide",
+                "valid": "valide"
+              },
+              "prefix": "Voulez-vous restaurer les enregistrements précédemment marqués pour suppression dans cette sélection ?"
+            },
+            "errorMessage": "Impossible d’ajouter les enregistrements restaurés. Veuillez réessayer ou modifier votre sélection.",
+            "heading_one": "Restaurer les enregistrements",
+            "heading_other": "Restaurer les enregistrements",
+            "heading_zero": "Restaurer les enregistrements",
+            "inProgress": "Restauration des enregistrements..."
+          },
+          "popover": {
+            "successMessage_one": "Les enregistrements précédemment marqués pour suppression ont été restaurés.",
+            "successMessage_other": "Les enregistrements précédemment marqués pour suppression ont été restaurés.",
+            "successMessage_zero": "Les enregistrements précédemment marqués pour suppression ont été restaurés.",
+            "successMessageNoCount": "Les enregistrements précédemment marqués pour suppression ont été restaurés."
+          },
+          "tooltip": {
+            "active": "Restaurer les enregistrements précédemment marqués pour suppression dans cette sélection.",
+            "disabled": {
+              "deleteDisabled": "La restauration des enregistrements est désactivée dans cette feuille.",
+              "noRecordsSelected": "Sélectionnez au moins un enregistrement pour pouvoir le restaurer."
+            }
+          }
         }
       },
       "customActionsDropdown": {
@@ -997,9 +1424,37 @@
           "requireSelection": "Veuillez sélectionner un ou plusieurs enregistrements pour utiliser cette action."
         }
       },
+      "dataClips": {
+        "actions": {
+          "create": "Créer un clip de données"
+        },
+        "buttonText": "Lier les données",
+        "errors_one": "{{count}} erreurs",
+        "errors_other": "{{count}} erreurs",
+        "errors_zero": "{{count}} erreurs",
+        "modal": {
+          "cancel": "Annuler",
+          "share": "Partager"
+        },
+        "placeholders": {
+          "description": "Ajouter un commentaire (facultatif)..."
+        },
+        "promise": "Envoi sécurisé",
+        "selectedRecords_one": "{{count}} enregistrement",
+        "selectedRecords_other": "{{count}} enregistrements",
+        "selectedRecords_zero": "{{count}} enregistrements",
+        "syncedRecords_one": "{{count}} enregistrement synchronisé",
+        "syncedRecords_other": "{{count}} enregistrements synchronisés",
+        "syncedRecords_zero": "{{count}} enregistrements synchronisés",
+        "titles": {
+          "review": "Révision",
+          "share": "Partager des Data Clips"
+        }
+      },
       "dropdown": {
         "delete": "Supprimer",
-        "download": "Télécharger"
+        "download": "Télécharger",
+        "restore": "Restaurer"
       },
       "filterByError": {
         "buttonText": "Filtrer par erreur",
@@ -1031,6 +1486,10 @@
       "moreActions": {
         "buttonText": "Autres actions",
         "placeholder": "Recherchez ou sélectionnez..."
+      },
+      "restore": {
+        "label": "Restaurer les enregistrements",
+        "tooltip": "Restaurer les enregistrements précédemment marqués pour suppression."
       },
       "savedViews": {
         "buttonText": "Vues",
@@ -1104,8 +1563,14 @@
     }
   },
   "sidebar": {
+    "activityLogs": "Journaux d'activité",
     "addConnection": "Ajouter une connexion",
     "checklist": "Liste de contrôle des données",
+    "collapse": {
+      "documents": "Documents",
+      "workbook": "Cahier d'exercices",
+      "workbooks": "Cahiers d'exercices"
+    },
     "connections": {
       "tooltips": {
         "connectionError": "Un problème est survenu lors de la vérification des métadonnées des connexions de ce classeur",
@@ -1114,9 +1579,19 @@
       }
     },
     "emptyWorkbook": "Manuel de travail vide",
+    "errorIconTooltip": "Cette feuille contient des erreurs",
     "files": "Fichiers",
+    "footer": {
+      "backToDashboard": "Retour au tableau de bord",
+      "logout": "Déconnexion"
+    },
     "lockedIconTooltip": "Cette feuille est verrouillée",
+    "manageGuests": "Gérer les invités",
+    "pill": {
+      "admin": "Admin"
+    },
     "readOnlyIconTooltip": "Cette feuille est en lecture seule",
+    "secrets": "Secrets",
     "spaceSwitcher": {
       "placeholder": "Rechercher ou sélectionner un espace..."
     },
@@ -1198,6 +1673,7 @@
         "current": "Valeur actuelle : {{value}}",
         "empty": "aucune donnée",
         "none": "Votre ensemble de données sera modifié en fonction des valeurs affichées.",
+        "requiresDecision": "Cette valeur nécessite une décision avant de pouvoir modifier votre jeu de données.",
         "restore": "Votre jeu de données sera restauré à la version de cet instantané.",
         "snapshot": "Nouvelle valeur : {{value}}"
       }
@@ -1429,6 +1905,7 @@
       "empty": "Les versions, une fois générées, apparaîtront ici. Les versions sont générées automatiquement, souvent lorsqu'une transformation massive de données se produit.",
       "generatedSnapshot": "Instantané généré avant d'appliquer AI Transform pour le message : ",
       "generatedSnapshotForAiTransform": "Instantané généré avant d'appliquer la  « Transformation IA » : ",
+      "generatedSnapshotForBulkAddToDataClip": "Instantané généré avant l'ajout d'enregistrements au clip de données",
       "generatedSnapshotForBulkDelete": "Instantané généré avant la suppression des enregistrements",
       "generatedSnapshotForFindReplace": "Instantané généré avant d'appliquer la fonctionnalité « Rechercher et Remplacer »",
       "heading": "Historique des versions",

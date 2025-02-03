@@ -3,9 +3,9 @@
     "changedColumnsText_other": "{{count}} 個欄的資料已變更",
     "changedColumnsText_zero": "{{count}} 個欄的資料已變更",
     "errors": {
-      "entilementError": {
-        "content": "如果您認為這是錯誤，請聯絡支援團隊。",
-        "title": "抱歉！您無法使用此功能。"
+      "entitlementError": {
+        "content": "如果您認為這則訊息有誤，請聯繫客服。",
+        "title": "抱歉！您無權使用此功能。"
       },
       "generalError": {
         "title": "發生錯誤，請再試一次。"
@@ -179,16 +179,241 @@
   "comments": {
     "addReaction": "新增表情符號反應",
     "commentDisabledTooltip": "選取一個儲存格或一列以新增留言",
+    "comments": "評論",
     "delete": "刪除留言",
     "edit": "編輯留言",
     "edited": " （已編輯）",
+    "hidden": "被過濾器隱藏 ……",
+    "noResolvedThreads": "尚未有已解決的討論串",
     "noResults": "沒有相符項目",
+    "noUpdates": "沒有更新",
     "placeholder": "在此新增您的留言…",
     "reactionList": "<0></0> 使用 {{emoji}} 做出反應",
+    "reopen": "重新開啟討論串",
+    "repliesCount_other": "再 {{count}} 則回覆",
+    "repliesCount_zero": "再 {{count}} 則回覆",
     "resolve": "解決留言串",
+    "resolved": "已解決",
+    "row": "列 {{row}}",
+    "rowAndColumn": "列 {{row}}，{{column}}",
     "send": "傳送留言",
     "threadPlaceholder": "使用 @ 回覆或提及其他人…",
+    "updates": "更新",
+    "updatesError": "載入更新時發生錯誤",
+    "userCommented": "<user>{{user}}</user> 已發表評論於 <identifier>{{identifier}}</identifier>",
+    "userReacted": "<0></0> 已對您的評論做出回應",
     "you": "您"
+  },
+  "common": {
+    "cancel": "取消",
+    "lastWeek": "上週",
+    "name": "名稱",
+    "older": "較早的",
+    "thisWeek": "本週",
+    "today": "今天",
+    "yesterday": "昨天"
+  },
+  "dataClips": {
+    "actions": {
+      "add_to_clip": "將選擇的內容新增至資料剪輯",
+      "buttons": {
+        "back": "返回",
+        "conflicts": "解決衝突",
+        "review": "審核變更",
+        "share": "分享",
+        "submit_for_review": "提交審核",
+        "view": "查看資料剪輯"
+      },
+      "create": "建立資料剪輯",
+      "library": "進入資料剪輯收藏庫",
+      "sheet_list": "觀看工作表的資料剪輯",
+      "tooltip": {
+        "conflicts": "請在合併前解決衝突的部分。",
+        "no_changes": "至少要進行一項變更才能合併。",
+        "no_data_clips": "建立要新增的資料剪輯。",
+        "none_selected": {
+          "add_to_clip": "選擇至少一筆記錄以新增至資料剪輯。",
+          "create": "選擇至少一筆記錄以建立資料剪輯。"
+        },
+        "review": "這個資料剪輯並未進行任何變更。"
+      }
+    },
+    "buttonText": "剪輯資料",
+    "choose_action": "選擇動作：",
+    "clear": "清除",
+    "collaborators": "協作者",
+    "confirmation": {
+      "delete": {
+        "cancel": "取消",
+        "description": "這將會從內容庫中永久刪除此資料剪輯。",
+        "submit": "刪除",
+        "title": "刪除"
+      },
+      "ready": {
+        "cancel": "取消",
+        "description": "您的變更內容將會送交審核。",
+        "submit": "提交",
+        "title": "提交審核"
+      }
+    },
+    "conflictResolution": {
+      "applyAll": "套用到全部欄位嗎？",
+      "change_description": "欄位「{{fieldName}}」中的一筆記錄將被變更。",
+      "columnTotal": "欄數總計：",
+      "description": "來源工作表和資料剪輯中都有變更。選擇您想保留哪一項。",
+      "empty": {
+        "description": "準備進行審核",
+        "status": "完成",
+        "title": "沒有衝突"
+      },
+      "row": "列",
+      "title": "選擇要合併的變更"
+    },
+    "created_by": "建立者",
+    "detailsModal": {
+      "create": {
+        "action": "建立",
+        "title": "建立資料剪輯"
+      },
+      "edit": {
+        "action": "提交",
+        "title": "編輯資料剪輯"
+      },
+      "placeholder": "新增評論（非必要）......",
+      "review": "審核"
+    },
+    "empty": "無可供顯示的資料剪輯",
+    "error": "無法為此空間載入資料剪輯",
+    "errors_other": "{{count}} 個錯誤",
+    "errors_zero": "{{count}} 個錯誤",
+    "errors": {
+      "add_records_create": "將記錄新增至資料剪輯時發生非預期的錯誤。已建立空白的資料剪輯。",
+      "add_to_clip": "將記錄新增至資料剪輯時發生非預期的錯誤，請再試一次。若問題持續出現，請聯絡支援人員。",
+      "bulk_resolve_all_conflicts": "解決衝突時發生非預期的錯誤，請再試一次。若問題持續出現，請聯絡支援人員",
+      "create": "建立資料剪輯時發生非預期的錯誤，請再試一次。若問題持續出現，請聯絡支援人員。",
+      "delete": "無法刪除資料剪輯，請再試一次。若問題持續出現，請聯絡支援人員",
+      "diff_view": "載入資料剪輯差異檢視表時發生非預期的錯誤，請再試一次。若問題持續出現，請聯絡支援人員",
+      "edit": "編輯資料剪輯時發生非預期的錯誤，請再試一次。若問題持續出現，請聯絡支援人員。",
+      "link_copy": "複製連結時發生非預期的錯誤，請再試一次。若問題持續出現，請聯絡支援人員",
+      "list": "載入資料剪輯內容庫時發生非預期的錯誤，請再試一次。若問題持續出現，請聯絡支援人員",
+      "mark_as_ready": "無法將資料剪輯標記為可供合併，請再試一次。若問題持續出現，請聯絡支援人員",
+      "mark_for_review": "無法將資料剪輯提交審核，請再試一次。若問題持續出現，請聯絡支援人員",
+      "mark_merged": "無法合併資料剪輯，請再試一次。若問題持續出現，請聯絡支援人員",
+      "mark_open": "無法重新開啟資料剪輯，請再試一次。若問題持續出現，請聯絡支援人員"
+    },
+    "filter": "篩選",
+    "library": {
+      "actions": {
+        "delete": "刪除",
+        "edit": "查看",
+        "edit_details": "編輯詳細資訊"
+      },
+      "create": "建立資料剪輯",
+      "guest_search": "以資料剪輯或工作表名稱進行搜尋",
+      "headers": {
+        "creator": "建立者",
+        "name": "名稱",
+        "records": "記錄",
+        "sheet": "來源工作表",
+        "status": "狀態",
+        "updated_at": "上一次編輯"
+      },
+      "search": "以資料剪輯、工作表或創作者名稱進行搜尋",
+      "source_name": "來源試算表： ",
+      "title": "資料剪輯收藏庫"
+    },
+    "merge": "合併變更內容",
+    "modal": {
+      "cancel": "取消",
+      "share": "建立"
+    },
+    "newConflicts": {
+      "close": "關閉",
+      "description": "審查此資料剪輯時又引發了新的衝突。",
+      "submit": "解決衝突",
+      "title": "發現新的衝突"
+    },
+    "next": "下一步",
+    "promise": "安全可靠的傳送",
+    "resend": "重新開啟並返回",
+    "resolutions": {
+      "applyAll": {
+        "button": "套用",
+        "description_other": "您想套用 '{{resolveTo}}' 作為對於在 '{{columnLabel}}' 欄中剩餘衝突的選擇嗎？\n{{count}} 筆記錄將被更新。",
+        "description_zero": "您想套用 '{{resolveTo}}' 作為對於在 '{{columnLabel}}' 欄中剩餘衝突的選擇嗎？\n{{count}} 筆記錄將被更新。"
+      },
+      "cancel": "儲存並退出",
+      "complete": "完成",
+      "conflicts_found": {
+        "button_other": "{{count}} 個衝突",
+        "button_zero": "{{count}} 個衝突",
+        "clip_override": {
+          "description": "這不會改變來源工作表中的任何內容，而且會捨棄有衝突的資料剪輯變更。",
+          "title": "捨棄來自資料剪輯的數值"
+        },
+        "options_title": "選擇要採取的動作",
+        "resolve_conflicts": {
+          "description": "這讓您可以檢視資料剪輯中的每個衝突，並決定要合併或忽略哪些數值。",
+          "title": "單獨進行變更"
+        },
+        "source_override": {
+          "description": "這將更新所有有衝突的數值以和合併時的資料剪輯相符合。",
+          "title": "接受來自資料剪輯的數值"
+        },
+        "title": "發現衝突"
+      },
+      "empty": {
+        "button": "返回剪輯",
+        "description": "至少要進行一項變更才能合併。",
+        "title": "在這個資料剪輯中並未偵測到任何變更。"
+      },
+      "merge": "合併"
+    },
+    "selectedRecords_other": "已選取 {{count}} 筆記錄",
+    "selectedRecords_zero": "已選取 {{count}} 筆記錄",
+    "share": {
+      "copy_link": "複製連結",
+      "description": "將會寄給協作者一封共同處理此資料剪輯的邀請函。",
+      "empty": "沒有可進行合作的協作者。",
+      "none_selected": "尚未選擇協作者。",
+      "placeholder": "新增合作者 ......",
+      "submit": "分享",
+      "title": "分享資料剪輯"
+    },
+    "sort": "排序",
+    "status": {
+      "all": "查看全部",
+      "merged": "已合併",
+      "open": "開啟",
+      "ready": "準備進行審核",
+      "title": "狀態"
+    },
+    "success": {
+      "add_records": "已成功新增記錄",
+      "create": "已成功建立您的資料剪輯。",
+      "delete": "已成功刪除您的資料剪輯。",
+      "edit": "編輯已成功儲存。",
+      "link_copy": "已成功複製連結！",
+      "mark_as_ready": "已成功將您的資料剪輯提交審核。已通知剪輯的所有人。",
+      "mark_merged": "已成功合併您的資料剪輯。",
+      "mark_open": "資料剪輯已成功重新開啟並返回！",
+      "modal": {
+        "create": {
+          "button": "查看資料剪輯",
+          "close": "關閉",
+          "description": "現在您可以觀看新的資料剪輯。",
+          "title": "您的資料剪輯已建立"
+        },
+        "ready": {
+          "close": "關閉",
+          "description": "您的變更已提交審核。如有任何評論或狀態變化，我們將會通知您。",
+          "submit": "返回資料剪輯",
+          "title": "已成功提交變更！"
+        }
+      }
+    },
+    "syncedRecords_other": "總計 {{count}} 筆記錄",
+    "syncedRecords_zero": "總計 {{count}} 筆記錄"
   },
   "document": {
     "error": {
@@ -197,6 +422,7 @@
     }
   },
   "errors": {
+    "accessDenied": "被拒絕存取",
     "documentNotFound": "找不到文件",
     "fileNotFound": "未找到檔案",
     "missingParameter": "未提供參數",
@@ -206,6 +432,7 @@
     "refreshPageDescription": "重新整理頁面再試一次。如果問題持續發生，請聯絡支援人員。",
     "returnToDashboardButton": "返回儀表板",
     "sessionExpired": "工作階段已過期",
+    "sessionExpiredDescription": "目前工作階段的存取已過期。",
     "sheetNotFound": "找不到工作表",
     "spaceNotFound": "未找到空間",
     "unauthorized": "您的存取憑證無效。",
@@ -318,6 +545,15 @@
       "heading": "請檢查您的收件匣"
     }
   },
+  "helpCenter": {
+    "panel": {
+      "empty": "如果已進行設定，此空間的指引將在此處提供。",
+      "heading": "說明中心"
+    },
+    "pill": {
+      "hoverText": "說明中心"
+    }
+  },
   "host": {
     "modals": {
       "closeModal": {
@@ -392,6 +628,9 @@
     },
     "messages": {
       "startingJob": "開始處理作業"
+    },
+    "noListener": {
+      "learnMore": "了解更多"
     },
     "panel": {
       "action": {
@@ -514,6 +753,56 @@
       }
     }
   },
+  "manageUsers": {
+    "accessLink": {
+      "callout": "此連結的有效期限為24小時。任何擁有連結的人都可以存取該空間並上傳、編輯和以其他方式管理資料。",
+      "title": "訪問連結"
+    },
+    "actions": {
+      "copyLink": "複製空間連結",
+      "invite": "寄出邀請函",
+      "resendInvite": "重寄邀請函",
+      "revoke": "撤銷存取權限"
+    },
+    "edit": {
+      "cancelButton": "取消",
+      "description": "從使用者帳戶中刪除所有活頁簿會將該名使用者從空間中刪除。",
+      "error": "擷取活頁簿時發生錯誤",
+      "loading": "正在載入編輯權限 ......",
+      "saveButton": "儲存",
+      "title": "為 ...... 編輯活頁簿存取權限"
+    },
+    "empty": "沒有可供顯示的訪客",
+    "error": {
+      "title": "無法載入此空間的使用者"
+    },
+    "guest": {
+      "message": "只有管​​理員可以管理訪客。如果您認為此訊息有誤，請聯繫客服。",
+      "title": "您無權查看此頁面"
+    },
+    "invite": {
+      "cancelButton": "取消",
+      "form": {
+        "collaborate": {
+          "label": "您想要與誰合作呢？",
+          "placeholder": "透過電子郵件邀請，以逗號分隔"
+        },
+        "message": {
+          "label": "訊息",
+          "placeholder": "讓我們來合作吧！"
+        }
+      },
+      "sendInvite": "寄出邀請函",
+      "title": "邀請訪客"
+    },
+    "manageGuests": "管理訪客",
+    "revoke": {
+      "cancelButton": "取消",
+      "confirmButton": "確認",
+      "removing": "正在刪除 ......",
+      "title": "撤銷存取權限"
+    }
+  },
   "mapping": {
     "clearFields": {
       "modalHeader": "清除目標欄位",
@@ -632,6 +921,18 @@
     }
   },
   "plugins": {
+    "extraction": {
+      "addingRecords": "將記錄新增至工作表",
+      "createWorkbook": "建立活頁簿",
+      "createWorkbookError": "無法建立工作簿。請查看活動記錄。",
+      "extractedFile": "擷取的檔案",
+      "extractionFailed": "擷取失敗。請再試一次或聯繫客服。",
+      "failedToParseWorkbook": "無法對活頁簿進行分析。",
+      "fileTooLarge": "文件太大，無法進行分析。請嘗試將此檔案轉換為 CSV 檔案。",
+      "noSheets": "未找到任何工作表",
+      "parseSheets": "正在分析工作表",
+      "retrieveFile": "正在檢索檔案"
+    },
     "viewMapped": {
       "almostDone": "快完成了...",
       "complete": "表格更新完成，請稽核資料",
@@ -639,6 +940,31 @@
       "halfway": "已經完成一半，請稍等...",
       "updatingTable": "正在更新表格以僅顯示已對應的欄位"
     }
+  },
+  "secrets": {
+    "create": "建立機密",
+    "delete": "刪除機密",
+    "edit": "編輯機密",
+    "envSecrets": "環境機密",
+    "errors": {
+      "couldNotGetSecrets": "無法取得機密，請嘗試重新整理此頁面。",
+      "keyAlreadyExists": "具有此密鑰的機密已存在",
+      "keyCannotBeEmpty": "密鑰不能是空的",
+      "keyInvalid": "機密名稱必須只包含字母數字字元和底線"
+    },
+    "failureAdd": "無法新增機密 {{name}}",
+    "failureEdit": "無法編輯機密 {{name}}",
+    "keyPlaceholder": "輸入密鑰 ……",
+    "noSecrets": "沒有環境層級的機密。新增一個 <hyperlink> 在此處 </hyperlink>。",
+    "noSpaceSecrets": "尚無空間層級的機密，點擊加號圖示以新增。",
+    "noUserSecrets": "尚無使用者層級的機密，點擊加號圖示以新增。",
+    "spaceSecrets": "空間機密",
+    "successfulAdd": "成功地新增機密 {{name}}",
+    "successfulEdit": "成功地編輯機密 {{name}}",
+    "userDescription": "使用者層級的機密將覆蓋空間層級的機密。",
+    "userSecrets": "使用者機密",
+    "value": "機密值",
+    "valuePlaceholder": "輸入數值 ……"
   },
   "sheet": {
     "columnManagement": {
@@ -900,6 +1226,38 @@
         "transform": "轉換"
       },
       "buttons": {
+        "addToDataClip": {
+          "modal": {
+            "cancelButton": "取消",
+            "confirmButton": "新增記錄",
+            "description": {
+              "infix": "已選取",
+              "infixType": {
+                "invalid": "無效的",
+                "valid": "有效的"
+              },
+              "prefix": "您想要新增 ",
+              "suffix_other": "記錄到資料剪輯嗎？",
+              "suffix_zero": "記錄到資料剪輯嗎？"
+            },
+            "errorMessage": "無法將記錄新增至資料剪輯。請再試一次或修改您的選擇。",
+            "heading_other": "將記錄新增至資料剪輯",
+            "heading_zero": "將記錄新增至資料剪輯",
+            "inProgress": "正在新增記錄 ......"
+          },
+          "popover": {
+            "successMessage_other": "{{count}} 筆記錄已新增至資料剪輯",
+            "successMessage_zero": "{{count}} 筆記錄已新增至資料剪輯",
+            "successMessageNoCount": "記錄已新增至資料剪輯"
+          },
+          "tooltip": {
+            "active": "將已選取的記錄新增至資料剪輯",
+            "disabled": {
+              "deleteDisabled": "此工作表中新增記錄至資料剪輯已停用。",
+              "noRecordsSelected": "選擇至少一筆記錄以將其新增至資料剪輯"
+            }
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "取消",
@@ -960,6 +1318,61 @@
             },
             "disabled": "沒有可下載的記錄"
           }
+        },
+        "markForDeletion": {
+          "modal": {
+            "cancelButton": "取消",
+            "confirmButton": "刪除記錄",
+            "description": {
+              "infix": "已選取",
+              "infixType": {
+                "invalid": "無效的",
+                "valid": "有效的"
+              },
+              "prefix": "您想要刪除",
+              "suffix_other": "記錄嗎？這樣做也將會在合併資料剪輯時從來源工作表中刪除記錄。",
+              "suffix_zero": "記錄嗎？這樣做也將會在合併資料剪輯時從來源工作表中刪除記錄。"
+            },
+            "errorMessage": "無法刪除記錄。請再試一次或修改您的選擇。",
+            "heading_other": "刪除記錄",
+            "heading_zero": "刪除記錄",
+            "inProgress": "正在刪除記錄 ......"
+          },
+          "popover": {
+            "successMessage_other": "{{count}} 筆記錄已刪除",
+            "successMessage_zero": "{{count}} 筆記錄已刪除",
+            "successMessageNoCount": "記錄已刪除"
+          }
+        },
+        "restore": {
+          "modal": {
+            "cancelButton": "取消",
+            "confirmButton": "復原已刪除的記錄",
+            "description": {
+              "infix": "已選取",
+              "infixType": {
+                "invalid": "無效的",
+                "valid": "有效的"
+              },
+              "prefix": "您想要恢復此選擇中先前已標記為要刪除的記錄嗎？"
+            },
+            "errorMessage": "無法新增復原記錄。請再試一次或修改您的選擇。",
+            "heading_other": "復原記錄",
+            "heading_zero": "復原記錄",
+            "inProgress": "正在復原記錄 ......"
+          },
+          "popover": {
+            "successMessage_other": "先前被標記為要刪除的記錄已復原。",
+            "successMessage_zero": "先前被標記為要刪除的記錄已復原。",
+            "successMessageNoCount": "先前被標記為要刪除的記錄已復原。"
+          },
+          "tooltip": {
+            "active": "復原選擇中先前被標記為要刪除的記錄。",
+            "disabled": {
+              "deleteDisabled": "復原記錄在此工作表中已停用。",
+              "noRecordsSelected": "選擇至少一筆記錄以進行復原"
+            }
+          }
         }
       },
       "customActionsDropdown": {
@@ -970,9 +1383,34 @@
           "requireSelection": "請選取一個或多個記錄以使用此動作"
         }
       },
+      "dataClips": {
+        "actions": {
+          "create": "建立資料剪輯"
+        },
+        "buttonText": "剪輯資料",
+        "errors_other": "{{count}} 個錯誤",
+        "errors_zero": "{{count}} 個錯誤",
+        "modal": {
+          "cancel": "取消",
+          "share": "分享"
+        },
+        "placeholders": {
+          "description": "新增評論（非必要）......"
+        },
+        "promise": "安全可靠的傳送",
+        "selectedRecords_other": "{{count}} 筆記錄",
+        "selectedRecords_zero": "{{count}} 筆記錄",
+        "syncedRecords_other": "{{count}} 筆同步記錄",
+        "syncedRecords_zero": "{{count}} 筆同步記錄",
+        "titles": {
+          "review": "審核",
+          "share": "分享資料剪輯"
+        }
+      },
       "dropdown": {
         "delete": "刪除",
-        "download": "下載"
+        "download": "下載",
+        "restore": "復原"
       },
       "filterByError": {
         "buttonText": "按錯誤篩選",
@@ -1004,6 +1442,10 @@
       "moreActions": {
         "buttonText": "更多動作",
         "placeholder": "搜尋或選取..."
+      },
+      "restore": {
+        "label": "復原記錄",
+        "tooltip": "復原先前標記為要刪除的記錄。"
       },
       "savedViews": {
         "buttonText": "檢視",
@@ -1077,8 +1519,14 @@
     }
   },
   "sidebar": {
+    "activityLogs": "活動記錄",
     "addConnection": "新增連線",
     "checklist": "資料檢查清單",
+    "collapse": {
+      "documents": "文件",
+      "workbook": "活頁簿",
+      "workbooks": "活頁簿"
+    },
     "connections": {
       "tooltips": {
         "connectionError": "驗證此活頁簿連線的中繼資料時發生問題",
@@ -1087,9 +1535,19 @@
       }
     },
     "emptyWorkbook": "空白活頁簿",
+    "errorIconTooltip": "此工作表含有錯誤",
     "files": "檔案",
+    "footer": {
+      "backToDashboard": "回到儀表板",
+      "logout": "登出"
+    },
     "lockedIconTooltip": "此工作表已鎖定",
+    "manageGuests": "管理訪客",
+    "pill": {
+      "admin": "管理員"
+    },
     "readOnlyIconTooltip": "此工作表為唯讀模式",
+    "secrets": "秘密",
     "spaceSwitcher": {
       "placeholder": "搜尋或選取一個空間..."
     },
@@ -1171,6 +1629,7 @@
         "current": "目前值：{{value}}",
         "empty": "無資料",
         "none": "您的資料集將根據顯示的值進行修改。",
+        "requiresDecision": "在您修改資料集之前，需要對此數值做出決定。",
         "restore": "資料集將還原為此快照中的版本。",
         "snapshot": "新值：{{value}}"
       }
@@ -1402,6 +1861,7 @@
       "empty": "版本一旦產生，將顯示於此處。版本會自動產生，通常在進行大量資料轉換時會發生。",
       "generatedSnapshot": "套用 AI 轉換（根據提示）之前所產生的快照： ",
       "generatedSnapshotForAiTransform": "套用 AI 轉換（根據提示）之前所產生的快照： ",
+      "generatedSnapshotForBulkAddToDataClip": "將記錄新增至資料剪輯前產生的快照",
       "generatedSnapshotForBulkDelete": "刪除記錄之前所產生的快照",
       "generatedSnapshotForFindReplace": "套用「尋找與取代」之前所產生的快照",
       "heading": "版本歷程記錄",

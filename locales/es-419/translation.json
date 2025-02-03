@@ -4,8 +4,8 @@
     "changedColumnsText_other": "{{count}} columnas con datos modificados",
     "changedColumnsText_zero": "{{count}} columnas con datos modificados",
     "errors": {
-      "entilementError": {
-        "content": "Si cree que se trata de un error, póngase en contacto con el servicio de atención al cliente.",
+      "entitlementError": {
+        "content": "Si considera que se trata de un error, por favor, póngase en contacto con el servicio de atención al cliente.",
         "title": "¡Lo sentimos! No tiene acceso a esta función."
       },
       "generalError": {
@@ -181,16 +181,247 @@
   "comments": {
     "addReaction": "Agregar reacción",
     "commentDisabledTooltip": "Seleccione una celda o una fila para agregar un comentario",
+    "comments": "Comentarios",
     "delete": "Eliminar comentario",
     "edit": "Editar comentario",
     "edited": " (editado)",
+    "hidden": "oculto por filtros...",
+    "noResolvedThreads": "Aún no se ha resuelto ningún hilo",
     "noResults": "No hay coincidencias",
+    "noUpdates": "No hay actualizaciones",
     "placeholder": "Agregue su comentario aquí...",
     "reactionList": "<0></0> reaccionó con {{emoji}}",
+    "reopen": "Reabrir el hilo",
+    "repliesCount_one": "{{count}} respuesta más",
+    "repliesCount_other": "{{count}} respuestas más",
+    "repliesCount_zero": "{{count}} respuestas más",
     "resolve": "Cerrar hilo",
+    "resolved": "Resuelto",
+    "row": "Fila {{row}}",
+    "rowAndColumn": "Fila {{row}}, {{column}}",
     "send": "Enviar comentario",
     "threadPlaceholder": "Responda o mencione a otros con @...",
+    "updates": "Actualizaciones",
+    "updatesError": "Se produjo un error al cargar las actualizaciones",
+    "userCommented": "<user>{{user}}</user> comentó en <identifier>{{identifier}}</identifier>",
+    "userReacted": "<0></0> reaccionó a su comentario",
     "you": "Usted"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "lastWeek": "La semana pasada",
+    "name": "Nombre",
+    "older": "Más viejo",
+    "thisWeek": "Esta semana",
+    "today": "Hoy",
+    "yesterday": "Ayer"
+  },
+  "dataClips": {
+    "actions": {
+      "add_to_clip": "Agregar selecciones al fragmento de datos",
+      "buttons": {
+        "back": "Atrás",
+        "conflicts": "Resolver conflictos",
+        "review": "Revisar cambios",
+        "share": "Compartir",
+        "submit_for_review": "Enviar para revisión",
+        "view": "Ver fragmento de datos"
+      },
+      "create": "Crear fragmento de datos",
+      "library": "Ir a la biblioteca de fragmentos de datos",
+      "sheet_list": "Ver fragmentos de datos de la hoja",
+      "tooltip": {
+        "conflicts": "Por favor, resuelva los conflictos antes de fusionar.",
+        "no_changes": "Realice al menos un cambio para poder fusionar.",
+        "no_data_clips": "Crear un fragmento de datos para agregarlo.",
+        "none_selected": {
+          "add_to_clip": "Seleccione al menos un registro para agregarlo a un fragmento de datos.",
+          "create": "Seleccione al menos un registro para crear un fragmento de datos."
+        },
+        "review": "No se han realizado cambios a este fragmento de datos."
+      }
+    },
+    "buttonText": "Fragmentar datos",
+    "choose_action": "Elija una acción:",
+    "clear": "limpiar",
+    "collaborators": "Colaboradores",
+    "confirmation": {
+      "delete": {
+        "cancel": "Cancelar",
+        "description": "Con esto se borrará este fragmento de datos de su biblioteca",
+        "submit": "Eliminar",
+        "title": "Eliminar"
+      },
+      "ready": {
+        "cancel": "Cancelar",
+        "description": "Sus cambios se enviarán para revisión.",
+        "submit": "Enviar",
+        "title": "Enviar para revisión"
+      }
+    },
+    "conflictResolution": {
+      "applyAll": "¿Aplicable a todos?",
+      "change_description": "1 registro en el campo \"{{fieldName}}\" será cambiado.",
+      "columnTotal": "Total de la columna:",
+      "description": "Hay cambios tanto en la hoja de origen como en el clip de datos. Elija cuál quiere conservar.",
+      "empty": {
+        "description": "Listo para revisión",
+        "status": "Completo",
+        "title": "Sin conflictos"
+      },
+      "row": "Fila",
+      "title": "Elija qué cambio desea fusionar"
+    },
+    "created_by": "Creado por",
+    "detailsModal": {
+      "create": {
+        "action": "Crear",
+        "title": "Crear fragmento de datos"
+      },
+      "edit": {
+        "action": "Enviar",
+        "title": "Editar fragmento de datos"
+      },
+      "placeholder": "Agregar un comentario (opcional)...",
+      "review": "Revisar"
+    },
+    "empty": "No hay fragmentos de datos para mostrar",
+    "error": "No fue posible cargar los fragmentos de datos para este espacio",
+    "errors_one": "{{count}} error",
+    "errors_other": "{{count}} errores",
+    "errors_zero": "{{count}} errores",
+    "errors": {
+      "add_records_create": "Se ha producido un error inesperado al añadir sus registros al clip de datos. Se ha creado un clip de datos vacío.",
+      "add_to_clip": "Se ha producido un error inesperado al añadir sus registros al clip de datos, inténtelo de nuevo. Si el problema persiste, póngase en contacto con el servicio de asistencia.",
+      "bulk_resolve_all_conflicts": "Se ha producido un error inesperado en la resolución de conflictos, inténtelo de nuevo. Si el problema persiste, póngase en contacto con el servicio de asistencia",
+      "create": "Se ha producido un error inesperado al crear el clip de datos, inténtelo de nuevo. Si el problema persiste, póngase en contacto con el servicio de asistencia.",
+      "delete": "No hemos podido eliminar el clip de datos, inténtelo de nuevo. Si el problema persiste, póngase en contacto con el servicio de asistencia",
+      "diff_view": "Se ha producido un error inesperado al cargar la vista diff del clip de datos, inténtelo de nuevo. Si el problema persiste, póngase en contacto con el servicio de asistencia",
+      "edit": "Se ha producido un error inesperado al editar sus clips de datos, inténtelo de nuevo. Si el problema persiste, póngase en contacto con el servicio de asistencia.",
+      "link_copy": "Se ha producido un error inesperado al copiar el enlace, inténtelo de nuevo. Si el problema persiste, póngase en contacto con el servicio de asistencia",
+      "list": "Se ha producido un error inesperado al cargar la biblioteca de clips de datos, inténtelo de nuevo. Si el problema persiste, póngase en contacto con el servicio de asistencia",
+      "mark_as_ready": "No hemos podido marcar el clip de datos como listo para fusionar, inténtelo de nuevo. Si el problema persiste, póngase en contacto con el servicio de asistencia",
+      "mark_for_review": "Su clip de datos no se ha podido enviar para su revisión, inténtelo de nuevo. Si el problema persiste, póngase en contacto con el servicio de asistencia",
+      "mark_merged": "El clip de datos no se ha fusionado, inténtelo de nuevo. Si el problema persiste, póngase en contacto con el servicio de asistencia",
+      "mark_open": "No hemos podido reabrir el clip de datos, inténtelo de nuevo. Si el problema persiste, póngase en contacto con el servicio de asistencia"
+    },
+    "filter": "Filtrar",
+    "library": {
+      "actions": {
+        "delete": "Eliminar",
+        "edit": "Vista",
+        "edit_details": "Editar detalles"
+      },
+      "create": "Crear fragmento de datos",
+      "guest_search": "Buscar por fragmento de datos o nombre de la hoja",
+      "headers": {
+        "creator": "Creador",
+        "name": "Nombre",
+        "records": "Registros",
+        "sheet": "Hoja de origen",
+        "status": "Estatus",
+        "updated_at": "Editado por última vez"
+      },
+      "search": "Buscar por fragmento de datos, hoja o nombre del creador",
+      "source_name": "Hoja fuente: ",
+      "title": "Librería de fragmentos de datos"
+    },
+    "merge": "Unir cambios",
+    "modal": {
+      "cancel": "Cancelar",
+      "share": "Crear"
+    },
+    "newConflicts": {
+      "close": "Cerrar",
+      "description": "Al revisar este clip de datos se han introducido nuevos conflictos.",
+      "submit": "Resolver conflictos",
+      "title": "Nuevos conflictos detectados"
+    },
+    "next": "Siguiente",
+    "promise": "Envío seguro y protegido",
+    "resend": "Reabrir y regresar",
+    "resolutions": {
+      "applyAll": {
+        "button": "Aplicar",
+        "description_one": "¿Desea aplicar '{{resolveTo}}' como selección para los conflictos restantes en la columna '{{columnLabel}}'? Se actualizará {{count}} registro.",
+        "description_other": "¿Le gustaría solicitar {{resolveTo}}' como su selección para los conflictos restantes en la '{{columnLabel}} columna? {{count}} registros serán actualizados.",
+        "description_zero": "¿Desea aplicar '{{resolveTo}}' como selección para los conflictos restantes en la columna '{{columnLabel}}'? Se actualizarán {{count}} registros."
+      },
+      "cancel": "Guardar y salir",
+      "complete": "Completo",
+      "conflicts_found": {
+        "button_one": "{{count}} conflicto",
+        "button_other": "{{count}} conflictos",
+        "button_zero": "{{count}} conflictos",
+        "clip_override": {
+          "description": "Esto no cambiará nada en la hoja de origen, y se descartarán los cambios del clip de datos en conflicto.",
+          "title": "Rechazar valores del clip de datos"
+        },
+        "options_title": "Elija la acción",
+        "resolve_conflicts": {
+          "description": "Esto le permite revisar cada conflicto en el clip de datos y decidir qué valores fusionar o ignorar.",
+          "title": "Realizar cambios individualmente"
+        },
+        "source_override": {
+          "description": "Esto actualizará todos los valores en conflicto para que coincidan con el clip de datos en la fusión.",
+          "title": "Aceptar valores del clip de datos"
+        },
+        "title": "Conflictos encontrados"
+      },
+      "empty": {
+        "button": "Volver al clip",
+        "description": "Realice al menos un cambio para poder fusionar.",
+        "title": "No se han detectado cambios en este clip de datos."
+      },
+      "merge": "Fusionar"
+    },
+    "selectedRecords_one": "{{count}} registro seleccionado",
+    "selectedRecords_other": "{{count}} registros seleccionados",
+    "selectedRecords_zero": "{{count}} registros seleccionados",
+    "share": {
+      "copy_link": "Copiar enlace",
+      "description": "Se enviará a los colaboradores una invitación para colaborar en este clip de datos.",
+      "empty": "No hay colaboradores disponibles.",
+      "none_selected": "No se han seleccionado colaboradores.",
+      "placeholder": "Añadir colaboradores...",
+      "submit": "Compartir",
+      "title": "Compartir clip de datos"
+    },
+    "sort": "clasificar",
+    "status": {
+      "all": "Ver todos",
+      "merged": "Unido",
+      "open": "Abrir",
+      "ready": "Listo para revisión",
+      "title": "Estatus"
+    },
+    "success": {
+      "add_records": "Registros añadidos correctamente.",
+      "create": "El clip de datos se ha creado correctamente.",
+      "delete": "El clip de datos se ha eliminado correctamente.",
+      "edit": "Ediciones guardadas correctamente.",
+      "link_copy": "¡Enlace copiado correctamente!",
+      "mark_as_ready": "Su clip de datos se ha enviado correctamente para su revisión. El propietario del clip ha sido notificado.",
+      "mark_merged": "Su clip de datos se ha fusionado correctamente.",
+      "mark_open": "¡Clip de datos reabierto y devuelto con éxito!",
+      "modal": {
+        "create": {
+          "button": "Ver fragmento de datos",
+          "close": "Cerrar",
+          "description": "Ahora puede ver el nuevo clip de datos.",
+          "title": "Se ha creado su clip de datos"
+        },
+        "ready": {
+          "close": "Cerrar",
+          "description": "Sus cambios se han enviado para su revisión. Le notificaremos cualquier nota o cambio de estado.",
+          "submit": "Volver al clip de datos",
+          "title": "¡Cambios enviados correctamente!"
+        }
+      }
+    },
+    "syncedRecords_one": "{{count}} registro total",
+    "syncedRecords_other": "{{count}} registros totales",
+    "syncedRecords_zero": "{{count}} registros totales"
   },
   "document": {
     "error": {
@@ -199,6 +430,7 @@
     }
   },
   "errors": {
+    "accessDenied": "Acceso denegado",
     "documentNotFound": "No se ha encontrado el documento",
     "fileNotFound": "Archivo no encontrado",
     "missingParameter": "Parámetro no proporcionado",
@@ -208,6 +440,7 @@
     "refreshPageDescription": "Actualice la página para volver a intentarlo. Si el problema persiste, póngase en contacto con el servicio de asistencia.",
     "returnToDashboardButton": "Regresar al tablero",
     "sessionExpired": "La sesión ha expirado",
+    "sessionExpiredDescription": "El acceso a la sesión actual expiró.",
     "sheetNotFound": "Hoja no encontrada",
     "spaceNotFound": "Espacio no encontrado",
     "unauthorized": "Sus credenciales de acceso no son válidas.",
@@ -324,6 +557,15 @@
       "heading": "Revise su bandeja de entrada"
     }
   },
+  "helpCenter": {
+    "panel": {
+      "empty": "La orientación para este espacio estará disponible aquí si se configura.",
+      "heading": "Centro de ayuda"
+    },
+    "pill": {
+      "hoverText": "Centro de ayuda"
+    }
+  },
   "host": {
     "modals": {
       "closeModal": {
@@ -398,6 +640,9 @@
     },
     "messages": {
       "startingJob": "Comenzando el trabajo"
+    },
+    "noListener": {
+      "learnMore": "Más información"
     },
     "panel": {
       "action": {
@@ -518,6 +763,56 @@
       "button": {
         "defaultLabel": "Enviar"
       }
+    }
+  },
+  "manageUsers": {
+    "accessLink": {
+      "callout": "Este enlace es válido por 24 horas. Cualquiera que disponga del enlace puede acceder al Espacio y subir, editar y gestionar datos.",
+      "title": "Enlace de acceso"
+    },
+    "actions": {
+      "copyLink": "Copiar enlace del Espacio",
+      "invite": "Enviar invitación",
+      "resendInvite": "Reenviar invitación",
+      "revoke": "Revocar acceso"
+    },
+    "edit": {
+      "cancelButton": "Cancelar",
+      "description": "Si se eliminan todos los libros de trabajo de la cuenta de un usuario, se elimina a ese usuario del espacio.",
+      "error": "Error al cargar los libros de trabajo",
+      "loading": "Cargando permisos de edición...",
+      "saveButton": "Guardar",
+      "title": "Modificar el acceso a los libros de trabajo para"
+    },
+    "empty": "No hay invitados para mostrar",
+    "error": {
+      "title": "No fue posible cargar los usuarios para este espacio"
+    },
+    "guest": {
+      "message": "Solo los administradores pueden gestionar los invitados. Si considera que se trata de un error, por favor, póngase en contacto con el servicio de atención al cliente.",
+      "title": "Usted no tiene permiso para ver esta página"
+    },
+    "invite": {
+      "cancelButton": "Cancelar",
+      "form": {
+        "collaborate": {
+          "label": "¿Con quién le gustaría colaborar?",
+          "placeholder": "Invitar por correo electrónico, cada uno separado por una coma"
+        },
+        "message": {
+          "label": "Mensaje",
+          "placeholder": "¡Trabajemos juntos!"
+        }
+      },
+      "sendInvite": "Enviar invitación",
+      "title": "Invitar participantes"
+    },
+    "manageGuests": "Gestionar invitados",
+    "revoke": {
+      "cancelButton": "Cancelar",
+      "confirmButton": "Confirmar",
+      "removing": "Eliminando...",
+      "title": "Revocar acceso"
     }
   },
   "mapping": {
@@ -644,6 +939,18 @@
     }
   },
   "plugins": {
+    "extraction": {
+      "addingRecords": "Agregando registros a las hojas",
+      "createWorkbook": "Creando libro",
+      "createWorkbookError": "No fue posible crear el libro. Consulte el Registro de eventos.",
+      "extractedFile": "Archivo extraído",
+      "extractionFailed": "Error al extraer. Vuelva a intentarlo o póngase en contacto con el servicio de atención al cliente.",
+      "failedToParseWorkbook": "No fue posible procesar el libro.",
+      "fileTooLarge": "El archivo es demasiado grande para procesarlo. Intente convertirlo a CSV.",
+      "noSheets": "No se encontraron hojas",
+      "parseSheets": "Procesando hojas",
+      "retrieveFile": "Recuperando archivo"
+    },
     "viewMapped": {
       "almostDone": "Casi listo...",
       "complete": "Se completó la actualización de la tabla. Audite los datos.",
@@ -651,6 +958,31 @@
       "halfway": "A mitad de camino, aguante...",
       "updatingTable": "Actualizando la tabla para ver solo los cambios asignados"
     }
+  },
+  "secrets": {
+    "create": "Crear secreto",
+    "delete": "Eliminar secreto",
+    "edit": "Editar secreto",
+    "envSecrets": "Secretos de entorno",
+    "errors": {
+      "couldNotGetSecrets": "No se pudieron obtener los secretos. Por favor, intente actualizar esta página.",
+      "keyAlreadyExists": "Ya existe un secreto con esta clave",
+      "keyCannotBeEmpty": "La clave no puede estar vacía",
+      "keyInvalid": "El nombre del secreto solo puede contener caracteres alfanuméricos y guiones bajos."
+    },
+    "failureAdd": "No se pudo añadir el secreto {{name}}",
+    "failureEdit": "No se pudo editar el secreto {{name}}",
+    "keyPlaceholder": "Introducir clave...",
+    "noSecrets": "No hay secretos a nivel de entorno. Añada uno <hyperlink>aquí</hyperlink>.",
+    "noSpaceSecrets": "Aún no hay secretos a nivel de espacio. Haga clic en el icono de más para añadir uno.",
+    "noUserSecrets": "Aún no hay secretos a nivel de usuario. Haga clic en el icono de más para añadir uno.",
+    "spaceSecrets": "Secretos de espacio",
+    "successfulAdd": "El secreto {{name}} se añadió correctamente",
+    "successfulEdit": "El secreto {{name}} se editó correctamente",
+    "userDescription": "Los secretos a nivel de usuario tienen prioridad sobre los de espacio.",
+    "userSecrets": "Secretos de usuario",
+    "value": "Valor del secreto",
+    "valuePlaceholder": "Introducir valor..."
   },
   "sheet": {
     "columnManagement": {
@@ -921,6 +1253,41 @@
         "transform": "Transformar"
       },
       "buttons": {
+        "addToDataClip": {
+          "modal": {
+            "cancelButton": "Cancelar",
+            "confirmButton": "Agregar registros",
+            "description": {
+              "infix": "seleccionado",
+              "infixType": {
+                "invalid": "inválido",
+                "valid": "válido"
+              },
+              "prefix": "¿Le gustaría agregar ",
+              "suffix_one": "el registro a la tabla de datos?",
+              "suffix_other": "¿registros al fragmento de datos?",
+              "suffix_zero": "los registros a la tabla de datos?"
+            },
+            "errorMessage": "No se puede agregar registros al fragmento de datos. Por favor, intente de nuevo o modifique su selección.",
+            "heading_one": "Agregar registro al fragmento de datos",
+            "heading_other": "Agregar registros al fragmento de datos",
+            "heading_zero": "Agregar registros al fragmento de datos",
+            "inProgress": "Agregando registros..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} registro agregado al fragmento de datos",
+            "successMessage_other": "{{count}} registros agregados al fragmento de datos",
+            "successMessage_zero": "{{count}} registros agregados al fragmento de datos",
+            "successMessageNoCount": "Registros agregados al fragmento de datos"
+          },
+          "tooltip": {
+            "active": "Agregar registros seleccionados al fragmento de datos",
+            "disabled": {
+              "deleteDisabled": "En esta hoja, está desactivado agregar registros a los fragmentos de datos.",
+              "noRecordsSelected": "Seleccione al menos un registro para agregarlo a un fragmento de datos."
+            }
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Cancelar",
@@ -986,6 +1353,66 @@
             },
             "disabled": "No hay registros para descargar"
           }
+        },
+        "markForDeletion": {
+          "modal": {
+            "cancelButton": "Cancelar",
+            "confirmButton": "Eliminar registros",
+            "description": {
+              "infix": "seleccionado",
+              "infixType": {
+                "invalid": "inválido",
+                "valid": "válido"
+              },
+              "prefix": "¿Le gustaría eliminar",
+              "suffix_one": "el registro? Hacerlo también eliminará los registros de la hoja fuente al fusionar la tabla de datos.",
+              "suffix_other": "registros? Hacerlo también eliminará los registros de la hoja fuente al fusionar la tabla de datos.",
+              "suffix_zero": "los registros? Hacerlo también eliminará los registros de la hoja fuente al fusionar la tabla de datos."
+            },
+            "errorMessage": "No se pudo eliminar los registros. Por favor, inténtelo de nuevo o modifique su selección.",
+            "heading_one": "Eliminar registro",
+            "heading_other": "Eliminar registros",
+            "heading_zero": "Eliminar registros",
+            "inProgress": "Eliminando registros..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} registro eliminado",
+            "successMessage_other": "{{count}} registros eliminados",
+            "successMessage_zero": "{{count}} registros eliminados",
+            "successMessageNoCount": "Registros eliminados"
+          }
+        },
+        "restore": {
+          "modal": {
+            "cancelButton": "Cancelar",
+            "confirmButton": "Restaurar registros eliminados",
+            "description": {
+              "infix": "seleccionado",
+              "infixType": {
+                "invalid": "inválido",
+                "valid": "válido"
+              },
+              "prefix": "¿Le gustaría restaurar los registros previamente marcados para eliminación en esta selección?"
+            },
+            "errorMessage": "No se pudo agregar restaurar registros. Por favor, inténtelo de nuevo o modifique su selección.",
+            "heading_one": "Restaurar registro",
+            "heading_other": "Restaurar registros",
+            "heading_zero": "Restaurar registros",
+            "inProgress": "Restaurando registros..."
+          },
+          "popover": {
+            "successMessage_one": "Los registros previamente marcados para ser eliminados han sido restaurados.",
+            "successMessage_other": "Los registros previamente marcados para ser eliminados han sido restaurados.",
+            "successMessage_zero": "Los registros previamente marcados para ser eliminados han sido restaurados.",
+            "successMessageNoCount": "Los registros previamente marcados para ser eliminados han sido restaurados."
+          },
+          "tooltip": {
+            "active": "Restaurar registros previamente marcados para ser eliminados dentro de la selección.",
+            "disabled": {
+              "deleteDisabled": "Restaurar registros está deshabilitado en esta hoja.",
+              "noRecordsSelected": "Seleccione al menos un registro para restaurarlo"
+            }
+          }
         }
       },
       "customActionsDropdown": {
@@ -996,9 +1423,37 @@
           "requireSelection": "Seleccione uno o varios registros para utilizar esta acción"
         }
       },
+      "dataClips": {
+        "actions": {
+          "create": "Crear fragmento de datos"
+        },
+        "buttonText": "Recortar datos",
+        "errors_one": "{{count}} error",
+        "errors_other": "{{count}} errores",
+        "errors_zero": "{{count}} errores",
+        "modal": {
+          "cancel": "Cancelar",
+          "share": "Compartir"
+        },
+        "placeholders": {
+          "description": "Agregar un comentario (opcional)..."
+        },
+        "promise": "Envío seguro y protegido",
+        "selectedRecords_one": "{{count}} registro",
+        "selectedRecords_other": "{{count}} registros",
+        "selectedRecords_zero": "{{count}} registros",
+        "syncedRecords_one": "{{count}} registro sincronizado",
+        "syncedRecords_other": "{{count}} registros sincronizados",
+        "syncedRecords_zero": "{{count}} registros sincronizados",
+        "titles": {
+          "review": "Revisar",
+          "share": "Compartir recortes de datos"
+        }
+      },
       "dropdown": {
         "delete": "Eliminar",
-        "download": "Descargar"
+        "download": "Descargar",
+        "restore": "Restaurar"
       },
       "filterByError": {
         "buttonText": "Filtrar por error",
@@ -1030,6 +1485,10 @@
       "moreActions": {
         "buttonText": "Más acciones",
         "placeholder": "Buscar o seleccionar..."
+      },
+      "restore": {
+        "label": "Restaurar registros",
+        "tooltip": "Restaurar registros previamente marcados para su eliminación."
       },
       "savedViews": {
         "buttonText": "Vistas",
@@ -1103,8 +1562,14 @@
     }
   },
   "sidebar": {
+    "activityLogs": "Registros de actividad",
     "addConnection": "Agregar conexión",
     "checklist": "Lista de control de datos",
+    "collapse": {
+      "documents": "Documentos",
+      "workbook": "Libro de trabajo",
+      "workbooks": "Libros de trabajo"
+    },
     "connections": {
       "tooltips": {
         "connectionError": "Hay un problema al verificar los metadatos de las conexiones de este libro",
@@ -1113,9 +1578,19 @@
       }
     },
     "emptyWorkbook": "Libro de trabajo vacío",
+    "errorIconTooltip": "Esta hoja contiene errores",
     "files": "Archivos",
+    "footer": {
+      "backToDashboard": "Regresar al panel de control",
+      "logout": "Cerrar sesión"
+    },
     "lockedIconTooltip": "Esta hoja está bloqueada",
+    "manageGuests": "Gestionar invitados",
+    "pill": {
+      "admin": "Admin"
+    },
     "readOnlyIconTooltip": "Esta hoja es de solo lectura",
+    "secrets": "Secretos",
     "spaceSwitcher": {
       "placeholder": "Buscar o seleccionar un espacio..."
     },
@@ -1197,6 +1672,7 @@
         "current": "Valor actual: {{value}}",
         "empty": "sin datos",
         "none": "Su conjunto de datos serán modificados a los valores mostrados.",
+        "requiresDecision": "Este valor requiere una decisión antes de poder modificar el conjunto de datos.",
         "restore": "Su conjunto de datos será restaurado a la versión de esta instantánea.",
         "snapshot": "Nuevo valor: {{value}}"
       }
@@ -1428,6 +1904,7 @@
       "empty": "Las versiones, una vez generadas, aparecerán aquí. Las versiones se generan automáticamente, a menudo cuando se realiza una transformación masiva de datos.",
       "generatedSnapshot": "Captura generada antes de aplicar AI Transform a la solicitud: ",
       "generatedSnapshotForAiTransform": "Captura generada antes de aplicar AI Transform a la solicitud: ",
+      "generatedSnapshotForBulkAddToDataClip": "Instantánea generada antes de agregar registros al fragmento de datos",
       "generatedSnapshotForBulkDelete": "Instantánea generada antes de borrar los registros",
       "generatedSnapshotForFindReplace": "Instantánea generada antes de aplicar Buscar y reemplazar",
       "heading": "Historia de la versión",

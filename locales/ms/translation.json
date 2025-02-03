@@ -3,8 +3,8 @@
     "changedColumnsText_other": "{{count}} lajur dengan data yang diubah",
     "changedColumnsText_zero": "{{count}} lajur dengan data yang telah diubah",
     "errors": {
-      "entilementError": {
-        "content": "Jika anda rasa perkara ini satu ralat, sila hubungi sokongan pelanggan.",
+      "entitlementError": {
+        "content": "Jika anda rasakan ini satu ralat, sila hubungi sokongan pelanggan.",
         "title": "Maaf! Anda tidak mempunyai akses kepada ciri ini."
       },
       "generalError": {
@@ -179,16 +179,241 @@
   "comments": {
     "addReaction": "Tambah reaksi",
     "commentDisabledTooltip": "Pilih sel atau baris untuk menambah komen baru",
+    "comments": "Komen",
     "delete": "Padam komen",
     "edit": "Edit komen",
     "edited": " (diedit)",
+    "hidden": "disembunyikan oleh penapis...",
+    "noResolvedThreads": "Tiada rajutan yang telah diselesaikan lagi",
     "noResults": "Tiada padanan",
+    "noUpdates": "Tiada kemaskinian",
     "placeholder": "Tambah komen anda di sini...",
     "reactionList": "<0></0> memberikan reaksi dengan {{emoji}}",
+    "reopen": "Buka semula rajutan",
+    "repliesCount_other": "{{count}} lebih banyak jawapan",
+    "repliesCount_zero": "{{count}} lebih banyak jawapan",
     "resolve": "Selesaikan bebenang",
+    "resolved": "Diselesaikan",
+    "row": "Baris {{row}}",
+    "rowAndColumn": "Baris {{row}}, {{column}}",
     "send": "Kirim komen",
     "threadPlaceholder": "Balas atau sebut orang lain dengan @...",
+    "updates": "Kemaskinian",
+    "updatesError": "Ralat berlaku semasa memuatkan kemaskinian",
+    "userCommented": "<user>{{user}}</user> memberikan komen pada <identifier>{{identifier}}</identifier>",
+    "userReacted": "<0></0> memberikan reaksi terhadap komen anda",
     "you": "Anda"
+  },
+  "common": {
+    "cancel": "Batal",
+    "lastWeek": "Minggu Lepas",
+    "name": "Nama",
+    "older": "Lebih lama",
+    "thisWeek": "Minggu Ini",
+    "today": "Hari ini",
+    "yesterday": "Semalam"
+  },
+  "dataClips": {
+    "actions": {
+      "add_to_clip": "Tambahkan pilihan pada klip data",
+      "buttons": {
+        "back": "Kembali",
+        "conflicts": "Selesaikan konflik",
+        "review": "Semak perubahan",
+        "share": "Kongsikan",
+        "submit_for_review": "Serahkan untuk semakan",
+        "view": "Lihat klip data"
+      },
+      "create": "Cipta klip data",
+      "library": "Pergi ke perpustakaan klip data",
+      "sheet_list": "Lihat klip data lembaran",
+      "tooltip": {
+        "conflicts": "Sila selesaikan konflik sebelum menggabungkan.",
+        "no_changes": "Buat sekurang-kurangnya satu perubahan untuk menggabungkan.",
+        "no_data_clips": "Buat klip data untuk ditambahkan.",
+        "none_selected": {
+          "add_to_clip": "Pilih sekurang-kurangnya satu rekod untuk ditambahkan pada klip data.",
+          "create": "Pilih sekurang-kurangnya satu rekod untuk mencipta klip data."
+        },
+        "review": "Tiada perubahan telah dibuat pada klip data ini."
+      }
+    },
+    "buttonText": "Data klip",
+    "choose_action": "Pilih tindakan:",
+    "clear": "kosongkan",
+    "collaborators": "Rakan usaha sama",
+    "confirmation": {
+      "delete": {
+        "cancel": "Batal",
+        "description": "Ini akan memadamkan klip data ini secara kekal daripada pustaka anda.",
+        "submit": "Padam",
+        "title": "Padam"
+      },
+      "ready": {
+        "cancel": "Batal",
+        "description": "Perubahan anda akan dihantar untuk semakan.",
+        "submit": "Serahkan",
+        "title": "Serahkan untuk semakan"
+      }
+    },
+    "conflictResolution": {
+      "applyAll": "Gunakan pada semua?",
+      "change_description": "1 rekod dalam medan \"{{fieldName}}\" akan diubah.",
+      "columnTotal": "Jumlah lajur:",
+      "description": "Terdapat perubahan dalam kedua-dua lembaran sumber dan klip data. Pilih mana-mana yang anda mahu simpan.",
+      "empty": {
+        "description": "Sedia untuk semakan",
+        "status": "Selesai",
+        "title": "Tiada konflik"
+      },
+      "row": "Baris",
+      "title": "Pilih perubahan yang hendak digabungkan"
+    },
+    "created_by": "Dicipta oleh",
+    "detailsModal": {
+      "create": {
+        "action": "Cipta",
+        "title": "Cipta klip data"
+      },
+      "edit": {
+        "action": "Serahkan",
+        "title": "Edit klip data"
+      },
+      "placeholder": "Tambahkan komen (pilihan)...",
+      "review": "Semak"
+    },
+    "empty": "Tiada klip data untuk dipaparkan",
+    "error": "Tidak dapat memuatkan klip data untuk ruang ini",
+    "errors_other": "{{count}} ralat",
+    "errors_zero": "{{count}} ralat",
+    "errors": {
+      "add_records_create": "Terdapat ralat yang tidak dijangka semasa menambahkan rekod anda pada klip data. Klip data kosong telah dicipta.",
+      "add_to_clip": "Terdapat ralat yang tidak dijangka semasa menambahkan rekod anda pada klip data, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan.",
+      "bulk_resolve_all_conflicts": "Terdapat ralat yang tidak dijangka semasa menyelesaikan konflik, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan",
+      "create": "Terdapat ralat yang tidak dijangka semasa mencipta klip data anda, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan.",
+      "delete": "Kami tidak dapat memadamkan klip data, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan",
+      "diff_view": "Terdapat ralat yang tidak dijangka semasa memuatkan paparan berbeza klip data, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan",
+      "edit": "Terdapat ralat yang tidak dijangka semasa mengedit klip data anda, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan.",
+      "link_copy": "Terdapat ralat yang tidak dijangka semasa menyalin pautan, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan",
+      "list": "Terdapat ralat yang tidak dijangka semasa memuatkan pustaka klip data, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan",
+      "mark_as_ready": "Kami tidak dapat menandakan klip data sebagai sedia untuk digabungkan, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan",
+      "mark_for_review": "Klip data anda gagal diserahkan untuk semakan, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan",
+      "mark_merged": "Klip data anda gagal digabungkan, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan",
+      "mark_open": "Kami tidak dapat membuka semula klip data, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan"
+    },
+    "filter": "Tapis",
+    "library": {
+      "actions": {
+        "delete": "Padam",
+        "edit": "Lihat",
+        "edit_details": "Edit butiran"
+      },
+      "create": "Cipta klip data",
+      "guest_search": "Cari mengikut klip data, atau nama lembaran",
+      "headers": {
+        "creator": "Pencipta",
+        "name": "Nama",
+        "records": "Rekod",
+        "sheet": "Lembaran sumber",
+        "status": "Status",
+        "updated_at": "Terakhir diedit"
+      },
+      "search": "Cari mengikut klip data, lembaran, atau nama pencipta",
+      "source_name": "Helaian Sumber: ",
+      "title": "Perpustakaan klip data"
+    },
+    "merge": "Gabungkan perubahan",
+    "modal": {
+      "cancel": "Batal",
+      "share": "Cipta"
+    },
+    "newConflicts": {
+      "close": "Tutup",
+      "description": "Konflik baharu telah diperkenalkan semasa menyemak klip data ini.",
+      "submit": "Selesaikan konflik",
+      "title": "Konflik baharu ditemui"
+    },
+    "next": "Seterusnya",
+    "promise": "Penghantaran selamat & terjamin",
+    "resend": "Buka semula dan kembali",
+    "resolutions": {
+      "applyAll": {
+        "button": "Gunakan",
+        "description_other": "Adakah anda mahu menggunakan '{{resolveTo}}' sebagai pilihan anda untuk konflik yang berbaki dalam lajur '{{columnLabel}}'? {{count}} rekod akan dikemaskinikan.",
+        "description_zero": "Adakah anda mahu menggunakan '{{resolveTo}}' sebagai pilihan anda untuk konflik yang berbaki dalam lajur '{{columnLabel}}'? {{count}} rekod akan dikemaskinikan."
+      },
+      "cancel": "Simpan & keluar",
+      "complete": "Selesai",
+      "conflicts_found": {
+        "button_other": "{{count}} konflik",
+        "button_zero": "{{count}} konflik",
+        "clip_override": {
+          "description": "Tindakan ini tidak akan mengubah apa-apa dalam lembaran sumber dan perubahan klip data yang mempunyai konflik akan dibuang.",
+          "title": "Tolak nilai daripada klip data"
+        },
+        "options_title": "Pilih tindakan",
+        "resolve_conflicts": {
+          "description": "Tindakan ini membolehkan anda menyemak setiap konflik dalam klip data dan membuat keputusan nilai yang hendak digabungkan atau diabaikan.",
+          "title": "Buat perubahan secara individu"
+        },
+        "source_override": {
+          "description": "Tindakan ini akan mengemaskinikan semua nilai yang mempunyai konflik agar sepadan dengan klip data pada gabungan.",
+          "title": "Terima nilai daripada klip data"
+        },
+        "title": "Konflik ditemui"
+      },
+      "empty": {
+        "button": "Kembali ke klip",
+        "description": "Buat sekurang-kurangnya satu perubahan untuk menggabungkan.",
+        "title": "Tiada perubahan telah dikesan dalam klip data ini."
+      },
+      "merge": "Gabungkan"
+    },
+    "selectedRecords_other": "{{count}} rekod dipilih",
+    "selectedRecords_zero": "{{count}} rekod dipilih",
+    "share": {
+      "copy_link": "Salin pautan",
+      "description": "Kolaborator akan dihantar jemputan untuk bekerjasama pada klip data ini.",
+      "empty": "Tiada kolaborator yang tersedia.",
+      "none_selected": "Tiada kolaborator yang dipilih.",
+      "placeholder": "Tambahkan kolaborator...",
+      "submit": "Kongsikan",
+      "title": "Kongsikan klip data"
+    },
+    "sort": "isih",
+    "status": {
+      "all": "Lihat semua",
+      "merged": "Digabungkan",
+      "open": "Buka",
+      "ready": "Sedia untuk semakan",
+      "title": "Status"
+    },
+    "success": {
+      "add_records": "Rekod berjaya ditambahkan.",
+      "create": "Klip data anda telah berjaya dicipta.",
+      "delete": "Klip data anda telah berjaya dipadamkan.",
+      "edit": "Edit telah berjaya disimpan.",
+      "link_copy": "Pautan berjaya disalin!",
+      "mark_as_ready": "Klip data anda telah berjaya diserahkan untuk semakan. Pemilik klip telah diberitahu.",
+      "mark_merged": "Klip data anda telah berjaya digabungkan.",
+      "mark_open": "Klip data berjaya dibuka semula dan dikembalikan!",
+      "modal": {
+        "create": {
+          "button": "Lihat klip data",
+          "close": "Tutup",
+          "description": "Kini anda boleh melihat klip data baharu.",
+          "title": "Klip data anda telah dicipta"
+        },
+        "ready": {
+          "close": "Tutup",
+          "description": "Perubahan anda telah diserahkan untuk semakan. Kami akan memberitahu anda dengan apa-apa nota atau perubahan dalam status.",
+          "submit": "Kembali ke klip data",
+          "title": "Perubahan berjaya diserahkan!"
+        }
+      }
+    },
+    "syncedRecords_other": "{{count}} jumlah rekod",
+    "syncedRecords_zero": "{{count}} jumlah rekod"
   },
   "document": {
     "error": {
@@ -197,6 +422,7 @@
     }
   },
   "errors": {
+    "accessDenied": "Akses ditolak",
     "documentNotFound": "Dokumen tidak ditemui",
     "fileNotFound": "Fail tidak ditemui",
     "missingParameter": "Parameter tidak disediakan",
@@ -206,6 +432,7 @@
     "refreshPageDescription": "Segar semula halaman untuk mencuba semula. Jika masalah berlanjutan, hubungi bahagian sokongan.",
     "returnToDashboardButton": "Kembali ke Papan Pemuka",
     "sessionExpired": "Sesi telah tamat tempoh",
+    "sessionExpiredDescription": "Akses kepada sesi semasa telah tamat tempoh.",
     "sheetNotFound": "Lembaran tidak ditemui",
     "spaceNotFound": "Ruang tidak ditemui",
     "unauthorized": "Butiran akses anda tidak sah.",
@@ -318,6 +545,15 @@
       "heading": "Semak peti masuk anda"
     }
   },
+  "helpCenter": {
+    "panel": {
+      "empty": "Panduan untuk ruang ini akan tersedia di sini jika dikonfigurasikan.",
+      "heading": "Pusat Bantuan"
+    },
+    "pill": {
+      "hoverText": "Pusat Bantuan"
+    }
+  },
   "host": {
     "modals": {
       "closeModal": {
@@ -392,6 +628,9 @@
     },
     "messages": {
       "startingJob": "Memulakan kerja"
+    },
+    "noListener": {
+      "learnMore": "Ketahui lebih lanjut"
     },
     "panel": {
       "action": {
@@ -514,6 +753,56 @@
       }
     }
   },
+  "manageUsers": {
+    "accessLink": {
+      "callout": "Pautan ini sah selama 24 jam. Siapa-siapa sahaja yang mempunyai pautan boleh mengakses Space dan memuat naik, mengedit, dan sebaliknya mengurus data.",
+      "title": "Akses pautan"
+    },
+    "actions": {
+      "copyLink": "Salin pautan Space",
+      "invite": "Hantarkan jemputan",
+      "resendInvite": "Hantarkan semula jemputan",
+      "revoke": "Batalkan akses"
+    },
+    "edit": {
+      "cancelButton": "Batal",
+      "description": "Mengalih keluar semua workbook daripada akaun pengguna akan mengalih keluar pengguna itu daripada ruang.",
+      "error": "Ralat semasa mengambil workbook",
+      "loading": "Memuatkan kebenaran edit...",
+      "saveButton": "Simpan",
+      "title": "Edit akses workbook untuk"
+    },
+    "empty": "Tiada tetamu untuk dipamerkan",
+    "error": {
+      "title": "Tidak dapat memuatkan pengguna untuk ruang ini"
+    },
+    "guest": {
+      "message": "Hanya pentadbir boleh mengurus tetamu. Jika anda rasakan bahawa perkara ini ralat, sila hubungi sokongan.",
+      "title": "Anda tidak mempunyai kebenaran untuk melihat halaman ini"
+    },
+    "invite": {
+      "cancelButton": "Batal",
+      "form": {
+        "collaborate": {
+          "label": "Dengan siapakan anda mahu bekerjasama?",
+          "placeholder": "Jemput melalui e-mel, dipisahkan koma"
+        },
+        "message": {
+          "label": "Mesej",
+          "placeholder": "Mari bekerjasama!"
+        }
+      },
+      "sendInvite": "Hantarkan jemputan",
+      "title": "Jemput tetamu"
+    },
+    "manageGuests": "Urus Tetamu",
+    "revoke": {
+      "cancelButton": "Batal",
+      "confirmButton": "Sahkan",
+      "removing": "Mengalih keluar...",
+      "title": "Batalkan akses"
+    }
+  },
   "mapping": {
     "clearFields": {
       "modalHeader": "Kosongkan Medan Destinasi",
@@ -632,6 +921,18 @@
     }
   },
   "plugins": {
+    "extraction": {
+      "addingRecords": "Menambahkan rekod pada Sheets",
+      "createWorkbook": "Mencipta workbook",
+      "createWorkbookError": "Gagal mencipta workbook. Lihat Log Peristiwa.",
+      "extractedFile": "Fail yang diekstrak",
+      "extractionFailed": "Pengekstrakan gagal. Cuba lagi atau hubungi Sokongan.",
+      "failedToParseWorkbook": "Gagal menghuraikan workbook.",
+      "fileTooLarge": "Fail terlalu besar untuk dihuraikan. Cuba tukar fail ini kepada CSV.",
+      "noSheets": "Tiada lembaran ditemui",
+      "parseSheets": "Menghuraikan lembaran",
+      "retrieveFile": "Mendapatkan semula fail"
+    },
     "viewMapped": {
       "almostDone": "Hampir selesai...",
       "complete": "Kemas kini jadual selesai. Sila audit data",
@@ -639,6 +940,31 @@
       "halfway": "Hampir selesai, tunggu sebentar...",
       "updatingTable": "Mengemas kini jadual untuk melihat medan yang dipetakan sahaja"
     }
+  },
+  "secrets": {
+    "create": "Cipta Rahsia",
+    "delete": "Padamkan Rahsia",
+    "edit": "Edit Rahsia",
+    "envSecrets": "Rahsia Persekitaran",
+    "errors": {
+      "couldNotGetSecrets": "Tidak dapat mendapatkan rahsia, sila cuba muat semula halaman ini.",
+      "keyAlreadyExists": "Rahsia dengan kunci ini sudah wujud",
+      "keyCannotBeEmpty": "Kunci tidak boleh kosong",
+      "keyInvalid": "Nama rahsia mestilah hanya mengandungi aksara alfanumerik dan garis bawah"
+    },
+    "failureAdd": "Gagal menambah rahsia {{name}}",
+    "failureEdit": "Gagal mengedit rahsia {{name}}",
+    "keyPlaceholder": "Masukkan kunci…",
+    "noSecrets": "Tiada rahsia tahap persekitaran. Tambahkan rahsia <hyperlink>di sini</hyperlink>.",
+    "noSpaceSecrets": "Tiada rahsia tahap ruang lagi, klik pada ikon tambah untuk menambahkan rahsia.",
+    "noUserSecrets": "Tiada rahsia tahap pengguna lagi, klik pada ikon tambah untuk menambahkan rahsia.",
+    "spaceSecrets": "Rahsia Ruang",
+    "successfulAdd": "Berjaya menambahkan rahsia {{name}}",
+    "successfulEdit": "Berjaya mengedit rahsia {{name}}",
+    "userDescription": "Rahsia peringkat pengguna akan mengatasi rahsia tahap ruang.",
+    "userSecrets": "Rahsia Pengguna",
+    "value": "Nilai Rahsia",
+    "valuePlaceholder": "Masukkan nilai…"
   },
   "sheet": {
     "columnManagement": {
@@ -900,6 +1226,38 @@
         "transform": "Ubah"
       },
       "buttons": {
+        "addToDataClip": {
+          "modal": {
+            "cancelButton": "Batal",
+            "confirmButton": "Tambahkan rekod",
+            "description": {
+              "infix": "dipilih",
+              "infixType": {
+                "invalid": "tidak sah",
+                "valid": "sah"
+              },
+              "prefix": "Adakah anda ingin menambahkan ",
+              "suffix_other": "rekod pada klip data?",
+              "suffix_zero": "rekod pada klip data?"
+            },
+            "errorMessage": "Tidak dapat menambah rekod pada klip data. Sila cuba lagi atau ubah suai pilihan anda.",
+            "heading_other": "Tambahkan Rekod Pada Klip Data",
+            "heading_zero": "Tambahkan Rekod Pada Klip Data",
+            "inProgress": "Menambahkan rekod..."
+          },
+          "popover": {
+            "successMessage_other": "{{count}} rekod ditambahkan pada klip data",
+            "successMessage_zero": "{{count}} rekod ditambahkan pada klip data",
+            "successMessageNoCount": "Rekod ditambahkan pada klip data"
+          },
+          "tooltip": {
+            "active": "Tambahkan rekod yang dipilih pada klip data",
+            "disabled": {
+              "deleteDisabled": "Menambah rekod pada klip data dilumpuhkan dalam Sheet ini.",
+              "noRecordsSelected": "Pilih sekurang-kurangnya satu rekod untuk menambahkannya pada klip data"
+            }
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Batalkan",
@@ -960,6 +1318,61 @@
             },
             "disabled": "Tiada rekod untuk dimuat turun"
           }
+        },
+        "markForDeletion": {
+          "modal": {
+            "cancelButton": "Batal",
+            "confirmButton": "Padamkan rekod",
+            "description": {
+              "infix": "dipilih",
+              "infixType": {
+                "invalid": "tidak sah",
+                "valid": "sah"
+              },
+              "prefix": "Adakah anda ingin memadamkan",
+              "suffix_other": "rekod? Melakukan sedemikian juga akan mengalih keluar rekod daripada lembaran sumber apabila klip data digabungkan.",
+              "suffix_zero": "rekod? Melakukan sedemikian juga akan mengalih keluar rekod daripada lembaran sumber apabila klip data digabungkan."
+            },
+            "errorMessage": "Tidak dapat memadamkan rekod. Sila cuba lagi atau ubah suai pilihan anda.",
+            "heading_other": "Padamkan Rekod",
+            "heading_zero": "Padamkan Rekod",
+            "inProgress": "Memadamkan rekod..."
+          },
+          "popover": {
+            "successMessage_other": "{{count}} rekod dipadamkan",
+            "successMessage_zero": "{{count}} rekod dipadamkan",
+            "successMessageNoCount": "Rekod dipadamkan"
+          }
+        },
+        "restore": {
+          "modal": {
+            "cancelButton": "Batal",
+            "confirmButton": "Pulihkan semula rekod yang dipadam",
+            "description": {
+              "infix": "dipilih",
+              "infixType": {
+                "invalid": "tidak sah",
+                "valid": "sah"
+              },
+              "prefix": "Adakah anda ingin memulihkan semula rekod yang ditandakan sebelum ini untuk pemadaman dalam pilihan ini?"
+            },
+            "errorMessage": "Tidak dapat menambahkan rekod pemulihan semula. Sila cuba lagi atau ubah suai pilihan anda.",
+            "heading_other": "Pulihkan Semula Rekod",
+            "heading_zero": "Pulihkan Semula Rekod",
+            "inProgress": "Memulihkan semula rekod..."
+          },
+          "popover": {
+            "successMessage_other": "Rekod yang ditandakan sebelum ini untuk pemadaman telah dipulihkan semula.",
+            "successMessage_zero": "Rekod yang ditandakan sebelum ini untuk pemadaman telah dipulihkan semula.",
+            "successMessageNoCount": "Rekod yang ditandakan sebelum ini untuk pemadaman telah dipulihkan semula."
+          },
+          "tooltip": {
+            "active": "Pulihkan semula rekod yang ditandakan sebelum ini untuk pemadaman dalam pemilihan.",
+            "disabled": {
+              "deleteDisabled": "Pemulihan semula rekod dilumpuhkan dalam Sheet ini.",
+              "noRecordsSelected": "Pilih sekurang-kurangnya satu rekod untuk memulihkannya semula"
+            }
+          }
         }
       },
       "customActionsDropdown": {
@@ -970,9 +1383,34 @@
           "requireSelection": "Sila pilih satu atau lebih rekod untuk menggunakan tindakan ini"
         }
       },
+      "dataClips": {
+        "actions": {
+          "create": "Cipta klip data"
+        },
+        "buttonText": "Klip Data",
+        "errors_other": "{{count}} ralat",
+        "errors_zero": "{{count}} ralat",
+        "modal": {
+          "cancel": "Batal",
+          "share": "Kongsikan"
+        },
+        "placeholders": {
+          "description": "Tambahkan komen (pilihan)..."
+        },
+        "promise": "Penghantaran selamat & terjamin",
+        "selectedRecords_other": "{{count}} rekod",
+        "selectedRecords_zero": "{{count}} rekod",
+        "syncedRecords_other": "{{count}} rekod yang disegerakkan",
+        "syncedRecords_zero": "{{count}} rekod yang disegerakkan",
+        "titles": {
+          "review": "Semak",
+          "share": "Kongsikan Klip Data"
+        }
+      },
       "dropdown": {
         "delete": "Padam",
-        "download": "Muat turun"
+        "download": "Muat turun",
+        "restore": "Pulihkan semula"
       },
       "filterByError": {
         "buttonText": "Tapis mengikut ralat",
@@ -1004,6 +1442,10 @@
       "moreActions": {
         "buttonText": "Lebih banyak tindakan",
         "placeholder": "Cari atau pilih..."
+      },
+      "restore": {
+        "label": "Pulihkan semula rekod",
+        "tooltip": "Pulihkan semula rekod yang ditandakan sebelum ini untuk pemadaman."
       },
       "savedViews": {
         "buttonText": "Paparan",
@@ -1077,8 +1519,14 @@
     }
   },
   "sidebar": {
+    "activityLogs": "Log aktiviti",
     "addConnection": "Tambahkan Sambungan",
     "checklist": "Senarai semak data",
+    "collapse": {
+      "documents": "Dokumen",
+      "workbook": "Buku Kerja",
+      "workbooks": "Buku Kerja"
+    },
     "connections": {
       "tooltips": {
         "connectionError": "Terdapat isu mengesahkan metadata sambungan buku kerja ini",
@@ -1087,9 +1535,19 @@
       }
     },
     "emptyWorkbook": "Buku kerja kosong",
+    "errorIconTooltip": "Sheet ini mengandungi ralat",
     "files": "Fail",
+    "footer": {
+      "backToDashboard": "Kembali ke papan pemuka",
+      "logout": "Log keluar"
+    },
     "lockedIconTooltip": "Helaian ini dikunci",
+    "manageGuests": "Urus tetamu",
+    "pill": {
+      "admin": "Pentadbir"
+    },
     "readOnlyIconTooltip": "Helaian ini bersifat baca sahaja",
+    "secrets": "Rahsia",
     "spaceSwitcher": {
       "placeholder": "Cari atau lilih Space"
     },
@@ -1171,6 +1629,7 @@
         "current": "Nilai semasa: {{value}}",
         "empty": "tiada data",
         "none": "Set data anda akan diubah suai kepada nilai yang ditunjukkan.",
+        "requiresDecision": "Nilai ini memerlukan keputusan sebelum anda boleh mengubah suai set data anda.",
         "restore": "Set data anda akan dipulihkan semula kepada versi dalam syot kilat ini.",
         "snapshot": "Nilai baharu: {{value}}"
       }
@@ -1402,6 +1861,7 @@
       "empty": "Setelah versi dijana, ia akan muncul di sini. Versi akan dijana secara automatik, biasanya apabila transformasi pukal data berlaku.",
       "generatedSnapshot": "Salinan segera yang dijana sebelum mengenakan Tranformasi AI untuk penggesa: ",
       "generatedSnapshotForAiTransform": "Salinan segera yang dijana sebelum mengenakan Tranformasi AI untuk penggesa: ",
+      "generatedSnapshotForBulkAddToDataClip": "Syot kilat dijana sebelum menambah rekod pada klip data",
       "generatedSnapshotForBulkDelete": "Salinan segera yang dijana sebelum memadamkam rekod",
       "generatedSnapshotForFindReplace": "Salinan segera yang dijana sebelum mengenakan Cari dan Ganti",
       "heading": "Sejarah Versi",

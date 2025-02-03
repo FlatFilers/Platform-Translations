@@ -3,9 +3,9 @@
     "changedColumnsText_other": "{{count}}列のデータ変更列",
     "changedColumnsText_zero": "{{count}}列のデータ変更列",
     "errors": {
-      "entilementError": {
-        "content": "誤りがあると思われる場合は、カスタマーサポートにお問い合わせください。",
-        "title": "残念ながら、この機能にはアクセスできません。"
+      "entitlementError": {
+        "content": "これが誤りであると思われる場合は、カスタマーサポートまでご連絡ください。",
+        "title": "申し訳ありません！この機能はご利用になれません。"
       },
       "generalError": {
         "title": "何らかの問題が発生しました。もう一度試してください。"
@@ -180,16 +180,241 @@
   "comments": {
     "addReaction": "反応を追加",
     "commentDisabledTooltip": "コメントを追加するには、セルまたは行を選択してください",
+    "comments": "コメント",
     "delete": "コメントを削除",
     "edit": "コメントを編集",
     "edited": " （編集済み）",
+    "hidden": "フィルターにより非表示...",
+    "noResolvedThreads": "まだ解決されたスレッドがありません",
     "noResults": "一致なし",
+    "noUpdates": "最新情報なし",
     "placeholder": "ここにコメントを追加してください…",
     "reactionList": "<0></0>が{{emoji}}で反応しました",
+    "reopen": "スレッドを再オープン",
+    "repliesCount_other": "{{count}}件以上の返信",
+    "repliesCount_zero": "{{count}}件以上の返信",
     "resolve": "スレッドを解決",
+    "resolved": "解決済み",
+    "row": "行{{row}}",
+    "rowAndColumn": "行{{row}}、{{column}}",
     "send": "コメントを送信する",
     "threadPlaceholder": "@ で返信または他のユーザーをメンションしてください…",
+    "updates": "最新情報",
+    "updatesError": "最新情報を読み込み中にエラーが発生しました",
+    "userCommented": "<user>{{user}}</user>が<identifier>{{identifier}}</identifier>に関してコメントしました",
+    "userReacted": "<0></0> あなたのコメントに反応しました",
     "you": "あなた"
+  },
+  "common": {
+    "cancel": "キャンセル",
+    "lastWeek": "先週",
+    "name": "名",
+    "older": "より古い",
+    "thisWeek": "今週",
+    "today": "今日",
+    "yesterday": "昨日"
+  },
+  "dataClips": {
+    "actions": {
+      "add_to_clip": "データクリップに選択内容を追加",
+      "buttons": {
+        "back": "戻る",
+        "conflicts": "競合を解決",
+        "review": "変更内容を確認",
+        "share": "共有",
+        "submit_for_review": "レビューに出す",
+        "view": "データクリップを表示"
+      },
+      "create": "データクリップを作成",
+      "library": "データクリップライブラリに移動",
+      "sheet_list": "シートのデータクリップを参照してください",
+      "tooltip": {
+        "conflicts": "マージする前に競合を解決してください。",
+        "no_changes": "結合するには、少なくとも1つの変更を加えてください。",
+        "no_data_clips": "追加するデータクリップを作成してください。",
+        "none_selected": {
+          "add_to_clip": "データクリップに追加するレコードを少なくとも1つ選択してください。",
+          "create": "データクリップを作成するには、少なくとも1つのレコードを選択します。"
+        },
+        "review": "このデータクリップには変更が加えられていません。"
+      }
+    },
+    "buttonText": "クリップデータ",
+    "choose_action": "アクションを選択：",
+    "clear": "クリア",
+    "collaborators": "共同作業者",
+    "confirmation": {
+      "delete": {
+        "cancel": "キャンセル",
+        "description": "これにより、このデータクリップはライブラリから永久に削除されます。",
+        "submit": "削除",
+        "title": "削除"
+      },
+      "ready": {
+        "cancel": "キャンセル",
+        "description": "変更内容はレビューに出されます。",
+        "submit": "提出",
+        "title": "レビューに出す"
+      }
+    },
+    "conflictResolution": {
+      "applyAll": "すべてに適用しますか?",
+      "change_description": "フィールド「{{fieldName}}」の1件の記録が変更されます。",
+      "columnTotal": "列の合計：",
+      "description": "ソースシートとデータクリップの両方に変更があります。どちらを維持するか選択してください。",
+      "empty": {
+        "description": "レビューの準備ができました",
+        "status": "完了",
+        "title": "競合なし"
+      },
+      "row": "行",
+      "title": "どの変更を結合するか選択"
+    },
+    "created_by": "作成者：",
+    "detailsModal": {
+      "create": {
+        "action": "作成",
+        "title": "データクリップを作成"
+      },
+      "edit": {
+        "action": "提出",
+        "title": "データクリップを編集"
+      },
+      "placeholder": "コメントを追加（オプション）...",
+      "review": "レビュー"
+    },
+    "empty": "表示するデータクリップがありません",
+    "error": "このスペースのデータクリップを読み込めません",
+    "errors_other": "{{count}}件のエラー",
+    "errors_zero": "{{count}}件のエラー",
+    "errors": {
+      "add_records_create": "レコードをデータクリップに追加中に予期せぬエラーが発生しました。 空のデータクリップが作成されました。",
+      "add_to_clip": "レコードをデータクリップに追加中に予期せぬエラーが発生しました。もう一度お試しください。問題が解決しない場合は、サポートまでご連絡ください。",
+      "bulk_resolve_all_conflicts": "競合の解決中に予期せぬエラーが発生しました。もう一度お試しください。問題が解決しない場合は、サポートまでご連絡ください。",
+      "create": "データクリップを作成中に予期せぬエラーが発生しました。もう一度お試しください。問題が解決しない場合は、サポートまでご連絡ください。",
+      "delete": "データクリップを削除できませんでした。もう一度お試しください。問題が解決しない場合は、サポートまでご連絡ください",
+      "diff_view": "データクリップの差分ビューを読み込み中に予期せぬエラーが発生しました。もう一度お試しください。問題が解決しない場合は、サポートまでご連絡ください",
+      "edit": "データクリップの編集中に予期せぬエラーが発生しました。もう一度お試しください。問題が解決しない場合は、サポートまでご連絡ください。",
+      "link_copy": "リンクのコピー中に予期せぬエラーが発生しました。問題が解決しない場合は、サポートまでご連絡ください。",
+      "list": "データクリップライブラリの読み込み中に予期せぬエラーが発生しました。もう一度お試しください。問題が解決しない場合は、サポートまでご連絡ください。",
+      "mark_as_ready": "データクリップを「統合準備完了」にマークできませんでした。もう一度お試しください。問題が解決しない場合は、サポートまでお問い合わせください",
+      "mark_for_review": "データクリップをレビューに出せませんでした。問題が解決しない場合は、サポートまでお問い合わせください。",
+      "mark_merged": "データクリップの統合に失敗しました。もう一度お試しください。問題が解決しない場合は、サポートまでご連絡ください",
+      "mark_open": "データクリップを再オープンできませんでした。もう一度お試しください。問題が解決しない場合は、サポートまでご連絡ください"
+    },
+    "filter": "フィルター",
+    "library": {
+      "actions": {
+        "delete": "削除",
+        "edit": "閲覧",
+        "edit_details": "詳細を編集"
+      },
+      "create": "データクリップを作成",
+      "guest_search": "データクリップまたはシート名で検索",
+      "headers": {
+        "creator": "クリエイター",
+        "name": "名",
+        "records": "レコード",
+        "sheet": "ソースシート",
+        "status": "状態",
+        "updated_at": "最終編集"
+      },
+      "search": "データクリップ、シート、または作成者名で検索",
+      "source_name": "ソースシート： ",
+      "title": "データクリップライブラリ"
+    },
+    "merge": "変更を統合",
+    "modal": {
+      "cancel": "キャンセル",
+      "share": "作成"
+    },
+    "newConflicts": {
+      "close": "閉じる",
+      "description": "このデータクリップを確認中に新しい競合が発生しました。",
+      "submit": "競合を解決",
+      "title": "新しい競合が見つかりました"
+    },
+    "next": "次へ",
+    "promise": "安全・確実に送信中",
+    "resend": "再オープンして戻る",
+    "resolutions": {
+      "applyAll": {
+        "button": "適用",
+        "description_other": "「{{columnLabel}}]」列の残りの競合に 「{{resolveTo}}」を適用しますか? {{count}}件の記録が更新されます。",
+        "description_zero": "「{{columnLabel}}]」列の残りの競合に 「{{resolveTo}}」を適用しますか? {{count}}件の記録が更新されます。"
+      },
+      "cancel": "保存して終了",
+      "complete": "完了",
+      "conflicts_found": {
+        "button_other": "{{count}} 個の競合値",
+        "button_zero": "{{count}} 個の競合値",
+        "clip_override": {
+          "description": "これにより、ソースシートは何も変更されず、競合するデータクリップの変更は破棄されます。",
+          "title": "データクリップから数値を受け取らない"
+        },
+        "options_title": "アクションを選択",
+        "resolve_conflicts": {
+          "description": "これにより、データクリップ内の各競合値を確認し、どの値を結合するか、または無視するかを決定できます。",
+          "title": "個別に変更"
+        },
+        "source_override": {
+          "description": "これにより、すべての競合値は結合時のデータクリップと一致するように更新されます。",
+          "title": "データクリップから数値を受け取る"
+        },
+        "title": "競合が見つかりました"
+      },
+      "empty": {
+        "button": "クリップに戻る",
+        "description": "結合するには、少なくとも1つの変更を加えてください。",
+        "title": "このデータクリップでは変更が検出されませんでした。"
+      },
+      "merge": "結合"
+    },
+    "selectedRecords_other": "{{count}}件のレコードが選択されました",
+    "selectedRecords_zero": "{{count}}件のレコードが選択されました",
+    "share": {
+      "copy_link": "リンクをコピー",
+      "description": "共同作業者に、このデータクリップで共同作業するための招待状が送信されます。",
+      "empty": "共同作業者がいません。",
+      "none_selected": "共同作業者が選択されていません。",
+      "placeholder": "共同作業者を追加...",
+      "submit": "共有",
+      "title": "データクリップを共有"
+    },
+    "sort": "ソート",
+    "status": {
+      "all": "全部見る",
+      "merged": "統合されました",
+      "open": "開く",
+      "ready": "レビューの準備ができました",
+      "title": "状態"
+    },
+    "success": {
+      "add_records": "レコードが正常に追加されました。",
+      "create": "データクリップが正常に作成されました。",
+      "delete": "データクリップが正常に削除されました。",
+      "edit": "編集が正常に保存されました。",
+      "link_copy": "リンクが正常にコピーされました。",
+      "mark_as_ready": "データクリップが正常にレビュー用に送信されました。クリップの所有者に通知しました。",
+      "mark_merged": "データクリップが正常に結合されました。",
+      "mark_open": "データクリップが正常に再開され、返されました。",
+      "modal": {
+        "create": {
+          "button": "データクリップを表示",
+          "close": "閉じる",
+          "description": "新しいデータクリップを表示できるようになりました。",
+          "title": "データクリップが作成されました"
+        },
+        "ready": {
+          "close": "閉じる",
+          "description": "変更がレビュー用に送信されました。注意事項やステータスの変更があればお知らせします。",
+          "submit": "データクリップに戻る",
+          "title": "変更が正常に送信されました。"
+        }
+      }
+    },
+    "syncedRecords_other": "合計{{count}}件のレコード",
+    "syncedRecords_zero": "合計{{count}}件のレコード"
   },
   "document": {
     "error": {
@@ -198,6 +423,7 @@
     }
   },
   "errors": {
+    "accessDenied": "アクセスが拒否されました",
     "documentNotFound": "ドキュメントが見つかりません",
     "fileNotFound": "ファイルが見つかりません",
     "missingParameter": "パラメータが提供されていません",
@@ -207,6 +433,7 @@
     "refreshPageDescription": "ページを更新して再試行してください。問題が解決しない場合は、サポートにお問い合わせください。",
     "returnToDashboardButton": "ダッシュボードに戻る",
     "sessionExpired": "セッションは期限切れとなりました",
+    "sessionExpiredDescription": "現在のセッションへのアクセスは有効期限切れです。",
     "sheetNotFound": "シートが見つかりません",
     "spaceNotFound": "スペースが見つかりません",
     "unauthorized": "アクセス資格情報が無効です。",
@@ -319,6 +546,15 @@
       "heading": "メールをチェックしてください"
     }
   },
+  "helpCenter": {
+    "panel": {
+      "empty": "このスペースのガイダンスは、設定されている場合はここで利用できるようになります。",
+      "heading": "ヘルプセンター"
+    },
+    "pill": {
+      "hoverText": "ヘルプセンター"
+    }
+  },
   "host": {
     "modals": {
       "closeModal": {
@@ -393,6 +629,9 @@
     },
     "messages": {
       "startingJob": "ジョブ開始"
+    },
+    "noListener": {
+      "learnMore": "もっと知る"
     },
     "panel": {
       "action": {
@@ -515,6 +754,56 @@
       }
     }
   },
+  "manageUsers": {
+    "accessLink": {
+      "callout": "このリンクの有効期限は24時間です。このリンクがあれば、誰でもスペースにアクセスし、データの更新や編集などの管理を行えます。",
+      "title": "アクセスリンク"
+    },
+    "actions": {
+      "copyLink": "スペースリンクをコピー",
+      "invite": "招待状を送る",
+      "resendInvite": "招待状を再送信",
+      "revoke": "アクセスを取り消す"
+    },
+    "edit": {
+      "cancelButton": "キャンセル",
+      "description": "ユーザーのアカウントからすべてのワークブックを削除すると、そのユーザーはスペースから削除されます。",
+      "error": "ワークブックの取得エラー",
+      "loading": "編集権限を読み込んでいます...",
+      "saveButton": "保存",
+      "title": "ワークブックのアクセス権を編集"
+    },
+    "empty": "表示するゲストがいません",
+    "error": {
+      "title": "このスペースのユーザーを読み込めません"
+    },
+    "guest": {
+      "message": "ゲストを管理できるのは管理者のみです。もしこれが誤りであると思われる場合は、サポートまでご連絡ください。",
+      "title": "このページを閲覧するための許可がありません"
+    },
+    "invite": {
+      "cancelButton": "キャンセル",
+      "form": {
+        "collaborate": {
+          "label": "誰と共同作業しますか？",
+          "placeholder": "カンマ区切りでメールで招待"
+        },
+        "message": {
+          "label": "メッセージ",
+          "placeholder": "共同作業をしましょう！"
+        }
+      },
+      "sendInvite": "招待状を送る",
+      "title": "ゲストを招待"
+    },
+    "manageGuests": "ゲストを管理",
+    "revoke": {
+      "cancelButton": "キャンセル",
+      "confirmButton": "確認",
+      "removing": "削除中...",
+      "title": "アクセスを取り消す"
+    }
+  },
   "mapping": {
     "clearFields": {
       "modalHeader": "宛先フィールドをクリアする",
@@ -633,6 +922,18 @@
     }
   },
   "plugins": {
+    "extraction": {
+      "addingRecords": "記録をシートに追加中",
+      "createWorkbook": "ワークブックを作成中",
+      "createWorkbookError": "ワークブックの作成に失敗しました。イベントログを参照してください。",
+      "extractedFile": "抽出されたファイル",
+      "extractionFailed": "抽出に失敗しました。もう一度試すか、サポートまでご連絡ください。",
+      "failedToParseWorkbook": "ワークブックの解析に失敗しました。",
+      "fileTooLarge": "ファイルが大きすぎて解析できません。このファイルをCSVに変換してみてください。",
+      "noSheets": "シートが見つかりませんでした",
+      "parseSheets": "シートを解析中",
+      "retrieveFile": "ファイルの取得中"
+    },
     "viewMapped": {
       "almostDone": "ほぼ完了です...",
       "complete": "テーブルの更新が完了しました。データを監査してください",
@@ -640,6 +941,31 @@
       "halfway": "半分まで来ました。もう少しお待ちください...",
       "updatingTable": "マップされたフィールドのみを表示するようにテーブルを更新しています"
     }
+  },
+  "secrets": {
+    "create": "シークレットを作成",
+    "delete": "シークレットを削除",
+    "edit": "シークレットを編集",
+    "envSecrets": "環境シークレット",
+    "errors": {
+      "couldNotGetSecrets": "シークレットを取得できませんでした。このページを更新してください。",
+      "keyAlreadyExists": "このキーを持つシークレットは既に存在します",
+      "keyCannotBeEmpty": "キーは空にできません",
+      "keyInvalid": "シークレット名には英数字とアンダースコアのみを含めることができます"
+    },
+    "failureAdd": "シークレット{{name}}を追加できませんでした",
+    "failureEdit": "シークレット{{name}}を編集できませんでした",
+    "keyPlaceholder": "キーを入力…",
+    "noSecrets": "環境レベルのシークレットはありません。<hyperlink>ここ</hyperlink>で追加してください。",
+    "noSpaceSecrets": "スペースレベルのシークレットはまだありません。プラスアイコンをクリックして追加してください。",
+    "noUserSecrets": "ユーザーレベルのシークレットはまだありません。プラスアイコンをクリックして追加してください。",
+    "spaceSecrets": "スペースシークレット",
+    "successfulAdd": "シークレット{{name}}を正常に追加しました",
+    "successfulEdit": "シークレット{{name}}を正常に編集しました",
+    "userDescription": "ユーザーレベルのシークレットは、スペースレベルのシークレットよりも優先されます。",
+    "userSecrets": "ユーザーシークレット",
+    "value": "シークレットの値",
+    "valuePlaceholder": "値を入力…"
   },
   "sheet": {
     "columnManagement": {
@@ -901,6 +1227,38 @@
         "transform": "トランスフォーム"
       },
       "buttons": {
+        "addToDataClip": {
+          "modal": {
+            "cancelButton": "キャンセル",
+            "confirmButton": "レコードを追加する",
+            "description": {
+              "infix": "選択済み",
+              "infixType": {
+                "invalid": "無効",
+                "valid": "有効"
+              },
+              "prefix": "レコードをデータクリップに ",
+              "suffix_other": "追加しますか？",
+              "suffix_zero": "追加しますか？"
+            },
+            "errorMessage": "レコードをデータクリップに追加できません。再試行するか、選択を変更してください。",
+            "heading_other": "レコードをデータクリップに追加する",
+            "heading_zero": "レコードをデータクリップに追加する",
+            "inProgress": "レコードを追加しています..."
+          },
+          "popover": {
+            "successMessage_other": "{{count}} 件のレコードがデータクリップに追加されました",
+            "successMessage_zero": "{{count}} 件のレコードがデータクリップに追加されました",
+            "successMessageNoCount": "レコードがデータクリップに追加されました"
+          },
+          "tooltip": {
+            "active": "選択したレコードをデータクリップに追加する",
+            "disabled": {
+              "deleteDisabled": "このシートではレコードのデータクリップへの追加は無効になっています。",
+              "noRecordsSelected": "データクリップに追加するには、少なくとも1件のレコードを選択してください"
+            }
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "キャンセル",
@@ -961,6 +1319,61 @@
             },
             "disabled": "ダウンロードするレコードがありません"
           }
+        },
+        "markForDeletion": {
+          "modal": {
+            "cancelButton": "キャンセル",
+            "confirmButton": "レコードを削除する",
+            "description": {
+              "infix": "選択済み",
+              "infixType": {
+                "invalid": "無効",
+                "valid": "有効"
+              },
+              "prefix": "レコードを",
+              "suffix_other": "削除しますか？この操作を行うと、データクリップのマージ時にソースシートからもレコードが削除されます。",
+              "suffix_zero": "削除しますか？この操作を行うと、データクリップのマージ時にソースシートからもレコードが削除されます。"
+            },
+            "errorMessage": "レコードを削除できません。再試行するか、選択を変更してください。",
+            "heading_other": "レコードを削除する",
+            "heading_zero": "レコードを削除する",
+            "inProgress": "レコードを削除しています..."
+          },
+          "popover": {
+            "successMessage_other": "{{count}} 件のレコードが削除されました",
+            "successMessage_zero": "{{count}} 件のレコードが削除されました",
+            "successMessageNoCount": "レコードが削除されました"
+          }
+        },
+        "restore": {
+          "modal": {
+            "cancelButton": "キャンセル",
+            "confirmButton": "削除したレコードを復元する",
+            "description": {
+              "infix": "選択済み",
+              "infixType": {
+                "invalid": "無効",
+                "valid": "有効"
+              },
+              "prefix": "この選択範囲で以前に削除対象としてマークされたレコードを復元しますか？"
+            },
+            "errorMessage": "復元レコードを追加できません。再試行するか、選択を変更してください。",
+            "heading_other": "レコードを復元する",
+            "heading_zero": "レコードを復元する",
+            "inProgress": "レコードを復元しています..."
+          },
+          "popover": {
+            "successMessage_other": "以前に削除対象としてマークされたレコードが復元されました。",
+            "successMessage_zero": "以前に削除対象としてマークされたレコードが復元されました。",
+            "successMessageNoCount": "以前に削除対象としてマークされたレコードが復元されました。"
+          },
+          "tooltip": {
+            "active": "選択範囲内で以前に削除対象としてマークされたレコードを復元します。",
+            "disabled": {
+              "deleteDisabled": "このシートではレコードの復元は無効になっています。",
+              "noRecordsSelected": "復元するには、少なくとも1件のレコードを選択してください。"
+            }
+          }
         }
       },
       "customActionsDropdown": {
@@ -971,9 +1384,34 @@
           "requireSelection": "このアクションを使用するには、1つ以上のレコードを選択してください"
         }
       },
+      "dataClips": {
+        "actions": {
+          "create": "データクリップを作成"
+        },
+        "buttonText": "データをクリップ",
+        "errors_other": "{{count}}エラー",
+        "errors_zero": "{{count}}エラー",
+        "modal": {
+          "cancel": "キャンセル",
+          "share": "共有"
+        },
+        "placeholders": {
+          "description": "コメントを追加（オプション）..."
+        },
+        "promise": "安全・確実に送信中",
+        "selectedRecords_other": "{{count}}レコード",
+        "selectedRecords_zero": "{{count}}レコード",
+        "syncedRecords_other": "{{count}}同期済みレコード",
+        "syncedRecords_zero": "{{count}}同期済みレコード",
+        "titles": {
+          "review": "レビュー",
+          "share": "データクリップを共有"
+        }
+      },
       "dropdown": {
         "delete": "削除",
-        "download": "ダウンロード"
+        "download": "ダウンロード",
+        "restore": "復元"
       },
       "filterByError": {
         "buttonText": "エラーによるフィルター",
@@ -1005,6 +1443,10 @@
       "moreActions": {
         "buttonText": "さらなるアクション",
         "placeholder": "検索または選択..."
+      },
+      "restore": {
+        "label": "レコードを復元",
+        "tooltip": "以前に削除対象としてマークされたレコードを復元します。"
       },
       "savedViews": {
         "buttonText": "ビュー",
@@ -1078,8 +1520,14 @@
     }
   },
   "sidebar": {
+    "activityLogs": "アクティビティログ",
     "addConnection": "接続の追加",
     "checklist": "データチェックリスト",
+    "collapse": {
+      "documents": "ドキュメント",
+      "workbook": "ワークブック",
+      "workbooks": "ワークブック"
+    },
     "connections": {
       "tooltips": {
         "connectionError": "このワークブックの接続のメタデータを検証するときに問題が発生しました",
@@ -1088,9 +1536,19 @@
       }
     },
     "emptyWorkbook": "空のワークブック",
+    "errorIconTooltip": "このシートにはエラーが含まれています",
     "files": "ファイル",
+    "footer": {
+      "backToDashboard": "ダッシュボードに戻る",
+      "logout": "ログアウト"
+    },
     "lockedIconTooltip": "このシートはロックされています",
+    "manageGuests": "ゲストを管理",
+    "pill": {
+      "admin": "管理者"
+    },
     "readOnlyIconTooltip": "このシートは読み取り専用です",
+    "secrets": "シークレット",
     "spaceSwitcher": {
       "placeholder": "スペースを検索または選択する..."
     },
@@ -1172,6 +1630,7 @@
         "current": "現在の値：{{value}}",
         "empty": "データなし",
         "none": "データセットは表示された値に変更されます。",
+        "requiresDecision": "データセットを変更する前に、この値を決定する必要があります",
         "restore": "データセットは、このスナップショットのバージョンに復元されます。",
         "snapshot": "新しい値：{{value}}"
       }
@@ -1403,6 +1862,7 @@
       "empty": "バージョンが生成されると、ここに表示されます。バージョンは多くの場合、データの一括変換が発生したときに自動的に生成されます。",
       "generatedSnapshot": "AI Transformをプロンプトに適用する前に生成されたスナップショット： ",
       "generatedSnapshotForAiTransform": "プロンプトにAIトランスフォームを適用する前に生成されたスナップショット： ",
+      "generatedSnapshotForBulkAddToDataClip": "データクリップに記録を追加する前に生成されたスナップショット",
       "generatedSnapshotForBulkDelete": "レコードを削除する前に生成されたスナップショット",
       "generatedSnapshotForFindReplace": "検索と置換を適用する前に生成されたスナップショット",
       "heading": "バージョン履歴",

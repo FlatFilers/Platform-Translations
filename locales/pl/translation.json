@@ -6,9 +6,9 @@
     "changedColumnsText_other": "Kolumny ze zmienionymi danymi: {{count}}",
     "changedColumnsText_zero": "Kolumny ze zmienionymi danymi: {{count}}",
     "errors": {
-      "entilementError": {
-        "content": "Jeśli uważasz, że jest to błąd, skontaktuj się z obsługą klienta.",
-        "title": "Przepraszamy! Nie masz dostępu do tej funkcji."
+      "entitlementError": {
+        "content": "Jeśli uważasz, że to wynik błędu, skontaktuj się z obsługą klienta.",
+        "title": "Przykro nam, lecz nie masz dostępu do tej funkcji."
       },
       "generalError": {
         "title": "Coś poszło nie tak. Spróbuj ponownie."
@@ -185,16 +185,259 @@
   "comments": {
     "addReaction": "Dodaj reakcję",
     "commentDisabledTooltip": "Wybierz komórkę lub wiersz, aby dodać komentarz",
+    "comments": "Komentarze",
     "delete": "Usuń komentarz",
     "edit": "Edytuj komentarz",
     "edited": " (edytowano)",
+    "hidden": "ukryte przez filtry…",
+    "noResolvedThreads": "Nie rozwiązano na razie żadnych wątków",
     "noResults": "Brak pasujących",
+    "noUpdates": "Brak aktualizacji",
     "placeholder": "Dodaj swój komentarz tutaj...",
     "reactionList": "<0></0> zareagował(a) {{emoji}}",
+    "reopen": "Ponownie otwórz wątek",
+    "repliesCount_few": "Jeszcze {{count}} odpowiedzi",
+    "repliesCount_many": "Jeszcze {{count}} odpowiedzi",
+    "repliesCount_one": "Jeszcze {{count}} odpowiedź",
+    "repliesCount_other": "Jeszcze {{count}} odpowiedzi",
+    "repliesCount_zero": "Jeszcze {{count}} odpowiedzi",
     "resolve": "Rozwiąż wątek",
+    "resolved": "Rozwiązano",
+    "row": "Wiersz {{row}}",
+    "rowAndColumn": "Wiersz {{row}}, {{column}}",
     "send": "Wyślij komentarz",
     "threadPlaceholder": "Odpowiedz lub wspomnij innych za pomocą @...",
+    "updates": "Aktualizacje",
+    "updatesError": "Wystąpił błąd podczas wczytywania aktualizacji",
+    "userCommented": "Użytkownik <user>{{user}}</user> skomentował <identifier>{{identifier}}</identifier>",
+    "userReacted": "<0></0> – ta osoba zareagowała na Twój komentarz",
     "you": "Ty"
+  },
+  "common": {
+    "cancel": "Anuluj",
+    "lastWeek": "W poprzednim tygodniu",
+    "name": "Nazwa",
+    "older": "Starsze",
+    "thisWeek": "W tym tygodniu",
+    "today": "Dzisiaj",
+    "yesterday": "Wczoraj"
+  },
+  "dataClips": {
+    "actions": {
+      "add_to_clip": "Dodaj wybrane do klipu danych",
+      "buttons": {
+        "back": "Wstecz",
+        "conflicts": "Rozwiąż konflikty",
+        "review": "Przegląd zmian",
+        "share": "Udostępnij",
+        "submit_for_review": "Prześlij do przeglądu",
+        "view": "Wyświetl plik danych"
+      },
+      "create": "Utwórz klip danych",
+      "library": "Do biblioteki klipów danych",
+      "sheet_list": "Zobacz klipy danych arkusza",
+      "tooltip": {
+        "conflicts": "Przed scaleniem rozwiąż konflikty.",
+        "no_changes": "Wprowadź co najmniej jedną zmianę w celu scalenia.",
+        "no_data_clips": "Utwórz klip danych do dodania.",
+        "none_selected": {
+          "add_to_clip": "Wybierz co najmniej jeden rekord, aby utworzyć klip danych.",
+          "create": "Wybierz co najmniej jeden rekord, aby utworzyć klip danych."
+        },
+        "review": "Nie wprowadzono żadnych zmian w tym klipie danych."
+      }
+    },
+    "buttonText": "Dane klipu",
+    "choose_action": "Wybierz działanie:",
+    "clear": "wyczyść",
+    "collaborators": "Współpracownicy",
+    "confirmation": {
+      "delete": {
+        "cancel": "Anuluj",
+        "description": "To spowoduje trwałe usunięcie tego klipu danych z Twojej biblioteki.",
+        "submit": "Usuń",
+        "title": "Usuń"
+      },
+      "ready": {
+        "cancel": "Anuluj",
+        "description": "Twoje zmiany zostaną wysłane do recenzji.",
+        "submit": "Prześlij",
+        "title": "Prześlij do przeglądu"
+      }
+    },
+    "conflictResolution": {
+      "applyAll": "Zastosować do wszystkich?",
+      "change_description": "1 rekord w polu \"{{fieldName}}\" zostanie zmieniony.",
+      "columnTotal": "Suma kolumn:",
+      "description": "Zmiany występują zarówno w arkuszu źródłowym, jak i w klipie danych. Wybierz, które z nich chcesz zachować.",
+      "empty": {
+        "description": "Gotowe do przeglądu",
+        "status": "Zakończ",
+        "title": "Brak konfliktów"
+      },
+      "row": "Wiersz",
+      "title": "Wybierz zmianę do scalenia"
+    },
+    "created_by": "Utworzone przez",
+    "detailsModal": {
+      "create": {
+        "action": "Utwórz",
+        "title": "Utwórz klip danych"
+      },
+      "edit": {
+        "action": "Prześlij",
+        "title": "Edytuj klip danych"
+      },
+      "placeholder": "Dodaj komentarz (opcjonalnie)...",
+      "review": "Przegląd"
+    },
+    "empty": "Brak klipów danych do wyświetlenia",
+    "error": "Nie można załadować klipów danych dla tej przestrzeni",
+    "errors_few": "{{count}} błędy(-dów)",
+    "errors_many": "{{count}} błędy(-dów)",
+    "errors_one": "{{count}} błąd",
+    "errors_other": "{{count}} błędy(-dów)",
+    "errors_zero": "{{count}} błędy(-dów)",
+    "errors": {
+      "add_records_create": "Wystąpił nieoczekiwany błąd podczas dodawania Twoich rekordów do tego klipu danych. Utworzono pusty klip danych.",
+      "add_to_clip": "Wystąpił nieoczekiwany błąd podczas dodawania Twoich rekordów do tego klipu danych. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
+      "bulk_resolve_all_conflicts": "Wystąpił nieoczekiwany błąd podczas rozwiązywania konfliktów. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
+      "create": "Wystąpił nieoczekiwany błąd podczas tworzenia Twojego klipu danych. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
+      "delete": "Nie udało się usunąć tego klipu danych. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
+      "diff_view": "Wystąpił nieoczekiwany błąd podczas ładowania widoku różnicowego klipu danych. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
+      "edit": "Wystąpił nieoczekiwany błąd podczas edycji Twoich klipów danych. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
+      "link_copy": "Wystąpił nieoczekiwany błąd podczas kopiowania tego linku. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
+      "list": "Wystąpił nieoczekiwany błąd podczas ładowania tej biblioteki klipów danych. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
+      "mark_as_ready": "Nie udało się oznaczyć tego klipu danych jako gotowego do scalenia. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
+      "mark_for_review": "Nie udało się przesłać Twojego klipu danych do recenzji. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
+      "mark_merged": "Nie udało się scalić Twojego klipu danych. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
+      "mark_open": "Nie udało się ponownie otworzyć tego klipu danych. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia."
+    },
+    "filter": "Filtr",
+    "library": {
+      "actions": {
+        "delete": "Usuń",
+        "edit": "Wyświetl",
+        "edit_details": "Edytuj szczegóły"
+      },
+      "create": "Utwórz klip danych",
+      "guest_search": "Wyszukaj według klipu danych lub nazwy arkusza",
+      "headers": {
+        "creator": "Twórca",
+        "name": "Nazwa",
+        "records": "Rekordy",
+        "sheet": "Arkusz źródłowy",
+        "status": "Status",
+        "updated_at": "Ostatnia edycja"
+      },
+      "search": "Wyszukaj według klipu danych, arkusza lub nazwy twórcy",
+      "source_name": "Arkusz źródłowy: ",
+      "title": "Biblioteka klipów danych"
+    },
+    "merge": "Scal zmiany",
+    "modal": {
+      "cancel": "Anuluj",
+      "share": "Utwórz"
+    },
+    "newConflicts": {
+      "close": "Zamknij",
+      "description": "Podczas przeglądania tego klipu danych pojawiły się nowe konflikty.",
+      "submit": "Rozwiąż konflikty",
+      "title": "Znaleziono nowe konflikty"
+    },
+    "next": "Dalej",
+    "promise": "Bezpieczne wysyłanie",
+    "resend": "Otwórz ponownie i przywróć",
+    "resolutions": {
+      "applyAll": {
+        "button": "Zastosuj",
+        "description_few": "Czy chcesz zastosować '{{resolveTo}}' jako swój wybór dla pozostałych konfliktów w kolumnie '{{columnLabel}}'? {{count}} rekordów zostanie zaktualizowanych.",
+        "description_many": "Czy chcesz zastosować '{{resolveTo}}' jako swój wybór dla pozostałych konfliktów w kolumnie '{{columnLabel}}'? {{count}} rekordów zostanie zaktualizowanych.",
+        "description_one": "Czy chcesz zastosować '{{resolveTo}}' jako swój wybór dla pozostałych konfliktów w kolumnie '{{columnLabel}}'? {{count}} rekordów zostanie zaktualizowanych.",
+        "description_other": "Czy chcesz zastosować '{{resolveTo}}' jako swój wybór dla pozostałych konfliktów w kolumnie '{{columnLabel}}'? {{count}} rekordów zostanie zaktualizowanych.",
+        "description_zero": "Czy chcesz zastosować '{{resolveTo}}' jako swój wybór dla pozostałych konfliktów w kolumnie '{{columnLabel}}'? {{count}} rekordów zostanie zaktualizowanych."
+      },
+      "cancel": "Zapisz i wyjdź",
+      "complete": "Zakończ",
+      "conflicts_found": {
+        "button_few": "Konflikty: {{count}}",
+        "button_many": "Konflikty: {{count}}",
+        "button_one": "Konflikty: {{count}}",
+        "button_other": "Konflikty: {{count}}",
+        "button_zero": "Konflikty: {{count}}",
+        "clip_override": {
+          "description": "Nie zmieni to niczego w arkuszu źródłowym, a zmiany klipu danych powodujące konflikt zostaną odrzucone.",
+          "title": "Odrzuć wartości z klipu danych"
+        },
+        "options_title": "Wybierz akcję",
+        "resolve_conflicts": {
+          "description": "Dzięki temu możesz przejrzeć każdy konflikt w klipie danych i zdecydować, które wartości scalić lub zignorować.",
+          "title": "Wprowadź zmiany indywidualnie"
+        },
+        "source_override": {
+          "description": "Spowoduje to zaktualizowanie wszystkich konfliktowych wartości, aby pasowały do klipu danych podczas scalania.",
+          "title": "Zaakceptuj wartości z klipu danych"
+        },
+        "title": "Znaleziono konflikty"
+      },
+      "empty": {
+        "button": "Powrót do klipu",
+        "description": "Wprowadź co najmniej jedną zmianę w celu scalenia.",
+        "title": "Nie wykryto żadnych zmian w tym klipie danych."
+      },
+      "merge": "Scal"
+    },
+    "selectedRecords_few": "Wybrane rekordy: {{count}}",
+    "selectedRecords_many": "Wybrane rekordy: {{count}}",
+    "selectedRecords_one": "Wybrane rekordy: {{count}}",
+    "selectedRecords_other": "Wybrane rekordy: {{count}}",
+    "selectedRecords_zero": "Wybrane rekordy: {{count}}",
+    "share": {
+      "copy_link": "Skopiuj link",
+      "description": "Współpracownicy otrzymają zaproszenie do współpracy nad tym klipem danych.",
+      "empty": "Brak dostępnych współpracowników.",
+      "none_selected": "Nie wybrano współpracowników.",
+      "placeholder": "Dodaj współpracowników...",
+      "submit": "Udostępnij",
+      "title": "Udostępnij klip danych"
+    },
+    "sort": "sortuj",
+    "status": {
+      "all": "Zobacz wszystko",
+      "merged": "Scalone",
+      "open": "Otwórz",
+      "ready": "Gotowe do przeglądu",
+      "title": "Status"
+    },
+    "success": {
+      "add_records": "Pomyślnie dodano rekordy.",
+      "create": "Twój klip danych został pomyślnie utworzony.",
+      "delete": "Twój klip danych został pomyślnie usunięty.",
+      "edit": "Edycje zostały pomyślnie zapisane.",
+      "link_copy": "Pomyślnie skopiowano link!",
+      "mark_as_ready": "Twój klip danych został pomyślnie przesłany do przeglądu. Właściciel klipu został powiadomiony.",
+      "mark_merged": "Twój klip danych został pomyślnie scalony.",
+      "mark_open": "Klip danych został pomyślnie ponownie otwarty i nastąpiło jego pomyślne przywrócenie!",
+      "modal": {
+        "create": {
+          "button": "Wyświetl plik danych",
+          "close": "Zamknij",
+          "description": "Możesz teraz wyświetlić nowy klip danych.",
+          "title": "Twój klip danych został utworzony"
+        },
+        "ready": {
+          "close": "Zamknij",
+          "description": "Twoje zmiany zostały przesłane do sprawdzenia. Powiadomimy Cię o wszelkich uwagach lub zmianach statusu.",
+          "submit": "Powrót do klipu danych",
+          "title": "Zmiany zostały pomyślnie przesłane!"
+        }
+      }
+    },
+    "syncedRecords_few": "Suma rekordów: {{count}}",
+    "syncedRecords_many": "Suma rekordów: {{count}}",
+    "syncedRecords_one": "Suma rekordów: {{count}}",
+    "syncedRecords_other": "Suma rekordów: {{count}}",
+    "syncedRecords_zero": "Suma rekordów: {{count}}"
   },
   "document": {
     "error": {
@@ -203,6 +446,7 @@
     }
   },
   "errors": {
+    "accessDenied": "Odmowa dostępu",
     "documentNotFound": "Nie znaleziono dokumentu",
     "fileNotFound": "Nie znaleziono pliku",
     "missingParameter": "Parametr nie został podany",
@@ -212,6 +456,7 @@
     "refreshPageDescription": "Odśwież stronę, aby spróbować ponownie. Jeśli problem nie ustąpi, skontaktuj się z pomocą techniczną.",
     "returnToDashboardButton": "Powrót do Pulpitu",
     "sessionExpired": "Sesja wygasła",
+    "sessionExpiredDescription": "Wygasł dostęp do bieżącej sesji.",
     "sheetNotFound": "Nie znaleziono arkusza",
     "spaceNotFound": "Nie znaleziono przestrzeni",
     "unauthorized": "Twoje poświadczenia dostępu są nieprawidłowe.",
@@ -336,6 +581,15 @@
       "heading": "Sprawdź swoją skrzynkę odbiorczą"
     }
   },
+  "helpCenter": {
+    "panel": {
+      "empty": "Wytyczne dotyczące tej przestrzeni będą dostępne tutaj, jeśli zostaną skonfigurowane.",
+      "heading": "Centrum pomocy"
+    },
+    "pill": {
+      "hoverText": "Centrum pomocy"
+    }
+  },
   "host": {
     "modals": {
       "closeModal": {
@@ -410,6 +664,9 @@
     },
     "messages": {
       "startingJob": "Rozpoczynanie zadania"
+    },
+    "noListener": {
+      "learnMore": "Dowiedz się więcej"
     },
     "panel": {
       "action": {
@@ -530,6 +787,56 @@
       "button": {
         "defaultLabel": "Prześlij"
       }
+    }
+  },
+  "manageUsers": {
+    "accessLink": {
+      "callout": "Ten link jest ważny przez 24 godziny. Każda osoba posiadająca link może uzyskać dostęp do tej przestrzeni oraz przesyłać, edytować i zarządzać danymi.",
+      "title": "Link dostępowy"
+    },
+    "actions": {
+      "copyLink": "Skopiuj link do przestrzeni",
+      "invite": "Wyślij zaproszenie",
+      "resendInvite": "Ponownie wyślij zaproszenie",
+      "revoke": "Cofnij dostęp"
+    },
+    "edit": {
+      "cancelButton": "Anuluj",
+      "description": "Usunięcie wszystkich skoroszytów z konta użytkownika powoduje usunięcie tego użytkownika z danej przestrzeni.",
+      "error": "Błąd podczas pobierania skoroszytów",
+      "loading": "Ładowanie uprawnień do edycji...",
+      "saveButton": "Zapisz",
+      "title": "Edytuj dostęp do skoroszytu dla:"
+    },
+    "empty": "Brak gości do wyświetlenia",
+    "error": {
+      "title": "Nie można wczytać użytkowników do tej przestrzeni"
+    },
+    "guest": {
+      "message": "Tylko administratorzy mogą zarządzać gośćmi. Jeśli uważasz, że widzisz to w wyniku błędu, skontaktuj się z działem wsparcia.",
+      "title": "Nie masz uprawnień do wyświetlenia tej strony"
+    },
+    "invite": {
+      "cancelButton": "Anuluj",
+      "form": {
+        "collaborate": {
+          "label": "Z kim chcesz współpracować?",
+          "placeholder": "Zaproś pocztą e-mail (adresy oddzielone przecinkami)"
+        },
+        "message": {
+          "label": "Wiadomość",
+          "placeholder": "Współpracujmy!"
+        }
+      },
+      "sendInvite": "Wyślij zaproszenie",
+      "title": "Zaproś gości"
+    },
+    "manageGuests": "Zarządzaj gośćmi",
+    "revoke": {
+      "cancelButton": "Anuluj",
+      "confirmButton": "Potwierdź",
+      "removing": "Usuwanie...",
+      "title": "Cofnij dostęp"
     }
   },
   "mapping": {
@@ -668,6 +975,18 @@
     }
   },
   "plugins": {
+    "extraction": {
+      "addingRecords": "Dodawanie zapisów do arkuszy",
+      "createWorkbook": "Tworzenie skoroszytu",
+      "createWorkbookError": "Nie udało się utworzyć skoroszytu. Zobacz rejestry zdarzeń.",
+      "extractedFile": "Wyodrębniony plik",
+      "extractionFailed": "Nie udało się wyodrębnić. Spróbuj ponownie lub skontaktuj się z działem wsparcia.",
+      "failedToParseWorkbook": "Nie udało się sparsować skoroszytu.",
+      "fileTooLarge": "Plik jest za duży do sparsowania. Spróbuj przekonwertować go do pliku CSV.",
+      "noSheets": "Nie znaleziono żadnych arkuszy",
+      "parseSheets": "Parsowanie arkuszy",
+      "retrieveFile": "Odzyskiwanie pliku"
+    },
     "viewMapped": {
       "almostDone": "Prawie gotowe...",
       "complete": "Zakończono aktualizację tabeli. Zrób audyt danych",
@@ -675,6 +994,31 @@
       "halfway": "Jesteśmy w połowie, jeszcze trochę cierpliwości...",
       "updatingTable": "Aktualizacja tabeli, aby widoczne były tylko zmapowane pola"
     }
+  },
+  "secrets": {
+    "create": "Utwórz wpis tajny",
+    "delete": "Usuń wpis tajny",
+    "edit": "Edytuj wpis tajny",
+    "envSecrets": "Wpisy tajne środowiskowe",
+    "errors": {
+      "couldNotGetSecrets": "Nie udało się pobrać wpisów tajnych. Spróbuj odświeżyć stronę.",
+      "keyAlreadyExists": "Wpis tajny z tym kluczem już istnieje",
+      "keyCannotBeEmpty": "Klucz nie może być pusty",
+      "keyInvalid": "Nazwa wpisu tajnego może zawierać wyłącznie znaki alfanumeryczne i podkreślenia"
+    },
+    "failureAdd": "Nie udało się dodać wpisu tajnego {{name}}",
+    "failureEdit": "Nie udało się edytować wpisu tajnego {{name}}",
+    "keyPlaceholder": "Wprowadź klucz…",
+    "noSecrets": "Nie ma żadnych wpisów tajnych na poziomie środowiskowym. Dodaj jeden <hyperlink>tutaj</hyperlink>.",
+    "noSpaceSecrets": "Nie ma jeszcze żadnych wpisów tajnych na poziomie przestrzeni, kliknij ikonę plusa, aby dodać jeden.",
+    "noUserSecrets": "Nie ma jeszcze żadnych wpisów tajnych na poziomie użytkownika. Kliknij ikonę plusa, aby je dodać.",
+    "spaceSecrets": "Wpisy tajne przestrzeni",
+    "successfulAdd": "Pomyślnie dodano wpis tajny {{name}}",
+    "successfulEdit": "Pomyślnie edytowano wpis tajny {{name}}",
+    "userDescription": "Wpisy tajne na poziomie użytkownika mają pierwszeństwo przed wpisami tajnymi na poziomie przestrzeni.",
+    "userSecrets": "Wpisy tajne użytkownika",
+    "value": "Wartość wpisu tajnego",
+    "valuePlaceholder": "Wprowadź wartość…"
   },
   "sheet": {
     "columnManagement": {
@@ -963,6 +1307,47 @@
         "transform": "Transformacja"
       },
       "buttons": {
+        "addToDataClip": {
+          "modal": {
+            "cancelButton": "Anuluj",
+            "confirmButton": "Dodaj rekordy",
+            "description": {
+              "infix": "wybrane(-ych)",
+              "infixType": {
+                "invalid": "nieprawidłowe(-ych)",
+                "valid": "prawidłowe(-ych)"
+              },
+              "prefix": "Czy chcesz dodać ",
+              "suffix_few": "rekordów do klipu danych?",
+              "suffix_many": "rekordów do klipu danych?",
+              "suffix_one": "rekord do klipu danych?",
+              "suffix_other": "rekordów do klipu danych?",
+              "suffix_zero": "rekordów do klipu danych?"
+            },
+            "errorMessage": "Nie można dodać rekordów do klipu danych. Spróbuj ponownie lub zmień swój wybór.",
+            "heading_few": "Dodaj rekordy do klipu danych",
+            "heading_many": "Dodaj rekordy do klipu danych",
+            "heading_one": "Dodaj rekord do klipu danych",
+            "heading_other": "Dodaj rekordy do klipu danych",
+            "heading_zero": "Dodaj rekordy do klipu danych",
+            "inProgress": "Dodawanie rekordów..."
+          },
+          "popover": {
+            "successMessage_few": "Rekordy dodane do klipu danych: {{count}}",
+            "successMessage_many": "Rekordy dodane do klipu danych: {{count}}",
+            "successMessage_one": "Rekordy dodane do klipu danych: {{count}}",
+            "successMessage_other": "Rekordy dodane do klipu danych: {{count}}",
+            "successMessage_zero": "Rekordy dodane do klipu danych: {{count}}",
+            "successMessageNoCount": "Rekordy zostały dodane do pliku danych"
+          },
+          "tooltip": {
+            "active": "Dodaj wybrane rekordy do klipu danych",
+            "disabled": {
+              "deleteDisabled": "Dodawanie rekordów do klipów danych jest wyłączone w tym arkuszu.",
+              "noRecordsSelected": "Wybierz co najmniej jeden rekord, aby dodać go do klipu danych"
+            }
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Anuluj",
@@ -1038,6 +1423,76 @@
             },
             "disabled": "Brak rekordów do pobrania"
           }
+        },
+        "markForDeletion": {
+          "modal": {
+            "cancelButton": "Anuluj",
+            "confirmButton": "Usuń rekordy",
+            "description": {
+              "infix": "wybrane(-ych)",
+              "infixType": {
+                "invalid": "nieprawidłowe(-ych)",
+                "valid": "prawidłowe(-ych)"
+              },
+              "prefix": "Czy chcesz usunąć",
+              "suffix_few": "rekordy(-ów)?  Spowoduje to również usunięcie rekordów z arkusza źródłowego po scaleniu klipu danych.",
+              "suffix_many": "rekordy(-ów)?  Spowoduje to również usunięcie rekordów z arkusza źródłowego po scaleniu klipu danych.",
+              "suffix_one": "rekordy(-ów)?  Spowoduje to również usunięcie rekordów z arkusza źródłowego po scaleniu klipu danych.",
+              "suffix_other": "rekordy(-ów)?  Spowoduje to również usunięcie rekordów z arkusza źródłowego po scaleniu klipu danych.",
+              "suffix_zero": "rekordy(-ów)?  Spowoduje to również usunięcie rekordów z arkusza źródłowego po scaleniu klipu danych."
+            },
+            "errorMessage": "Nie można usunąć rekordów. Spróbuj ponownie lub zmień swój wybór.",
+            "heading_few": "Usuń rekordy",
+            "heading_many": "Usuń rekordy",
+            "heading_one": "Usuń rekord",
+            "heading_other": "Usuń rekordy",
+            "heading_zero": "Usuń rekordy",
+            "inProgress": "Usuwanie rekordów..."
+          },
+          "popover": {
+            "successMessage_few": "Usunięte rekordy: {{count}}",
+            "successMessage_many": "Usunięte rekordy: {{count}}",
+            "successMessage_one": "Usunięte rekordy: {{count}}",
+            "successMessage_other": "Usunięte rekordy: {{count}}",
+            "successMessage_zero": "Usunięte rekordy: {{count}}",
+            "successMessageNoCount": "Usunięto rekordy"
+          }
+        },
+        "restore": {
+          "modal": {
+            "cancelButton": "Anuluj",
+            "confirmButton": "Przywróć usunięte rekordy",
+            "description": {
+              "infix": "wybrane(-ych)",
+              "infixType": {
+                "invalid": "nieprawidłowe(-ych)",
+                "valid": "prawidłowe(-ych)"
+              },
+              "prefix": "Czy chcesz przywrócić rekordy wcześniej oznaczone do usunięcia w tym wyborze?"
+            },
+            "errorMessage": "Nie można dodać przywróconych rekordów. Spróbuj ponownie lub zmień swój wybór.",
+            "heading_few": "Przywróć rekordy",
+            "heading_many": "Przywróć rekordy",
+            "heading_one": "Przywróć rekord",
+            "heading_other": "Przywróć rekordy",
+            "heading_zero": "Przywróć rekordy",
+            "inProgress": "Przywracanie rekordów..."
+          },
+          "popover": {
+            "successMessage_few": "Rekordy wcześniej oznaczone do usunięcia zostały przywrócone.",
+            "successMessage_many": "Rekordy wcześniej oznaczone do usunięcia zostały przywrócone.",
+            "successMessage_one": "Rekordy wcześniej oznaczone do usunięcia zostały przywrócone.",
+            "successMessage_other": "Rekordy wcześniej oznaczone do usunięcia zostały przywrócone.",
+            "successMessage_zero": "Rekordy wcześniej oznaczone do usunięcia zostały przywrócone.",
+            "successMessageNoCount": "Rekordy wcześniej oznaczone do usunięcia zostały przywrócone."
+          },
+          "tooltip": {
+            "active": "Rekordy wcześniej oznaczone do usunięcia zostały przywrócone.",
+            "disabled": {
+              "deleteDisabled": "Przywracanie rekordów jest wyłączone w tym arkuszu.",
+              "noRecordsSelected": "Wybierz co najmniej jeden rekord, aby go przywrócić"
+            }
+          }
         }
       },
       "customActionsDropdown": {
@@ -1048,9 +1503,43 @@
           "requireSelection": "Wybierz jeden lub więcej rekordów, aby użyć tej akcji"
         }
       },
+      "dataClips": {
+        "actions": {
+          "create": "Utwórz klip danych"
+        },
+        "buttonText": "Przytnij dane",
+        "errors_few": "Błędy: {{count}}",
+        "errors_many": "Błędy: {{count}}",
+        "errors_one": "Błędy: {{count}}",
+        "errors_other": "Błędy: {{count}}",
+        "errors_zero": "Błędy: {{count}}",
+        "modal": {
+          "cancel": "Anuluj",
+          "share": "Udostępnij"
+        },
+        "placeholders": {
+          "description": "Dodaj komentarz (opcjonalnie)..."
+        },
+        "promise": "Bezpieczne wysyłanie",
+        "selectedRecords_few": "{{count}} rekordy",
+        "selectedRecords_many": "{{count}} rekordów",
+        "selectedRecords_one": "{{count}} rekord",
+        "selectedRecords_other": "Rekordy: {{count}}",
+        "selectedRecords_zero": "{{count}} rekordów",
+        "syncedRecords_few": "Zsynchronizowane rekordy: {{count}}",
+        "syncedRecords_many": "Zsynchronizowane rekordy: {{count}}",
+        "syncedRecords_one": "Zsynchronizowane rekordy: {{count}}",
+        "syncedRecords_other": "Zsynchronizowane rekordy: {{count}}",
+        "syncedRecords_zero": "Zsynchronizowane rekordy: {{count}}",
+        "titles": {
+          "review": "Przegląd",
+          "share": "Udostępnij przycięcia danych"
+        }
+      },
       "dropdown": {
         "delete": "Usuń",
-        "download": "Pobierz"
+        "download": "Pobierz",
+        "restore": "Przywróć"
       },
       "filterByError": {
         "buttonText": "Zastosuj filtr błędów",
@@ -1082,6 +1571,10 @@
       "moreActions": {
         "buttonText": "Więcej akcji",
         "placeholder": "Wyszukaj lub wybierz..."
+      },
+      "restore": {
+        "label": "Przywróć rekordy",
+        "tooltip": "Przywróć rekordy wcześniej oznaczone do usunięcia."
       },
       "savedViews": {
         "buttonText": "Widoki",
@@ -1155,8 +1648,14 @@
     }
   },
   "sidebar": {
+    "activityLogs": "Rejestry aktywności",
     "addConnection": "Dodaj połączenie",
     "checklist": "Lista kontrolna danych",
+    "collapse": {
+      "documents": "Dokumenty",
+      "workbook": "Skoroszyt",
+      "workbooks": "Skoroszyty"
+    },
     "connections": {
       "tooltips": {
         "connectionError": "Wystąpił problem z weryfikowaniem metadanych połączeń tego skoroszytu",
@@ -1165,9 +1664,19 @@
       }
     },
     "emptyWorkbook": "Pusty skoroszyt",
+    "errorIconTooltip": "Ten skoroszyt zawiera błędy",
     "files": "Pliki",
+    "footer": {
+      "backToDashboard": "Powrót do pulpitu",
+      "logout": "Wyloguj"
+    },
     "lockedIconTooltip": "Ten arkusz jest zablokowany",
+    "manageGuests": "Zarządzaj gośćmi",
+    "pill": {
+      "admin": "Admin"
+    },
     "readOnlyIconTooltip": "Ten arkusz jest tylko do odczytu",
+    "secrets": "Sekrety",
     "spaceSwitcher": {
       "placeholder": "Wyszukaj lub wybierz przestrzeń..."
     },
@@ -1249,6 +1758,7 @@
         "current": "Bieżąca wartość: {{value}}",
         "empty": "brak danych",
         "none": "Twój zbiór danych zostanie dostosowany do widocznych danych.",
+        "requiresDecision": "Ta wartość wymaga decyzji, zanim będziesz mógł zmodyfikować swój zestaw danych.",
         "restore": "Twój zbiór danych zostanie przywrócony do wersji z tej migawki.",
         "snapshot": "Nowa wartość: {{value}}"
       }
@@ -1480,6 +1990,7 @@
       "empty": "Tu pojawią się wersje po wygenerowaniu. Są one generowane automatycznie, często gdy dochodzi do zbiorczego przekształcenia danych.",
       "generatedSnapshot": "Migawka wygenerowana przed zastosowaniem promptu AI Transform: ",
       "generatedSnapshotForAiTransform": "Migawka wygenerowana przed zastosowaniem promptu AI Transform: ",
+      "generatedSnapshotForBulkAddToDataClip": "Migawka wygenerowana przed dodaniem rekordów do klipu danych",
       "generatedSnapshotForBulkDelete": "Migawka wygenerowana przed usunięciem rekordów",
       "generatedSnapshotForFindReplace": "Migawka wygenerowana przed zastosowaniem poleceń Znajdź i Zamień",
       "heading": "Historia wersji",
