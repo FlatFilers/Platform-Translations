@@ -231,7 +231,7 @@
       "tooltip": {
         "conflicts": "Please resolve conflicts before merging.",
         "no_changes": "Make at least one change in order to merge.",
-        "no_data_clips": "Create a data clip to add to.",
+        "no_data_clips": "There are no open data clips available to add records to.",
         "none_selected": {
           "add_to_clip": "Select at least one record to add to a data clip.",
           "create": "Select at least one record to create a data clip."
@@ -321,7 +321,7 @@
         "status": "Status",
         "updated_at": "Last edited"
       },
-      "search": "Search by data clip, sheet, or creator name",
+      "search": "Search by data clip, sheet, or creator email",
       "source_name": "Source Sheet: ",
       "title": "Data clip library"
     },
@@ -389,7 +389,8 @@
       "merged": "Merged",
       "open": "Open",
       "ready": "Ready for review",
-      "title": "Status"
+      "title": "Status",
+      "created": "Created"
     },
     "success": {
       "add_records": "Records added successfully.",
@@ -912,7 +913,7 @@
   },
   "nativeActions": {
     "addColumn": "Add column",
-    "clearColumn": "Clear Column",
+    "clearColumn": "Clear column",
     "removeColumn": "Remove column"
   },
   "platform": {
