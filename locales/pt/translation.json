@@ -304,7 +304,9 @@
       "mark_as_ready": "Não conseguimos marcar o clipe de dados como estando pronto para efeitos de intercalação. Tente de novo. Em caso de persistência do problema, contacte o suporte",
       "mark_for_review": "Ocorreu uma falha no envio do seu clipe de dados para revisão. Tente de novo. Em caso de persistência do problema, contacte o suporte",
       "mark_merged": "Ocorreu uma falha na intercalação do seu clipe de dados. Tente de novo. Em caso de persistência do problema, contacte o suporte",
-      "mark_open": "Não conseguimos reabrir o clipe de dados. Tente de novo. Em caso de persistência do problema, contacte o suporte"
+      "mark_open": "Não conseguimos reabrir o clipe de dados. Tente de novo. Em caso de persistência do problema, contacte o suporte",
+      "merge": "Não nos foi possível integrar o segmento de dados, tente novamente. Se o problema persistir, contacte o apoio técnico",
+      "refresh_resolutions": "Não foi possível preparar o segmento de dados para revisão, por favor tente novamente. Se o problema persistir, contacte o apoio técnico"
     },
     "filter": "Filtro",
     "library": {
@@ -391,6 +393,7 @@
     "sort": "ordenar",
     "status": {
       "all": "Ver tudo",
+      "created": "Criado",
       "merged": "Intercalado",
       "open": "Abrir",
       "ready": "Pronto para revisão",

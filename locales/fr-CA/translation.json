@@ -304,7 +304,9 @@
       "mark_as_ready": "Nous n'avons pas pu marquer l'extrait de données comme prêt à être fusionné, veuillez réessayer. Si le problème persiste, veuillez contacter le soutien.",
       "mark_for_review": "Votre extrait de données n'a pas pu être soumis à examen, veuillez réessayer. Si le problème persiste, veuillez contacter le soutien.",
       "mark_merged": "Votre extrait de données n'a pas pu être fusionné, veuillez réessayer. Si le problème persiste, veuillez contacter le soutien.",
-      "mark_open": "Nous n'avons pas pu rouvrir l'extrait de données, veuillez réessayer. Si le problème persiste, veuillez contacter le soutien."
+      "mark_open": "Nous n'avons pas pu rouvrir l'extrait de données, veuillez réessayer. Si le problème persiste, veuillez contacter le soutien.",
+      "merge": "Nous n’avons pas pu fusionner la séquence de données, veuillez réessayer. Si le problème persiste, veuillez contacter le service d’assistance",
+      "refresh_resolutions": "Nous n’avons pas pu préparer la séquence de données pour l’examen, veuillez réessayer. Si le problème persiste, veuillez contacter le service d'assistance"
     },
     "filter": "Filtrer",
     "library": {
@@ -391,6 +393,7 @@
     "sort": "trier",
     "status": {
       "all": "Tout consulter",
+      "created": "Créé",
       "merged": "Fusionné",
       "open": "Ouvrir",
       "ready": "Prêt pour révision",

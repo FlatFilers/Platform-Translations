@@ -304,7 +304,9 @@
       "mark_as_ready": "Veri klibini birleştirme için hazır olarak işaretleyemedik, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin",
       "mark_for_review": "Veri klibiniz incelemeye gönderilemedi, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin",
       "mark_merged": "Veri klibiniz birleştirilemedi, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin",
-      "mark_open": "Veri klibini yeniden açamadık, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin"
+      "mark_open": "Veri klibini yeniden açamadık, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin",
+      "merge": "Veri klibini birleştiremedik, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin",
+      "refresh_resolutions": "Veri klibini inceleme için hazırlayamadık, lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibiyle iletişime geçin"
     },
     "filter": "Filtrele",
     "library": {
@@ -391,6 +393,7 @@
     "sort": "sırala",
     "status": {
       "all": "Tümünü gör",
+      "created": "Oluşturuldu",
       "merged": "Birleştirildi",
       "open": "Aç",
       "ready": "İncelemeye hazır",

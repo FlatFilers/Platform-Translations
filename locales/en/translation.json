@@ -231,7 +231,7 @@
       "tooltip": {
         "conflicts": "Please resolve conflicts before merging.",
         "no_changes": "Make at least one change in order to merge.",
-        "no_data_clips": "There are no open data clips available to add records to.",
+        "no_data_clips": "Create a data clip to add to.",
         "none_selected": {
           "add_to_clip": "Select at least one record to add to a data clip.",
           "create": "Select at least one record to create a data clip."
@@ -301,8 +301,8 @@
       "mark_for_review": "Your data clip failed to submit for review, please try again. If the problem persists, please contact support",
       "mark_merged": "Your data clip failed to merge, please try again. If the problem persists, please contact support",
       "mark_open": "We were unable to reopen the data clip, please try again. If the problem persists, please contact support",
-      "refresh_resolutions": "We were unable to prepare the data clip for review, please try again. If the problem persists, please contact support",
-      "merge": "We were unable to merge the data clip, please try again. If the problem persists, please contact support"
+      "merge": "We were unable to merge the data clip, please try again. If the problem persists, please contact support",
+      "refresh_resolutions": "We were unable to prepare the data clip for review, please try again. If the problem persists, please contact support"
     },
     "filter": "Filter",
     "library": {
@@ -321,7 +321,7 @@
         "status": "Status",
         "updated_at": "Last edited"
       },
-      "search": "Search by data clip, sheet, or creator email",
+      "search": "Search by data clip, sheet, or creator name",
       "source_name": "Source Sheet: ",
       "title": "Data clip library"
     },
@@ -386,11 +386,11 @@
     "sort": "sort",
     "status": {
       "all": "See all",
+      "created": "Created",
       "merged": "Merged",
       "open": "Open",
       "ready": "Ready for review",
-      "title": "Status",
-      "created": "Created"
+      "title": "Status"
     },
     "success": {
       "add_records": "Records added successfully.",
@@ -913,7 +913,7 @@
   },
   "nativeActions": {
     "addColumn": "Add column",
-    "clearColumn": "Clear column",
+    "clearColumn": "Clear Column",
     "removeColumn": "Remove column"
   },
   "platform": {

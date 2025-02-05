@@ -300,7 +300,9 @@
       "mark_as_ready": "Chúng tôi không thể đánh dấu rằng clip dữ liệu đã sẵn sàng gộp, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ",
       "mark_for_review": "Clip dữ liệu của bạn đã không được gửi đi để xét duyệt, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ",
       "mark_merged": "Clip dữ liệu của bạn đã không gộp thành công, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ",
-      "mark_open": "Chúng tôi không thể mở lại clip dữ liệu, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ"
+      "mark_open": "Chúng tôi không thể mở lại clip dữ liệu, vui lòng thử lại. Nếu vấn đề tiếp diễn, vui lòng liên hệ đội hỗ trợ",
+      "merge": "Chúng tôi không thể hợp nhất đoạn dữ liệu, vui lòng thử lại. Nếu vấn đề vẫn tiếp tục, vui lòng liên hệ với bộ phận hỗ trợ",
+      "refresh_resolutions": "Chúng tôi không thể chuẩn bị đoạn dữ liệu để xem xét, vui lòng thử lại. Nếu vấn đề vẫn tiếp tục, vui lòng liên hệ với bộ phận hỗ trợ"
     },
     "filter": "Bộ lọc",
     "library": {
@@ -384,6 +386,7 @@
     "sort": "sắp xếp",
     "status": {
       "all": "Xem tất cả",
+      "created": "Đã tạo",
       "merged": "Đã gộp",
       "open": "Mở",
       "ready": "Sẵn sàng để xem xét",

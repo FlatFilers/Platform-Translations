@@ -304,7 +304,9 @@
       "mark_as_ready": "Não foi possível marcar o clipe de dados como pronto para mesclagem. Tente novamente. Se o problema persistir, entre em contato com o suporte.",
       "mark_for_review": "Falha ao enviar seu clipe de dados para análise. Tente novamente. Se o problema persistir, entre em contato com o suporte.",
       "mark_merged": "Falha ao mesclar seu clipe de dados. Tente novamente. Se o problema persistir, entre em contato com o suporte.",
-      "mark_open": "Não foi possível reabrir o clipe de dados. Tente novamente. Se o problema persistir, entre em contato com o suporte."
+      "mark_open": "Não foi possível reabrir o clipe de dados. Tente novamente. Se o problema persistir, entre em contato com o suporte.",
+      "merge": "Não conseguimos mesclar o clipe de dados. Por favor, tente novamente. Se o problema persistir, entre em contato com o suporte.",
+      "refresh_resolutions": "Não conseguimos preparar o clipe de dados para revisão. Por favor, tente novamente. Se o problema persistir, entre em contato com o suporte."
     },
     "filter": "Filtro",
     "library": {
@@ -391,6 +393,7 @@
     "sort": "ordenar",
     "status": {
       "all": "Ver tudo",
+      "created": "Criado",
       "merged": "Mesclado",
       "open": "Abrir",
       "ready": "Pronto para revisão",

@@ -300,7 +300,9 @@
       "mark_as_ready": "Kami tidak dapat menandai cuplikan data sebagai siap untuk digabungkan, silakan coba lagi. Jika masalah terus terjadi, silakan hubungi bantuan",
       "mark_for_review": "Cuplikan data Anda gagal dikirim untuk ditinjau, silakan coba lagi. Jika masalah terus terjadi, silakan hubungi bantuan",
       "mark_merged": "Cuplikan data Anda gagal digabungkan, silakan coba lagi. Jika masalah terus terjadi, silakan hubungi bantuan",
-      "mark_open": "Kami tidak dapat membuka ulang cuplikan data, silakan coba lagi. Jika masalah terus terjadi, silakan hubungi bantuan"
+      "mark_open": "Kami tidak dapat membuka ulang cuplikan data, silakan coba lagi. Jika masalah terus terjadi, silakan hubungi bantuan",
+      "merge": "Kami tidak dapat menggabungkan klip data, silakan coba lagi. Jika masalah tetap berlanjut, harap hubungi dukungan.",
+      "refresh_resolutions": "Kami tidak dapat menyiapkan klip data untuk ditinjau, silakan coba lagi. Jika masalah tetap berlanjut, harap hubungi dukungan."
     },
     "filter": "Filter",
     "library": {
@@ -384,6 +386,7 @@
     "sort": "urutkan",
     "status": {
       "all": "Lihat semua",
+      "created": "Dibuat",
       "merged": "Digabung",
       "open": "Buka",
       "ready": "Siap untuk ditinjau",

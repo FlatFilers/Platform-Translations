@@ -303,7 +303,9 @@
       "mark_as_ready": "Vi kunde inte markera dataklippet som klart för sammanslagning. Försök igen, tack. Kontakta supporten om problemet kvarstår.",
       "mark_for_review": "Ditt dataklipp kunde inte skickas in för granskning. Gör ett nytt försök, tack. Kontakta supporten om problemet kvarstår.",
       "mark_merged": "Ditt dataklipp kunde inte slås samman. Gör ett nytt försök, tack. Kontakta supporten om problemet kvarstår.",
-      "mark_open": "Vi kunde inte öppna dataklippet igen. Gör ett nytt försök, tack. Kontakta supporten om problemet kvarstår."
+      "mark_open": "Vi kunde inte öppna dataklippet igen. Gör ett nytt försök, tack. Kontakta supporten om problemet kvarstår.",
+      "merge": "Vi kunde inte sammanfoga dataklippet, försök igen. Om problemet kvarstår, kontakta support",
+      "refresh_resolutions": "Vi kunde inte förbereda dataklippet för granskning, försök igen. Om problemet kvarstår, kontakta support"
     },
     "filter": "Filtrera",
     "library": {
@@ -390,6 +392,7 @@
     "sort": "ordna",
     "status": {
       "all": "Se alla",
+      "created": "Skapad",
       "merged": "Sammanfogad",
       "open": "Öppna",
       "ready": "Klar för granskning",

@@ -304,7 +304,9 @@
       "mark_as_ready": "We were unable to mark the data clip as ready for merge, please try again. If the problem persists, please contact support.",
       "mark_for_review": "Your data clip failed to submit for review, please try again. If the problem persists, please contact support.",
       "mark_merged": "Your data clip failed to merge, please try again. If the problem persists, please contact support.",
-      "mark_open": "We were unable to reopen the data clip, please try again. If the problem persists, please contact support."
+      "mark_open": "We were unable to reopen the data clip, please try again. If the problem persists, please contact support.",
+      "merge": "We were unable to merge the data clip, please try again. If the problem persists, please contact support",
+      "refresh_resolutions": "We were unable to prepare the data clip for review, please try again. If the problem persists, please contact support"
     },
     "filter": "Filter",
     "library": {
@@ -391,6 +393,7 @@
     "sort": "sort",
     "status": {
       "all": "See all",
+      "created": "Created",
       "merged": "Merged",
       "open": "Open",
       "ready": "Ready for review",

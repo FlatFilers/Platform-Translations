@@ -304,7 +304,9 @@
       "mark_as_ready": "Wir konnten den Datenclip nicht als zusammenführbar markieren. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support.",
       "mark_for_review": "Ihr Datenclip konnte nicht zur Überprüfung eingereicht werden. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support.",
       "mark_merged": "Ihr Datenclip konnte nicht zusammengeführt werden. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support.",
-      "mark_open": "Wir konnten den Datenclip nicht erneut öffnen. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support."
+      "mark_open": "Wir konnten den Datenclip nicht erneut öffnen. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support.",
+      "merge": "Wir konnten den Datenclip nicht zusammenführen, bitte versuchen Sie es erneut. Falls das Problem fortbesteht, wenden Sie sich bitte an den Support.",
+      "refresh_resolutions": "Wir konnten den Datenclip nicht zur Überprüfung vorbereiten, bitte versuchen Sie es erneut. Falls das Problem fortbesteht, wenden Sie sich bitte an den Support."
     },
     "filter": "Filtern",
     "library": {
@@ -391,6 +393,7 @@
     "sort": "sortieren",
     "status": {
       "all": "Alle anzeigen",
+      "created": "Erstellt",
       "merged": "Zusammengeführt",
       "open": "Öffnen",
       "ready": "Bereit zur Überprüfung",

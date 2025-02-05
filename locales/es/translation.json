@@ -304,7 +304,9 @@
       "mark_as_ready": "No pudimos marcar el clip de datos como listo para fusionarse. Inténtelo nuevamente. Si el problema persiste, comuníquese con el servicio de asistencia.",
       "mark_for_review": "Su clip de datos no se pudo enviar para revisión. Inténtelo nuevamente. Si el problema persiste, comuníquese con el servicio de asistencia.",
       "mark_merged": "Su clip de datos no se pudo fusionar. Inténtelo nuevamente. Si el problema persiste, comuníquese con el servicio de asistencia.",
-      "mark_open": "No pudimos reabrir el clip de datos. Inténtelo nuevamente. Si el problema persiste, comuníquese con el servicio de asistencia."
+      "mark_open": "No pudimos reabrir el clip de datos. Inténtelo nuevamente. Si el problema persiste, comuníquese con el servicio de asistencia.",
+      "merge": "No hemos podido fusionar el clip de datos, inténtelo de nuevo. Si el problema persiste, póngase en contacto con el servicio de asistencia",
+      "refresh_resolutions": "No hemos podido preparar el clip de datos para su revisión, inténtelo de nuevo. Si el problema persiste, póngase en contacto con el servicio de asistencia"
     },
     "filter": "Filtrar",
     "library": {
@@ -391,6 +393,7 @@
     "sort": "clasificar",
     "status": {
       "all": "Ver todo",
+      "created": "Creado",
       "merged": "Fusionado",
       "open": "Abrir",
       "ready": "Listo para revisión",

@@ -304,7 +304,9 @@
       "mark_as_ready": "Non siamo riusciti a contrassegnare la clip dati come pronta per l'unione. Riprova. Se il problema persiste, contatta l'assistenza",
       "mark_for_review": "Non è stato possibile inviare la tua clip dati per la revisione. Riprova. Se il problema persiste, contatta l'assistenza",
       "mark_merged": "Non è stato possibile unire la tua clip dati. Riprova. Se il problema persiste, contatta l'assistenza",
-      "mark_open": "Non siamo riusciti a riaprire la clip dati. Riprova. Se il problema persiste, contatta l'assistenza"
+      "mark_open": "Non siamo riusciti a riaprire la clip dati. Riprova. Se il problema persiste, contatta l'assistenza",
+      "merge": "Non siamo riusciti a unire il data clip, riprova. Se il problema persiste, contatta il supporto.",
+      "refresh_resolutions": "Non siamo riusciti a preparare il data clip per la revisione, riprova. Se il problema persiste, contatta il supporto."
     },
     "filter": "Filtra",
     "library": {
@@ -391,6 +393,7 @@
     "sort": "ordina",
     "status": {
       "all": "Vedi tutto",
+      "created": "Creato",
       "merged": "Unito",
       "open": "Apri",
       "ready": "Pronto per la revisione",

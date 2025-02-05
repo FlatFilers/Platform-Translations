@@ -299,7 +299,9 @@
       "mark_as_ready": "Kami tidak dapat menandakan klip data sebagai sedia untuk digabungkan, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan",
       "mark_for_review": "Klip data anda gagal diserahkan untuk semakan, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan",
       "mark_merged": "Klip data anda gagal digabungkan, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan",
-      "mark_open": "Kami tidak dapat membuka semula klip data, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan"
+      "mark_open": "Kami tidak dapat membuka semula klip data, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan",
+      "merge": "Kami tidak dapat menggabungkan klip data, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan",
+      "refresh_resolutions": "Kami tidak dapat menyediakan klip data untuk semakan, sila cuba lagi. Jika masalah berterusan, sila hubungi sokongan"
     },
     "filter": "Tapis",
     "library": {
@@ -383,6 +385,7 @@
     "sort": "isih",
     "status": {
       "all": "Lihat semua",
+      "created": "Dicipta",
       "merged": "Digabungkan",
       "open": "Buka",
       "ready": "Sedia untuk semakan",

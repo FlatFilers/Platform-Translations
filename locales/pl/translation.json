@@ -311,7 +311,9 @@
       "mark_as_ready": "Nie udało się oznaczyć tego klipu danych jako gotowego do scalenia. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
       "mark_for_review": "Nie udało się przesłać Twojego klipu danych do recenzji. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
       "mark_merged": "Nie udało się scalić Twojego klipu danych. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
-      "mark_open": "Nie udało się ponownie otworzyć tego klipu danych. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia."
+      "mark_open": "Nie udało się ponownie otworzyć tego klipu danych. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
+      "merge": "Nie udało się scalić tego klipu danych. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia.",
+      "refresh_resolutions": "Nie udało się przygotować tego klipu danych do recenzji. Spróbuj ponownie. Jeśli ten problem będzie się utrzymywał, skontaktuj się z działem wsparcia."
     },
     "filter": "Filtr",
     "library": {
@@ -404,6 +406,7 @@
     "sort": "sortuj",
     "status": {
       "all": "Zobacz wszystko",
+      "created": "Utworzono",
       "merged": "Scalone",
       "open": "Otwórz",
       "ready": "Gotowe do przeglądu",
