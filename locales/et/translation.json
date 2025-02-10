@@ -1,1 +1,1921 @@
-{}
+{
+  "aiTransform": {
+    "changedColumnsText_one": "1 veerg muudetud andmetega",
+    "changedColumnsText_other": "{{count}} veergu muudetud andmetega",
+    "changedColumnsText_zero": "{{count}} veergu, mille andmed on muudetud",
+    "errors": {
+      "entitlementError": {
+        "content": "Kui arvate, et tegemit veaga, siis suhelge klienditeenindusega.",
+        "title": "Vabandust! Te ei pääse sellele võimalusele juurde."
+      },
+      "generalError": {
+        "title": "Midagi läks nihu. Proovige uuesti."
+      },
+      "generateMutationError": {
+        "title": "AI-ga ei saa ühendust. Proovige hiljem uuesti."
+      },
+      "invalidFunctionError": {
+        "content": "Tõenäoliselt palusite tal teha midagi sobimatut.",
+        "title": "Kahjuks ei saa AI-abiline seda teisendust teostada."
+      },
+      "keysModifiedError": {
+        "title": "Kahjuks saab AI-abiline muuta ainult olemasolevate väljade väärtusi. See ei saa välju eemaldada ega uusi lisada."
+      },
+      "noFunctionError": {
+        "content": "Proovige seda sõnastada teisiti. Väljanimesid sisaldavad käsklused on tavaliselt paremad.",
+        "title": "Me ei saanud teie käsklusest aru."
+      },
+      "noRecordsFoundError": {
+        "content": "Antud päringu jaoks ei leitud ühtegi kirjet. Palun proovige uuesti.",
+        "title": "Ühtegi kirjet ei leitud"
+      },
+      "noresultsError": {
+        "content": "Proovige seda sõnastada teisiti. Väljanimesid sisaldavad käsklused on tavaliselt paremad.",
+        "title": "Teie käsklus ei muutnud andmeid."
+      },
+      "prompttoolongError": {
+        "content": "Proovige käsklust lühendada või jagada see mitmeks toiminguks ja proovige uuesti.",
+        "title": "Vabandust! Teie käsklus oli natuke liiga pikk."
+      },
+      "versionError": {
+        "content": "Tagasipööratud versiooni ei saa luua.",
+        "title": "Midagi läks nihu. Proovige uuesti."
+      }
+    },
+    "exitConfirmation": {
+      "body": "Kas soovite kindlasti väljuda?",
+      "header": "Väljumise kinnitus",
+      "label": "Välju"
+    },
+    "jobCompleteHeading": "AI teisendustöö on lõpetatud",
+    "jobCompleteMessage": "Kirjed on muudetud",
+    "promptBar": {
+      "categoricalWarning": "Sellel väljal on tehisintellekti jaoks teisendamiseks liiga palju valikuid.",
+      "transformButton": {
+        "tooltip": {
+          "active": "Kirjeldage, kuidas soovite välja andmeid mis tahes loogika alusel teisendada, sealhulgas mis tahes välja andmeid",
+          "disabled": "AI-abilise kasutamiseks peavad teie (filtreeritud) lehel olema mõned kirjed.",
+          "locked": "See leht on lukustatud.",
+          "noRows": "AI-abilise kasutamiseks peavad teie (filtreeritud) lehel olema mõned kirjed.",
+          "readOnly": "See leht on kirjutuskaitstud.",
+          "tooManyRows": "Lehel on liiga palju ridu (üle 1 miljoni)."
+        }
+      },
+      "warning": "Märkus. Mõnel andmestiku kategoorilisel väljal on palju konfigureeritud valikuid. Nende väljade (nt @{{fieldName}}) kasutamine käskluses ei pruugi ootuspäraselt toimida."
+    },
+    "sampleMessage": "{{number}} kirje eelvaade",
+    "scrollInfoText": "Keri järgmise muudetud veeruni",
+    "toggleLabel": "Kuva ainult muudetud andmed"
+  },
+  "blocks": {
+    "embeddedDiff": {
+      "errors": {
+        "invalidDirection": "Manustatud erinevust ei saa luua vale atribuudi 'direction' tõttu. Kehtivad väärtused on: 'sheet_to_snapshot', 'snapshot_to_sheet'",
+        "missingIds": "Manustatud erinevust ei saa luua, sest puudub lehe, töövihiku või hetktõmmise ID"
+      }
+    },
+    "embeddedSheet": {
+      "errors": {
+        "missingIds": "Manustatud lehte ei saa luua, sest puudub lehe või töövihiku ID"
+      }
+    }
+  },
+  "checklist": {
+    "dropdowns": {
+      "headings": {
+        "sheet": "Leht",
+        "workbook": "Töövihik"
+      }
+    },
+    "errors": {
+      "cannotLoadChecklist": "Andmete kontroll-loendit ei olnud võimalik laadida",
+      "cannotLoadSheet": "Lehte ei leitud",
+      "noWorkbooksDescription": "Andmete kontroll-loend nõuab, et aktiivne oleks vähemalt 1 töövihik. Laske arendajal konfiguratsiooni kontrollida. Kui see probleem püsib, võtke ühendust toega.",
+      "noWorkbooksTitle": "Töövihik nõutud"
+    },
+    "table": {
+      "dataTypes": {
+        "boolean": "Boolean",
+        "date": "Kuupäev",
+        "enum": "Enum",
+        "number": "Number",
+        "reference": "Viide",
+        "string": "String",
+        "unknown": "Tundmatu"
+      },
+      "fieldTagComputed": "Arvutatud",
+      "fieldTagRequired": "Nõutud",
+      "fieldTagUnique": "Unikaalne",
+      "headings": {
+        "dataType": "Andmetüüp",
+        "description": "Kirjeldus",
+        "field": "Välja nimetus"
+      }
+    },
+    "title": "Andmete kontroll-loend"
+  },
+  "commandMenu": {
+    "aiAssist": {
+      "query": {
+        "askingAI": {
+          "stepFour": "Lõpetamine",
+          "stepOne": "Mõtlemine",
+          "stepThree": "Pooleli",
+          "stepTwo": "Kirjutamine"
+        },
+        "description": {
+          "branded": "palu AI-l kirjutada FFQL-is päring",
+          "whitelabeled": "palu tehisintellektil esitada päring teie eest"
+        },
+        "errorBanner": {
+          "generalError": "Midagi läks nihu. Proovige uuesti."
+        },
+        "instruction": "Kirjeldage, kuidas tehisintellekti abi toimetaks teie andmetega:",
+        "review": {
+          "description": "Nuputasin välja alloleva. Lugege põhjalikku selgitust ja päringut ning kui see sobib, klõpsake all selle kasutamiseks.",
+          "explanationTitle": "Selgitus",
+          "queryTitle": "Päring"
+        }
+      },
+      "transform": {
+        "askingAI": {
+          "stepFour": "Lõpetamine",
+          "stepOne": "Mõtlemine",
+          "stepThree": "Pooleli",
+          "stepTwo": "Kirjutamine"
+        }
+      }
+    },
+    "buttons": {
+      "apply": "Jah",
+      "cancel": "Tühista"
+    },
+    "commands": {
+      "filter": {
+        "apply": "Rakenda filter.",
+        "description": {
+          "branded": "kirjuta avaldus Flatfile'i päringukeeles",
+          "whitelabeled": "kirjuta päring"
+        },
+        "hiddenColumnsWarning_one": "Päring {{fields}} näitab taas 1 välja",
+        "hiddenColumnsWarning_other": "Päring {{fields}} näitab taas {{count}} välja",
+        "hiddenColumnsWarning_zero": "Päring {{fields}} peidab {{count}} välja",
+        "invalidFFQL": "Vigane avaldus Flatfile'i päringukeeles. Proovite uuesti?",
+        "learnHow": "lisateave"
+      },
+      "search": {
+        "global": {
+          "apply": "Rakenda otsing.",
+          "description": "otsi kogu lehelt"
+        },
+        "inField": {
+          "apply": "Rakenda otsing välja raames.",
+          "applyExample": "st 'first_name' Jane Doe",
+          "description": "otsi välja raames"
+        }
+      }
+    },
+    "itemMessage": "kinnitamiseks vajutage {{icon}}",
+    "placeholder": "Leia või alusta toimingut ..."
+  },
+  "comments": {
+    "addReaction": "Lisa reaktsioon",
+    "commentDisabledTooltip": "Kommenteerimiseks valige tulp või rida",
+    "comments": "Kommentaarid",
+    "delete": "Kustuta kommentaar",
+    "edit": "Muuda kommentaari",
+    "edited": " (muudetud)",
+    "hidden": "peidavad filtrid...",
+    "noResolvedThreads": "Kõik teemad on pooleli",
+    "noResults": "Leiud puuduvad",
+    "noUpdates": "Pole uuendusi",
+    "placeholder": "Kommenteerige siin...",
+    "reactionList": "<0></0> reageeris emotikoniga {{emoji}}",
+    "reopen": "Ava teema uuesti",
+    "repliesCount_one": "Veel {{count}} vastust",
+    "repliesCount_other": "Veel {{count}} vastust",
+    "repliesCount_zero": "Veel {{count}} vastust",
+    "resolve": "Lõpeta teema",
+    "resolved": "Lahendatud",
+    "row": "{{row}}. rida",
+    "rowAndColumn": "{{row}}. rida, veerg {{column}}",
+    "send": "Saada kommentaar",
+    "threadPlaceholder": "Vasta või mainige teisi tähemärgiga @...",
+    "updates": "Uuendused",
+    "updatesError": "Uuenduste laadimisel ilmnes viga",
+    "userCommented": "<user>{{user}}</user> kommenteeris järgmist: <identifier>{{identifier}}</identifier>",
+    "userReacted": "<0></0> reageeris teie kommentaarile",
+    "you": "Sina"
+  },
+  "common": {
+    "cancel": "Tühista",
+    "lastWeek": "Eelmine nädal",
+    "name": "Nimetus",
+    "older": "Vanem",
+    "thisWeek": "See nädal",
+    "today": "Täna",
+    "yesterday": "Eile"
+  },
+  "dataClips": {
+    "actions": {
+      "add_to_clip": "Lisa andmeklipile valikuid",
+      "buttons": {
+        "back": "Tagasi",
+        "conflicts": "Lahenda vead",
+        "review": "Vaata muudatused üle",
+        "share": "Jaga",
+        "submit_for_review": "Esita ülevaatuseks",
+        "view": "Kuva andmeklipp"
+      },
+      "create": "Loo andmeklipp",
+      "library": "Ava andmeklippide teek",
+      "sheet_list": "Vaata lehe andmeklippe",
+      "tooltip": {
+        "conflicts": "Lahenda konfliktid enne liitmist.",
+        "no_changes": "Liitmiseks tehke vähemalt üks muudatus.",
+        "no_data_clips": "Looge andmeklipp, millele lisada.",
+        "none_selected": {
+          "add_to_clip": "Valige andmeklipile lisamiseks vähemalt üks kirje.",
+          "create": "Andmeklippi loomiseks valige vähemalt üks kirje."
+        },
+        "review": "Sellele andmeklipile pole muudatusi tehtud."
+      }
+    },
+    "buttonText": "Klipi andmed",
+    "choose_action": "Vali tegevus:",
+    "clear": "tühjenda",
+    "collaborators": "Kaastöötajad",
+    "confirmation": {
+      "delete": {
+        "cancel": "Tühista",
+        "description": "See kustutab selle andmeklipi teie kogust jäädavalt.",
+        "submit": "Kustuta",
+        "title": "Kustuta"
+      },
+      "ready": {
+        "cancel": "Tühista",
+        "description": "Teie muudatused saadetakse ülevaatamisele.",
+        "submit": "Esita",
+        "title": "Esita ülevaatuseks"
+      }
+    },
+    "conflictResolution": {
+      "applyAll": "Rakendada kõikjal?",
+      "change_description": "Muudetakse välja „{{fieldName}}“ 1 kannet.",
+      "columnTotal": "Veerge kokku:",
+      "description": "Muudeti nii lähtelehte kui ka andmeklippi. Valige, mida säilitada.",
+      "empty": {
+        "description": "Valmis kontrolliks",
+        "status": "Valmis",
+        "title": "Vigu pole"
+      },
+      "row": "Rida",
+      "title": "Valige liidetav muudatus"
+    },
+    "created_by": "Koostas",
+    "detailsModal": {
+      "create": {
+        "action": "Loo",
+        "title": "Loo andmeklipp"
+      },
+      "edit": {
+        "action": "Esita",
+        "title": "Redigeeri andmeklippi"
+      },
+      "placeholder": "Lisa kommentaar (valikuline) ...",
+      "review": "Ülevaade"
+    },
+    "empty": "Näidatavaid andmeklippe pole",
+    "error": "Selle ruumi andmeklippide laadimine nurjus",
+    "errors_one": "{{count}} viga",
+    "errors_other": "{{count}} viga",
+    "errors_zero": "{{count}} viga",
+    "errors": {
+      "add_records_create": "Kannete lisamisel andmeklippi ilmnes ootamatu viga. Loodi tühi andmeklipp.",
+      "add_to_clip": "Andmeklippi",
+      "bulk_resolve_all_conflicts": "Vastuolude lahendamisel ilmnes ootamatu viga. Proovige uuesti. Mure kordumisel suhelge klienditeenindusega.",
+      "create": "Andmeklipi loomisel ilmnes ootamatu viga. Proovige uuesti. Mure kordumisel suhelge klienditeenindusega.",
+      "delete": "Andmeklipi kustutamine nurjus. Proovige uuesti. Mure kordumisel suhelge klienditeenindusega.",
+      "diff_view": "Andmeklipi võrdleva vaate laadimisel ilmnes ootamatu viga. Proovige uuesti. Mure kordumisel suhelge klienditeenindusega.",
+      "edit": "Andmeklippide muutmisel ilmnes ootamatu viga. Proovige uuesti. Mure kordumisel suhelge klienditeenindusega.",
+      "link_copy": "Lingi kopeerimisel ilmnes ootamatu viga. Proovige uuesti. Mure kordumisel suhelge klienditeenindusega.",
+      "list": "Andmeklipi kogu laadimisel ilmnes ootamatu viga. Proovige uuesti. Mure kordumisel suhelge klienditeenindusega.",
+      "mark_as_ready": "Nurjus andmeklipi märkimine valmis liitmiseks. Proovige uuesti. Mure kordumisel suhelge klienditeenindusega.",
+      "mark_for_review": "Andmeklipi saatmine kontrolli nurjus. Proovige uuesti. Mure kordumisel suhelge klienditeenindusega.",
+      "mark_merged": "Andmeklipi liitmine nurjus. Proovige uuesti. Mure kordumisel suhelge klienditeenindusega.",
+      "mark_open": "Andmeklipi taasavamine nurjus. Proovige uuesti. Mure kordumisel suhelge klienditeenindusega.",
+      "merge": "Meil ei õnnestunud andmeklippi liita. Proovige uuesti. Mure püsimisel suhelge klienditeenindusega",
+      "refresh_resolutions": "Meil ei õnnestunud andmeklipi kontrollimist ette valmistada. Proovige uuesti. Mure püsimisel suhelge klienditeenindusega"
+    },
+    "filter": "Jaota",
+    "library": {
+      "actions": {
+        "delete": "Kustuta",
+        "edit": "Kuva",
+        "edit_details": "Redigeeri üksikasju"
+      },
+      "create": "Loo andmeklipp",
+      "guest_search": "Otsi andmeklipi või lehe nime järgi",
+      "headers": {
+        "creator": "Looja",
+        "name": "Nimetus",
+        "records": "Kirjed",
+        "sheet": "Otsi lehelt",
+        "status": "Olek",
+        "updated_at": "Viimati redigeeritud"
+      },
+      "search": "Otsi andmeklipi, lehe või looja nime järgi",
+      "source_name": "Otsi lehelt: ",
+      "title": "Andmeklippide teek"
+    },
+    "merge": "Liida muudatused",
+    "modal": {
+      "cancel": "Tühista",
+      "share": "Loo"
+    },
+    "newConflicts": {
+      "close": "Sulge",
+      "description": "Seda andmeklippi kontrollides ilmnesid uued vead.",
+      "submit": "Lahenda vead",
+      "title": "Leiti uued vead"
+    },
+    "next": "Järgmine",
+    "promise": "Ohutu ja turvaline saatmine",
+    "resend": "Ava uuesti ja naase",
+    "resolutions": {
+      "applyAll": {
+        "button": "Jah",
+        "description_one": "Kas tahate ka „{{columnLabel}}“ veerus lahendada ülejäänud vead järgmiselt: „{{resolveTo}}“? {{count}} kanne uuendatakse.",
+        "description_other": "Kas tahate ka „{{columnLabel}}“ veerus lahendada ülejäänud vead järgmiselt: „{{resolveTo}}“? {{count}} kannet uuendatakse.",
+        "description_zero": "Kas tahate ka „{{columnLabel}}“ veerus lahendada ülejäänud vead järgmiselt: „{{resolveTo}}“? {{count}} kannet uuendatakse."
+      },
+      "cancel": "Salvesta ja välju",
+      "complete": "Valmis",
+      "conflicts_found": {
+        "button_one": "{{count}} viga",
+        "button_other": "{{count}} viga",
+        "button_zero": "{{count}} viga",
+        "clip_override": {
+          "description": "See ei muuda lähtelehel midagi ja vastuolus andemklipi muudatused tühistatakse.",
+          "title": "Tühista andmeklipi väärtused"
+        },
+        "options_title": "Valige tegevus",
+        "resolve_conflicts": {
+          "description": "Nii näete kõiki andmeklipi vigu ja saate otsustada, mis väärtusi liita või eirata.",
+          "title": "Muutke eraldi"
+        },
+        "source_override": {
+          "description": "See uuendab kõik vastuolus väärtused, et kattuda liidetava andmeklipiga.",
+          "title": "Nõustu andmeklipi väärtustega"
+        },
+        "title": "Leiti erinevused"
+      },
+      "empty": {
+        "button": "Naase klippi",
+        "description": "Liitmiseks tehke vähemalt üks muudatus.",
+        "title": "Selles andmeklipis ei tuvastatud ühtki muudatust."
+      },
+      "merge": "Liida"
+    },
+    "selectedRecords_one": "{{count}} kanne valitud",
+    "selectedRecords_other": "{{count}} kannet valitud",
+    "selectedRecords_zero": "{{count}} kannet valitud",
+    "share": {
+      "copy_link": "Kopeeri link",
+      "description": "Kaastöötajatele saadetakse selle andmeklipi muutmise kutse.",
+      "empty": "Ühtki kaastöötajat pole saadaval.",
+      "none_selected": "Ühtki kaastöötajat pole valitud.",
+      "placeholder": "Lisa kaastöötajaid...",
+      "submit": "Jaga",
+      "title": "Jaga andmeklipp"
+    },
+    "sort": "järjesta",
+    "status": {
+      "all": "Vaata kõiki",
+      "created": "Loodud",
+      "merged": "Liidetud",
+      "open": "Ava",
+      "ready": "Valmis kontrolliks",
+      "title": "Olek"
+    },
+    "success": {
+      "add_records": "Kannete lisamine õnnestus.",
+      "create": "Andmeklipi loomine õnnestus.",
+      "delete": "Andmeklipi kustutamine õnnestus.",
+      "edit": "Muudatuste salvestamine õnnestus.",
+      "link_copy": "Lingi kopeerimine õnnestus!",
+      "mark_as_ready": "Andmeklipi esitamine kontrolli õnnestus. Klipi omanikku on teavitatud.",
+      "mark_merged": "Andmeklipi liitmine õnnestus.",
+      "mark_open": "Andmeklipi taasavamine ja tagastamine õnnestus!",
+      "modal": {
+        "create": {
+          "button": "Kuva andmeklipp",
+          "close": "Sulge",
+          "description": "Nüüd saate vaadata uut andmeklippi.",
+          "title": "Andmeklipp on loodud"
+        },
+        "ready": {
+          "close": "Sulge",
+          "description": "Muudatused on esitatud kontrolli. Teavitame teid  mistahes märkusest või muutusest.",
+          "submit": "Naase andmeklippi",
+          "title": "Muudatuste esitamine õnnestus!"
+        }
+      }
+    },
+    "syncedRecords_one": "Kokku {{count}} kanne",
+    "syncedRecords_other": "Kokku {{count}} kannet",
+    "syncedRecords_zero": "Kokku {{count}} kannet"
+  },
+  "document": {
+    "error": {
+      "description": "Tundub, et seda dokumenti pole olemas",
+      "title": "Dokumenti ei leitud"
+    }
+  },
+  "errors": {
+    "accessDenied": "Juurdepääs keelatud",
+    "documentNotFound": "Dokumenti ei leitud",
+    "fileNotFound": "Faili ei leitud",
+    "missingParameter": "Parameetrit pole esitatud",
+    "notFound": "Ei leitud",
+    "notFoundPageDescription": "Selle URLiga pole ühtki lehekülge. Kui peaks olema, suhelge klienditeenindusega.",
+    "refreshButton": "Korda",
+    "refreshPageDescription": "Uuesti proovimiseks värskendage lehte. Kui probleem püsib, võtke ühendust toega.",
+    "returnToDashboardButton": "Naase töölauale",
+    "sessionExpired": "Seanss on aegunud",
+    "sessionExpiredDescription": "Juurdepääs praegusele seansile on aegunud.",
+    "sheetNotFound": "Lehte ei leitud",
+    "spaceNotFound": "Ruumi ei leitud",
+    "unauthorized": "Teie juurdepääsumandaadid on kehtetud.",
+    "unknownError": "Midagi läks nihu",
+    "workbookNotFound": "Töölehte ei leitud"
+  },
+  "files": {
+    "availableDownloadsTab": "Saadaval allalaadimised",
+    "buttons": {
+      "addFile": {
+        "inProgressText": "Faili üleslaadimine",
+        "text": "Laadi fail üles"
+      },
+      "addFileFrom": {
+        "box": "Kast",
+        "googleDrive": "Google Drive",
+        "text": "Lisa fail asukohast ..."
+      },
+      "delete": "Kustuta",
+      "download": "Laadi alla",
+      "googleDrive": "Lisa fail Google Drive'ist"
+    },
+    "connectionsModal": {
+      "box": "Kast",
+      "close": "Sulge",
+      "googleDrive": "Google Drive",
+      "heading": "Kontaktide haldamine",
+      "manage": "Halda",
+      "subtext": " Oma kontodele sisse või sealt välja logimiseks klõpsake allolevatel nuppudel."
+    },
+    "contextMenu": {
+      "delete": "Kustuta",
+      "download": "Laadi alla"
+    },
+    "counts": "{{start}}-{{end}} / {{total}}",
+    "deleteModal": {
+      "downloadDescription_one": "See allalaaditud fail kustutatakse ruumist.",
+      "downloadDescription_other": "Need allalaaditud failid kustutatakse ruumist.",
+      "downloadDescription_zero": "Need allalaaditud failid kustutatakse ruumist.",
+      "heading_one": "Kustuta fail",
+      "heading_other": "Kustuta failid",
+      "heading_zero": "Kustuta failid",
+      "subheading_one": "Fail",
+      "subheading_other": "Failid:",
+      "subheading_zero": "Failid:",
+      "uploadsDescription_one": "Kõik imporditud andmed salvestatakse. See kustutab faili ruumist.",
+      "uploadsDescription_other": "Kõik imporditud andmed salvestatakse. See kustutab failid ruumist.",
+      "uploadsDescription_zero": "Kõik imporditud andmed salvestatakse. See kustutab failid ruumist."
+    },
+    "downloadsTable": {
+      "headings": {
+        "createdDate": "Loodud",
+        "name": "Nimetus",
+        "size": "Suurus",
+        "sourceSheet": "Otsi lehelt"
+      },
+      "processing": "Eksportimine ..."
+    },
+    "emptyState": {
+      "downloads": {
+        "description": "Allalaaditud andmed kuvatakse siin",
+        "heading": "Ühtegi allalaadimist pole saadaval"
+      },
+      "uploads": {
+        "description": "Alustamiseks lohistage ja asetage fail või laadige see üles",
+        "heading": "Lisa failid"
+      }
+    },
+    "errors": {
+      "loadingError": "Faile ei saa laadida",
+      "uploadDisabledDescription": "Kui arvate, et see on viga, võtke ühendust toega.",
+      "uploadDisabledHeading": "See ruum ei toeta praegu failide üleslaadimist."
+    },
+    "title": "Failid",
+    "uploadedFilesTab": "Üleslaaditud failid",
+    "uploadFile": {
+      "popovers": {
+        "errorUploading": "Faili ei saa üles laadida: {{fileName}}",
+        "extracting": "Faili lahtipakkimine...",
+        "extractionCompleted": "Lahtipakkimine lõppes.",
+        "extractionFailed": "Lahtipakkimine nurjus. Proovige uuesti või suhelge klienditeenindusega.",
+        "onDragPopoverConfirmation": "Faili kukutamine asukohta:",
+        "unsupportedFile": "Toetamata failivorming. Proovige muud vormingut või suhelge klienditeenindusega.",
+        "unsupportedFileInfo": "Me ei tuvastanud selles failis andmeid. Vajadusel on see ikkagi allalaaditav.",
+        "uploadComplete": "Üles laaditud: {{fileName}}",
+        "uploadCompleteMany": "{{count}} faili üles laaditud",
+        "uploadError": "Faili {{fileName}} üleslaadmisel tekkis viga",
+        "uploadErrorMany": "Failide {{count}} üleslaadimisel tekkis viga",
+        "uploadingMany": "{{count}} faili üleslaadimine",
+        "uploadInProgress": "Üleslaadimine: {{fileName}}",
+        "uploadInProgressMany": "{{count}} faili üleslaadimine",
+        "uploadsDisabled": "See ruum ei toeta praegu failide üleslaadimist.",
+        "waitingForExtraction": "Faili lahtipakkimise ootel..."
+      }
+    },
+    "uploadsTables": {
+      "headings": {
+        "name": "Nimetus",
+        "status": "Olek",
+        "uploadedDate": "Üles laaditud"
+      },
+      "importButton": "Impordi",
+      "importError": "Imporditavat lähtefaili ei leita. Proovige uuesti. Mure püsimisel suhelge klienditeenindusega.",
+      "tooltips": {
+        "cannotImport": "Töövihikusse importimine ei ole selle faili jaoks praegu saadaval",
+        "noExtension": "Sellel failil puudub laiend. Lisage failinimele õige faililaiend ja laadige fail uuesti üles, et see töövihikusse importida"
+      }
+    }
+  },
+  "guestInvite": {
+    "getNewAccessLink": {
+      "content": "Saatsime turvalise juurdepääsu lingi aadressile",
+      "finePrint": "Kui teil on probleeme meili leidmisega, kontrollige oma rämpsposti kausta või värskendage seda lehte, et saada uus juurdepääsulink. Link toimib 5 minutit.",
+      "heading": "Vaata postikasti"
+    }
+  },
+  "helpCenter": {
+    "panel": {
+      "empty": "Kui see on seadistatud, on selle ruumi juhised saadaval siin.",
+      "heading": "Abikeskus"
+    },
+    "pill": {
+      "hoverText": "Abikeskus"
+    }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "Olete selle akna sulgemises kindel? See katkestab praeguse andmete importimise seansi.",
+        "primaryButtonText": "Jah, välju",
+        "secondaryButtonText": "Ei, jään",
+        "title": "Sulge aken"
+      },
+      "errorModal": {
+        "title": "Midagi läks nihu"
+      }
+    }
+  },
+  "jobs": {
+    "customActions": {
+      "modals": {
+        "confirmModal": {
+          "cancelButton": "Tühista",
+          "defaultConfirmButton": "Kinnita",
+          "defaultLoadingButton": "Laadimine...",
+          "isRequired": "{{field}} on kohustuslik",
+          "mustBeNumber": "{{field}} peab olema number"
+        },
+        "defaultJobName": "Töö",
+        "defaultResourceName": "see allikas",
+        "foregroundJobProgressModal": {
+          "defaultJobName": "Töö",
+          "defaultResourceName": "see allikas",
+          "percentComplete": "{{percent}}% tehtud",
+          "runningOn": "töötab"
+        },
+        "outcomeModals": {
+          "acknowledgementModal": {
+            "defaultContinueButton": "Jätka"
+          },
+          "defaultDownloadLabel": "Laadi alla",
+          "defaultFileName": "fail",
+          "defaultHeading": {
+            "failed": "Töö nurjus",
+            "success": "Tehtud!"
+          },
+          "defaultLabel": "Vaata allikat",
+          "defaultMessage": {
+            "failed": "{{jobName}} kohas {{resourceName}} nurjus",
+            "success": "{{jobName}} kohas {{resourceName}} lõppes edukalt"
+          },
+          "defaultRetryLabel": "Korda",
+          "defaultUrlLabel": "Külastage välist veebilehte",
+          "defaultViewLabel": "  Uuenda vaadet",
+          "permanentOutcomeModal": {
+            "defaultContinueButton": "Jätka"
+          }
+        },
+        "startModal": {
+          "confirmButton": "Kinnita",
+          "errorMessage": "Viga, mis vajab tegelemist",
+          "loadingText": "Laadimine..."
+        }
+      }
+    },
+    "download": {
+      "downloadStartedHeading": "Algas allalaadimine",
+      "downloadStartedMessage": "Allalaadimine oleks pidanud algama ise.",
+      "seeAllDownloads": "Kuva kõik allalaadimised"
+    },
+    "errors": {
+      "timeout": "Töö aegus."
+    },
+    "info": {
+      "copiedPopover": "Kopeeriti töö tunnus",
+      "copyIdTooltip": "Kopeeri töö tunnus"
+    },
+    "messages": {
+      "startingJob": "Töö alustamine"
+    },
+    "noListener": {
+      "learnMore": "Lisateave"
+    },
+    "panel": {
+      "action": {
+        "export": "Laadi alla",
+        "extract": "Impordi",
+        "mapping": "Ava tööleht"
+      },
+      "empty": "Ülesanded kuvatakse siin, kui need on pooleli või lõpetatud",
+      "errorLoadingJob": "Ei leitud",
+      "heading": "Tööd",
+      "status": {
+        "default": {
+          "canceled": {
+            "prefix": "Töö",
+            "suffix": "tühistatud"
+          },
+          "complete": {
+            "prefix": "Töö",
+            "suffix": "tehtud"
+          },
+          "failed": {
+            "prefix": "Töö",
+            "suffix": "nurjus"
+          },
+          "inProgress": "Töö pooleli",
+          "waiting": "Ootel:"
+        },
+        "delete": {
+          "cancelled": "Kirjete kustutamine tühistatud",
+          "complete": "Kustutamine lõpetatud",
+          "failed": "Kustutamine nurjus",
+          "inProgress": "Kirjete kustutamine",
+          "waiting": "Kirjete kustutamise ootel"
+        },
+        "export": {
+          "canceled": "Allalaadimine tühistatud",
+          "complete": "Allalaadimine loodud",
+          "failed": "Allalaadimise loomine nurjus",
+          "inProgress": "Allalaadimise loomine",
+          "waiting": "Allalaadimise loomise ootel"
+        },
+        "extract": {
+          "cancelled": "Faili lahtipakkimine tühistatud",
+          "complete": "Fail lahti pakitud",
+          "failed": "Faili lahtipakkimine nurjus",
+          "inProgress": "Faili lahtipakkimine",
+          "waiting": "Faili ekstraheerimise ootel"
+        },
+        "flatfile-add-column": {
+          "canceled": "Veeru lisamine tühistati",
+          "complete": "Veeru lisamine lõpetati",
+          "failed": "Veeru lisamine nurjus",
+          "inProgress": "Veeru lisamine",
+          "waiting": "Veeru lisamise ootel"
+        },
+        "flatfile-remove-column": {
+          "canceled": "Veeru eemaldamine tühistatud",
+          "complete": "Veeru eemaldamine lõpetatud",
+          "failed": "Veeru eemaldamine nurjus",
+          "inProgress": "Veeru eemaldamine",
+          "waiting": "Veeru eemaldamise ootel"
+        },
+        "mapping": {
+          "canceled": "Töölehele kaardistamine tühistatud",
+          "complete": "Töölehele kaardistatud",
+          "failed": "Töölehele kaardistamine nurjus",
+          "inProgress": "Töölehele kaardistamine",
+          "waiting": "Töövihiku kaardistamise ootel"
+        },
+        "mutate-records": {
+          "canceled": "Tühistatud AI teisendus",
+          "complete": "AI teisendus on lõpetatud",
+          "failed": "AI-teisendus nurjus",
+          "inProgress": "Kirjete teisendamine AI abil",
+          "waiting": "Kirjete AI-ga teisendamise ootel"
+        }
+      },
+      "time": {
+        "calculating": "Järelejäänud aja arvutamine...",
+        "completed": "Lõppes",
+        "failed": "Nurjus pärast",
+        "remaining": "jäänud",
+        "started": "Algas {{time}}",
+        "units": {
+          "hour": "h",
+          "minute": "min",
+          "second": "sek"
+        }
+      }
+    },
+    "pill": {
+      "hoverText": "Tööd",
+      "multipleJobsRunning": "{{count}} ülesanne(t) pooleli",
+      "status": {
+        "default": {
+          "complete": "Ülesanne lõpetatud",
+          "failed": "Töö nurjus",
+          "inProgress": "Ülesanne on pooleli"
+        },
+        "delete": {
+          "complete": "Kustutamine lõpetatud",
+          "failed": "Kustutamine nurjus",
+          "inProgress": "Kannete kustutamine..."
+        },
+        "extract": {
+          "complete": "Ekstraheerimine lõpetatud",
+          "failed": "Ekstraheerimine nurjus",
+          "inProgress": "Andmete ekstraheerimine ..."
+        },
+        "mapping": {
+          "complete": "Kaardistamine lõpetatud",
+          "failed": "Kaardistamine nurjus",
+          "inProgress": "Kaardistamine ..."
+        }
+      }
+    },
+    "submit": {
+      "button": {
+        "defaultLabel": "Esita"
+      }
+    }
+  },
+  "manageUsers": {
+    "accessLink": {
+      "callout": "See link kehtib 24 tundi. Igaüks saab selle lingiga ruumile juurde ja andmeid üles laadida, muuta ning muul viisil hallata.",
+      "title": "Juurdepääsu link"
+    },
+    "actions": {
+      "copyLink": "Kopeeri ruumi link",
+      "invite": "Saada kutse",
+      "resendInvite": "Saada kutse uuesti",
+      "revoke": "Tühista juurdepääs"
+    },
+    "edit": {
+      "cancelButton": "Tühista",
+      "description": "Kasutajakontolt kõigi töölehtede eemaldamine eemaldab selle kasutaja ruumist.",
+      "error": "Töölehtede hankimise viga",
+      "loading": "Muutmise lubade laadimine...",
+      "saveButton": "Salvesta",
+      "title": "Muuda töölehe juurdepääsu kasutajale"
+    },
+    "empty": "Pole ühtegi külalist",
+    "error": {
+      "title": "Selle ruumi kasutajate laadimine nurjus"
+    },
+    "guest": {
+      "message": "Külalisi saavad hallata vaid administraatorid. Kui arvate, et see on viga, suhelge klienditeenindusega.",
+      "title": "Teil puudub juurdepääs sellele lehele"
+    },
+    "invite": {
+      "cancelButton": "Tühista",
+      "form": {
+        "collaborate": {
+          "label": "Kellega tahate koostööd teha?",
+          "placeholder": "Kutsu meilitsi, eraldades meiliaadressid komaga"
+        },
+        "message": {
+          "label": "Sõnum",
+          "placeholder": "Töötame koos!"
+        }
+      },
+      "sendInvite": "Saada kutse",
+      "title": "Kutsu külalisi"
+    },
+    "manageGuests": "Külaliste haldamine",
+    "revoke": {
+      "cancelButton": "Tühista",
+      "confirmButton": "Kinnita",
+      "removing": "Eemaldamine...",
+      "title": "Tühista juurdepääs"
+    }
+  },
+  "mapping": {
+    "clearFields": {
+      "modalHeader": "Tühjenda sihtväljad",
+      "modalLabel": "Tühjenda",
+      "modalText": "Kõik selle impordi olemasolevad vastendused kustutatakse",
+      "modalTooltip": "Tühjenda sihtväljad"
+    },
+    "dataPreview": {
+      "heading": "{{previewKey}} andmete eelvaade",
+      "noData": "Eelvaate andmed puuduvad"
+    },
+    "dropdown": {
+      "placeholder": "Vali ..."
+    },
+    "headerButtons": {
+      "back": "Tagasi",
+      "complete": "Valmis",
+      "exit": "Välju",
+      "headers": "Vali päised",
+      "next": "Jätka"
+    },
+    "mapEnums": {
+      "destinationFields": {
+        "dropdownOptions": {
+          "doNotImport": "Ära impordi",
+          "keepAsIs": "Säilita see väärtus praegusel kujul",
+          "keepAsIsDisabledTooltip": "Sellesse loendisse uue valiku lisamist ei toetata. Väärtuse importimine, mis ei ole kehtiv valik, kuvatakse veana."
+        },
+        "heading": "Sihtväärtused"
+      },
+      "incomingFields": {
+        "heading": "Sissetulevad väärtused",
+        "noData": "Andmeteta lahtrid",
+        "noDataTooltip": "Kõigi tühjade lahtrite täitmiseks saate valida kehtiva suvandi. Selle võib ka tühjaks jätta."
+      },
+      "progressPill_one": "{{mappedCount}} / {{count}} väärtusest kaardistatud\n",
+      "progressPill_other": "{{mappedCount}} / {{count}} väärtusest kaardistatud",
+      "progressPill_zero": "{{mappedCount}} / {{count}} väärtusest on kaardistatud",
+      "progressPillAllMapped_one": "{{count}} väärtust kaardistatud",
+      "progressPillAllMapped_other": "{{count}} väärtus kaardistatud",
+      "progressPillAllMapped_zero": "{{count}} väärtus kaardistatud",
+      "subheading": "Nendel väljadel on väärtused, mis tuleb vastendada kehtivate valikute loendiga.",
+      "title": "Kaardi väljad"
+    },
+    "mapFields": {
+      "destinationFields": {
+        "addNewField": {
+          "description": "Lisa see väli oma lehele",
+          "label": "Lisa uue väljana"
+        },
+        "dropdownOptionLabels": {
+          "new": "Lisa uus",
+          "unused": "Kasutamata",
+          "used": "Kasutatud"
+        },
+        "heading": "Sihtväljad",
+        "progressPill": {
+          "missingRequiredFields": " {{missingFieldsCount}} puuduvad",
+          "text": "{{totalDestinationsMapped}} / {{totalDestinationFields}}",
+          "tooltip": {
+            "greaterThanTenMissing": "ja {{missingFieldsAfterTen}} veel",
+            "missingRequiredFields": "Puuduvad kohustuslikud väljad:",
+            "progress": "{{mappedDestinationFields}} sihtlehel saadaolevatest {{totalDestinationFields}} väljast on vastendatud"
+          }
+        }
+      },
+      "incomingFields": {
+        "heading": "Sissetulevad väljad",
+        "progressPill": {
+          "text": "{{totalIncomingMapped}} / {{totalIncomingFields}}",
+          "tooltip": "Olete oma andmestiku väljadest vastendanud sihtlehega {{mappedIncomingFields}}/{{totalIncomingFields}}-st"
+        },
+        "selectHeaders": {
+          "tooltip": "Muuda saabuvaid välju"
+        }
+      },
+      "subheading": "Vaadake üle ja kinnitage iga kaardistamisvalik",
+      "title": "Kaardiväljad"
+    },
+    "mapHeaders": {
+      "subheading": "Muuda või vali lähteandmete pealkirja rida",
+      "title": "Kaardista päised"
+    },
+    "mappingPlan": {
+      "preparing": "Kaardistamise ettevalmistamine..."
+    },
+    "sheetSelection": {
+      "cannotLoadFile": "Faili ei saa üles laadida: {{fileName}}",
+      "cannotStartMapping": "Kaardistamisega ei saa jätkata. {{reason}}. Proovige uuesti.",
+      "columns_one": "1 veerg",
+      "columns_other": "{{count}} veergu",
+      "columns_zero": "{{count}} veergu",
+      "errors_one": "1 viga",
+      "errors_other": "{{count}} viga",
+      "errors_zero": "{{count}} viga",
+      "importFromHeading": "Valige leht, kust andmeid laadida",
+      "importToHeading": "Valige leht, kuhu need andmed importida",
+      "lastUpdated": "Viimati värskendatud {{date}}",
+      "lastUpdatedDateFormat": "pp-kk-aaaa",
+      "records_one": "1 kirje",
+      "records_other": "{{count}} kirjet",
+      "records_zero": "{{count}} kirjet",
+      "sheetHasNoData": "Andmed puuduvad",
+      "sheets_one": "1 leht",
+      "sheets_other": "{{count}} lehte",
+      "sheets_zero": "{{count}} lehte",
+      "title": "Impordi asukohta ...",
+      "updatedAtDateFormat": "aaaa-KK-pp"
+    }
+  },
+  "nativeActions": {
+    "addColumn": "Lisa veerg",
+    "clearColumn": "Tühjenda veerg",
+    "removeColumn": "Eemalda veerg"
+  },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "Värskenda",
+        "refreshTokenFailed": "Sündmuse voog katkes. Uuesti ühendumiseks värskendage"
+      }
+    }
+  },
+  "plugins": {
+    "extraction": {
+      "addingRecords": "Lehtedele kannete lisamine",
+      "createWorkbook": "Töölehe loomine",
+      "createWorkbookError": "Töölehe loomine nurjus. Vt sündmuste logi.",
+      "extractedFile": "Fail lahti pakitud",
+      "extractionFailed": "Lahtipakkimine nurjus. Proovige uuesti või suhelge klienditeenindusega.",
+      "failedToParseWorkbook": "Töölehe parsimine nurjus.",
+      "fileTooLarge": "Fail on parsimiseks liiga mahukas. Üritage teisendada see fail CSV-ks.",
+      "noSheets": "Ühtegi lehte ei leitud",
+      "parseSheets": "Lehtede parsimine",
+      "retrieveFile": "Faili hankimine"
+    },
+    "viewMapped": {
+      "almostDone": "Peaaegu valmis...",
+      "complete": "Tabel uuendatud. Kontrollige andmeid",
+      "error": "Töölehe uuendamisel ilmnes viga. Vt sündmuste logi.",
+      "halfway": "Pool tehtud, varuge kannatust...",
+      "updatingTable": "Tabelis on pärat uuendust ainult vaadatavad väljad"
+    }
+  },
+  "secrets": {
+    "create": "Loo salasõna",
+    "delete": "Kustuta salasõna",
+    "edit": "Muuda salasõna",
+    "envSecrets": "Keskkonna salasõnad",
+    "errors": {
+      "couldNotGetSecrets": "Salasõnade hankimine nurjus. Üritage värskendada seda lehekülge.",
+      "keyAlreadyExists": "Selle võtmega salasõna on juba olemas",
+      "keyCannotBeEmpty": "Võti peab olema määratud",
+      "keyInvalid": "Salasõna nimi peab sisaldama ainult tähti, numbreid ja allkriipse"
+    },
+    "failureAdd": "Salasõna {{name}} lisamine nurjus",
+    "failureEdit": "Salasõna {{name}} muutmine nurjus",
+    "keyPlaceholder": "Trüki võti...",
+    "noSecrets": "Keskkonna tasemel pole ühtegi salasõna. Lisage <hyperlink>siit</hyperlink>.",
+    "noSpaceSecrets": "Ruumi tasemel pole veel ühtegi salasõna. Selle lisamiseks klõpsake plussi kujutaval ikoonil.",
+    "noUserSecrets": "Kasutaja tasemel pole veel ühtegi salasõna. Lisamiseks klõpsake plussi kujutaval ikoonil.",
+    "spaceSecrets": "Ruumi salasõnad",
+    "successfulAdd": "Salasõna {{name}} lisamine õnnestus",
+    "successfulEdit": "Salasõna {{name}} muutmine õnnestus",
+    "userDescription": "Kasutaja tasemel salasõnad asendavad tuumi tasemel olevaid.",
+    "userSecrets": "Kasutaja salasõnad",
+    "value": "Salasõna väärtus",
+    "valuePlaceholder": "Trüki väärtus..."
+  },
+  "sheet": {
+    "columnManagement": {
+      "clear_empty": "Kustuta tühjad veerud",
+      "errorColumnTooltip": "Selle väärtusega filtreerimine näitab taas seda veergu",
+      "hideAll": "Peida kõik",
+      "hideEmpty": "Peida tühjad veerud",
+      "hideEmptyFields": "Peida andmeteta veerud",
+      "noFields": "puuduvad väljad",
+      "noMatches": "midagi ei kattu",
+      "placeholder_one": "Otsi või vali 1 väljalt...",
+      "placeholder_other": "Otsi või vali {{count}} väljalt...",
+      "placeholder_zero": "Otsi või vali {{count}} väljalt...",
+      "toast": {
+        "action": "Näita taas?",
+        "message_one": "Peidetud on 1 vigane veerg",
+        "message_other": "Peidetud on {{count}} vigast veergu",
+        "message_zero": "Peidetud on {{count}} vigast veergu"
+      },
+      "tooltip_one": "1 veerg peidetud",
+      "tooltip_other": "{{count}} veergu peidetud",
+      "tooltip_zero": "Halda veerge",
+      "unhideToast": {
+        "message_one": "See päring peitis 1 veeru",
+        "message_other": "See päring peitis {{count}} veergu",
+        "message_zero": "See päring peitis {{count}} veergu"
+      }
+    },
+    "comments": {
+      "tooltip": "Lisa kommentaar"
+    },
+    "embedded": {
+      "maxOpenReached": "Korraga saab avada kuni {{maxOpenSheets}} manuslehte. Selle avamiseks sulgege manusleht.",
+      "untitled": "Nimeta leht"
+    },
+    "emptyView": {
+      "defaultError": {
+        "description": "Tundub, et see leht on tühi.",
+        "heading": "Küll kord siia midagi ilmub!"
+      },
+      "heading": "Hakkame pihta",
+      "manualEntry": "Sisestage andmed ise",
+      "missingSheet": {
+        "buttonLabel": "Naase põhilehele",
+        "description": "Leht, mida üritate avada, on kustutatud või seda polegi olemas olnud.",
+        "heading": "Lehte ei leitud"
+      },
+      "noColumns": {
+        "description": "Peitsite vaatest kõik veerud.",
+        "heading": "Siin pole midagi!"
+      },
+      "noSheetError": {
+        "description": "Tundub, et seda lehte pole olemas.",
+        "heading": "Lehte ei leitud"
+      },
+      "readOnly": {
+        "description": "Uutest ridadest ja/või muudatustest keelduvad lehed saavad tavaliselt olukorrast lähtuvalt esiletõstetud andmeid. Praegu pole teil midagi teha.",
+        "heading": "Andmete ootel"
+      },
+      "sheetLocked": {
+        "description": "Kui arvate, et tegemist veaga, suhelge klienditeenindusega.",
+        "heading": "Kannete lisamine on praegu keelatud"
+      },
+      "uploadFile": "Alustamiseks lohistage ja asetage fail või laadige see üles"
+    },
+    "errors": {
+      "loading": "Töölaua hankimine nurjus.",
+      "noSheets": {
+        "description": "Tööleht peab sisaldama vähemalt üht lehte. Ühtki lehte ei leitud.",
+        "title": "Töölehes pole lehti"
+      },
+      "notFound": "Töölehte ei leitud"
+    },
+    "info": {
+      "browser": "Brauser",
+      "copiedPopover": "Kopeeriti lõikelauale",
+      "copyButton": "Kopeerimiseks klõpsake!",
+      "date": "Kuupäev",
+      "environment": "Keskkond",
+      "inFrame": "Iframe'is",
+      "referrer": "Viitaja",
+      "release": "Praegune versioon",
+      "sheet": "Leht",
+      "space": "Ruum",
+      "workbook": "Töövihik"
+    },
+    "popovers": {
+      "copyCell_one": "{{count}} tulp kopeeritud",
+      "copyCell_other": "{{count}} tulpa kopeeritud",
+      "copyCell_zero": "{{count}} tulpa kopeeritud",
+      "copyRecord_one": "{{count}} kanne kopeeritud",
+      "copyRecord_other": "{{count}} kannet kopeeritud",
+      "copyRecord_zero": "{{count}} kannet kopeeritud",
+      "errors": {
+        "cellUpdateFailed": "Midagi läks nihu. Värskendage lehte ja proovige uuesti. Selle kordumisel suhelge klienditeenindusega.",
+        "invalidFFQL": "Vaadake oma päring üle",
+        "invalidFFQLSearch": "Vigane avaldus Flatfile'i päringukeeles",
+        "learnMore": "Lisateave",
+        "recordsLoadFailed": "Kannete laadimine nurjus"
+      }
+    },
+    "table": {
+      "cells": {
+        "enum": {
+          "loading": "Valikute laadimine...",
+          "loadingError": "Valikute laadimine nurjus",
+          "noMatchesFound": "Mitte midagi ei leitud",
+          "placeholder": "Trükkige siia...",
+          "seeMore": "Rohkemate valikute kuvamiseks otsige"
+        },
+        "messages": {
+          "autogen": "✨ Loodud automaatselt",
+          "compositeUnique": "🧑‍🍳 Komposiit {{name}} ei ole unikaalne",
+          "invalidOption": "Kehtetu valik",
+          "invalidValue": "Väärtus ei ole kehtiv valik",
+          "reference": "Väärtust ei ole võrdlustabelis olemas",
+          "req": "{{field}} on kohustuslik",
+          "transformed": "Teisendatud väärtusest {{originalValue}}",
+          "unique": "Väärtus ei ole ainulaadne"
+        }
+      },
+      "contextMenu": {
+        "filterByValue": {
+          "label": "Järjesta väärtuse järgi",
+          "moreOptions": "Näitame {{pageSize}} esimest valikut. Rohkema nägemiseks otsige.",
+          "noData": "andmed puuduvad",
+          "placeholder": "Otsi või vali väärtuseid..."
+        },
+        "findAndReplace": {
+          "findAndReplaceValues": "Otsi ja asenda",
+          "modal": {
+            "cancelButton": "Tühista",
+            "descriptionExactOnly": "Asendage kogu tekst selles veerus kehtiva väärtusega. Otsime vaid täpseid leide.",
+            "descriptionPartialAndExact": "Korraga asetamine vahetab välja selle veeru kogu teksti. Nende andmete puhul võimaldame leida nii osaliselt kui ka täpselt kattuvaid leide.",
+            "errors": {
+              "findError": "Väärtuste otsimisel ilmnes viga",
+              "generalError": "Midagi läks nihu. Proovige uuesti.",
+              "replaceError": "Väärtuste asendamisel ilmnes viga"
+            },
+            "exactMatchesOnly": "Otsi vaid täpseid leide",
+            "finding": "Kõigi kattuvate leidmine",
+            "heading": "Otsi ja asenda veerus {{columnName}}",
+            "isFiltered": "See andmekogu on filtreeritud. Otsitakse ja asendatakse vaid filtreeritud kandeid.",
+            "replaceButton": "Asenda kõik",
+            "replaceEmpty": {
+              "description": {
+                "addValues": "See täidab kõik veeru {{columnName}} tühjad lahtrid",
+                "addValuesToAll": "Veerus {{columnName}} on kõik lahtrid tühajd. Saate kõik need korraga täita valitud väärtusega.",
+                "addValuesToCount_one": "Veerus {{columnName}} on {{formattedCount}} tühi lahter. Saate selle täita valitud väärtusega.",
+                "addValuesToCount_other": "Veerus {{columnName}} on {{formattedCount}} tühja lahtrit. Saate kõik need korraga täita valitud väärtusega.",
+                "addValuesToCount_zero": "Veerus {{columnName}} on {{formattedCount}} tühja lahtrit. Saate kõik need korraga täita valitud väärtusega.",
+                "noEmptyValues": "Me ei suutnud leida sellelt väljalt ühtki tühja lahtrit!"
+              },
+              "heading": {
+                "addValues": "Lisage veeru {{columnName}} tühjadesse lahtritesse väärtus",
+                "addValuesToAll": "Lisage veeru {{columnName}} kõikidesse tühjadesse lahtritesse väärtus",
+                "addValuesToCount_one": "Lisage veeru {{columnName}} {{formattedCount}} tühja lahtrisse väärtus",
+                "addValuesToCount_other": "Lisage {{columnName}} veeru {{formattedCount}} tühja lahtrisse väärtus",
+                "addValuesToCount_zero": "Lisage veeru {{columnName}} {{formattedCount}} tühja lahtrisse väärtus",
+                "noEmptyValues": "Tühje väärtusi ei leitud"
+              }
+            },
+            "replaceEnum": {
+              "moreOptions": "Näitame esimest 100 leidu. Rohkema nägemiseks otsige.",
+              "noMatchesFound": "Mitte midagi ei leitud",
+              "replaceWith": "Asenda sellega:"
+            },
+            "replaceValue": {
+              "leavingBlank": "Selle välja tühjaks jätmine kustutab valitud väärtused",
+              "noMatchesFound": "Ühtki väärtust ei leitud",
+              "replaceWith": "Asenda sellega:"
+            },
+            "replacing": "Väärtuste asendamine",
+            "runOnAllRecords": "Hõlma kõiki kandeid",
+            "searchForEmpty": "Selle välja tühjaks jätmisel otsime tühje väärtusi",
+            "searchForText": "Otsi teksti...",
+            "searchResultsCount_one": "{{count}} leid",
+            "searchResultsCount_other": "{{count}} leidu",
+            "searchResultsCount_zero": "{{count}} leidu"
+          },
+          "replaceEmptyValues": "Asenda tühjad väärtused"
+        },
+        "pin": {
+          "apply": "Kinnita veerg",
+          "remove": "Eemalda kinnitatu",
+          "tooltip": {
+            "maxPinned": "Saate kinnitada kuni kolm veergu. Selle veeru kinnitamiseks vabastage üks praegu kinnitatud veergudest.",
+            "pin": "Kinnitage see veerg tabeli vasakusse ossa",
+            "unpin": "Selle veeru vabastamiseks klõpsake"
+          }
+        },
+        "searchInField": {
+          "modal": {
+            "cancelButton": "Tühista",
+            "placeholder": "Otsi ...",
+            "searchButton": "Otsi",
+            "searchWithin": "Otsige vahemikus"
+          },
+          "searchInThisField": "Otsige sellelt väljalt"
+        },
+        "sort": {
+          "ascending": {
+            "apply": "Järjestamine A-Z järgi",
+            "remove": "Eemalda A-Z järgi järjestamine"
+          },
+          "descending": {
+            "apply": "Järjesta Z-A järgi",
+            "remove": "Eemalda Z-A järjestus"
+          },
+          "tooltip": {
+            "notSorted": "A-Z järgi järjestamiseks klõpsake",
+            "sortedAsc": "Järjestatud A-Z järgi",
+            "sortedDes": "Järjestatud Z-A järgi"
+          }
+        }
+      },
+      "errors": {
+        "description": "Tabel ei suuda neid andmeid kuvada. Täpsem viga välja toodud konsoolis.",
+        "title": "Midagi läks nihu"
+      },
+      "header": {
+        "tooltip": {
+          "key": "võti: {{key}}",
+          "label": "silt: {{label}}"
+        }
+      },
+      "indexRow": {
+        "tooltip": {
+          "createRow": "Selle veeru loomiseks sisestage andmed",
+          "noData": "Valida ei saa ühtegi veergu. Valida saab vaid andmetega veerge.",
+          "rowNumber": "{{number}}. rida"
+        }
+      },
+      "maximumMessage": {
+        "plural": "...ja veel {{hiddenRows}} rida. Tabeli vaates toetavad praegu veebilehtiseja piirangute tõttu kuni 500 000 kannet. Vaates peidetud ridadel saate ikkagi otsida, järjestada, filtreerida ja samaaegselt toimetada.",
+        "singular": "...ja veel 1 rida. Tabeli vaates toetavad praegu veebilehtiseja piirangute tõttu kuni 500 000 kannet. Vaates peidetud ridadel saate ikkagi otsida, järjestada, filtreerida ja samaaegselt toimetada."
+      },
+      "modals": {
+        "copyAlert": {
+          "cancelButton": "Tühista",
+          "description": "Märkasime, et üritate valida rohkem kui 100 kannet. Oleme kopeerimist piiranud 100-ni, et hoida teie andmeid korras.",
+          "download": "Tahate selle lehe alla laadida .csv failina?",
+          "downloadButton": "Laadi alla",
+          "heading": "Tahate selle faili alla laadida?"
+        },
+        "deleteAlert": {
+          "description": "Praegu ei saa kustutada rohkem kui 100 olemasolevat kannet. Piirangu põhjuseks teile parema kogemuse pakkumine kuni <1>nutikalt muudame</1> teie andmeid.",
+          "dismissButton": "Peida",
+          "heading": "Saavutasite meie kustutamise piirangu!",
+          "tooltip": "Eemaldage tühjad kanded, kordused jne"
+        },
+        "pasteAlert": {
+          "description": "Praegu ei võimaldata rohkem kui 100 olemasoleva kande asetamist. Põhjuseks parema kogemuse pakkumine teie andmete <1>nutika muutmise</1> ajal.",
+          "dismissButton": "Peida",
+          "heading": "Saavutasite asetamise piirangu!",
+          "tooltip": "Eemaldage tühjad kanded, kordused jne"
+        }
+      }
+    },
+    "toolbar": {
+      "actionsDropdown": {
+        "buttonText": "Tegevused",
+        "placeholder": "Otsi või vali ..."
+      },
+      "aiAssist": {
+        "buttonText": "Tehisintellektist abiline",
+        "query": "Päring",
+        "transform": "Edasta"
+      },
+      "buttons": {
+        "addToDataClip": {
+          "modal": {
+            "cancelButton": "Tühista",
+            "confirmButton": "Lisa kandeid",
+            "description": {
+              "infix": "valitud",
+              "infixType": {
+                "invalid": "vigane",
+                "valid": "kehtiv"
+              },
+              "prefix": "Tahate lisada ",
+              "suffix_one": "kannet andmeklippi?",
+              "suffix_other": "kandeid andmeklippi?",
+              "suffix_zero": "kanded andmeklippi?"
+            },
+            "errorMessage": "Kannete lisamine andmeklippi nurjus. Proovige uuesti või muutke oma valikut.",
+            "heading_one": "Lisa kanne andmeklippi",
+            "heading_other": "Lisa kanded andmeklippi",
+            "heading_zero": "Lisa kanded andmeklippi",
+            "inProgress": "Kannete lisamine..."
+          },
+          "popover": {
+            "successMessage_one": "Andmeklippi lisati {{count}} kannet",
+            "successMessage_other": "Andmeklippi lisati {{count}} kannet",
+            "successMessage_zero": "Andmeklippi lisati {{count}} kannet",
+            "successMessageNoCount": "Andmeklippi lisati andmeid"
+          },
+          "tooltip": {
+            "active": "Lisa andmeklippi valitud kanded",
+            "disabled": {
+              "deleteDisabled": "Siin lehel ei saa andmeklippidesse lisada kandeid.",
+              "noRecordsSelected": "Selle lisamiseks andmeklippi valige vähemalt üks kanne"
+            }
+          }
+        },
+        "delete": {
+          "modal": {
+            "cancelButton": "Tühista",
+            "confirmButton": "Kustuta kanded",
+            "description": {
+              "infix": "valitud",
+              "infixType": {
+                "invalid": "vigane",
+                "valid": "kehtiv"
+              },
+              "prefix": "Tahate kustutada",
+              "suffix_one": "kanne?",
+              "suffix_other": "kanded?",
+              "suffix_zero": "kanded?"
+            },
+            "errorMessage": "Kannete kustutamine nurjus. Proovige uuesti või muutke oma valikut.",
+            "heading_one": "Kustuta kanne",
+            "heading_other": "Kustuta kanded",
+            "heading_zero": "Kustuta kanded",
+            "inProgress": "Kannete kustutamine..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} kanne kustutatud",
+            "successMessage_other": "{{count}} kannet kustutatud",
+            "successMessage_zero": "{{count}} kannet kustutatud",
+            "successMessageNoCount": "Kanded kustutatud"
+          },
+          "tooltip": {
+            "active": "Kustuta valitud kirjed",
+            "disabled": {
+              "deleteDisabled": "Kirjete kustutamine on sellel lehel keelatud.",
+              "noRecordsSelected": "Valige selle kustutamiseks vähemalt üks kirje"
+            }
+          }
+        },
+        "download": {
+          "modal": {
+            "cancelButton": "Tühista",
+            "confirmButton": "Laadi kanded alla",
+            "description": {
+              "infix": "valitud",
+              "infixType": {
+                "invalid": "vigane",
+                "valid": "kehtiv"
+              },
+              "prefix": "Tahate alla laadida",
+              "suffix_one": "kanne?",
+              "suffix_other": "kanded?",
+              "suffix_zero": "kanded?"
+            },
+            "errorMessage": "Kannete allalaadimine nurjus. Proovige uuesti või muutke oma valikut.",
+            "heading_one": "Laadi kanne alla",
+            "heading_other": "Laadi kanded alla",
+            "heading_zero": "Laadi kanded alla",
+            "inProgress": "Kannete allalaadimine..."
+          },
+          "tooltip": {
+            "active": {
+              "invalidFilterApplied": "Laadi kõik kehtetud kirjed alla",
+              "noRecordsSelected": "Laadi see leht alla",
+              "recordsSelected": "Laadi valitud kirjed alla",
+              "validFilterApplied": "Laadi kõik kehtivad kirjed alla"
+            },
+            "disabled": "Allalaadimiseks puuduvad kirjed"
+          }
+        },
+        "markForDeletion": {
+          "modal": {
+            "cancelButton": "Tühista",
+            "confirmButton": "Kustuta kanded",
+            "description": {
+              "infix": "valitud",
+              "infixType": {
+                "invalid": "vigane",
+                "valid": "kehtiv"
+              },
+              "prefix": "Tahate kustutada",
+              "suffix_one": "kanne? Misjärel kustub andmeklipi liitmisel ka lähtelehe kanne.",
+              "suffix_other": "kanded? Misjärel kustuvad andmeklipi liitmisel ka lähtelehe kanded.",
+              "suffix_zero": "kanded? Misjärel kustuvad andmeklipi liitmisel ka lähtelehe kanded."
+            },
+            "errorMessage": "Kannete kustutamine nurjus. Proovige uuesti või muutke oma valikut.",
+            "heading_one": "Kustuta kanne",
+            "heading_other": "Kustuta kanded",
+            "heading_zero": "Kustuta kanded",
+            "inProgress": "Kannete kustutamine..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} kannet kustutatud",
+            "successMessage_other": "{{count}} kannet kustutatud",
+            "successMessage_zero": "{{count}} kannet kustutatud",
+            "successMessageNoCount": "Kanded kustutatud"
+          }
+        },
+        "restore": {
+          "modal": {
+            "cancelButton": "Tühista",
+            "confirmButton": "Taasta kustutatud kanded",
+            "description": {
+              "infix": "valitud",
+              "infixType": {
+                "invalid": "vigane",
+                "valid": "kehtiv"
+              },
+              "prefix": "Tahate selles valikus taastada varem kustutamiseks märgitud kanded?"
+            },
+            "errorMessage": "Taastatavate kannete lisamine nurjus. Proovige uuesti või muutke oma valikut.",
+            "heading_one": "Taasta kanne",
+            "heading_other": "Taasta kanded",
+            "heading_zero": "Taasta kanded",
+            "inProgress": "Kannete taastamine..."
+          },
+          "popover": {
+            "successMessage_one": "Varem kustutamiseks märgitud kanded on taastatud.",
+            "successMessage_other": "Varem kustutamiseks märgitud kanded on taastatud.",
+            "successMessage_zero": "Varem kustutamiseks märgitud kanded on taastatud.",
+            "successMessageNoCount": "Varem kustutamiseks märgitud kanded on taastatud."
+          },
+          "tooltip": {
+            "active": "Taastage",
+            "disabled": {
+              "deleteDisabled": "Sel lehel ei saa taastada kandeid.",
+              "noRecordsSelected": "Taastamiseks valige vähemalt 1 kanne."
+            }
+          }
+        }
+      },
+      "customActionsDropdown": {
+        "disabledTooltip": {
+          "hasData": "Seda saab teha pärast vähemalt ühe kande lisamist sellele lehele.",
+          "requireAllValid": "See toiming nõuab, et kõik valitud read oleksid kehtivad",
+          "requireAllValidTotal": "Selleks on vaja kõikide ridade korrasolekut",
+          "requireSelection": "Valige selle toimingu kasutamiseks üks või mitu kirje(t)"
+        }
+      },
+      "dataClips": {
+        "actions": {
+          "create": "Loo andmeklipp"
+        },
+        "buttonText": "Klipi andmed",
+        "errors_one": "{{count}} viga",
+        "errors_other": "{{count}} viga",
+        "errors_zero": "{{count}} viga",
+        "modal": {
+          "cancel": "Tühista",
+          "share": "Jaga"
+        },
+        "placeholders": {
+          "description": "Lisa kommentaar (valikuline) ..."
+        },
+        "promise": "Ohutu ja turvaline saatmine",
+        "selectedRecords_one": "{{count}} kanne",
+        "selectedRecords_other": "{{count}} kannet",
+        "selectedRecords_zero": "{{count}} kannet",
+        "syncedRecords_one": "{{count}} ajakohastatud kanne",
+        "syncedRecords_other": "{{count}} ajakohastatud kannet",
+        "syncedRecords_zero": "{{count}} ajakohastatud kannet",
+        "titles": {
+          "review": "Ülevaade",
+          "share": "Jaga andmeklippe"
+        }
+      },
+      "dropdown": {
+        "delete": "Kustuta",
+        "download": "Laadi alla",
+        "restore": "Taasta"
+      },
+      "filterByError": {
+        "buttonText": "Filtreeri vea alusel",
+        "dropdownPlaceholder": "Otsi või vali ..."
+      },
+      "filters": {
+        "all": "Kõik",
+        "invalid": "Kehtetu",
+        "tooltip": {
+          "countsError": "Arvude laadimisel tekkis viga",
+          "countsErrorRetry": "Klõpsa uuesti proovimiseks",
+          "filter": {
+            "invalid": "vigane",
+            "total": "kokku",
+            "valid": "kehtiv"
+          },
+          "filtered": "Seda andmekogu on filtreeritud näitama filtri {{filter}} {{filteredCount}} kannet {{countString}}-st.",
+          "filteredByError": "See andmestik on filtreeritud veafiltri kaudu, et kuvada {{filteredCount}} kokku {{countString}} {{filter}} kirjest.",
+          "filteredByFFQL": {
+            "branded": "See andmestik on filtreeritud Flatfile'i päringukeele kaudu, et kuvada {{filteredCount}} kokku {{countString}} {{filter}} kirjest.",
+            "whitelabeled": "Seda andmekogu on filtreeritud näitama filtri {{filter}} {{filteredCount}} kannet {{countString}}-st."
+          },
+          "filteredBySearch": "See andmestik on otsingu kaudu filtreeritud, et kuvada {{filteredCount}} kokku {{countString}} {{filter}} kirjest.",
+          "filteredBySearchAndError": "See andmestik on filtreeritud otsingu ja veafiltri kaudu, et kuvada {{filteredCount}} kokku {{countString}} {{filter}} kirjest.",
+          "inactiveCount": "{{countString}} {{filter}} kirjet, {{filteredCount}} filtreeritud"
+        },
+        "valid": "Kehtetu"
+      },
+      "moreActions": {
+        "buttonText": "Rohkem toiminguid",
+        "placeholder": "Otsi või vali ..."
+      },
+      "restore": {
+        "label": "Taasta kanded",
+        "tooltip": "Taastage varem kustutamiseks märgitud kanded."
+      },
+      "savedViews": {
+        "buttonText": "Vaatamisi",
+        "groups": {
+          "allViews": "KÕIK VAATED",
+          "myViews": "MINU VAATED"
+        },
+        "modalHeader": "Salvestatud vaated",
+        "modalSubheader": "Valige sellele lehele rakendamiseks salvestatud vaade.",
+        "searchPlaceholder": "Otsi või vali ...",
+        "tooltip": "Rakenda vaade ja kopeeri link",
+        "viewAppliedPopover": "Teie vaade kopeeriti lõikelauale!"
+      },
+      "saveView": {
+        "buttons": {
+          "cancel": "Tühista",
+          "copy": {
+            "label": "Jagamiseks kopeeri",
+            "successLabel": "Kopeeritud lõikelauale!",
+            "warningTooltip": "Lingiga saavad avada ainult inimesed, kellel on sellele ruumile juurdepääs."
+          },
+          "save": {
+            "label": "Salvesta vaade",
+            "labelActive": "Vaate salvestamine"
+          }
+        },
+        "error": {
+          "saveText": "Vaadet ei saa salvestada – proovige uuesti."
+        },
+        "headings": {
+          "saveHeader": "Salvesta vaade",
+          "saveSubheader": "Valige nimi, mis kajastab selle vaate eesmärki. See aitab kasutajatel selle kasutamist hõlpsalt tuvastada.",
+          "shareHeader": "Jaga"
+        },
+        "nameViewInput": {
+          "helperText": "Pidage meeles, et see vaade on nähtav kõigile, kellel on sellele arvutustabelile juurdepääs.",
+          "label": "nimetus",
+          "placeholder": "Vaade ajast {{timestamp}}"
+        },
+        "summary": {
+          "filter": "kirjed, mis on",
+          "filterFieldpt1": "kui",
+          "filterFieldpt2": "veaga",
+          "invalid": "Kehtetu",
+          "q": "kus",
+          "searchValue": "mis tahes väli, kus on",
+          "title": "Kokkuvõte",
+          "valid": "Kehtetu"
+        }
+      },
+      "searchBar": {
+        "expandTooltip": "Avage otsing ja tehisintellektist abiline",
+        "placeholder": "Otsi ...",
+        "tooltip": "Otsimiseks vajutage Enter-nuppu"
+      },
+      "tooltips": {
+        "lockedUntilEditingCompletes": "Tööriba ilmub pärast lehe muutmist",
+        "lockedUntilHookCompletes": "Tööriba ilmub pärast kõikide haakide tööd",
+        "lockedUntilJobCompletes": "Tööriba ilmub pärast praeguse töö lõppu"
+      }
+    },
+    "workbookActions": {
+      "disabledTooltip": {
+        "hasData": "Seda saab teha pärast ühe kande lisamist sellele töölehele.",
+        "hasPendingValidation": "Teie töövihiku valideerimine on pooleli ...",
+        "lockedUntilEditingCompletes": "Toiming on saadaval, kui lehe muutmine on lõpetatud",
+        "lockedUntilHookCompletes": "Seda saab teha pärast kõikide haagete lõppu",
+        "lockedUntilJobCompletes": "Seda saab teha pärast praeguse töö lõppu",
+        "requireAllValid": "Selleks peavad kõikide lehtede kõik read olema korras"
+      }
+    }
+  },
+  "sidebar": {
+    "activityLogs": "Tegevuste logi",
+    "addConnection": "Lisa ühendus",
+    "checklist": "Andmete kontroll-loend",
+    "collapse": {
+      "documents": "Dokumendid",
+      "workbook": "Töövihik",
+      "workbooks": "Töövihikud"
+    },
+    "connections": {
+      "tooltips": {
+        "connectionError": "Selle töölehe ühenduste metaandmete kinnitamisel ilmnes viga",
+        "connectionFresh": "Ühendatud allikaga {{source}} teenuse {{service}} kaudu",
+        "connectionStale": "Viimati ajakohastatud allikaga {{source}} rohkem kui 24 tunni eest"
+      }
+    },
+    "emptyWorkbook": "Tühi töövihik",
+    "errorIconTooltip": "Sel lehel esineb vigu",
+    "files": "Failid",
+    "footer": {
+      "backToDashboard": "Tagasi töölauale",
+      "logout": "Logi välja"
+    },
+    "lockedIconTooltip": "See leht on lukus",
+    "manageGuests": "Halda külalisi",
+    "pill": {
+      "admin": "Admin"
+    },
+    "readOnlyIconTooltip": "See leht on kirjutuskaitstud",
+    "secrets": "Saladused",
+    "spaceSwitcher": {
+      "placeholder": "Otsi või vali ruum..."
+    },
+    "toggle": {
+      "hide": "Peida külgriba",
+      "show": "Näita külgriba"
+    }
+  },
+  "snapshot": {
+    "accept": {
+      "cancelButton": "Tühista",
+      "cancelError": "Muudatuste tühistamine nurjus ootamatu vea tõttu.",
+      "cancelSuccess": "Lehe muudatuste tühistamine õnnestus.",
+      "empty": {
+        "createdSince": "Selle kuvatõmmise kanded jäid alles.",
+        "deletedSince": "Selle kuvatõmmise kannete arv jäi samaks.",
+        "title": "Siin pole midagi!",
+        "updatedSince": "Selle kuvatõmmise kanded jäid samaks."
+      },
+      "errorMessage": "Kuvatõmmise muutmine nurjus ootamatu vea tõttu.",
+      "filters": {
+        "createdSince": "Eemaldati",
+        "deletedSince": "Lisati",
+        "updatedSince": "Muudeti"
+      },
+      "header": {
+        "title": "Tehtud muudatused lehel",
+        "titleWithMeta": "<3>{{action}}</3> muutis lehte <1>{{sheet}}</1>"
+      },
+      "message": "Muudatustega nõustumine liidab kõik uued väärtused lehte {{name}}.",
+      "submitButton": "Nõustu muudatustega",
+      "submitError": "Kuvatõmmise muutmine nurjus ootamatu vea tõttu.",
+      "submitSuccess": "Teie lehel tehtud muudatuste rakendamine õnnestus.",
+      "successMessage": "Muudatused rakendati teie lehele.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} lahtris väljal {{name}}",
+            "last": " ja {{cells}} lahtris väljal {{name}}",
+            "middle": "{{cells}} lahtris väljal {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Väli {{name}} eemaldatakse",
+              "last": " ja väli {{name}} eemaldatakse",
+              "middle": ", väli {{name}} eemaldatakse"
+            },
+            "removed": {
+              "first": "väli {{name}} lisatakse uuesti",
+              "last": " ja väli {{name}} lisatakse uuesti",
+              "middle": ", väli {{name}} lisatakse uuesti"
+            }
+          },
+          "singular": {
+            "first": "1 lahtris väljal {{name}}",
+            "last": " ja 1 lahtris väljal {{name}}",
+            "middle": ", 1 lahtris väljal {{name}}"
+          },
+          "start": " Andmeid muudeti kohas "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Muudeti {{fields}} välja {{records}} kannet.",
+            "noFields": "Muudeti {{records}} kande andmeid.",
+            "oneField": "1 väljal muutus {{records}} kande andmed."
+          },
+          "singular": {
+            "multipleFields": "Muudeti {{fields}} välja 1 kande andmeid.",
+            "noFields": "Muudeti 1 kande andmeid.",
+            "oneField": "Muudeti 1 välja 1 kande andmeid."
+          }
+        }
+      },
+      "title": "Tehtud muudatused lehel"
+    },
+    "cells": {
+      "messages": {
+        "accept": "Muudatustega nõustumisel liidetakse kõik uued väärtused teie andmekoguga.",
+        "current": "Praegune väärtus: {{value}}",
+        "empty": "andmed puuduvad",
+        "none": "Teie andmestik muudetakse näidatud väärtustele.",
+        "requiresDecision": "See väärtus nõuab enne andmestiku muutmist otsust.",
+        "restore": "Andmekogu taastatakse selle kuvatõmmise versioonile.",
+        "snapshot": "Uus väärtus: {{value}}"
+      }
+    },
+    "none": {
+      "empty": {
+        "createdSince": "Ühtegi kirjet ei eemaldata.",
+        "deletedSince": "Ühtegi kirjet ei lisata.",
+        "title": "Siin pole midagi!",
+        "updatedSince": "Ühtegi kirjet ei muudeta."
+      },
+      "errorMessage": "Muudatuste eelvaadet ei saanud ootamatu vea tõttu kuvada.",
+      "filters": {
+        "createdSince": "Lisa",
+        "deletedSince": "Eemalda",
+        "updatedSince": "Muuda"
+      },
+      "header": {
+        "title": "Tehtud muudatused lehel",
+        "titleWithMeta": "Vt lehel <1>{{sheet}}</1> tehtud muudatused üle"
+      },
+      "message": "Allolev tabel näitab teie lehel {{name}} tehtud muudatusi.",
+      "submitError": "Andmeid ei saanud ootamatu vea tõttu teisendada.",
+      "submitSuccess": "Teie lehel tehtud muudatuste rakendamine õnnestus.",
+      "successMessage": "Muudatused rakendati teie lehele.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} lahtris väljal {{name}}",
+            "last": " ja {{cells}} lahtris väljal {{name}}",
+            "middle": "{{cells}} lahtris väljal {{name}}"
+          },
+          "singular": {
+            "first": "1 lahtris väljal {{name}}",
+            "last": " ja 1 lahtris väljal {{name}}",
+            "middle": ", 1 lahtris väljal {{name}}"
+          },
+          "start": " Andmeid muudetakse "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Andmed muutuvad {{records}} kirjes {{fields}} väljal.",
+            "noFields": "Andmed muutuvad {{records}} kirjes.",
+            "oneField": "Andmed muutuvad {{records}} kirjes 1 väljal."
+          },
+          "singular": {
+            "multipleFields": "Andmed muutuvad 1 kirjel {{fields}} väljal.",
+            "noFields": "Andmed muutuvad 1 kirjes.",
+            "oneField": "Andmed muutuvad 1 kirjes 1 väljal."
+          }
+        }
+      },
+      "title": "Eelvaade muudatustest, mis tehtud"
+    },
+    "preview": {
+      "cancelButton": "Tühista",
+      "empty": {
+        "createdSince": "Sel eelvaatel pole ühtki eemaldatavat kannet.",
+        "deletedSince": "Sel eelvaatel pole ühtki lisatavat kannet.",
+        "title": "Siin pole midagi!",
+        "updatedSince": "Sel eelvaatel pole ühtki muudetavat kannet."
+      },
+      "errorMessage": "Muudatuste eelvaadet ei saanud ootamatu vea tõttu kuvada.",
+      "filters": {
+        "createdSince": "Eemalda",
+        "deletedSince": "Lisa",
+        "updatedSince": "Muuda"
+      },
+      "header": {
+        "title": "Tehtud muudatused lehel",
+        "titleWithMeta": "<3>{{aiAction}}</3> käsklus muutis lehte <1>{{sheet}}</1>"
+      },
+      "message": "Leht {{name}} taastatakse versioonile, mis kasutusel selles kuvatõmmises.",
+      "submitButton": "Andmete saatmine",
+      "submitError": "Andmeid ei saanud ootamatu vea tõttu teisendada.",
+      "submitSuccess": "Teie lehel tehtud muudatuste rakendamine õnnestus.",
+      "successMessage": "Muudatused rakendati teie lehele.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} lahtris väljal {{name}}",
+            "last": " ja {{cells}} lahtris väljal {{name}}",
+            "middle": "{{cells}} lahtris väljal {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Väli {{name}} eemaldatakse",
+              "last": " ja väli {{name}} eemaldatakse",
+              "middle": ", väli {{name}} eemaldatakse"
+            },
+            "removed": {
+              "first": "väli {{name}} lisatakse uuesti",
+              "last": " ja väli {{name}} lisatakse uuesti",
+              "middle": ", väli {{name}} lisatakse uuesti"
+            }
+          },
+          "singular": {
+            "first": "1 lahtris väljal {{name}}",
+            "last": " ja 1 lahtris väljal {{name}}",
+            "middle": ", 1 lahtris väljal {{name}}"
+          },
+          "start": " Andmeid muudetakse "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Andmed muutuvad {{records}} kirjes {{fields}} väljal.",
+            "noFields": "Andmed muutuvad {{records}} kirjes.",
+            "oneField": "Andmed muutuvad {{records}} kirjes 1 väljal."
+          },
+          "singular": {
+            "multipleFields": "Andmed muutuvad 1 kirjel {{fields}} väljal.",
+            "noFields": "Andmed muutuvad 1 kirjes.",
+            "oneField": "Andmed muutuvad 1 kirjes 1 väljal."
+          }
+        }
+      },
+      "title": "Eelvaade muudatustest, mis tehtud"
+    },
+    "restore": {
+      "cancelButton": "Tühista",
+      "empty": {
+        "createdSince": "Sel kuvatõmmisel pole ühtki eemaldatavat kannet.",
+        "deletedSince": "Sel kuvatõmmisel pole ühtki lisatavat kannet.",
+        "title": "Siin pole midagi!",
+        "updatedSince": "Sel kuvatõmmisel pole ühtki muudetavat kannet."
+      },
+      "errorMessage": "Kuvatõmmise taastamine nurjus ootamatu vea tõttu.",
+      "filters": {
+        "createdSince": "Eemalda",
+        "deletedSince": "Lisa",
+        "updatedSince": "Muuda"
+      },
+      "header": {
+        "title": "Muudetakse"
+      },
+      "message": "Leht {{name}} taastatakse versioonile, mis kasutusel selles kuvatõmmises.",
+      "submitButton": "Taasta",
+      "submitError": "Kuvatõmmise taastamine nurjus ootamatu vea tõttu.",
+      "submitSuccess": "Taastati lehe varasem versioon.",
+      "successMessage": "Taastati lehe varasem versioon.",
+      "summary": {
+        "fields": {
+          "plural": {
+            "first": "{{cells}} lahtris väljal {{name}}",
+            "last": " ja {{cells}} lahtris väljal {{name}}",
+            "middle": "{{cells}} lahtris väljal {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Väli {{name}} eemaldatakse",
+              "last": " ja väli {{name}} eemaldatakse",
+              "middle": ", väli {{name}} eemaldatakse"
+            },
+            "removed": {
+              "first": "väli {{name}} lisatakse uuesti",
+              "last": " ja väli {{name}} lisatakse uuesti",
+              "middle": ", väli {{name}} lisatakse uuesti"
+            }
+          },
+          "singular": {
+            "first": "1 lahtris väljal {{name}}",
+            "last": " ja 1 lahtris väljal {{name}}",
+            "middle": ", 1 lahtris väljal {{name}}"
+          },
+          "start": " Andmeid muudetakse "
+        },
+        "total": {
+          "plural": {
+            "multipleFields": "Andmed muutuvad {{records}} kirjes {{fields}} väljal.",
+            "noFields": "Andmed muutuvad {{records}} kirjes.",
+            "oneField": "Andmed muutuvad {{records}} kirjes 1 väljal."
+          },
+          "singular": {
+            "multipleFields": "Andmed muutuvad 1 kirjel {{fields}} väljal.",
+            "noFields": "Andmed muutuvad 1 kirjes.",
+            "oneField": "Andmed muutuvad 1 kirjes 1 väljal."
+          }
+        }
+      },
+      "title": "Muudetakse"
+    },
+    "tooltips": {
+      "sheet": "Töölehe {{workbook}} leht {{sheet}}"
+    }
+  },
+  "spaceLoadingMessage": "Ruumi ettevalmistamine...",
+  "utils": {
+    "buttons": {
+      "clearAll": "Tühjenda kõik",
+      "clearAllLabel": "Tühjenda kõik",
+      "selectAll": "Vali kõik",
+      "selectAllLabel": "Vali kõik"
+    },
+    "modals": {
+      "sizeWarning": {
+        "body": "Kõikide võimaluste kasutamiseks kasutage suurema ekraaniga seadet. Sellises suuruses ekraaniga ei saa me tagada kõikide võimaluste toimivust.",
+        "button": "Jätkan sellest hoolimata",
+        "title": "Ekraan liiga väike"
+      }
+    },
+    "poweredByFlatfile": "Koostas Flatfile"
+  },
+  "versionHistory": {
+    "modals": {
+      "default": {
+        "description": "Ilmnes ootamatu viga: kattuvuse jaoks ei võetud midagi ette"
+      },
+      "delete": {
+        "confirm": {
+          "closeButton": "Sulge",
+          "description": "Olete valitud versiooni kustutamises kindel?",
+          "heading": "Kustuta versioon",
+          "proceedButton": "Kustuta"
+        },
+        "error": {
+          "closeButton": "Sulge",
+          "description": "Valitud versiooni kustutamine nurjus ootamatu vea tõttu. Mure kordumisel suhelge klienditeenindusega.",
+          "heading": "Versiooni kustutamine nurjus",
+          "retryButton": "Proovi uuesti"
+        },
+        "success": {
+          "closeButton": "Sulge",
+          "description": "Valitud versioon on kustutatud.",
+          "heading": "Versioon kustutatud"
+        }
+      }
+    },
+    "panel": {
+      "empty": "Versioonid ilmuvad pärast loomist siia. Versioonid tekivad ise, sageli suurel hulgal andmete korraga töötlemisel.",
+      "generatedSnapshot": "Kuvatõmmis loodud enne tehisintellektiga edastamist käsklusega: ",
+      "generatedSnapshotForAiTransform": "Kuvatõmmis loodud enne tehisintellektiga edastamist käsklusega: ",
+      "generatedSnapshotForBulkAddToDataClip": "Hetktõmmis luuakse enne andmeklipile kirjete lisamist",
+      "generatedSnapshotForBulkDelete": "Kuvatõmmis loodud enne kannete kustutamist",
+      "generatedSnapshotForFindReplace": "Kuvatõmmis loodud enne otsimist ja asendamist",
+      "heading": "Versiooni ajalugu",
+      "thisMonth": "See kuu",
+      "versionRestored": "Enne eelmise versiooni taastamist loodud versioon"
+    },
+    "pill": {
+      "hoverText": "Versiooni ajalugu"
+    }
+  }
+}

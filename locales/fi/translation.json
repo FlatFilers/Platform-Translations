@@ -4,6 +4,10 @@
     "changedColumnsText_other": "{{count}} saraketta, joissa muuttuneita tietoja",
     "changedColumnsText_zero": "{{count}} saraketta, joissa muuttuneita tietoja",
     "errors": {
+      "entitlementError": {
+        "content": "Jos tämä on mielestäsi virhe, ota yhteys asiakastukeen.",
+        "title": "Pahoittelut! Sinulla ei ole tämän toiminnon käyttöoikeuksia."
+      },
       "generalError": {
         "title": "Jokin meni pieleen. Yritä uudelleen."
       },
@@ -174,18 +178,70 @@
     "itemMessage": "paina {{icon}} käyttääksesi",
     "placeholder": "Etsi tai tee jotakin..."
   },
+  "comments": {
+    "addReaction": "Lisää reaktio",
+    "commentDisabledTooltip": "Valitse solu tai rivi lisätäksesi kommentin",
+    "comments": "Kommentit",
+    "delete": "Poista kommentti",
+    "edit": "Muokkaa kommenttia",
+    "edited": " (muokattu)",
+    "hidden": "suodattimien piilottama...",
+    "noResolvedThreads": "Ratkaistuja ketjuja ei vielä ole",
+    "noResults": "Ei tuloksia",
+    "noUpdates": "Ei päivityksiä",
+    "placeholder": "Lisää kommenttisi tähän...",
+    "reactionList": "<0></0> reagoi {{emoji}}",
+    "reopen": "Avaa ketju uudelleen",
+    "repliesCount_one": "{{count}} muu vastaus",
+    "repliesCount_other": "{{count}} muuta vastausta",
+    "repliesCount_zero": "{{count}} muuta vastausta",
+    "resolve": "Ratkaise ketju",
+    "resolved": "Ratkaistu",
+    "row": "Rivi {{row}}",
+    "rowAndColumn": "Rivi {{row}}, {{column}}",
+    "send": "Lähetä kommentti",
+    "threadPlaceholder": "Vastaa tai mainitse muita merkillä @...",
+    "updates": "Päivitykset",
+    "updatesError": "Tapahtui virhe ladattaessa päivityksiä",
+    "userCommented": "<user>{{user}}</user> kommentoi seuraavaa: <identifier>{{identifier}}</identifier>",
+    "userReacted": "<0></0> reagoi kommenttiisi",
+    "you": "Sinä"
+  },
   "common": {
     "cancel": "Peruuta",
-    "name": "Nimi"
+    "lastWeek": "Viime viikolla",
+    "name": "Nimi",
+    "older": "Vanhempi",
+    "thisWeek": "Tällä viikolla",
+    "today": "Tänään",
+    "yesterday": "Eilen"
   },
   "dataClips": {
     "actions": {
+      "add_to_clip": "Lisää valinnat tietoleikkeeseen",
       "buttons": {
         "back": "Takaisin",
+        "conflicts": "Ratkaise ristiriidat",
+        "review": "Tarkista muutokset",
         "share": "Jaa",
-        "submit_for_review": "Lähetä tarkistettavaksi"
+        "submit_for_review": "Lähetä tarkistettavaksi",
+        "view": "Näytä tietoleike"
+      },
+      "create": "Luo tietoleike",
+      "library": "Siirry tietoleikekirjastoon",
+      "sheet_list": "Katso taulukon tietoleikkeet",
+      "tooltip": {
+        "conflicts": "Ratkaise ristiriidat ennen yhdistämistä.",
+        "no_changes": "Tee vähintään yksi muutos voidaksesi yhdistää.",
+        "no_data_clips": "Luo tietoleike, johon lisätään.",
+        "none_selected": {
+          "add_to_clip": "Valitse vähintään yksi tietue lisättäväksi tietoleikkeeseen.",
+          "create": "Valitse vähintään yksi tietue luodaksesi tietoleikkeen."
+        },
+        "review": "Tähän tietoleikkeeseen ei ole tehty muutoksia."
       }
     },
+    "buttonText": "Leiketiedot",
     "choose_action": "Valitse toimenpide:",
     "clear": "tyhjennä",
     "collaborators": "Yhteiskäyttäjät",
@@ -204,18 +260,30 @@
       }
     },
     "conflictResolution": {
+      "applyAll": "Käytetäänkö kaikkiin?",
+      "change_description": "1 tietue kentässä {{fieldName}} muutetaan.",
+      "columnTotal": "Sarake yhteensä:",
+      "description": "Sekä lähdetaulukossa että tietoleikkeessä on muutoksia. Valitse, kumman haluat säilyttää.",
       "empty": {
-        "description": "Valmis tarkistettavaksi"
-      }
+        "description": "Valmis tarkistettavaksi",
+        "status": "Suorita",
+        "title": "Ei ristiriitoja"
+      },
+      "row": "Rivi",
+      "title": "Valitse yhdistettävä muutos"
     },
     "created_by": "Luonut",
     "detailsModal": {
       "create": {
-        "action": "Luo"
+        "action": "Luo",
+        "title": "Luo tietoleike"
       },
       "edit": {
-        "action": "Lähetä"
-      }
+        "action": "Lähetä",
+        "title": "Muokkaa tietoleikettä"
+      },
+      "placeholder": "Lisää kommentti (valinnainen)...",
+      "review": "Tarkista"
     },
     "empty": "Ei näytettäviä tietoleikkeitä",
     "error": "Tähän tilaan ei onnistuttu lataamaan tietoleikkeitä",
@@ -235,18 +303,30 @@
       "mark_as_ready": "Emme onnistuneet merkitsemään tietoleikettä valmiiksi yhdistämistä varten. Yritä uudelleen. Jos ongelma toistuu, ota yhteyttä tukeen",
       "mark_for_review": "Tietoleikkeesi lähettäminen tarkastettavaksi epäonnistui. Yritä uudelleen. Jos ongelma toistuu, ota yhteyttä tukeen",
       "mark_merged": "Tietoleikkeesi yhdistäminen epäonnistui. Yritä uudelleen. Jos ongelma toistuu, ota yhteyttä tukeen",
-      "mark_open": "Emme onnistuneet avaamaan tietoleikettä uudelleen. Yritä uudelleen. Jos ongelma toistuu, ota yhteyttä tukeen"
+      "mark_open": "Emme onnistuneet avaamaan tietoleikettä uudelleen. Yritä uudelleen. Jos ongelma toistuu, ota yhteyttä tukeen",
+      "merge": "Emme onnistuneet yhdistämään tietoleikettä. Yritä uudelleen. Jos ongelma toistuu, ota yhteyttä tukeen",
+      "refresh_resolutions": "Emme onnistuneet valmistelemaan tietoleikettä tarkistusta varten. Yritä uudelleen. Jos ongelma toistuu, ota yhteyttä tukeen"
     },
     "filter": "Suodatin",
     "library": {
       "actions": {
-        "delete": "Poista"
+        "delete": "Poista",
+        "edit": "Näytä",
+        "edit_details": "Muokkaa tietoja"
       },
+      "create": "Luo tietoleike",
+      "guest_search": "Hae tietoleikkeen tai taulukon nimen perusteella",
       "headers": {
+        "creator": "Tekijä",
         "name": "Nimi",
+        "records": "Tietueet",
         "sheet": "Lähdetaulukko",
-        "status": "Tila"
-      }
+        "status": "Tila",
+        "updated_at": "Viimeksi muokattu"
+      },
+      "search": "Hae tietoleikkeen, taulukon tai tekijän nimen perusteella",
+      "source_name": "Lähdetaulukko: ",
+      "title": "Tietoleikekirjasto"
     },
     "merge": "Yhdistä muutokset",
     "modal": {
@@ -254,25 +334,65 @@
       "share": "Luo"
     },
     "newConflicts": {
-      "close": "Sulje"
+      "close": "Sulje",
+      "description": "Uusia ristiriitoja on tullut esiin tarkastettaessa tätä tietoleikettä.",
+      "submit": "Ratkaise ristiriidat",
+      "title": "Uusia ristiriitoja löytynyt"
     },
     "next": "Seuraava",
-    "promise": "Turvallinen ja suojattu lähetys",
+    "promise": "Turvallinen ja suojattu lähettäminen",
     "resend": "Avaa uudelleen ja palauta",
     "resolutions": {
       "applyAll": {
-        "button": "Käytä"
-      }
+        "button": "Käytä",
+        "description_one": "Haluatko käyttää vaihtoehtoa {{resolveTo}} valintanasi jäljellä oleviin ristiriitoihin sarakkeessa {{columnLabel}}? {{count}} tietue päivitetään.",
+        "description_other": "Haluatko käyttää vaihtoehtoa {{resolveTo}} valintanasi jäljellä oleviin ristiriitoihin sarakkeessa {{columnLabel}}? {{count}} tietuetta päivitetään.",
+        "description_zero": "Haluatko käyttää vaihtoehtoa {{resolveTo}} valintanasi jäljellä oleviin ristiriitoihin sarakkeessa {{columnLabel}}? {{count}} tietuetta päivitetään."
+      },
+      "cancel": "Tallenna ja poistu",
+      "complete": "Suorita",
+      "conflicts_found": {
+        "button_one": "{{count}} ristiriita",
+        "button_other": "{{count}} ristiriitaa",
+        "button_zero": "{{count}} ristiriitaa",
+        "clip_override": {
+          "description": "Tämä ei muuta mitään lähdetaulukossa, ja ristiriitaiset tietoleikkeen muutokset hylätään.",
+          "title": "Hylkää arvot tietoleikkeestä"
+        },
+        "options_title": "Valitse toimenpide",
+        "resolve_conflicts": {
+          "description": "Näin voit tarkastella jokaista tietoleikkeen ristiriitaa ja päättää, mitkä arvot yhdistetään ja mitkä ohitetaan.",
+          "title": "Tee muutokset yksitellen"
+        },
+        "source_override": {
+          "description": "Tämä päivittää kaikki ristiriitaiset arvot vastaamaan yhdistettävän tietoleikkeen arvoja.",
+          "title": "Hyväksy arvot tietoleikkeestä"
+        },
+        "title": "Ristiriitoja löytynyt"
+      },
+      "empty": {
+        "button": "Palaa leikkeeseen",
+        "description": "Tee vähintään yksi muutos voidaksesi yhdistää.",
+        "title": "Tässä tietoleikkeessä ei ole havaittu muutoksia."
+      },
+      "merge": "Yhdistä"
     },
     "selectedRecords_one": "{{count}} tietue valittu",
     "selectedRecords_other": "{{count}} tietuetta valittu",
     "selectedRecords_zero": "{{count}} tietuetta valittu",
     "share": {
-      "submit": "Jaa"
+      "copy_link": "Kopioi linkki",
+      "description": "Yhteiskäyttäjille lähetetään kutsu tehdä yhteistyötä tämän tietoleikkeen parissa.",
+      "empty": "Yhteiskäyttäjiä ei saatavilla.",
+      "none_selected": "Ei valittuja yhteiskäyttäjiä.",
+      "placeholder": "Lisää yhteiskäyttäjiä...",
+      "submit": "Jaa",
+      "title": "Jaa tietoleike"
     },
     "sort": "lajittele",
     "status": {
       "all": "Näytä kaikki",
+      "created": "Luotu",
       "merged": "Yhdistetty",
       "open": "Avaa",
       "ready": "Valmis tarkistettavaksi",
@@ -280,12 +400,25 @@
     },
     "success": {
       "add_records": "Tietueiden lisääminen onnistui.",
+      "create": "Tietoleikkeesi luominen onnistui.",
+      "delete": "Tietoleikkeesi poistaminen onnistui.",
+      "edit": "Muokkausten tallentaminen onnistui",
+      "link_copy": "Linkin kopioiminen onnistui!",
+      "mark_as_ready": "Tietoleikkeesi onnistuttiin lähettämään tarkistettavaksi. Leikkeen omistajalle on ilmoitettu.",
+      "mark_merged": "Tietoleikkeesi yhdistäminen onnistui.",
+      "mark_open": "Tietoleike avattiin onnistuneesti uudelleen ja palautettiin!",
       "modal": {
         "create": {
-          "close": "Sulje"
+          "button": "Näytä tietoleike",
+          "close": "Sulje",
+          "description": "Voit nyt katsella uutta tietoleikettä.",
+          "title": "Tietoleikkeesi on luotu"
         },
         "ready": {
-          "close": "Sulje"
+          "close": "Sulje",
+          "description": "Muutoksesi on lähetetty tarkistettavaksi. Ilmoitamme sinulle mahdollisista huomautuksista tai tilan muutoksista.",
+          "submit": "Palaa tietoleikkeeseen",
+          "title": "Muutosten lähettäminen onnistui!"
         }
       }
     },
@@ -300,6 +433,7 @@
     }
   },
   "errors": {
+    "accessDenied": "Pääsy kielletty",
     "documentNotFound": "Asiakirjaa ei löytynyt",
     "fileNotFound": "Tiedostoa ei löydy",
     "missingParameter": "Parametria ei ole annettu",
@@ -307,7 +441,9 @@
     "notFoundPageDescription": "Tässä URL-osoitteessa ei ole sivuja. Jos tämä ei ole odotettua, ota yhteyttä tukeen.",
     "refreshButton": "Yritä uudelleen",
     "refreshPageDescription": "Päivitä sivu ja yritä uudelleen. Jos ongelma jatkuu, ota yhteyttä tukeen.",
+    "returnToDashboardButton": "Palaa koontinäyttöön",
     "sessionExpired": "Istunto on päättynyt",
+    "sessionExpiredDescription": "Nykyisen istunnon käyttöoikeus on päättynyt.",
     "sheetNotFound": "Taulukkoa ei löytynyt",
     "spaceNotFound": "Tilaa ei löytynyt",
     "unauthorized": "Käyttäjätunnuksesi ovat virheelliset.",
@@ -410,6 +546,7 @@
         "uploadedDate": "Ladattu"
       },
       "importButton": "Tuo",
+      "importError": "Lähdetiedostoa ei löydy tuotavaksi. Yritä uudelleen. Jos ongelma toistuu, ota yhteyttä tukeen.",
       "tooltips": {
         "cannotImport": "Tuonti työkirjaan ei ole tällä hetkellä saatavilla tälle tiedostolle",
         "noExtension": "Tällä tiedostolla ei ole päätettä. Lisää oikea tiedostopääte tiedostonimeen ja lataa tiedosto uudelleen, jotta voit tuoda sen työkirjaan"
@@ -423,8 +560,23 @@
       "heading": "Tarkista postilaatikkosi"
     }
   },
+  "helpCenter": {
+    "panel": {
+      "empty": "Tämän tilan ohjeet ovat saatavilla täällä, jos ne on määritetty.",
+      "heading": "Ohjekeskus"
+    },
+    "pill": {
+      "hoverText": "Ohjekeskus"
+    }
+  },
   "host": {
     "modals": {
+      "closeModal": {
+        "message": "Haluatko varmasti sulkea tämän ikkunan? Tämä lopettaa nykyisen tietojen tuonti-istuntosi.",
+        "primaryButtonText": "Kyllä, poistu",
+        "secondaryButtonText": "En, jää",
+        "title": "Sulje ikkuna"
+      },
       "errorModal": {
         "title": "Jokin meni pieleen"
       }
@@ -464,6 +616,8 @@
             "success": "{{jobName}} suoritettiin onnistuneesti resurssissa {{resourceName}}"
           },
           "defaultRetryLabel": "Yritä uudelleen",
+          "defaultUrlLabel": "Käy ulkoisella verkkosivulla",
+          "defaultViewLabel": "  Päivitä näkymä",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Jatka"
           }
@@ -486,6 +640,9 @@
     "info": {
       "copiedPopover": "Työn tunnus kopioitu",
       "copyIdTooltip": "Kopioi työn tunnus"
+    },
+    "messages": {
+      "startingJob": "Aloitetaan tehtävä"
     },
     "noListener": {
       "learnMore": "Lue lisää"
@@ -532,10 +689,24 @@
         },
         "extract": {
           "cancelled": "Peruutettu tiedoston poimiminen",
-          "complete": "Poimittu tiedosto",
+          "complete": "Tiedosto poimittu",
           "failed": "Tiedoston poimiminen epäonnistui",
           "inProgress": "Poimitaan tiedostoa",
           "waiting": "Odottaa tiedoston poimimista"
+        },
+        "flatfile-add-column": {
+          "canceled": "Lisää sarake peruutettu",
+          "complete": "Lisää Sarake valmis",
+          "failed": "Lisää sarake epäonnistunut",
+          "inProgress": "Lisätään saraketta",
+          "waiting": "Lisää sarake odottaa"
+        },
+        "flatfile-remove-column": {
+          "canceled": "Poista sarake peruutettu",
+          "complete": "Poista sarake valmis",
+          "failed": "Poista sarake epäonnistui",
+          "inProgress": "Poistetaan saraketta",
+          "waiting": "Odotetaan sarakkeen poistamista"
         },
         "mapping": {
           "canceled": "Työkirjaan yhdistäminen peruutettu",
@@ -598,15 +769,53 @@
     }
   },
   "manageUsers": {
+    "accessLink": {
+      "callout": "Tämä linkki on voimassa 24 tuntia. Kuka tahansa, jolla on linkki, voi käyttää tilaa ja ladata, muokata ja muuten hallita tietoja.",
+      "title": "Pääsylinkki"
+    },
+    "actions": {
+      "copyLink": "Kopioi tilalinkki",
+      "invite": "Lähetä kutsu",
+      "resendInvite": "Lähetä kutsu uudelleen",
+      "revoke": "Peruuta käyttöoikeus"
+    },
     "edit": {
-      "cancelButton": "Peruuta"
+      "cancelButton": "Peruuta",
+      "description": "Kaikkien työkirjojen poistaminen käyttäjän tililtä poistaa kyseisen käyttäjän tilasta.",
+      "error": "Virhe noudettaessa työkirjoja",
+      "loading": "Ladataan muokkausoikeuksia...",
+      "saveButton": "Tallenna",
+      "title": "Muokkaa työkirjan käyttöoikeuksia kohteelle"
+    },
+    "empty": "Ei vieraita näytettäväksi",
+    "error": {
+      "title": "Tähän tilaan ei onnistuta lataamaan käyttäjiä"
+    },
+    "guest": {
+      "message": "Vain järjestelmänvalvojat voivat hallita vieraita. Jos uskot, että näet tämän virheestä johtuen, ota yhteyttä tukeen.",
+      "title": "Sinulla ei ole oikeutta tarkastella tätä sivua"
     },
     "invite": {
-      "cancelButton": "Peruuta"
+      "cancelButton": "Peruuta",
+      "form": {
+        "collaborate": {
+          "label": "Kenen kanssa haluaisit tehdä yhteistyötä?",
+          "placeholder": "Kutsu sähköpostitse, pilkulla erotettuna"
+        },
+        "message": {
+          "label": "Viesti",
+          "placeholder": "Tehdään yhteistyötä!"
+        }
+      },
+      "sendInvite": "Lähetä kutsu",
+      "title": "Kutsu vieraita"
     },
+    "manageGuests": "Hallitse vieraita",
     "revoke": {
       "cancelButton": "Peruuta",
-      "confirmButton": "Vahvista"
+      "confirmButton": "Vahvista",
+      "removing": "Poistetaan...",
+      "title": "Peruuta käyttöoikeus"
     }
   },
   "mapping": {
@@ -625,7 +834,9 @@
     },
     "headerButtons": {
       "back": "Takaisin",
+      "complete": "Suorita",
       "exit": "Poistu",
+      "headers": "Valitse otsikot",
       "next": "Jatka"
     },
     "mapEnums": {
@@ -678,13 +889,24 @@
         "progressPill": {
           "text": "{{totalIncomingMapped}}/{{totalIncomingFields}}",
           "tooltip": "Olet yhdistänyt {{mappedIncomingFields}}/{{totalIncomingFields}} kenttää tietojoukossasi kohdetaulukkoon"
+        },
+        "selectHeaders": {
+          "tooltip": "Muokkaa saapuvia kenttiä"
         }
       },
       "subheading": "Tarkista ja vahvista jokainen yhdistämisvalinta",
       "title": "Yhdistä kentät"
     },
+    "mapHeaders": {
+      "subheading": "Muuta tai valitse otsikkorivi lähdetietojasi varten",
+      "title": "Yhdistä otsikot"
+    },
+    "mappingPlan": {
+      "preparing": "Valmistellaan yhdistämistä..."
+    },
     "sheetSelection": {
       "cannotLoadFile": "Seuraavan tiedoston lataaminen ei onnistu: {{fileName}}",
+      "cannotStartMapping": "Yhdistämisen jatkaminen ei onnistu – {{reason}} – Yritä uudelleen",
       "columns_one": "1 sarake",
       "columns_other": "{{count}} saraketta",
       "columns_zero": "{{count}} saraketta",
@@ -702,14 +924,68 @@
       "sheets_one": "1 taulukko",
       "sheets_other": "{{count}} taulukkoa",
       "sheets_zero": "{{count}} taulukkoa",
-      "title": "Vie kohteeseen..."
+      "title": "Vie kohteeseen...",
+      "updatedAtDateFormat": "vvvv-kk-pp"
+    }
+  },
+  "nativeActions": {
+    "addColumn": "Lisää sarake",
+    "clearColumn": "Tyhjennä sarake",
+    "removeColumn": "Poista sarake"
+  },
+  "platform": {
+    "pubnub": {
+      "errors": {
+        "refreshTokenActionLabel": "Päivitä",
+        "refreshTokenFailed": "Tapahtuman suoratoiston yhteys katkaistu – päivitä yhdistääksesi uudelleen"
+      }
     }
   },
   "plugins": {
     "extraction": {
-      "extractedFile": "Poimittu tiedosto",
-      "extractionFailed": "Poimiminen epäonnistui. Yritä uudelleen tai ota yhteyttä tukeen."
+      "addingRecords": "Lisätään tietueita taulukoihin",
+      "createWorkbook": "Luodaan työkirjaa",
+      "createWorkbookError": "Työkirjan luominen epäonnistui. Katso tapahtumalokit.",
+      "extractedFile": "Tiedosto poimittu",
+      "extractionFailed": "Poimiminen epäonnistui. Yritä uudelleen tai ota yhteyttä tukeen.",
+      "failedToParseWorkbook": "Työkirjan jäsentäminen epäonnistui.",
+      "fileTooLarge": "Tiedosto on liian suuri jäsennettäväksi. Yritä muuntaa tämä tiedosto CSV-tiedostoksi.",
+      "noSheets": "Taulukoita ei löytynyt",
+      "parseSheets": "Jäsennetään taulukoita",
+      "retrieveFile": "Noudetaan tiedostoa"
+    },
+    "viewMapped": {
+      "almostDone": "Melkein valmista...",
+      "complete": "Taulukon päivitys suoritettu. Tarkista tiedot",
+      "error": "Työkirjan päivittämisessa ilmeni virhe. Tarkista tapahtumalogit.",
+      "halfway": "Puoliksi valmista, hetki vain...",
+      "updatingTable": "Päivitetään taulukko esittämään vain määritellyt kentät"
     }
+  },
+  "secrets": {
+    "create": "Luo salaisuus",
+    "delete": "Poista salaisuus",
+    "edit": "Muokkaa salaisuutta",
+    "envSecrets": "Ympäristösalaisuudet",
+    "errors": {
+      "couldNotGetSecrets": "Salaisuuksia ei onnistuttu saamaan. Kokeile tämän sivun päivittämistä.",
+      "keyAlreadyExists": "Tätä avainta vastaava salaisuus on jo olemassa",
+      "keyCannotBeEmpty": "Avain ei voi olla tyhjä",
+      "keyInvalid": "Salaisuuden nimi voi sisältää vain aakkosnumeerisia merkkejä ja alaviivoja"
+    },
+    "failureAdd": "Salaisuuden {{name}} lisääminen epäonnistui",
+    "failureEdit": "Salaisuuden {{name}} muokkaaminen epäonnistui",
+    "keyPlaceholder": "Syötä avain...",
+    "noSecrets": "Ympäristötason salaisuuksia ei ole. Lisää sellainen <hyperlink>täällä</hyperlink>.",
+    "noSpaceSecrets": "Tilatason salaisuuksia ei ole vielä. Lisää sellainen napsauttamalla plus-kuvaketta.",
+    "noUserSecrets": "Käyttäjätason salaisuuksia ei ole vielä. Lisää sellainen napsauttamalla plus-kuvaketta.",
+    "spaceSecrets": "Tilasalaisuudet",
+    "successfulAdd": "Salaisuuden {{name}} lisääminen onnistui",
+    "successfulEdit": "Salaisuuden {{name}} muokkaaminen onnistui",
+    "userDescription": "Käyttäjätason salaisuudet ohittavat tilatason salaisuudet.",
+    "userSecrets": "Käyttäjäsalaisuudet",
+    "value": "Salaisuuden arvo",
+    "valuePlaceholder": "Syötä arvo..."
   },
   "sheet": {
     "columnManagement": {
@@ -738,6 +1014,9 @@
         "message_zero": "Tämä kysely poisti piilottamisen {{count}} sarakkeelta"
       }
     },
+    "comments": {
+      "tooltip": "Lisää kommentti"
+    },
     "embedded": {
       "maxOpenReached": "Kerralla voi avata korkeintaan {{maxOpenSheets}} upotettua taulukkoa. Sulje jokin upotettu taulukko voidaksesi avata tämän.",
       "untitled": "Nimetön taulukko"
@@ -750,6 +1029,8 @@
       "heading": "Aloitetaan",
       "manualEntry": "Syötä tiedot manuaalisesti",
       "missingSheet": {
+        "buttonLabel": "Palaa päätaulukkoon",
+        "description": "Taulukko, jota yrität käyttää, on poistettu, tai sitä ei ole olemassa.",
         "heading": "Taulukkoa ei löytynyt"
       },
       "noColumns": {
@@ -786,6 +1067,7 @@
       "environment": "Ympäristö",
       "inFrame": "IFramessa",
       "referrer": "Viittaaja",
+      "release": "Tämänhetkinen julkaisuversio",
       "sheet": "Taulukko",
       "space": "Tila",
       "workbook": "Työkirja"
@@ -924,6 +1206,12 @@
         "description": "Taulukossa on ongelmia tämän tiedon näyttämisessä. Katso konsolista virheen tarkat tiedot.",
         "title": "Jokin meni pieleen"
       },
+      "header": {
+        "tooltip": {
+          "key": "avain: {{key}}",
+          "label": "selite: {{label}}"
+        }
+      },
       "indexRow": {
         "tooltip": {
           "createRow": "Lisää tietoja luodaksesi tämän rivin",
@@ -971,12 +1259,35 @@
         "addToDataClip": {
           "modal": {
             "cancelButton": "Peruuta",
+            "confirmButton": "Lisää tietueita",
             "description": {
-              "infix": "valitut",
+              "infix": "valittua",
               "infixType": {
-                "invalid": "virheelliset",
-                "valid": "kelvolliset"
-              }
+                "invalid": "virheellistä",
+                "valid": "kelvollista"
+              },
+              "prefix": "Haluaisitko lisätä ",
+              "suffix_one": "tietue tietoleikkeeseen?",
+              "suffix_other": "tietuetta tietoleikkeeseen?",
+              "suffix_zero": "tietuetta tietoleikkeeseen?"
+            },
+            "errorMessage": "Tietueiden lisääminen tietoleikkeeseen ei onnistunut. Yritä uudelleen tai muuta valintaasi.",
+            "heading_one": "Lisää tietue tietoleikkeeseen",
+            "heading_other": "Lisää tietueita tietoleikkeeseen",
+            "heading_zero": "Lisää tietueita tietoleikkeeseen",
+            "inProgress": "Lisätään tietueita..."
+          },
+          "popover": {
+            "successMessage_one": "{{count}} tietue lisätty tietoleikkeeseen",
+            "successMessage_other": "{{count}} tietuetta lisätty tietoleikkeeseen",
+            "successMessage_zero": "{{count}} tietuetta lisätty tietoleikkeeseen",
+            "successMessageNoCount": "Tietueet lisätty tietoleikkeeseen"
+          },
+          "tooltip": {
+            "active": "Lisää valitut tietueet tietoleikkeeseen",
+            "disabled": {
+              "deleteDisabled": "Tietueiden lisääminen tietoleikkeisiin on poistettu käytöstä tässä taulukossa.",
+              "noRecordsSelected": "Valitse vähintään yksi tietue lisätäksesi sen tietoleikkeeseen"
             }
           }
         },
@@ -985,12 +1296,12 @@
             "cancelButton": "Peruuta",
             "confirmButton": "Poista tietueet",
             "description": {
-              "infix": "valitut",
+              "infix": "valittua",
               "infixType": {
-                "invalid": "virheelliset",
-                "valid": "kelvolliset"
+                "invalid": "virheellistä",
+                "valid": "kelvollista"
               },
-              "prefix": "Haluaisitko poistaa",
+              "prefix": "Haluatko poistaa",
               "suffix_one": "tietueen?",
               "suffix_other": "tietueet?",
               "suffix_zero": "tietueet?"
@@ -1020,10 +1331,10 @@
             "cancelButton": "Peruuta",
             "confirmButton": "Lataa tietueita",
             "description": {
-              "infix": "valitut",
+              "infix": "valittua",
               "infixType": {
-                "invalid": "virheelliset",
-                "valid": "kelvolliset"
+                "invalid": "virheellistä",
+                "valid": "kelvollista"
               },
               "prefix": "Haluaisitko ladata",
               "suffix_one": "tietue",
@@ -1051,29 +1362,58 @@
             "cancelButton": "Peruuta",
             "confirmButton": "Poista tietueet",
             "description": {
-              "infix": "valitut",
+              "infix": "valittua",
               "infixType": {
-                "invalid": "virheelliset",
-                "valid": "kelvolliset"
+                "invalid": "virheellistä",
+                "valid": "kelvollista"
               },
-              "prefix": "Haluaisitko poistaa"
+              "prefix": "Haluatko poistaa",
+              "suffix_one": "tietueen? Tämä poistaa tietueen myös lähdetaulukosta tietoleikkeen yhdistämisen yhteydessä.",
+              "suffix_other": "tietuetta? Tämä poistaa tietueet myös lähdetaulukosta tietoleikkeen yhdistämisen yhteydessä.",
+              "suffix_zero": "tietuetta? Tämä poistaa tietueet myös lähdetaulukosta tietoleikkeen yhdistämisen yhteydessä."
             },
             "errorMessage": "Tietueiden poistaminen ei onnistu. Yritä uudelleen tai muuta valintaasi.",
+            "heading_one": "Poista tietue",
+            "heading_other": "Poista tietueet",
+            "heading_zero": "Poista tietueet",
             "inProgress": "Poistetaan tietueita..."
           },
           "popover": {
+            "successMessage_one": "{{count}} tietue poistettu",
+            "successMessage_other": "{{count}} tietuetta poistettu",
+            "successMessage_zero": "{{count}} tietuetta poistettu",
             "successMessageNoCount": "Tietueet poistettu"
           }
         },
         "restore": {
           "modal": {
             "cancelButton": "Peruuta",
+            "confirmButton": "Palauta poistetut tietueet",
             "description": {
-              "infix": "valitut",
+              "infix": "valittua",
               "infixType": {
-                "invalid": "virheelliset",
-                "valid": "kelvolliset"
-              }
+                "invalid": "virheellistä",
+                "valid": "kelvollista"
+              },
+              "prefix": "Haluatko palauttaa tässä valinnassa aiemmin poistettavaksi merkityt tietueet?"
+            },
+            "errorMessage": "Palautettujen tietueiden lisääminen ei onnistu. Yritä uudelleen tai muuta valintaasi.",
+            "heading_one": "Palauta tietue",
+            "heading_other": "Palauta tietueet",
+            "heading_zero": "Palauta tietueet",
+            "inProgress": "Palautetaan tietueita..."
+          },
+          "popover": {
+            "successMessage_one": "Aiemmin poistettavaksi merkityt tietueet on palautettu.",
+            "successMessage_other": "Aiemmin poistettavaksi merkityt tietueet on palautettu.",
+            "successMessage_zero": "Aiemmin poistettavaksi merkityt tietueet on palautettu.",
+            "successMessageNoCount": "Aiemmin poistettavaksi merkityt tietueet on palautettu."
+          },
+          "tooltip": {
+            "active": "Palauta aiemmin poistettavaksi merkityt tietueet valinnan sisällä.",
+            "disabled": {
+              "deleteDisabled": "Tietueiden palauttaminen ei ole käytössä tässä taulukossa.",
+              "noRecordsSelected": "Valitse vähintään yksi tietue, jotta voit palauttaa sen"
             }
           }
         }
@@ -1082,15 +1422,36 @@
         "disabledTooltip": {
           "hasData": "Tämä toimenpide tulee käyttöön, kun tässä taulukossa on vähintään yksi tietue.",
           "requireAllValid": "Tämä toimenpide edellyttää, että kaikki valitut rivit ovat kelvollisia",
+          "requireAllValidTotal": "Tämä toimenpide edellyttää, että kaikki rivit ovat kelvollisia",
           "requireSelection": "Valitse yksi tai useampi tietue voidaksesi tehdä tämän toimenpiteen"
         }
       },
       "dataClips": {
+        "actions": {
+          "create": "Luo tietoleike"
+        },
+        "buttonText": "Leiketiedot",
+        "errors_one": "{{count}} virhe",
+        "errors_other": "{{count}} virhettä",
+        "errors_zero": "{{count}} virhettä",
         "modal": {
           "cancel": "Peruuta",
           "share": "Jaa"
         },
-        "promise": "Turvallinen ja suojattu lähetys"
+        "placeholders": {
+          "description": "Lisää kommentti (valinnainen)..."
+        },
+        "promise": "Turvallinen ja suojattu lähettäminen",
+        "selectedRecords_one": "{{count}} tietue",
+        "selectedRecords_other": "{{count}} tietuetta",
+        "selectedRecords_zero": "{{count}} tietuetta",
+        "syncedRecords_one": "{{count}} synkronoitu tietue",
+        "syncedRecords_other": "{{count}} synkronoitua tietuetta",
+        "syncedRecords_zero": "{{count}} synkronoitua tietuetta",
+        "titles": {
+          "review": "Tarkista",
+          "share": "Jaa tietoleikkeet"
+        }
       },
       "dropdown": {
         "delete": "Poista",
@@ -1108,9 +1469,9 @@
           "countsError": "Virhe ladattaessa lukumääriä",
           "countsErrorRetry": "Napsauta yrittääksesi uudelleen",
           "filter": {
-            "invalid": "virheelliset",
+            "invalid": "virheellistä",
             "total": "yhteensä",
-            "valid": "kelvolliset"
+            "valid": "kelvollista"
           },
           "filtered": "Tämä tietojoukko on suodatettu näyttämään {{filteredCount}}/{{countString}} {{filter}}-tietuetta.",
           "filteredByError": "Tämä tietojoukko on suodatettu virhesuodattimen kautta näyttämään {{filteredCount}}/{{countString}} {{filter}} -tietuetta.",
@@ -1127,6 +1488,10 @@
       "moreActions": {
         "buttonText": "Lisää toimenpiteitä...",
         "placeholder": "Hae tai valitse..."
+      },
+      "restore": {
+        "label": "Palauta tietueet",
+        "tooltip": "Palauta aiemmin poistettavaksi merkityt tietueet."
       },
       "savedViews": {
         "buttonText": "Näkymät",
@@ -1200,10 +1565,13 @@
     }
   },
   "sidebar": {
+    "activityLogs": "Tapahtumalokit",
     "addConnection": "Lisää yhteys",
     "checklist": "Tietojen tarkistuslista",
     "collapse": {
-      "workbook": "Työkirja"
+      "documents": "Asiakirjat",
+      "workbook": "Työkirja",
+      "workbooks": "Työkirjat"
     },
     "connections": {
       "tooltips": {
@@ -1213,8 +1581,26 @@
       }
     },
     "emptyWorkbook": "Tyhjä työkirja",
+    "errorIconTooltip": "Tässä taulukossa on virheitä",
     "files": "Tiedostot",
-    "readOnlyIconTooltip": "Tämä taulukko on vain luettavissa"
+    "footer": {
+      "backToDashboard": "Takaisin koontinäyttöön",
+      "logout": "Kirjaudu ulos"
+    },
+    "lockedIconTooltip": "Tämä taulukko on lukittu",
+    "manageGuests": "Hallitse vieraita",
+    "pill": {
+      "admin": "Järjestelmänvalvoja"
+    },
+    "readOnlyIconTooltip": "Tämä taulukko on vain luettavissa",
+    "secrets": "Salaisuudet",
+    "spaceSwitcher": {
+      "placeholder": "Etsi tai valitse tila..."
+    },
+    "toggle": {
+      "hide": "Piilota sivupalkki",
+      "show": "Näytä sivupalkki"
+    }
   },
   "snapshot": {
     "accept": {
@@ -1249,6 +1635,18 @@
             "last": " ja {{cells}} solua kentässä {{name}}",
             "middle": ", {{cells}} solua kentässä {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Kenttä {{name}} poistetaan",
+              "last": " ja kenttä {{name}} poistetaan",
+              "middle": ", kenttä {{name}} poistetaan"
+            },
+            "removed": {
+              "first": "kenttä {{name}} lisätään uudelleen",
+              "last": " ja kenttä {{name}} lisätään uudelleen",
+              "middle": ", kenttä {{name}} lisätään uudelleen"
+            }
+          },
           "singular": {
             "first": "1 solu kentässä {{name}}",
             "last": " ja 1 solu kentässä {{name}}",
@@ -1277,6 +1675,7 @@
         "current": "Nykyinen arvo: {{value}}",
         "empty": "ei tietoja",
         "none": "Tietojoukkoasi muokataan vastaamaan näytettyjä arvoja.",
+        "requiresDecision": "Tämä arvo edellyttää päätöksen ennen kuin voit muokata tietojoukkoa.",
         "restore": "Tietojoukkosi palautetaan tässä tilannekuvassa olevaan versioon.",
         "snapshot": "Uusi arvo: {{value}}"
       }
@@ -1361,6 +1760,18 @@
             "last": " ja {{cells}} solua kentässä {{name}}",
             "middle": ", {{cells}} solua kentässä {{name}}"
           },
+          "schemaDiff": {
+            "added": {
+              "first": "Kenttä {{name}} poistetaan",
+              "last": " ja kenttä {{name}} poistetaan",
+              "middle": ", kenttä {{name}} poistetaan"
+            },
+            "removed": {
+              "first": "kenttä {{name}} lisätään uudelleen",
+              "last": " ja kenttä {{name}} lisätään uudelleen",
+              "middle": ", kenttä {{name}} lisätään uudelleen"
+            }
+          },
           "singular": {
             "first": "1 solu kentässä {{name}}",
             "last": " ja 1 solu kentässä {{name}}",
@@ -1411,6 +1822,18 @@
             "first": "{{cells}} solua kentässä {{name}}",
             "last": " ja {{cells}} solua kentässä {{name}}",
             "middle": ", {{cells}} solua kentässä {{name}}"
+          },
+          "schemaDiff": {
+            "added": {
+              "first": "Kenttä {{name}} poistetaan",
+              "last": " ja kenttä {{name}} poistetaan",
+              "middle": ", kenttä {{name}} poistetaan"
+            },
+            "removed": {
+              "first": "kenttä {{name}} lisätään uudelleen",
+              "last": " ja kenttä {{name}} lisätään uudelleen",
+              "middle": ", kenttä {{name}} lisätään uudelleen"
+            }
           },
           "singular": {
             "first": "1 solu kentässä {{name}}",
@@ -1482,8 +1905,11 @@
     },
     "panel": {
       "empty": "Kun versiot on luotu, ne näkyvät täällä. Versiot luodaan automaattisesti, usein silloin, kun tietoja muunnetaan erämuodossa.",
-      "generatedSnapshot": "Tilannekuva luotu kuin tekoälymuuntamista sovellettiin seuraavaan kehotteeseen: ",
-      "generatedSnapshotForAiTransform": "Tilannekuva luotu kuin tekoälymuuntamista sovellettiin seuraavaan kehotteeseen: ",
+      "generatedSnapshot": "Tilannekuva luotu ennen AI Transformin käyttämistä kehotteeseen: ",
+      "generatedSnapshotForAiTransform": "Tilannekuva luotu ennen AI Transformin käyttämistä kehotteeseen: ",
+      "generatedSnapshotForBulkAddToDataClip": "Tilannekuva luotu ennen tietueiden lisäämistä tietoleikkeeseen",
+      "generatedSnapshotForBulkDelete": "Tilannekuva luotu ennen tietueiden poistamista",
+      "generatedSnapshotForFindReplace": "Tilannekuva luotu ennen etsi ja korvaa -toiminnon käyttämistä",
       "heading": "Versiohistoria",
       "thisMonth": "Tässä kuussa",
       "versionRestored": "Versio luotu ennen edellisen version palauttamista"
