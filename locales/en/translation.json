@@ -558,7 +558,7 @@
   "guestInvite": {
     "getNewAccessLink": {
       "content": "We've sent a secure access link to",
-      "finePrint": "If you have trouble locating the email, check your spam folder or refresh this page to send another access link. The link will work for 5 minutes.",
+      "finePrint": "If you have trouble locating the email, check your spam folder or refresh this page to send another access link.",
       "heading": "Check your inbox"
     }
   },
