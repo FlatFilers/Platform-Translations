@@ -354,7 +354,7 @@
           "description": "This won't change anything in the source sheet, and the conflicted data clip changes will be discarded.",
           "title": "Reject values from data clip"
         },
-        "options_title": "Choose the action",
+        "options_title": "Select an option",
         "resolve_conflicts": {
           "description": "This allows you to review each conflict in the data clip, and decide which values to merge or ignore.",
           "title": "Make changes individually"
@@ -364,6 +364,19 @@
           "title": "Accept values from data clip"
         },
         "title": "Conflicts found"
+      },
+      "deletedFromMain": {
+        "removeRecords": {
+          "title": "Ignore data clip changes for deleted records",
+          "description": "Changed records that have since been deleted from the main sheet will be ignored upon merge, and not added back to the main sheet."
+        },
+        "createNewRecords": {
+          "title": "Restore records in main sheet",
+          "description": "Records that have been changed in the data clip and deleted from the main sheet will be restored in the main sheet upon merge."
+        },
+        "title_one": "{{ count }} changed record has been deleted from the main sheet",
+        "title_other": "{{ count }} changed records have been deleted from the main sheet",
+        "description": "Select an option"
       },
       "empty": {
         "button": "Return to clip",
