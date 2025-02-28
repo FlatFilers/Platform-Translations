@@ -343,7 +343,7 @@
       "applyAll": {
         "button": "Apply",
         "description_one": "Would you like apply '{{resolveTo}}' as your selection for the remaining conflicts in the '{{columnLabel}}' column? {{count}} record will be updated.",
-        "description_other": "Would you like apply '{{resolveTo}}' as your selection for the remaining conflicts in the '{{columnLabel}}' column? {{count}} records will be updted."
+        "description_other": "Would you like apply '{{resolveTo}}' as your selection for the remaining conflicts in the '{{columnLabel}}' column? {{count}} records will be updated."
       },
       "cancel": "Save & exit",
       "complete": "Complete",
