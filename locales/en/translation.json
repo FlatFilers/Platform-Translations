@@ -1095,7 +1095,8 @@
           "reference": "Value does not exist in the reference table",
           "req": "{{field}} is required",
           "transformed": "🪄️ Transformed from {{originalValue}}",
-          "unique": "Value is not unique"
+          "unique": "Value is not unique",
+          "readOnly": "read only"
         }
       },
       "contextMenu": {
