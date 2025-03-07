@@ -81,6 +81,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "Calculer",
+    "countEmpty": "{{count}} vides",
+    "countNonEmpty": "{{count}} remplis",
+    "literalCountEmpty": "Nombre vide",
+    "literalCountNonEmpty": "Nombre rempli",
+    "literalPercentEmpty": "Pourcentage vide",
+    "literalPercentNonEmpty": "Pourcentage rempli",
+    "removeCalculation": "Supprimer le calcul"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -371,6 +381,20 @@
         },
         "title": "Conflits trouvés"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "Les enregistrements qui ont été modifiés dans le clip de données et supprimés de la feuille principale seront restaurés dans la feuille principale lors de la fusion.",
+          "title": "Restaurer les enregistrements dans la feuille principale"
+        },
+        "description": "Choisir une option",
+        "removeRecords": {
+          "description": "Les enregistrements modifiés qui ont été supprimés de la feuille principale depuis lors seront ignorés lors de la fusion et ne seront pas réintégrés dans la feuille principale.",
+          "title": "Ignorer les modifications du clip de données pour les enregistrements supprimés"
+        },
+        "title_one": "{{ count }} l'enregistrement modifié a été supprimé de la feuille principale",
+        "title_other": "{{ count }} les enregistrements modifiés ont été supprimés de la feuille principale",
+        "title_zero": "{{ count }} les enregistrements modifiés ont été supprimés de la feuille principale."
+      },
       "empty": {
         "button": "Retourner au clip",
         "description": "Apportez au moins une modification pour effectuer la fusion.",
@@ -497,6 +521,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "Généré",
+        "details": "Détails",
         "name": "Nom",
         "size": "Taille",
         "sourceSheet": "Feuille de calcul source"
@@ -517,6 +542,10 @@
       "loadingError": "Impossible de charger les fichiers",
       "uploadDisabledDescription": "Si vous pensez qu'il s'agit d'une erreur, veuillez contacter l'assistance.",
       "uploadDisabledHeading": "Cet espace ne permet pas actuellement le téléchargement de fichiers."
+    },
+    "status": {
+      "readyForImport": "Prêt pour l'importation",
+      "uploaded": "Téléchargés"
     },
     "title": "Fichiers",
     "uploadedFilesTab": "Fichiers téléchargés",
@@ -927,6 +956,9 @@
       "sheets_zero": "{{count}} feuilles",
       "title": "Importer vers...",
       "updatedAtDateFormat": "aaaa-MM-jj"
+    },
+    "sidebar": {
+      "title": "Mappage"
     }
   },
   "nativeActions": {
@@ -961,6 +993,63 @@
       "error": "Une erreur s'est produite lors de la mise à jour du classeur. Voir les journaux d'événements.",
       "halfway": "A mi-chemin, accrochez-vous...",
       "updatingTable": "Mise à jour de la table afin d'afficher uniquement les champs mappés"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "Combiner les champs entrants en une seule valeur",
+      "name": "Combiner"
+    },
+    "firstAvailable": {
+      "description": "Par défaut, il s'agit de la première valeur disponible dans une cellule.",
+      "name": "Première valeur disponible"
+    },
+    "infer": {
+      "description": "Inférer la description TBD",
+      "name": "Inférer"
+    },
+    "list": {
+      "description": "Regrouper plusieurs champs en un tableau",
+      "name": "Liste"
+    },
+    "move": {
+      "description": "Déplacer un champ entrant vers un champ de destination",
+      "name": "Déplacer"
+    },
+    "prepareSheet": {
+      "description": "Préparez vos données pour l'analyse en examinant les problèmes de prétraitement et en proposant un plan pour les résoudre.",
+      "name": "Préparer"
+    },
+    "singleValue": {
+      "description": "Définir une valeur par défaut pour la destination",
+      "name": "Définir par défaut"
+    },
+    "sourceSelector": {
+      "destination": "Champ de destination",
+      "destinationValues": "Champs de destination",
+      "firstFifty": "Afficher les 50 premiers résultats",
+      "noValuesFound": "Aucun champ trouvé",
+      "placeholderDestination": "Rechercher ou ajouter un champ de destination...",
+      "placeholderDestinationMultiple": "Rechercher ou ajouter des champs de destination...",
+      "placeholderReference": "Rechercher ou ajouter un champ de référence...",
+      "placeholderReferenceMultiple": "Rechercher ou ajouter des champs de référence...",
+      "placeholderSource": "Rechercher ou ajouter un champ source...",
+      "placeholderSourceMultiple": "Rechercher ou ajouter des champs sources...",
+      "reference": "Champ de référence",
+      "selectedValue": "Champ sélectionné",
+      "selectedValues": "Champs sélectionnés",
+      "source": "Champ source",
+      "sourceValues": "Champs sources",
+      "valuesCount": "{count} champs sélectionnés"
+    },
+    "sourceTool": "Outil source",
+    "split": {
+      "description": "Le fractionnement consiste à diviser une colonne unique contenant des données combinées en plusieurs colonnes à partir d'un délimiteur, ce qui rend chaque point de données plus accessible pour l'analyse.",
+      "name": "Fractionner"
+    },
+    "unpivot": {
+      "description": "Combiner des colonnes liées en lignes, en normalisant des données larges dans un format plus simple et plus long.",
+      "name": "Défaire le pivot"
     }
   },
   "secrets": {
@@ -1102,6 +1191,7 @@
           "compositeUnique": "🧑‍🍳 Le {{name}} composite n'est pas unique",
           "invalidOption": "Option non valide",
           "invalidValue": "La valeur n'est pas une option valide",
+          "readOnly": "lecture seule",
           "reference": "La valeur n'existe pas dans la table de référence",
           "req": "{{field}} est requis",
           "transformed": "Transformé à partir de {{originalValue}}",
@@ -1109,11 +1199,18 @@
         }
       },
       "contextMenu": {
+        "columnTools": "Outils de colonne",
         "filterByValue": {
+          "firstFifty": "Affichage des 50 premières options",
           "label": "Filtrer par valeur",
           "moreOptions": "Affichage des premières {{pageSize}} options. Rechercher pour en afficher plus.",
           "noData": "aucune donnée",
-          "placeholder": "Rechercher ou sélectionner des valeurs..."
+          "noValuesFound": "Aucune valeur trouvée",
+          "placeholder": "Rechercher ou sélectionner des valeurs...",
+          "showingOptions_one": "Affichage d'une option",
+          "showingOptions_other": "Affichage de {{count}} options",
+          "showingOptions_zero": "Affichage de {{count}} options",
+          "values": "Valeurs"
         },
         "findAndReplace": {
           "findAndReplaceValues": "Rechercher et remplacer",
@@ -1178,6 +1275,7 @@
             "unpin": "Cliquez pour désépingler cette colonne"
           }
         },
+        "replaceEmptyCells": "Remplacer les cellules vides...",
         "searchInField": {
           "modal": {
             "cancelButton": "Annuler",
@@ -1187,6 +1285,7 @@
           },
           "searchInThisField": "Rechercher dans ce champ"
         },
+        "searchInFieldLabel": "Rechercher dans le champ",
         "sort": {
           "ascending": {
             "apply": "Trier de A à Z",
@@ -1209,6 +1308,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "Générés automatiquement",
           "key": "clé : {{key}}",
           "label": "étiquette : {{label}}"
         }

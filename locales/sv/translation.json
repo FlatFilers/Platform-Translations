@@ -80,6 +80,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "Beräkna",
+    "countEmpty": "{{count}} tomma",
+    "countNonEmpty": "{{count}} fyllda",
+    "literalCountEmpty": "Räkna tomma",
+    "literalCountNonEmpty": "Räkna fyllda",
+    "literalPercentEmpty": "Procent tomma",
+    "literalPercentNonEmpty": "Procent fyllda",
+    "removeCalculation": "Ta bort beräkning"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -370,6 +380,20 @@
         },
         "title": "Konflikter upptäckta"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "Poster som har ändrats i dataklippet och raderats från huvudbladet kommer att återställas i huvudbladet vid sammanslagningen.",
+          "title": "Återställ poster i huvudbladet"
+        },
+        "description": "Välj ett alternativ",
+        "removeRecords": {
+          "description": "Ändrade poster som har raderats från huvudbladet kommer att ignoreras vid sammanslagningen och inte läggas till på nytt i huvudbladet.",
+          "title": "Ignorera ändringar i dataklipp för raderade poster"
+        },
+        "title_one": "{{ count }} ändrad post har raderats från huvudbladet",
+        "title_other": "{{ count }} ändrade poster har raderats från huvudbladet",
+        "title_zero": "{{ count }} ändrade poster har raderats från huvudbladet"
+      },
       "empty": {
         "button": "Åter till klipp",
         "description": "Gör minst en ändring för att slå samman.",
@@ -496,6 +520,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "Genererad",
+        "details": "Information",
         "name": "Namn",
         "size": "Storlek",
         "sourceSheet": "Källblad"
@@ -516,6 +541,10 @@
       "loadingError": "Det går inte att ladda filerna",
       "uploadDisabledDescription": "Om du anser att detta är ett fel, kontakta supporten.",
       "uploadDisabledHeading": "Det här utrymmet saknar för närvarande stöd för filuppladdning."
+    },
+    "status": {
+      "readyForImport": "Redo för import",
+      "uploaded": "Uppladdade"
     },
     "title": "Filer",
     "uploadedFilesTab": "Uppladdade filer",
@@ -926,6 +955,9 @@
       "sheets_zero": "{{count}} blad",
       "title": "Importera till ...",
       "updatedAtDateFormat": "åååå-MM-dd"
+    },
+    "sidebar": {
+      "title": "Sammanpassning"
     }
   },
   "nativeActions": {
@@ -960,6 +992,63 @@
       "error": "Ett fel inträffade när arbetsboken uppdaterades. Se loggen.",
       "halfway": "Vi är halvvägs, håll i ...",
       "updatingTable": "Uppdaterar tabellen så att endast kartlagda fält visas"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "Förena ingående fält till ett värde",
+      "name": "Förena"
+    },
+    "firstAvailable": {
+      "description": "Börja med första tillgängliga värde i en cell som standard",
+      "name": "Första tillgängliga"
+    },
+    "infer": {
+      "description": "Inferensbeskrivning kommer senare",
+      "name": "Inferera"
+    },
+    "list": {
+      "description": "Förena flera fält i ett led",
+      "name": "Lista"
+    },
+    "move": {
+      "description": "Flytta ett ingående fält till ett målfält",
+      "name": "Flytta"
+    },
+    "prepareSheet": {
+      "description": "Förbered dina data för analys genom att gå igenom förbehandlingsproblem och föreslå en plan för att lösa dem.",
+      "name": "Förbered"
+    },
+    "singleValue": {
+      "description": "Ställ in ett standardvärde för målet",
+      "name": "Ställ in standard"
+    },
+    "sourceSelector": {
+      "destination": "Destinationsfält",
+      "destinationValues": "Destinationsfält",
+      "firstFifty": "Visar de första 50 resultaten",
+      "noValuesFound": "Inga fält hittades",
+      "placeholderDestination": "Sök eller lägg till destinationsfält ...",
+      "placeholderDestinationMultiple": "Sök eller lägg till destinationsfält ...",
+      "placeholderReference": "Sök eller lägg till referensfält ...",
+      "placeholderReferenceMultiple": "Sök eller lägg till referensfält ...",
+      "placeholderSource": "Sök eller lägg till källfält ...",
+      "placeholderSourceMultiple": "Sök eller lägg till källfält ...",
+      "reference": "Referensfält",
+      "selectedValue": "Valt fält",
+      "selectedValues": "Valda fält",
+      "source": "Källfält",
+      "sourceValues": "Källfält",
+      "valuesCount": "{count} fält valda"
+    },
+    "sourceTool": "Källverktyg",
+    "split": {
+      "description": "Uppdelning innebär att en kolumn som innehåller kombinerade data delas upp i flera kolumner baserat på en avgränsning, vilket gör varje datapunkt lättare att analysera.",
+      "name": "Dela upp"
+    },
+    "unpivot": {
+      "description": "Förena relaterade kolumner i rader så att omfattande data normaliseras till ett enklare, längre format.",
+      "name": "Vrid tillbaka"
     }
   },
   "secrets": {
@@ -1101,6 +1190,7 @@
           "compositeUnique": "🧑‍🍳 Sammansättningen {{name}} är inte unik",
           "invalidOption": "Ogiltigt alternativ",
           "invalidValue": "Värdet är inte ett giltigt alternativ",
+          "readOnly": "skrivskyddat",
           "reference": "Värdet finns inte i referenstabellen",
           "req": "{{field}} är obligatorisk",
           "transformed": "🪄️ Omvandlad från {{originalValue}}",
@@ -1108,11 +1198,18 @@
         }
       },
       "contextMenu": {
+        "columnTools": "Kolumnverktyg",
         "filterByValue": {
+          "firstFifty": "Visar de 50 första alternativen",
           "label": "Filtrera efter värde",
           "moreOptions": "Visar första {{pageSize}} alternativen. Sök för att se fler.",
           "noData": "inga data",
-          "placeholder": "Sök eller välj värden ..."
+          "noValuesFound": "Inga värden hittades",
+          "placeholder": "Sök eller välj värden ...",
+          "showingOptions_one": "Visar 1 alternativ",
+          "showingOptions_other": "Visar {{count}} alternativ",
+          "showingOptions_zero": "Visar {{count}} alternativ",
+          "values": "Värden"
         },
         "findAndReplace": {
           "findAndReplaceValues": "Sök och ersätt",
@@ -1177,6 +1274,7 @@
             "unpin": "Klicka för att lossa denna kolumn"
           }
         },
+        "replaceEmptyCells": "Ersätt tomma celler ...",
         "searchInField": {
           "modal": {
             "cancelButton": "Avbryt",
@@ -1186,6 +1284,7 @@
           },
           "searchInThisField": "Sök i detta fält"
         },
+        "searchInFieldLabel": "Sök i fält",
         "sort": {
           "ascending": {
             "apply": "Sortera A-Ö",
@@ -1208,6 +1307,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "Autogenererat",
           "key": "nyckel: {{key}}",
           "label": "etikett: {{label}}"
         }

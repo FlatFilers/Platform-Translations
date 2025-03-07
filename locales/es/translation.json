@@ -81,6 +81,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "Calcular",
+    "countEmpty": "{{count}} vacíos",
+    "countNonEmpty": "{{count}} llenos",
+    "literalCountEmpty": "Contar vacíos",
+    "literalCountNonEmpty": "Contar llenos",
+    "literalPercentEmpty": "Porcentaje de vacíos",
+    "literalPercentNonEmpty": "Porcentaje de llenos",
+    "removeCalculation": "Eliminar cálculo"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -371,6 +381,20 @@
         },
         "title": "Se han encontrado conflictos."
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "Los registros que se hayan modificado en el clip de datos y eliminado de la hoja principal serán restaurados en la hoja principal tras la fusión.",
+          "title": "Restaurar registros en la hoja principal"
+        },
+        "description": "Seleccione una opción",
+        "removeRecords": {
+          "description": "Los registros modificados que se hayan eliminado de la hoja principal serán ignorados en la fusión y no se volverán a añadir a la hoja principal.",
+          "title": "Ignorar los cambios de clip de datos de los registros borrados"
+        },
+        "title_one": "{{ count }} se ha eliminado el registro modificado de la hoja principal",
+        "title_other": "{{ count }} se han eliminado los registros modificados de la hoja principal",
+        "title_zero": "{{ count }} se han eliminado los registros modificados de la hoja principal"
+      },
       "empty": {
         "button": "Volver al clip",
         "description": "Realice al menos un cambio para poder fusionar.",
@@ -497,6 +521,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "Generado",
+        "details": "Detalles",
         "name": "Nombre",
         "size": "Tamaño",
         "sourceSheet": "Hoja de origen"
@@ -517,6 +542,10 @@
       "loadingError": "No se han podido cargar los archivos",
       "uploadDisabledDescription": "Si cree que esto es un error, hable con asistencia.",
       "uploadDisabledHeading": "Este espacio no admite actualmente la subida de archivos."
+    },
+    "status": {
+      "readyForImport": "Listo para importar",
+      "uploaded": "Subido"
     },
     "title": "Archivos",
     "uploadedFilesTab": "Archivos subidos",
@@ -927,6 +956,9 @@
       "sheets_zero": "{{count}} hojas",
       "title": "Importar a...",
       "updatedAtDateFormat": "aaaa-MM-dd"
+    },
+    "sidebar": {
+      "title": "Asignación"
     }
   },
   "nativeActions": {
@@ -961,6 +993,63 @@
       "error": "Se produjo un error al actualizar el libro de trabajo. Consulta los registros de eventos.",
       "halfway": "Estamos a mitad de camino, espera un momento...",
       "updatingTable": "Actualizando la tabla para mostrar solo los campos asignados"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "Combinar campos entrantes en un valor",
+      "name": "Combinar"
+    },
+    "firstAvailable": {
+      "description": "Por defecto, el primer valor disponible en una celda",
+      "name": "Primero disponible"
+    },
+    "infer": {
+      "description": "Inferir descripción TBD",
+      "name": "Inferir"
+    },
+    "list": {
+      "description": "Unir varios campos en una matriz",
+      "name": "Lista"
+    },
+    "move": {
+      "description": "Mover un campo entrante a un campo de destino",
+      "name": "Mover"
+    },
+    "prepareSheet": {
+      "description": "Preparar los datos para su análisis revisando los problemas de preprocesamiento y proponiendo un plan para resolverlos.",
+      "name": "Preparar"
+    },
+    "singleValue": {
+      "description": "Establecer un valor predeterminado para el destino",
+      "name": "Establecer valor predeterminado"
+    },
+    "sourceSelector": {
+      "destination": "Campo de destino",
+      "destinationValues": "Campos de destino",
+      "firstFifty": "Mostrando los primeros 50 resultados",
+      "noValuesFound": "No se han encontrado campos",
+      "placeholderDestination": "Buscar o añadir campo de destino…",
+      "placeholderDestinationMultiple": "Buscar o añadir campos de destino…",
+      "placeholderReference": "Buscar o añadir campo de referencia…",
+      "placeholderReferenceMultiple": "Buscar o añadir campos de referencia…",
+      "placeholderSource": "Buscar o añadir campo de origen…",
+      "placeholderSourceMultiple": "Buscar o añadir campos de origen…",
+      "reference": "Campo de referencia",
+      "selectedValue": "Campo seleccionado",
+      "selectedValues": "Campos seleccionados",
+      "source": "Campo de origen",
+      "sourceValues": "Campos de origen",
+      "valuesCount": "{count} campos seleccionados"
+    },
+    "sourceTool": "Herramienta de origen",
+    "split": {
+      "description": "Dividir es el proceso de dividir una sola columna que contiene datos combinados en varias columnas basadas en un delimitador, haciendo que cada punto de datos sea más accesible para el análisis.",
+      "name": "Dividir"
+    },
+    "unpivot": {
+      "description": "Combinar columnas relacionadas en filas, normalizando datos amplios en un formato más simple y largo.",
+      "name": "Desvincular"
     }
   },
   "secrets": {
@@ -1102,6 +1191,7 @@
           "compositeUnique": "🧑‍🍳 Compuesto {{name}} no es único",
           "invalidOption": "Opción no válida",
           "invalidValue": "El valor no es una opción válida",
+          "readOnly": "Solo lectura",
           "reference": "Ese valor no existe en la tabla de referencia.",
           "req": "Se requiere {{field}}.",
           "transformed": "🪄️ Transformado desde {{originalValue}}",
@@ -1109,11 +1199,18 @@
         }
       },
       "contextMenu": {
+        "columnTools": "Herramientas de columna",
         "filterByValue": {
+          "firstFifty": "Mostrando las primeras 50 opciones",
           "label": "Filtrar por valor",
           "moreOptions": "Mostrando las primeras {{pageSize}} opciones. Busca para ver más.",
           "noData": "no hay datos",
-          "placeholder": "Buscar o seleccionar valores..."
+          "noValuesFound": "No se han encontrado valores",
+          "placeholder": "Buscar o seleccionar valores...",
+          "showingOptions_one": "Mostrando 1 opción",
+          "showingOptions_other": "Mostrando {{count}} opciones",
+          "showingOptions_zero": "Mostrando {{count}} opciones",
+          "values": "Valores"
         },
         "findAndReplace": {
           "findAndReplaceValues": "Encontrar y reemplazar",
@@ -1178,6 +1275,7 @@
             "unpin": "Hacer clic para dejar de fijar columna"
           }
         },
+        "replaceEmptyCells": "Reemplazar celdas vacías...",
         "searchInField": {
           "modal": {
             "cancelButton": "Cancelar",
@@ -1187,6 +1285,7 @@
           },
           "searchInThisField": "Buscar en este campo"
         },
+        "searchInFieldLabel": "Buscar en el campo",
         "sort": {
           "ascending": {
             "apply": "Ordenar A-Z",
@@ -1209,6 +1308,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "Generado automáticamente",
           "key": "clave: {{key}}",
           "label": "etiqueta: {{label}}"
         }

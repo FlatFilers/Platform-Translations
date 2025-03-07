@@ -80,6 +80,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "Tính toán",
+    "countEmpty": "{{count}} trống",
+    "countNonEmpty": "{{count}} đã được điền",
+    "literalCountEmpty": "Đếm ô trống",
+    "literalCountNonEmpty": "Đếm ô đã điền",
+    "literalPercentEmpty": "Phần trăm trống",
+    "literalPercentNonEmpty": "Phần trăm đã điền",
+    "removeCalculation": "Xóa phép tính"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -365,6 +375,19 @@
         },
         "title": "Đã tìm thấy xung đột"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "Các bản ghi đã được thay đổi trong clip dữ liệu và bị xóa khỏi bảng chính sẽ được phục hồi trong bảng chính khi gộp lại.",
+          "title": "Phục hồi bản ghi trong bảng chính"
+        },
+        "description": "Chọn một tùy chọn",
+        "removeRecords": {
+          "description": "Các bản ghi đã thay đổi nhưng sau đó bị xóa khỏi bảng chính sẽ bị bỏ qua khi gộp lại và không được thêm lại vào bảng chính.",
+          "title": "Bỏ qua các thay đổi trong clip dữ liệu đối với các bản ghi đã bị xóa"
+        },
+        "title_other": "{{ count }} bản ghi đã thay đổi bị xóa khỏi bảng chính",
+        "title_zero": "{{ count }} bản ghi đã thay đổi bị xóa khỏi bảng chính"
+      },
       "empty": {
         "button": "Quay lại clip",
         "description": "Hãy thực hiện ít nhất một thay đổi để có thể hợp nhất.",
@@ -485,6 +508,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "Đã tạo",
+        "details": "Chi tiết",
         "name": "Tên",
         "size": "Kích cỡ",
         "sourceSheet": "Trang tính nguồn"
@@ -505,6 +529,10 @@
       "loadingError": "Không thể tải các tệp",
       "uploadDisabledDescription": "Nếu bạn cho rằng đây là lỗi, vui lòng liên hệ với bộ phận hỗ trợ.",
       "uploadDisabledHeading": "Không gian này hiện không hỗ trợ tải tệp lên."
+    },
+    "status": {
+      "readyForImport": "Sẵn sàng để nhập",
+      "uploaded": "Đã tải lên"
     },
     "title": "Tệp",
     "uploadedFilesTab": "Tệp đã tải lên",
@@ -909,6 +937,9 @@
       "sheets_zero": "{{count}} trang tính",
       "title": "Nhập vào...",
       "updatedAtDateFormat": "yyyy-MM-dd"
+    },
+    "sidebar": {
+      "title": "Ánh xạ"
     }
   },
   "nativeActions": {
@@ -943,6 +974,63 @@
       "error": "Đã xảy ra lỗi khi cập nhật sổ làm việc. Hãy xem Lịch sử sự kiện.",
       "halfway": "Xong một nửa rồi, hãy chờ nhé...",
       "updatingTable": "Đang cập nhật bảng để chỉ xem những trường đã được lập sơ đồ"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "Kết hợp các trường nhập vào thành một giá trị",
+      "name": "Kết hợp"
+    },
+    "firstAvailable": {
+      "description": "Mặc định là giá trị đầu tiên có sẵn trong một ô",
+      "name": "Giá trị đầu tiên có sẵn"
+    },
+    "infer": {
+      "description": "Mô tả suy luận TBD",
+      "name": "Suy luận"
+    },
+    "list": {
+      "description": "Kết hợp nhiều trường thành một mảng",
+      "name": "Danh sách"
+    },
+    "move": {
+      "description": "Di chuyển trường nhập vào một trường đích",
+      "name": "Di chuyển"
+    },
+    "prepareSheet": {
+      "description": "Chuẩn bị dữ liệu của bạn để phân tích bằng cách kiểm tra các vấn đề xử lý trước và đề xuất kế hoạch để giải quyết chúng.",
+      "name": "Chuẩn bị"
+    },
+    "singleValue": {
+      "description": "Đặt giá trị mặc định cho đích",
+      "name": "Đặt mặc định"
+    },
+    "sourceSelector": {
+      "destination": "Trường đích",
+      "destinationValues": "Các trường đích",
+      "firstFifty": "Hiển thị 50 kết quả đầu tiên",
+      "noValuesFound": "Không tìm thấy trường nào",
+      "placeholderDestination": "Tìm kiếm hoặc thêm trường đích…",
+      "placeholderDestinationMultiple": "Tìm kiếm hoặc thêm các trường đích…",
+      "placeholderReference": "Tìm kiếm hoặc thêm trường tham chiếu…",
+      "placeholderReferenceMultiple": "Tìm kiếm hoặc thêm các trường tham chiếu…",
+      "placeholderSource": "Tìm kiếm hoặc thêm trường nguồn…",
+      "placeholderSourceMultiple": "Tìm kiếm hoặc thêm các trường nguồn…",
+      "reference": "Trường tham chiếu",
+      "selectedValue": "Trường đã chọn",
+      "selectedValues": "Các trường đã chọn",
+      "source": "Trường nguồn",
+      "sourceValues": "Các trường nguồn",
+      "valuesCount": "Đã chọn {count} trường"
+    },
+    "sourceTool": "Công cụ nguồn",
+    "split": {
+      "description": "Tách là quá trình chia một cột duy nhất chứa dữ liệu kết hợp thành nhiều cột dựa trên dấu phân cách, làm cho mỗi điểm dữ liệu dễ dàng tiếp cận hơn cho phân tích.",
+      "name": "Tách"
+    },
+    "unpivot": {
+      "description": "Kết hợp các cột có liên quan thành các hàng, chuẩn hóa dữ liệu rộng thành dạng dài, đơn giản hơn.",
+      "name": "Chuyển cột thành hàng"
     }
   },
   "secrets": {
@@ -1078,6 +1166,7 @@
           "compositeUnique": "🧑‍🍳 Hỗn hợp {{name}} không độc nhất",
           "invalidOption": "Tùy chọn hợp lệ",
           "invalidValue": "Giá trị không phải là tùy chọn hợp lệ",
+          "readOnly": "chỉ đọc",
           "reference": "Giá trị không tồn tại trong bảng tham chiếu",
           "req": "{{field}} là nội dung bắt buộc",
           "transformed": "🪄️ Được biến đổi từ {{originalValue}}",
@@ -1085,11 +1174,17 @@
         }
       },
       "contextMenu": {
+        "columnTools": "Công cụ cột",
         "filterByValue": {
+          "firstFifty": "Hiển thị 50 tùy chọn đầu tiên",
           "label": "Lọc theo giá trị",
           "moreOptions": "Đang hiển thị {{pageSize}} tùy chọn đầu tiên. Tìm kiếm để xem thêm.",
           "noData": "không có dữ liệu",
-          "placeholder": "Tìm kiếm hoặc chọn giá trị..."
+          "noValuesFound": "Không tìm thấy giá trị",
+          "placeholder": "Tìm kiếm hoặc chọn giá trị...",
+          "showingOptions_other": "Hiển thị {{count}} tùy chọn",
+          "showingOptions_zero": "Hiển thị {{count}} tùy chọn",
+          "values": "Giá trị"
         },
         "findAndReplace": {
           "findAndReplaceValues": "Tìm và thay thế",
@@ -1151,6 +1246,7 @@
             "unpin": "Nhấp để bỏ ghim cột này"
           }
         },
+        "replaceEmptyCells": "Thay thế ô trống…",
         "searchInField": {
           "modal": {
             "cancelButton": "Hủy",
@@ -1160,6 +1256,7 @@
           },
           "searchInThisField": "Tìm kiếm trong trường dữ liệu này"
         },
+        "searchInFieldLabel": "Tìm kiếm trong trường",
         "sort": {
           "ascending": {
             "apply": "Sắp xếp A-Z",
@@ -1182,6 +1279,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "Tự động tạo",
           "key": "khóa: {{key}}",
           "label": "nhãn: {{label}}"
         }

@@ -79,6 +79,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "計算",
+    "countEmpty": "{{count}} 空的",
+    "countNonEmpty": "{{count}} 已填入的",
+    "literalCountEmpty": "計算空的",
+    "literalCountNonEmpty": "計算已填入的",
+    "literalPercentEmpty": "空的佔比",
+    "literalPercentNonEmpty": "已填入的佔比",
+    "removeCalculation": "移除計算"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -364,6 +374,19 @@
         },
         "title": "發現衝突"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "資料剪輯中已變更且已從主工作表中刪除的記錄將於合併時在主工作表中還原。",
+          "title": "還原主工作表中的記錄"
+        },
+        "description": "選擇一個選項",
+        "removeRecords": {
+          "description": "已變更記錄從主工作表中刪除後，在合併時會被忽略，不會回復到主工作表中。",
+          "title": "忽略已刪除記錄的資料剪輯變更"
+        },
+        "title_other": "{{ count }} 筆已從主工作表中刪除的已變更記錄",
+        "title_zero": "{{ count }} 筆已從主工作表中刪除的已變更記錄"
+      },
       "empty": {
         "button": "返回剪輯",
         "description": "至少要進行一項變更才能合併。",
@@ -484,6 +507,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "已產生",
+        "details": "詳細資訊",
         "name": "名稱",
         "size": "大小",
         "sourceSheet": "來源工作表"
@@ -504,6 +528,10 @@
       "loadingError": "無法載入檔案",
       "uploadDisabledDescription": "如果您認為這是錯誤，請聯絡支援人員。",
       "uploadDisabledHeading": "此空間目前不支援檔案上傳。"
+    },
+    "status": {
+      "readyForImport": "準備匯入",
+      "uploaded": "已上傳"
     },
     "title": "檔案",
     "uploadedFilesTab": "已上傳檔案",
@@ -908,6 +936,9 @@
       "sheets_zero": "{{count}} 個工作表",
       "title": "匯入至...",
       "updatedAtDateFormat": "年年年年-月月-日日"
+    },
+    "sidebar": {
+      "title": "製圖"
     }
   },
   "nativeActions": {
@@ -942,6 +973,63 @@
       "error": "更新活頁簿時發生錯誤，請查看事件日誌。",
       "halfway": "已經完成一半，請稍等...",
       "updatingTable": "正在更新表格以僅顯示已對應的欄位"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "將匯入的欄位合併為一個值",
+      "name": "合併"
+    },
+    "firstAvailable": {
+      "description": "預設為儲存格中的第一個可供處理的數值",
+      "name": "第一個可供處理的"
+    },
+    "infer": {
+      "description": "待確認的推論描述",
+      "name": "推論"
+    },
+    "list": {
+      "description": "將多個欄位合併到陣列中",
+      "name": "清單"
+    },
+    "move": {
+      "description": "將匯入的欄位移動到目標欄位",
+      "name": "移動"
+    },
+    "prepareSheet": {
+      "description": "藉由檢討預處理問題並提出解決方案來準備資料以供分析。",
+      "name": "準備"
+    },
+    "singleValue": {
+      "description": "設定目的文件的預設值",
+      "name": "設定預設值"
+    },
+    "sourceSelector": {
+      "destination": "目的地欄位",
+      "destinationValues": "目的地欄位",
+      "firstFifty": "顯示前 50 個結果",
+      "noValuesFound": "沒有找到欄位",
+      "placeholderDestination": "搜尋或新增目的地欄位......",
+      "placeholderDestinationMultiple": "搜尋或新增目的地欄位......",
+      "placeholderReference": "搜尋或新增參照欄位......",
+      "placeholderReferenceMultiple": "搜尋或新增參照欄位......",
+      "placeholderSource": "搜尋或新增來源欄位......",
+      "placeholderSourceMultiple": "搜尋或新增來源欄位......",
+      "reference": "參照欄位",
+      "selectedValue": "已選欄位",
+      "selectedValues": "已選欄位",
+      "source": "來源欄位",
+      "sourceValues": "來源欄位",
+      "valuesCount": "已選{count}個欄位"
+    },
+    "sourceTool": "來源工具",
+    "split": {
+      "description": "拆分是將包含已合併資料的單一欄目按照分隔符號分成多個欄目的過程，從而使每個資料點更易於分析。",
+      "name": "拆分"
+    },
+    "unpivot": {
+      "description": "將相關的欄目合併成一列，將寬格式資料標準化，成為更簡單的長格式。",
+      "name": "將多欄位資料轉為以多列呈現"
     }
   },
   "secrets": {
@@ -1077,6 +1165,7 @@
           "compositeUnique": "🧑‍🍳 複合 {{name}} 不是唯一的",
           "invalidOption": "無效選項",
           "invalidValue": "該值不是有效選項",
+          "readOnly": "唯讀",
           "reference": "參考表不存在該值",
           "req": "{{field}} 為必填欄位",
           "transformed": "🪄️ 從 {{originalValue}} 轉換而來",
@@ -1084,11 +1173,17 @@
         }
       },
       "contextMenu": {
+        "columnTools": "欄目工具",
         "filterByValue": {
+          "firstFifty": "顯示前 50 個選項",
           "label": "依值篩選",
           "moreOptions": "顯示前 {{pageSize}} 個選項。請搜尋來查看更多內容。",
           "noData": "無資料",
-          "placeholder": "搜尋或選取值⋯⋯"
+          "noValuesFound": "沒有找到任何數值",
+          "placeholder": "搜尋或選取值⋯⋯",
+          "showingOptions_other": "顯示 {{count}} 個選項",
+          "showingOptions_zero": "顯示 {{count}} 個選項",
+          "values": "值"
         },
         "findAndReplace": {
           "findAndReplaceValues": "尋找並取代",
@@ -1150,6 +1245,7 @@
             "unpin": "點選以將此欄取消釘選"
           }
         },
+        "replaceEmptyCells": "取代空的儲存格 ……",
         "searchInField": {
           "modal": {
             "cancelButton": "取消",
@@ -1159,6 +1255,7 @@
           },
           "searchInThisField": "在此欄位搜尋"
         },
+        "searchInFieldLabel": "在欄位中搜尋",
         "sort": {
           "ascending": {
             "apply": "依照 A-Z 排序",
@@ -1181,6 +1278,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "自動生成的",
           "key": "索引鍵: {{key}}",
           "label": "標籤: {{label}}"
         }

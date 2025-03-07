@@ -80,6 +80,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "Laske",
+    "countEmpty": "{{count}} tyhjää",
+    "countNonEmpty": "{{count}} täytettyä",
+    "literalCountEmpty": "Laske tyhjät",
+    "literalCountNonEmpty": "Laske täytetyt",
+    "literalPercentEmpty": "Tyhjien prosenttiluku",
+    "literalPercentNonEmpty": "Täytettyjen prosenttiluku",
+    "removeCalculation": "Poista laskelma"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -370,6 +380,20 @@
         },
         "title": "Ristiriitoja löytynyt"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "Tietueet, jotka on muutettu tietoleikkeessä ja poistettu päätaulukosta, palautetaan päätaulukkoon yhdistämisen yhteydessä.",
+          "title": "Palauta päätaulukon tietueet"
+        },
+        "description": "Valitse vaihtoehto",
+        "removeRecords": {
+          "description": "Muutettuja tietueita, jotka on sittemmin poistettu päätaulukosta, ei oteta huomioon yhdistämisen yhteydessä eikä niitä lisätä takaisin päätaulukkoon.",
+          "title": "Jätä huomiotta poistettujen tietueiden tietoleikemuutokset"
+        },
+        "title_one": "{{ count }} muuttunut tietue on poistettu päätaulukosta",
+        "title_other": "{{ count }} muuttunutta tietuetta on poistettu päätaulukosta",
+        "title_zero": "{{ count }} muuttunutta tietuetta on poistettu päätaulukosta"
+      },
       "empty": {
         "button": "Palaa leikkeeseen",
         "description": "Tee vähintään yksi muutos voidaksesi yhdistää.",
@@ -496,6 +520,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "Luotu",
+        "details": "Tiedot",
         "name": "Nimi",
         "size": "Koko",
         "sourceSheet": "Lähdetaulukko"
@@ -516,6 +541,10 @@
       "loadingError": "Tiedostojen lataaminen ei onnistu",
       "uploadDisabledDescription": "Jos uskot, että kyseessä on virhe, ota yhteyttä asiakaspalveluun.",
       "uploadDisabledHeading": "Tämä tila ei tällä hetkellä tue tiedostojen lataamista."
+    },
+    "status": {
+      "readyForImport": "Valmis tuotavaksi",
+      "uploaded": "Ladattu"
     },
     "title": "Tiedostot",
     "uploadedFilesTab": "Ladatut tiedostot",
@@ -926,6 +955,9 @@
       "sheets_zero": "{{count}} taulukkoa",
       "title": "Vie kohteeseen...",
       "updatedAtDateFormat": "vvvv-kk-pp"
+    },
+    "sidebar": {
+      "title": "Yhdistäminen"
     }
   },
   "nativeActions": {
@@ -960,6 +992,63 @@
       "error": "Työkirjan päivittämisessa ilmeni virhe. Tarkista tapahtumalogit.",
       "halfway": "Puoliksi valmista, hetki vain...",
       "updatingTable": "Päivitetään taulukko esittämään vain määritellyt kentät"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "Yhdistä saapuvat kentät yhdeksi arvoksi",
+      "name": "Yhdistä"
+    },
+    "firstAvailable": {
+      "description": "Ota oletusarvoksi ensimmäinen solussa käytettävissä oleva arvo",
+      "name": "Ensimmäinen käytettävissä oleva"
+    },
+    "infer": {
+      "description": "Päättele kuvaus (määritetään myöhemmin)",
+      "name": "Päättele"
+    },
+    "list": {
+      "description": "Liitä useita kenttiä yhteen matriisina",
+      "name": "Luettelo"
+    },
+    "move": {
+      "description": "Siirrä saapuva kenttä kohdekenttään",
+      "name": "Siirrä"
+    },
+    "prepareSheet": {
+      "description": "Valmistele tiedot analyysia varten tarkastelemalla esikäsittelyyn liittyviä ongelmia ja ehdottamalla suunnitelmaa niiden ratkaisemiseksi.",
+      "name": "Valmistele"
+    },
+    "singleValue": {
+      "description": "Aseta oletusarvo kohteelle",
+      "name": "Aseta oletusarvo"
+    },
+    "sourceSelector": {
+      "destination": "Kohdekenttä",
+      "destinationValues": "Kohdekentät",
+      "firstFifty": "Näytetään 50 ensimmäistä tulosta",
+      "noValuesFound": "Kenttiä ei löytynyt",
+      "placeholderDestination": "Hae tai lisää kohdekenttä...",
+      "placeholderDestinationMultiple": "Hae tai lisää kohdekenttiä...",
+      "placeholderReference": "Hae tai lisää viitekenttä...",
+      "placeholderReferenceMultiple": "Hae tai lisää viitekenttiä...",
+      "placeholderSource": "Hae tai lisää lähdekenttä...",
+      "placeholderSourceMultiple": "Hae tai lisää lähdekenttiä...",
+      "reference": "Viitekenttä",
+      "selectedValue": "Valittu kenttä",
+      "selectedValues": "Valitut kentät",
+      "source": "Lähdekenttä",
+      "sourceValues": "Lähdekentät",
+      "valuesCount": "{count} kenttää valittu"
+    },
+    "sourceTool": "Lähdetyökalu",
+    "split": {
+      "description": "Jakaminen on prosessi, jossa yhdistettyjä tietoja sisältävä sarake jaetaan useampaan sarakkeeseen erottimen perusteella, jolloin jokainen arvopiste on helpommin analysoitavissa.",
+      "name": "Jaa"
+    },
+    "unpivot": {
+      "description": "Yhdistä toisiinsa liittyvät sarakkeet riveiksi normalisoiden leveät tiedot yksinkertaiseen, pitkään muotoon.",
+      "name": "Poista jakoalkio"
     }
   },
   "secrets": {
@@ -1101,6 +1190,7 @@
           "compositeUnique": "🧑‍🍳 Yhdistelmä {{name}} ei ole yksilöllinen",
           "invalidOption": "Virheellinen vaihtoehto",
           "invalidValue": "Arvo ei ole kelvollinen vaihtoehto",
+          "readOnly": "vain luku",
           "reference": "Arvoa ei ole viitetaulukossa",
           "req": "{{field}} on pakollinen",
           "transformed": "🪄️ Muunnettu arvosta {{originalValue}}",
@@ -1108,11 +1198,18 @@
         }
       },
       "contextMenu": {
+        "columnTools": "Saraketyökalut",
         "filterByValue": {
+          "firstFifty": "Näytetään 50 ensimmäistä vaihtoehtoa",
           "label": "Suodata arvon perusteella",
           "moreOptions": "Näytetään ensimmäiset {{pageSize}} vaihtoehtoa. Tee haku nähdäksesi lisää.",
           "noData": "ei tietoja",
-          "placeholder": "Etsi tai valitse arvot..."
+          "noValuesFound": "Arvoja ei löytynyt",
+          "placeholder": "Etsi tai valitse arvot...",
+          "showingOptions_one": "Näytetään 1 vaihtoehto",
+          "showingOptions_other": "Näytetään {{count}} vaihtoehtoa",
+          "showingOptions_zero": "Näytetään {{count}} vaihtoehtoa",
+          "values": "Arvot"
         },
         "findAndReplace": {
           "findAndReplaceValues": "Etsi ja korvaa",
@@ -1177,6 +1274,7 @@
             "unpin": "Poista tämän sarakkeen kiinnitys napsauttamalla"
           }
         },
+        "replaceEmptyCells": "Korvaa tyhjät solut...",
         "searchInField": {
           "modal": {
             "cancelButton": "Peruuta",
@@ -1186,6 +1284,7 @@
           },
           "searchInThisField": "Hae tästä kentästä"
         },
+        "searchInFieldLabel": "Hae kentästä",
         "sort": {
           "ascending": {
             "apply": "Lajittele A–Ö",
@@ -1208,6 +1307,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "Automaattisesti luotu",
           "key": "avain: {{key}}",
           "label": "selite: {{label}}"
         }

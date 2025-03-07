@@ -80,6 +80,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "計算",
+    "countEmpty": "{{count}} 空",
+    "countNonEmpty": "{{count}} 入力済み",
+    "literalCountEmpty": "空の数",
+    "literalCountNonEmpty": "入力済み数",
+    "literalPercentEmpty": "空の割合（％）",
+    "literalPercentNonEmpty": "入力済みの割合（％）",
+    "removeCalculation": "計算を削除"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -365,6 +375,19 @@
         },
         "title": "競合が見つかりました"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "データクリップ内で変更され、メインシートから削除されたレコードは、マージ時にメインシートに復元されます。",
+          "title": "メインシートにレコードを復元する"
+        },
+        "description": "オプションを選択する",
+        "removeRecords": {
+          "description": "メインシートから削除された変更済みレコードはマージ時に無視され、メインシートに再度追加されることはありません。",
+          "title": "削除されたレコードに対するデータクリップの変更を無視する"
+        },
+        "title_other": "{{ count }} 件の変更済みレコードがメインシートから削除されました",
+        "title_zero": "{{ count }} 件の変更済みレコードがメインシートから削除されました"
+      },
       "empty": {
         "button": "クリップに戻る",
         "description": "結合するには、少なくとも1つの変更を加えてください。",
@@ -485,6 +508,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "生成済み",
+        "details": "詳細",
         "name": "名前",
         "size": "サイズ",
         "sourceSheet": "ソースシート"
@@ -505,6 +529,10 @@
       "loadingError": "ファイルをロードできません",
       "uploadDisabledDescription": "これがエラーだと思われる場合は、サポートにお問い合わせください。",
       "uploadDisabledHeading": "このスペースは現在、ファイルのアップロードをサポートしていません。"
+    },
+    "status": {
+      "readyForImport": "インポート準備完了",
+      "uploaded": "アップロード済み"
     },
     "title": "ファイル",
     "uploadedFilesTab": "アップロードされたファイル",
@@ -909,6 +937,9 @@
       "sheets_zero": "{{count}}列",
       "title": "インポート先",
       "updatedAtDateFormat": "年-月-日"
+    },
+    "sidebar": {
+      "title": "マッピング"
     }
   },
   "nativeActions": {
@@ -943,6 +974,63 @@
       "error": "ワークブックの更新中にエラーが発生しました。イベントログを参照してください。",
       "halfway": "半分まで来ました。もう少しお待ちください...",
       "updatingTable": "マップされたフィールドのみを表示するようにテーブルを更新しています"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "入力フィールドを一つの値に結合する",
+      "name": "結合"
+    },
+    "firstAvailable": {
+      "description": "セル内の最初の使用可能値をデフォルトにする",
+      "name": "最初の使用可能値"
+    },
+    "infer": {
+      "description": "推論の説明（未定）",
+      "name": "推論"
+    },
+    "list": {
+      "description": "複数のフィールドを一つの配列に結合",
+      "name": "リスト"
+    },
+    "move": {
+      "description": "入力フィールドを宛先フィールドに移動",
+      "name": "移動"
+    },
+    "prepareSheet": {
+      "description": "処理前に問題を確認し、解決方法を提案することにより、データ分析準備を整えます。",
+      "name": "準備"
+    },
+    "singleValue": {
+      "description": "宛先のデフォルト値を設定",
+      "name": "デフォルト設定"
+    },
+    "sourceSelector": {
+      "destination": "宛先フィールド",
+      "destinationValues": "宛先フィールド",
+      "firstFifty": "最初の50件の結果を表示",
+      "noValuesFound": "フィールドが見つかりません",
+      "placeholderDestination": "宛先フィールドを検索または追加…",
+      "placeholderDestinationMultiple": "宛先フィールドを検索または追加…",
+      "placeholderReference": "参照フィールドを検索または追加…",
+      "placeholderReferenceMultiple": "参照フィールドを検索または追加…",
+      "placeholderSource": "ソースフィールドを検索または追加…",
+      "placeholderSourceMultiple": "ソースフィールドを検索または追加…",
+      "reference": "参照フィールド",
+      "selectedValue": "選択したフィールド",
+      "selectedValues": "選択したフィールド",
+      "source": "ソースフィールド",
+      "sourceValues": "ソースフィールド",
+      "valuesCount": "{count} のフィールドが選択されました"
+    },
+    "sourceTool": "ソースツール",
+    "split": {
+      "description": "分割とは、結合されたデータを含む一列を区切り文字に基づき複数列に分割するプロセスで、分析の際に各データポイントにアクセスしやすくなります。",
+      "name": "分割"
+    },
+    "unpivot": {
+      "description": "関連する列を行に結合し、幅広いデータをよりシンプルで長い形式に正規化します。",
+      "name": "ピボット解除"
     }
   },
   "secrets": {
@@ -1078,6 +1166,7 @@
           "compositeUnique": "🧑‍🍳 複合 {{name}} は一意ではありません",
           "invalidOption": "無効なオプション",
           "invalidValue": "値は有効なオプションではありません",
+          "readOnly": "読み取り専用",
           "reference": "値が参照テーブルに存在しません",
           "req": "{{field}} が必要です",
           "transformed": "🪄️ {{originalValue}} から変換されました",
@@ -1085,11 +1174,17 @@
         }
       },
       "contextMenu": {
+        "columnTools": "列ツール",
         "filterByValue": {
+          "firstFifty": "最初の50個のオプションを表示しています",
           "label": "値でフィルタリング",
           "moreOptions": "最初の {{pageSize}} オプションを表示しています。もっと見るには検索してください。",
           "noData": "データなし",
-          "placeholder": "値を検索または選択..."
+          "noValuesFound": "値が見つかりません",
+          "placeholder": "値を検索または選択...",
+          "showingOptions_other": "{{count}}個のオプションを表示しています",
+          "showingOptions_zero": "{{count}}個のオプションを表示しています",
+          "values": "値"
         },
         "findAndReplace": {
           "findAndReplaceValues": "検索して置換",
@@ -1151,6 +1246,7 @@
             "unpin": "クリックしてこの列のピンを解除"
           }
         },
+        "replaceEmptyCells": "空のセルを置き換えます…",
         "searchInField": {
           "modal": {
             "cancelButton": "キャンセル",
@@ -1160,6 +1256,7 @@
           },
           "searchInThisField": "このフィールドで検索"
         },
+        "searchInFieldLabel": "フィールド内を検索",
         "sort": {
           "ascending": {
             "apply": "A-Zの並べ替え",
@@ -1182,6 +1279,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "自動生成されました",
           "key": "キー：{{key}}",
           "label": "ラベル：{{label}}"
         }

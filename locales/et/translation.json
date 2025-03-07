@@ -80,6 +80,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "Arvuta",
+    "countEmpty": "{{count}} tühi/tühjad",
+    "countNonEmpty": "{{count}} täidetud",
+    "literalCountEmpty": "Loe tühjad kokku",
+    "literalCountNonEmpty": "Loe täidetud kokku",
+    "literalPercentEmpty": "Tühjade protsent",
+    "literalPercentNonEmpty": "Täidetute protsent",
+    "removeCalculation": "Eemalda arvutus"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -370,6 +380,20 @@
         },
         "title": "Leiti erinevused"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "Andmeklipis muudetud ja põhilehelt kustutatud kirjed taastatakse liitmise korral põhilehel.",
+          "title": "Taasta kirjed põhilehel"
+        },
+        "description": "Vali suvand",
+        "removeRecords": {
+          "description": "Muudetud kirjeid, mis on vahepeal põhilehelt kustutatud, eiratakse liitmisel ja neid ei lisata põhilehele tagasi.",
+          "title": "Ignoreeri kustutatud kirjete andmeklippide muudatusi"
+        },
+        "title_one": "{{ count }} muudetud kirje on põhilehelt kustutatud",
+        "title_other": "{{ count }} muudetud kirjet on põhilehelt kustutatud",
+        "title_zero": "{{ count }} muudetud kirjet on põhilehelt kustutatud"
+      },
       "empty": {
         "button": "Naase klippi",
         "description": "Liitmiseks tehke vähemalt üks muudatus.",
@@ -496,6 +520,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "Loodud",
+        "details": "Üksikasjad",
         "name": "Nimetus",
         "size": "Suurus",
         "sourceSheet": "Otsi lehelt"
@@ -516,6 +541,10 @@
       "loadingError": "Faile ei saa laadida",
       "uploadDisabledDescription": "Kui arvate, et see on viga, võtke ühendust toega.",
       "uploadDisabledHeading": "See ruum ei toeta praegu failide üleslaadimist."
+    },
+    "status": {
+      "readyForImport": "Impordivalmis",
+      "uploaded": "Üles laaditud"
     },
     "title": "Failid",
     "uploadedFilesTab": "Üleslaaditud failid",
@@ -926,6 +955,9 @@
       "sheets_zero": "{{count}} lehte",
       "title": "Impordi asukohta ...",
       "updatedAtDateFormat": "aaaa-KK-pp"
+    },
+    "sidebar": {
+      "title": "Kaardistamine"
     }
   },
   "nativeActions": {
@@ -960,6 +992,63 @@
       "error": "Töölehe uuendamisel ilmnes viga. Vt sündmuste logi.",
       "halfway": "Pool tehtud, varuge kannatust...",
       "updatingTable": "Tabelis on pärat uuendust ainult vaadatavad väljad"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "Ühenda sissetulevad väljad üheks väärtuseks",
+      "name": "Kombineeri"
+    },
+    "firstAvailable": {
+      "description": "Määra lahtri esimene saadaolev väärtus vaikevalikuks",
+      "name": "Esimene, mis saadaval"
+    },
+    "infer": {
+      "description": "Järelda kirjelduse määramine",
+      "name": "Järelda"
+    },
+    "list": {
+      "description": "Ühenda mitu välja massiiviks",
+      "name": "Loend"
+    },
+    "move": {
+      "description": "Liiguta sissetulev väli sihtväljale",
+      "name": "Liiguta"
+    },
+    "prepareSheet": {
+      "description": "Valmistage oma andmed analüüsiks ette, vaadates üle eeltöötlusprobleemid ja pakkudes välja kava nende lahendamiseks.",
+      "name": "Valmista ette"
+    },
+    "singleValue": {
+      "description": "Määra sihtkoha vaikeväärtus",
+      "name": "Määra vaikimisi"
+    },
+    "sourceSelector": {
+      "destination": "Sihtväli",
+      "destinationValues": "Sihtväljad",
+      "firstFifty": "Kuvab esimesed 50 tulemust",
+      "noValuesFound": "Ühtegi välja ei leitud",
+      "placeholderDestination": "Otsi või lisa sihtväli ...",
+      "placeholderDestinationMultiple": "Otsi või lisa sihtväljad ...",
+      "placeholderReference": "Otsi või lisa viiteväli ...",
+      "placeholderReferenceMultiple": "Otsi või lisa viiteväljad ...",
+      "placeholderSource": "Otsi või lisa allikaväli ...",
+      "placeholderSourceMultiple": "Otsi või lisa allikaväljad ...",
+      "reference": "Viiteväli",
+      "selectedValue": "Valitud väli",
+      "selectedValues": "Valitud väljad",
+      "source": "Allikaväli",
+      "sourceValues": "Allikaväljad",
+      "valuesCount": "{count} välja valitud"
+    },
+    "sourceTool": "Allika tööriist",
+    "split": {
+      "description": "Lahutamine on kombineeritud andmeid sisaldava ühe veeru jagamine eraldaja alusel mitmeks veerguks, muutes iga andmepunkti analüüsi jaoks paremini juurdepääsetavaks.",
+      "name": "Lahuta"
+    },
+    "unpivot": {
+      "description": "Kombineerige seotud veerud ridadeks, normaliseerides laiandmed lihtsamaks ja pikaks vorminguks.",
+      "name": "Tühjenda liigendus"
     }
   },
   "secrets": {
@@ -1101,6 +1190,7 @@
           "compositeUnique": "🧑‍🍳 Komposiit {{name}} ei ole unikaalne",
           "invalidOption": "Kehtetu valik",
           "invalidValue": "Väärtus ei ole kehtiv valik",
+          "readOnly": "kirjutuskaitstud",
           "reference": "Väärtust ei ole võrdlustabelis olemas",
           "req": "{{field}} on kohustuslik",
           "transformed": "Teisendatud väärtusest {{originalValue}}",
@@ -1108,11 +1198,18 @@
         }
       },
       "contextMenu": {
+        "columnTools": "Veeru tööriistad",
         "filterByValue": {
+          "firstFifty": "Kuvab 50 esimest suvandit",
           "label": "Järjesta väärtuse järgi",
           "moreOptions": "Näitame {{pageSize}} esimest valikut. Rohkema nägemiseks otsige.",
           "noData": "andmed puuduvad",
-          "placeholder": "Otsi või vali väärtuseid..."
+          "noValuesFound": "Ühtegi väärtust ei leitud",
+          "placeholder": "Otsi või vali väärtuseid...",
+          "showingOptions_one": "Kuvab 1 suvandit",
+          "showingOptions_other": "Kuvab {{count}} suvandit",
+          "showingOptions_zero": "Kuvab {{count}} suvandit",
+          "values": "Väärtused"
         },
         "findAndReplace": {
           "findAndReplaceValues": "Otsi ja asenda",
@@ -1177,6 +1274,7 @@
             "unpin": "Selle veeru vabastamiseks klõpsake"
           }
         },
+        "replaceEmptyCells": "Asenda tühjad väljad ...",
         "searchInField": {
           "modal": {
             "cancelButton": "Tühista",
@@ -1186,6 +1284,7 @@
           },
           "searchInThisField": "Otsige sellelt väljalt"
         },
+        "searchInFieldLabel": "Otsi väljalt",
         "sort": {
           "ascending": {
             "apply": "Järjestamine A-Z järgi",
@@ -1208,6 +1307,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "Automaatselt loodud",
           "key": "võti: {{key}}",
           "label": "silt: {{label}}"
         }

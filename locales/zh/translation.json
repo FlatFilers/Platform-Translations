@@ -80,6 +80,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "计算",
+    "countEmpty": "{{count}} 个为空",
+    "countNonEmpty": "{{count}} 个已填充",
+    "literalCountEmpty": "统计空值",
+    "literalCountNonEmpty": "统计已填充值",
+    "literalPercentEmpty": "空值百分比",
+    "literalPercentNonEmpty": "已填充百分比",
+    "removeCalculation": "移除计算"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -365,6 +375,19 @@
         },
         "title": "发现冲突"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "在数据片段中被更改但在主表中被删除的记录，在合并时将恢复到主表中。",
+          "title": "恢复主表中的记录"
+        },
+        "description": "选择一个选项",
+        "removeRecords": {
+          "description": "已更改但随后从主表中删除的记录，在合并时将被忽略，不会重新添加到主表中。",
+          "title": "忽略已删除记录的数据片段更改"
+        },
+        "title_other": "{{ count }} 条已更改的记录已从主表中删除。",
+        "title_zero": "{{ count }} 条已更改的记录已从主表中删除。"
+      },
       "empty": {
         "button": "返回片段",
         "description": "请至少更改1处，以便合并。",
@@ -485,6 +508,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "已生成",
+        "details": "详情",
         "name": "名称",
         "size": "大小",
         "sourceSheet": "源表格"
@@ -505,6 +529,10 @@
       "loadingError": "无法加载文件",
       "uploadDisabledDescription": "如果你认为这是个错误，请联系支持人员。",
       "uploadDisabledHeading": "该空间目前不支持文件上传。"
+    },
+    "status": {
+      "readyForImport": "准备导入",
+      "uploaded": "已上传"
     },
     "title": "文件",
     "uploadedFilesTab": "上传的文件",
@@ -909,6 +937,9 @@
       "sheets_zero": "{{count}} 个表格",
       "title": "导入到……",
       "updatedAtDateFormat": "年-月-日"
+    },
+    "sidebar": {
+      "title": "映射"
     }
   },
   "nativeActions": {
@@ -943,6 +974,63 @@
       "error": "上传工作簿时出现了错误，请查看事件日志。",
       "halfway": "正在处理，请稍等……",
       "updatingTable": "将表格更新为仅查看映射的字段"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "将多个传入字段合并为一个值",
+      "name": "合并"
+    },
+    "firstAvailable": {
+      "description": "默认使用单元格中的首个可用值",
+      "name": "首个可用值"
+    },
+    "infer": {
+      "description": "推断描述待定",
+      "name": "推断"
+    },
+    "list": {
+      "description": "将多个字段合并为一个数组",
+      "name": "列表"
+    },
+    "move": {
+      "description": "将传入字段移动到目标字段",
+      "name": "移动"
+    },
+    "prepareSheet": {
+      "description": "通过检查预处理问题并提出解决方案，为您的数据分析做好准备。",
+      "name": "准备"
+    },
+    "singleValue": {
+      "description": "为目标字段设置默认值",
+      "name": "设置默认值"
+    },
+    "sourceSelector": {
+      "destination": "目标字段",
+      "destinationValues": "目标字段",
+      "firstFifty": "显示前50个结果",
+      "noValuesFound": "未找到字段",
+      "placeholderDestination": "搜索或添加目标字段……",
+      "placeholderDestinationMultiple": "搜索或添加目标字段……",
+      "placeholderReference": "搜索或添加参考字段……",
+      "placeholderReferenceMultiple": "搜索或添加参考字段……",
+      "placeholderSource": "搜索或添加源字段……",
+      "placeholderSourceMultiple": "搜索或添加源字段……",
+      "reference": "参考字段",
+      "selectedValue": "已选择字段",
+      "selectedValues": "已选择字段",
+      "source": "源字段",
+      "sourceValues": "源字段",
+      "valuesCount": "已选择{count}个字段"
+    },
+    "sourceTool": "源工具",
+    "split": {
+      "description": "拆分是将包含多个数据的单列，根据特定分隔符拆分为多个列，使每个数据点更易于分析。",
+      "name": "拆分"
+    },
+    "unpivot": {
+      "description": "合并相关列为行，将宽数据标准化为更简单的长格式。",
+      "name": "取消透视"
     }
   },
   "secrets": {
@@ -1078,6 +1166,7 @@
           "compositeUnique": "🧑‍🍳 组合 {{name}} 不唯一",
           "invalidOption": "无效选项",
           "invalidValue": "值不是有效选项",
+          "readOnly": "只读",
           "reference": "引用表中不存在值",
           "req": "{{field}} 为必填",
           "transformed": "🪄️从{{originalValue}}转换而来",
@@ -1085,11 +1174,17 @@
         }
       },
       "contextMenu": {
+        "columnTools": "列工具",
         "filterByValue": {
+          "firstFifty": "显示前 50 个选项",
           "label": "按值筛选",
           "moreOptions": "显示第一个 {{pageSize}} 选项。搜索可查看更多选项。",
           "noData": "没有数据",
-          "placeholder": "搜索或选择值……"
+          "noValuesFound": "未找到数值",
+          "placeholder": "搜索或选择值……",
+          "showingOptions_other": "显示 {{count}} 个选项",
+          "showingOptions_zero": "显示 {{count}} 个选项",
+          "values": "数值"
         },
         "findAndReplace": {
           "findAndReplaceValues": "查找并替换",
@@ -1151,6 +1246,7 @@
             "unpin": "点击取消固定此列"
           }
         },
+        "replaceEmptyCells": "替换空单元格......",
         "searchInField": {
           "modal": {
             "cancelButton": "取消",
@@ -1160,6 +1256,7 @@
           },
           "searchInThisField": "在此字段中搜索"
         },
+        "searchInFieldLabel": "在字段中搜索",
         "sort": {
           "ascending": {
             "apply": "按A-Z排序",
@@ -1182,6 +1279,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "自动生成",
           "key": "键：{{key}}",
           "label": "标签：{{label}}"
         }

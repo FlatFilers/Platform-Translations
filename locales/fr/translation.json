@@ -81,6 +81,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "Calculer",
+    "countEmpty": "{{count}} vide",
+    "countNonEmpty": "{{count}} rempli",
+    "literalCountEmpty": "Compte vide",
+    "literalCountNonEmpty": "Compte rempli",
+    "literalPercentEmpty": "Pourcentage vide",
+    "literalPercentNonEmpty": "Pourcentage rempli",
+    "removeCalculation": "Supprimer le calcul"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -371,6 +381,20 @@
         },
         "title": "Conflits trouvés"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "Les enregistrements qui ont été modifiés dans le clip de données et supprimés de la feuille principale seront restaurés dans la feuille principale lors de la fusion.",
+          "title": "Restaurer les enregistrements dans la feuille principale"
+        },
+        "description": "Sélectionner une option",
+        "removeRecords": {
+          "description": "Les enregistrements modifiés qui ont été supprimés de la feuille principale depuis lors seront ignorés lors de la fusion et ne seront pas rajoutés à la feuille principale.",
+          "title": "Ignorer les modifications des clips de données pour les enregistrements supprimés"
+        },
+        "title_one": "{{ count }} enregistrement modifié a été supprimé de la feuille principale",
+        "title_other": "{{ count }} enregistrements modifiés ont été supprimés de la feuille principale",
+        "title_zero": "{{ count }} enregistrements modifiés ont été supprimés de la feuille principale."
+      },
       "empty": {
         "button": "Retour à l'extrait de données",
         "description": "Effectuez au moins une modification pour fusionner.",
@@ -497,6 +521,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "Généré",
+        "details": "Détails",
         "name": "Nom",
         "size": "Taille",
         "sourceSheet": "Fiche source"
@@ -517,6 +542,10 @@
       "loadingError": "Impossible de charger les fichiers",
       "uploadDisabledDescription": "Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le service d'assistance.",
       "uploadDisabledHeading": "Cet espace ne permet pas actuellement le téléchargement de fichiers."
+    },
+    "status": {
+      "readyForImport": "Prêt pour l'importation",
+      "uploaded": "Téléchargé"
     },
     "title": "Fichiers",
     "uploadedFilesTab": "Fichiers téléchargés",
@@ -927,6 +956,9 @@
       "sheets_zero": "{{count}} feuilles",
       "title": "Importer vers...",
       "updatedAtDateFormat": "jj/MM/aaaa"
+    },
+    "sidebar": {
+      "title": "Cartographie"
     }
   },
   "nativeActions": {
@@ -961,6 +993,63 @@
       "error": "Une erreur est survenue lors de la mise à jour du classeur. Consultez les journaux d'événements.",
       "halfway": "Vous êtes à mi-parcours, tenez bon...",
       "updatingTable": "Mise à jour du tableau pour afficher uniquement les champs mappés"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "Combinez les champs entrants en une seule valeur.",
+      "name": "Combiner"
+    },
+    "firstAvailable": {
+      "description": "Valeur par défaut de la première valeur disponible dans une cellule.",
+      "name": "Première valeur disponible"
+    },
+    "infer": {
+      "description": "Description de l'inférence à déterminer",
+      "name": "Inférence"
+    },
+    "list": {
+      "description": "Réunir plusieurs champs dans un tableau",
+      "name": "Liste"
+    },
+    "move": {
+      "description": "Déplacer un champ entrant vers un champ de destination",
+      "name": "Déplacer"
+    },
+    "prepareSheet": {
+      "description": "Préparez vos données pour l'analyse en examinant les problèmes de prétraitement et en proposant un plan pour les résoudre.",
+      "name": "Préparer"
+    },
+    "singleValue": {
+      "description": "Définir une valeur par défaut pour la destination",
+      "name": "Définir la valeur par défaut"
+    },
+    "sourceSelector": {
+      "destination": "Champ de destination",
+      "destinationValues": "Champs de destination",
+      "firstFifty": "Affichage des 50 premiers résultats",
+      "noValuesFound": "Aucun champ trouvé",
+      "placeholderDestination": "Rechercher ou ajouter un champ de destination...",
+      "placeholderDestinationMultiple": "Rechercher ou ajouter des champs de destination...",
+      "placeholderReference": "Rechercher ou ajouter un champ de référence...",
+      "placeholderReferenceMultiple": "Rechercher ou ajouter des champs de référence...",
+      "placeholderSource": "Rechercher ou ajouter un champ source...",
+      "placeholderSourceMultiple": "Rechercher ou ajouter des champs source...",
+      "reference": "Champ de référence",
+      "selectedValue": "Champ sélectionné",
+      "selectedValues": "Champs sélectionnés",
+      "source": "Champ source",
+      "sourceValues": "Champs source",
+      "valuesCount": "{count} champs sélectionnés"
+    },
+    "sourceTool": "Outil source",
+    "split": {
+      "description": "Le fractionnement consiste à diviser une colonne unique contenant des données combinées en plusieurs colonnes sur la base d'un délimiteur, ce qui rend chaque point de données plus accessible pour l'analyse.",
+      "name": "Fractionner"
+    },
+    "unpivot": {
+      "description": "Combinez les colonnes apparentées en lignes, en normalisant les données larges dans un format plus simple et plus long.",
+      "name": "Dérivation"
     }
   },
   "secrets": {
@@ -1102,6 +1191,7 @@
           "compositeUnique": "🧑‍🍳 Le composite {{name}} n'est pas unique",
           "invalidOption": "Option invalide",
           "invalidValue": "La valeur n'est pas une option valable",
+          "readOnly": "lecture seule",
           "reference": "La valeur n'existe pas dans le tableau de référence",
           "req": "{{field}} est obligatoire",
           "transformed": "🪄️ Transformée à partir de {{originalValue}}",
@@ -1109,11 +1199,18 @@
         }
       },
       "contextMenu": {
+        "columnTools": "Outils de colonne",
         "filterByValue": {
+          "firstFifty": "Affichage des 50 premières options",
           "label": "Filtrer par valeur",
           "moreOptions": "Afficher les premières options {{pageSize}}. Rechercher pour en voir plus.",
           "noData": "pas de données",
-          "placeholder": "Rechercher ou sélectionner des valeurs..."
+          "noValuesFound": "Aucune valeur trouvée",
+          "placeholder": "Rechercher ou sélectionner des valeurs...",
+          "showingOptions_one": "Affichage d'une option",
+          "showingOptions_other": "Affichage de {{count}} options",
+          "showingOptions_zero": "Affichage de {{count}} options",
+          "values": "Valeurs"
         },
         "findAndReplace": {
           "findAndReplaceValues": "Rechercher et remplacer",
@@ -1178,6 +1275,7 @@
             "unpin": "Cliquer pour désépingler cette colonne"
           }
         },
+        "replaceEmptyCells": "Remplacer les cellules vides...",
         "searchInField": {
           "modal": {
             "cancelButton": "Annuler",
@@ -1187,6 +1285,7 @@
           },
           "searchInThisField": "Rechercher dans ce champ"
         },
+        "searchInFieldLabel": "Rechercher dans le champ",
         "sort": {
           "ascending": {
             "apply": "Trier de A à Z",
@@ -1209,6 +1308,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "Généré automatiquement",
           "key": "clé : {{key}}",
           "label": "étiquette : {{label}}"
         }

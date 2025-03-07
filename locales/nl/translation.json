@@ -80,6 +80,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "Berekenen",
+    "countEmpty": "{{count}} leeg",
+    "countNonEmpty": "{{count}} gevuld",
+    "literalCountEmpty": "Telling leeg",
+    "literalCountNonEmpty": "Telling gevuld",
+    "literalPercentEmpty": "Percentage leeg",
+    "literalPercentNonEmpty": "Percentage gevuld",
+    "removeCalculation": "Verwijder berekening"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -370,6 +380,20 @@
         },
         "title": "Conflicten gevonden"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "Records die zijn gewijzigd in de gegevensclip en verwijderd uit het hoofdblad worden hersteld in het hoofdblad bij het samenvoegen.",
+          "title": "Records in hoofdblad herstellen"
+        },
+        "description": "Selecteer een optie",
+        "removeRecords": {
+          "description": "Gewijzigde records die sindsdien verwijderd zijn uit het hoofdblad worden genegeerd bij het samenvoegen en niet weer toegevoegd aan het hoofdblad.",
+          "title": "Wijzigingen in gegevensclip negeren voor verwijderde records"
+        },
+        "title_one": "{{ count }} gewijzigde record is verwijderd uit het hoofdblad",
+        "title_other": "{{ count }} gewijzigde records zijn verwijderd uit het hoofdblad",
+        "title_zero": "{{ count }} gewijzigde records zijn verwijderd uit het hoofdblad"
+      },
       "empty": {
         "button": "Terug naar clip",
         "description": "Breng ten minste één wijziging aan om samen te voegen.",
@@ -496,6 +520,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "Gegenereerd",
+        "details": "Details",
         "name": "Naam",
         "size": "Maat",
         "sourceSheet": "Bronblad"
@@ -516,6 +541,10 @@
       "loadingError": "Kon de bestanden niet laden",
       "uploadDisabledDescription": "Als je denkt dat dit een fout was, neem dan contact op met support.",
       "uploadDisabledHeading": "Deze ruimte ondersteunt momenteel geen bestanduploads."
+    },
+    "status": {
+      "readyForImport": "Klaar voor importeren",
+      "uploaded": "Geüpload"
     },
     "title": "Bestanden",
     "uploadedFilesTab": "Geüploade bestanden",
@@ -926,6 +955,9 @@
       "sheets_zero": "{{count}} sheets",
       "title": "Importeren naar...",
       "updatedAtDateFormat": "jjjj-mm-dd"
+    },
+    "sidebar": {
+      "title": "Mapping"
     }
   },
   "nativeActions": {
@@ -960,6 +992,63 @@
       "error": "Er is een fout opgetreden tijdens het bijwerken van de werkmap. Zie Gebeurtenislogboeken.",
       "halfway": "We zijn halverwege. Nog even geduld...",
       "updatingTable": "De tabel wordt bijgewerkt zodat alleen gemapte velden worden weergegeven"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "Combineer binnenkomende velden tot één waarde",
+      "name": "Combineren"
+    },
+    "firstAvailable": {
+      "description": "Kies standaard de eerst beschikbare waarde in een cel",
+      "name": "Eerst beschikbaar"
+    },
+    "infer": {
+      "description": "Beschrijving afleiden n.t.b.",
+      "name": "Afleiden"
+    },
+    "list": {
+      "description": "Combineer meerdere velden samen in een array",
+      "name": "Lijst"
+    },
+    "move": {
+      "description": "Verplaats een binnenkomend veld naar een bestemmingsveld",
+      "name": "Verplaats"
+    },
+    "prepareSheet": {
+      "description": "Uw gegevens voorbereiden voor analyse door problemen met de voorbewerking door te nemen en een plan voor te stellen om ze op te lossen.",
+      "name": "Voorbereiden"
+    },
+    "singleValue": {
+      "description": "Stel een standaardwaarde in voor de bestemming",
+      "name": "Standaard instellen"
+    },
+    "sourceSelector": {
+      "destination": "Bestemmingsveld",
+      "destinationValues": "Bestemmingsvelden",
+      "firstFifty": "Het weergeven van de eerste 50 resultaten",
+      "noValuesFound": "Geen velden gevonden",
+      "placeholderDestination": "Bestemmingsveld zoeken of toevoegen…",
+      "placeholderDestinationMultiple": "Bestemmingsvelden zoeken of toevoegen…",
+      "placeholderReference": "Referentieveld zoeken of toevoegen…",
+      "placeholderReferenceMultiple": "Referentievelden zoeken of toevoegen…",
+      "placeholderSource": "Bronveld zoeken of toevoegen…",
+      "placeholderSourceMultiple": "Bronvelden zoeken of toevoegen…",
+      "reference": "Referentieveld",
+      "selectedValue": "Geselecteerd veld",
+      "selectedValues": "Geselecteerde velden",
+      "source": "Bronveld",
+      "sourceValues": "Bronvelden",
+      "valuesCount": "{count} velden geselecteerd"
+    },
+    "sourceTool": "Broninstrument",
+    "split": {
+      "description": "Splitsen is het proces van het verdelen van een enkele kolom met gecombineerde gegevens in meerdere kolommen op basis van een scheidingsteken, waardoor ieder gegevenspunt toegankelijker wordt voor analyse.",
+      "name": "Splitsen"
+    },
+    "unpivot": {
+      "description": "Combineer verwante kolommen in rijen en normaliseer brede gegevens in een eenvoudiger, lang formaat.",
+      "name": "Draaitabel opheffen"
     }
   },
   "secrets": {
@@ -1101,6 +1190,7 @@
           "compositeUnique": "🧑‍🍳 Composiet {{name}} is niet uniek",
           "invalidOption": "Ongeldige optie",
           "invalidValue": "Waarde is geen geldige optie",
+          "readOnly": "alleen lezen",
           "reference": "Waarde bestaat niet in de referentietabel",
           "req": "{{field}} is vereist",
           "transformed": "🪄️ Getransformeerd van {{originalValue}}",
@@ -1108,11 +1198,18 @@
         }
       },
       "contextMenu": {
+        "columnTools": "Kolomtools",
         "filterByValue": {
+          "firstFifty": "Toont eerste 50 opties",
           "label": "Filteren op waarde",
           "moreOptions": "De eerste {{pageSize}} opties worden weergegeven. Zoek om meer te zien.",
           "noData": "geen gegevens",
-          "placeholder": "Waarden zoeken of selecteren..."
+          "noValuesFound": "Geen waarden gevonden",
+          "placeholder": "Waarden zoeken of selecteren...",
+          "showingOptions_one": "Toont 1 optie",
+          "showingOptions_other": "Toont {{count}} opties",
+          "showingOptions_zero": "Toont {{count}} opties",
+          "values": "Waarden"
         },
         "findAndReplace": {
           "findAndReplaceValues": "Zoek en vervang",
@@ -1177,6 +1274,7 @@
             "unpin": "Klik om deze kolom niet meer vast te pinnen"
           }
         },
+        "replaceEmptyCells": "Vervang lege cellen...",
         "searchInField": {
           "modal": {
             "cancelButton": "Annuleren",
@@ -1186,6 +1284,7 @@
           },
           "searchInThisField": "Zoek in dit veld"
         },
+        "searchInFieldLabel": "Zoek in veld",
         "sort": {
           "ascending": {
             "apply": "Sorteren van A naar Z",
@@ -1208,6 +1307,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "Automatisch gegenereerd",
           "key": "sleutel: {{key}}",
           "label": "label: {{label}}"
         }

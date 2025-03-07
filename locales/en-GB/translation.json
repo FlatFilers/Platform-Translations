@@ -81,6 +81,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "Calculate",
+    "countEmpty": "{{count}} empty",
+    "countNonEmpty": "{{count}} filled",
+    "literalCountEmpty": "Count empty",
+    "literalCountNonEmpty": "Count filled",
+    "literalPercentEmpty": "Percent empty",
+    "literalPercentNonEmpty": "Percent filled",
+    "removeCalculation": "Remove calculation"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -371,6 +381,20 @@
         },
         "title": "Conflicts found"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "Records that have been changed in the data clip and deleted from the main sheet will be restored to the main sheet during the merge.",
+          "title": "Restore records in main sheet"
+        },
+        "description": "Select an option",
+        "removeRecords": {
+          "description": "Changed records that have since been deleted from the main sheet will be ignored during the merge and will not be added back to the main sheet.",
+          "title": "Ignore data clip changes for deleted records"
+        },
+        "title_one": "{{ count }} changed record has been deleted from the main sheet",
+        "title_other": "{{ count }} changed records have been deleted from the main sheet",
+        "title_zero": "{{ count }} changed records have been deleted from the main sheet"
+      },
       "empty": {
         "button": "Return to clip",
         "description": "Make at least one change in order to merge.",
@@ -497,6 +521,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "Generated",
+        "details": "Details",
         "name": "Name",
         "size": "Size",
         "sourceSheet": "Source sheet"
@@ -517,6 +542,10 @@
       "loadingError": "Unable to load the files",
       "uploadDisabledDescription": "If you think this is an error, please talk to support.",
       "uploadDisabledHeading": "This space does not currently support file uploads."
+    },
+    "status": {
+      "readyForImport": "Ready for import",
+      "uploaded": "Uploaded"
     },
     "title": "Files",
     "uploadedFilesTab": "Uploaded files",
@@ -927,6 +956,9 @@
       "sheets_zero": "{{count}} sheets",
       "title": "Import to...",
       "updatedAtDateFormat": "yyyy-MM-dd"
+    },
+    "sidebar": {
+      "title": "Mapping"
     }
   },
   "nativeActions": {
@@ -961,6 +993,63 @@
       "error": "An error occured while updating the workbook. See Event Logs.",
       "halfway": "Halfway there, hang tight...",
       "updatingTable": "Updating the table to only view mapped fields"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "Combine incoming fields into one value",
+      "name": "Combine"
+    },
+    "firstAvailable": {
+      "description": "Default to the first available value in a cell",
+      "name": "First Available"
+    },
+    "infer": {
+      "description": "Infer description TBD",
+      "name": "Infer"
+    },
+    "list": {
+      "description": "Join multiple fields together in an array",
+      "name": "List"
+    },
+    "move": {
+      "description": "Move an incoming field to a destination field",
+      "name": "Move"
+    },
+    "prepareSheet": {
+      "description": "Prepare your data for analysis by reviewing pre-processing issues and proposing a plan to resolve them.",
+      "name": "Prepare"
+    },
+    "singleValue": {
+      "description": "Set a default value for the destination",
+      "name": "Set Default"
+    },
+    "sourceSelector": {
+      "destination": "Destination field",
+      "destinationValues": "Destination fields",
+      "firstFifty": "Showing first 50 results",
+      "noValuesFound": "No fields found",
+      "placeholderDestination": "Search or add destination field…",
+      "placeholderDestinationMultiple": "Search or add destination fields…",
+      "placeholderReference": "Search or add reference field…",
+      "placeholderReferenceMultiple": "Search or add reference fields…",
+      "placeholderSource": "Search or add source field…",
+      "placeholderSourceMultiple": "Search or add source fields…",
+      "reference": "Reference field",
+      "selectedValue": "Selected field",
+      "selectedValues": "Selected fields",
+      "source": "Source field",
+      "sourceValues": "Source fields",
+      "valuesCount": "{count} fields selected"
+    },
+    "sourceTool": "Source tool",
+    "split": {
+      "description": "Splitting is the process of dividing a single column containing combined data into multiple columns based on a delimiter, making each data point more accessible for analysis.",
+      "name": "Split"
+    },
+    "unpivot": {
+      "description": "Combine related columns into rows, normalising wide data into a simpler, long format.",
+      "name": "Unpivot"
     }
   },
   "secrets": {
@@ -1102,6 +1191,7 @@
           "compositeUnique": "🧑‍🍳 Composite {{name}} is not unique",
           "invalidOption": "Invalid option",
           "invalidValue": "Value is not a valid option",
+          "readOnly": "read only",
           "reference": "Value does not exist in the reference table",
           "req": "{{field}} is required",
           "transformed": "🪄️ Transformed from {{originalValue}}",
@@ -1109,11 +1199,18 @@
         }
       },
       "contextMenu": {
+        "columnTools": "Column tools",
         "filterByValue": {
+          "firstFifty": "Showing first 50 options",
           "label": "Filter by value",
           "moreOptions": "Showing first {{pageSize}} options. Search to see more.",
           "noData": "no data",
-          "placeholder": "Search or select values..."
+          "noValuesFound": "No values found",
+          "placeholder": "Search or select values...",
+          "showingOptions_one": "Showing 1 option",
+          "showingOptions_other": "Showing {{count}} options",
+          "showingOptions_zero": "Showing {{count}} options",
+          "values": "Values"
         },
         "findAndReplace": {
           "findAndReplaceValues": "Find and replace",
@@ -1178,6 +1275,7 @@
             "unpin": "Click to unpin this column"
           }
         },
+        "replaceEmptyCells": "Replace empty cells…",
         "searchInField": {
           "modal": {
             "cancelButton": "Cancel",
@@ -1187,6 +1285,7 @@
           },
           "searchInThisField": "Search in this field"
         },
+        "searchInFieldLabel": "Search in field",
         "sort": {
           "ascending": {
             "apply": "Sort A-Z",
@@ -1209,6 +1308,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "Auto Generated",
           "key": "key: {{key}}",
           "label": "label: {{label}}"
         }

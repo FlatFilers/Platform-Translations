@@ -82,6 +82,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "Oblicz",
+    "countEmpty": "Puste: {{count}}",
+    "countNonEmpty": "Wypełniono {{count}}",
+    "literalCountEmpty": "Policz puste",
+    "literalCountNonEmpty": "Policz wypełnione",
+    "literalPercentEmpty": "Procent pustych",
+    "literalPercentNonEmpty": "Procent wypełnionych",
+    "removeCalculation": "Usuń obliczenie"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -382,6 +392,22 @@
         },
         "title": "Znaleziono konflikty"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "Rekordy, które zostały zmienione w klipie danych i usunięte z głównego arkusza, zostaną przywrócone w głównym arkuszu podczas scalania.",
+          "title": "Przywróć rekordy w głównym arkuszu"
+        },
+        "description": "Wybierz opcję",
+        "removeRecords": {
+          "description": "Zmienione rekordy, które zostały usunięte z głównego arkusza, zostaną zignorowane podczas scalania i nie zostaną ponownie dodane do głównego arkusza.",
+          "title": "Ignoruj zmiany w klipie danych w przypadku usuniętych rekordów"
+        },
+        "title_few": "{{ count }} zmienione rekordy zostały usunięte z głównego arkusza",
+        "title_many": "{{ count }} zmienionych rekordów zostało usuniętych z głównego arkusza",
+        "title_one": "{{ count }} zmieniony rekord został usunięty z głównego arkusza",
+        "title_other": "{{ count }} zmienionych rekordów zostało usuniętych z głównego arkusza",
+        "title_zero": "{{ count }} zmienione rekordy zostały usunięte z głównego arkusza"
+      },
       "empty": {
         "button": "Powrót do klipu",
         "description": "Wprowadź co najmniej jedną zmianę w celu scalenia.",
@@ -520,6 +546,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "Wygenerowano",
+        "details": "Szczegóły",
         "name": "Nazwa",
         "size": "Rozmiar",
         "sourceSheet": "Arkusz źródłowy"
@@ -540,6 +567,10 @@
       "loadingError": "Nie można załadować plików",
       "uploadDisabledDescription": "Jeśli uważasz, że jest to błąd, skontaktuj się z pomocą techniczną.",
       "uploadDisabledHeading": "Ta przestrzeń nie obsługuje obecnie przesyłania plików."
+    },
+    "status": {
+      "readyForImport": "Gotowe do importowania",
+      "uploaded": "Wczytano"
     },
     "title": "Pliki",
     "uploadedFilesTab": "Przesłane pliki",
@@ -962,6 +993,9 @@
       "sheets_zero": "Arkusze: {{count}}",
       "title": "Importuj do...",
       "updatedAtDateFormat": "rrrr-MM-dd"
+    },
+    "sidebar": {
+      "title": "Mapowanie"
     }
   },
   "nativeActions": {
@@ -996,6 +1030,63 @@
       "error": "Podczas aktualizacji skoroszytu wystąpił błąd. Sprawdź dzienniki wydarzeń.",
       "halfway": "Jesteśmy w połowie, jeszcze trochę cierpliwości...",
       "updatingTable": "Aktualizacja tabeli, aby widoczne były tylko zmapowane pola"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "Połącz przychodzące pola w jedną wartość",
+      "name": "Połącz"
+    },
+    "firstAvailable": {
+      "description": "Domyślna dla pierwszej dostępnej wartości w komórce",
+      "name": "Pierwsza dostępna"
+    },
+    "infer": {
+      "description": "Wywnioskuj opis TBD",
+      "name": "Wywnioskuj"
+    },
+    "list": {
+      "description": "Połącz wiele pól w szeregu",
+      "name": "Lista"
+    },
+    "move": {
+      "description": "Przenieś pole przychodzące do pola docelowego",
+      "name": "Przenieś"
+    },
+    "prepareSheet": {
+      "description": "Przygotuj dane do analizy, ponownie przeglądając problemy przed rozpoczęciem przetwarzania i proponując plan ich rozwiązania.",
+      "name": "Przygotuj"
+    },
+    "singleValue": {
+      "description": "Ustaw domyślną wartość dla miejsca docelowego",
+      "name": "Ustaw domyślną"
+    },
+    "sourceSelector": {
+      "destination": "Pole docelowe",
+      "destinationValues": "Pola docelowe",
+      "firstFifty": "Wyświetlono pierwsze 50 wyników",
+      "noValuesFound": "Nie znaleziono pól",
+      "placeholderDestination": "Wyszukaj lub dodaj pole docelowe...",
+      "placeholderDestinationMultiple": "Wyszukaj lub dodaj pola docelowe...",
+      "placeholderReference": "Wyszukaj lub dodaj pole odwołania...",
+      "placeholderReferenceMultiple": "Wyszukaj lub dodaj pola odwołań...",
+      "placeholderSource": "Wyszukaj lub dodaj pole źródłowe...",
+      "placeholderSourceMultiple": "Wyszukaj lub dodaj pola źródłowe...",
+      "reference": "Pole odwołania",
+      "selectedValue": "Wybrane pole",
+      "selectedValues": "Wybrane pola",
+      "source": "Pole źródłowe",
+      "sourceValues": "Pola źródłowe",
+      "valuesCount": "Wybrane pola: {count}"
+    },
+    "sourceTool": "Narzędzie źródła",
+    "split": {
+      "description": "Dzielenie to proces podziału pojedynczej kolumny, która zawiera połączone dane, na wiele kolumn na podstawie separatora. To sprawia, że każdy punkt danych staje się bardziej dostępny do analizy.",
+      "name": "Podziel"
+    },
+    "unpivot": {
+      "description": "Połącz powiązane kolumny w rzędy, normalizując szeroki format danych do prostszego, długiego.",
+      "name": "Anuluj przestawienie"
     }
   },
   "secrets": {
@@ -1149,6 +1240,7 @@
           "compositeUnique": "🧑‍🍳 Kompozyt {{name}} nie jest unikalny",
           "invalidOption": "Niepoprawna opcja",
           "invalidValue": "Wartość nie jest poprawną opcją",
+          "readOnly": "tylko do odczytu",
           "reference": "Wartość nie istnieje w tabeli referencyjnej",
           "req": "{{field}} jest wymagane",
           "transformed": "Przekształcono z: {{originalValue}}",
@@ -1156,11 +1248,20 @@
         }
       },
       "contextMenu": {
+        "columnTools": "Narzędzia do kolumn",
         "filterByValue": {
+          "firstFifty": "Wyświetlono 50 opcji",
           "label": "Filtru według wartości",
           "moreOptions": "Pokazywanie pierwszych {{pageSize}} opcji. Wyszukaj, aby zobaczyć więcej.",
           "noData": "brak danych",
-          "placeholder": "Wyszukaj lub wybierz wartości..."
+          "noValuesFound": "Nie znaleziono wartości",
+          "placeholder": "Wyszukaj lub wybierz wartości...",
+          "showingOptions_few": "Wyświetlono {{count}} opcje",
+          "showingOptions_many": "Wyświetlono {{count}} opcji",
+          "showingOptions_one": "Wyświetlono 1 opcję",
+          "showingOptions_other": "Wyświetlono opcje ({{count}})",
+          "showingOptions_zero": "Wyświetlono {{count}} opcji",
+          "values": "Wartości"
         },
         "findAndReplace": {
           "findAndReplaceValues": "Znajdź i zamień",
@@ -1231,6 +1332,7 @@
             "unpin": "Kliknij, aby odpiąć tę kolumnę"
           }
         },
+        "replaceEmptyCells": "Zastąp puste komórki…",
         "searchInField": {
           "modal": {
             "cancelButton": "Anuluj",
@@ -1240,6 +1342,7 @@
           },
           "searchInThisField": "Szukaj w tym polu"
         },
+        "searchInFieldLabel": "Wyszukaj w polu",
         "sort": {
           "ascending": {
             "apply": "Sortuj w kolejności A–Z",
@@ -1262,6 +1365,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "Wygenerowano automatycznie",
           "key": "klucz: {{key}}",
           "label": "etykieta: {{label}}"
         }

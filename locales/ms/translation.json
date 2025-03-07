@@ -79,6 +79,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "Kira",
+    "countEmpty": "{{count}} kosong",
+    "countNonEmpty": "{{count}} telah diisi",
+    "literalCountEmpty": "Kira bilangan kosong",
+    "literalCountNonEmpty": "Kira bilangan diisi",
+    "literalPercentEmpty": "Peratusan kosong",
+    "literalPercentNonEmpty": "Peratusan diisi",
+    "removeCalculation": "Padam pengiraan"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -364,6 +374,19 @@
         },
         "title": "Konflik ditemui"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "Rekod yang telah diubah dalam klip data dan dipadamkan daripada lembaran utama akan dipulihkan semula dalam lembaran utama selepas digabungkan.",
+          "title": "Pulihkan semula rekod dalam lembaran utama"
+        },
+        "description": "Pilih pilihan",
+        "removeRecords": {
+          "description": "Rekod yang diubah yang telah dipadamkan dari lembaran utama akan diabaikan apabila digabungkan, dan tidak ditambahkam kembali ke lembaran utama.",
+          "title": "Abaikan perubahan klip data untuk rekod yang dipadamkan"
+        },
+        "title_other": "{{ count }} rekod yang diubah telah dipadamkan daripada lembaran utama",
+        "title_zero": "{{ count }} rekod yang diubah telah dipadamkan daripada lembaran utama"
+      },
       "empty": {
         "button": "Kembali ke klip",
         "description": "Buat sekurang-kurangnya satu perubahan untuk menggabungkan.",
@@ -484,6 +507,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "Dijana",
+        "details": "Butiran",
         "name": "Nama",
         "size": "Saiz",
         "sourceSheet": "Lembaran sumber"
@@ -504,6 +528,10 @@
       "loadingError": "Tidak dapat memuatkan fail",
       "uploadDisabledDescription": "Jika anda rasa perkara ini ralat, sila bincang dengan sokongan.",
       "uploadDisabledHeading": "Ruang ini tidak menyokong muat naik fail buat masa ini."
+    },
+    "status": {
+      "readyForImport": "Sedia untuk diimport",
+      "uploaded": "Telah Dimuat Naik"
     },
     "title": "Fail",
     "uploadedFilesTab": "Fail yang dimuat naik",
@@ -908,6 +936,9 @@
       "sheets_zero": "{{count}} helaian",
       "title": "Import ke...",
       "updatedAtDateFormat": "tttt-BB-hh"
+    },
+    "sidebar": {
+      "title": "Pemetaan"
     }
   },
   "nativeActions": {
@@ -942,6 +973,63 @@
       "error": "Ralat berlaku semasa mengemas kini buku kerja. Lihat Log Peristiwa.",
       "halfway": "Hampir selesai, tunggu sebentar...",
       "updatingTable": "Mengemas kini jadual untuk melihat medan yang dipetakan sahaja"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "Gabungkan medan masuk menjadi satu nilai",
+      "name": "Gabungkan"
+    },
+    "firstAvailable": {
+      "description": "Pergi kepada nilai pertama yang tersedia dalam sel",
+      "name": "Pertama Tersedia"
+    },
+    "infer": {
+      "description": "Simpulkan huraian TBD",
+      "name": "Simpulkan"
+    },
+    "list": {
+      "description": "Gabungkan berbilang medan bersama dalam tatasusunan",
+      "name": "Senarai"
+    },
+    "move": {
+      "description": "Pindahkan medan masuk ke medan destinasi",
+      "name": "Pindahkan"
+    },
+    "prepareSheet": {
+      "description": "Sediakan data anda untuk analisis dengan menyemak isu pra-pemprosesan dan mencadangkan pelan untuk menyelesaikannya.",
+      "name": "Sediakan"
+    },
+    "singleValue": {
+      "description": "Tetapkan nilai lalai untuk destinasi",
+      "name": "Tetapkan Nilai Lalai"
+    },
+    "sourceSelector": {
+      "destination": "Medan destinasi",
+      "destinationValues": "Medan destinasi",
+      "firstFifty": "Menunjukkan 50 hasil pertama",
+      "noValuesFound": "Tiada medan ditemui",
+      "placeholderDestination": "Cari atau tambah medan destinasi…",
+      "placeholderDestinationMultiple": "Cari atau tambah medan destinasi…",
+      "placeholderReference": "Cari atau tambah medan rujukan…",
+      "placeholderReferenceMultiple": "Cari atau tambah medan rujukan…",
+      "placeholderSource": "Cari atau tambah medan sumber…",
+      "placeholderSourceMultiple": "Cari atau tambah medan sumber…",
+      "reference": "Medan rujukan",
+      "selectedValue": "Medan yang dipilih",
+      "selectedValues": "Medan yang dipilih",
+      "source": "Medan sumber",
+      "sourceValues": "Medan sumber",
+      "valuesCount": "{count} medan dipilih"
+    },
+    "sourceTool": "Alat sumber",
+    "split": {
+      "description": "Pemisahan ialah proses membahagikan satu lajur yang mengandungi data gabungan kepada berbilang lajur berdasarkan pembatas, menjadikan setiap titik data lebih mudah diakses untuk analisis.",
+      "name": "Pisahkan"
+    },
+    "unpivot": {
+      "description": "Menggabungkan lajur yang berkaitan ke dalam baris, menormalkan data yang luas kepada format yang lebih ringkas dan panjang.",
+      "name": "Tukarkan lajur kepada baris"
     }
   },
   "secrets": {
@@ -1077,6 +1165,7 @@
           "compositeUnique": "🧑‍🍳 Komposit {{name}} tidak unik",
           "invalidOption": "Pilihan tidak sah",
           "invalidValue": "Nilai bukan pilihan yang sah",
+          "readOnly": "baca sahaja",
           "reference": "Nilai tidak wujud dalam jadual rujukan",
           "req": "{{field}} diperlukan",
           "transformed": "🪄️ Diubah daripada {{originalValue}}",
@@ -1084,11 +1173,17 @@
         }
       },
       "contextMenu": {
+        "columnTools": "Alat lajur",
         "filterByValue": {
+          "firstFifty": "Menunjukkan 50 pilihan pertama",
           "label": "Tapis mengikut nilai",
           "moreOptions": "Menunjukkan pilihan {{pageSize}} yang pertama. Cari untuk melihat lebih banyak lagi.",
           "noData": "tiada data",
-          "placeholder": "Cari atau pilih nilai..."
+          "noValuesFound": "Tiada nilai ditemui",
+          "placeholder": "Cari atau pilih nilai...",
+          "showingOptions_other": "Menunjukkan {{count}} pilihan",
+          "showingOptions_zero": "Menunjukkan {{count}} pilihan",
+          "values": "Nilai"
         },
         "findAndReplace": {
           "findAndReplaceValues": "Cari dan ganti",
@@ -1150,6 +1245,7 @@
             "unpin": "Klik untuk memadamkan pin lajur ini"
           }
         },
+        "replaceEmptyCells": "Gantikan sel kosong...",
         "searchInField": {
           "modal": {
             "cancelButton": "Batalkan",
@@ -1159,6 +1255,7 @@
           },
           "searchInThisField": "Cari dalam medan ini"
         },
+        "searchInFieldLabel": "Cari dalam medan",
         "sort": {
           "ascending": {
             "apply": "Susun A-Z",
@@ -1181,6 +1278,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "Dijana Secara Automatik",
           "key": "kunci: {{key}}",
           "label": "label: {{label}}"
         }

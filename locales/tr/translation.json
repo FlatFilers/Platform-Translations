@@ -81,6 +81,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "Hesapla",
+    "countEmpty": "{{count}} boş",
+    "countNonEmpty": "{{count}} dolduruldu",
+    "literalCountEmpty": "Sayı boş",
+    "literalCountNonEmpty": "Sayım dolduruldu",
+    "literalPercentEmpty": "Yüzde boş",
+    "literalPercentNonEmpty": "Yüzde dolu",
+    "removeCalculation": "Hesaplamayı kaldır"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -371,6 +381,20 @@
         },
         "title": "Çakışmalar bulundu"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "Veri klibinde değiştirilen ve ana sayfadan silinen kayıtlar, birleştirildiği zaman ana sayfada geri yüklenecektir.",
+          "title": "Ana sayfadaki kayıtları geri yükle"
+        },
+        "description": "Bir seçenek seç",
+        "removeRecords": {
+          "description": "O zamandan beri ana sayfadan silinen değiştirilen kayıtlar, birleştirme sırasında yoksayılacak ve ana sayfaya tekrar eklenmeyecektir.",
+          "title": "Silinen kayıtlar için veri klibi değişikliklerini yoksay"
+        },
+        "title_one": "{{ count }} değiştirilen kayıt, ana sayfadan silindi",
+        "title_other": "{{ count }} değiştirilen kayıt, ana sayfadan silindi",
+        "title_zero": "{{ count }} değiştirilen kayıt, ana sayfadan silindi"
+      },
       "empty": {
         "button": "Klibe dön",
         "description": "Birleştirmek için en az bir değişiklik yapın.",
@@ -497,6 +521,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "Oluşturuldu",
+        "details": "Detaylar",
         "name": "Ad",
         "size": "Boyut",
         "sourceSheet": "Kaynak sayfası"
@@ -517,6 +542,10 @@
       "loadingError": "Dosyalar yüklenemiyor",
       "uploadDisabledDescription": "Bunun bir hata olduğunu düşünüyorsanız lütfen destek birimiyle görüşün.",
       "uploadDisabledHeading": "Bu alan şu anda dosya yüklemelerini desteklemiyor."
+    },
+    "status": {
+      "readyForImport": "Dışa aktarım için hazır",
+      "uploaded": "Yüklendi"
     },
     "title": "Dosyalar",
     "uploadedFilesTab": "Yüklenen dosyalar",
@@ -927,6 +956,9 @@
       "sheets_zero": "{{count}} sayfalar",
       "title": "Şuraya aktar:",
       "updatedAtDateFormat": "gg-AA-yyyy"
+    },
+    "sidebar": {
+      "title": "Haritalama"
     }
   },
   "nativeActions": {
@@ -961,6 +993,63 @@
       "error": "Çalışma kitabı güncellenirken bir hata oluştu. Olay Günlükleri'ne bakın.",
       "halfway": "Yolun yarısı, sıkı tutun.",
       "updatingTable": "Tablo, yalnızca eşlenen alanları görüntüleyecek şekilde güncelleniyor"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "Gelen alanları tek bir değerde birleştir",
+      "name": "Birleştir"
+    },
+    "firstAvailable": {
+      "description": "Varsayılan olarak bir hücredeki ilk kullanılabilir değere",
+      "name": "İlk Kullanılabilir"
+    },
+    "infer": {
+      "description": "Açıklamayı çıkar TBD",
+      "name": "Çıkarım yap"
+    },
+    "list": {
+      "description": "Birden fazla alanı bir dizide birleştir",
+      "name": "Liste"
+    },
+    "move": {
+      "description": "Gelen alanı hedef alana taşı",
+      "name": "Taşı"
+    },
+    "prepareSheet": {
+      "description": "Ön işleme sorunlarını gözden geçirerek ve bunları çözmek için bir plan önererek verilerini analiz için hazırla.",
+      "name": "Hazırla"
+    },
+    "singleValue": {
+      "description": "Hedef için varsayılan bir değer ayarla",
+      "name": "Varsayılan Ayarla"
+    },
+    "sourceSelector": {
+      "destination": "Hedef alan",
+      "destinationValues": "Hedef alanlar",
+      "firstFifty": "İlk 50 sonuç gösteriliyor",
+      "noValuesFound": "Hiçbir alan bulunamadı",
+      "placeholderDestination": "Hedef alanını arayıp ekle…",
+      "placeholderDestinationMultiple": "Hedef alanlarını arayıp ekle…",
+      "placeholderReference": "Referans alanını arayıp ekle…",
+      "placeholderReferenceMultiple": "Referans alanlarını arayıp ekle…",
+      "placeholderSource": "Kaynak alanını arayıp ekle…",
+      "placeholderSourceMultiple": "Kaynak alanlarını arayıp ekle…",
+      "reference": "Referans alanı",
+      "selectedValue": "Seçili alan",
+      "selectedValues": "Seçili alanlar",
+      "source": "Kaynak alanı",
+      "sourceValues": "Kaynak alanları",
+      "valuesCount": "{count} alan seçildi"
+    },
+    "sourceTool": "Kaynak aracı",
+    "split": {
+      "description": "Bölme, birleştirilmiş verileri içeren tek bir sütunu, bir ayırıcıya göre birden fazla sütuna bölme işlemidir ve böylece her veri noktası analiz için daha erişilebilir hale gelir.",
+      "name": "Böl"
+    },
+    "unpivot": {
+      "description": "İlgili sütunları satırlar halinde birleştir, geniş verileri daha basit, uzun bir biçime normalleştir.",
+      "name": "Kaldır"
     }
   },
   "secrets": {
@@ -1102,6 +1191,7 @@
           "compositeUnique": "🧑‍🍳 Kompozit {{name}} benzersiz değil",
           "invalidOption": "Geçersiz seçenek",
           "invalidValue": "Değer, geçerli bir seçenek değil",
+          "readOnly": "salt okunur",
           "reference": "Değer, referans tablosunda mevcut değil",
           "req": "{{field}} gereklidir",
           "transformed": "🪄️ {{originalValue}} değerinden dönüştürüldü",
@@ -1109,11 +1199,18 @@
         }
       },
       "contextMenu": {
+        "columnTools": "Sütun araçları",
         "filterByValue": {
+          "firstFifty": "İlk 50 seçenek gösteriliyor",
           "label": "Değere göre filtrele",
           "moreOptions": "İlk {{pageSize}} seçenekleri gösteriliyor. Daha fazlasını görmek için ara.",
           "noData": "veri yok",
-          "placeholder": "Değerleri ara veya seç..."
+          "noValuesFound": "Değer bulunamadı",
+          "placeholder": "Değerleri ara veya seç...",
+          "showingOptions_one": "1 seçenek gösteriliyor",
+          "showingOptions_other": "{{count}} seçenek gösteriliyor",
+          "showingOptions_zero": "{{count}} seçenek gösteriliyor",
+          "values": "Değerler"
         },
         "findAndReplace": {
           "findAndReplaceValues": "Bul ve değiştir",
@@ -1178,6 +1275,7 @@
             "unpin": "Bu sütunun sabitlemesini kaldırmak için tıklayın"
           }
         },
+        "replaceEmptyCells": "Boş hücreleri değiştir...",
         "searchInField": {
           "modal": {
             "cancelButton": "İptal",
@@ -1187,6 +1285,7 @@
           },
           "searchInThisField": "Bu alanda ara"
         },
+        "searchInFieldLabel": "Alanda ara",
         "sort": {
           "ascending": {
             "apply": "A-Z şeklinde sırala",
@@ -1209,6 +1308,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "Otomatik Oluşturuldu",
           "key": "anahtar: {{key}}",
           "label": "etiket: {{label}}"
         }

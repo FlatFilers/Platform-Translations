@@ -80,6 +80,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "계산",
+    "countEmpty": "{{count}}개 비어 있음",
+    "countNonEmpty": "{{count}}개 채워짐",
+    "literalCountEmpty": "비어 있는 수",
+    "literalCountNonEmpty": "채워진 수",
+    "literalPercentEmpty": "비어 있는 비율",
+    "literalPercentNonEmpty": "채워진 비율",
+    "removeCalculation": "계산 제거"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -365,6 +375,19 @@
         },
         "title": "충돌 발견됨"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "데이터 클립에서 변경되고 메인 시트에서 삭제된 기록은 병합 시 메인 시트에 복원됩니다.",
+          "title": "메인 시트 레코드 복원"
+        },
+        "description": "옵션 선택",
+        "removeRecords": {
+          "description": "이후 메인 시트에서 삭제된 변경된 레코드는 병합 시 무시되며, 다시 메인 시트에 추가되지 않습니다.",
+          "title": "삭제된 레코드의 데이터 클립 변경 무시"
+        },
+        "title_other": "{{ count }}개의 변경된 레코드가 메인 시트에서 삭제되었습니다",
+        "title_zero": "{{ count }}개의 변경된 레코드가 메인 시트에서 삭제되었습니다"
+      },
       "empty": {
         "button": "클립으로 돌아가기",
         "description": "병합하려면 최소한 한 가지 변경을 해야 합니다.",
@@ -485,6 +508,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "생성됨",
+        "details": "세부 정보",
         "name": "이름",
         "size": "크기",
         "sourceSheet": "소스 시트"
@@ -505,6 +529,10 @@
       "loadingError": "파일을 로드할 수 없음",
       "uploadDisabledDescription": "오류라고 생각되면 지원팀에 문의하세요.",
       "uploadDisabledHeading": "이 공간은 현재 파일 업로드를 지원하지 않습니다."
+    },
+    "status": {
+      "readyForImport": "가져오기 준비 완료",
+      "uploaded": "업로드됨"
     },
     "title": "파일",
     "uploadedFilesTab": "업로드된 파일",
@@ -909,6 +937,9 @@
       "sheets_zero": "{{count}}개의 시트",
       "title": "...로 가져오기",
       "updatedAtDateFormat": "yyyy-MM-dd"
+    },
+    "sidebar": {
+      "title": "매핑"
     }
   },
   "nativeActions": {
@@ -943,6 +974,63 @@
       "error": "통합 문서를 업데이트하던 중 오류가 발생했습니다. 이벤트 로그를 참조하세요.",
       "halfway": "절반 정도 완료되었으니 기다려 주세요...",
       "updatingTable": "매핑된 필드만 보도록 표 업데이트"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "수신 필드를 하나의 값으로 결합",
+      "name": "결합"
+    },
+    "firstAvailable": {
+      "description": "셀에서 사용 가능한 첫 번째 값을 기본값으로 설정",
+      "name": "첫 번째 사용 가능"
+    },
+    "infer": {
+      "description": "추론 설명 TBD",
+      "name": "추론"
+    },
+    "list": {
+      "description": "여러 필드를 하나의 배열에 결합",
+      "name": "목록"
+    },
+    "move": {
+      "description": "수신 필드를 대상 필드로 이동",
+      "name": "이동"
+    },
+    "prepareSheet": {
+      "description": "전처리 문제를 검토하고 이를 해결하기 위한 계획을 제안하여 분석용 데이터를 준비하세요.",
+      "name": "준비"
+    },
+    "singleValue": {
+      "description": "대상에 대한 기본값 설정",
+      "name": "기본값 설정"
+    },
+    "sourceSelector": {
+      "destination": "대상 필드",
+      "destinationValues": "대상 필드",
+      "firstFifty": "최초 50개 결과 표시",
+      "noValuesFound": "필드를 찾을 수 없음",
+      "placeholderDestination": "대상 필드를 검색하거나 추가...",
+      "placeholderDestinationMultiple": "대상 필드를 검색하거나 추가...",
+      "placeholderReference": "참조 필드를 검색하거나 추가...",
+      "placeholderReferenceMultiple": "참조 필드를 검색하거나 추가...",
+      "placeholderSource": "소스 필드를 검색하거나 추가...",
+      "placeholderSourceMultiple": "소스 필드를 검색하거나 추가...",
+      "reference": "참조 필드",
+      "selectedValue": "선택된 필드",
+      "selectedValues": "선택된 필드",
+      "source": "참조 필드",
+      "sourceValues": "소스 필드",
+      "valuesCount": "{count}개 필드 선택됨"
+    },
+    "sourceTool": "소스 도구",
+    "split": {
+      "description": "분할은 결합된 데이터가 포함된 하나의 열을 구분 기호를 기준으로 여러 열로 나눠 각 데이터 포인트를 분석하기 더 쉽게 만드는 과정입니다.",
+      "name": "분할"
+    },
+    "unpivot": {
+      "description": "관련 열을 행에 결합하여 넓은 형식의 데이터를 더 단순하고 긴 형식으로 정규화합니다.",
+      "name": "피벗 해제"
     }
   },
   "secrets": {
@@ -1078,6 +1166,7 @@
           "compositeUnique": "🧑‍🍳 복합 {{name}}(이)가 고유하지 않습니다.",
           "invalidOption": "유효하지 않은 옵션",
           "invalidValue": "값이 유효한 옵션이 아닙니다",
+          "readOnly": "읽기 전용",
           "reference": "참조 표에 값이 존재하지 않습니다",
           "req": "{{field}} 필수",
           "transformed": "🪄️ {{originalValue}}에서 변환됨",
@@ -1085,11 +1174,17 @@
         }
       },
       "contextMenu": {
+        "columnTools": "열 도구",
         "filterByValue": {
+          "firstFifty": "처음 50개 옵션 표시",
           "label": "값으로 필터링",
           "moreOptions": "처음 {{pageSize}} 옵션을 표시합니다. 더 보려면 검색하세요.",
           "noData": "데이터 없음",
-          "placeholder": "값 검색 또는 선택..."
+          "noValuesFound": "값을 찾을 수 없음",
+          "placeholder": "값 검색 또는 선택...",
+          "showingOptions_other": "{{count}}개 옵션 표시",
+          "showingOptions_zero": "{{count}}개 옵션 표시",
+          "values": "값"
         },
         "findAndReplace": {
           "findAndReplaceValues": "찾아서 바꾸기",
@@ -1151,6 +1246,7 @@
             "unpin": "클릭하여 이 열 고정 해제"
           }
         },
+        "replaceEmptyCells": "빈 셀 교체",
         "searchInField": {
           "modal": {
             "cancelButton": "취소하기",
@@ -1160,6 +1256,7 @@
           },
           "searchInThisField": "이 필드에서 검색"
         },
+        "searchInFieldLabel": "필드에서 검색",
         "sort": {
           "ascending": {
             "apply": "A-Z 정렬",
@@ -1182,6 +1279,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "자동 생성됨",
           "key": "키: {{key}}",
           "label": "라벨: {{label}}"
         }

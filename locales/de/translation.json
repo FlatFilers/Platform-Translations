@@ -81,6 +81,16 @@
       }
     }
   },
+  "calculations": {
+    "calculate": "Berechnen",
+    "countEmpty": "{{count}} leer",
+    "countNonEmpty": "{{count}} befüllt",
+    "literalCountEmpty": "Leere Zellen zählen",
+    "literalCountNonEmpty": "Befüllte Zellen zählen",
+    "literalPercentEmpty": "Prozentsatz leer",
+    "literalPercentNonEmpty": "Prozentsatz befüllt",
+    "removeCalculation": "Berechnung entfernen"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
@@ -371,6 +381,20 @@
         },
         "title": "Konflikte gefunden"
       },
+      "deletedFromMain": {
+        "createNewRecords": {
+          "description": "Datensätze, die im Datenclip geändert und aus dem Hauptblatt gelöscht wurden, werden beim Zusammenführen im Hauptblatt wiederhergestellt.",
+          "title": "Datensätze im Hauptblatt wiederherstellen"
+        },
+        "description": "Wählen Sie eine Option",
+        "removeRecords": {
+          "description": "Geänderte Datensätze, die inzwischen aus dem Hauptblatt gelöscht wurden, werden beim Zusammenführen ignoriert und nicht wieder zum Hauptblatt hinzugefügt.",
+          "title": "Änderungen an Datenclips für gelöschte Datensätze ignorieren"
+        },
+        "title_one": "{{ count }} geänderte Datensätze wurden aus dem Hauptblatt gelöscht",
+        "title_other": "{{ count }} geänderte Datensätze wurden aus dem Hauptblatt gelöscht",
+        "title_zero": "{{ count }} geänderte Datensätze wurden aus dem Hauptblatt gelöscht"
+      },
       "empty": {
         "button": "Zurück zum Clip",
         "description": "Nehmen Sie mindestens eine Änderung vor der Zusammenführung vor.",
@@ -497,6 +521,7 @@
     "downloadsTable": {
       "headings": {
         "createdDate": "Erzeugt",
+        "details": "Übersicht",
         "name": "Name",
         "size": "Größe",
         "sourceSheet": "Quellblatt"
@@ -517,6 +542,10 @@
       "loadingError": "Die Dateien können nicht geladen werden",
       "uploadDisabledDescription": "Falls Sie glauben, dass das ein Fehler ist, kontaktieren Sie bitte den Kundendienst.",
       "uploadDisabledHeading": "Dieser Speicherort unterstützt derzeit keine Datei-Uploads."
+    },
+    "status": {
+      "readyForImport": "Importbereit",
+      "uploaded": "Hochgeladen"
     },
     "title": "Dateien",
     "uploadedFilesTab": "Hochgeladene Dateien",
@@ -927,6 +956,9 @@
       "sheets_zero": "{{count}} Blätter\n",
       "title": "Importieren nach",
       "updatedAtDateFormat": "jjjj-MM-tt"
+    },
+    "sidebar": {
+      "title": "Feldzuordnung"
     }
   },
   "nativeActions": {
@@ -961,6 +993,63 @@
       "error": "Beim Aktualisieren der Arbeitsmappe ist ein Fehler aufgetreten. Siehe Ereignisprotokolle.",
       "halfway": "Halb geschafft, bleiben Sie dran ...",
       "updatingTable": "Aktualisieren der Tabelle, um nur zugeordnete Felder anzuzeigen"
+    }
+  },
+  "routines": {
+    "combine": {
+      "description": "Eingehende Felder zu einem Wert zusammenführen",
+      "name": "Zusammenführen"
+    },
+    "firstAvailable": {
+      "description": "Standardmäßig ersten verfügbaren Wert in einer Zelle verwenden",
+      "name": "Erster vorhandener Wert"
+    },
+    "infer": {
+      "description": "Beschreibung für Ableiten folgt",
+      "name": "Ableiten"
+    },
+    "list": {
+      "description": "Mehrere Felder in einem Array zusammenführen",
+      "name": "Liste"
+    },
+    "move": {
+      "description": "Quellfeld einem Zielfeld zuordnen",
+      "name": "Verschieben"
+    },
+    "prepareSheet": {
+      "description": "Daten für die Analyse vorbereiten durch Prüfung von Vorverarbeitungsproblemen und Entwicklung eines Lösungskonzepts.",
+      "name": "Aufbereiten"
+    },
+    "singleValue": {
+      "description": "Standardwert für das Zielfeld definieren",
+      "name": "Standardwert festlegen"
+    },
+    "sourceSelector": {
+      "destination": "Zielfeld",
+      "destinationValues": "Zielfelder",
+      "firstFifty": "Zeige die ersten 50 Ergebnisse",
+      "noValuesFound": "Keine Felder gefunden",
+      "placeholderDestination": "Zielfeld suchen oder hinzufügen …",
+      "placeholderDestinationMultiple": "Zielfelder suchen oder hinzufügen ...",
+      "placeholderReference": "Referenzfeld suchen oder hinzufügen ...",
+      "placeholderReferenceMultiple": "Referenzfelder suchen oder hinzufügen ...",
+      "placeholderSource": "Quellfeld suchen oder hinzufügen ...",
+      "placeholderSourceMultiple": "Quellfelder suchen oder hinzufügen ...",
+      "reference": "Referenzfeld",
+      "selectedValue": "Ausgewähltes Feld",
+      "selectedValues": "Ausgewählte Felder",
+      "source": "Quellfeld",
+      "sourceValues": "Quellfelder",
+      "valuesCount": "{count} Felder ausgewählt"
+    },
+    "sourceTool": "Quellwerkzeug",
+    "split": {
+      "description": "Aufteilen bezeichnet den Vorgang, bei dem eine einzelne Spalte mit kombinierten Daten anhand eines Trennzeichens in mehrere Spalten unterteilt wird, um einzelne Datenpunkte für die Analyse besser zugänglich zu machen.",
+      "name": "Aufteilen"
+    },
+    "unpivot": {
+      "description": "Zugehörige Spalten in Zeilen umwandeln, um breite Datenstrukturen in ein übersichtlicheres Längsformat zu normalisieren.",
+      "name": "Pivotierung aufheben"
     }
   },
   "secrets": {
@@ -1102,6 +1191,7 @@
           "compositeUnique": "🧑‍🍳 Das Kompositum {{name}} ist nicht einzigartig",
           "invalidOption": "Unzulässige Option",
           "invalidValue": "Der Wert ist keine zulässige Option",
+          "readOnly": "schreibgeschützt",
           "reference": "Der Wert existiert in der Referenztabelle nicht",
           "req": "{{field}} ist erforderlich",
           "transformed": "🪄️ Transformiert aus {{originalValue}}",
@@ -1109,11 +1199,18 @@
         }
       },
       "contextMenu": {
+        "columnTools": "Spaltenwerkzeuge",
         "filterByValue": {
+          "firstFifty": "Erste 50 Optionen anzeigen",
           "label": "Nach Wert filtern",
           "moreOptions": "Die ersten {{pageSize}}-Optionen werden angezeigt. Suchen Sie, um mehr zu sehen.",
           "noData": "keine Daten",
-          "placeholder": "Werte suchen oder auswählen ..."
+          "noValuesFound": "Keine Werte gefunden",
+          "placeholder": "Werte suchen oder auswählen ...",
+          "showingOptions_one": "1 Option anzeigen",
+          "showingOptions_other": "{{count}} Optionen anzeigen",
+          "showingOptions_zero": "{{count}} Optionen anzeigen",
+          "values": "Werte"
         },
         "findAndReplace": {
           "findAndReplaceValues": "Suchen und ersetzen",
@@ -1178,6 +1275,7 @@
             "unpin": "Klicken, um diese Spalte nicht mehr anzuheften"
           }
         },
+        "replaceEmptyCells": "Leere Zellen ersetzen …",
         "searchInField": {
           "modal": {
             "cancelButton": "Abbrechen",
@@ -1187,6 +1285,7 @@
           },
           "searchInThisField": "In diesem Feld suchen"
         },
+        "searchInFieldLabel": "Feldsuche",
         "sort": {
           "ascending": {
             "apply": "Von A bis Z sortieren",
@@ -1209,6 +1308,7 @@
       },
       "header": {
         "tooltip": {
+          "autoGenerated": "Automatisch erstellt",
           "key": "Schlüssel: {{key}}",
           "label": "Label: {{label}}"
         }
