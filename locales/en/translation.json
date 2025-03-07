@@ -1909,6 +1909,7 @@
     }
   },
   "routines": {
+    "sourceTool": "Source tool",
     "move": {
       "name": "Move",
       "description": "Move an incoming field to a destination field"
@@ -1944,6 +1945,24 @@
     "infer": {
       "name": "Infer",
       "description": "Infer description TBD"
+    },
+    "sourceSelector": {
+      "placeholderSource": "Search or add source field…",
+      "placeholderDestination": "Search or add destination field…",
+      "placeholderReference": "Search or add reference field…",
+      "placeholderSourceMultiple": "Search or add source fields…",
+      "placeholderDestinationMultiple": "Search or add destination fields…",
+      "placeholderReferenceMultiple": "Search or add reference fields…",
+      "destination": "Destination field",
+      "source": "Source field",
+      "reference": "Reference field",
+      "noValuesFound": "No fields found",
+      "destinationValues": "Destination fields",
+      "sourceValues": "Source fields",
+      "valuesCount": "{count} fields selected",
+      "firstFifty": "Showing first 50 results",
+      "selectedValues": "Selected fields",
+      "selectedValue": "Selected field"
     }
   },
   "calculations": {
