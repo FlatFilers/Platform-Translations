@@ -712,11 +712,19 @@
           "waiting": "Waiting to extract file"
         },
         "flatfile-add-column": {
-          "canceled": "Canceled Add Column",
-          "complete": "Add Column complete",
-          "failed": "Add Column failed",
-          "inProgress": "Adding Column",
-          "waiting": "Waiting to Add Column"
+          "canceled": "Canceled add column",
+          "complete": "Add column complete",
+          "failed": "Add column failed",
+          "inProgress": "Adding column",
+          "waiting": "Waiting to add column"
+        },
+        "flatfile-clear-column": {
+          "canceled": "Canceled clear column",
+          "complete": "Clear column complete",
+          "failed": "Clear column failed",
+          "inProgress": "Clearing column",
+          "waiting": "Waiting to clear column",
+          "wasCleared": "{{name}} was cleared"
         },
         "flatfile-remove-column": {
           "canceled": "Canceled Remove Column",
