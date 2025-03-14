@@ -718,6 +718,14 @@
           "inProgress": "열 추가하기",
           "waiting": "열 추가 대기 중"
         },
+        "flatfile-clear-column": {
+          "canceled": "열 삭제 취소됨",
+          "complete": "열 삭제 완료",
+          "failed": "열 삭제 실패",
+          "inProgress": "열 삭제 중",
+          "waiting": "열 삭제 대기 중",
+          "wasCleared": "{{name}} 삭제 완료"
+        },
         "flatfile-remove-column": {
           "canceled": "취소된 열 제거",
           "complete": "열 제거 완료",

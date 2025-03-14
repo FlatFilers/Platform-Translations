@@ -717,6 +717,14 @@
           "inProgress": "Menambah Lajur",
           "waiting": "Menunggu untuk Menambah Lajur"
         },
+        "flatfile-clear-column": {
+          "canceled": "Kosongkan lajur dibatalkan",
+          "complete": "Kosongkan lajur selesai",
+          "failed": "Kosongkan lajur gagal",
+          "inProgress": "Mengosongkan lajur",
+          "waiting": "Menanti untuk kosongkan lajur",
+          "wasCleared": "{{name}} telah dikosongkan"
+        },
         "flatfile-remove-column": {
           "canceled": "Buang Lajur dibatalkan",
           "complete": "Buang Lajur selesai",

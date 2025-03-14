@@ -730,6 +730,14 @@
           "inProgress": "Veeru lisamine",
           "waiting": "Veeru lisamise ootel"
         },
+        "flatfile-clear-column": {
+          "canceled": "Veeru tühjendamine tühistatud",
+          "complete": "Veeru tühjendamine lõpetatud",
+          "failed": "Veeru tühjendamine nurjus",
+          "inProgress": "Veeru tühjendamine",
+          "waiting": "Veeru tühjendamise ootel",
+          "wasCleared": "{{name}} tühjendati"
+        },
         "flatfile-remove-column": {
           "canceled": "Veeru eemaldamine tühistatud",
           "complete": "Veeru eemaldamine lõpetatud",

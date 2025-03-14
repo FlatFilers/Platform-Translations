@@ -730,6 +730,14 @@
           "inProgress": "Lägger till kolumn",
           "waiting": "Väntar på att lägga till kolumn"
         },
+        "flatfile-clear-column": {
+          "canceled": "Kolumnrensning avbruten",
+          "complete": "Kolumnrensning klar",
+          "failed": "Kolumnrensning misslyckades",
+          "inProgress": "Rensar kolumn",
+          "waiting": "Väntar på att rensa kolumn",
+          "wasCleared": "{{name}} har rensats"
+        },
         "flatfile-remove-column": {
           "canceled": "Avbruten borttagning av kolumn",
           "complete": "Kolumnen borttagen",

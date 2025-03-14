@@ -718,6 +718,14 @@
           "inProgress": "正在添加栏",
           "waiting": "正在等待添加栏"
         },
+        "flatfile-clear-column": {
+          "canceled": "已取消清除列",
+          "complete": "清除列完成",
+          "failed": "清除列失败",
+          "inProgress": "正在清除列",
+          "waiting": "等待清除列",
+          "wasCleared": "已清除{{name}}"
+        },
         "flatfile-remove-column": {
           "canceled": "已取消移除栏",
           "complete": "移除栏已完成",

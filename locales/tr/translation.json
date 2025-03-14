@@ -731,6 +731,14 @@
           "inProgress": "Sütun Ekleniyor",
           "waiting": "Sütun Ekleme Bekleniyor"
         },
+        "flatfile-clear-column": {
+          "canceled": "Sütun temizleme iptal edildi",
+          "complete": "Sütun temizleme tamamlandı",
+          "failed": "Sütun temizleme başarısız oldu",
+          "inProgress": "Sütun temizleniyor",
+          "waiting": "Sütunun temizlenmesi bekleniyor",
+          "wasCleared": "{{name}} temizlendi"
+        },
         "flatfile-remove-column": {
           "canceled": "Sütun Kaldırma İptal Edildi",
           "complete": "Sütun kaldırma tamamlandı",

@@ -730,6 +730,14 @@
           "inProgress": "Kolom toevoegen",
           "waiting": "Wachten om kolom toe te voegen"
         },
+        "flatfile-clear-column": {
+          "canceled": "Kolom wissen geannuleerd",
+          "complete": "Kolom compleet wissen",
+          "failed": "Kolom wissen mislukt",
+          "inProgress": "Kolom wissen",
+          "waiting": "Wachten om kolom te wissen",
+          "wasCleared": "{{name}} is gewist"
+        },
         "flatfile-remove-column": {
           "canceled": "Verwijderen van kolom geannuleerd",
           "complete": "Verwijderen van kolom voltooid",

@@ -756,6 +756,14 @@
           "inProgress": "Dodawanie kolumny",
           "waiting": "Oczekiwanie na dodanie kolumny"
         },
+        "flatfile-clear-column": {
+          "canceled": "Anulowano czyszczenie kolumny",
+          "complete": "Zakończono czyszczenie kolumny",
+          "failed": "Nie udało się wyczyścić kolumny",
+          "inProgress": "Czyszczenie kolumny",
+          "waiting": "Oczekiwanie na wyczyszczenie kolumny",
+          "wasCleared": "Wyczyszczono: {{name}}"
+        },
         "flatfile-remove-column": {
           "canceled": "Anulowano usuwanie kolumny",
           "complete": "Zakończono usuwanie kolumny",

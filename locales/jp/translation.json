@@ -718,6 +718,14 @@
           "inProgress": "列の追加",
           "waiting": "列の追加待ち"
         },
+        "flatfile-clear-column": {
+          "canceled": "列のクリアをキャンセルしました",
+          "complete": "列のクリアが完了しました",
+          "failed": "列のクリアに失敗しました",
+          "inProgress": "列をクリア中",
+          "waiting": "列のクリアを待機中",
+          "wasCleared": "{{name}} がクリアされました"
+        },
         "flatfile-remove-column": {
           "canceled": "列の削除をキャンセルしました",
           "complete": "列の削除が完了しました",

@@ -731,6 +731,14 @@
           "inProgress": "Spalte wird hinzugefügt",
           "waiting": "Hinzufügen der Spalte wird abgewartet"
         },
+        "flatfile-clear-column": {
+          "canceled": "Die Spaltenlöschung wurde abgebrochen",
+          "complete": "Die Spaltenlöschung ist abgeschlossen",
+          "failed": "Die Spaltenlöschung ist fehlgeschlagen",
+          "inProgress": "Die Spalte wird gelöscht",
+          "waiting": "Auf die Spaltenlöschung wird gewartet",
+          "wasCleared": "{{name}} wurde gelöscht"
+        },
         "flatfile-remove-column": {
           "canceled": "Entfernung der Spalte abgebrochen",
           "complete": "Entfernung der Spalte abgeschlossen",

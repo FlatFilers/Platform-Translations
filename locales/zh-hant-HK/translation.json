@@ -363,7 +363,7 @@
           "description": "这不会更改源表，冲突的数据片段更改将被丢弃。",
           "title": "拒绝数据片段的值"
         },
-        "options_title": "请选择操作",
+        "options_title": "选择一个选项",
         "resolve_conflicts": {
           "description": "您可以逐个审查数据片段中的冲突，并决定合并或忽略哪些值。",
           "title": "逐项修改"
@@ -716,6 +716,14 @@
           "failed": "添加列失败",
           "inProgress": "正在添加列",
           "waiting": "正在等待添加列"
+        },
+        "flatfile-clear-column": {
+          "canceled": "取消清除列",
+          "complete": "清除列完成",
+          "failed": "清除列失败",
+          "inProgress": "正在清除列",
+          "waiting": "等待清除列",
+          "wasCleared": "{{name}} 已清除"
         },
         "flatfile-remove-column": {
           "canceled": "已取消删除列",

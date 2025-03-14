@@ -717,6 +717,14 @@
           "inProgress": "กำลังเพิ่มคอลัมน์",
           "waiting": "รอเพิ่มคอลัมน์"
         },
+        "flatfile-clear-column": {
+          "canceled": "ยกเลิกการล้างคอลัมน์",
+          "complete": "ล้างคอลัมน์เสร็จสมบูรณ์",
+          "failed": "ล้างคอลัมน์ไม่สำเร็จ",
+          "inProgress": "กำลังล้างคอลัมน์",
+          "waiting": "กำลังรอการล้างคอลัมน์",
+          "wasCleared": "{{name}} ถูกล้างแล้ว"
+        },
         "flatfile-remove-column": {
           "canceled": "ยกเลิกการลบคอลัมน์แล้ว",
           "complete": "ลบคอลัมน์สำเร็จ",

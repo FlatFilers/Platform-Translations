@@ -730,6 +730,14 @@
           "inProgress": "Lisätään saraketta",
           "waiting": "Lisää sarake odottaa"
         },
+        "flatfile-clear-column": {
+          "canceled": "Peruutettu tyhjennä sarake",
+          "complete": "Tyhjennä sarake valmis",
+          "failed": "Tyhjennä sarake epäonnistui",
+          "inProgress": "Tyhjennetään saraketta",
+          "waiting": "Odotetaan sarakkeen tyhjentämistä",
+          "wasCleared": "{{name}} tyhjennettiin"
+        },
         "flatfile-remove-column": {
           "canceled": "Poista sarake peruutettu",
           "complete": "Poista sarake valmis",

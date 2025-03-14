@@ -731,6 +731,14 @@
           "inProgress": "Adicionando coluna",
           "waiting": "Esperando para adicionar coluna"
         },
+        "flatfile-clear-column": {
+          "canceled": "Limpar coluna cancelada",
+          "complete": "Limpar coluna concluída",
+          "failed": "Falha ao limpar coluna",
+          "inProgress": "Limpando coluna",
+          "waiting": "Aguardando para limpar a coluna",
+          "wasCleared": "{{name}} foi limpo(a)"
+        },
         "flatfile-remove-column": {
           "canceled": "Remover coluna cancelado",
           "complete": "Remover coluna concluído",

@@ -718,6 +718,14 @@
           "inProgress": "Menambahkan Kolom",
           "waiting": "Menunggu Kolom Ditambahkan"
         },
+        "flatfile-clear-column": {
+          "canceled": "Mengosongkan kolom dibatalkan",
+          "complete": "Mengosongkan kolom selesai",
+          "failed": "Mengosongkan kolom gagal",
+          "inProgress": "Mengosongkan kolom",
+          "waiting": "Menunggu untuk mengosongkan kolom",
+          "wasCleared": "{{name}} sudah kosong"
+        },
         "flatfile-remove-column": {
           "canceled": "Penghapusan Kolom Dibatalkan",
           "complete": "Selesai Menghapus Kolom",

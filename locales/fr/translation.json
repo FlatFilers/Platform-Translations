@@ -731,6 +731,14 @@
           "inProgress": "Ajouter une colonne",
           "waiting": "En attente d'ajout de colonne"
         },
+        "flatfile-clear-column": {
+          "canceled": "Annuler l'effacement de la colonne",
+          "complete": "Effacement de la colonne terminé",
+          "failed": "Échec de l'effacement de la colonne",
+          "inProgress": "Effacer la colonne",
+          "waiting": "En attente d'effacement de la colonne",
+          "wasCleared": "{{name}} a été effacé·e"
+        },
         "flatfile-remove-column": {
           "canceled": "Suppression de colonne annulée",
           "complete": "Retrait de colonne terminé",

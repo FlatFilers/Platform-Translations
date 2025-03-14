@@ -718,6 +718,14 @@
           "inProgress": "Thêm cột",
           "waiting": "Đang chờ thêm cột"
         },
+        "flatfile-clear-column": {
+          "canceled": "Đã hủy xóa cột",
+          "complete": "Đã xóa xong cột",
+          "failed": "Xóa cột không thành công",
+          "inProgress": "Đang xóa cột",
+          "waiting": "Đang chờ xóa cột",
+          "wasCleared": "Đã xóa {{name}}"
+        },
         "flatfile-remove-column": {
           "canceled": "Đã hủy thao tác xóa cột",
           "complete": "Hoàn thành thao tác xóa cột",
