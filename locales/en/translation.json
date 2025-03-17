@@ -1298,7 +1298,8 @@
           "createRow": "Add data to create this row",
           "noData": "There are no rows available to select. Only rows containing data can be selected.",
           "rowNumber": "Row {{number}}"
-        }
+        },
+        "insertRow": "Insert row"
       },
       "maximumMessage": {
         "plural": "...and {{hiddenRows}} more rows. Table views only support up to 500,000 records at a time due to browser limitations. Search, sort, filters, and bulk actions will still operate on all rows hidden from view.",
