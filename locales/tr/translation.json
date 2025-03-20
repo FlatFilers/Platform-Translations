@@ -1322,6 +1322,7 @@
         }
       },
       "indexRow": {
+        "insertRow": "Satır ekle",
         "tooltip": {
           "createRow": "Bu satırı oluşturmak için veri ekleyin",
           "noData": "Seçilebilecek satır yok. Yalnızca veri içeren satırlar seçilebilir.",

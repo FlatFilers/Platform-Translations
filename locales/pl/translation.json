@@ -1379,6 +1379,7 @@
         }
       },
       "indexRow": {
+        "insertRow": "Wstaw wiersz",
         "tooltip": {
           "createRow": "Dodaj dane, aby utworzyć ten wiersz",
           "noData": "Nie ma dostępnych wierszy do zaznaczenia. Możesz wybrać tylko wiersze zawierające dane.",

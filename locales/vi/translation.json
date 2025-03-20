@@ -1293,6 +1293,7 @@
         }
       },
       "indexRow": {
+        "insertRow": "Chèn hàng",
         "tooltip": {
           "createRow": "Thêm dữ liệu để tạo hàng này",
           "noData": "Không có sẵn hàng nào để chọn. Chỉ có thể chọn các hàng chứa dữ liệu.",

@@ -1293,6 +1293,7 @@
         }
       },
       "indexRow": {
+        "insertRow": "插入行",
         "tooltip": {
           "createRow": "添加数据以创建此行",
           "noData": "没有可供选择的行。只能选择包含数据的行。",

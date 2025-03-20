@@ -1321,6 +1321,7 @@
         }
       },
       "indexRow": {
+        "insertRow": "Rij invoegen",
         "tooltip": {
           "createRow": "Voeg gegevens toe om deze rij te maken",
           "noData": "Er zijn geen rijen beschikbaar om te selecteren. Alleen rijen met data kunnen geselecteerd worden.",

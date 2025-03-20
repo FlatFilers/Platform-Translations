@@ -1322,6 +1322,7 @@
         }
       },
       "indexRow": {
+        "insertRow": "Insérer une ligne",
         "tooltip": {
           "createRow": "Ajoutez des données pour créer cette ligne",
           "noData": "Il n'y a pas de ligne à sélectionner. Seules les lignes contenant des données peuvent être sélectionnées.",

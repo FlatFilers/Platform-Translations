@@ -1322,6 +1322,7 @@
         }
       },
       "indexRow": {
+        "insertRow": "Inserire riga",
         "tooltip": {
           "createRow": "Aggiungi i dati per creare questa riga",
           "noData": "Non ci sono righe disponibili da selezionare. Puoi selezionare solo le righe contenenti dati.",

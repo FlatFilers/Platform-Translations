@@ -1321,6 +1321,7 @@
         }
       },
       "indexRow": {
+        "insertRow": "Lisää rivi",
         "tooltip": {
           "createRow": "Lisää tietoja luodaksesi tämän rivin",
           "noData": "Rivejä ei ole käytettävissä valittaviksi. Vain tietoja sisältäviä rivejä voidaan valita.",

@@ -1322,6 +1322,7 @@
         }
       },
       "indexRow": {
+        "insertRow": "Insertar fila",
         "tooltip": {
           "createRow": "Añada datos para crear esta fila.",
           "noData": "No hay filas disponibles para seleccionar. Sólo las filas con datos pueden ser seleccionadas.",

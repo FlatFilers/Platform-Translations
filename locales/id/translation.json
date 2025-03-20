@@ -1293,6 +1293,7 @@
         }
       },
       "indexRow": {
+        "insertRow": "Sisipkan baris",
         "tooltip": {
           "createRow": "Tambahkan data untuk membuat baris ini",
           "noData": "Tidak ada barisan yang dapat dipilih. Hanya baris berisi data yang dapat dipilih.",

@@ -1321,6 +1321,7 @@
         }
       },
       "indexRow": {
+        "insertRow": "Sisesta rida",
         "tooltip": {
           "createRow": "Selle veeru loomiseks sisestage andmed",
           "noData": "Valida ei saa ühtegi veergu. Valida saab vaid andmetega veerge.",

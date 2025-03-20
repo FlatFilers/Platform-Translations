@@ -1322,6 +1322,7 @@
         }
       },
       "indexRow": {
+        "insertRow": "Insert row",
         "tooltip": {
           "createRow": "Add data to create this row",
           "noData": "There are no rows available to select. Only rows containing data can be selected.",

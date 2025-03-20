@@ -1322,6 +1322,7 @@
         }
       },
       "indexRow": {
+        "insertRow": "Zeile einfügen",
         "tooltip": {
           "createRow": "Zum Anlegen dieser Zeile Daten hinzufügen",
           "noData": "Es gibt keine auswählbaren Zeilen. Es können nur Zeilen ausgewählt werden, die Daten enthalten.",

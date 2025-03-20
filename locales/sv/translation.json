@@ -1321,6 +1321,7 @@
         }
       },
       "indexRow": {
+        "insertRow": "Infoga rad",
         "tooltip": {
           "createRow": "Lägg till data för att skapa denna rad",
           "noData": "Det finns inga rader tillgängliga att välja. Endast rader som innehåller data kan väljas.",

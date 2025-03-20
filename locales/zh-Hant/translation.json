@@ -1292,6 +1292,7 @@
         }
       },
       "indexRow": {
+        "insertRow": "插入列",
         "tooltip": {
           "createRow": "新增資料以建立此列",
           "noData": "目前無可選擇的列。僅能選擇包含資料的列。",
