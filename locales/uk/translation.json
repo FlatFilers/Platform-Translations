@@ -92,6 +92,11 @@
     "literalPercentNonEmpty": "Відсоток заповнених",
     "removeCalculation": "Видалити розрахунок"
   },
+  "cellContextMenu": {
+    "copy": "Копіювати",
+    "cut": "Вирізати",
+    "paste": "Вставити"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

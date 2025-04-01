@@ -90,6 +90,11 @@
     "literalPercentNonEmpty": "Percentage gevuld",
     "removeCalculation": "Verwijder berekening"
   },
+  "cellContextMenu": {
+    "copy": "Kopiëren",
+    "cut": "Knippen",
+    "paste": "Plakken"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

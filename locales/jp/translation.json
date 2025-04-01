@@ -90,6 +90,11 @@
     "literalPercentNonEmpty": "入力済みの割合（％）",
     "removeCalculation": "計算を削除"
   },
+  "cellContextMenu": {
+    "copy": "コピー",
+    "cut": "カット",
+    "paste": "ペースト"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

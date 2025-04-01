@@ -90,6 +90,11 @@
     "literalPercentNonEmpty": "Täidetute protsent",
     "removeCalculation": "Eemalda arvutus"
   },
+  "cellContextMenu": {
+    "copy": "Kopeeri",
+    "cut": "Lõika",
+    "paste": "Kleebi"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

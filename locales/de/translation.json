@@ -91,6 +91,11 @@
     "literalPercentNonEmpty": "Prozentsatz befüllt",
     "removeCalculation": "Berechnung entfernen"
   },
+  "cellContextMenu": {
+    "copy": "Kopieren",
+    "cut": "Ausschneiden",
+    "paste": "Einfügen"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

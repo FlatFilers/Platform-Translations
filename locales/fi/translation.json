@@ -90,6 +90,11 @@
     "literalPercentNonEmpty": "Täytettyjen prosenttiluku",
     "removeCalculation": "Poista laskelma"
   },
+  "cellContextMenu": {
+    "copy": "Kopioi",
+    "cut": "Leikkaa",
+    "paste": "Liitä"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

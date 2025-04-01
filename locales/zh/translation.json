@@ -90,6 +90,11 @@
     "literalPercentNonEmpty": "已填充百分比",
     "removeCalculation": "移除计算"
   },
+  "cellContextMenu": {
+    "copy": "复制",
+    "cut": "剪切",
+    "paste": "粘贴"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

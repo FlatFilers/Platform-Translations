@@ -90,6 +90,11 @@
     "literalPercentNonEmpty": "Phần trăm đã điền",
     "removeCalculation": "Xóa phép tính"
   },
+  "cellContextMenu": {
+    "copy": "Sao chép",
+    "cut": "Cắt",
+    "paste": "Dán"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

@@ -91,6 +91,11 @@
     "literalPercentNonEmpty": "Percent filled",
     "removeCalculation": "Remove calculation"
   },
+  "cellContextMenu": {
+    "copy": "Copy",
+    "cut": "Cut",
+    "paste": "Paste"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

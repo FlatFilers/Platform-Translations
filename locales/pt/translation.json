@@ -91,6 +91,11 @@
     "literalPercentNonEmpty": "Percentagem preenchido",
     "removeCalculation": "Remover cálculo"
   },
+  "cellContextMenu": {
+    "copy": "Copiar",
+    "cut": "Cortar",
+    "paste": "Colar"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

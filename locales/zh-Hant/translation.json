@@ -89,6 +89,11 @@
     "literalPercentNonEmpty": "已填入的佔比",
     "removeCalculation": "移除計算"
   },
+  "cellContextMenu": {
+    "copy": "複製",
+    "cut": "剪下",
+    "paste": "貼上"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

@@ -91,6 +91,11 @@
     "literalPercentNonEmpty": "Yüzde dolu",
     "removeCalculation": "Hesaplamayı kaldır"
   },
+  "cellContextMenu": {
+    "copy": "Kopyala",
+    "cut": "Kes",
+    "paste": "Yapıştır"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

@@ -92,6 +92,11 @@
     "literalPercentNonEmpty": "Процент заполненных",
     "removeCalculation": "Удалить расчет"
   },
+  "cellContextMenu": {
+    "copy": "Копировать",
+    "cut": "Вырезать",
+    "paste": "Вставить"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

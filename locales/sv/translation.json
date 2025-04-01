@@ -90,6 +90,11 @@
     "literalPercentNonEmpty": "Procent fyllda",
     "removeCalculation": "Ta bort beräkning"
   },
+  "cellContextMenu": {
+    "copy": "Kopiera",
+    "cut": "Klipp",
+    "paste": "Klistra in"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

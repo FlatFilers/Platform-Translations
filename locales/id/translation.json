@@ -90,6 +90,11 @@
     "literalPercentNonEmpty": "Persen terisi",
     "removeCalculation": "Hapus penghitungan"
   },
+  "cellContextMenu": {
+    "copy": "Salin",
+    "cut": "Potong",
+    "paste": "Tempel"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

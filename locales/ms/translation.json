@@ -89,6 +89,11 @@
     "literalPercentNonEmpty": "Peratusan diisi",
     "removeCalculation": "Padam pengiraan"
   },
+  "cellContextMenu": {
+    "copy": "Salin",
+    "cut": "Potong",
+    "paste": "Tampal"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {

@@ -89,6 +89,11 @@
     "literalPercentNonEmpty": "เปอร์เซ็นต์เติม",
     "removeCalculation": "ลบการคำนวณ"
   },
+  "cellContextMenu": {
+    "copy": "คัดลอก",
+    "cut": "ตัด",
+    "paste": "วาง"
+  },
   "checklist": {
     "dropdowns": {
       "headings": {
