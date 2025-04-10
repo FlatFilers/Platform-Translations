@@ -289,6 +289,7 @@
     "detailsModal": {
       "create": {
         "action": "Create",
+        "namePlaceholder": "Add clip name…",
         "title": "Create data clip"
       },
       "edit": {
@@ -300,8 +301,8 @@
     },
     "empty": "No data clips to display",
     "error": "Unable to load the data clips for this space",
-    "errors_one": "{{count}} error",
-    "errors_other": "{{count}} errors",
+    "errors_one": "{{formattedCount}} error",
+    "errors_other": "{{formattedCount}} errors",
     "errors": {
       "add_records_create": "There was an unexpected error adding your records to the data clip. An empty data clip has been created.",
       "add_to_clip": "There was an unexpected error adding your records to the data clip, please try again. If the problem persists, please contact support.",
@@ -400,8 +401,8 @@
       },
       "merge": "Merge"
     },
-    "selectedRecords_one": "{{count}} record selected",
-    "selectedRecords_other": "{{count}} records selected",
+    "selectedRecords_one": "{{formattedCount}} record selected",
+    "selectedRecords_other": "{{formattedCount}} records selected",
     "share": {
       "copy_link": "Copy link",
       "description": "Collaborators will be sent an invitation to collaborate on this data clip.",
@@ -444,8 +445,8 @@
         }
       }
     },
-    "syncedRecords_one": "{{count}} total record",
-    "syncedRecords_other": "{{count}} total records"
+    "syncedRecords_one": "{{formattedCount}} total record",
+    "syncedRecords_other": "{{formattedCount}} total records"
   },
   "document": {
     "error": {
