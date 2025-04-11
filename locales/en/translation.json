@@ -296,7 +296,7 @@
         "action": "Submit",
         "title": "Edit data clip"
       },
-      "placeholder": "Add a comment (optional)...",
+      "descriptionPlaceholder": "Add a description (optional)...",
       "review": "Review"
     },
     "empty": "No data clips to display",
