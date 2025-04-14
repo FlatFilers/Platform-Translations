@@ -297,6 +297,7 @@
     "detailsModal": {
       "create": {
         "action": "Создать",
+        "namePlaceholder": "Добавить имя клипа...",
         "title": "Создать клип данных"
       },
       "edit": {

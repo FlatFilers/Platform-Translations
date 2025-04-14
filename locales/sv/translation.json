@@ -291,6 +291,7 @@
     "detailsModal": {
       "create": {
         "action": "Skapa",
+        "namePlaceholder": "Lägg till klippnamn ...",
         "title": "Skapa dataklipp"
       },
       "edit": {

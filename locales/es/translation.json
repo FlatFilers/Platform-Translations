@@ -292,6 +292,7 @@
     "detailsModal": {
       "create": {
         "action": "Crear",
+        "namePlaceholder": "Añadir nombre del clip...",
         "title": "Crear fragmento de datos"
       },
       "edit": {

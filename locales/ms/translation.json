@@ -288,6 +288,7 @@
     "detailsModal": {
       "create": {
         "action": "Cipta",
+        "namePlaceholder": "Tambahkan nama klip...",
         "title": "Cipta klip data"
       },
       "edit": {

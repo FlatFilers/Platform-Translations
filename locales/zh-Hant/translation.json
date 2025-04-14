@@ -288,6 +288,7 @@
     "detailsModal": {
       "create": {
         "action": "建立",
+        "namePlaceholder": "新增剪輯名稱 ......",
         "title": "建立資料剪輯"
       },
       "edit": {

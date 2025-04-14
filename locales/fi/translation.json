@@ -291,6 +291,7 @@
     "detailsModal": {
       "create": {
         "action": "Luo",
+        "namePlaceholder": "Lisää leikkeen nimi...",
         "title": "Luo tietoleike"
       },
       "edit": {

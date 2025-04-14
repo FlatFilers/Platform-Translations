@@ -289,6 +289,7 @@
     "detailsModal": {
       "create": {
         "action": "Buat",
+        "namePlaceholder": "Tambahkan nama klip…",
         "title": "Buat cuplikan data"
       },
       "edit": {

@@ -288,6 +288,7 @@
     "detailsModal": {
       "create": {
         "action": "创建",
+        "namePlaceholder": "添加片段名称……",
         "title": "创建数据片段"
       },
       "edit": {

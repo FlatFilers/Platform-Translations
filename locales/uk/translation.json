@@ -297,6 +297,7 @@
     "detailsModal": {
       "create": {
         "action": "Створити",
+        "namePlaceholder": "Додайте назву кліпу...",
         "title": "Створити фрагмент даних"
       },
       "edit": {

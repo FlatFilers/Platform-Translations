@@ -288,6 +288,7 @@
     "detailsModal": {
       "create": {
         "action": "สร้าง",
+        "namePlaceholder": "เพิ่มชื่อคลิป...",
         "title": "สร้างคลิปข้อมูล"
       },
       "edit": {

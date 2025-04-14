@@ -291,6 +291,7 @@
     "detailsModal": {
       "create": {
         "action": "Aanmaken",
+        "namePlaceholder": "Voeg clipnaam toe...",
         "title": "Gegevensclip aanmaken"
       },
       "edit": {

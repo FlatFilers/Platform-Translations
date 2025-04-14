@@ -292,6 +292,7 @@
     "detailsModal": {
       "create": {
         "action": "Create",
+        "namePlaceholder": "Add clip name…",
         "title": "Create data clip"
       },
       "edit": {

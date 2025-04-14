@@ -289,6 +289,7 @@
     "detailsModal": {
       "create": {
         "action": "作成",
+        "namePlaceholder": "クリップ名を追加...",
         "title": "データクリップを作成"
       },
       "edit": {
