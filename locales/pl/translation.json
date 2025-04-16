@@ -300,11 +300,11 @@
         "namePlaceholder": "Dodaj nazwę klipu...",
         "title": "Utwórz klip danych"
       },
+      "descriptionPlaceholder": "Dodaj komentarz (opcjonalnie)...",
       "edit": {
         "action": "Prześlij",
         "title": "Edytuj klip danych"
       },
-      "placeholder": "Dodaj komentarz (opcjonalnie)...",
       "review": "Przegląd"
     },
     "empty": "Brak klipów danych do wyświetlenia",

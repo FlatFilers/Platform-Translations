@@ -291,11 +291,11 @@
         "namePlaceholder": "新增剪輯名稱 ......",
         "title": "建立資料剪輯"
       },
+      "descriptionPlaceholder": "新增留言（選填）...",
       "edit": {
         "action": "提交",
         "title": "編輯資料剪輯"
       },
-      "placeholder": "新增評論（非必要）......",
       "review": "審核"
     },
     "empty": "無可供顯示的資料剪輯",

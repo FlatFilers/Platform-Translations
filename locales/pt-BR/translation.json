@@ -295,11 +295,11 @@
         "namePlaceholder": "Adicionar nome do clipe...",
         "title": "Criar clipe de dados"
       },
+      "descriptionPlaceholder": "Adicione um comentário (opcional)...",
       "edit": {
         "action": "Enviar",
         "title": "Editar recorte de dados"
       },
-      "placeholder": "Adicione um comentário (opcional)...",
       "review": "Revisar"
     },
     "empty": "Nenhum clipe de dados para exibir",

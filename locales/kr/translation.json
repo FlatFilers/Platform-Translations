@@ -292,11 +292,11 @@
         "namePlaceholder": "클립 이름 추가...",
         "title": "데이터 클립 만들기"
       },
+      "descriptionPlaceholder": "(선택) 댓글 입력...",
       "edit": {
         "action": "제출",
         "title": "데이터 클립 편집"
       },
-      "placeholder": "댓글 추가(선택 사항)",
       "review": "검토"
     },
     "empty": "표시할 데이터 클립이 없습니다.",

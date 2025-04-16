@@ -295,11 +295,11 @@
         "namePlaceholder": "Aggiungi il nome del clip...",
         "title": "Crea una clip di dati"
       },
+      "descriptionPlaceholder": "Aggiungi un commento (facoltativo)...",
       "edit": {
         "action": "Invia",
         "title": "Modifica una clip di dati"
       },
-      "placeholder": "Aggiungi un commento (facoltativo)...",
       "review": "Rivedi"
     },
     "empty": "Nessun clip dati da visualizzare",

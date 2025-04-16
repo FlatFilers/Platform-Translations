@@ -295,11 +295,11 @@
         "namePlaceholder": "Añadir nombre del clip...",
         "title": "Crear fragmento de datos"
       },
+      "descriptionPlaceholder": "Añade un comentario (opcional)...",
       "edit": {
         "action": "Presentar",
         "title": "Editar clip de datos"
       },
-      "placeholder": "Añadir un comentario (opcional)...",
       "review": "Revisar"
     },
     "empty": "No hay clips de datos para mostrar",

@@ -292,11 +292,11 @@
         "namePlaceholder": "Thêm tên đoạn video…",
         "title": "Tạo clip dữ liệu"
       },
+      "descriptionPlaceholder": "Thêm một chú thích (không bắt buộc)...",
       "edit": {
         "action": "Gửi",
         "title": "Sửa clip dữ liệu"
       },
-      "placeholder": "Thêm bình luận (không bắt buộc)...",
       "review": "Xét duyệt"
     },
     "empty": "Không có clip dữ liệu nào để hiển thị",

@@ -294,11 +294,11 @@
         "namePlaceholder": "Lisää leikkeen nimi...",
         "title": "Luo tietoleike"
       },
+      "descriptionPlaceholder": "Lisää kommentti (valinnainen)...",
       "edit": {
         "action": "Lähetä",
         "title": "Muokkaa tietoleikettä"
       },
-      "placeholder": "Lisää kommentti (valinnainen)...",
       "review": "Tarkista"
     },
     "empty": "Ei näytettäviä tietoleikkeitä",

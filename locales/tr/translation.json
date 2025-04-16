@@ -295,11 +295,11 @@
         "namePlaceholder": "Klip adını ekle...",
         "title": "Veri klibi oluştur"
       },
+      "descriptionPlaceholder": "Yorum ekle (isteğe bağlı)...",
       "edit": {
         "action": "Gönder",
         "title": "Veri parçasını düzenle"
       },
-      "placeholder": "Bir yorum ekle (opsiyonel)...",
       "review": "İnceleme"
     },
     "empty": "Görüntülenecek veri klibi yok",

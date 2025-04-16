@@ -295,11 +295,11 @@
         "namePlaceholder": "Clipname hinzufügen …",
         "title": "Datenclip erstellen"
       },
+      "descriptionPlaceholder": "Einen Kommentar hinzufügen (optional)",
       "edit": {
         "action": "Absenden",
         "title": "Datenclip bearbeiten"
       },
-      "placeholder": "Einen Kommentar hinzufügen (optional) …",
       "review": "Überprüfung"
     },
     "empty": "Keine Datenclips zum Anzeigen",

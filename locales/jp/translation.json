@@ -292,11 +292,11 @@
         "namePlaceholder": "クリップ名を追加...",
         "title": "データクリップを作成"
       },
+      "descriptionPlaceholder": "コメントを追加（オプション）...",
       "edit": {
         "action": "提出",
         "title": "データクリップを編集"
       },
-      "placeholder": "コメントを追加（オプション）...",
       "review": "レビュー"
     },
     "empty": "表示するデータクリップがありません",

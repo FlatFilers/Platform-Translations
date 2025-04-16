@@ -292,11 +292,11 @@
         "namePlaceholder": "添加片段名称……",
         "title": "创建数据片段"
       },
+      "descriptionPlaceholder": "添加批注（可选）...",
       "edit": {
         "action": "提交",
         "title": "编辑数据片段"
       },
-      "placeholder": "添加评论（可选）……",
       "review": "审核"
     },
     "empty": "无数据片段可显示",

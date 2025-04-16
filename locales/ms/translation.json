@@ -291,11 +291,11 @@
         "namePlaceholder": "Tambahkan nama klip...",
         "title": "Cipta klip data"
       },
+      "descriptionPlaceholder": "Tambah komen (tidak wajib)...",
       "edit": {
         "action": "Serahkan",
         "title": "Edit klip data"
       },
-      "placeholder": "Tambahkan komen (pilihan)...",
       "review": "Semak"
     },
     "empty": "Tiada klip data untuk dipaparkan",

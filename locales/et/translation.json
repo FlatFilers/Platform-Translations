@@ -294,11 +294,11 @@
         "namePlaceholder": "Lisa klipi nimi...",
         "title": "Loo andmeklipp"
       },
+      "descriptionPlaceholder": "Lisage kommentaar (valikuline)",
       "edit": {
         "action": "Esita",
         "title": "Redigeeri andmeklippi"
       },
-      "placeholder": "Lisa kommentaar (valikuline) ...",
       "review": "Ülevaade"
     },
     "empty": "Näidatavaid andmeklippe pole",

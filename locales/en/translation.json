@@ -292,11 +292,11 @@
         "namePlaceholder": "Add clip name…",
         "title": "Create data clip"
       },
+      "descriptionPlaceholder": "Add a comment (optional)...",
       "edit": {
         "action": "Submit",
         "title": "Edit data clip"
       },
-      "descriptionPlaceholder": "Add a comment (optional)...",
       "review": "Review"
     },
     "empty": "No data clips to display",

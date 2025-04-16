@@ -292,11 +292,11 @@
         "namePlaceholder": "Tambahkan nama klip…",
         "title": "Buat cuplikan data"
       },
+      "descriptionPlaceholder": "Tambahkan komentar (opsional)...",
       "edit": {
         "action": "Kirim",
         "title": "Edit klip data"
       },
-      "placeholder": "Tambahkan komentar (opsional)...",
       "review": "Pratinjau"
     },
     "empty": "Tidak ada cuplikan data untuk ditampilkan",

@@ -294,11 +294,11 @@
         "namePlaceholder": "Lägg till klippnamn ...",
         "title": "Skapa dataklipp"
       },
+      "descriptionPlaceholder": "Lägg till en kommentar (valfritt) ...",
       "edit": {
         "action": "Skicka in",
         "title": "Redigera dataklipp"
       },
-      "placeholder": "Lägg till en kommentar (valfritt)...",
       "review": "Granska"
     },
     "empty": "Inga dataklipp att visa",

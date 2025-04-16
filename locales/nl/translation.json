@@ -294,11 +294,11 @@
         "namePlaceholder": "Voeg clipnaam toe...",
         "title": "Gegevensclip aanmaken"
       },
+      "descriptionPlaceholder": "Voeg een opmerking toe (optioneel)...",
       "edit": {
         "action": "Indienen",
         "title": "Gegevensclip bewerken"
       },
-      "placeholder": "Voeg een opmerking toe (optioneel)...",
       "review": "Controleren"
     },
     "empty": "Geen gegevensclips om weer te geven",
