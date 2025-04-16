@@ -1185,7 +1185,10 @@
           "reference": "Value does not exist in the reference table",
           "req": "{{field}} is required",
           "transformed": "🪄️ Transformed from {{originalValue}}",
-          "unique": "Value is not unique"
+          "unique": "Value is not unique",
+          "deletedFromSource": "This record has been deleted from the source sheet.",
+          "deletedFromSourceIgnored": "This record has been deleted from the source sheet and will be ignored on merge.",
+          "deletedFromSourceRestored": "This record has been deleted from the source sheet and will be added on merge."
         }
       },
       "contextMenu": {
