@@ -1203,6 +1203,9 @@
         "messages": {
           "autogen": "✨ Automaticamente gerado",
           "compositeUnique": "🧑‍🍳 A composição {{name}} não é única",
+          "deletedFromSource": "Este registro foi excluído da planilha de origem.",
+          "deletedFromSourceIgnored": "Este registro foi excluído da planilha de origem e será ignorado na mesclagem.",
+          "deletedFromSourceRestored": "Este registro foi excluído da planilha de origem e será adicionado na mesclagem.",
           "invalidOption": "Opção inválida",
           "invalidValue": "O valor não é uma opção válida",
           "readOnly": "apenas leitura",

@@ -1203,6 +1203,9 @@
         "messages": {
           "autogen": "✨ Otomatik olarak oluşturuldu",
           "compositeUnique": "🧑‍🍳 Kompozit {{name}} benzersiz değil",
+          "deletedFromSource": "Bu kayıt kaynak sayfadan silindi.",
+          "deletedFromSourceIgnored": "Bu kayıt, kaynak sayfasından silindi ve birleştirme sırasında yok sayılacak.",
+          "deletedFromSourceRestored": "Bu kayıt, kaynak sayfasından silindi ve birleştirme sırasında eklenecek.",
           "invalidOption": "Geçersiz seçenek",
           "invalidValue": "Değer, geçerli bir seçenek değil",
           "readOnly": "salt okunur",

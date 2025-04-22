@@ -1252,6 +1252,9 @@
         "messages": {
           "autogen": "✨ Wygenerowano automatycznie",
           "compositeUnique": "🧑‍🍳 Kompozyt {{name}} nie jest unikalny",
+          "deletedFromSource": "Ten rekord został usunięty z arkusza źródłowego.",
+          "deletedFromSourceIgnored": "Ten rekord został usunięty z arkusza źródłowego i zostanie zignorowany podczas scalania.",
+          "deletedFromSourceRestored": "Ten rekord został usunięty z arkusza źródłowego i zostanie dodany podczas scalania.",
           "invalidOption": "Niepoprawna opcja",
           "invalidValue": "Wartość nie jest poprawną opcją",
           "readOnly": "tylko do odczytu",

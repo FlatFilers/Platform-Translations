@@ -1202,6 +1202,9 @@
         "messages": {
           "autogen": "✨ Loodud automaatselt",
           "compositeUnique": "🧑‍🍳 Komposiit {{name}} ei ole unikaalne",
+          "deletedFromSource": "See kanne on kustutatud lähtelehelt.",
+          "deletedFromSourceIgnored": "See kanne on kustutatud lähtelehelt ja seda eiratakse liitmisel.",
+          "deletedFromSourceRestored": "See kanne on kustutatud lähtelehelt ja lisatakse liitmisel.",
           "invalidOption": "Kehtetu valik",
           "invalidValue": "Väärtus ei ole kehtiv valik",
           "readOnly": "kirjutuskaitstud",

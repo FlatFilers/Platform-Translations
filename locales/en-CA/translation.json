@@ -1203,6 +1203,9 @@
         "messages": {
           "autogen": "✨ Automatically generated",
           "compositeUnique": "🧑‍🍳 Composite {{name}} is not unique",
+          "deletedFromSource": "This record has been deleted from the source sheet.",
+          "deletedFromSourceIgnored": "This record has been deleted from the source sheet and will be ignored in the merge.",
+          "deletedFromSourceRestored": "This record has been deleted from the source sheet and will be added in the merge.",
           "invalidOption": "Invalid option",
           "invalidValue": "Value is not a valid option",
           "readOnly": "read only",

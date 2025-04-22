@@ -1177,6 +1177,9 @@
         "messages": {
           "autogen": "✨ 自動產生",
           "compositeUnique": "🧑‍🍳 複合 {{name}} 不是唯一的",
+          "deletedFromSource": "此紀錄已從來源工作表中刪除。",
+          "deletedFromSourceIgnored": "此紀錄已從來源工作表中刪除，合併時將被忽略。",
+          "deletedFromSourceRestored": "此紀錄已從來源工作表中刪除，合併時將重新加入。",
           "invalidOption": "無效選項",
           "invalidValue": "該值不是有效選項",
           "readOnly": "唯讀",

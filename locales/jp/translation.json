@@ -1178,6 +1178,9 @@
         "messages": {
           "autogen": "✨自動生成されました",
           "compositeUnique": "🧑‍🍳 複合 {{name}} は一意ではありません",
+          "deletedFromSource": "このレコードはソースシートから削除されました。",
+          "deletedFromSourceIgnored": "このレコードはソースシートから削除されており、マージ時に無視されます。",
+          "deletedFromSourceRestored": "このレコードはソースシートから削除されていますが、マージ時に追加されます。",
           "invalidOption": "無効なオプション",
           "invalidValue": "値は有効なオプションではありません",
           "readOnly": "読み取り専用",

@@ -1202,6 +1202,9 @@
         "messages": {
           "autogen": "✨ Automatisch gegenereerd",
           "compositeUnique": "🧑‍🍳 Composiet {{name}} is niet uniek",
+          "deletedFromSource": "Dit record is verwijderd uit het bronblad.",
+          "deletedFromSourceIgnored": "Dit record is verwijderd uit het bronblad en wordt genegeerd bij het samenvoegen.",
+          "deletedFromSourceRestored": "Dit record is verwijderd uit het bronblad en wordt toegevoegd bij het samenvoegen.",
           "invalidOption": "Ongeldige optie",
           "invalidValue": "Waarde is geen geldige optie",
           "readOnly": "alleen lezen",

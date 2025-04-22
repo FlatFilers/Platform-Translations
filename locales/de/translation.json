@@ -1203,6 +1203,9 @@
         "messages": {
           "autogen": "✨ Automatisch generiert",
           "compositeUnique": "🧑‍🍳 Das Kompositum {{name}} ist nicht einzigartig",
+          "deletedFromSource": "Diese Aufzeichnung wurde aus dem Quellsheet gelöscht.",
+          "deletedFromSourceIgnored": "Diese Aufzeichnung wurde aus dem Quellsheet gelöscht und wird beim Zusammenführen ignoriert.",
+          "deletedFromSourceRestored": "Diese Aufzeichnung wurde aus dem Quellsheet gelöscht und wird beim Zusammenführen hinzugefügt.",
           "invalidOption": "Unzulässige Option",
           "invalidValue": "Der Wert ist keine zulässige Option",
           "readOnly": "schreibgeschützt",

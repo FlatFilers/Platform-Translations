@@ -1202,6 +1202,9 @@
         "messages": {
           "autogen": "✨ Generado automáticamente",
           "compositeUnique": "🧑‍🍳 El compuesto {{name}} no es único",
+          "deletedFromSource": "Este registro ha sido eliminado de la hoja de origen.",
+          "deletedFromSourceIgnored": "Este registro ha sido eliminado de la hoja de origen y se ignorará en la fusión.",
+          "deletedFromSourceRestored": "Este registro ha sido eliminado de la hoja de origen y se agregará en la fusión.",
           "invalidOption": "Opción inválida",
           "invalidValue": "Valor no es una opción válida",
           "readOnly": "Solo lectura",

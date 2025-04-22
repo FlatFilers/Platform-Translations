@@ -1203,6 +1203,9 @@
         "messages": {
           "autogen": "✨ Générée automatiquement",
           "compositeUnique": "🧑‍🍳 Le {{name}} composite n'est pas unique",
+          "deletedFromSource": "Ce dossier a été supprimé de la feuille d'origine.",
+          "deletedFromSourceIgnored": "Ce dossier a été supprimé de la feuille source et sera ignoré lors de la fusion.",
+          "deletedFromSourceRestored": "Ce dossier a été supprimé de la feuille source et sera ajouté lors de la fusion.",
           "invalidOption": "Option non valide",
           "invalidValue": "La valeur n'est pas une option valide",
           "readOnly": "lecture seule",
