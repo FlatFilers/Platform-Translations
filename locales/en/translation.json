@@ -1992,5 +1992,9 @@
     "pill": {
       "hoverText": "Version History"
     }
+  }, 
+  "smartExtractor": {
+    "verb": "Extract",
+    "title": "Smart Extractor"
   }
 }
