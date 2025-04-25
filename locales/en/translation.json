@@ -292,11 +292,11 @@
         "namePlaceholder": "Add clip name…",
         "title": "Create data clip"
       },
-      "descriptionPlaceholder": "Add a comment (optional)...",
       "edit": {
         "action": "Submit",
         "title": "Edit data clip"
       },
+      "descriptionPlaceholder": "Add a comment (optional)...",
       "review": "Review"
     },
     "empty": "No data clips to display",
@@ -410,7 +410,16 @@
       "none_selected": "No collaborators selected.",
       "placeholder": "Add collaborators...",
       "submit": "Share",
-      "title": "Share data clip"
+      "title": "Share data clip",
+      "restricted": "Restricted",
+      "public": "Anyone with the link",
+      "manageAccess": "Manage access",
+      "clear": "Clear",
+      "close": "Close",
+      "more": "more",
+      "noResults": "No results.",
+      "search": "Search...",
+      "selectAll": "Select all"
     },
     "sort": "sort",
     "status": {
