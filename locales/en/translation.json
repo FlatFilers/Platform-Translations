@@ -1,5 +1,9 @@
 {
   "checklist": {
-    "title": "Kiki is the best kitty cat"
+       "collapse": {
+      "documents": "Kiki is the best kitty cat",
+      "workbook": "Kiki is the best kitty cat",
+      "workbooks": "Kiki is the best kitty cat"
+    },
   }
 }
