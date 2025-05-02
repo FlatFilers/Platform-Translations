@@ -356,6 +356,7 @@
       "title": "Leiti uued vead"
     },
     "next": "Järgmine",
+    "noOptionsFound": "Valikuid ei leitud",
     "promise": "Ohutu ja turvaline saatmine",
     "resend": "Ava uuesti ja naase",
     "resolutions": {
@@ -407,15 +408,25 @@
       },
       "merge": "Liida"
     },
+    "searchPlaceholder": "Andmeklippide otsimine...",
     "selectedRecords_one": "{{count}} kanne valitud",
     "selectedRecords_other": "{{count}} kannet valitud",
     "selectedRecords_zero": "{{count}} kannet valitud",
     "share": {
+      "clear": "Tühjenda",
+      "close": "Sulge",
       "copy_link": "Kopeeri link",
       "description": "Kaastöötajatele saadetakse selle andmeklipi muutmise kutse.",
       "empty": "Ühtki kaastöötajat pole saadaval.",
+      "manageAccess": "Halda juurdepääsu",
+      "more": "veel",
       "none_selected": "Ühtki kaastöötajat pole valitud.",
+      "noResults": "Tulemused puuduvad.",
       "placeholder": "Lisa kaastöötajaid...",
+      "public": "Igaüks, kellel link",
+      "restricted": "Piiratud",
+      "search": "Otsi...",
+      "selectAll": "Vali kõik",
       "submit": "Jaga",
       "title": "Jaga andmeklipp"
     },
@@ -1719,6 +1730,10 @@
       "hide": "Peida külgriba",
       "show": "Näita külgriba"
     }
+  },
+  "smartExtractor": {
+    "title": "Nutikas lahti pakkija",
+    "verb": "Paki lahti"
   },
   "snapshot": {
     "accept": {

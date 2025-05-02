@@ -357,6 +357,7 @@
       "title": "New conflicts found"
     },
     "next": "Next",
+    "noOptionsFound": "No options found",
     "promise": "Safe & secure sending",
     "resend": "Reopen and return",
     "resolutions": {
@@ -408,15 +409,25 @@
       },
       "merge": "Merge"
     },
+    "searchPlaceholder": "Search data clips...",
     "selectedRecords_one": "{{count}} record selected",
     "selectedRecords_other": "{{count}} records selected",
     "selectedRecords_zero": "{{count}} records selected",
     "share": {
+      "clear": "Clear",
+      "close": "Close",
       "copy_link": "Copy link",
       "description": "Collaborators will be sent an invitation to collaborate on this data clip.",
       "empty": "No collaborators available.",
+      "manageAccess": "Manage access",
+      "more": "more",
       "none_selected": "No collaborators selected.",
+      "noResults": "No results.",
       "placeholder": "Add collaborators...",
+      "public": "Anyone with the link",
+      "restricted": "Restricted",
+      "search": "Search...",
+      "selectAll": "Select all",
       "submit": "Share",
       "title": "Share data clip"
     },
@@ -1720,6 +1731,10 @@
       "hide": "Hide sidebar",
       "show": "Show sidebar"
     }
+  },
+  "smartExtractor": {
+    "title": "Smart Extractor",
+    "verb": "Extract"
   },
   "snapshot": {
     "accept": {

@@ -352,6 +352,7 @@
       "title": "發現新的衝突"
     },
     "next": "下一步",
+    "noOptionsFound": "沒有找到任何選項",
     "promise": "安全可靠的傳送",
     "resend": "重新開啟並返回",
     "resolutions": {
@@ -400,14 +401,24 @@
       },
       "merge": "合併"
     },
+    "searchPlaceholder": "搜尋資料剪輯 ......",
     "selectedRecords_other": "已選取 {{count}} 筆記錄",
     "selectedRecords_zero": "已選取 {{count}} 筆記錄",
     "share": {
+      "clear": "清除",
+      "close": "關閉",
       "copy_link": "複製連結",
       "description": "將會寄給協作者一封共同處理此資料剪輯的邀請函。",
       "empty": "沒有可進行合作的協作者。",
+      "manageAccess": "管理存取權限",
+      "more": "更多",
       "none_selected": "尚未選擇協作者。",
+      "noResults": "沒有結果",
       "placeholder": "新增合作者 ......",
+      "public": "任何擁有連結的人",
+      "restricted": "受限制的",
+      "search": "搜尋 ......",
+      "selectAll": "全選",
       "submit": "分享",
       "title": "分享資料剪輯"
     },
@@ -1674,6 +1685,10 @@
       "hide": "隱藏側邊欄",
       "show": "顯示側邊欄"
     }
+  },
+  "smartExtractor": {
+    "title": "智慧型解壓縮器",
+    "verb": "解壓縮"
   },
   "snapshot": {
     "accept": {

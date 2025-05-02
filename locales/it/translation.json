@@ -357,6 +357,7 @@
       "title": "Nuovi conflitti trovati"
     },
     "next": "Successivo",
+    "noOptionsFound": "Nessuna opzione trovata",
     "promise": "Invio sicuro e protetto",
     "resend": "Riapri e riporta",
     "resolutions": {
@@ -408,15 +409,25 @@
       },
       "merge": "Unisci"
     },
+    "searchPlaceholder": "Cerca clip dati...",
     "selectedRecords_one": "{{count}} record selezionato",
     "selectedRecords_other": "{{count}} record selezionati",
     "selectedRecords_zero": "{{count}} record selezionati",
     "share": {
+      "clear": "Annulla",
+      "close": "Chiudi",
       "copy_link": "Copia link",
       "description": "Ai collaboratori verrà inviato un invito a collaborare su questo clip di dati.",
       "empty": "Nessun collaboratore disponibile.",
+      "manageAccess": "Gestisci accesso",
+      "more": "di più",
       "none_selected": "Nessun collaboratore selezionato.",
+      "noResults": "Nessun risultato.",
       "placeholder": "Aggiungi collaboratori...",
+      "public": "Chiunque con il link",
+      "restricted": "Limitato",
+      "search": "Cerca...",
+      "selectAll": "Seleziona tutto",
       "submit": "Condividi",
       "title": "Condividi clip dati"
     },
@@ -1720,6 +1731,10 @@
       "hide": "Nascondi la barra laterale",
       "show": "Mostra la barra laterale"
     }
+  },
+  "smartExtractor": {
+    "title": "Estrattore intelligente",
+    "verb": "Estrai"
   },
   "snapshot": {
     "accept": {

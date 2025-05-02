@@ -353,6 +353,7 @@
       "title": "새 충돌 발견됨"
     },
     "next": "다음",
+    "noOptionsFound": "검색된 옵션 없음",
     "promise": "안전한 보안 전송",
     "resend": "다시 열고 반환",
     "resolutions": {
@@ -401,14 +402,24 @@
       },
       "merge": "병합"
     },
+    "searchPlaceholder": "데이터 클립 검색...",
     "selectedRecords_other": "기록 {{count}}개 선택함",
     "selectedRecords_zero": "기록 {{count}}개 선택함",
     "share": {
+      "clear": "지우기",
+      "close": "닫기",
       "copy_link": "링크 복사",
       "description": "이 데이터 클립에 대한 협업 초대가 공동 작업자에게 전송됩니다.",
       "empty": "공동 작업자가 없습니다.",
+      "manageAccess": "액세스 관리",
+      "more": "더 보기",
       "none_selected": "선택한 공동 작업자 없음.",
+      "noResults": "결과 없음",
       "placeholder": "공동 작업자 추가...",
+      "public": "링크가 있는 누구나",
+      "restricted": "제한됨",
+      "search": "검색...",
+      "selectAll": "전체 선택",
       "submit": "공유",
       "title": "데이터 클립 공유"
     },
@@ -1675,6 +1686,10 @@
       "hide": "사이드바 숨김",
       "show": "사이드바 표시"
     }
+  },
+  "smartExtractor": {
+    "title": "스마트 추출기",
+    "verb": "추출"
   },
   "snapshot": {
     "accept": {

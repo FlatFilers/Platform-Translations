@@ -357,6 +357,7 @@
       "title": "Neue Konflikte gefunden"
     },
     "next": "Weiter",
+    "noOptionsFound": "Keine Ergebnisse gefunden",
     "promise": "Sicheres Senden",
     "resend": "Neu öffnen und zurückkehren",
     "resolutions": {
@@ -408,15 +409,25 @@
       },
       "merge": "Zusammenführen"
     },
+    "searchPlaceholder": "Datenclips suchen ...",
     "selectedRecords_one": "{{count}} Datensatz ausgewählt",
     "selectedRecords_other": "{{count}} Datensätze ausgewählt",
     "selectedRecords_zero": "{{count}} Datensätze ausgewählt",
     "share": {
+      "clear": "Löschen",
+      "close": "Schließen",
       "copy_link": "Link kopieren",
       "description": "Mitarbeiter erhalten eine Einladung, an diesem Datenclip mitzuarbeiten.",
       "empty": "Keine Mitwirkenden verfügbar.",
+      "manageAccess": "Zugang verwalten",
+      "more": "mehr",
       "none_selected": "Keine Mitwirkenden ausgewählt.",
+      "noResults": "Keine Ergebnisse.",
       "placeholder": "Mitarbeiter hinzufügen ...",
+      "public": "Jeder mit dem Link",
+      "restricted": "Eingeschränkt",
+      "search": "Suche ...",
+      "selectAll": "Alles auswählen",
       "submit": "Teilen",
       "title": "Datenclip freigeben"
     },
@@ -1720,6 +1731,10 @@
       "hide": "Seitenleiste verstecken",
       "show": "Seitenleiste anzeigen"
     }
+  },
+  "smartExtractor": {
+    "title": "Smart-Extrahierer",
+    "verb": "Extrahieren"
   },
   "snapshot": {
     "accept": {

@@ -364,6 +364,7 @@
       "title": "Znaleziono nowe konflikty"
     },
     "next": "Dalej",
+    "noOptionsFound": "Nie znaleziono żadnych opcji",
     "promise": "Bezpieczne wysyłanie",
     "resend": "Otwórz ponownie i przywróć",
     "resolutions": {
@@ -421,17 +422,27 @@
       },
       "merge": "Scal"
     },
+    "searchPlaceholder": "Szukaj wycinków danych...",
     "selectedRecords_few": "Wybrane rekordy: {{count}}",
     "selectedRecords_many": "Wybrane rekordy: {{count}}",
     "selectedRecords_one": "Wybrane rekordy: {{count}}",
     "selectedRecords_other": "Wybrane rekordy: {{count}}",
     "selectedRecords_zero": "Wybrane rekordy: {{count}}",
     "share": {
+      "clear": "Skasuj",
+      "close": "Zamknij",
       "copy_link": "Skopiuj link",
       "description": "Współpracownicy otrzymają zaproszenie do współpracy nad tym klipem danych.",
       "empty": "Brak dostępnych współpracowników.",
+      "manageAccess": "Zarządzaj dostępem",
+      "more": "więcej",
       "none_selected": "Nie wybrano współpracowników.",
+      "noResults": "Brak wyników.",
       "placeholder": "Dodaj współpracowników...",
+      "public": "Każdy, kto ma link",
+      "restricted": "Ograniczone",
+      "search": "Szukaj...",
+      "selectAll": "Zaznacz wszystko",
       "submit": "Udostępnij",
       "title": "Udostępnij klip danych"
     },
@@ -1809,6 +1820,10 @@
       "hide": "Ukryj pasek boczny",
       "show": "Pokaż pasek boczny"
     }
+  },
+  "smartExtractor": {
+    "title": "Inteligentne narzędzie do wyodrębniania",
+    "verb": "Wyodrębnij"
   },
   "snapshot": {
     "accept": {

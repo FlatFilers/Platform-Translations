@@ -357,6 +357,7 @@
       "title": "Novos conflitos encontrados"
     },
     "next": "Seguinte",
+    "noOptionsFound": "Sem opções encontradas",
     "promise": "Envio seguro e protegido",
     "resend": "Reabrir e regressar",
     "resolutions": {
@@ -408,15 +409,25 @@
       },
       "merge": "Intercalar"
     },
+    "searchPlaceholder": "Pesquisar segmentos de dados...",
     "selectedRecords_one": "{{count}} registo selecionado",
     "selectedRecords_other": "{{count}} registos selecionados",
     "selectedRecords_zero": "{{count}} registos selecionados",
     "share": {
+      "clear": "Limpar",
+      "close": "Fechar",
       "copy_link": "Copiar ligação",
       "description": "Os colaboradores receberão um convite para colaborar neste extrato de dados.",
       "empty": "Não há colaboradores disponíveis.",
+      "manageAccess": "Gerir acesso",
+      "more": "mais",
       "none_selected": "Não foram selecionados colaboradores.",
+      "noResults": "Sem resultados.",
       "placeholder": "Adicionar colaboradores...",
+      "public": "Qualquer pessoa com o link",
+      "restricted": "Restrito",
+      "search": "Procurar...",
+      "selectAll": "Selecionar tudo",
       "submit": "Partilhar",
       "title": "Partilhar extrato de dados"
     },
@@ -1720,6 +1731,10 @@
       "hide": "Ocultar barra lateral",
       "show": "Mostrar barra lateral"
     }
+  },
+  "smartExtractor": {
+    "title": "Extrator inteligente",
+    "verb": "Extrair"
   },
   "snapshot": {
     "accept": {

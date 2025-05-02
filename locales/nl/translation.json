@@ -356,6 +356,7 @@
       "title": "Geen conflicten gevonden"
     },
     "next": "Volgende",
+    "noOptionsFound": "Geen opties gevonden",
     "promise": "Veilig en betrouwbaar verzenden",
     "resend": "Heropenen en teruggaan",
     "resolutions": {
@@ -407,15 +408,25 @@
       },
       "merge": "Samenvoegen"
     },
+    "searchPlaceholder": "Zoeken in dataclips...",
     "selectedRecords_one": "{{count}} record geselecteerd",
     "selectedRecords_other": "{{count}} records geselecteerd",
     "selectedRecords_zero": "{{count}} records geselecteerd",
     "share": {
+      "clear": "Wissen",
+      "close": "Sluiten",
       "copy_link": "Link kopiëren",
       "description": "Medewerkers krijgen een uitnodiging om mee te werken aan deze gegevensclip.",
       "empty": "Geen medewerkers beschikbaar.",
+      "manageAccess": "Toegang beheren",
+      "more": "meer",
       "none_selected": "Geen medewerkers geselecteerd.",
+      "noResults": "Geen resultaten.",
       "placeholder": "Medewerkers toevoegen...",
+      "public": "Iedereen met de link",
+      "restricted": "Beperkt",
+      "search": "Zoeken...",
+      "selectAll": "Alles selecteren",
       "submit": "Delen",
       "title": "Gegevensclip delen"
     },
@@ -1719,6 +1730,10 @@
       "hide": "Zijbalk verbergen",
       "show": "Zijbalk tonen"
     }
+  },
+  "smartExtractor": {
+    "title": "Intelligente afzuigkap",
+    "verb": "Uittreksel"
   },
   "snapshot": {
     "accept": {

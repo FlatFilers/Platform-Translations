@@ -353,6 +353,7 @@
       "title": "新しい競合が見つかりました"
     },
     "next": "次へ",
+    "noOptionsFound": "オプションが見つかりません",
     "promise": "安全・確実に送信中",
     "resend": "再オープンして戻る",
     "resolutions": {
@@ -401,14 +402,24 @@
       },
       "merge": "結合"
     },
+    "searchPlaceholder": "データクリップを検索...",
     "selectedRecords_other": "{{count}}件のレコードが選択されました",
     "selectedRecords_zero": "{{count}}件のレコードが選択されました",
     "share": {
+      "clear": "クリア",
+      "close": "閉じる",
       "copy_link": "リンクをコピー",
       "description": "共同作業者に、このデータクリップで共同作業するための招待状が送信されます。",
       "empty": "共同作業者がいません。",
+      "manageAccess": "アクセスを管理",
+      "more": "もっと",
       "none_selected": "共同作業者が選択されていません。",
+      "noResults": "結果がありません。",
       "placeholder": "共同作業者を追加...",
+      "public": "リンクをお持ちの方",
+      "restricted": "制限付き",
+      "search": "検索...",
+      "selectAll": "すべて選択",
       "submit": "共有",
       "title": "データクリップを共有"
     },
@@ -1675,6 +1686,10 @@
       "hide": "サイドバーを非表示にする",
       "show": "サイドバーを表示する"
     }
+  },
+  "smartExtractor": {
+    "title": "スマートエクストラクター",
+    "verb": "抽出する"
   },
   "snapshot": {
     "accept": {

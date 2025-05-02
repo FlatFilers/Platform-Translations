@@ -230,8 +230,6 @@
     "yesterday": "Yesterday"
   },
   "dataClips": {
-    "noOptionsFound": "No options found",
-    "searchPlaceholder": "Search data clips...",
     "actions": {
       "add_to_clip": "Add selections to data clip",
       "buttons": {
@@ -294,11 +292,11 @@
         "namePlaceholder": "Add clip name…",
         "title": "Create data clip"
       },
+      "descriptionPlaceholder": "Add a comment (optional)...",
       "edit": {
         "action": "Submit",
         "title": "Edit data clip"
       },
-      "descriptionPlaceholder": "Add a comment (optional)...",
       "review": "Review"
     },
     "empty": "No data clips to display",
@@ -355,6 +353,7 @@
       "title": "New conflicts found"
     },
     "next": "Next",
+    "noOptionsFound": "No options found",
     "promise": "Safe & secure sending",
     "resend": "Reopen and return",
     "resolutions": {
@@ -403,25 +402,26 @@
       },
       "merge": "Merge"
     },
+    "searchPlaceholder": "Search data clips...",
     "selectedRecords_one": "{{formattedCount}} record selected",
     "selectedRecords_other": "{{formattedCount}} records selected",
     "share": {
+      "clear": "Clear",
+      "close": "Close",
       "copy_link": "Copy link",
       "description": "Collaborators will be sent an invitation to collaborate on this data clip.",
       "empty": "No collaborators available.",
-      "none_selected": "No collaborators selected.",
-      "placeholder": "Add collaborators...",
-      "submit": "Share",
-      "title": "Share data clip",
-      "restricted": "Restricted",
-      "public": "Anyone with the link",
       "manageAccess": "Manage access",
-      "clear": "Clear",
-      "close": "Close",
       "more": "more",
+      "none_selected": "No collaborators selected.",
       "noResults": "No results.",
+      "placeholder": "Add collaborators...",
+      "public": "Anyone with the link",
+      "restricted": "Restricted",
       "search": "Search...",
-      "selectAll": "Select all"
+      "selectAll": "Select all",
+      "submit": "Share",
+      "title": "Share data clip"
     },
     "sort": "sort",
     "status": {
@@ -1688,6 +1688,10 @@
       "show": "Show sidebar"
     }
   },
+  "smartExtractor": {
+    "title": "Smart Extractor",
+    "verb": "Extract"
+  },
   "snapshot": {
     "accept": {
       "cancelButton": "Cancel",
@@ -2003,9 +2007,5 @@
     "pill": {
       "hoverText": "Version History"
     }
-  }, 
-  "smartExtractor": {
-    "verb": "Extract",
-    "title": "Smart Extractor"
   }
 }

@@ -353,6 +353,7 @@
       "title": "Konflik baru ditemukan"
     },
     "next": "Lanjut",
+    "noOptionsFound": "Tidak ada pilihan yang ditemukan",
     "promise": "Pengiriman aman & terlindungi",
     "resend": "Buka ulang dan kembali",
     "resolutions": {
@@ -401,14 +402,24 @@
       },
       "merge": "Gabungkan"
     },
+    "searchPlaceholder": "Mencari klip data...",
     "selectedRecords_other": "{{count}} rekod yang dipilih",
     "selectedRecords_zero": "{{count}} rekod yang dipilih",
     "share": {
+      "clear": "Bersihkan",
+      "close": "Tutup",
       "copy_link": "Salin tautan",
       "description": "Kolaborator akan dikirimi undangan untuk berkolaborasi pada klip data ini.",
       "empty": "Tidak ada kolaborator yang tersedia.",
+      "manageAccess": "Kelola akses",
+      "more": "Lebih lanjut",
       "none_selected": "Tidak ada kolaborator yang dipilih.",
+      "noResults": "Tidak ada hasil.",
       "placeholder": "Tambahkan kolaborator…",
+      "public": "Siapa pun yang memiliki tautan",
+      "restricted": "Terbatas",
+      "search": "Cari...",
+      "selectAll": "Pilih semua",
       "submit": "Bagikan",
       "title": "Bagikan klip data"
     },
@@ -1675,6 +1686,10 @@
       "hide": "Sembunyikan bilah sisi",
       "show": "Tampilkan bilah sisi"
     }
+  },
+  "smartExtractor": {
+    "title": "Ekskavator Pintar",
+    "verb": "Ekstrak"
   },
   "snapshot": {
     "accept": {

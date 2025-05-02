@@ -356,6 +356,7 @@
       "title": "Nya konflikter hittade"
     },
     "next": "Nästa",
+    "noOptionsFound": "Inga alternativ hittades",
     "promise": "Säker och trygg försändelse",
     "resend": "Öppna igen och återgå",
     "resolutions": {
@@ -407,15 +408,25 @@
       },
       "merge": "Sammanfoga"
     },
+    "searchPlaceholder": "Sök dataklipp...",
     "selectedRecords_one": "{{count}} post vald",
     "selectedRecords_other": "{{count}} poster valda",
     "selectedRecords_zero": "{{count}} poster valda",
     "share": {
+      "clear": "Rensa",
+      "close": "Stäng",
       "copy_link": "Kopiera länk",
       "description": "Medarbetare blir erbjudna att samarbeta på detta dataklipp.",
       "empty": "Inga medarbetare är tillgängliga.",
+      "manageAccess": "Hantera åtkomst",
+      "more": "mer",
       "none_selected": "Inga medarbetare valda.",
+      "noResults": "Inga resultat.",
       "placeholder": "Lägg till medarbetare ...",
+      "public": "Alla som har länken",
+      "restricted": "Begränsat",
+      "search": "Sök ...",
+      "selectAll": "Välj alla",
       "submit": "Dela",
       "title": "Dela dataklipp"
     },
@@ -1719,6 +1730,10 @@
       "hide": "Dölj sidofält",
       "show": "Visa sidofält"
     }
+  },
+  "smartExtractor": {
+    "title": "Smart extraherare",
+    "verb": "Extrahera"
   },
   "snapshot": {
     "accept": {

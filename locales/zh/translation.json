@@ -353,6 +353,7 @@
       "title": "发现新冲突"
     },
     "next": "下一步",
+    "noOptionsFound": "未找到选项",
     "promise": "安全发送",
     "resend": "重新打开并返回",
     "resolutions": {
@@ -401,14 +402,24 @@
       },
       "merge": "合并"
     },
+    "searchPlaceholder": "搜索数据片段……",
     "selectedRecords_other": "已选择 {{count}} 条记录",
     "selectedRecords_zero": "已选择 {{count}} 条记录",
     "share": {
+      "clear": "清除",
+      "close": "关闭",
       "copy_link": "复制链接",
       "description": "将向协作者发送邀请，请其协作处理此数据片段。",
       "empty": "无空闲协作者。",
+      "manageAccess": "管理访问权限",
+      "more": "更多",
       "none_selected": "未选择协作者。",
+      "noResults": "无结果。",
       "placeholder": "添加协作者……",
+      "public": "有链接的任何人",
+      "restricted": "受到限制",
+      "search": "搜索……",
+      "selectAll": "选择全部",
       "submit": "共享",
       "title": "共享数据片段"
     },
@@ -1675,6 +1686,10 @@
       "hide": "隐藏侧边栏",
       "show": "显示侧边栏"
     }
+  },
+  "smartExtractor": {
+    "title": "智能提取工具",
+    "verb": "提取"
   },
   "snapshot": {
     "accept": {

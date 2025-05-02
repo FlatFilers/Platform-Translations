@@ -357,6 +357,7 @@
       "title": "Yeni çakışmalar bulundu"
     },
     "next": "Sonraki",
+    "noOptionsFound": "Hiç seçenek bulunamadı",
     "promise": "Güvenli ve emniyetli gönderim",
     "resend": "Yeniden aç ve geri dön",
     "resolutions": {
@@ -408,15 +409,25 @@
       },
       "merge": "Birleştir"
     },
+    "searchPlaceholder": "Veri klipleri ara...",
     "selectedRecords_one": "{{count}} kayıt seçildi",
     "selectedRecords_other": "{{count}} kayıt seçildi",
     "selectedRecords_zero": "{{count}} kayıt seçildi",
     "share": {
+      "clear": "Temizle",
+      "close": "Kapat",
       "copy_link": "Bağlantıyı kopyala",
       "description": "Ortaklara bu veri klibi üzerinde işbirliği yapmaları için bir davetiye gönderilecek.",
       "empty": "Uygun ortak yok",
+      "manageAccess": "Erişimi yönet",
+      "more": "daha fazlaç",
       "none_selected": "Hiçbir ortak seçilmedi.",
+      "noResults": "Sonuç yok.",
       "placeholder": "Ortak ekle...",
+      "public": "Bağlantıya sahip olan herkes",
+      "restricted": "Kısıtlı",
+      "search": "Ara...",
+      "selectAll": "Tümünü seç",
       "submit": "Paylaş",
       "title": "Veri klibini paylaşın"
     },
@@ -1720,6 +1731,10 @@
       "hide": "Kenar çubuğunu gizle",
       "show": "Kenar çubuğunu göster"
     }
+  },
+  "smartExtractor": {
+    "title": "Akıllı Çıkarıcı",
+    "verb": "Çıkarıcı"
   },
   "snapshot": {
     "accept": {

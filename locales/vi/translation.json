@@ -353,6 +353,7 @@
       "title": "Đã tìm thấy xung đột mới"
     },
     "next": "Tiếp theo",
+    "noOptionsFound": "Không tìm thấy lựa chọn nào",
     "promise": "Gửi an toàn và bảo mật",
     "resend": "Mở lại và trở lại",
     "resolutions": {
@@ -401,14 +402,24 @@
       },
       "merge": "Hợp nhất"
     },
+    "searchPlaceholder": "Tìm clip dữ liệu...",
     "selectedRecords_other": "Đã chọn {{count}} bản ghi",
     "selectedRecords_zero": "Đã chọn {{count}} bản ghi",
     "share": {
+      "clear": "Xóa",
+      "close": "Đóng",
       "copy_link": "Sao chép đường liên kết",
       "description": "Những cộng tác viên sẽ được gửi lời mời để hợp tác thực hiện dữ liệu clip này.",
       "empty": "Không có sẵn cộng tác viên.",
+      "manageAccess": "Quản lý quyền truy cập",
+      "more": "thêm",
       "none_selected": "Không có cộng tác viên nào được chọn.",
+      "noResults": "Không có kết quả.",
       "placeholder": "Thêm cộng tác viên...",
+      "public": "Bất kỳ ai có liên kết",
+      "restricted": "Hạn chế",
+      "search": "Tìm kiếm...",
+      "selectAll": "Chọn tất cả",
       "submit": "Chia sẻ",
       "title": "Chia sẻ dữ liệu clip"
     },
@@ -1675,6 +1686,10 @@
       "hide": "Ẩn thanh bên",
       "show": "Hiện thanh bên"
     }
+  },
+  "smartExtractor": {
+    "title": "Trình trích xuất thông minh",
+    "verb": "Trích xuất"
   },
   "snapshot": {
     "accept": {

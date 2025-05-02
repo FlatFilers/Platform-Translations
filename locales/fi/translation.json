@@ -356,6 +356,7 @@
       "title": "Uusia ristiriitoja löytynyt"
     },
     "next": "Seuraava",
+    "noOptionsFound": "Vaihtoehtoja ei löytynyt",
     "promise": "Turvallinen ja suojattu lähettäminen",
     "resend": "Avaa uudelleen ja palauta",
     "resolutions": {
@@ -407,15 +408,25 @@
       },
       "merge": "Yhdistä"
     },
+    "searchPlaceholder": "Hae tietoleikkeitä...",
     "selectedRecords_one": "{{count}} tietue valittu",
     "selectedRecords_other": "{{count}} tietuetta valittu",
     "selectedRecords_zero": "{{count}} tietuetta valittu",
     "share": {
+      "clear": "Tyhjennä",
+      "close": "Sulje",
       "copy_link": "Kopioi linkki",
       "description": "Yhteiskäyttäjille lähetetään kutsu tehdä yhteistyötä tämän tietoleikkeen parissa.",
       "empty": "Yhteiskäyttäjiä ei saatavilla.",
+      "manageAccess": "Hallitse käyttöoikeuksia",
+      "more": "enemmän",
       "none_selected": "Ei valittuja yhteiskäyttäjiä.",
+      "noResults": "Ei tuloksia.",
       "placeholder": "Lisää yhteiskäyttäjiä...",
+      "public": "Kaikki linkin saaneet",
+      "restricted": "Rajoitettu",
+      "search": "Hae...",
+      "selectAll": "Valitse kaikki",
       "submit": "Jaa",
       "title": "Jaa tietoleike"
     },
@@ -1719,6 +1730,10 @@
       "hide": "Piilota sivupalkki",
       "show": "Näytä sivupalkki"
     }
+  },
+  "smartExtractor": {
+    "title": "Pikapoimija",
+    "verb": "Poimi"
   },
   "snapshot": {
     "accept": {
