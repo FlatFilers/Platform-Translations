@@ -79,6 +79,12 @@
       "errors": {
         "missingIds": "Impossible de créer une feuille intégrée en raison d'un identifiant de feuille ou de classeur manquant."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Impossible de créer un classeur intégré en raison d'un identifiant de classeur manquant."
+      },
+      "untitled": "Classeur sans titre"
     }
   },
   "calculations": {
@@ -644,7 +650,7 @@
         "foregroundJobProgressModal": {
           "defaultJobName": "Emploi",
           "defaultResourceName": "cette ressource",
-          "percentComplete": "{{percent}} % terminé",
+          "percentComplete": "{{percent}}  % terminé",
           "runningOn": "en exécution sur"
         },
         "outcomeModals": {
@@ -825,7 +831,7 @@
   },
   "manageUsers": {
     "accessLink": {
-      "callout": "Ce lien est valide pendant 24 heures. Toute personne possédant ce lien peut accéder à l'Espace et importer, modifier ou gérer les données.",
+      "callout": "Ce lien est valide pendant 24 heures. Toute personne possédant ce lien peut accéder à l'Espace et importer, modifier ou gérer les données.",
       "title": "Lien d'accès"
     },
     "actions": {
@@ -1139,7 +1145,7 @@
     "emptyView": {
       "defaultError": {
         "description": "Cette feuille semble vide.",
-        "heading": "Il n'y a rien à voir pour l'instant !"
+        "heading": "Il n'y a rien à voir pour l'instant !"
       },
       "heading": "Démarrons",
       "manualEntry": "Saisir manuellement les données",
@@ -1177,7 +1183,7 @@
     "info": {
       "browser": "Navigateur",
       "copiedPopover": "Copié dans le presse-papiers",
-      "copyButton": "Cliquez pour copier !",
+      "copyButton": "Cliquez pour copier !",
       "date": "Date",
       "environment": "Environnement",
       "inFrame": "Dans l'iframe",
@@ -1633,14 +1639,14 @@
         "modalSubheader": "Sélectionnez une vue enregistrée à appliquer à cette feuille de calcul.",
         "searchPlaceholder": "Rechercher ou sélectionner…",
         "tooltip": "Appliquer la vue et copier le lien",
-        "viewAppliedPopover": "Votre vue a été copiée dans le presse-papiers !"
+        "viewAppliedPopover": "Votre vue a été copiée dans le presse-papiers !"
       },
       "saveView": {
         "buttons": {
           "cancel": "Annuler",
           "copy": {
             "label": "Copier pour partager",
-            "successLabel": "Copiée dans le presse-papiers !",
+            "successLabel": "Copiée dans le presse-papiers !",
             "warningTooltip": "Seules les personnes ayant accès à cet espace peuvent ouvrir le lien."
           },
           "save": {
@@ -1707,7 +1713,7 @@
       "tooltips": {
         "connectionError": "Un problème survient lors de la vérification des métadonnées des connexions de ce classeur.",
         "connectionFresh": "Connecté à {{source}} via {{service}}",
-        "connectionStale": "Synchronisé pour la dernière fois avec {{source}} il y a plus de 24 heures"
+        "connectionStale": "Synchronisé pour la dernière fois avec {{source}} il y a plus de 24 heures"
       }
     },
     "emptyWorkbook": "Classeur vide",

@@ -22,7 +22,7 @@
       },
       "noFunctionError": {
         "content": "Try phrasing it differently. Prompts that include field names tend to be more successful.",
-        "title": "We couldn’t understand your prompt."
+        "title": "We couldn't understand your prompt."
       },
       "noRecordsFoundError": {
         "content": "No records were found for the given query. Please try again.",
@@ -78,6 +78,12 @@
       "errors": {
         "missingIds": "Unable to create Embedded Sheet due to missing Sheet or Workbook ID."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Unable to create Embedded Workbook due to missing Workbook ID."
+      },
+      "untitled": "Untitled Workbook"
     }
   },
   "calculations": {
@@ -2006,6 +2012,15 @@
     },
     "pill": {
       "hoverText": "Version History"
+    }
+  },
+  "workbook": {
+    "errors": {
+      "loading": "Unable to load workbook"
+    },
+    "embedded": {
+      "untitled": "Untitled Workbook",
+      "maxOpenReached": "Maximum number of open workbooks reached ({{maxOpenWorkbooks}})"
     }
   }
 }

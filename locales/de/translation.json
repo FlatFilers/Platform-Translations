@@ -79,6 +79,12 @@
       "errors": {
         "missingIds": "Eingebettetes Blatt kann nicht erstellt werden, da die Blatt- oder Arbeitsmappen-ID fehlt."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Eingebettetes Arbeitsbuch kann nicht erstellt werden, da die Arbeitsbuch-ID fehlt."
+      },
+      "untitled": "Unbenanntes Arbeitsbuch"
     }
   },
   "calculations": {

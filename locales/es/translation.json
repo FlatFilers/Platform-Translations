@@ -79,6 +79,12 @@
       "errors": {
         "missingIds": "No se ha podido crear la Hoja integrada debido a que falta la identificación por Hoja o Cuaderno."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "No se ha podido crear el Cuaderno integrado debido a que falta la identificación del Cuaderno."
+      },
+      "untitled": "Cuaderno sin título"
     }
   },
   "calculations": {
