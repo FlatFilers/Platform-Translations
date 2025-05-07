@@ -2057,5 +2057,14 @@
     "pill": {
       "hoverText": "Versionsverlauf"
     }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Die maximale Anzahl von Arbeitsmappen wurde erreicht ({{maxOpenWorkbooks}})",
+      "untitled": "Unbenannte Arbeitsmappe"
+    },
+    "errors": {
+      "loading": "Die Arbeitsmappe kann nicht geladen werden"
+    }
   }
 }

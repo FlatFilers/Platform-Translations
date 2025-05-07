@@ -78,6 +78,12 @@
       "errors": {
         "missingIds": "Không thể tạo Trang tính nhúng do thiếu ID trang tính hoặc sổ làm việc."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Không thể tạo Sổ làm việc được nhúng do thiếu Mã sổ làm việc."
+      },
+      "untitled": "Sổ làm việc chưa có tên"
     }
   },
   "calculations": {
@@ -2005,6 +2011,15 @@
     },
     "pill": {
       "hoverText": "Lịch sử phiên bản"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Đã đạt số sổ làm việc đang mở tối đa ({{maxOpenWorkbooks}})",
+      "untitled": "Sổ làm việc chưa có tên"
+    },
+    "errors": {
+      "loading": "Không thể tải sổ làm việc"
     }
   }
 }

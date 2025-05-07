@@ -79,6 +79,12 @@
       "errors": {
         "missingIds": "Não é possível criar a planilha incorporada devido à falta do ID da pasta de trabalho ou planilha."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Não foi possível criar a Planilha Incorporada devido à ausência do ID da Planilha."
+      },
+      "untitled": "Planilha sem título"
     }
   },
   "calculations": {
@@ -2050,6 +2056,15 @@
     },
     "pill": {
       "hoverText": "Histórico de versões"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Número máximo de planilhas abertas atingido ({{maxOpenWorkbooks}}).",
+      "untitled": "Planilha sem título"
+    },
+    "errors": {
+      "loading": "Não foi possível carregar a planilha"
     }
   }
 }

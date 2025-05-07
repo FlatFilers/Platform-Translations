@@ -77,6 +77,12 @@
       "errors": {
         "missingIds": "無法建立內嵌工作表，因為缺少工作表或活頁簿的 ID。"
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "由於沒有提供活頁簿 ID，無法建立嵌入式活頁簿。"
+      },
+      "untitled": "沒有標題的活頁簿"
     }
   },
   "calculations": {
@@ -2004,6 +2010,15 @@
     },
     "pill": {
       "hoverText": "版本歷程記錄"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "已達到最大的活頁簿開啟數量 ( {{maxOpenWorkbooks}} )",
+      "untitled": "沒有標題的活頁簿"
+    },
+    "errors": {
+      "loading": "無法載入活頁簿"
     }
   }
 }

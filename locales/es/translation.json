@@ -2057,5 +2057,14 @@
     "pill": {
       "hoverText": "Historial de la versión"
     }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Número máximo de libros de trabajo abiertos alcanzado ({{maxOpenWorkbooks}})",
+      "untitled": "Libro de trabajo sin título"
+    },
+    "errors": {
+      "loading": "No se puede cargar el libro de trabajo"
+    }
   }
 }

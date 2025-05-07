@@ -79,6 +79,12 @@
       "errors": {
         "missingIds": "Eksik Sayfa veya Çalışma Kitabı NO nedeniyle Ekli Sayfa oluşturulamıyor."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Eksik Çalışma Kitabı NO nedeniyle Gömülü Çalışma Kitabı oluşturulamıyor."
+      },
+      "untitled": "Başlıksız Çalışma Kitabı"
     }
   },
   "calculations": {
@@ -2050,6 +2056,15 @@
     },
     "pill": {
       "hoverText": "Sürüm Geçmişi"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Açık çalışma kitaplarının maksimum sayısına ulaşıldı ({{maxOpenWorkbooks}})",
+      "untitled": "Başlıksız Çalışma Kitabı"
+    },
+    "errors": {
+      "loading": "Çalışma kitabı yüklenemiyor"
     }
   }
 }

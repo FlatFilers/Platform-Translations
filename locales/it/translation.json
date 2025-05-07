@@ -79,6 +79,12 @@
       "errors": {
         "missingIds": "Impossibile creare Embedded Sheet a causa dell'assenza dell'ID del Foglio o del Workbook."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Impossibile creare la cartella di lavoro incorporata a causa dell'ID della cartella di lavoro mancante."
+      },
+      "untitled": "Cartella di lavoro senza titolo"
     }
   },
   "calculations": {
@@ -2050,6 +2056,15 @@
     },
     "pill": {
       "hoverText": "Cronologia versioni"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Numero massimo di cartelle di lavoro aperte raggiunto ({{maxOpenWorkbooks}})",
+      "untitled": "Cartella di lavoro senza titolo"
+    },
+    "errors": {
+      "loading": "Impossibile caricare la cartella di lavoro"
     }
   }
 }

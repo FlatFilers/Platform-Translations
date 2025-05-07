@@ -78,6 +78,12 @@
       "errors": {
         "missingIds": "由于缺少工作表或工作簿 ID，无法创建嵌入式工作表。"
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "由于缺少工作簿 ID，无法创建嵌入式工作簿。"
+      },
+      "untitled": "无标题工作簿"
     }
   },
   "calculations": {
@@ -2005,6 +2011,15 @@
     },
     "pill": {
       "hoverText": "版本历史"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "已达到工作簿打开数量的上限({{maxOpenWorkbooks}})",
+      "untitled": "无标题工作簿"
+    },
+    "errors": {
+      "loading": "无法加载工作簿"
     }
   }
 }

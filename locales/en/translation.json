@@ -2015,12 +2015,12 @@
     }
   },
   "workbook": {
+    "embedded": {
+      "maxOpenReached": "Maximum number of open workbooks reached ({{maxOpenWorkbooks}})",
+      "untitled": "Untitled Workbook"
+    },
     "errors": {
       "loading": "Unable to load workbook"
-    },
-    "embedded": {
-      "untitled": "Untitled Workbook",
-      "maxOpenReached": "Maximum number of open workbooks reached ({{maxOpenWorkbooks}})"
     }
   }
 }

@@ -77,6 +77,12 @@
       "errors": {
         "missingIds": "Tidak dapat membuat Lembaran Terbenam disebabkan oleh tiada ID Sheet atau Workbook."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Gagal mencipta Buku Kerja Terbenam disebabkan oleh tiada ID Buku Kerja."
+      },
+      "untitled": "Buku Kerja Tidak Bertajuk"
     }
   },
   "calculations": {
@@ -2004,6 +2010,15 @@
     },
     "pill": {
       "hoverText": "Sejarah Versi"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Bilangan maksimum buku kerja terbuka telah dicapai ({{maxOpenWorkbooks}})",
+      "untitled": "Buku Kerja Tidak Bertajuk"
+    },
+    "errors": {
+      "loading": "Gagal memuatkan buku kerja"
     }
   }
 }

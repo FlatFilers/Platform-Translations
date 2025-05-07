@@ -78,6 +78,12 @@
       "errors": {
         "missingIds": "No se puede crear una Hoja Integrada debido a que falta una hoja o identificación de libro."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "No se puede crear el libro de trabajo incrustado debido a que falta el ID del libro."
+      },
+      "untitled": "Libro de trabajo sin título"
     }
   },
   "calculations": {
@@ -2049,6 +2055,15 @@
     },
     "pill": {
       "hoverText": "Historia de la versión"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Se alcanzó el número máximo de libros de trabajo abiertos ({{maxOpenWorkbooks}})",
+      "untitled": "Libro de trabajo sin título"
+    },
+    "errors": {
+      "loading": "No se puede cargar el libro de trabajo"
     }
   }
 }

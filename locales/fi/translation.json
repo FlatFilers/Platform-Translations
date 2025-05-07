@@ -78,6 +78,12 @@
       "errors": {
         "missingIds": "Upotetun taulukon luominen ei onnistu, koska taulukon tai työkirjan tunnus puuttuu"
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Upotettua työkirjaa ei voida luoda, koska työkirjan tunnus puuttuu."
+      },
+      "untitled": "Nimetön työkirja"
     }
   },
   "calculations": {
@@ -2049,6 +2055,15 @@
     },
     "pill": {
       "hoverText": "Versiohistoria"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Työkirjojen enimmäismäärä täyttyi ({{maxOpenWorkbooks}})",
+      "untitled": "Nimetön työkirja"
+    },
+    "errors": {
+      "loading": "Työkirjaa ei voi ladata"
     }
   }
 }

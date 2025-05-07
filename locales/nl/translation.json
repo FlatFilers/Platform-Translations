@@ -78,6 +78,12 @@
       "errors": {
         "missingIds": "Kan ingesloten blad niet maken vanwege ontbrekende blad- of werkboek-ID."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Ingesloten werkmap kan niet worden aangemaakt vanwege ontbrekende werkboek-ID."
+      },
+      "untitled": "Werkboek zonder titel"
     }
   },
   "calculations": {
@@ -2049,6 +2055,15 @@
     },
     "pill": {
       "hoverText": "Versiegeschiedenis"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Maximaal aantal geopende werkmappen bereikt ({{maxOpenWorkbooks}})",
+      "untitled": "Werkboek zonder titel"
+    },
+    "errors": {
+      "loading": "Werkboek kan niet geladen worden"
     }
   }
 }

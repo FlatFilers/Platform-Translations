@@ -78,6 +78,12 @@
       "errors": {
         "missingIds": "Tidak dapat membuat Embedded Sheet karena Sheet atau ID Workbook tidak ada."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Tidak dapat membuat Buku Kerja Disematkan karena ID Buku Kerja tidak ada."
+      },
+      "untitled": "Buku Kerja Tanpa Judul"
     }
   },
   "calculations": {
@@ -2005,6 +2011,15 @@
     },
     "pill": {
       "hoverText": "Riwayat Versi"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Jumlah maksimum buku kerja yang terbuka tercapai ({{maxOpenWorkbooks}})",
+      "untitled": "Buku Kerja Tanpa Judul"
+    },
+    "errors": {
+      "loading": "Tidak dapat memuat buku kerja"
     }
   }
 }

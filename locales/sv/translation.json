@@ -78,6 +78,12 @@
       "errors": {
         "missingIds": "Det går inte att skapa ett inbäddat blad eftersom blad- eller arbetsboks-ID saknas."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Det går inte att skapa en inbäddad arbetsbok eftersom ID för arbetsbok saknas."
+      },
+      "untitled": "Arbetsbok utan titel"
     }
   },
   "calculations": {
@@ -2049,6 +2055,15 @@
     },
     "pill": {
       "hoverText": "Versionshistorik"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Högsta tillåtna antalet öppna arbetsböcker har uppnåtts ({{maxOpenWorkbooks}})",
+      "untitled": "Arbetsbok utan titel"
+    },
+    "errors": {
+      "loading": "Det går inte att läsa in arbetsboken"
     }
   }
 }

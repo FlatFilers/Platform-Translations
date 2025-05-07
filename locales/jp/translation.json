@@ -78,6 +78,12 @@
       "errors": {
         "missingIds": "シートまたはワークブックIDが見つからないため、埋め込みシートを作成できません。"
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "ワークブックIDがないため、埋め込みワークブックを作成できません。"
+      },
+      "untitled": "無題のワークブック"
     }
   },
   "calculations": {
@@ -2005,6 +2011,15 @@
     },
     "pill": {
       "hoverText": "バージョン履歴"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "開いているワークブックの最大数に達しました ({{maxOpenWorkbooks}})",
+      "untitled": "無題のワークブック"
+    },
+    "errors": {
+      "loading": "ワークブックを読み込めません"
     }
   }
 }

@@ -78,6 +78,12 @@
       "errors": {
         "missingIds": "Manustatud lehte ei saa luua, sest puudub lehe või töövihiku ID"
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Manustatud töölehe loomine nurjus puuduva töölehe tunnuse tõttu."
+      },
+      "untitled": "Nimetu tööleht"
     }
   },
   "calculations": {
@@ -2049,6 +2055,15 @@
     },
     "pill": {
       "hoverText": "Versiooni ajalugu"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Avatud töölehtede piirmäär saavutatud ({{maxOpenWorkbooks}})",
+      "untitled": "Nimetu tööleht"
+    },
+    "errors": {
+      "loading": "Töölehe laadimine nurjus"
     }
   }
 }

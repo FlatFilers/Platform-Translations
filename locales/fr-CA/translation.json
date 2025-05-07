@@ -79,6 +79,12 @@
       "errors": {
         "missingIds": "Impossible de créer une feuille incorporée en raison d’un identifiant de feuille ou de classeur manquant."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Impossible de créer un classeur incorporé car l'identifiant du classeur est manquant."
+      },
+      "untitled": "Classeur sans titre"
     }
   },
   "calculations": {
@@ -2050,6 +2056,15 @@
     },
     "pill": {
       "hoverText": "Historique de la version"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Nombre maximum de classeurs ouverts atteint ({{maxOpenWorkbooks}})",
+      "untitled": "Classeur sans titre"
+    },
+    "errors": {
+      "loading": "Impossible de charger le classeur"
     }
   }
 }

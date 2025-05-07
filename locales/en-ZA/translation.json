@@ -79,6 +79,12 @@
       "errors": {
         "missingIds": "Unable to create Embedded Sheet due to missing Sheet or Workbook ID."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Unable to create Embedded Workbook due to missing Workbook ID."
+      },
+      "untitled": "Untitled Workbook"
     }
   },
   "calculations": {
@@ -2050,6 +2056,15 @@
     },
     "pill": {
       "hoverText": "Version History"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Maximum number of open workbooks reached ({{maxOpenWorkbooks}})",
+      "untitled": "Untitled Workbook"
+    },
+    "errors": {
+      "loading": "Unable to load workbook"
     }
   }
 }

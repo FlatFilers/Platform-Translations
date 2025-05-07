@@ -79,6 +79,12 @@
       "errors": {
         "missingIds": "Não é possível criar \"Embedded Sheet\" devido à falta de ID da Folha de cálculo ou do Livro."
       }
+    },
+    "embeddedWorkbook": {
+      "errors": {
+        "missingId": "Não é possível criar o livro incorporado devido à falta de identificador do livro."
+      },
+      "untitled": "Livro sem título"
     }
   },
   "calculations": {
@@ -2050,6 +2056,15 @@
     },
     "pill": {
       "hoverText": "Histórico de Versões"
+    }
+  },
+  "workbook": {
+    "embedded": {
+      "maxOpenReached": "Atingido o número máximo de livros abertos ({{maxOpenWorkbooks}})",
+      "untitled": "Livro sem título"
+    },
+    "errors": {
+      "loading": "Não é possível carregar o livro"
     }
   }
 }
