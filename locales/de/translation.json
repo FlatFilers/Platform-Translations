@@ -260,7 +260,8 @@
           "add_to_clip": "Wählen Sie mindestens einen Datensatz aus, den Sie zu einem Datenclip hinzufügen möchten.",
           "create": "Wählen Sie mindestens einen Datensatz aus, um einen Datenclip zu erstellen."
         },
-        "review": "An diesem Datenclip wurden keine Änderungen vorgenommen."
+        "review": "An diesem Datenclip wurden keine Änderungen vorgenommen.",
+        "source_read_only": "Der Datenclip kann nicht zusammengeführt werden, da das Quellblatt schreibgeschützt ist."
       }
     },
     "buttonText": "Clip-Daten",

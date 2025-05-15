@@ -265,7 +265,8 @@
           "add_to_clip": "Wybierz co najmniej jeden rekord, aby utworzyć klip danych.",
           "create": "Wybierz co najmniej jeden rekord, aby utworzyć klip danych."
         },
-        "review": "Nie wprowadzono żadnych zmian w tym klipie danych."
+        "review": "Nie wprowadzono żadnych zmian w tym klipie danych.",
+        "source_read_only": "Nie można scalić wycinka danych, ponieważ arkusz źródłowy jest tylko do odczytu."
       }
     },
     "buttonText": "Dane klipu",

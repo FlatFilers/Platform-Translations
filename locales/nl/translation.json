@@ -259,7 +259,8 @@
           "add_to_clip": "Selecteer ten minste één record om toe te voegen aan een gegevensclip.",
           "create": "Selecteer ten minste één record om een gegevensclip aan te maken."
         },
-        "review": "Er zijn geen wijzigingen aangebracht in deze gegevensclip."
+        "review": "Er zijn geen wijzigingen aangebracht in deze gegevensclip.",
+        "source_read_only": "De gegevensclip kan niet worden samengevoegd omdat het bronblad alleen-lezen is."
       }
     },
     "buttonText": "Clipgegevens",

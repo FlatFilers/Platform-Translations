@@ -22,7 +22,7 @@
       },
       "noFunctionError": {
         "content": "Try phrasing it differently. Prompts that include field names tend to be more successful.",
-        "title": "We couldn't understand your prompt."
+        "title": "We couldn’t understand your prompt."
       },
       "noRecordsFoundError": {
         "content": "No records were found for the given query. Please try again.",

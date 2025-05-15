@@ -260,7 +260,8 @@
           "add_to_clip": "Selecione pelo menos um registro para adicionar a um recorte de dados.",
           "create": "Selecione pelo menos um registro para criar um recorte de dados."
         },
-        "review": "Nenhuma mudança foi feita a este recorte de dados."
+        "review": "Nenhuma mudança foi feita a este recorte de dados.",
+        "source_read_only": "O clipe de dados não pode ser mesclado porque a planilha de origem é somente para leitura."
       }
     },
     "buttonText": "Recortar dados",

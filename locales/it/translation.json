@@ -260,7 +260,8 @@
           "add_to_clip": "Seleziona almeno un record da aggiungere a una clip di dati.",
           "create": "Seleziona almeno un record per creare una clip di dati."
         },
-        "review": "Non sono state fatte modifiche a questa clip di dati."
+        "review": "Non sono state fatte modifiche a questa clip di dati.",
+        "source_read_only": "La clip dati non può essere unita perché il foglio di origine è di sola lettura."
       }
     },
     "buttonText": "Dati della clip",

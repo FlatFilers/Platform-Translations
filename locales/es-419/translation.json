@@ -259,7 +259,8 @@
           "add_to_clip": "Seleccione al menos un registro para agregarlo a un fragmento de datos.",
           "create": "Seleccione al menos un registro para crear un fragmento de datos."
         },
-        "review": "No se han realizado cambios a este fragmento de datos."
+        "review": "No se han realizado cambios a este fragmento de datos.",
+        "source_read_only": "El clip de datos no se puede fusionar porque la hoja fuente está en modo de solo lectura."
       }
     },
     "buttonText": "Fragmentar datos",

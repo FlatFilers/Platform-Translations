@@ -260,7 +260,8 @@
           "add_to_clip": "Select at least one record to add to a data clip.",
           "create": "Select at least one record to create a data clip."
         },
-        "review": "No changes have been made to this data clip."
+        "review": "No changes have been made to this data clip.",
+        "source_read_only": "The data clip cannot be merged because the source sheet is read-only."
       }
     },
     "buttonText": "Clip data",

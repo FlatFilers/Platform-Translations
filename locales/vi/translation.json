@@ -257,7 +257,8 @@
           "add_to_clip": "Hãy chọn ít nhất một bản ghi để tạo clip dữ liệu.",
           "create": "Hãy chọn ít nhất một bản ghi để tạo clip dữ liệu."
         },
-        "review": "Clip dữ liệu chưa có thay đổi nào."
+        "review": "Clip dữ liệu chưa có thay đổi nào.",
+        "source_read_only": "Không thể hợp nhất đoạn dữ liệu do trang tính nguồn ở chế độ chỉ đọc."
       }
     },
     "buttonText": "Clip dữ liệu",

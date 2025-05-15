@@ -259,7 +259,8 @@
           "add_to_clip": "Valige andmeklipile lisamiseks vähemalt üks kirje.",
           "create": "Andmeklippi loomiseks valige vähemalt üks kirje."
         },
-        "review": "Sellele andmeklipile pole muudatusi tehtud."
+        "review": "Sellele andmeklipile pole muudatusi tehtud.",
+        "source_read_only": "Andmeklippi ei saa liita, kuna lähteleht on kirjutuskaitstud."
       }
     },
     "buttonText": "Klipi andmed",

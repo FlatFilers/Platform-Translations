@@ -260,7 +260,8 @@
           "add_to_clip": "Selecione um registo, pelo menos, para adicionar a um clipe de dados.",
           "create": "Selecione um registo, pelo menos, para criar um clipe de dados."
         },
-        "review": "Não foram feitas quaisquer alterações a este clipe de dados."
+        "review": "Não foram feitas quaisquer alterações a este clipe de dados.",
+        "source_read_only": "O clipe de dados não pode ser unido porque a folha de origem é apenas de leitura."
       }
     },
     "buttonText": "Dados do clipe",

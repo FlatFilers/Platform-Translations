@@ -260,7 +260,8 @@
           "add_to_clip": "Bir veri parçası eklemek için en az bir kayıt seçin",
           "create": "Bir veri parçası oluşturmak için en az bir kayıt seçin"
         },
-        "review": "Bu veri parçası üzerinde değişiklik yapılmadı."
+        "review": "Bu veri parçası üzerinde değişiklik yapılmadı.",
+        "source_read_only": "Kaynak sayfa salt okunur olduğu için veri klibi birleştirilemiyor."
       }
     },
     "buttonText": "Parça verisi",

@@ -259,7 +259,8 @@
           "add_to_clip": "Valitse vähintään yksi tietue lisättäväksi tietoleikkeeseen.",
           "create": "Valitse vähintään yksi tietue luodaksesi tietoleikkeen."
         },
-        "review": "Tähän tietoleikkeeseen ei ole tehty muutoksia."
+        "review": "Tähän tietoleikkeeseen ei ole tehty muutoksia.",
+        "source_read_only": "Tietoleikettä ei voida yhdistää, koska lähdetaulukko on kirjoitussuojattu."
       }
     },
     "buttonText": "Leiketiedot",

@@ -259,7 +259,8 @@
           "add_to_clip": "Välj minst en post att lägga till i ett dataklipp.",
           "create": "Välj minst en post för att skapa ett dataklipp."
         },
-        "review": "Inga ändringar har gjorts i det här dataklippet."
+        "review": "Inga ändringar har gjorts i det här dataklippet.",
+        "source_read_only": "Dataklippet kan inte sammanfogas eftersom källarket är skrivskyddat."
       }
     },
     "buttonText": "Klippdata",

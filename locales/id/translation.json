@@ -257,7 +257,8 @@
           "add_to_clip": "Pilih setidaknya satu rekaman untuk menambahkan pada klip data.",
           "create": "Pilih setidaknya satu rekaman untuk membuat klip data."
         },
-        "review": "Tidak ada perubahan yang dibuat pada klip data ini."
+        "review": "Tidak ada perubahan yang dibuat pada klip data ini.",
+        "source_read_only": "Klip data tidak dapat digabungkan karena lembar sumber hanya dapat dibaca."
       }
     },
     "buttonText": "Data klip",

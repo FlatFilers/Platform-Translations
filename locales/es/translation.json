@@ -260,7 +260,8 @@
           "add_to_clip": "Selecciona al menos un registro para añadir a un clip de datos.",
           "create": "Selecciona al menos un registro para crear un clip de datos."
         },
-        "review": "No se han realizado cambios en este clip de datos."
+        "review": "No se han realizado cambios en este clip de datos.",
+        "source_read_only": "El clip de datos no se puede fusionar porque la hoja de origen es de solo lectura."
       }
     },
     "buttonText": "Datos del clip",

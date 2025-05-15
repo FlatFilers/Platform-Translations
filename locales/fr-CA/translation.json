@@ -260,7 +260,8 @@
           "add_to_clip": "Sélectionnez au moins un enregistrement à ajouter à un extrait de données.",
           "create": "Sélectionnez au moins un enregistrement pour créer un extrait de données."
         },
-        "review": "Aucune modification n'a été apportée à cet extrait de données."
+        "review": "Aucune modification n'a été apportée à cet extrait de données.",
+        "source_read_only": "L'enregistrement de données ne peut pas être fusionné, car la feuille source est en lecture seule."
       }
     },
     "buttonText": "Extraire les données",

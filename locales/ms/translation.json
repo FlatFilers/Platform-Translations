@@ -256,7 +256,8 @@
           "add_to_clip": "Pilih sekurang-kurangnya satu rekod untuk ditambahkan pada klip data.",
           "create": "Pilih sekurang-kurangnya satu rekod untuk mencipta klip data."
         },
-        "review": "Tiada perubahan telah dibuat pada klip data ini."
+        "review": "Tiada perubahan telah dibuat pada klip data ini.",
+        "source_read_only": "Klip data tidak dapat digabung kerana helaian sumber ialah baca-sahaja."
       }
     },
     "buttonText": "Data klip",
