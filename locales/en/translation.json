@@ -97,6 +97,7 @@
     "removeCalculation": "Remove calculation"
   },
   "cellContextMenu": {
+    "comment": "Comment",
     "copy": "Copy",
     "cut": "Cut",
     "paste": "Paste"
