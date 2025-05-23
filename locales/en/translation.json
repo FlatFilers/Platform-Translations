@@ -94,7 +94,9 @@
     "literalCountNonEmpty": "Count filled",
     "literalPercentEmpty": "Percent empty",
     "literalPercentNonEmpty": "Percent filled",
-    "removeCalculation": "Remove calculation"
+    "removeCalculation": "Remove calculation",
+    "literalSum": "Sum",
+    "sum": "Sum: {{sum}}"
   },
   "cellContextMenu": {
     "comment": "Comment",
