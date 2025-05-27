@@ -90,13 +90,19 @@
     "calculate": "Calculate",
     "countEmpty": "{{count}} empty",
     "countNonEmpty": "{{count}} filled",
+    "sum": "Sum: {{sum}}",
+    "average": "Average: {{average}}",
+    "min": "Min: {{min}}",
+    "max": "Max: {{max}}",
     "literalCountEmpty": "Count empty",
     "literalCountNonEmpty": "Count filled",
     "literalPercentEmpty": "Percent empty",
     "literalPercentNonEmpty": "Percent filled",
-    "removeCalculation": "Remove calculation",
     "literalSum": "Sum",
-    "sum": "Sum: {{sum}}"
+    "literalAverage": "Average",
+    "literalMin": "Min",
+    "literalMax": "Max",
+    "removeCalculation": "Remove calculation"
   },
   "cellContextMenu": {
     "comment": "Comment",
