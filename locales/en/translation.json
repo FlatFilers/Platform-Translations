@@ -1334,7 +1334,8 @@
         "tooltip": {
           "createRow": "Add data to create this row",
           "noData": "There are no rows available to select. Only rows containing data can be selected.",
-          "rowNumber": "Row {{number}}"
+          "rowNumber": "Row {{number}}",
+          "rowSelectionFailed": "Partial row selection is limited to 25,000 rows."
         }
       },
       "maximumMessage": {
