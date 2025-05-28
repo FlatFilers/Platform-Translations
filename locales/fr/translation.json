@@ -88,16 +88,25 @@
     }
   },
   "calculations": {
+    "average": "Moyenne : {{average}}",
     "calculate": "Calculer",
     "countEmpty": "{{count}} vide",
     "countNonEmpty": "{{count}} rempli",
+    "literalAverage": "Moyenne",
     "literalCountEmpty": "Compte vide",
     "literalCountNonEmpty": "Compte rempli",
+    "literalMax": "Max",
+    "literalMin": "Min",
     "literalPercentEmpty": "Pourcentage vide",
     "literalPercentNonEmpty": "Pourcentage rempli",
-    "removeCalculation": "Supprimer le calcul"
+    "literalSum": "Somme",
+    "max": "Max : {{max}}",
+    "min": "Min : {{min}}",
+    "removeCalculation": "Supprimer le calcul",
+    "sum": "Somme : {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "Commentaire",
     "copy": "Copier",
     "cut": "Couper",
     "paste": "Coller"
@@ -1353,7 +1362,8 @@
         "tooltip": {
           "createRow": "Ajoutez des données pour créer cette ligne",
           "noData": "Il n'y a pas de ligne à sélectionner. Seules les lignes contenant des données peuvent être sélectionnées.",
-          "rowNumber": "Ligne {{number}}"
+          "rowNumber": "Ligne {{number}}",
+          "rowSelectionFailed": "La sélection partielle de lignes est limitée à 25 000 lignes."
         }
       },
       "maximumMessage": {

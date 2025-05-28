@@ -87,16 +87,25 @@
     }
   },
   "calculations": {
+    "average": "Rata-rata: {{average}}",
     "calculate": "Hitung",
     "countEmpty": "{{count}} kosong",
     "countNonEmpty": "{{count}} terisi",
+    "literalAverage": "Rata-rata",
     "literalCountEmpty": "Hitung kosong",
     "literalCountNonEmpty": "Hitung terisi",
+    "literalMax": "Maks",
+    "literalMin": "Min",
     "literalPercentEmpty": "Persen kosong",
     "literalPercentNonEmpty": "Persen terisi",
-    "removeCalculation": "Hapus penghitungan"
+    "literalSum": "Jumlah",
+    "max": "Maks: {{max}}",
+    "min": "Min: {{min}}",
+    "removeCalculation": "Hapus penghitungan",
+    "sum": "Jumlah: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "Komentar",
     "copy": "Salin",
     "cut": "Potong",
     "paste": "Tempel"
@@ -1324,7 +1333,8 @@
         "tooltip": {
           "createRow": "Tambahkan data untuk membuat baris ini",
           "noData": "Tidak ada barisan yang dapat dipilih. Hanya baris berisi data yang dapat dipilih.",
-          "rowNumber": "Baris {{number}}"
+          "rowNumber": "Baris {{number}}",
+          "rowSelectionFailed": "Pilihan baris parsial dibatasi hingga 25.000 baris."
         }
       },
       "maximumMessage": {

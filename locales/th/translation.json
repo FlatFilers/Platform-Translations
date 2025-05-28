@@ -86,16 +86,25 @@
     }
   },
   "calculations": {
+    "average": "ค่าเฉลี่ย: {{average}}",
     "calculate": "คำนวณ",
     "countEmpty": "{{count}} ว่าง",
     "countNonEmpty": "{{count}} เติม",
+    "literalAverage": "ค่าเฉลี่ย",
     "literalCountEmpty": "นับว่าง",
     "literalCountNonEmpty": "นับเติม",
+    "literalMax": "ค่าสูงสุด",
+    "literalMin": "ค่าต่ำสุด",
     "literalPercentEmpty": "เปอร์เซ็นต์ว่าง",
     "literalPercentNonEmpty": "เปอร์เซ็นต์เติม",
-    "removeCalculation": "ลบการคำนวณ"
+    "literalSum": "ผลรวม",
+    "max": "ค่าสูงสุด: {{max}}",
+    "min": "ค่าต่ำสุด: {{min}}",
+    "removeCalculation": "ลบการคำนวณ",
+    "sum": "ผลรวม: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "ความเห็น",
     "copy": "คัดลอก",
     "cut": "ตัด",
     "paste": "วาง"
@@ -1323,7 +1332,8 @@
         "tooltip": {
           "createRow": "เพิ่มข้อมูลเพื่อสร้างแถวนี้",
           "noData": "ไม่มีแถวให้เลือก สามารถเลือกได้เฉพาะแถวที่มีข้อมูลเท่านั้น",
-          "rowNumber": "แถว {{number}}"
+          "rowNumber": "แถว {{number}}",
+          "rowSelectionFailed": "การเลือกแถวบางส่วนจำกัดที่ 25,000 แถว"
         }
       },
       "maximumMessage": {

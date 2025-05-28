@@ -87,16 +87,25 @@
     }
   },
   "calculations": {
+    "average": "평균: {{average}}",
     "calculate": "계산",
     "countEmpty": "{{count}}개 비어 있음",
     "countNonEmpty": "{{count}}개 채워짐",
+    "literalAverage": "평균",
     "literalCountEmpty": "비어 있는 수",
     "literalCountNonEmpty": "채워진 수",
+    "literalMax": "최대",
+    "literalMin": "최소",
     "literalPercentEmpty": "비어 있는 비율",
     "literalPercentNonEmpty": "채워진 비율",
-    "removeCalculation": "계산 제거"
+    "literalSum": "합계",
+    "max": "최대: {{max}}",
+    "min": "최소: {{min}}",
+    "removeCalculation": "계산 제거",
+    "sum": "합계: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "댓글",
     "copy": "복사",
     "cut": "잘라내기",
     "paste": "붙여넣기"
@@ -1324,7 +1333,8 @@
         "tooltip": {
           "createRow": "데이터를 추가하여 이 행 만들기",
           "noData": "선택할 수 있는 행이 없습니다. 데이터가 포함된 행만 선택할 수 있습니다.",
-          "rowNumber": "{{number}}행"
+          "rowNumber": "{{number}}행",
+          "rowSelectionFailed": "부분 행 선택은 25,000행으로 제한됩니다."
         }
       },
       "maximumMessage": {

@@ -89,16 +89,25 @@
     }
   },
   "calculations": {
+    "average": "Średnia: {{average}}",
     "calculate": "Oblicz",
     "countEmpty": "Puste: {{count}}",
     "countNonEmpty": "Wypełniono {{count}}",
+    "literalAverage": "Średnia",
     "literalCountEmpty": "Policz puste",
     "literalCountNonEmpty": "Policz wypełnione",
+    "literalMax": "Maks.",
+    "literalMin": "Min.",
     "literalPercentEmpty": "Procent pustych",
     "literalPercentNonEmpty": "Procent wypełnionych",
-    "removeCalculation": "Usuń obliczenie"
+    "literalSum": "Suma",
+    "max": "Maks.: {{max}}",
+    "min": "Min.: {{min}}",
+    "removeCalculation": "Usuń obliczenie",
+    "sum": "Suma: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "Komentarz",
     "copy": "Skopiuj",
     "cut": "Wytnij",
     "paste": "Wklej"
@@ -1410,7 +1419,8 @@
         "tooltip": {
           "createRow": "Dodaj dane, aby utworzyć ten wiersz",
           "noData": "Nie ma dostępnych wierszy do zaznaczenia. Możesz wybrać tylko wiersze zawierające dane.",
-          "rowNumber": "Wiersz {{number}}"
+          "rowNumber": "Wiersz {{number}}",
+          "rowSelectionFailed": "Częściowy wybór wierszy jest ograniczony do 25 000 wierszy."
         }
       },
       "maximumMessage": {

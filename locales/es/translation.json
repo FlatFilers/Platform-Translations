@@ -88,16 +88,25 @@
     }
   },
   "calculations": {
+    "average": "Promedio: {{average}}",
     "calculate": "Calcular",
     "countEmpty": "{{count}} vacíos",
     "countNonEmpty": "{{count}} llenos",
+    "literalAverage": "Promedio",
     "literalCountEmpty": "Contar vacíos",
     "literalCountNonEmpty": "Contar llenos",
+    "literalMax": "Máx.",
+    "literalMin": "Mín.",
     "literalPercentEmpty": "Porcentaje de vacíos",
     "literalPercentNonEmpty": "Porcentaje de llenos",
-    "removeCalculation": "Eliminar cálculo"
+    "literalSum": "Suma",
+    "max": "Máx.:{{max}}",
+    "min": "Mín.: {{min}}",
+    "removeCalculation": "Eliminar cálculo",
+    "sum": "Suma: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "Comentario",
     "copy": "Copiar",
     "cut": "Cortar",
     "paste": "Pegar"
@@ -1353,7 +1362,8 @@
         "tooltip": {
           "createRow": "Añada datos para crear esta fila.",
           "noData": "No hay filas disponibles para seleccionar. Sólo las filas con datos pueden ser seleccionadas.",
-          "rowNumber": "Fila {{number}}"
+          "rowNumber": "Fila {{number}}",
+          "rowSelectionFailed": "La selección parcial de filas está limitada a 25 000."
         }
       },
       "maximumMessage": {

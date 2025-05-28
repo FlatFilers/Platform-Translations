@@ -86,16 +86,25 @@
     }
   },
   "calculations": {
+    "average": "平均值：{{average}}",
     "calculate": "計算",
     "countEmpty": "{{count}} 空的",
     "countNonEmpty": "{{count}} 已填入的",
+    "literalAverage": "平均值",
     "literalCountEmpty": "計算空的",
     "literalCountNonEmpty": "計算已填入的",
+    "literalMax": "最大值",
+    "literalMin": "最小值",
     "literalPercentEmpty": "空的佔比",
     "literalPercentNonEmpty": "已填入的佔比",
-    "removeCalculation": "移除計算"
+    "literalSum": "總數",
+    "max": "最大值：{{max}}",
+    "min": "最小值：{{min}}",
+    "removeCalculation": "移除計算",
+    "sum": "總數：{{sum}}"
   },
   "cellContextMenu": {
+    "comment": "評論",
     "copy": "複製",
     "cut": "剪下",
     "paste": "貼上"
@@ -1323,7 +1332,8 @@
         "tooltip": {
           "createRow": "新增資料以建立此列",
           "noData": "目前無可選擇的列。僅能選擇包含資料的列。",
-          "rowNumber": "第 {{number}} 列"
+          "rowNumber": "第 {{number}} 列",
+          "rowSelectionFailed": "部分列的選取限制為 25,000 列。"
         }
       },
       "maximumMessage": {

@@ -89,16 +89,25 @@
     }
   },
   "calculations": {
+    "average": "Середній: {{average}}",
     "calculate": "Розрахувати",
     "countEmpty": "{{count}} порожніх",
     "countNonEmpty": "{{count}} заповнених",
+    "literalAverage": "Середній",
     "literalCountEmpty": "Рахувати порожні",
     "literalCountNonEmpty": "Кількість заповнених",
+    "literalMax": "Макс.",
+    "literalMin": "Мін.",
     "literalPercentEmpty": "Відсоток порожніх",
     "literalPercentNonEmpty": "Відсоток заповнених",
-    "removeCalculation": "Видалити розрахунок"
+    "literalSum": "Сума",
+    "max": "Макс.: {{max}}",
+    "min": "Мін.: {{min}}",
+    "removeCalculation": "Видалити розрахунок",
+    "sum": "Сума: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "Коментар",
     "copy": "Копіювати",
     "cut": "Вирізати",
     "paste": "Вставити"
@@ -1410,7 +1419,8 @@
         "tooltip": {
           "createRow": "Додати дані для створення цього рядка",
           "noData": "Немає рядків, доступних для вибору. Можна вибрати лише рядки, що містять дані.",
-          "rowNumber": "Рядок {{number}}"
+          "rowNumber": "Рядок {{number}}",
+          "rowSelectionFailed": "Частковий вибір рядків обмежений до 25 000 рядків."
         }
       },
       "maximumMessage": {

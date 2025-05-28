@@ -88,16 +88,25 @@
     }
   },
   "calculations": {
+    "average": "Durchschnitt: {{average}}",
     "calculate": "Berechnen",
     "countEmpty": "{{count}} leer",
     "countNonEmpty": "{{count}} befüllt",
+    "literalAverage": "Durchschnitt",
     "literalCountEmpty": "Leere Zellen zählen",
     "literalCountNonEmpty": "Befüllte Zellen zählen",
+    "literalMax": "Max",
+    "literalMin": "Min",
     "literalPercentEmpty": "Prozentsatz leer",
     "literalPercentNonEmpty": "Prozentsatz befüllt",
-    "removeCalculation": "Berechnung entfernen"
+    "literalSum": "Summe",
+    "max": "Max: {{max}}",
+    "min": "Min: {{min}}",
+    "removeCalculation": "Berechnung entfernen",
+    "sum": "Summe: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "Kommentar",
     "copy": "Kopieren",
     "cut": "Ausschneiden",
     "paste": "Einfügen"
@@ -1353,7 +1362,8 @@
         "tooltip": {
           "createRow": "Zum Anlegen dieser Zeile Daten hinzufügen",
           "noData": "Es gibt keine auswählbaren Zeilen. Es können nur Zeilen ausgewählt werden, die Daten enthalten.",
-          "rowNumber": "Zeile {{number}}"
+          "rowNumber": "Zeile {{number}}",
+          "rowSelectionFailed": "Die teilweise Zeilenauswahl ist auf 25.000 Zeilen begrenzt."
         }
       },
       "maximumMessage": {

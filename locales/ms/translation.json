@@ -86,16 +86,25 @@
     }
   },
   "calculations": {
+    "average": "Purata: {{average}}",
     "calculate": "Kira",
     "countEmpty": "{{count}} kosong",
     "countNonEmpty": "{{count}} telah diisi",
+    "literalAverage": "Purata",
     "literalCountEmpty": "Kira bilangan kosong",
     "literalCountNonEmpty": "Kira bilangan diisi",
+    "literalMax": "Maks",
+    "literalMin": "Min",
     "literalPercentEmpty": "Peratusan kosong",
     "literalPercentNonEmpty": "Peratusan diisi",
-    "removeCalculation": "Padam pengiraan"
+    "literalSum": "Jumlah",
+    "max": "Maks: {{max}}",
+    "min": "Min: {{min}}",
+    "removeCalculation": "Padam pengiraan",
+    "sum": "Jumlah: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "Komen",
     "copy": "Salin",
     "cut": "Potong",
     "paste": "Tampal"
@@ -1323,7 +1332,8 @@
         "tooltip": {
           "createRow": "Tambah data untuk mencipta baris ini",
           "noData": "Tiada baris yang boleh dipilih. Hanya baris yang mengandungi data boleh dipilih.",
-          "rowNumber": "Baris {{number}}"
+          "rowNumber": "Baris {{number}}",
+          "rowSelectionFailed": "Pilihan baris separa terhad kepada 25,000 baris."
         }
       },
       "maximumMessage": {

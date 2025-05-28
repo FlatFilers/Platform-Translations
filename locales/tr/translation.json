@@ -88,16 +88,25 @@
     }
   },
   "calculations": {
+    "average": "Ortalama: {{average}}",
     "calculate": "Hesapla",
     "countEmpty": "{{count}} boş",
     "countNonEmpty": "{{count}} dolduruldu",
+    "literalAverage": "Ortalama",
     "literalCountEmpty": "Sayı boş",
     "literalCountNonEmpty": "Sayım dolduruldu",
+    "literalMax": "Maks",
+    "literalMin": "Min",
     "literalPercentEmpty": "Yüzde boş",
     "literalPercentNonEmpty": "Yüzde dolu",
-    "removeCalculation": "Hesaplamayı kaldır"
+    "literalSum": "Toplam",
+    "max": "Maks: {{max}}",
+    "min": "Min: {{min}}",
+    "removeCalculation": "Hesaplamayı kaldır",
+    "sum": "Toplam: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "Yorum",
     "copy": "Kopyala",
     "cut": "Kes",
     "paste": "Yapıştır"
@@ -1353,7 +1362,8 @@
         "tooltip": {
           "createRow": "Bu satırı oluşturmak için veri ekleyin",
           "noData": "Seçilebilecek satır yok. Yalnızca veri içeren satırlar seçilebilir.",
-          "rowNumber": "{{number}}. Satır"
+          "rowNumber": "{{number}}. Satır",
+          "rowSelectionFailed": "Kısmi satır seçimi, 25.000 satırla sınırlıdır."
         }
       },
       "maximumMessage": {

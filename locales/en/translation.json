@@ -87,22 +87,22 @@
     }
   },
   "calculations": {
+    "average": "Average: {{average}}",
     "calculate": "Calculate",
     "countEmpty": "{{count}} empty",
     "countNonEmpty": "{{count}} filled",
-    "sum": "Sum: {{sum}}",
-    "average": "Average: {{average}}",
-    "min": "Min: {{min}}",
-    "max": "Max: {{max}}",
+    "literalAverage": "Average",
     "literalCountEmpty": "Count empty",
     "literalCountNonEmpty": "Count filled",
+    "literalMax": "Max",
+    "literalMin": "Min",
     "literalPercentEmpty": "Percent empty",
     "literalPercentNonEmpty": "Percent filled",
     "literalSum": "Sum",
-    "literalAverage": "Average",
-    "literalMin": "Min",
-    "literalMax": "Max",
-    "removeCalculation": "Remove calculation"
+    "max": "Max: {{max}}",
+    "min": "Min: {{min}}",
+    "removeCalculation": "Remove calculation",
+    "sum": "Sum: {{sum}}"
   },
   "cellContextMenu": {
     "comment": "Comment",

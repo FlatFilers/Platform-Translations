@@ -88,16 +88,25 @@
     }
   },
   "calculations": {
+    "average": "Average: {{average}}",
     "calculate": "Calculate",
     "countEmpty": "{{count}} empty",
     "countNonEmpty": "{{count}} filled",
+    "literalAverage": "Average",
     "literalCountEmpty": "Count empty",
     "literalCountNonEmpty": "Count filled",
+    "literalMax": "Max",
+    "literalMin": "Min",
     "literalPercentEmpty": "Percent empty",
     "literalPercentNonEmpty": "Percent filled",
-    "removeCalculation": "Remove calculation"
+    "literalSum": "Sum",
+    "max": "Max: {{max}}",
+    "min": "Min: {{min}}",
+    "removeCalculation": "Remove calculation",
+    "sum": "Sum: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "Comment",
     "copy": "Copy",
     "cut": "Cut",
     "paste": "Paste"
@@ -1353,7 +1362,8 @@
         "tooltip": {
           "createRow": "Add data to create this row",
           "noData": "There are no rows available to select. Only rows containing data can be selected.",
-          "rowNumber": "Row {{number}}"
+          "rowNumber": "Row {{number}}",
+          "rowSelectionFailed": "Partial row selection is limited to 25,000 rows."
         }
       },
       "maximumMessage": {

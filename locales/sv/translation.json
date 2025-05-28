@@ -87,16 +87,25 @@
     }
   },
   "calculations": {
+    "average": "Snitt: {{average}}",
     "calculate": "Beräkna",
     "countEmpty": "{{count}} tomma",
     "countNonEmpty": "{{count}} fyllda",
+    "literalAverage": "Snitt",
     "literalCountEmpty": "Räkna tomma",
     "literalCountNonEmpty": "Räkna fyllda",
+    "literalMax": "Max",
+    "literalMin": "Min.",
     "literalPercentEmpty": "Procent tomma",
     "literalPercentNonEmpty": "Procent fyllda",
-    "removeCalculation": "Ta bort beräkning"
+    "literalSum": "Summa",
+    "max": "Max: {{max}}",
+    "min": "Min.: {{min}}",
+    "removeCalculation": "Ta bort beräkning",
+    "sum": "Summa: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "Kommentar",
     "copy": "Kopiera",
     "cut": "Klipp",
     "paste": "Klistra in"
@@ -1352,7 +1361,8 @@
         "tooltip": {
           "createRow": "Lägg till data för att skapa denna rad",
           "noData": "Det finns inga rader tillgängliga att välja. Endast rader som innehåller data kan väljas.",
-          "rowNumber": "Rad {{number}}"
+          "rowNumber": "Rad {{number}}",
+          "rowSelectionFailed": "Delvis radval är begränsat till 25 000 rader."
         }
       },
       "maximumMessage": {

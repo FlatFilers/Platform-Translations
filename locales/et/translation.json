@@ -87,16 +87,25 @@
     }
   },
   "calculations": {
+    "average": "Keskmine: {{average}}",
     "calculate": "Arvuta",
     "countEmpty": "{{count}} tühi/tühjad",
     "countNonEmpty": "{{count}} täidetud",
+    "literalAverage": "Keskmine",
     "literalCountEmpty": "Loe tühjad kokku",
     "literalCountNonEmpty": "Loe täidetud kokku",
+    "literalMax": "Max",
+    "literalMin": "Min",
     "literalPercentEmpty": "Tühjade protsent",
     "literalPercentNonEmpty": "Täidetute protsent",
-    "removeCalculation": "Eemalda arvutus"
+    "literalSum": "Summa",
+    "max": "Max: {{max}}",
+    "min": "Min: {{min}}",
+    "removeCalculation": "Eemalda arvutus",
+    "sum": "Summa: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "Kommentaar",
     "copy": "Kopeeri",
     "cut": "Lõika",
     "paste": "Kleebi"
@@ -1352,7 +1361,8 @@
         "tooltip": {
           "createRow": "Selle veeru loomiseks sisestage andmed",
           "noData": "Valida ei saa ühtegi veergu. Valida saab vaid andmetega veerge.",
-          "rowNumber": "{{number}}. rida"
+          "rowNumber": "{{number}}. rida",
+          "rowSelectionFailed": "Osaliselt saab valida kuni 25 000 rida."
         }
       },
       "maximumMessage": {

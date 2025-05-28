@@ -87,16 +87,25 @@
     }
   },
   "calculations": {
+    "average": "平均：{{average}}",
     "calculate": "計算",
     "countEmpty": "{{count}} 空",
     "countNonEmpty": "{{count}} 入力済み",
+    "literalAverage": "平均",
     "literalCountEmpty": "空の数",
     "literalCountNonEmpty": "入力済み数",
+    "literalMax": "最大",
+    "literalMin": "最小",
     "literalPercentEmpty": "空の割合（％）",
     "literalPercentNonEmpty": "入力済みの割合（％）",
-    "removeCalculation": "計算を削除"
+    "literalSum": "合計",
+    "max": "最大：{{max}}",
+    "min": "最小：{{min}}",
+    "removeCalculation": "計算を削除",
+    "sum": "合計：{{sum}}"
   },
   "cellContextMenu": {
+    "comment": "コメント",
     "copy": "コピー",
     "cut": "カット",
     "paste": "ペースト"
@@ -1324,7 +1333,8 @@
         "tooltip": {
           "createRow": "データを追加してこの行を作成します",
           "noData": "選択できる行がありません。データを含む行のみを選択できます。",
-          "rowNumber": "行 {{number}}"
+          "rowNumber": "行 {{number}}",
+          "rowSelectionFailed": "部分的な行選択は25000行までです。"
         }
       },
       "maximumMessage": {

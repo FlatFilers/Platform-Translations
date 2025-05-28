@@ -87,16 +87,25 @@
     }
   },
   "calculations": {
+    "average": "Gemiddeld: {{average}}",
     "calculate": "Berekenen",
     "countEmpty": "{{count}} leeg",
     "countNonEmpty": "{{count}} gevuld",
+    "literalAverage": "Gemiddeld",
     "literalCountEmpty": "Telling leeg",
     "literalCountNonEmpty": "Telling gevuld",
+    "literalMax": "Max.",
+    "literalMin": "Min.",
     "literalPercentEmpty": "Percentage leeg",
     "literalPercentNonEmpty": "Percentage gevuld",
-    "removeCalculation": "Verwijder berekening"
+    "literalSum": "Som",
+    "max": "Max.: {{max}}",
+    "min": "Min.: {{min}}",
+    "removeCalculation": "Verwijder berekening",
+    "sum": "Som: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "Commentaar",
     "copy": "Kopiëren",
     "cut": "Knippen",
     "paste": "Plakken"
@@ -1352,7 +1361,8 @@
         "tooltip": {
           "createRow": "Voeg gegevens toe om deze rij te maken",
           "noData": "Er zijn geen rijen beschikbaar om te selecteren. Alleen rijen met data kunnen geselecteerd worden.",
-          "rowNumber": "Rij {{number}}"
+          "rowNumber": "Rij {{number}}",
+          "rowSelectionFailed": "Gedeeltelijke rijselectie is beperkt tot 25.000 rijen."
         }
       },
       "maximumMessage": {

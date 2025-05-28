@@ -86,16 +86,25 @@
     }
   },
   "calculations": {
+    "average": "平均：{{average}}",
     "calculate": "计算",
     "countEmpty": "{{count}} 为空",
     "countNonEmpty": "{{count}} 已填充",
+    "literalAverage": "平均",
     "literalCountEmpty": "计数为空",
     "literalCountNonEmpty": "已填计数",
+    "literalMax": "最大",
+    "literalMin": "最小",
     "literalPercentEmpty": "百分比为空",
     "literalPercentNonEmpty": "已填百分比",
-    "removeCalculation": "删除计算"
+    "literalSum": "总和",
+    "max": "最大：{{max}}",
+    "min": "最小：{{min}}",
+    "removeCalculation": "删除计算",
+    "sum": "总和：{{sum}}"
   },
   "cellContextMenu": {
+    "comment": "评论",
     "copy": "复制",
     "cut": "剪切",
     "paste": "粘贴"
@@ -1323,7 +1332,8 @@
         "tooltip": {
           "createRow": "添加数据以创建此行",
           "noData": "没有可选的行。只能选择包含数据的行。",
-          "rowNumber": "第 {{number}} 行"
+          "rowNumber": "第 {{number}} 行",
+          "rowSelectionFailed": "部分行选择行数上限为 25,000 行。"
         }
       },
       "maximumMessage": {

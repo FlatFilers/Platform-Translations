@@ -87,16 +87,25 @@
     }
   },
   "calculations": {
+    "average": "Trung bình: {{average}}",
     "calculate": "Tính toán",
     "countEmpty": "{{count}} trống",
     "countNonEmpty": "{{count}} đã được điền",
+    "literalAverage": "Trung bình",
     "literalCountEmpty": "Đếm ô trống",
     "literalCountNonEmpty": "Đếm ô đã điền",
+    "literalMax": "Tối đa",
+    "literalMin": "Tối thiểu",
     "literalPercentEmpty": "Phần trăm trống",
     "literalPercentNonEmpty": "Phần trăm đã điền",
-    "removeCalculation": "Xóa phép tính"
+    "literalSum": "Tổng",
+    "max": "Tối đa: {{max}}",
+    "min": "Tối thiểu: {{min}}",
+    "removeCalculation": "Xóa phép tính",
+    "sum": "Tổng: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "Bình luận",
     "copy": "Sao chép",
     "cut": "Cắt",
     "paste": "Dán"
@@ -1324,7 +1333,8 @@
         "tooltip": {
           "createRow": "Thêm dữ liệu để tạo hàng này",
           "noData": "Không có sẵn hàng nào để chọn. Chỉ có thể chọn các hàng chứa dữ liệu.",
-          "rowNumber": "Hàng {{number}}"
+          "rowNumber": "Hàng {{number}}",
+          "rowSelectionFailed": "Giới hạn chọn một số hàng là 25.000 hàng."
         }
       },
       "maximumMessage": {

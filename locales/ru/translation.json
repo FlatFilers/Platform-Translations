@@ -89,16 +89,25 @@
     }
   },
   "calculations": {
+    "average": "Среднее: {{average}}",
     "calculate": "Рассчитать",
     "countEmpty": "{{count}} пусто",
     "countNonEmpty": "{{count}} заполнено",
+    "literalAverage": "Среднее",
     "literalCountEmpty": "Считать пустым",
     "literalCountNonEmpty": "Считать заполненным",
+    "literalMax": "Макс.",
+    "literalMin": "Мин.",
     "literalPercentEmpty": "Процент пустых",
     "literalPercentNonEmpty": "Процент заполненных",
-    "removeCalculation": "Удалить расчет"
+    "literalSum": "Сумма",
+    "max": "Макс.: {{max}}",
+    "min": "Мин.: {{min}}",
+    "removeCalculation": "Удалить расчет",
+    "sum": "Сумма: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "Комментарий",
     "copy": "Копировать",
     "cut": "Вырезать",
     "paste": "Вставить"
@@ -1410,7 +1419,8 @@
         "tooltip": {
           "createRow": "Добавьте данные для создания этой строки",
           "noData": "Нет доступных для выбора строк. Можно выбрать только строки, содержащие данные.",
-          "rowNumber": "Строка {{number}}"
+          "rowNumber": "Строка {{number}}",
+          "rowSelectionFailed": "Частичный выбор строк ограничен 25 000 строк."
         }
       },
       "maximumMessage": {

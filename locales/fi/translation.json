@@ -87,16 +87,25 @@
     }
   },
   "calculations": {
+    "average": "Keskiarvo: {{average}}",
     "calculate": "Laske",
     "countEmpty": "{{count}} tyhjää",
     "countNonEmpty": "{{count}} täytettyä",
+    "literalAverage": "Keskiarvo",
     "literalCountEmpty": "Laske tyhjät",
     "literalCountNonEmpty": "Laske täytetyt",
+    "literalMax": "Suurin",
+    "literalMin": "Pienin",
     "literalPercentEmpty": "Tyhjien prosenttiluku",
     "literalPercentNonEmpty": "Täytettyjen prosenttiluku",
-    "removeCalculation": "Poista laskelma"
+    "literalSum": "Summa",
+    "max": "Suurin: {{max}}",
+    "min": "Pienin: {{min}}",
+    "removeCalculation": "Poista laskelma",
+    "sum": "Summa: {{sum}}"
   },
   "cellContextMenu": {
+    "comment": "Kommentti",
     "copy": "Kopioi",
     "cut": "Leikkaa",
     "paste": "Liitä"
@@ -1352,7 +1361,8 @@
         "tooltip": {
           "createRow": "Lisää tietoja luodaksesi tämän rivin",
           "noData": "Rivejä ei ole käytettävissä valittaviksi. Vain tietoja sisältäviä rivejä voidaan valita.",
-          "rowNumber": "Rivi {{number}}"
+          "rowNumber": "Rivi {{number}}",
+          "rowSelectionFailed": "Rivien osittainen valinta on rajattu 25 000 riviin."
         }
       },
       "maximumMessage": {
