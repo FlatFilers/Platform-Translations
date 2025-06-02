@@ -245,6 +245,7 @@
     "yesterday": "Yesterday"
   },
   "dataClips": {
+    "search": "Search data clips...",
     "actions": {
       "add_to_clip": "Add selections to data clip",
       "buttons": {
