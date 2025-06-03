@@ -425,6 +425,7 @@
       },
       "merge": "Fusionar"
     },
+    "search": "Buscar clips de datos...",
     "searchPlaceholder": "Buscando secuencias de datos...",
     "selectedRecords_one": "{{count}} registro seleccionado",
     "selectedRecords_other": "{{count}} registros seleccionados",

@@ -438,6 +438,7 @@
       },
       "merge": "Scal"
     },
+    "search": "Szukaj klipów z danymi...",
     "searchPlaceholder": "Szukaj wycinków danych...",
     "selectedRecords_few": "Wybrane rekordy: {{count}}",
     "selectedRecords_many": "Wybrane rekordy: {{count}}",

@@ -417,6 +417,7 @@
       },
       "merge": "ผสาน"
     },
+    "search": "ค้นหาคลิปข้อมูล...",
     "searchPlaceholder": "ค้นหาคลิปข้อมูล...",
     "selectedRecords_other": "บันทึกที่ถูกเลือก {{count}} รายการ",
     "selectedRecords_zero": "บันทึกที่ถูกเลือก {{count}} รายการ",

@@ -425,6 +425,7 @@
       },
       "merge": "Merge"
     },
+    "search": "Search data clips...",
     "searchPlaceholder": "Search data clips...",
     "selectedRecords_one": "{{count}} record selected",
     "selectedRecords_other": "{{count}} records selected",

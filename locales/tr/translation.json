@@ -425,6 +425,7 @@
       },
       "merge": "Birleştir"
     },
+    "search": "Veri kliplerini ara...",
     "searchPlaceholder": "Veri klipleri ara...",
     "selectedRecords_one": "{{count}} kayıt seçildi",
     "selectedRecords_other": "{{count}} kayıt seçildi",

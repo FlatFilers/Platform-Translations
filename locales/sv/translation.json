@@ -424,6 +424,7 @@
       },
       "merge": "Sammanfoga"
     },
+    "search": "Sök dataklipp ...",
     "searchPlaceholder": "Sök dataklipp...",
     "selectedRecords_one": "{{count}} post vald",
     "selectedRecords_other": "{{count}} poster valda",

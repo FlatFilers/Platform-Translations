@@ -425,6 +425,7 @@
       },
       "merge": "Unisci"
     },
+    "search": "Cerca clip dati...",
     "searchPlaceholder": "Cerca clip dati...",
     "selectedRecords_one": "{{count}} record selezionato",
     "selectedRecords_other": "{{count}} record selezionati",

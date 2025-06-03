@@ -417,6 +417,7 @@
       },
       "merge": "合併"
     },
+    "search": "搜尋資料片段...",
     "searchPlaceholder": "搜尋資料剪輯 ......",
     "selectedRecords_other": "已選取 {{count}} 筆記錄",
     "selectedRecords_zero": "已選取 {{count}} 筆記錄",

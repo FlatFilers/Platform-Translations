@@ -425,6 +425,7 @@
       },
       "merge": "Mesclar"
     },
+    "search": "Pesquisar clipes de dados...",
     "searchPlaceholder": "Pesquisar clipes de dados...",
     "selectedRecords_one": "{{count}} registro selecionado",
     "selectedRecords_other": "{{count}} registros selecionados",

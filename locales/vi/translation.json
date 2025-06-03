@@ -418,6 +418,7 @@
       },
       "merge": "Hợp nhất"
     },
+    "search": "Tìm đoạn dữ liệu...",
     "searchPlaceholder": "Tìm clip dữ liệu...",
     "selectedRecords_other": "Đã chọn {{count}} bản ghi",
     "selectedRecords_zero": "Đã chọn {{count}} bản ghi",

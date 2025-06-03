@@ -418,6 +418,7 @@
       },
       "merge": "結合"
     },
+    "search": "データクリップを検索...",
     "searchPlaceholder": "データクリップを検索...",
     "selectedRecords_other": "{{count}}件のレコードが選択されました",
     "selectedRecords_zero": "{{count}}件のレコードが選択されました",

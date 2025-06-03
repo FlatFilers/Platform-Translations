@@ -424,6 +424,7 @@
       },
       "merge": "Fusionar"
     },
+    "search": "Buscar fragmentos de datos...",
     "searchPlaceholder": "Buscar fragmentos de datos...",
     "selectedRecords_one": "{{count}} registro seleccionado",
     "selectedRecords_other": "{{count}} registros seleccionados",

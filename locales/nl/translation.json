@@ -424,6 +424,7 @@
       },
       "merge": "Samenvoegen"
     },
+    "search": "Gegevensclips zoeken...",
     "searchPlaceholder": "Zoeken in dataclips...",
     "selectedRecords_one": "{{count}} record geselecteerd",
     "selectedRecords_other": "{{count}} records geselecteerd",

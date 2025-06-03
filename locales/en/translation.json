@@ -418,6 +418,7 @@
       },
       "merge": "Merge"
     },
+    "search": "Search data clips...",
     "searchPlaceholder": "Search data clips...",
     "selectedRecords_one": "{{formattedCount}} record selected",
     "selectedRecords_other": "{{formattedCount}} records selected",
@@ -509,8 +510,8 @@
       "addFileFrom": {
         "box": "Box",
         "googleDrive": "Google Drive",
-        "text": "Add file from…",
-        "manageConnections": "Manage connections"
+        "manageConnections": "Manage connections",
+        "text": "Add file from…"
       },
       "delete": "Delete",
       "download": "Download",

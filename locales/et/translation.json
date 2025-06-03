@@ -424,6 +424,7 @@
       },
       "merge": "Liida"
     },
+    "search": "Andmeklippide otsimine...",
     "searchPlaceholder": "Andmeklippide otsimine...",
     "selectedRecords_one": "{{count}} kanne valitud",
     "selectedRecords_other": "{{count}} kannet valitud",

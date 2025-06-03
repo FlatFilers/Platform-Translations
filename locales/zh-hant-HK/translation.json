@@ -417,6 +417,7 @@
       },
       "merge": "合并"
     },
+    "search": "搜索数据片段……",
     "searchPlaceholder": "搜索数据片段……",
     "selectedRecords_other": "已选定 {{count}} 条记录",
     "selectedRecords_zero": "已选定 {{count}} 条记录",

@@ -425,6 +425,7 @@
       },
       "merge": "Zusammenführen"
     },
+    "search": "Datenclips durchsuchen",
     "searchPlaceholder": "Datenclips suchen ...",
     "selectedRecords_one": "{{count}} Datensatz ausgewählt",
     "selectedRecords_other": "{{count}} Datensätze ausgewählt",

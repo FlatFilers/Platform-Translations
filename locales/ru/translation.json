@@ -438,6 +438,7 @@
       },
       "merge": "Объединить"
     },
+    "search": "Поиск клипов данных...",
     "searchPlaceholder": "Поиск фрагментов данных...",
     "selectedRecords_few": "{{count}} записи выбрано",
     "selectedRecords_many": "{{count}} записей выбрано",

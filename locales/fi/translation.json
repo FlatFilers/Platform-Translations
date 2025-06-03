@@ -424,6 +424,7 @@
       },
       "merge": "Yhdistä"
     },
+    "search": "Hae tietoleikkeitä...",
     "searchPlaceholder": "Hae tietoleikkeitä...",
     "selectedRecords_one": "{{count}} tietue valittu",
     "selectedRecords_other": "{{count}} tietuetta valittu",
