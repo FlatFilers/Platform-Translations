@@ -7,5 +7,18 @@
     "collapse": {
       "documents": "My Docs and things"
     }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "WOW pls don't close me.",
+        "primaryButtonText": "Yes, exit!!!",
+        "secondaryButtonText": "No, stay :'(",
+        "title": "Close Window"
+      },
+      "errorModal": {
+        "title": "Something went wrong"
+      }
+    }
   }
 }

@@ -7,5 +7,18 @@
     "collapse": {
       "documents": "我的文档和内容"
     }
+  },
+  "host": {
+    "modals": {
+      "closeModal": {
+        "message": "哇，请不要关闭我。",
+        "primaryButtonText": "是的，退出！！！",
+        "secondaryButtonText": "不，留下来 :'(",
+        "title": "关闭窗口"
+      },
+      "errorModal": {
+        "title": "出了点问题"
+      }
+    }
   }
 }
