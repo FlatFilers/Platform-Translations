@@ -509,7 +509,8 @@
       "addFileFrom": {
         "box": "Box",
         "googleDrive": "Google Drive",
-        "text": "Add file from…"
+        "text": "Add file from…",
+        "manageConnections": "Manage connections"
       },
       "delete": "Delete",
       "download": "Download",
