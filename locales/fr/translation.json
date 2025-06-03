@@ -1229,7 +1229,7 @@
         },
         "messages": {
           "autogen": "✨ Générée automatiquement",
-          "compositeUnique": "🧑‍🍳 Le composite {{name}} n'est pas unique",
+          "compositeUnique": "Le composite {{name}} n'est pas unique",
           "deletedFromSource": "Cet enregistrement a été supprimé de la feuille d'origine.",
           "deletedFromSourceIgnored": "Cet enregistrement a été supprimé de la feuille d'origine et sera ignoré lors de la fusion.",
           "deletedFromSourceRestored": "Cet enregistrement a été supprimé de la feuille d'origine et sera ajouté lors de la fusion.",

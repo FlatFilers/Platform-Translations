@@ -1204,7 +1204,7 @@
         },
         "messages": {
           "autogen": "✨ Được tạo tự động",
-          "compositeUnique": "🧑‍🍳 Hỗn hợp {{name}} không độc nhất",
+          "compositeUnique": "Hỗn hợp {{name}} không độc nhất",
           "deletedFromSource": "Hàng dữ liệu này đã bị xóa khỏi bảng tính nguồn.",
           "deletedFromSourceIgnored": "Hàng dữ liệu này đã bị xóa khỏi bảng tính nguồn và sẽ bị bỏ qua khi hợp nhất.",
           "deletedFromSourceRestored": "Hàng dữ liệu này đã bị xóa khỏi bảng tính nguồn và sẽ được thêm vào khi hợp nhất.",

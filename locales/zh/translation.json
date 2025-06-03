@@ -1204,7 +1204,7 @@
         },
         "messages": {
           "autogen": "✨自动生成",
-          "compositeUnique": "🧑‍🍳 组合 {{name}} 不唯一",
+          "compositeUnique": "组合 {{name}} 不唯一",
           "deletedFromSource": "该记录已从源表中删除。",
           "deletedFromSourceIgnored": "此记录已从源表中删除，并将在合并时忽略。",
           "deletedFromSourceRestored": "该记录已从源表中删除，并将在合并时添加。",

@@ -1228,7 +1228,7 @@
         },
         "messages": {
           "autogen": "✨ Loodud automaatselt",
-          "compositeUnique": "🧑‍🍳 Komposiit {{name}} ei ole unikaalne",
+          "compositeUnique": "Komposiit {{name}} ei ole unikaalne",
           "deletedFromSource": "See kanne on kustutatud lähtelehelt.",
           "deletedFromSourceIgnored": "See kanne on kustutatud lähtelehelt ja seda eiratakse liitmisel.",
           "deletedFromSourceRestored": "See kanne on kustutatud lähtelehelt ja lisatakse liitmisel.",

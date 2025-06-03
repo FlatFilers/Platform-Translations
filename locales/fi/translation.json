@@ -1228,7 +1228,7 @@
         },
         "messages": {
           "autogen": "✨ Automaattisesti luotu",
-          "compositeUnique": "🧑‍🍳 Yhdistelmä {{name}} ei ole yksilöllinen",
+          "compositeUnique": "Yhdistelmä {{name}} ei ole yksilöllinen",
           "deletedFromSource": "Tämä tietue on poistettu lähdetaulukosta.",
           "deletedFromSourceIgnored": "Tämä tietue on poistettu lähdetaulukosta ja jätetään huomioitta yhdistämisen yhteydessä.",
           "deletedFromSourceRestored": "Tämä tietue on poistettu lähdetaulukosta ja lisätään yhdistämisen yhteydessä.",

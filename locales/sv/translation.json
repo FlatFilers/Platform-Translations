@@ -1228,7 +1228,7 @@
         },
         "messages": {
           "autogen": "✨ Automatiskt genererad",
-          "compositeUnique": "🧑‍🍳 Sammansättningen {{name}} är inte unik",
+          "compositeUnique": "Sammansättningen {{name}} är inte unik",
           "deletedFromSource": "Denna post har raderats från källbladet.",
           "deletedFromSourceIgnored": "Denna post har raderats från källbladet och kommer att ignoreras vid sammanslagningen.",
           "deletedFromSourceRestored": "Denna post har raderats från källbladet och kommer att läggas till vid sammanslagningen.",

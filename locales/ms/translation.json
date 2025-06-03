@@ -1203,7 +1203,7 @@
         },
         "messages": {
           "autogen": "✨ Dijana secara automatik",
-          "compositeUnique": "🧑‍🍳 Komposit {{name}} tidak unik",
+          "compositeUnique": "Komposit {{name}} tidak unik",
           "deletedFromSource": "Rekod ini telah dipadamkan dari lembaran sumber.",
           "deletedFromSourceIgnored": "Rekod ini telah dipadamkan dari lembaran sumber dan akan diabaikan semasa penggabungan.",
           "deletedFromSourceRestored": "Rekod ini telah dipadamkan dari lembaran sumber dan akan ditambahkan semasa penggabungan.",

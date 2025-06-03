@@ -1229,7 +1229,7 @@
         },
         "messages": {
           "autogen": "✨ Generato automaticamente",
-          "compositeUnique": "🧑‍🍳 Il {{name}} composito non è univoco",
+          "compositeUnique": "Il {{name}} composito non è univoco",
           "deletedFromSource": "Il record è stato eliminato dal foglio di origine.",
           "deletedFromSourceIgnored": "Il record è stato eliminato dal foglio di origine e verrà ignorato in fase di unione.",
           "deletedFromSourceRestored": "Il record è stato eliminato dal foglio di origine e verrà aggiunto in fase di unione.",

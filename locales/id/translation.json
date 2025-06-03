@@ -1204,7 +1204,7 @@
         },
         "messages": {
           "autogen": "✨ Dibuat secara otomatis",
-          "compositeUnique": "🧑‍🍳 Komposit {{name}} tidak unik",
+          "compositeUnique": "Komposit {{name}} tidak unik",
           "deletedFromSource": "Baris data ini telah dihapus dari lembar sumber.",
           "deletedFromSourceIgnored": "Baris data ini telah dihapus dari lembar sumber dan akan diabaikan saat penggabungan.",
           "deletedFromSourceRestored": "Baris data ini telah dihapus dari lembar sumber dan akan ditambahkan saat penggabungan.",

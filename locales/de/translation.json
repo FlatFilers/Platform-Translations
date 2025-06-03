@@ -1229,7 +1229,7 @@
         },
         "messages": {
           "autogen": "✨ Automatisch generiert",
-          "compositeUnique": "🧑‍🍳 Das Kompositum {{name}} ist nicht einzigartig",
+          "compositeUnique": "Das Kompositum {{name}} ist nicht einzigartig",
           "deletedFromSource": "Diese Aufzeichnung wurde aus dem Quellsheet gelöscht.",
           "deletedFromSourceIgnored": "Diese Aufzeichnung wurde aus dem Quellsheet gelöscht und wird beim Zusammenführen ignoriert.",
           "deletedFromSourceRestored": "Diese Aufzeichnung wurde aus dem Quellsheet gelöscht und wird beim Zusammenführen hinzugefügt.",

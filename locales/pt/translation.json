@@ -1229,7 +1229,7 @@
         },
         "messages": {
           "autogen": "✨ Gerado automaticamente",
-          "compositeUnique": "🧑‍🍳 O composto {{name}} não é único",
+          "compositeUnique": "O composto {{name}} não é único",
           "deletedFromSource": "Esta linha foi eliminada da tabela original.",
           "deletedFromSourceIgnored": "Esta linha foi eliminada da tabela original, e será ignorada na fusão.",
           "deletedFromSourceRestored": "Esta linha foi eliminada da tabela original, e será adicionada em fusão.",

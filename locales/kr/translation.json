@@ -1204,7 +1204,7 @@
         },
         "messages": {
           "autogen": "✨ 자동으로 생성됨",
-          "compositeUnique": "🧑‍🍳 복합 {{name}}(이)가 고유하지 않습니다.",
+          "compositeUnique": "복합 {{name}}(이)가 고유하지 않습니다.",
           "deletedFromSource": "이 기록이 원본 시트에서 삭제되었습니다.",
           "deletedFromSourceIgnored": "이 기록은 원본 시트에서 삭제되었으며, 병합 시 무시됩니다.",
           "deletedFromSourceRestored": "이 기록은 원본 시트에서 삭제되었으며, 병합 시 추가됩니다.",

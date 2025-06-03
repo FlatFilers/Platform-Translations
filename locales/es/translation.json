@@ -1229,7 +1229,7 @@
         },
         "messages": {
           "autogen": "✨ Generado automáticamente",
-          "compositeUnique": "🧑‍🍳 Compuesto {{name}} no es único",
+          "compositeUnique": "Compuesto {{name}} no es único",
           "deletedFromSource": "Se ha eliminado este registro de la hoja original.",
           "deletedFromSourceIgnored": "Se ha eliminado este registro de la hoja original y se ignorará en la fusión.",
           "deletedFromSourceRestored": "Se ha eliminado este registro de la hoja original y se añadirá en la fusión.",
