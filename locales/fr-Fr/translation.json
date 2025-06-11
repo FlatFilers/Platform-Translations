@@ -519,6 +519,7 @@
       "addFileFrom": {
         "box": "Zone",
         "googleDrive": "Google Drive",
+        "manageConnections": "Gérer les connexions",
         "text": "Ajouter un fichier à partir de..."
       },
       "delete": "Supprimer",

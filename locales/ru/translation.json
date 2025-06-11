@@ -536,6 +536,7 @@
       "addFileFrom": {
         "box": "Box",
         "googleDrive": "Google Диск",
+        "manageConnections": "Управление подключениями",
         "text": "Добавить файл из..."
       },
       "delete": "Удалить",

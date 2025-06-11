@@ -518,6 +518,7 @@
       "addFileFrom": {
         "box": "Box",
         "googleDrive": "Google Drive",
+        "manageConnections": "Hantera kopplingar",
         "text": "Lägg till fil från ..."
       },
       "delete": "Radera",

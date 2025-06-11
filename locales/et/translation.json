@@ -518,6 +518,7 @@
       "addFileFrom": {
         "box": "Kast",
         "googleDrive": "Google Drive",
+        "manageConnections": "Halda ühendusi",
         "text": "Lisa fail asukohast ..."
       },
       "delete": "Kustuta",

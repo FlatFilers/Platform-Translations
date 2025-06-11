@@ -510,6 +510,7 @@
       "addFileFrom": {
         "box": "Box",
         "googleDrive": "Google Drive",
+        "manageConnections": "Quản lý kết nối",
         "text": "Thêm tập tin từ..."
       },
       "delete": "Xóa",

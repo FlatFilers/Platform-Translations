@@ -518,6 +518,7 @@
       "addFileFrom": {
         "box": "Caja",
         "googleDrive": "Google Drive",
+        "manageConnections": "Administrar conexiones",
         "text": "Agregar archivo desde..."
       },
       "delete": "Eliminar",

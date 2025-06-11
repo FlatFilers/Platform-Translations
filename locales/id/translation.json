@@ -510,6 +510,7 @@
       "addFileFrom": {
         "box": "Box",
         "googleDrive": "Google Drive",
+        "manageConnections": "Kelola koneksi",
         "text": "Tambahkan file dari...."
       },
       "delete": "Hapus",

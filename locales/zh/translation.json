@@ -510,6 +510,7 @@
       "addFileFrom": {
         "box": "Box",
         "googleDrive": "Google Drive",
+        "manageConnections": "管理连接",
         "text": "从以下位置添加文件……"
       },
       "delete": "删除",

@@ -509,6 +509,7 @@
       "addFileFrom": {
         "box": "Kotak",
         "googleDrive": "Google Drive",
+        "manageConnections": "Urus kenalan",
         "text": "Tambah fail daripada..."
       },
       "delete": "Padam",

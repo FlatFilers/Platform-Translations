@@ -509,6 +509,7 @@
       "addFileFrom": {
         "box": "Box",
         "googleDrive": "Google 雲端硬碟",
+        "manageConnections": "管理連線",
         "text": "從以下位置新增檔案…"
       },
       "delete": "刪除",

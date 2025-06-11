@@ -519,6 +519,7 @@
       "addFileFrom": {
         "box": "Box",
         "googleDrive": "Google Drive",
+        "manageConnections": "Bağlantıları yönet",
         "text": "Şuradan dosya ekle:"
       },
       "delete": "Sil",

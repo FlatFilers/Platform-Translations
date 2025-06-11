@@ -518,6 +518,7 @@
       "addFileFrom": {
         "box": "Ruutu",
         "googleDrive": "Google Drive",
+        "manageConnections": "Hallitse yhteyksiä",
         "text": "Lisää tiedosto kohteesta..."
       },
       "delete": "Poista",

@@ -509,6 +509,7 @@
       "addFileFrom": {
         "box": "Box",
         "googleDrive": "Google Drive",
+        "manageConnections": "管理连接",
         "text": "从……添加文件"
       },
       "delete": "删除",
@@ -1204,7 +1205,7 @@
         },
         "messages": {
           "autogen": "✨ 自动生成",
-          "compositeUnique": "🧑‍🍳复合 {{name}} 不是唯一的",
+          "compositeUnique": "复合 {{name}} 不是唯一的",
           "deletedFromSource": "此记录已从源表中删除。",
           "deletedFromSourceIgnored": "此记录已从源表中删除，并将在合并时忽略。",
           "deletedFromSourceRestored": "此记录已从源表中删除，并将在合并时添加。",

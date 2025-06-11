@@ -536,6 +536,7 @@
       "addFileFrom": {
         "box": "Pole",
         "googleDrive": "Dysk Google",
+        "manageConnections": "Zarządzaj połączeniami",
         "text": "Dodaj plik z..."
       },
       "delete": "Usuń",

@@ -510,6 +510,7 @@
       "addFileFrom": {
         "box": "Box",
         "googleDrive": "Googleドライブ",
+        "manageConnections": "接続を管理",
         "text": "ファイルを追加…"
       },
       "delete": "削除",

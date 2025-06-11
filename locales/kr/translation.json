@@ -510,6 +510,7 @@
       "addFileFrom": {
         "box": "Box",
         "googleDrive": "Google Drive",
+        "manageConnections": "연결 관리",
         "text": "다음에서 파일 추가..."
       },
       "delete": "삭제",
