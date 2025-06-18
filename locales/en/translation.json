@@ -67,6 +67,11 @@
     "scrollInfoText": "Scroll to next changed column",
     "toggleLabel": "Show only modified data"
   },
+  "app": {
+    "trialBanner": {
+      "daysLeft": "{{days}} days left in trial"
+    }
+  },
   "blocks": {
     "embeddedDiff": {
       "errors": {
