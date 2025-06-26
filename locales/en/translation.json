@@ -2053,5 +2053,10 @@
     "errors": {
       "loading": "Unable to load workbook"
     }
+  },
+  "inlineTransformations": {
+    "preview": "Preview",
+    "assistant": "Assistant",
+    "error": "Something went wrong. Please try again."
   }
 }
