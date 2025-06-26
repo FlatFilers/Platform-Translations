@@ -1716,6 +1716,19 @@
     "title": "Smart Extractor",
     "verb": "Extract"
   },
+  "smartImport": {
+    "sheetSelection": {
+      "title": "Select destination",
+      "description": "Select a sheet to import this data to",
+      "loadingWorkbooks": "Loading workbooks...",
+      "loadingImport": "Loading import...",
+      "noWorkbooks": "No workbooks available",
+      "noWorkbooksDescription": "No workbooks available to import to",
+      "cancel": "Cancel",
+      "select": "Select",
+      "loading": "Loading..."
+    }
+  },
   "snapshot": {
     "accept": {
       "cancelButton": "Cancel",
