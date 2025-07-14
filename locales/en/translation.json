@@ -580,8 +580,8 @@
       "popovers": {
         "errorUploading": "Unable to upload file: {{fileName}}",
         "extracting": "Extracting file...",
-        "extractionCompleted": "Extraction completed.",
-        "extractionFailed": "Extraction failed. Try again or reach out to Support.",
+        "extractionCompleted": "Extraction completed",
+        "extractionFailed": "Extraction failed",
         "onDragPopoverConfirmation": "Dropping file in:",
         "unsupportedFile": "Unsupported file type. Try another file type or reach out to Support.",
         "unsupportedFileInfo": "We did not detect data in this file. It's available for download if needed.",
@@ -1780,8 +1780,15 @@
     }
   },
   "smartExtractor": {
+    "complexFile": "Complex file detected",
+    "smartExtractComplete": "Smart extract analysis complete",
+    "smartExtractFailed": "Smart extract failed",
+    "basicShapeAssessmentFailed": "File basic shape assessment failed",
+    "analyzingFileShape": "Analyzing file shape...",
     "title": "Smart Extractor",
-    "verb": "Extract"
+    "review": "Review extraction",
+    "analyze": "Smart Extract",
+    "reanalyze": "Re-analyze"
   },
   "smartImport": {
     "sheetSelection": {
