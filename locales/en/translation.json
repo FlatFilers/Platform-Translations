@@ -1788,7 +1788,12 @@
     "title": "Smart Extractor",
     "review": "Review extraction",
     "analyze": "Smart Extract",
-    "reanalyze": "Re-analyze"
+    "reanalyze": "Re-analyze",
+    "chat": {
+      "title": "Smart Extract Assistant",
+      "description": "What would you like to do?",
+      "initializing": "Initializing..."
+    }
   },
   "smartImport": {
     "sheetSelection": {
