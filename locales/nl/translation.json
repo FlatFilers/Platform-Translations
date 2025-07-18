@@ -1792,6 +1792,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "Slimme extractie",
+    "analyzingFileShape": "Bestandsvorm analyseren...",
+    "basicShapeAssessmentFailed": "Beoordeling basisvorm bestand mislukt",
+    "chat": {
+      "description": "Wat wilt u doen?",
+      "initializing": "Initialiseren...",
+      "title": "Slimme extractie-assistent"
+    },
+    "complexFile": "Complex bestand gedetecteerd",
+    "reanalyze": "Heranalyseren",
+    "review": "Review extractie",
+    "smartExtractComplete": "Slimme extractie-analyse voltooid",
+    "smartExtractFailed": "Slimme extractie mislukt",
     "title": "Intelligente afzuigkap",
     "verb": "Uittreksel"
   },

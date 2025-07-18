@@ -1748,6 +1748,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "Trích xuất thông minh",
+    "analyzingFileShape": "Đang phân tích cấu trúc tệp...",
+    "basicShapeAssessmentFailed": "Đánh giá cơ bản về cấu trúc tệp không thành công",
+    "chat": {
+      "description": "Bạn muốn làm gì?",
+      "initializing": "Đang khởi động...",
+      "title": "Trợ lý trích xuất thông minh"
+    },
+    "complexFile": "Phát hiện tệp phức tạp",
+    "reanalyze": "Phân tích lại",
+    "review": "Xem lại kết quả trích xuất",
+    "smartExtractComplete": "Phân tích trích xuất thông minh hoàn tất",
+    "smartExtractFailed": "Trích xuất thông minh không thành công",
     "title": "Trình trích xuất thông minh",
     "verb": "Trích xuất"
   },

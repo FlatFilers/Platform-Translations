@@ -1747,6 +1747,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "智能提取",
+    "analyzingFileShape": "正在分析文件形状……",
+    "basicShapeAssessmentFailed": "文件基本形状评估失败",
+    "chat": {
+      "description": "您想要做什么？",
+      "initializing": "正在初始化……",
+      "title": "智能提取助手"
+    },
+    "complexFile": "检测到复杂文件",
+    "reanalyze": "重新分析",
+    "review": "审查提取结果",
+    "smartExtractComplete": "智能提取分析已完成",
+    "smartExtractFailed": "智能提取失败",
     "title": "智能提取工具",
     "verb": "提取"
   },

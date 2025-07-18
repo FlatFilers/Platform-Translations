@@ -1792,6 +1792,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "Extracción inteligente",
+    "analyzingFileShape": "Analizando la estructura del archivo...",
+    "basicShapeAssessmentFailed": "Falló la evaluación básica de la estructura del archivo",
+    "chat": {
+      "description": "¿Qué deseas hacer?",
+      "initializing": "Iniciando...",
+      "title": "Asistente de extracción inteligente"
+    },
+    "complexFile": "Archivo complejo detectado",
+    "reanalyze": "Volver a analizar",
+    "review": "Revisar extracción",
+    "smartExtractComplete": "Análisis de extracción inteligente completado",
+    "smartExtractFailed": "La extracción inteligente ha fallado",
     "title": "Extractor inteligente",
     "verb": "Extraer"
   },

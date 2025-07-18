@@ -1882,6 +1882,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "Inteligentne wyodrębnianie",
+    "analyzingFileShape": "Analiza kształtu pliku...",
+    "basicShapeAssessmentFailed": "Podstawowa ocena kształtu pliku nie powiodła się",
+    "chat": {
+      "description": "Co chcesz zrobić?",
+      "initializing": "Inicjowanie...",
+      "title": "Inteligentny Asystent Wyodrębniania"
+    },
+    "complexFile": "Wykryto złożony plik",
+    "reanalyze": "Przeanalizuj ponownie",
+    "review": "Zweryfikuj wyodrębnienie",
+    "smartExtractComplete": "Analiza inteligentnego wyodrębnienia zakończona",
+    "smartExtractFailed": "Inteligentne wyodrębnianie nie powiodło się",
     "title": "Inteligentne narzędzie do wyodrębniania",
     "verb": "Wyodrębnij"
   },

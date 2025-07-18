@@ -1748,6 +1748,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "Ekstrak Cerdas",
+    "analyzingFileShape": "Menganalisis bentuk file...",
+    "basicShapeAssessmentFailed": "Penilaian bentuk dasar file gagal",
+    "chat": {
+      "description": "Apa yang ingin Anda lakukan?",
+      "initializing": "Memulai...",
+      "title": "Smart Extract Assistant"
+    },
+    "complexFile": "Berkas kompleks terdeteksi",
+    "reanalyze": "Analisis Ulang",
+    "review": "Tinjauan ekstraksi",
+    "smartExtractComplete": "Analisis ekstrak cerdas lengkap",
+    "smartExtractFailed": "Ekstrak cerdas gagal",
     "title": "Ekskavator Pintar",
     "verb": "Ekstrak"
   },

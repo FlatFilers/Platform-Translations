@@ -1747,6 +1747,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "Ekstrak Pintar",
+    "analyzingFileShape": "Menganalisis bentuk fail...",
+    "basicShapeAssessmentFailed": "Penilaian bentuk asas fail gagal",
+    "chat": {
+      "description": "Apakah yang anda ingin lakukan?",
+      "initializing": "Memulakan...",
+      "title": "Pembantu Ekstrak Pintar"
+    },
+    "complexFile": "Fail kompleks dikesan",
+    "reanalyze": "Menganalisis semula",
+    "review": "Semak pengekstrakan",
+    "smartExtractComplete": "Analisis ekstrak pintar selesai",
+    "smartExtractFailed": "Ekstrak pintar gagal",
     "title": "Pengekstrak Pintar",
     "verb": "Ekstrak"
   },

@@ -1748,6 +1748,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "스마트 추출",
+    "analyzingFileShape": "파일 형태 분석 중...",
+    "basicShapeAssessmentFailed": "파일 기본 형태 분석에 실패했습니다",
+    "chat": {
+      "description": "어떤 작업이 필요하신가요?",
+      "initializing": "시작 중...",
+      "title": "스마트 추출 도우미"
+    },
+    "complexFile": "복잡한 파일 감지됨",
+    "reanalyze": "다시 분석",
+    "review": "추출 검토",
+    "smartExtractComplete": "스마트 추출 분석 완료",
+    "smartExtractFailed": "스마트 추출 실패",
     "title": "스마트 추출기",
     "verb": "추출"
   },

@@ -1747,6 +1747,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "智慧擷取",
+    "analyzingFileShape": "正在分析檔案形式 ......",
+    "basicShapeAssessmentFailed": "檔案基本形式評估已失敗",
+    "chat": {
+      "description": "您想做什麼？",
+      "initializing": "正在初始化 ......",
+      "title": "智慧擷取助理"
+    },
+    "complexFile": "偵測到複合檔案",
+    "reanalyze": "再分析",
+    "review": "檢視擷取",
+    "smartExtractComplete": "智慧擷取分析已完成",
+    "smartExtractFailed": "智慧擷取已失敗",
     "title": "智慧型解壓縮器",
     "verb": "解壓縮"
   },

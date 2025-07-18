@@ -580,8 +580,8 @@
       "popovers": {
         "errorUploading": "Unable to upload file: {{fileName}}",
         "extracting": "Extracting file...",
-        "extractionCompleted": "Extraction completed",
-        "extractionFailed": "Extraction failed",
+        "extractionCompleted": "Extraction completed.",
+        "extractionFailed": "Extraction failed. Try again or reach out to Support.",
         "onDragPopoverConfirmation": "Dropping file in:",
         "unsupportedFile": "Unsupported file type. Try another file type or reach out to Support.",
         "unsupportedFileInfo": "We did not detect data in this file. It's available for download if needed.",
@@ -990,35 +990,6 @@
     "mappingPlan": {
       "preparing": "Preparing Mapping..."
     },
-    "tabs": {
-      "mapped": "Mapped",
-      "unmapped": "Unmapped",
-      "empty": "Empty",
-      "suggestions": "Suggestions"
-    },
-    "sort": {
-      "button": "Sort",
-      "sourceField": "Source field",
-      "destinationField": "Destination field"
-    },
-    "emptyState": {
-      "default": {
-        "title": "No mapping data available",
-        "description": "Please configure mapping rules to view the mapping interface."
-      },
-      "mapped": {
-        "title": "No mapped fields",
-        "description": "Fields can be mapped from the unmapped tab"
-      },
-      "unmapped": {
-        "title": "No unmapped fields",
-        "description": "All fields have been mapped. Changes can be made from the mapped tab."
-      },
-      "empty": {
-        "title": "No empty tabs",
-        "description": "All destination fields have been assigned a source."
-      }
-    },
     "sheetSelection": {
       "cannotLoadFile": "Unable to upload file: {{fileName}}",
       "cannotStartMapping": "Unable to continue to mapping - {{reason}} - Please try again",
@@ -1398,9 +1369,7 @@
           "destinationKey": "dest key: {{key}}",
           "destinationLabel": "dest label: {{label}}",
           "key": "key: {{key}}",
-          "label": "label: {{label}}",
-          "destinationKey": "dest key: {{key}}",
-          "destinationLabel": "dest label: {{label}}"
+          "label": "label: {{label}}"
         }
       },
       "indexRow": {
@@ -1780,20 +1749,21 @@
     }
   },
   "smartExtractor": {
+    "analyze": "Smart Extract",
+    "analyzingFileShape": "Analyzing file shape...",
+    "basicShapeAssessmentFailed": "File basic shape assessment failed",
+    "chat": {
+      "description": "What would you like to do?",
+      "initializing": "Initializing...",
+      "title": "Smart Extract Assistant"
+    },
     "complexFile": "Complex file detected",
+    "reanalyze": "Re-analyze",
+    "review": "Review extraction",
     "smartExtractComplete": "Smart extract analysis complete",
     "smartExtractFailed": "Smart extract failed",
-    "basicShapeAssessmentFailed": "File basic shape assessment failed",
-    "analyzingFileShape": "Analyzing file shape...",
     "title": "Smart Extractor",
-    "review": "Review extraction",
-    "analyze": "Smart Extract",
-    "reanalyze": "Re-analyze",
-    "chat": {
-      "title": "Smart Extract Assistant",
-      "description": "What would you like to do?",
-      "initializing": "Initializing..."
-    }
+    "verb": "Extract"
   },
   "smartImport": {
     "sheetSelection": {
@@ -2132,10 +2102,5 @@
     "errors": {
       "loading": "Unable to load workbook"
     }
-  },
-  "inlineTransformations": {
-    "preview": "Preview",
-    "assistant": "Assistant",
-    "error": "Something went wrong. Please try again."
   }
 }

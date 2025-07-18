@@ -1792,6 +1792,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "Pikapurkaminen",
+    "analyzingFileShape": "Analysoidaan tiedoston muotoa...",
+    "basicShapeAssessmentFailed": "Tiedoston perusmuodon arvioiminen epäonnistui",
+    "chat": {
+      "description": "Mitä haluaisit tehdä?",
+      "initializing": "Alustetaan...",
+      "title": "Älykäs vientiapuri"
+    },
+    "complexFile": "Monimutkainen tiedosto havaittu...",
+    "reanalyze": "Analysoi uudelleen",
+    "review": "Tarkista purkaminen",
+    "smartExtractComplete": "Pikapurkamisen analyysi valmis",
+    "smartExtractFailed": "Pikapurkaminen epäonnistui",
     "title": "Pikapoimija",
     "verb": "Poimi"
   },

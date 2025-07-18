@@ -1793,6 +1793,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "Smart Extract",
+    "analyzingFileShape": "Analysing file shape...",
+    "basicShapeAssessmentFailed": "File basic shape assessment failed",
+    "chat": {
+      "description": "What would you like to do?",
+      "initializing": "Initialising...",
+      "title": "Smart Extract Assistant"
+    },
+    "complexFile": "Complex file detected",
+    "reanalyze": "Re-analyse",
+    "review": "Review extraction",
+    "smartExtractComplete": "Smart extract analysis complete",
+    "smartExtractFailed": "Smart extract failed",
     "title": "Smart Extractor",
     "verb": "Extract"
   },

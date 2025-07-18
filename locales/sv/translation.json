@@ -1792,6 +1792,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "Smart extrahering",
+    "analyzingFileShape": "Analysera filens struktur ...",
+    "basicShapeAssessmentFailed": "Bedömning av filens grundläggande struktur misslyckades",
+    "chat": {
+      "description": "Vad vill du göra?",
+      "initializing": "Initialiserar ...",
+      "title": "Smart extraheringsassistent"
+    },
+    "complexFile": "Komplex fil upptäckt",
+    "reanalyze": "Analysera igen",
+    "review": "Granska extrahering",
+    "smartExtractComplete": "Analys av smart extrahering slutförd",
+    "smartExtractFailed": "Smart extrahering misslyckades",
     "title": "Smart extraherare",
     "verb": "Extrahera"
   },

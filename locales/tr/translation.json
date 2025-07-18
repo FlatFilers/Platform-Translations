@@ -1793,6 +1793,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "Akıllı Çıkarma",
+    "analyzingFileShape": "Dosya şekli analiz ediliyor...",
+    "basicShapeAssessmentFailed": "Dosya temel şekil değerlendirmesi başarısız oldu",
+    "chat": {
+      "description": "Ne yapmak istersiniz?",
+      "initializing": "Başlatılıyor...",
+      "title": "Akıllı Çıkartma Yardımcısı"
+    },
+    "complexFile": "Karmaşık dosya algılandı",
+    "reanalyze": "Yeniden analiz et",
+    "review": "Çıkarma işlemini incele",
+    "smartExtractComplete": "Akıllı çıkarma analizi tamamlandı",
+    "smartExtractFailed": "Akıllı çıkarma başarısız oldu",
     "title": "Akıllı Çıkarıcı",
     "verb": "Çıkarıcı"
   },

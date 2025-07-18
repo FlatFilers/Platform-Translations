@@ -1748,6 +1748,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "スマート抽出",
+    "analyzingFileShape": "ファイル形状を分析中...",
+    "basicShapeAssessmentFailed": "ファイルの基本形状評価に失敗しました",
+    "chat": {
+      "description": "何をしたいですか？",
+      "initializing": "初期化中...",
+      "title": "スマート抽出アシスタント"
+    },
+    "complexFile": "コンプレックスファイルが検出されました",
+    "reanalyze": "再分析",
+    "review": "抽出をレビュー",
+    "smartExtractComplete": "スマート抽出分析が完了しました",
+    "smartExtractFailed": "スマート抽出に失敗しました",
     "title": "スマートエクストラクター",
     "verb": "抽出する"
   },

@@ -1792,6 +1792,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "Nutikas ekstraktimine",
+    "analyzingFileShape": "Failikuju analüüsimine ...",
+    "basicShapeAssessmentFailed": "Failikuju lihthindamine nurjus",
+    "chat": {
+      "description": "Mida soovite teha?",
+      "initializing": "Alustamine ...",
+      "title": "Nutika ekstraktimise abiline"
+    },
+    "complexFile": "Tuvastati keeruline fail",
+    "reanalyze": "Analüüsi uuesti",
+    "review": "Ekstraktimise ülevaade",
+    "smartExtractComplete": "Ekstraktimise nutianalüüs lõpetatud",
+    "smartExtractFailed": "Nutikas ekstraktimine nurjus",
     "title": "Nutikas lahti pakkija",
     "verb": "Paki lahti"
   },

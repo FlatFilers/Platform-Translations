@@ -1793,6 +1793,19 @@
     }
   },
   "smartExtractor": {
+    "analyze": "Extração Inteligente",
+    "analyzingFileShape": "Analisando o formato do arquivo...",
+    "basicShapeAssessmentFailed": "Falha na avaliação do formato básico do arquivo",
+    "chat": {
+      "description": "O que você gostaria de fazer?",
+      "initializing": "Inicializando...",
+      "title": "Assistente de Extração Inteligente"
+    },
+    "complexFile": "Arquivo complexo detectado",
+    "reanalyze": "Reanalisar",
+    "review": "Avaliar extração",
+    "smartExtractComplete": "Análise da extração inteligente concluída",
+    "smartExtractFailed": "Falha na extração inteligente",
     "title": "Extrator Inteligente",
     "verb": "Extrair"
   },
