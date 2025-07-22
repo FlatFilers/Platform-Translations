@@ -1026,8 +1026,9 @@
   },
   "nativeActions": {
     "addColumn": "Add column",
-    "clearColumn": "Clear Column",
-    "removeColumn": "Remove column"
+    "clearColumn": "Clear column",
+    "removeColumn": "Remove column",
+    "renameColumn": "Rename column"
   },
   "platform": {
     "pubnub": {
