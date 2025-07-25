@@ -1710,6 +1710,19 @@
         "lockedUntilEditingCompletes": "The toolbar will be available when the sheet is no longer being edited",
         "lockedUntilHookCompletes": "The toolbar will be available after all hooks finish running",
         "lockedUntilJobCompletes": "The toolbar will be available after the current job completes"
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Cancel"
+        }
+      },
+      "clearView": {
+        "title": "Clear View",
+        "description": "Are you sure you want to clear this view and all current filters?",
+        "buttons": {
+          "cancel": "Cancel",
+          "confirm": "Confirm"
+        }
       }
     },
     "workbookActions": {
