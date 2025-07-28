@@ -1045,7 +1045,8 @@
   "nativeActions": {
     "addColumn": "Lisää sarake",
     "clearColumn": "Tyhjennä sarake",
-    "removeColumn": "Poista sarake"
+    "removeColumn": "Poista sarake",
+    "renameColumn": "Nimeä sarake uudelleen"
   },
   "platform": {
     "pubnub": {
@@ -1652,7 +1653,11 @@
         "dropdownPlaceholder": "Hae tai valitse..."
       },
       "filters": {
+        "addCondition": "Lisää ehto",
+        "advancedFilter": "Tarkennettu suodatin",
         "all": "Kaikki",
+        "buttonText": "Suodatin",
+        "deleteFilter": "Poista suodatin",
         "invalid": "Virheellinen",
         "tooltip": {
           "countsError": "Virhe ladattaessa lukumääriä",
@@ -1677,6 +1682,12 @@
       "moreActions": {
         "buttonText": "Lisää toimenpiteitä...",
         "placeholder": "Hae tai valitse..."
+      },
+      "recordCount": {
+        "records": "Tietueet",
+        "rowsSelected_one": "{{count}} rivi valittu",
+        "rowsSelected_other": "{{count}} riviä valittu",
+        "rowsSelected_zero": "{{count}} riviä valittu"
       },
       "restore": {
         "label": "Palauta tietueet",
@@ -1730,6 +1741,9 @@
           "title": "Yhteenveto",
           "valid": "Kelvollinen"
         }
+      },
+      "search": {
+        "placeholder": "Hae"
       },
       "searchBar": {
         "expandTooltip": "Avaa haku ja tekoälyavustaja",

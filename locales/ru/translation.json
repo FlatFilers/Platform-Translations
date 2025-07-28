@@ -1083,7 +1083,8 @@
   "nativeActions": {
     "addColumn": "Добавить столбец",
     "clearColumn": "Очистить столбец",
-    "removeColumn": "Удалить столбец"
+    "removeColumn": "Удалить столбец",
+    "renameColumn": "Переименовать столбец"
   },
   "platform": {
     "pubnub": {
@@ -1742,7 +1743,11 @@
         "dropdownPlaceholder": "Искать или выбрать..."
       },
       "filters": {
+        "addCondition": "Добавить условие",
+        "advancedFilter": "Расширенный фильтр",
         "all": "Все",
+        "buttonText": "Фильтр",
+        "deleteFilter": "Удалить фильтр",
         "invalid": "недействительно",
         "tooltip": {
           "countsError": "Ошибка загрузки подсчетов",
@@ -1767,6 +1772,14 @@
       "moreActions": {
         "buttonText": "Больше действий",
         "placeholder": "Искать или выбрать..."
+      },
+      "recordCount": {
+        "records": "Записи",
+        "rowsSelected_few": "Выбрано {{count}} строки",
+        "rowsSelected_many": "Выбрано {{count}} строк",
+        "rowsSelected_one": "Выбрано {{count}} строк",
+        "rowsSelected_other": "Выбрано {{count}} строки",
+        "rowsSelected_zero": "Выбрано {{count}} строк"
       },
       "restore": {
         "label": "Восстановить записи",
@@ -1820,6 +1833,9 @@
           "title": "Краткое содержание",
           "valid": "Действительно"
         }
+      },
+      "search": {
+        "placeholder": "Поиск"
       },
       "searchBar": {
         "expandTooltip": "Открыть поиск и AI-помощник",

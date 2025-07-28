@@ -1026,7 +1026,8 @@
   "nativeActions": {
     "addColumn": "Tambah lajur",
     "clearColumn": "Kosongkan Lajur",
-    "removeColumn": "Padamkan lajur"
+    "removeColumn": "Padamkan lajur",
+    "renameColumn": "Namakan semula kolum"
   },
   "platform": {
     "pubnub": {
@@ -1607,7 +1608,11 @@
         "dropdownPlaceholder": "Cari atau pilih..."
       },
       "filters": {
+        "addCondition": "Tambah syarat",
+        "advancedFilter": "Penapis Lanjutan",
         "all": "Semua",
+        "buttonText": "Penapis",
+        "deleteFilter": "Padam penapis",
         "invalid": "Tidak sah",
         "tooltip": {
           "countsError": "Ralat memuatkan kiraan",
@@ -1632,6 +1637,11 @@
       "moreActions": {
         "buttonText": "Lebih banyak tindakan",
         "placeholder": "Cari atau pilih..."
+      },
+      "recordCount": {
+        "records": "Rekod",
+        "rowsSelected_other": "{{count}} Baris Dipilih",
+        "rowsSelected_zero": "{{count}} Baris Dipilih"
       },
       "restore": {
         "label": "Pulihkan semula rekod",
@@ -1685,6 +1695,9 @@
           "title": "Ringkasan",
           "valid": "Sah"
         }
+      },
+      "search": {
+        "placeholder": "Cari"
       },
       "searchBar": {
         "expandTooltip": "Buka carian dan AI Assist",

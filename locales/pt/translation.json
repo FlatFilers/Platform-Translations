@@ -1046,7 +1046,8 @@
   "nativeActions": {
     "addColumn": "Adicionar coluna",
     "clearColumn": "Limpar coluna",
-    "removeColumn": "Remover coluna"
+    "removeColumn": "Remover coluna",
+    "renameColumn": "Renomear coluna"
   },
   "platform": {
     "pubnub": {
@@ -1653,7 +1654,11 @@
         "dropdownPlaceholder": "Procurar ou selecionar..."
       },
       "filters": {
+        "addCondition": "Adicionar condição",
+        "advancedFilter": "Filtro avançado",
         "all": "Tudo",
+        "buttonText": "Filtro",
+        "deleteFilter": "Eliminar filtro",
         "invalid": "Inválido",
         "tooltip": {
           "countsError": "Erro ao carregar contas",
@@ -1678,6 +1683,12 @@
       "moreActions": {
         "buttonText": "Mais ações",
         "placeholder": "Procurar ou selecionar..."
+      },
+      "recordCount": {
+        "records": "Registos",
+        "rowsSelected_one": "{{count}} fila selecionada",
+        "rowsSelected_other": "{{count}} filas selecionadas",
+        "rowsSelected_zero": "{{count}} filas selecionadas"
       },
       "restore": {
         "label": "Repor registos",
@@ -1731,6 +1742,9 @@
           "title": "Resumo",
           "valid": "Válido(a)"
         }
+      },
+      "search": {
+        "placeholder": "Procurar"
       },
       "searchBar": {
         "expandTooltip": "Abrir pesquisa e Assistência IA",

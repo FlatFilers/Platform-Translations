@@ -1045,7 +1045,7 @@
   },
   "nativeActions": {
     "addColumn": "Add column",
-    "clearColumn": "Clear column",
+    "clearColumn": "Clear Column",
     "removeColumn": "Remove column",
     "renameColumn": "Rename column"
   },
@@ -1654,7 +1654,11 @@
         "dropdownPlaceholder": "Search or select..."
       },
       "filters": {
+        "addCondition": "Add condition",
+        "advancedFilter": "Advanced filter",
         "all": "All",
+        "buttonText": "Filter",
+        "deleteFilter": "Delete Filter",
         "invalid": "Invalid",
         "tooltip": {
           "countsError": "Error loading counts",
@@ -1679,6 +1683,12 @@
       "moreActions": {
         "buttonText": "More actions",
         "placeholder": "Search or select..."
+      },
+      "recordCount": {
+        "records": "Records",
+        "rowsSelected_one": "{{count}} Row Selected",
+        "rowsSelected_other": "{{count}} Rows Selected",
+        "rowsSelected_zero": "{{count}} Rows Selected"
       },
       "restore": {
         "label": "Restore records",
@@ -1732,6 +1742,9 @@
           "title": "Summary",
           "valid": "Valid"
         }
+      },
+      "search": {
+        "placeholder": "Search"
       },
       "searchBar": {
         "expandTooltip": "Open search and AI Assist",

@@ -1045,7 +1045,8 @@
   "nativeActions": {
     "addColumn": "Lisa veerg",
     "clearColumn": "Tühjenda veerg",
-    "removeColumn": "Eemalda veerg"
+    "removeColumn": "Eemalda veerg",
+    "renameColumn": "Nimeta veerg ümber"
   },
   "platform": {
     "pubnub": {
@@ -1652,7 +1653,11 @@
         "dropdownPlaceholder": "Otsi või vali ..."
       },
       "filters": {
+        "addCondition": "Lisa tingimus",
+        "advancedFilter": "Täpsem filter",
         "all": "Kõik",
+        "buttonText": "Filtreeri",
+        "deleteFilter": "Kustuta filter",
         "invalid": "Kehtetu",
         "tooltip": {
           "countsError": "Arvude laadimisel tekkis viga",
@@ -1677,6 +1682,12 @@
       "moreActions": {
         "buttonText": "Rohkem toiminguid",
         "placeholder": "Otsi või vali ..."
+      },
+      "recordCount": {
+        "records": "Kirjed",
+        "rowsSelected_one": "{{count}} rida valitud",
+        "rowsSelected_other": "{{count}} rida valitud",
+        "rowsSelected_zero": "{{count}} rida valitud"
       },
       "restore": {
         "label": "Taasta kanded",
@@ -1730,6 +1741,9 @@
           "title": "Kokkuvõte",
           "valid": "Kehtetu"
         }
+      },
+      "search": {
+        "placeholder": "Otsi"
       },
       "searchBar": {
         "expandTooltip": "Avage otsing ja tehisintellektist abiline",

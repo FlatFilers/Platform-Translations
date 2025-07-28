@@ -1026,7 +1026,8 @@
   "nativeActions": {
     "addColumn": "添加列",
     "clearColumn": "清除列",
-    "removeColumn": "移除列"
+    "removeColumn": "移除列",
+    "renameColumn": "对列进行重新命名"
   },
   "platform": {
     "pubnub": {
@@ -1607,7 +1608,11 @@
         "dropdownPlaceholder": "搜索或选择......"
       },
       "filters": {
+        "addCondition": "添加条件",
+        "advancedFilter": "高级筛选",
         "all": "全部",
+        "buttonText": "筛选",
+        "deleteFilter": "删除筛选",
         "invalid": "无效",
         "tooltip": {
           "countsError": "加载计数时出错",
@@ -1632,6 +1637,11 @@
       "moreActions": {
         "buttonText": "更多操作",
         "placeholder": "搜索或选择......"
+      },
+      "recordCount": {
+        "records": "记录",
+        "rowsSelected_other": "{{count}} 条记录被选中",
+        "rowsSelected_zero": "{{count}} 行已选"
       },
       "restore": {
         "label": "恢复记录",
@@ -1685,6 +1695,9 @@
           "title": "汇总",
           "valid": "有效"
         }
+      },
+      "search": {
+        "placeholder": "搜索"
       },
       "searchBar": {
         "expandTooltip": "打开搜索和人工智能助手",

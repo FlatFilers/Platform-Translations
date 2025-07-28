@@ -1083,7 +1083,8 @@
   "nativeActions": {
     "addColumn": "Додати стовпець",
     "clearColumn": "Очистити стовпець",
-    "removeColumn": "Видалити стовпець"
+    "removeColumn": "Видалити стовпець",
+    "renameColumn": "Перейменувати стовпець"
   },
   "platform": {
     "pubnub": {
@@ -1742,7 +1743,11 @@
         "dropdownPlaceholder": "Знайдіть або виберіть..."
       },
       "filters": {
+        "addCondition": "Додати умову",
+        "advancedFilter": "Розширений фільтр",
         "all": "Всі",
+        "buttonText": "Фільтр",
+        "deleteFilter": "Видалити фільтр",
         "invalid": "Недійсний",
         "tooltip": {
           "countsError": "Кількість помилок при завантаженні",
@@ -1767,6 +1772,14 @@
       "moreActions": {
         "buttonText": "Більше дій",
         "placeholder": "Знайдіть або виберіть..."
+      },
+      "recordCount": {
+        "records": "Записи",
+        "rowsSelected_few": "Вибрано {{count}} рядки",
+        "rowsSelected_many": "Вибрано {{count}} рядків",
+        "rowsSelected_one": "Вибрано {{count}} рядок",
+        "rowsSelected_other": "Вибрано {{count}} рядків",
+        "rowsSelected_zero": "Вибрано {{count}} рядків"
       },
       "restore": {
         "label": "Відновити записи",
@@ -1820,6 +1833,9 @@
           "title": "Зведення",
           "valid": "Дійсний"
         }
+      },
+      "search": {
+        "placeholder": "Пошук"
       },
       "searchBar": {
         "expandTooltip": "Відкрити пошук та AI Assist",

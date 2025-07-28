@@ -1046,7 +1046,8 @@
   "nativeActions": {
     "addColumn": "Ajouter une colonne",
     "clearColumn": "Effacer la colonne",
-    "removeColumn": "Supprimer la colonne"
+    "removeColumn": "Supprimer la colonne",
+    "renameColumn": "Changer le nom de la colonne"
   },
   "platform": {
     "pubnub": {
@@ -1653,7 +1654,11 @@
         "dropdownPlaceholder": "Rechercher ou sélectionner..."
       },
       "filters": {
+        "addCondition": "Ajouter une condition",
+        "advancedFilter": "Filtre avancé",
         "all": "Tous",
+        "buttonText": "Filtre",
+        "deleteFilter": "Supprimer le filtre",
         "invalid": "Invalide",
         "tooltip": {
           "countsError": "Nombre d’erreurs de chargement",
@@ -1678,6 +1683,12 @@
       "moreActions": {
         "buttonText": "Plus d’actions",
         "placeholder": "Rechercher ou sélectionner..."
+      },
+      "recordCount": {
+        "records": "Enregistrements",
+        "rowsSelected_one": "{{count}} ligne sélectionnée",
+        "rowsSelected_other": "{{count}} lignes sélectionnées",
+        "rowsSelected_zero": "{{count}} lignes sélectionnées"
       },
       "restore": {
         "label": "Restaurer les enregistrements",
@@ -1731,6 +1742,9 @@
           "title": "Résumé",
           "valid": "Valide"
         }
+      },
+      "search": {
+        "placeholder": "Recherche"
       },
       "searchBar": {
         "expandTooltip": "Ouvrir la recherche et l'assistant IA",

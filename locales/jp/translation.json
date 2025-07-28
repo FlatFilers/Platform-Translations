@@ -1027,7 +1027,8 @@
   "nativeActions": {
     "addColumn": "列を追加する",
     "clearColumn": "列をクリア",
-    "removeColumn": "列を削除"
+    "removeColumn": "列を削除",
+    "renameColumn": "列の名前を変更する"
   },
   "platform": {
     "pubnub": {
@@ -1608,7 +1609,11 @@
         "dropdownPlaceholder": "検索または選択..."
       },
       "filters": {
+        "addCondition": "条件を追加",
+        "advancedFilter": "高度なフィルター",
         "all": "すべて",
+        "buttonText": "フィルター",
+        "deleteFilter": "フィルターを削除",
         "invalid": "無効",
         "tooltip": {
           "countsError": "読み込みエラー数",
@@ -1633,6 +1638,11 @@
       "moreActions": {
         "buttonText": "さらなるアクション",
         "placeholder": "検索または選択..."
+      },
+      "recordCount": {
+        "records": "記録",
+        "rowsSelected_other": "{{count}}行が選択されました",
+        "rowsSelected_zero": "{{count}}行が選択されました"
       },
       "restore": {
         "label": "レコードを復元",
@@ -1686,6 +1696,9 @@
           "title": "概要",
           "valid": "有効"
         }
+      },
+      "search": {
+        "placeholder": "検索"
       },
       "searchBar": {
         "expandTooltip": "オープン検索とAIアシスト",

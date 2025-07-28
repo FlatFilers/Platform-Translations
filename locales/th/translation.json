@@ -1026,7 +1026,8 @@
   "nativeActions": {
     "addColumn": "เพิ่มคอลัมน์",
     "clearColumn": "ล้างคอลัมน์",
-    "removeColumn": "ลบคอลัมน์"
+    "removeColumn": "ลบคอลัมน์",
+    "renameColumn": "เปลี่ยนชื่่อคอลัมน์"
   },
   "platform": {
     "pubnub": {
@@ -1607,7 +1608,11 @@
         "dropdownPlaceholder": "ค้นหาหรือเลือก..."
       },
       "filters": {
+        "addCondition": "เพิ่มเงื่อนไข",
+        "advancedFilter": "ตัวกรองขั้นสูง",
         "all": "ทั้งหมด",
+        "buttonText": "ตัวกรอง",
+        "deleteFilter": "ลบตัวกรอง",
         "invalid": "ไม่ถูกต้อง",
         "tooltip": {
           "countsError": "เกิดข้อผิดพลาดในการโหลดจำนวน",
@@ -1632,6 +1637,11 @@
       "moreActions": {
         "buttonText": "การดำเนินการเพิ่มเติม",
         "placeholder": "ค้นหาหรือเลือก..."
+      },
+      "recordCount": {
+        "records": "แถว",
+        "rowsSelected_other": "เลือกไว้ {{count}} แถว",
+        "rowsSelected_zero": "เลือกไว้ {{count}} แถว"
       },
       "restore": {
         "label": "เรียกคืนบันทึก",
@@ -1685,6 +1695,9 @@
           "title": "สรุป",
           "valid": "ถูกต้อง"
         }
+      },
+      "search": {
+        "placeholder": "ค้นหา"
       },
       "searchBar": {
         "expandTooltip": "เปิดการค้นหาและ AI Assist",

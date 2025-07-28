@@ -1027,7 +1027,8 @@
   "nativeActions": {
     "addColumn": "Thêm cột",
     "clearColumn": "Xóa cột",
-    "removeColumn": "Bỏ cột"
+    "removeColumn": "Bỏ cột",
+    "renameColumn": "Đổi tên cột"
   },
   "platform": {
     "pubnub": {
@@ -1608,7 +1609,11 @@
         "dropdownPlaceholder": "Tìm kiếm hoặc chọn..."
       },
       "filters": {
+        "addCondition": "Thêm điều kiện",
+        "advancedFilter": "Bộ lọc nâng cao",
         "all": "Tất cả",
+        "buttonText": "Bộ lọc",
+        "deleteFilter": "Xóa bộ lọc",
         "invalid": "Không hợp lệ",
         "tooltip": {
           "countsError": "Đã xảy ra lỗi khi tải lượng đếm",
@@ -1633,6 +1638,11 @@
       "moreActions": {
         "buttonText": "Hành động khác",
         "placeholder": "Tìm kiếm hoặc chọn..."
+      },
+      "recordCount": {
+        "records": "Bản ghi",
+        "rowsSelected_other": "Đã chọn {{count}} hàng",
+        "rowsSelected_zero": "Đã chọn {{count}} hàng"
       },
       "restore": {
         "label": "Khôi phục bản ghi",
@@ -1686,6 +1696,9 @@
           "title": "Tóm tắt",
           "valid": "Hợp lệ"
         }
+      },
+      "search": {
+        "placeholder": "Tìm kiếm"
       },
       "searchBar": {
         "expandTooltip": "Mở tìm kiếm và Hỗ trợ AI",

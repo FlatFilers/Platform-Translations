@@ -1046,7 +1046,8 @@
   "nativeActions": {
     "addColumn": "Sütun ekle",
     "clearColumn": "Sütunu Temizle",
-    "removeColumn": "Sütunu kaldır"
+    "removeColumn": "Sütunu kaldır",
+    "renameColumn": "Sütunu yeniden adlandır"
   },
   "platform": {
     "pubnub": {
@@ -1653,7 +1654,11 @@
         "dropdownPlaceholder": "Aratın veya seçin..."
       },
       "filters": {
+        "addCondition": "Koşul ekleyin",
+        "advancedFilter": "Gelişmiş filtre",
         "all": "Tümü",
+        "buttonText": "Filtre",
+        "deleteFilter": "Filtreyi Sil",
         "invalid": "Geçersiz",
         "tooltip": {
           "countsError": "Sayılar yüklenirken hata oluştu",
@@ -1678,6 +1683,12 @@
       "moreActions": {
         "buttonText": "Daha fazla eylem",
         "placeholder": "Aratın veya seçin..."
+      },
+      "recordCount": {
+        "records": "Kayıtlar",
+        "rowsSelected_one": "{{count}} Satır Seçildi",
+        "rowsSelected_other": "{{count}} Satır Seçildi",
+        "rowsSelected_zero": "{{count}} Satır Seçildi"
       },
       "restore": {
         "label": "Kayıtları geri yükle",
@@ -1731,6 +1742,9 @@
           "title": "Özet",
           "valid": "Geçerli"
         }
+      },
+      "search": {
+        "placeholder": "Arama"
       },
       "searchBar": {
         "expandTooltip": "Aramayı ve Yapay Zeka Yardımını aç",

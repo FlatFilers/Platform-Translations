@@ -1027,7 +1027,8 @@
   "nativeActions": {
     "addColumn": "열 추가",
     "clearColumn": "열 초기화",
-    "removeColumn": "열 삭제"
+    "removeColumn": "열 삭제",
+    "renameColumn": "열 이름 변경"
   },
   "platform": {
     "pubnub": {
@@ -1608,7 +1609,11 @@
         "dropdownPlaceholder": "검색하거나 선택하세요..."
       },
       "filters": {
+        "addCondition": "조건 추가",
+        "advancedFilter": "고급 필터",
         "all": "전체",
+        "buttonText": "필터",
+        "deleteFilter": "필터 삭제",
         "invalid": "무효",
         "tooltip": {
           "countsError": "개수 로딩 중 오류 발생",
@@ -1633,6 +1638,11 @@
       "moreActions": {
         "buttonText": "더 많은 실행",
         "placeholder": "검색하거나 선택하세요..."
+      },
+      "recordCount": {
+        "records": "기록",
+        "rowsSelected_other": "{{count}}개 행 선택됨",
+        "rowsSelected_zero": "{{count}}개 행 선택됨"
       },
       "restore": {
         "label": "기록 복원",
@@ -1686,6 +1696,9 @@
           "title": "요약",
           "valid": "유효"
         }
+      },
+      "search": {
+        "placeholder": "검색"
       },
       "searchBar": {
         "expandTooltip": "검색 및 AI 지원 열기",

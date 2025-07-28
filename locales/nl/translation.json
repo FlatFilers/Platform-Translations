@@ -1045,7 +1045,8 @@
   "nativeActions": {
     "addColumn": "Kolom toevoegen",
     "clearColumn": "Kolom wissen",
-    "removeColumn": "Kolom verwijderen"
+    "removeColumn": "Kolom verwijderen",
+    "renameColumn": "Kolom hernoemen"
   },
   "platform": {
     "pubnub": {
@@ -1652,7 +1653,11 @@
         "dropdownPlaceholder": "Zoeken of selecteren..."
       },
       "filters": {
+        "addCondition": "Voorwaarde toevoegen",
+        "advancedFilter": "Geavanceerde filter",
         "all": "Alles",
+        "buttonText": "Filter",
+        "deleteFilter": "Filter verwijderen",
         "invalid": "Ongeldig",
         "tooltip": {
           "countsError": "Fout bij het laden van aantallen",
@@ -1677,6 +1682,12 @@
       "moreActions": {
         "buttonText": "Meer acties",
         "placeholder": "Zoeken of selecteren..."
+      },
+      "recordCount": {
+        "records": "Records",
+        "rowsSelected_one": "{{count}} rij geselecteerd",
+        "rowsSelected_other": "{{count}} rijen geselecteerd",
+        "rowsSelected_zero": "{{count}} rijen geselecteerd"
       },
       "restore": {
         "label": "Records herstellen",
@@ -1730,6 +1741,9 @@
           "title": "Samenvatting",
           "valid": "Geldig"
         }
+      },
+      "search": {
+        "placeholder": "Zoeken"
       },
       "searchBar": {
         "expandTooltip": "Open zoeken en AI-assist",

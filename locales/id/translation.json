@@ -1027,7 +1027,8 @@
   "nativeActions": {
     "addColumn": "Tambah kolom",
     "clearColumn": "Kosongkan Kolom",
-    "removeColumn": "Hapus kolom"
+    "removeColumn": "Hapus kolom",
+    "renameColumn": "Ganti nama kolom"
   },
   "platform": {
     "pubnub": {
@@ -1608,7 +1609,11 @@
         "dropdownPlaceholder": "Cari atau pilih..."
       },
       "filters": {
+        "addCondition": "Tambah kondisi",
+        "advancedFilter": "Filter lanjutan",
         "all": "Semua",
+        "buttonText": "Filter",
+        "deleteFilter": "Hapus Filter",
         "invalid": "Tidak valid",
         "tooltip": {
           "countsError": "Jumlah pemuatan kesalahan",
@@ -1633,6 +1638,11 @@
       "moreActions": {
         "buttonText": "Tindakan lainnya",
         "placeholder": "Cari atau pilih..."
+      },
+      "recordCount": {
+        "records": "Catatan",
+        "rowsSelected_other": "{{count}} Baris Dipilih",
+        "rowsSelected_zero": "{{count}} Baris Dipilih"
       },
       "restore": {
         "label": "Pulihkan rekaman",
@@ -1686,6 +1696,9 @@
           "title": "ringkasan",
           "valid": "tidak absah"
         }
+      },
+      "search": {
+        "placeholder": "Cari"
       },
       "searchBar": {
         "expandTooltip": "Buka pencarian dan Bantuan AI",

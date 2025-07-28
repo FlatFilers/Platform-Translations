@@ -1026,7 +1026,7 @@
   },
   "nativeActions": {
     "addColumn": "Add column",
-    "clearColumn": "Clear column",
+    "clearColumn": "Clear Column",
     "removeColumn": "Remove column",
     "renameColumn": "Rename column"
   },
@@ -1610,7 +1610,11 @@
         "dropdownPlaceholder": "Search or select..."
       },
       "filters": {
+        "addCondition": "Add condition",
+        "advancedFilter": "Advanced filter",
         "all": "All",
+        "buttonText": "Filter",
+        "deleteFilter": "Delete Filter",
         "invalid": "Invalid",
         "valid": "Valid",
         "buttonText": "Filter",
@@ -1700,6 +1704,9 @@
           "title": "Summary",
           "valid": "Valid"
         }
+      },
+      "search": {
+        "placeholder": "Search"
       },
       "searchBar": {
         "expandTooltip": "Open search and AI Assist",

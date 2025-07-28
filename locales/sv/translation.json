@@ -1045,7 +1045,8 @@
   "nativeActions": {
     "addColumn": "Lägg till kolumn",
     "clearColumn": "Rensa kolumn",
-    "removeColumn": "Ta bort kolumn"
+    "removeColumn": "Ta bort kolumn",
+    "renameColumn": "Döp om kolumnen"
   },
   "platform": {
     "pubnub": {
@@ -1652,7 +1653,11 @@
         "dropdownPlaceholder": "Sök eller välj ..."
       },
       "filters": {
+        "addCondition": "Lägg till villkor",
+        "advancedFilter": "Avancerat filter",
         "all": "Alla",
+        "buttonText": "Filter",
+        "deleteFilter": "Radera filter",
         "invalid": "Ogiltig",
         "tooltip": {
           "countsError": "Fel när antalet laddades",
@@ -1677,6 +1682,12 @@
       "moreActions": {
         "buttonText": "Fler åtgärder",
         "placeholder": "Sök eller välj ..."
+      },
+      "recordCount": {
+        "records": "Poster",
+        "rowsSelected_one": "{{count}} rad vald",
+        "rowsSelected_other": "{{count}} rader valda",
+        "rowsSelected_zero": "{{count}} rader valda"
       },
       "restore": {
         "label": "Återställ poster",
@@ -1730,6 +1741,9 @@
           "title": "Sammanfattning",
           "valid": "Giltig"
         }
+      },
+      "search": {
+        "placeholder": "Sök"
       },
       "searchBar": {
         "expandTooltip": "Öppna sökning och AI Assist",

@@ -1045,7 +1045,8 @@
   "nativeActions": {
     "addColumn": "Añadir columna",
     "clearColumn": "Limpiar columna",
-    "removeColumn": "Eliminar columna"
+    "removeColumn": "Eliminar columna",
+    "renameColumn": "Renombrar columna"
   },
   "platform": {
     "pubnub": {
@@ -1652,7 +1653,11 @@
         "dropdownPlaceholder": "Buscar o seleccionar..."
       },
       "filters": {
+        "addCondition": "Añadir condición",
+        "advancedFilter": "Filtro avanzado",
         "all": "Todos",
+        "buttonText": "Filtrar",
+        "deleteFilter": "Eliminar filtro",
         "invalid": "No válido",
         "tooltip": {
           "countsError": "Error al cargar conteos",
@@ -1677,6 +1682,12 @@
       "moreActions": {
         "buttonText": "Más acciones",
         "placeholder": "Buscar o seleccionar..."
+      },
+      "recordCount": {
+        "records": "Registros",
+        "rowsSelected_one": "{{count}} fila seleccionada",
+        "rowsSelected_other": "{{count}} filas seleccionadas",
+        "rowsSelected_zero": "{{count}} filas seleccionadas"
       },
       "restore": {
         "label": "Restaurar registros",
@@ -1730,6 +1741,9 @@
           "title": "Resumen",
           "valid": "Válido"
         }
+      },
+      "search": {
+        "placeholder": "Buscar"
       },
       "searchBar": {
         "expandTooltip": "Búsqueda abierta y asistencia AI",

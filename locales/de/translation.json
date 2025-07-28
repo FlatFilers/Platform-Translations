@@ -1046,7 +1046,8 @@
   "nativeActions": {
     "addColumn": "Spalte hinzufügen",
     "clearColumn": "Spalte leeren",
-    "removeColumn": "Spalte entfernen"
+    "removeColumn": "Spalte entfernen",
+    "renameColumn": "Spalte umbenennen"
   },
   "platform": {
     "pubnub": {
@@ -1653,7 +1654,11 @@
         "dropdownPlaceholder": "Suchen oder auswählen …"
       },
       "filters": {
+        "addCondition": "Bedingung hinzufügen",
+        "advancedFilter": "Erweiterter Filter",
         "all": "Alles",
+        "buttonText": "Filter",
+        "deleteFilter": "Filter löschen",
         "invalid": "Ungültig",
         "tooltip": {
           "countsError": "Fehler beim Laden der Zählungen",
@@ -1678,6 +1683,12 @@
       "moreActions": {
         "buttonText": "Weitere Aktionen",
         "placeholder": "Suchen oder auswählen …"
+      },
+      "recordCount": {
+        "records": "Aufzeichnungen",
+        "rowsSelected_one": "{{count}} Spalte ausgewählt",
+        "rowsSelected_other": "{{count}} Spalten ausgewählt",
+        "rowsSelected_zero": "{{count}} Zeilen ausgewählt"
       },
       "restore": {
         "label": "Datensätze wiederherstellen",
@@ -1731,6 +1742,9 @@
           "title": "Zusammenfassung",
           "valid": "Gültig"
         }
+      },
+      "search": {
+        "placeholder": "Suchen"
       },
       "searchBar": {
         "expandTooltip": "Suche und KI-Unterstützung öffnen",

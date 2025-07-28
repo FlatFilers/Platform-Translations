@@ -1046,7 +1046,8 @@
   "nativeActions": {
     "addColumn": "Aggiungi colonna",
     "clearColumn": "Ripulisci la colonna",
-    "removeColumn": "Rimuovi la colonna"
+    "removeColumn": "Rimuovi la colonna",
+    "renameColumn": "Rinomina colonna"
   },
   "platform": {
     "pubnub": {
@@ -1653,7 +1654,11 @@
         "dropdownPlaceholder": "Cerca o seleziona..."
       },
       "filters": {
+        "addCondition": "Aggiungi condizione",
+        "advancedFilter": "Filtro avanzato",
         "all": "Tutte",
+        "buttonText": "Filtro",
+        "deleteFilter": "Cancella filtro",
         "invalid": "Non valide",
         "tooltip": {
           "countsError": "Errore durante il caricamento delle somme",
@@ -1678,6 +1683,12 @@
       "moreActions": {
         "buttonText": "Più azioni",
         "placeholder": "Cerca o seleziona..."
+      },
+      "recordCount": {
+        "records": "Record",
+        "rowsSelected_one": "{{count}} riga selezionata",
+        "rowsSelected_other": "{{count}} righe selezionate",
+        "rowsSelected_zero": "{{count}} righe selezionate"
       },
       "restore": {
         "label": "Ripristinare le righe di dati",
@@ -1731,6 +1742,9 @@
           "title": "Riepilogo",
           "valid": "Valido"
         }
+      },
+      "search": {
+        "placeholder": "Ricerca"
       },
       "searchBar": {
         "expandTooltip": "Apri la ricerca e l'assistente IA",

@@ -1083,7 +1083,8 @@
   "nativeActions": {
     "addColumn": "Dodaj kolumnę",
     "clearColumn": "Wyczyść kolumnę",
-    "removeColumn": "Usuń kolumnę"
+    "removeColumn": "Usuń kolumnę",
+    "renameColumn": "Zmień nazwę kolumny"
   },
   "platform": {
     "pubnub": {
@@ -1742,7 +1743,11 @@
         "dropdownPlaceholder": "Wyszukaj lub wybierz..."
       },
       "filters": {
+        "addCondition": "Dodaj warunek",
+        "advancedFilter": "Filtr zaawansowany",
         "all": "Wszystko",
+        "buttonText": "Filtr",
+        "deleteFilter": "Usuń filtr",
         "invalid": "Nieprawidłowy",
         "tooltip": {
           "countsError": "Błąd wczytywania ilości",
@@ -1767,6 +1772,14 @@
       "moreActions": {
         "buttonText": "Więcej akcji",
         "placeholder": "Wyszukaj lub wybierz..."
+      },
+      "recordCount": {
+        "records": "Rekordy",
+        "rowsSelected_few": "{{count}} wybrane wiersze",
+        "rowsSelected_many": "{{count}} wybranych wierszy",
+        "rowsSelected_one": "{{count}} wybrany wiersz",
+        "rowsSelected_other": "{{count}} wybranych wierszy",
+        "rowsSelected_zero": "{{count}} wybranych wierszy"
       },
       "restore": {
         "label": "Przywróć rekordy",
@@ -1820,6 +1833,9 @@
           "title": "Podsumowanie",
           "valid": "Prawidłowy"
         }
+      },
+      "search": {
+        "placeholder": "Szukaj"
       },
       "searchBar": {
         "expandTooltip": "Otwórz wyszukiwanie i wsparcie AI",

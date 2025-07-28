@@ -1026,7 +1026,8 @@
   "nativeActions": {
     "addColumn": "新增欄",
     "clearColumn": "清除欄",
-    "removeColumn": "移除欄"
+    "removeColumn": "移除欄",
+    "renameColumn": "重新命名欄"
   },
   "platform": {
     "pubnub": {
@@ -1607,7 +1608,11 @@
         "dropdownPlaceholder": "搜尋或選取..."
       },
       "filters": {
+        "addCondition": "新增條件",
+        "advancedFilter": "進階篩選條件",
         "all": "全部",
+        "buttonText": "篩選條件",
+        "deleteFilter": "刪除篩選條件",
         "invalid": "無效",
         "tooltip": {
           "countsError": "載入計數時出現錯誤",
@@ -1632,6 +1637,11 @@
       "moreActions": {
         "buttonText": "更多動作",
         "placeholder": "搜尋或選取..."
+      },
+      "recordCount": {
+        "records": "紀錄",
+        "rowsSelected_other": "已選取 {{count}} 個橫列",
+        "rowsSelected_zero": "已選取 {{count}} 個橫列"
       },
       "restore": {
         "label": "復原記錄",
@@ -1685,6 +1695,9 @@
           "title": "摘要",
           "valid": "有效"
         }
+      },
+      "search": {
+        "placeholder": "搜尋"
       },
       "searchBar": {
         "expandTooltip": "開啟搜尋與 AI 助理",
