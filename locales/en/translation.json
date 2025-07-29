@@ -116,8 +116,9 @@
     "createFlagError": "Failed to create flag",
     "createNewFlag": "Create new flag",
     "cut": "Cut",
-    "flagSelectedRecords": "Flag selected records...",
-    "paste": "Paste"
+    "paste": "Paste",
+    "clearFlags": "Clear flags",
+    "flagSelectedRecords": "Flag selected records..."
   },
   "checklist": {
     "dropdowns": {
@@ -1584,6 +1585,13 @@
             "successMessage_one": "{{count}} record flagged",
             "successMessage_other": "{{count}} records flagged",
             "successMessageNoCount": "Records flagged"
+          }
+        },
+        "clearFlags": {
+          "popover": {
+            "successMessage_one": "Cleared flags from {{count}} record",
+            "successMessage_other": "Cleared flags from {{count}} records",
+            "successMessageNoCount": "Flags cleared from records"
           }
         }
       },
