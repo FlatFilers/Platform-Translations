@@ -112,7 +112,11 @@
   "cellContextMenu": {
     "comment": "Comment",
     "copy": "Copy",
+    "createFlag": "Create flag",
+    "createFlagError": "Failed to create flag",
+    "createNewFlag": "Create new flag",
     "cut": "Cut",
+    "flagSelectedRecords": "Flag selected records...",
     "paste": "Paste"
   },
   "checklist": {
@@ -242,11 +246,14 @@
   },
   "common": {
     "cancel": "Cancel",
+    "confirm": "Confirm",
+    "creating": "Creating...",
     "lastWeek": "Last Week",
     "name": "Name",
     "older": "Older",
     "thisWeek": "This Week",
     "today": "Today",
+    "tryAgainLater": "Please try again later",
     "yesterday": "Yesterday"
   },
   "dataClips": {
@@ -504,6 +511,11 @@
     "unauthorized": "Your access credentials are invalid.",
     "unknownError": "Something went wrong",
     "workbookNotFound": "Workbook not found"
+  },
+  "flags": {
+    "errors": {
+      "create": "Failed to create flag"
+    }
   },
   "files": {
     "availableDownloadsTab": "Available downloads",
@@ -1565,6 +1577,13 @@
               "deleteDisabled": "Restoring records is disabled in this Sheet.",
               "noRecordsSelected": "Select at least one record in order to restore it"
             }
+          }
+        },
+        "flagRecords": {
+          "popover": {
+            "successMessage_one": "{{count}} record flagged",
+            "successMessage_other": "{{count}} records flagged",
+            "successMessageNoCount": "Records flagged"
           }
         }
       },
