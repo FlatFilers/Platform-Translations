@@ -109,9 +109,14 @@
     "sum": "總數：{{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "清除標幟",
     "comment": "評論",
     "copy": "複製",
+    "createFlag": "建立標幟",
+    "createFlagError": "無法建立標幟",
+    "createNewFlag": "建立新標幟",
     "cut": "剪下",
+    "flagSelectedRecords": "標幟所選記錄……",
     "paste": "貼上"
   },
   "checklist": {
@@ -241,11 +246,14 @@
   },
   "common": {
     "cancel": "取消",
+    "confirm": "確認",
+    "creating": "正在建立……",
     "lastWeek": "上週",
     "name": "名稱",
     "older": "較早的",
     "thisWeek": "本週",
     "today": "今天",
+    "tryAgainLater": "請稍後再試",
     "yesterday": "昨天"
   },
   "dataClips": {
@@ -607,6 +615,11 @@
         "cannotImport": "目前無法將此檔案匯入至活頁簿",
         "noExtension": "此檔案沒有副檔名。請將正確的檔案副檔名添加至檔案名稱並重新上傳檔案，以將其匯入活頁簿"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "無法建立標幟"
     }
   },
   "guestInvite": {
@@ -1449,6 +1462,13 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_other": "已清除 {{count}} 個記錄中的標幟",
+            "successMessage_zero": "已清除 {{count}} 個記錄中的標幟",
+            "successMessageNoCount": "已清除記錄中的標幟"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "取消",
@@ -1510,6 +1530,13 @@
             "disabled": "沒有可下載的記錄"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_other": "{{count}} 個記錄已標幟",
+            "successMessage_zero": "{{count}} 個記錄已標幟",
+            "successMessageNoCount": "記錄已標幟"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "取消",
@@ -1566,6 +1593,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "取消",
+          "confirm": "確認"
+        },
+        "description": "您確定要清除這個視圖和所有現有的篩選條件嗎？",
+        "title": "清除視圖"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "當此工作表中至少有一筆記錄時，該動作將可用。",
@@ -1596,6 +1631,11 @@
         "titles": {
           "review": "審核",
           "share": "分享資料剪輯"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "取消"
         }
       },
       "dropdown": {

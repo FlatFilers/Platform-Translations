@@ -111,9 +111,14 @@
     "sum": "Suma: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Borrar marcas",
     "comment": "Comentario",
     "copy": "Copiar",
+    "createFlag": "Crear señal",
+    "createFlagError": "Error al crear la señal.",
+    "createNewFlag": "Crear señal nueva",
     "cut": "Cortar",
+    "flagSelectedRecords": "Señalar registros seleccionados...",
     "paste": "Pegar"
   },
   "checklist": {
@@ -245,11 +250,14 @@
   },
   "common": {
     "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "creating": "Creando...",
     "lastWeek": "La semana pasada",
     "name": "Nombre",
     "older": "Más antiguo",
     "thisWeek": "Esta semana",
     "today": "Hoy",
+    "tryAgainLater": "Inténtalo de nuevo más tarde.",
     "yesterday": "Ayer"
   },
   "dataClips": {
@@ -621,6 +629,11 @@
         "cannotImport": "Importar a un cuaderno de trabajo no está disponible para este archivo",
         "noExtension": "El archivo no tiene extensión. Añada la extensión de archivo correcta al nombre del archivo y suba de nuevo el archivo para importarlo a un cuaderno de trabajo"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Error al crear la señal."
     }
   },
   "guestInvite": {
@@ -1482,6 +1495,14 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_one": "Marcas borradas de {{count}} registro",
+            "successMessage_other": "Marcas borradas de {{count}} registros",
+            "successMessage_zero": "Marcas borradas de {{count}} registros",
+            "successMessageNoCount": "Marcas borradas de los registros"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Cancelar",
@@ -1548,6 +1569,14 @@
             "disabled": "No hay registros para descargar."
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_one": "{{count}} registro señalado",
+            "successMessage_other": "{{count}} registros señalados",
+            "successMessage_zero": "{{count}} registros señalados",
+            "successMessageNoCount": "Registros señalados"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Cancelar",
@@ -1609,6 +1638,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Cancelar",
+          "confirm": "Confirmar"
+        },
+        "description": "¿Estás seguro de que quieres borrar esta vista y todos los filtros actuales?",
+        "title": "Borrar vista"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Esta acción estará disponible una vez que haya al menos un registro en esta hoja.",
@@ -1642,6 +1679,11 @@
         "titles": {
           "review": "Revisar",
           "share": "Compartir fragmentos de datos"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Cancelar"
         }
       },
       "dropdown": {

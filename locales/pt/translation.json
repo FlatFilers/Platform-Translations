@@ -111,9 +111,14 @@
     "sum": "Total: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Limpar avisos",
     "comment": "Comentar",
     "copy": "Copiar",
+    "createFlag": "Criar sinalizador",
+    "createFlagError": "Falha ao criar sinalizador",
+    "createNewFlag": "Criar novo sinalizador",
     "cut": "Cortar",
+    "flagSelectedRecords": "Sinalizar os registos selecionados...",
     "paste": "Colar"
   },
   "checklist": {
@@ -245,11 +250,14 @@
   },
   "common": {
     "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "creating": "A criar...",
     "lastWeek": "Última semana",
     "name": "Nome",
     "older": "Mais antigo",
     "thisWeek": "Esta semana",
     "today": "Hoje",
+    "tryAgainLater": "Tente de novo mais tarde",
     "yesterday": "Ontem"
   },
   "dataClips": {
@@ -621,6 +629,11 @@
         "cannotImport": "A importação para um livro de trabalho não está atualmente disponível para este ficheiro",
         "noExtension": "Este ficheiro não tem uma extensão. Adicione a extensão de ficheiro correta ao nome do ficheiro e volte a carregar o ficheiro para o importar para um livro de trabalho"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Falha ao criar sinalizador"
     }
   },
   "guestInvite": {
@@ -1482,6 +1495,14 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_one": "Limpou avisos de {{count}} registo",
+            "successMessage_other": "Limpou avisos de {{count}} registos",
+            "successMessage_zero": "Limpou avisos de {{count}} registos",
+            "successMessageNoCount": "Avisos limpos dos registos"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Cancelar",
@@ -1548,6 +1569,14 @@
             "disabled": "Nenhum registo para descarregar"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_one": "{{count}} registo sinalizado",
+            "successMessage_other": "{{count}} registos sinalizados",
+            "successMessage_zero": "{{count}} registos sinalizados",
+            "successMessageNoCount": "Registos sinalizados"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Cancelar",
@@ -1609,6 +1638,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Cancelar",
+          "confirm": "Confirmar"
+        },
+        "description": "Tem a certeza de que pretende limpar esta vista e todos os filtros atuais?",
+        "title": "Limpar vista"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Esta ação estará disponível assim que houver pelo menos um registo nesta Folha.",
@@ -1642,6 +1679,11 @@
         "titles": {
           "review": "Rever",
           "share": "Partilhar Clipes de Dados"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Cancelar"
         }
       },
       "dropdown": {

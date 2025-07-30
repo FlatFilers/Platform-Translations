@@ -110,9 +110,14 @@
     "sum": "Summa: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Poista merkinnät",
     "comment": "Kommentti",
     "copy": "Kopioi",
+    "createFlag": "Luo merkintä",
+    "createFlagError": "Merkinnän luominen epäonnistui",
+    "createNewFlag": "Luo uusi merkintä",
     "cut": "Leikkaa",
+    "flagSelectedRecords": "Merkitse valitut tietueet...",
     "paste": "Liitä"
   },
   "checklist": {
@@ -244,11 +249,14 @@
   },
   "common": {
     "cancel": "Peruuta",
+    "confirm": "Vahvista",
+    "creating": "Luodaan...",
     "lastWeek": "Viime viikolla",
     "name": "Nimi",
     "older": "Vanhempi",
     "thisWeek": "Tällä viikolla",
     "today": "Tänään",
+    "tryAgainLater": "Yritäthän uudelleen myöhemmin",
     "yesterday": "Eilen"
   },
   "dataClips": {
@@ -620,6 +628,11 @@
         "cannotImport": "Tuonti työkirjaan ei ole tällä hetkellä saatavilla tälle tiedostolle",
         "noExtension": "Tällä tiedostolla ei ole päätettä. Lisää oikea tiedostopääte tiedostonimeen ja lataa tiedosto uudelleen, jotta voit tuoda sen työkirjaan"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Merkinnän luominen epäonnistui"
     }
   },
   "guestInvite": {
@@ -1481,6 +1494,14 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_one": "Merkinnät poistettu {{count}} tietueesta",
+            "successMessage_other": "Merkinnät poistettu {{count}} tietueesta",
+            "successMessage_zero": "Merkinnät poistettu {{count}} tietueesta",
+            "successMessageNoCount": "Merkinnät poistettu tietueista"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Peruuta",
@@ -1547,6 +1568,14 @@
             "disabled": "Ei ladattavia tietueita"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_one": "{{count}} tietue merkitty",
+            "successMessage_other": "{{count}} tietuetta merkitty",
+            "successMessage_zero": "{{count}} tietuetta merkitty",
+            "successMessageNoCount": "Merkityt tietueet"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Peruuta",
@@ -1608,6 +1637,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Peruuta",
+          "confirm": "Vahvista"
+        },
+        "description": "Haluatko varmasti tyhjentää tämän näkymän ja kaikki nykyiset suodattimet?",
+        "title": "Tyhjennä näkymä"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Tämä toimenpide tulee käyttöön, kun tässä taulukossa on vähintään yksi tietue.",
@@ -1641,6 +1678,11 @@
         "titles": {
           "review": "Tarkista",
           "share": "Jaa tietoleikkeet"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Peruuta"
         }
       },
       "dropdown": {

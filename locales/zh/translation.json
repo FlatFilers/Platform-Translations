@@ -110,9 +110,14 @@
     "sum": "总和：{{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "清除标记",
     "comment": "评论",
     "copy": "复制",
+    "createFlag": "创建标记",
+    "createFlagError": "创建标记失败",
+    "createNewFlag": "创建新标记",
     "cut": "剪切",
+    "flagSelectedRecords": "标记选定的记录……",
     "paste": "粘贴"
   },
   "checklist": {
@@ -242,11 +247,14 @@
   },
   "common": {
     "cancel": "取消",
+    "confirm": "确认",
+    "creating": "正在创建……",
     "lastWeek": "上周",
     "name": "名称",
     "older": "更早之前",
     "thisWeek": "本周",
     "today": "今天",
+    "tryAgainLater": "请稍后再试",
     "yesterday": "昨天"
   },
   "dataClips": {
@@ -608,6 +616,11 @@
         "cannotImport": "该文件目前无法导入到工作簿",
         "noExtension": "该文件没有扩展名。请将正确的文件扩展名添加到文件名，并重新上传文件以将其导入工作簿"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "创建标记失败"
     }
   },
   "guestInvite": {
@@ -1450,6 +1463,13 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_other": "已清除 {{count}} 条记录的标记",
+            "successMessage_zero": "已清除 {{count}} 条记录的标记",
+            "successMessageNoCount": "已从记录中清除标记"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "取消",
@@ -1511,6 +1531,13 @@
             "disabled": "没有可供下载的记录"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_other": "已标记 {{count}} 条记录",
+            "successMessage_zero": "已标记 {{count}} 条记录",
+            "successMessageNoCount": "记录已标记"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "取消",
@@ -1567,6 +1594,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "取消",
+          "confirm": "确认"
+        },
+        "description": "您确定要清除此视图及所有当前筛选条件吗？",
+        "title": "清除视图"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "此操作将在该工作表上有至少一条记录后可用。",
@@ -1597,6 +1632,11 @@
         "titles": {
           "review": "审核",
           "share": "共享数据剪辑"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "取消"
         }
       },
       "dropdown": {

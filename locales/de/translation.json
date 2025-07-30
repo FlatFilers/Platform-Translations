@@ -111,9 +111,14 @@
     "sum": "Summe: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Markierungen löschen",
     "comment": "Kommentar",
     "copy": "Kopieren",
+    "createFlag": "Markierung erstellen",
+    "createFlagError": "Die Markierung konnte nicht erstellt werden",
+    "createNewFlag": "Neue Markierung erstellen",
     "cut": "Ausschneiden",
+    "flagSelectedRecords": "Ausgewählte Einträge markieren ...",
     "paste": "Einfügen"
   },
   "checklist": {
@@ -245,11 +250,14 @@
   },
   "common": {
     "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "creating": "Wird erstellt ...",
     "lastWeek": "Letzte Woche",
     "name": "Name",
     "older": "Ältere",
     "thisWeek": "Diese Woche",
     "today": "Heute",
+    "tryAgainLater": "Bitte versuchen Sie es später noch einmal",
     "yesterday": "Gestern"
   },
   "dataClips": {
@@ -621,6 +629,11 @@
         "cannotImport": "Importieren in eine Arbeitsmappe ist für diese Datei zur Zeit nicht verfügbar",
         "noExtension": "Diese Datei hat keine Erweiterung. Fügen Sie dem Dateinamen die richtige Erweiterung hinzu und laden Sie die Datei erneut hoch, um sie in eine Arbeitsmappe zu importieren"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Die Markierung konnte nicht erstellt werden"
     }
   },
   "guestInvite": {
@@ -1482,6 +1495,14 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_one": "Die Markierungen von {{count}} Eintrag wurden gelöscht",
+            "successMessage_other": "Die Markierungen von {{count}} Einträgen wurden gelöscht",
+            "successMessage_zero": "Die Markierungen von {{count}} Einträgen wurden gelöscht",
+            "successMessageNoCount": "Von Einträgen gelöschte Markierungen"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Abbrechen",
@@ -1548,6 +1569,14 @@
             "disabled": "Es sind keine Einträge zum Herunterladen verfügbar"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_one": "{{count}} Eintrag markiert",
+            "successMessage_other": "{{count}} Einträge markiert",
+            "successMessage_zero": "{{count}} Einträge markiert",
+            "successMessageNoCount": "Markierte Einträge"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Abbrechen",
@@ -1609,6 +1638,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Abbrechen",
+          "confirm": "Bestätigen"
+        },
+        "description": "Möchten Sie diese Ansicht und alle aktuellen Filter wirklich löschen?",
+        "title": "Ansicht löschen"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Diese Aktion ist verfügbar, sobald in dieser Tabelle mindestens ein Eintrag vorhanden ist.",
@@ -1642,6 +1679,11 @@
         "titles": {
           "review": "Überprüfung",
           "share": "Clip-Daten teilen"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Abbrechen"
         }
       },
       "dropdown": {

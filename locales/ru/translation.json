@@ -112,9 +112,14 @@
     "sum": "Сумма: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Снять флажки",
     "comment": "Комментарий",
     "copy": "Копировать",
+    "createFlag": "Создать флаг",
+    "createFlagError": "Не удалось создать флаг",
+    "createNewFlag": "Создать новый флаг",
     "cut": "Вырезать",
+    "flagSelectedRecords": "Отметить выбранные записи...",
     "paste": "Вставить"
   },
   "checklist": {
@@ -250,11 +255,14 @@
   },
   "common": {
     "cancel": "Отменить",
+    "confirm": "Подтвердить",
+    "creating": "Идет создание...",
     "lastWeek": "На прошлой неделе",
     "name": "Имя",
     "older": "Старше",
     "thisWeek": "На текущей неделе",
     "today": "Сегодня",
+    "tryAgainLater": "Повторите попытку позже",
     "yesterday": "Вчера"
   },
   "dataClips": {
@@ -646,6 +654,11 @@
         "cannotImport": "Импорт в книгу на данный момент недоступен для этого файла",
         "noExtension": "У этого файла нет расширения. Добавьте правильное расширение к имени файла и перезагрузите, чтобы импортировать файл в рабочую книгу"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Не удалось создать флаг"
     }
   },
   "guestInvite": {
@@ -1545,6 +1558,16 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_few": "Сняты флажки с {{count}} записей",
+            "successMessage_many": "Сняты флажки с {{count}} записей",
+            "successMessage_one": "Сняты флажки с {{count}} записей",
+            "successMessage_other": "Сняты флажки с {{count}} записей",
+            "successMessage_zero": "Сняты флажки с {{count}} записей",
+            "successMessageNoCount": "Флажки сняты с записей"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Отменить",
@@ -1621,6 +1644,16 @@
             "disabled": "Нет записей для загрузки"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_few": "Отмечено {{count}} записи",
+            "successMessage_many": "Отмечено {{count}} записей",
+            "successMessage_one": "Отмечена {{count}} запись",
+            "successMessage_other": "Отмечено {{count}} записи",
+            "successMessage_zero": "Отмечено {{count}} записей",
+            "successMessageNoCount": "Отмеченные записи"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Отменить",
@@ -1692,6 +1725,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Отмена",
+          "confirm": "Подтвердить"
+        },
+        "description": "Уверены, что хотите очистить это представление и все текущие фильтры?",
+        "title": "Очисти ь вид"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Это действие будет доступно, когда в таблице появится хотя бы одна запись.",
@@ -1731,6 +1772,11 @@
         "titles": {
           "review": "Проверить",
           "share": "Поделиться отсеченными данными"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Отмена"
         }
       },
       "dropdown": {

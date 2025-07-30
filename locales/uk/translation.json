@@ -112,9 +112,14 @@
     "sum": "Сума: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Зняти позначки",
     "comment": "Коментар",
     "copy": "Копіювати",
+    "createFlag": "Створити прапорець",
+    "createFlagError": "Не вдалося створити прапорець",
+    "createNewFlag": "Створити новий прапорець",
     "cut": "Вирізати",
+    "flagSelectedRecords": "Позначити вибрані записи...",
     "paste": "Вставити"
   },
   "checklist": {
@@ -250,11 +255,14 @@
   },
   "common": {
     "cancel": "Скасувати",
+    "confirm": "Підтвердити",
+    "creating": "Створення...",
     "lastWeek": "Минулого тижня",
     "name": "Ім’я",
     "older": "Старіші",
     "thisWeek": "Цього тижня",
     "today": "Сьогодні",
+    "tryAgainLater": "Будь ласка, спробуйте ще раз пізніше",
     "yesterday": "Вчора"
   },
   "dataClips": {
@@ -646,6 +654,11 @@
         "cannotImport": "Імпорт до робочого зошита наразі недоступний для цього файлу",
         "noExtension": "У цього файлу немає розширення. Додайте правильне розширення до імені файлу та завантажте його ще раз, щоб імпортувати файл до робочого зошита"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Не вдалося створити прапорець"
     }
   },
   "guestInvite": {
@@ -1545,6 +1558,16 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_few": "Позначки знято з {{count}} записів",
+            "successMessage_many": "Позначки знято з {{count}} записів",
+            "successMessage_one": "Позначки знято з {{count}} записів",
+            "successMessage_other": "Позначки знято з {{count}} записів",
+            "successMessage_zero": "Позначки знято з {{count}} записів",
+            "successMessageNoCount": "Позначки із записів знято"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Скасувати",
@@ -1621,6 +1644,16 @@
             "disabled": "Немає записів для звантаження"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_few": "{{count}} записів позначено",
+            "successMessage_many": "{{count}} записів позначено",
+            "successMessage_one": "{{count}} записів позначено",
+            "successMessage_other": "{{count}} записів позначено",
+            "successMessage_zero": "{{count}} записів позначено",
+            "successMessageNoCount": "Записи позначено"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Скасувати",
@@ -1692,6 +1725,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Скасувати",
+          "confirm": "Підтвердити"
+        },
+        "description": "Ви впевнені, що хочете очистити це представлення та всі поточні фільтри?",
+        "title": "Очистити"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Ця дія буде доступна після того, як в цьому аркуші буде хоча б 1 запис.",
@@ -1731,6 +1772,11 @@
         "titles": {
           "review": "Перевірка",
           "share": "Поділіться фрагментами даних"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Скасувати"
         }
       },
       "dropdown": {

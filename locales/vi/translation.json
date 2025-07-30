@@ -110,9 +110,14 @@
     "sum": "Tổng: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Xóa cờ",
     "comment": "Bình luận",
     "copy": "Sao chép",
+    "createFlag": "Tạo cờ đánh dấu",
+    "createFlagError": "Tạo cờ đánh dấu thất bại",
+    "createNewFlag": "Tạo cờ đánh dấu mới",
     "cut": "Cắt",
+    "flagSelectedRecords": "Đánh dấu các bản ghi đã chọn...",
     "paste": "Dán"
   },
   "checklist": {
@@ -242,11 +247,14 @@
   },
   "common": {
     "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "creating": "Đang tạo...",
     "lastWeek": "Tuần trước",
     "name": "Tên",
     "older": "Cũ hơn",
     "thisWeek": "Tuần này",
     "today": "Hôm nay",
+    "tryAgainLater": "Vui lòng thử lại sau",
     "yesterday": "Hôm qua"
   },
   "dataClips": {
@@ -608,6 +616,11 @@
         "cannotImport": "Tính năng nhập vào sổ làm việc hiện không khả dụng cho tệp này",
         "noExtension": "Tệp này không có phần mở rộng. Thêm phần mở rộng tệp chính xác vào tên tệp và tải tệp lên lại để nhập tệp vào sổ làm việc"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Tạo cờ đánh dấu thất bại"
     }
   },
   "guestInvite": {
@@ -1450,6 +1463,13 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_other": "Đã xóa cờ từ {{count}} bản ghi",
+            "successMessage_zero": "Đã xóa cờ từ {{count}} bản ghi",
+            "successMessageNoCount": "Đã xóa cờ từ các bản ghi"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Hủy",
@@ -1511,6 +1531,13 @@
             "disabled": "Không có bản ghi nào để tải xuống"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_other": "{{count}} bản ghi đã được đánh dấu",
+            "successMessage_zero": "{{count}} bản ghi đã được đánh dấu",
+            "successMessageNoCount": "Các bản ghi đã được đánh dấu"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Hủy",
@@ -1567,6 +1594,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Hủy",
+          "confirm": "Xác nhận"
+        },
+        "description": "Bạn có chắc chắn muốn xóa chế độ xem này và tất cả các bộ lọc hiện tại không?",
+        "title": "Xóa Chế Độ Xem"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Bạn sẽ có thể thực hiện hành động này khi Bảng tính này có ít nhất một bản ghi.",
@@ -1597,6 +1632,11 @@
         "titles": {
           "review": "Xét duyệt",
           "share": "Chia sẻ clip dữ liệu"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Hủy"
         }
       },
       "dropdown": {

@@ -110,9 +110,14 @@
     "sum": "Jumlah: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Hapus tanda",
     "comment": "Komentar",
     "copy": "Salin",
+    "createFlag": "Buat bendera",
+    "createFlagError": "Gagal membuat bendera",
+    "createNewFlag": "Buat bendera baru",
     "cut": "Potong",
+    "flagSelectedRecords": "Tandai record terpilih dengan bendera...",
     "paste": "Tempel"
   },
   "checklist": {
@@ -242,11 +247,14 @@
   },
   "common": {
     "cancel": "Batal",
+    "confirm": "Konfirmasikan",
+    "creating": "Sedang membuat...",
     "lastWeek": "Minggu lalu",
     "name": "Nama",
     "older": "Lebih lama",
     "thisWeek": "Minggu ini",
     "today": "Hari ini",
+    "tryAgainLater": "Coba lagi nanti",
     "yesterday": "Kemarin"
   },
   "dataClips": {
@@ -608,6 +616,11 @@
         "cannotImport": "Mengimpor ke buku kerja saat ini tidak tersedia untuk berkas ini",
         "noExtension": "Berkas ini tidak memiliki ekstensi. Tambahkan ekstensi berkas yang benar ke nama berkas tersebut dan unggah ulang berkas tersebut untuk mengimpornya ke buku kerja"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Gagal membuat bendera"
     }
   },
   "guestInvite": {
@@ -1450,6 +1463,13 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_other": "Menghapus tanda dari {{count}} catatan",
+            "successMessage_zero": "Tanda telah dihapus dari {{count}} catatan",
+            "successMessageNoCount": "Tanda telah dihapus dari catatan"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Batal",
@@ -1511,6 +1531,13 @@
             "disabled": "Tidak ada catatan untuk diunduh"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_other": "{{count}} record ditandai dengan bendera",
+            "successMessage_zero": "{{count}} record ditandai dengan bendera",
+            "successMessageNoCount": "Record ditandai dengan bendera"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Batal",
@@ -1567,6 +1594,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Batal",
+          "confirm": "Konfirmasi"
+        },
+        "description": "Apa Anda yakin ingin menghapus tampilan ini dan semua filter saat ini?",
+        "title": "Hapus Tampilan"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Tindakan ini akan tersedia setelah ada setidaknya satu catatan di Lembar ini.",
@@ -1597,6 +1632,11 @@
         "titles": {
           "review": "Pratinjau",
           "share": "Bagikan Klip Data"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Batal"
         }
       },
       "dropdown": {

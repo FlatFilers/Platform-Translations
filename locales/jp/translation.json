@@ -110,9 +110,14 @@
     "sum": "合計：{{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "フラッグをはずす",
     "comment": "コメント",
     "copy": "コピー",
+    "createFlag": "フラグを作成",
+    "createFlagError": "フラグを作成できませんでした",
+    "createNewFlag": "新しいフラグを作成",
     "cut": "カット",
+    "flagSelectedRecords": "選択したレコードにフラグを設定...",
     "paste": "ペースト"
   },
   "checklist": {
@@ -242,11 +247,14 @@
   },
   "common": {
     "cancel": "キャンセル",
+    "confirm": "確認",
+    "creating": "作成中...",
     "lastWeek": "先週",
     "name": "名",
     "older": "より古い",
     "thisWeek": "今週",
     "today": "今日",
+    "tryAgainLater": "しばらくしてからもう一度お試しください",
     "yesterday": "昨日"
   },
   "dataClips": {
@@ -608,6 +616,11 @@
         "cannotImport": "現在、このファイルではワークブックへのインポートは利用できません",
         "noExtension": "このファイルには拡張子がありません。ファイル名に正しいファイル拡張子を追加し、ファイルを再アップロードしてワークブックにインポートしてください"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "フラグを作成できませんでした"
     }
   },
   "guestInvite": {
@@ -1450,6 +1463,13 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_other": "{{count}}の記録からフラッグをはずす",
+            "successMessage_zero": "{{count}}の記録からフラッグをはずしました",
+            "successMessageNoCount": "記録からフラッグがはずされました"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "キャンセル",
@@ -1511,6 +1531,13 @@
             "disabled": "ダウンロードするレコードがありません"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_other": "{{count}}件のレコードにフラグを設定しました",
+            "successMessage_zero": "{{count}}件のレコードにフラグを設定しました",
+            "successMessageNoCount": "レコードにフラグを設定しました"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "キャンセル",
@@ -1567,6 +1594,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "キャンセル",
+          "confirm": "確認"
+        },
+        "description": "このビューと現在のフィルタをすべて削除してもよろしいですか？",
+        "title": "ビューを削除"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "このアクションは、このシートに少なくとも1つのレコードが存在すると使用可能になります。",
@@ -1597,6 +1632,11 @@
         "titles": {
           "review": "レビュー",
           "share": "データクリップを共有"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "キャンセル"
         }
       },
       "dropdown": {

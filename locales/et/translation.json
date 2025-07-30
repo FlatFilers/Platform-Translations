@@ -110,9 +110,14 @@
     "sum": "Summa: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Eemalda märgistused",
     "comment": "Kommentaar",
     "copy": "Kopeeri",
+    "createFlag": "Loo märgistus",
+    "createFlagError": "Märgistuse loomine nurjus",
+    "createNewFlag": "Loo uus märgistus",
     "cut": "Lõika",
+    "flagSelectedRecords": "Märgistuse valitud kirjed ...",
     "paste": "Kleebi"
   },
   "checklist": {
@@ -244,11 +249,14 @@
   },
   "common": {
     "cancel": "Tühista",
+    "confirm": "Kinnita",
+    "creating": "Loomine ...",
     "lastWeek": "Eelmine nädal",
     "name": "Nimetus",
     "older": "Vanem",
     "thisWeek": "See nädal",
     "today": "Täna",
+    "tryAgainLater": "Proovi hiljem uuesti",
     "yesterday": "Eile"
   },
   "dataClips": {
@@ -620,6 +628,11 @@
         "cannotImport": "Töövihikusse importimine ei ole selle faili jaoks praegu saadaval",
         "noExtension": "Sellel failil puudub laiend. Lisage failinimele õige faililaiend ja laadige fail uuesti üles, et see töövihikusse importida"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Märgistuse loomine nurjus"
     }
   },
   "guestInvite": {
@@ -1481,6 +1494,14 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_one": "Eemaldas märgistused {{count}} kirjelt",
+            "successMessage_other": "Eemaldas märgistused {{count}} kirjelt",
+            "successMessage_zero": "Eemaldas märgistused {{count}} kirjelt",
+            "successMessageNoCount": "Eemaldas kirjetelt märgistused"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Tühista",
@@ -1547,6 +1568,14 @@
             "disabled": "Allalaadimiseks puuduvad kirjed"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_one": "{{count}} kirje märgistatud",
+            "successMessage_other": "{{count}} kirjet märgistatud",
+            "successMessage_zero": "{{count}} kirjet märgistatud",
+            "successMessageNoCount": "Märgistatud kirjed"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Tühista",
@@ -1608,6 +1637,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Tühista",
+          "confirm": "Kinnita"
+        },
+        "description": "Kas olete kindel, et soovite selle vaate ja kõik praegused filtrid tühjendada?",
+        "title": "Tühjenda vaade"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Seda saab teha pärast vähemalt ühe kande lisamist sellele lehele.",
@@ -1641,6 +1678,11 @@
         "titles": {
           "review": "Ülevaade",
           "share": "Jaga andmeklippe"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Tühista"
         }
       },
       "dropdown": {

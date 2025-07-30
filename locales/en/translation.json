@@ -110,6 +110,7 @@
     "sum": "Sum: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Clear flags",
     "comment": "Comment",
     "copy": "Copy",
     "createFlag": "Create flag",
@@ -621,6 +622,11 @@
         "cannotImport": "Importing to a workbook is not currently available for this file",
         "noExtension": "This file doesn't have an extension. Add the correct file extension to the file name and reupload the file to import it into a workbook"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Failed to create flag"
     }
   },
   "guestInvite": {
@@ -1424,7 +1430,7 @@
     "toolbar": {
       "actionsDropdown": {
         "buttonText": "Actions",
-        "placeholder": "Search..."
+        "placeholder": "Search or select..."
       },
       "aiAssist": {
         "buttonText": "AI Assist",
@@ -1462,6 +1468,13 @@
               "deleteDisabled": "Adding records to data clips is disabled in this Sheet.",
               "noRecordsSelected": "Select at least one record in order to add it to a data clip"
             }
+          }
+        },
+        "clearFlags": {
+          "popover": {
+            "successMessage_one": "Cleared flags from {{count}} record",
+            "successMessage_other": "Cleared flags from {{count}} records",
+            "successMessageNoCount": "Flags cleared from records"
           }
         },
         "delete": {
@@ -1523,6 +1536,13 @@
               "validFilterApplied": "Download all valid records"
             },
             "disabled": "No records to download"
+          }
+        },
+        "flagRecords": {
+          "popover": {
+            "successMessage_one": "{{count}} record flagged",
+            "successMessage_other": "{{count}} records flagged",
+            "successMessageNoCount": "Records flagged"
           }
         },
         "markForDeletion": {
@@ -1595,6 +1615,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Cancel",
+          "confirm": "Confirm"
+        },
+        "description": "Are you sure you want to clear this view and all current filters?",
+        "title": "Clear View"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "This action will be available once there is at least one record in this Sheet.",
@@ -1627,6 +1655,11 @@
           "share": "Share Data Clips"
         }
       },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Cancel"
+        }
+      },
       "dropdown": {
         "delete": "Delete",
         "download": "Download",
@@ -1643,11 +1676,6 @@
         "buttonText": "Filter",
         "deleteFilter": "Delete Filter",
         "invalid": "Invalid",
-        "valid": "Valid",
-        "buttonText": "Filter",
-        "advancedFilter": "Advanced filter",
-        "addCondition": "Add condition",
-        "deleteFilter": "Delete Filter",
         "tooltip": {
           "countsError": "Error loading counts",
           "countsErrorRetry": "Click to Retry",
@@ -1665,14 +1693,12 @@
           "filteredBySearch": "This dataset has been filtered via search to show {{filteredCount}} of the {{countString}} {{filter}} records.",
           "filteredBySearchAndError": "This dataset has been filtered via search and the error filter to show {{filteredCount}} of the {{countString}} {{filter}} records.",
           "inactiveCount": "{{countString}} {{filter}} records, {{filteredCount}} filtered"
-        }
+        },
+        "valid": "Valid"
       },
       "moreActions": {
         "buttonText": "More actions",
         "placeholder": "Search or select..."
-      },
-      "search": {
-        "placeholder": "Search"
       },
       "recordCount": {
         "records": "Records",
@@ -1744,19 +1770,6 @@
         "lockedUntilEditingCompletes": "The toolbar will be available when the sheet is no longer being edited",
         "lockedUntilHookCompletes": "The toolbar will be available after all hooks finish running",
         "lockedUntilJobCompletes": "The toolbar will be available after the current job completes"
-      },
-      "deleteView": {
-        "buttons": {
-          "cancel": "Cancel"
-        }
-      },
-      "clearView": {
-        "title": "Clear View",
-        "description": "Are you sure you want to clear this view and all current filters?",
-        "buttons": {
-          "cancel": "Cancel",
-          "confirm": "Confirm"
-        }
       }
     },
     "workbookActions": {

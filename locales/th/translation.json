@@ -111,7 +111,11 @@
   "cellContextMenu": {
     "comment": "ความเห็น",
     "copy": "คัดลอก",
+    "createFlag": "ทำเครื่องหมาย",
+    "createFlagError": "ไม่สามารถทำเครื่องหมาย",
+    "createNewFlag": "ทำเครื่องหมายใหม่",
     "cut": "ตัด",
+    "flagSelectedRecords": "ทำเครื่องหมายระเบียนที่เลือกไว้...",
     "paste": "วาง"
   },
   "checklist": {
@@ -241,11 +245,14 @@
   },
   "common": {
     "cancel": "ยกเลิก",
+    "confirm": "ยืนยัน",
+    "creating": "กำลังสร้าง...",
     "lastWeek": "สัปดาห์ที่แล้ว",
     "name": "ชื่อ",
     "older": "เก่ากว่า",
     "thisWeek": "สัปดาห์นี้",
     "today": "วันนี้",
+    "tryAgainLater": "โปรดลองใหม่ในภายหลัง",
     "yesterday": "เมื่อวาน"
   },
   "dataClips": {
@@ -607,6 +614,11 @@
         "cannotImport": "ขณะนี้การนำเข้าไปยังสมุดงานไม่สามารถทำได้สำหรับไฟล์นี้",
         "noExtension": "ไฟล์นี้ไม่มีนามสกุล เพิ่มนามสกุลไฟล์ที่ถูกต้องให้กับชื่อไฟล์แล้วอัปโหลดไฟล์อีกครั้งเพื่อนำเข้าไปยังสมุดงาน"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "ไม่สามารถทำเครื่องหมาย"
     }
   },
   "guestInvite": {
@@ -1510,6 +1522,13 @@
             "disabled": "ไม่มีระเบียนที่จะดาวน์โหลด"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_other": "ทำเครื่องหมายแล้ว {{count}} ระเบียน",
+            "successMessage_zero": "ทำเครื่องหมายแล้ว {{count}} ระเบียน",
+            "successMessageNoCount": "ทำเครื่องหมายระเบียนแล้ว"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "ยกเลิก",
@@ -1566,6 +1585,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "ยกเลิก",
+          "confirm": "ยืนยัน"
+        },
+        "description": "แน่ใจหรือไม่ว่าคุณต้องการล้างมุมมองนี้และตัวกรองปัจจุบันทั้งหมด",
+        "title": "ล้างมุมมอง"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "การดำเนินการนี้จะสามารถใช้ได้เมื่อมีระเบียนอย่างน้อยหนึ่งรายการในแผ่นงานนี้",
@@ -1596,6 +1623,11 @@
         "titles": {
           "review": "ตรวจสอบ",
           "share": "แชร์คลิปข้อมูล"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "ยกเลิก"
         }
       },
       "dropdown": {

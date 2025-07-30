@@ -110,9 +110,14 @@
     "sum": "Summa: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Rensa flaggor",
     "comment": "Kommentar",
     "copy": "Kopiera",
+    "createFlag": "Skapa flagga",
+    "createFlagError": "Det gick inte att skapa flaggan",
+    "createNewFlag": "Skapa en ny flagga",
     "cut": "Klipp",
+    "flagSelectedRecords": "Flagga valda poster ...",
     "paste": "Klistra in"
   },
   "checklist": {
@@ -244,11 +249,14 @@
   },
   "common": {
     "cancel": "Avbryt",
+    "confirm": "Bekräfta",
+    "creating": "Skapar ...",
     "lastWeek": "Förra veckan",
     "name": "Namn",
     "older": "Äldre",
     "thisWeek": "Den här veckan",
     "today": "Idag",
+    "tryAgainLater": "Försök igen senare",
     "yesterday": "Igår"
   },
   "dataClips": {
@@ -620,6 +628,11 @@
         "cannotImport": "Import till en arbetsbok är för närvarande inte tillgänglig för denna fil",
         "noExtension": "Filen har inget filnamnstillägg. Lägg till rätt filtillägg i filnamnet och ladda upp filen igen för att importera den till en arbetsbok"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Det gick inte att skapa flaggan"
     }
   },
   "guestInvite": {
@@ -1481,6 +1494,14 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_one": "Flaggor borttagna från {{count}} post",
+            "successMessage_other": "Flaggor borttagna från {{count}} poster",
+            "successMessage_zero": "Flaggorna borttagna från {{count}} poster",
+            "successMessageNoCount": "Flaggor borttagna från poster"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Avbryt",
@@ -1547,6 +1568,14 @@
             "disabled": "Inga poster att ladda ned"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_one": "{{count}} post flaggad",
+            "successMessage_other": "{{count}} poster flaggade",
+            "successMessage_zero": "{{count}} poster flaggade",
+            "successMessageNoCount": "Flaggade poster"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Avbryt",
@@ -1608,6 +1637,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Avbryt",
+          "confirm": "Bekräfta"
+        },
+        "description": "Är du säker på att du vill rensa den här vyn och alla nuvarande filter?",
+        "title": "Rensa vy"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Denna åtgärd blir tillgänglig när det finns minst en post på det här bladet.",
@@ -1641,6 +1678,11 @@
         "titles": {
           "review": "Granska",
           "share": "Dela dataklipp"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Avbryt"
         }
       },
       "dropdown": {

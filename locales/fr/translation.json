@@ -111,9 +111,14 @@
     "sum": "Somme : {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Effacer les signalements",
     "comment": "Commentaire",
     "copy": "Copier",
+    "createFlag": "Créer un drapeau",
+    "createFlagError": "Échec de la création du drapeau",
+    "createNewFlag": "Créer un nouveau drapeau",
     "cut": "Couper",
+    "flagSelectedRecords": "Marquer les enregistrements sélectionnés d'un drapeau...",
     "paste": "Coller"
   },
   "checklist": {
@@ -245,11 +250,14 @@
   },
   "common": {
     "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "creating": "Création...",
     "lastWeek": "La semaine dernière",
     "name": "Nom",
     "older": "Plus anciens",
     "thisWeek": "Cette semaine",
     "today": "Aujourd'hui",
+    "tryAgainLater": "Veuillez réessayer plus tard",
     "yesterday": "Hier"
   },
   "dataClips": {
@@ -621,6 +629,11 @@
         "cannotImport": "L'importation dans un classeur n'est pas actuellement disponible pour ce fichier.",
         "noExtension": "Ce fichier n'a pas d'extension. Ajoutez l'extension correcte au nom du fichier et téléchargez à nouveau le fichier pour l'importer dans un classeur."
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Échec de la création du drapeau"
     }
   },
   "guestInvite": {
@@ -1482,6 +1495,14 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_one": "Signalements effacés des {{count}} enregistrement",
+            "successMessage_other": "Effacer les signalements de {{count}} enregistrements",
+            "successMessage_zero": "Signalements effacés des {{count}} enregistrements",
+            "successMessageNoCount": "Signalements effacés des enregistrements"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Annuler",
@@ -1548,6 +1569,14 @@
             "disabled": "Aucun enregistrement à télécharger"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_one": "{{count}} enregistrement marqué d'un drapeau",
+            "successMessage_other": "{{count}} enregistrements marqués d'un drapeau",
+            "successMessage_zero": "{{count}} enregistrements marqués d'un drapeau",
+            "successMessageNoCount": "Enregistrements marqués d'un drapeau"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Annuler",
@@ -1609,6 +1638,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Annuler",
+          "confirm": "Confirmer"
+        },
+        "description": "Voulez-vous vraiment effacer cette vue et tous les filtres actuels ?",
+        "title": "Effacer la vue"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Cette action sera disponible dès lors qu'il y aura au moins un enregistrement sur cette feuille.",
@@ -1642,6 +1679,11 @@
         "titles": {
           "review": "Réviser",
           "share": "Partager des clips de données"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Annuler"
         }
       },
       "dropdown": {

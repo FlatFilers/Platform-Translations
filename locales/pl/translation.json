@@ -112,9 +112,14 @@
     "sum": "Suma: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Usuń oznaczenia",
     "comment": "Komentarz",
     "copy": "Skopiuj",
+    "createFlag": "Utwórz oznaczenie",
+    "createFlagError": "Nie udało się utworzyć oznaczenia",
+    "createNewFlag": "Utwórz nowe oznaczenie",
     "cut": "Wytnij",
+    "flagSelectedRecords": "Oznacz wybrane rekordy...",
     "paste": "Wklej"
   },
   "checklist": {
@@ -250,11 +255,14 @@
   },
   "common": {
     "cancel": "Anuluj",
+    "confirm": "Zatwierdź",
+    "creating": "Tworzenie...",
     "lastWeek": "W poprzednim tygodniu",
     "name": "Nazwa",
     "older": "Starsze",
     "thisWeek": "W tym tygodniu",
     "today": "Dzisiaj",
+    "tryAgainLater": "Spróbuj ponownie później.",
     "yesterday": "Wczoraj"
   },
   "dataClips": {
@@ -646,6 +654,11 @@
         "cannotImport": "Importowanie do skoroszytu nie jest obecnie dostępne dla tego pliku",
         "noExtension": "Ten plik nie ma rozszerzenia. Dodaj prawidłowe rozszerzenie do nazwy pliku i prześlij plik ponownie, aby zaimportować go do skoroszytu."
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Nie udało się utworzyć oznaczenia"
     }
   },
   "guestInvite": {
@@ -1545,6 +1558,16 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_few": "Usunięto oznaczenia z {{count}} wpisów",
+            "successMessage_many": "Usunięto oznaczenia z {{count}} wpisów",
+            "successMessage_one": "Usunięto oznaczenia z {{count}} wpisu",
+            "successMessage_other": "Usunięto oznaczenia z {{count}} wpisów",
+            "successMessage_zero": "Usunięto oznaczenia z {{count}} wpisów",
+            "successMessageNoCount": "Usunięto oznaczenia z wpisów"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Anuluj",
@@ -1621,6 +1644,16 @@
             "disabled": "Brak rekordów do pobrania"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_few": "{{count}} oznaczone rekordy",
+            "successMessage_many": "{{count}} oznaczonych rekordów",
+            "successMessage_one": "{{count}} oznaczony rekord",
+            "successMessage_other": "{{count}} oznaczonych rekordów",
+            "successMessage_zero": "{{count}} oznaczonych rekordów",
+            "successMessageNoCount": "Oznaczone rekordy"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Anuluj",
@@ -1692,6 +1725,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Anuluj",
+          "confirm": "Potwierdź"
+        },
+        "description": "Czy na pewno chcesz usunąć ten widok i wszystkie bieżące filtry?",
+        "title": "Usuń widok"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Ta akcja będzie dostępna, gdy w tym arkuszu znajdzie się co najmniej jeden rekord.",
@@ -1731,6 +1772,11 @@
         "titles": {
           "review": "Przegląd",
           "share": "Udostępnij przycięcia danych"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Anuluj"
         }
       },
       "dropdown": {

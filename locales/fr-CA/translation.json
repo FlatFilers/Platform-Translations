@@ -111,9 +111,14 @@
     "sum": "Somme : {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Effacer les drapeaux",
     "comment": "Commentaire",
     "copy": "Copier",
+    "createFlag": "Créer un marquage",
+    "createFlagError": "Échec de la création du marquage",
+    "createNewFlag": "Créer un nouveau marquage",
     "cut": "Couper",
+    "flagSelectedRecords": "Marquer les enregistrements sélectionnés...",
     "paste": "Coller"
   },
   "checklist": {
@@ -245,11 +250,14 @@
   },
   "common": {
     "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "creating": "Création en cours...",
     "lastWeek": "La semaine dernière",
     "name": "Nom",
     "older": "Plus anciens",
     "thisWeek": "Cette semaine",
     "today": "Aujourd’hui",
+    "tryAgainLater": "Veuillez réessayer plus tard",
     "yesterday": "Hier"
   },
   "dataClips": {
@@ -621,6 +629,11 @@
         "cannotImport": "L’importation dans un classeur est actuellement indisponible pour ce fichier.",
         "noExtension": "Ce fichier n’a pas d’extension. Ajoutez l’extension correcte au nom du fichier et téléversez-le à nouveau pour l’importer dans un classeur."
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Échec de la création du marquage"
     }
   },
   "guestInvite": {
@@ -1482,6 +1495,14 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_one": "Drapeaux effacés de {{count}} dossier",
+            "successMessage_other": "Drapeaux effacés de {{count}} dossiers",
+            "successMessage_zero": "Drapeaux effacés de {{count}} dossiers",
+            "successMessageNoCount": "Drapeaux effacés des dossiers"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Annuler",
@@ -1548,6 +1569,14 @@
             "disabled": "Aucun enregistrement à télécharger"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_one": "{{count}} enregistrement signalé",
+            "successMessage_other": "{{count}} enregistrements signalés",
+            "successMessage_zero": "{{count}} enregistrements signalés",
+            "successMessageNoCount": "Enregistrements signalés"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Annuler",
@@ -1609,6 +1638,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Annuler",
+          "confirm": "Confirmer"
+        },
+        "description": "Êtes-vous sûr de vouloir effacer cette vue ainsi que tous les filtres actuels?",
+        "title": "Vue dégagée"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Cette action sera disponible dès qu’il y aura au moins un enregistrement dans cette feuille.",
@@ -1642,6 +1679,11 @@
         "titles": {
           "review": "Révision",
           "share": "Partager des  extraits de données"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Annuler"
         }
       },
       "dropdown": {

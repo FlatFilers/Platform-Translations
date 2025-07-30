@@ -110,9 +110,14 @@
     "sum": "Som: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Vlaggetjes wissen",
     "comment": "Commentaar",
     "copy": "Kopiëren",
+    "createFlag": "Markeren",
+    "createFlagError": "Markering maken mislukt",
+    "createNewFlag": "Nieuwe markering maken",
     "cut": "Knippen",
+    "flagSelectedRecords": "Geselecteerde records markeren...",
     "paste": "Plakken"
   },
   "checklist": {
@@ -244,11 +249,14 @@
   },
   "common": {
     "cancel": "Annuleren",
+    "confirm": "Bevestigen",
+    "creating": "Wordt gemaakt...",
     "lastWeek": "Vorige week",
     "name": "Naam",
     "older": "Ouder",
     "thisWeek": "Deze week",
     "today": "Vandaag",
+    "tryAgainLater": "Probeer het later opnieuw",
     "yesterday": "Gisteren"
   },
   "dataClips": {
@@ -620,6 +628,11 @@
         "cannotImport": "Importeren naar een werkboek is momenteel niet beschikbaar voor dit bestand",
         "noExtension": "Dit bestand heeft geen extensie. Voeg de juiste bestandsextensie toe aan de bestandnaam en upload het bestand opnieuw om het te importeren naar een werkboek"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Markering maken mislukt"
     }
   },
   "guestInvite": {
@@ -1481,6 +1494,14 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_one": "Vlaggetjes gewist van {{count}} record",
+            "successMessage_other": "Vlaggetjes gewist van {{count}} records",
+            "successMessage_zero": "Vlaggetjes gewist van {{count}} records",
+            "successMessageNoCount": "Vlaggetjes gewist van records"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Annuleren",
@@ -1547,6 +1568,14 @@
             "disabled": "Geen records om te downloaden"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_one": "{{count}} record gemarkeerd",
+            "successMessage_other": "{{count}} records gemarkeerd",
+            "successMessage_zero": "{{count}} records gemarkeerd",
+            "successMessageNoCount": "Records gemarkeerd"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Annuleren",
@@ -1608,6 +1637,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Annuleren",
+          "confirm": "Bevestigen"
+        },
+        "description": "Weet u zeker dat u deze weergave en alle huidige filters wilt wissen?",
+        "title": "Weergave wissen"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Deze actie wordt beschikbaar zodra er zich ten minste één verslag in deze sheet bevindt.",
@@ -1641,6 +1678,11 @@
         "titles": {
           "review": "Controleren",
           "share": "Gegevensclips delen"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Annuleren"
         }
       },
       "dropdown": {

@@ -111,9 +111,14 @@
     "sum": "Somma: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Rimuovi contrassegni",
     "comment": "Commento",
     "copy": "Copia",
+    "createFlag": "Creare flag",
+    "createFlagError": "Impossibile creare un flag",
+    "createNewFlag": "Crea nuovo flag",
     "cut": "Taglia",
+    "flagSelectedRecords": "Contrassegna i record selezionati...",
     "paste": "Incolla"
   },
   "checklist": {
@@ -245,11 +250,14 @@
   },
   "common": {
     "cancel": "Annulla",
+    "confirm": "Confermare",
+    "creating": "Creazione...",
     "lastWeek": "Scorsa settimana",
     "name": "Nome",
     "older": "Precedenti",
     "thisWeek": "Questa settimana",
     "today": "Oggi",
+    "tryAgainLater": "Per favore riprova più tardi",
     "yesterday": "Ieri"
   },
   "dataClips": {
@@ -621,6 +629,11 @@
         "cannotImport": "L’importazione di una cartella di lavoro non è al momento disponibile per questo file",
         "noExtension": "Il file non ha un’estensione. Aggiungi l’estensione corretta al nome del file e ricaricalo per importarlo nella cartella di lavoro."
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Impossibile creare un flag"
     }
   },
   "guestInvite": {
@@ -1482,6 +1495,14 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_one": "Contrassegni rimossi da {{count}} riga",
+            "successMessage_other": "Contrassegni rimossi da {{count}} righe",
+            "successMessage_zero": "Contrassegni rimossi da {{count}} righe",
+            "successMessageNoCount": "Contrassegni rimossi dalle righe"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Annulla",
@@ -1548,6 +1569,14 @@
             "disabled": "Nessuna voce da scaricare"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_one": "{{count}} record contrassegnato",
+            "successMessage_other": "{{count}} record contrassegnati",
+            "successMessage_zero": "{{count}} record contrassegnati",
+            "successMessageNoCount": "Record contrassegnati"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Annulla",
@@ -1609,6 +1638,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Cancella",
+          "confirm": "Conferma"
+        },
+        "description": "Sei sicuro di voler cancellare questa visualizzazione e tutti i filtri attuali?",
+        "title": "Cancella visualizzazione"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Tale azione diventerà disponibile quando ci sarà almeno un record in questo foglio.",
@@ -1642,6 +1679,11 @@
         "titles": {
           "review": "Rivedi",
           "share": "Condividi ritagli dei dati"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Cancella"
         }
       },
       "dropdown": {

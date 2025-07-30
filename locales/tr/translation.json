@@ -111,9 +111,14 @@
     "sum": "Toplam: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "İşaretler temizlendi",
     "comment": "Yorum",
     "copy": "Kopyala",
+    "createFlag": "Bayrak oluştur",
+    "createFlagError": "Bayrak oluşturulamadı",
+    "createNewFlag": "Yeni bayrak oluştur",
     "cut": "Kes",
+    "flagSelectedRecords": "Seçili kayıtları işaretle...",
     "paste": "Yapıştır"
   },
   "checklist": {
@@ -245,11 +250,14 @@
   },
   "common": {
     "cancel": "İptal et",
+    "confirm": "Doğrula",
+    "creating": "Oluşturuluyor...",
     "lastWeek": "Geçen Hafta",
     "name": "Ad",
     "older": "Daha Eski",
     "thisWeek": "Bu Hafta",
     "today": "Bugün",
+    "tryAgainLater": "Lütfen daha sonra tekrar dene",
     "yesterday": "Dün"
   },
   "dataClips": {
@@ -621,6 +629,11 @@
         "cannotImport": "Şu anda bir çalışma kitabına aktarma işlemi bu dosya için kullanılamıyor",
         "noExtension": "Bu dosyanın uzantısı yok. Dosya adına doğru dosya uzantısını ekleyin ve bir çalışma kitabına aktarmak için dosyayı tekrar yükleyin"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Bayrak oluşturulamadı"
     }
   },
   "guestInvite": {
@@ -1482,6 +1495,14 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_one": "{{count}} kayıtlarından işaretler temizlendi",
+            "successMessage_other": "{{count}} kayıtlarından işaretler temizlendi",
+            "successMessage_zero": "{{count}} kayıtlarından işaretler temizlendi",
+            "successMessageNoCount": "Kayıtlardan işaretler temizlendi"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "İptal",
@@ -1548,6 +1569,14 @@
             "disabled": "İndirilecek kayıt yok"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_one": "{{count}} kayda bayrak eklendi",
+            "successMessage_other": "{{count}} kayda bayrak eklendi",
+            "successMessage_zero": "{{count}} kayda bayrak eklendi",
+            "successMessageNoCount": "Bayrak eklenen kayıtlar"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "İptal et",
@@ -1609,6 +1638,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "İptal",
+          "confirm": "Onayla"
+        },
+        "description": "Bu görünümü ve mevcut tüm filtreleri temizlemek istediğinizden emin misiniz?",
+        "title": "Görünümü Temizle"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Bu eylem, bu Çalışma Sayfasında en az bir kayıt olduğunda geçerli olacaktır.",
@@ -1642,6 +1679,11 @@
         "titles": {
           "review": "İnceleme",
           "share": "Veri Kliplerini Paylaş"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "İptal"
         }
       },
       "dropdown": {

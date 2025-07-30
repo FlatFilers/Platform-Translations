@@ -111,9 +111,14 @@
     "sum": "Soma: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Apagar sinalizadores",
     "comment": "Comentário",
     "copy": "Copiar",
+    "createFlag": "Criar marcação",
+    "createFlagError": "Falha ao criar marcação",
+    "createNewFlag": "Criar nova marcação",
     "cut": "Recortar",
+    "flagSelectedRecords": "Marcar registros selecionados...",
     "paste": "Colar"
   },
   "checklist": {
@@ -245,11 +250,14 @@
   },
   "common": {
     "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "creating": "Criando...",
     "lastWeek": "Semana passada",
     "name": "Nome",
     "older": "Mais antigo",
     "thisWeek": "Esta semana",
     "today": "Hoje",
+    "tryAgainLater": "Tente novamente mais tarde",
     "yesterday": "Ontem"
   },
   "dataClips": {
@@ -621,6 +629,11 @@
         "cannotImport": "A importação para uma pasta de trabalho não está disponível atualmente para este arquivo",
         "noExtension": "Este arquivo não possui extensão. Adicione a extensão de arquivo correta ao nome do arquivo e recarregue o arquivo para importá-lo para uma pasta de trabalho"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Falha ao criar marcação"
     }
   },
   "guestInvite": {
@@ -1482,6 +1495,14 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_one": "Sinalizadores apagados do registro {{count}}",
+            "successMessage_other": "Sinalizadores apagados de {{count}} registros",
+            "successMessage_zero": "Sinalizadores apagados de {{count}} registros",
+            "successMessageNoCount": "Sinalizadores apagados dos registros"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Cancelar",
@@ -1548,6 +1569,14 @@
             "disabled": "Nenhum registro para baixar"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_one": "{{count}} registro marcado",
+            "successMessage_other": "{{count}} registros marcados",
+            "successMessage_zero": "{{count}} registros marcados",
+            "successMessageNoCount": "Registros marcados"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Cancelar",
@@ -1609,6 +1638,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Cancelar",
+          "confirm": "Confirmar"
+        },
+        "description": "Você tem certeza de que deseja limpar essa visualização e todos os filtros atuais?",
+        "title": "Limpar visualização"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Esta ação estará disponível quando houver pelo menos um registro nesta Planilha.",
@@ -1642,6 +1679,11 @@
         "titles": {
           "review": "Revisar",
           "share": "Compartilhar clipes de dados"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Cancelar"
         }
       },
       "dropdown": {

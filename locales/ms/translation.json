@@ -109,9 +109,14 @@
     "sum": "Jumlah: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "Kosongkan bendera",
     "comment": "Komen",
     "copy": "Salin",
+    "createFlag": "Cipta penanda",
+    "createFlagError": "Gagal mencipta penanda",
+    "createNewFlag": "Cipta penanda baru",
     "cut": "Potong",
+    "flagSelectedRecords": "Tandakan rekod yang dipilih...",
     "paste": "Tampal"
   },
   "checklist": {
@@ -241,11 +246,14 @@
   },
   "common": {
     "cancel": "Batal",
+    "confirm": "Sahkan",
+    "creating": "Mencipta...",
     "lastWeek": "Minggu Lepas",
     "name": "Nama",
     "older": "Lebih lama",
     "thisWeek": "Minggu Ini",
     "today": "Hari ini",
+    "tryAgainLater": "Sila cuba lagi nanti",
     "yesterday": "Semalam"
   },
   "dataClips": {
@@ -607,6 +615,11 @@
         "cannotImport": "Mengimport ke buku kerja tidak tersedia untuk fail ini pada masa ini",
         "noExtension": "Fail ini tidak mempunyai sambungan. Tambahkan sambungan fail yang betul pada nama fail dan muat naik semula fail untuk mengimportnya ke dalam buku kerja"
       }
+    }
+  },
+  "flags": {
+    "errors": {
+      "create": "Gagal mencipta penanda"
     }
   },
   "guestInvite": {
@@ -1449,6 +1462,13 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_other": "Dikosongkan bendera daripada rekod {{count}}.",
+            "successMessage_zero": "Dikosongkan bendera daripada rekod {{count}}.",
+            "successMessageNoCount": "Bendera dikosongkan daripada rekod"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Batalkan",
@@ -1510,6 +1530,13 @@
             "disabled": "Tiada rekod untuk dimuat turun"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_other": "{{count}} rekod ditanda",
+            "successMessage_zero": "{{count}} rekod ditanda",
+            "successMessageNoCount": "Rekod ditanda"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Batal",
@@ -1566,6 +1593,14 @@
           }
         }
       },
+      "clearView": {
+        "buttons": {
+          "cancel": "Batal",
+          "confirm": "Sahkan"
+        },
+        "description": "Adakah anda pasti anda ingin mengeluarkan tatapan ini dan semua penapis yang sedia ada?",
+        "title": "Keluarkan Tatapan"
+      },
       "customActionsDropdown": {
         "disabledTooltip": {
           "hasData": "Tindakan ini akan tersedia apabila terdapat sekurang-kurangnya satu rekod dalam Sheet ini.",
@@ -1596,6 +1631,11 @@
         "titles": {
           "review": "Semak",
           "share": "Kongsikan Klip Data"
+        }
+      },
+      "deleteView": {
+        "buttons": {
+          "cancel": "Batal"
         }
       },
       "dropdown": {
