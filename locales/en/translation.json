@@ -110,7 +110,10 @@
     "sum": "Sum: {{sum}}"
   },
   "cellContextMenu": {
-    "clearFlags": "Clear flags",
+    "flagsLabel": "Flags",
+    "flagDeleted": "Flag deleted successfully",
+    "deleteFlagError": "Failed to delete flag",
+    "removeFlags": "Remove flag(s)",
     "comment": "Comment",
     "copy": "Copy",
     "createFlag": "Create flag",
@@ -118,7 +121,6 @@
     "createNewFlag": "Create new flag",
     "cut": "Cut",
     "paste": "Paste",
-    "clearFlags": "Clear flags",
     "flagSelectedRecords": "Flag selected records..."
   },
   "checklist": {
@@ -1470,13 +1472,6 @@
             }
           }
         },
-        "clearFlags": {
-          "popover": {
-            "successMessage_one": "Cleared flags from {{count}} record",
-            "successMessage_other": "Cleared flags from {{count}} records",
-            "successMessageNoCount": "Flags cleared from records"
-          }
-        },
         "delete": {
           "modal": {
             "cancelButton": "Cancel",
@@ -1536,13 +1531,6 @@
               "validFilterApplied": "Download all valid records"
             },
             "disabled": "No records to download"
-          }
-        },
-        "flagRecords": {
-          "popover": {
-            "successMessage_one": "{{count}} record flagged",
-            "successMessage_other": "{{count}} records flagged",
-            "successMessageNoCount": "Records flagged"
           }
         },
         "markForDeletion": {
