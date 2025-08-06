@@ -119,8 +119,12 @@
     "createFlagError": "Не удалось создать флаг",
     "createNewFlag": "Создать новый флаг",
     "cut": "Вырезать",
+    "deleteFlagError": "Не удалось удалить флажок",
+    "flagDeleted": "Флажок успешно удален",
     "flagSelectedRecords": "Отметить выбранные записи...",
-    "paste": "Вставить"
+    "flagsLabel": "Флажки",
+    "paste": "Вставить",
+    "removeFlags": "Удалить флажок(-ки)"
   },
   "checklist": {
     "dropdowns": {

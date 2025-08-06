@@ -109,14 +109,19 @@
     "sum": "ผลรวม: {{sum}}"
   },
   "cellContextMenu": {
+    "clearFlags": "ลบธง",
     "comment": "ความเห็น",
     "copy": "คัดลอก",
     "createFlag": "ทำเครื่องหมาย",
     "createFlagError": "ไม่สามารถทำเครื่องหมาย",
     "createNewFlag": "ทำเครื่องหมายใหม่",
     "cut": "ตัด",
+    "deleteFlagError": "ลบเครื่องหมาย (ธง) ไม่สำเร็จ",
+    "flagDeleted": "ลบเครื่องหมายเรียบร้อยแล้ว",
     "flagSelectedRecords": "ทำเครื่องหมายระเบียนที่เลือกไว้...",
-    "paste": "วาง"
+    "flagsLabel": "เครื่องหมาย (ธง)",
+    "paste": "วาง",
+    "removeFlags": "ลบเครื่องหมาย"
   },
   "checklist": {
     "dropdowns": {
@@ -1459,6 +1464,13 @@
               "deleteDisabled": "การเพิ่มระเบียนลงในชุดข้อมูลถูกปิดใช้งานในแผ่นงานนี้",
               "noRecordsSelected": "เลือกบันทึกอย่างน้อยหนึ่งบันทึกเพื่อเพิ่มไปยังคลิปข้อมูล"
             }
+          }
+        },
+        "clearFlags": {
+          "popover": {
+            "successMessage_other": "ลบธงออกจาก {{count}} ระเบียนแล้ว",
+            "successMessage_zero": "ลบธงออกจาก {{count}} ระเบียนแล้ว",
+            "successMessageNoCount": "ลบธงออกจากระเบียนแล้ว"
           }
         },
         "delete": {

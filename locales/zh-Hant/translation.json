@@ -116,8 +116,12 @@
     "createFlagError": "無法建立標幟",
     "createNewFlag": "建立新標幟",
     "cut": "剪下",
+    "deleteFlagError": "無法刪除旗標",
+    "flagDeleted": "旗標刪除成功",
     "flagSelectedRecords": "標幟所選記錄……",
-    "paste": "貼上"
+    "flagsLabel": "旗標",
+    "paste": "貼上",
+    "removeFlags": "移除旗標"
   },
   "checklist": {
     "dropdowns": {

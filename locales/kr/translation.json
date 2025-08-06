@@ -117,8 +117,12 @@
     "createFlagError": "플래그를 만들지 못했습니다",
     "createNewFlag": "새 플래그 만들기",
     "cut": "잘라내기",
+    "deleteFlagError": "플래그를 삭제하지 못함",
+    "flagDeleted": "플래그를 성공적으로 삭제함",
     "flagSelectedRecords": "선택한 레코드에 플래그 지정...",
-    "paste": "붙여넣기"
+    "flagsLabel": "플래그",
+    "paste": "붙여넣기",
+    "removeFlags": "플래그 제거"
   },
   "checklist": {
     "dropdowns": {

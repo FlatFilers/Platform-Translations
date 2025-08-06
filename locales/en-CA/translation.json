@@ -118,8 +118,12 @@
     "createFlagError": "Failed to create flag",
     "createNewFlag": "Create new flag",
     "cut": "Cut",
+    "deleteFlagError": "Failed to delete flag",
+    "flagDeleted": "Flag deleted successfully",
     "flagSelectedRecords": "Flag selected records...",
-    "paste": "Paste"
+    "flagsLabel": "Flags",
+    "paste": "Paste",
+    "removeFlags": "Remove flag(s)"
   },
   "checklist": {
     "dropdowns": {

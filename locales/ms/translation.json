@@ -116,8 +116,12 @@
     "createFlagError": "Gagal mencipta penanda",
     "createNewFlag": "Cipta penanda baru",
     "cut": "Potong",
+    "deleteFlagError": "Gagal memadam bendera",
+    "flagDeleted": "Bendera berjaya dipadamkan",
     "flagSelectedRecords": "Tandakan rekod yang dipilih...",
-    "paste": "Tampal"
+    "flagsLabel": "Bendera",
+    "paste": "Tampal",
+    "removeFlags": "Singkir bendera"
   },
   "checklist": {
     "dropdowns": {

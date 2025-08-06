@@ -117,8 +117,12 @@
     "createFlagError": "Tạo cờ đánh dấu thất bại",
     "createNewFlag": "Tạo cờ đánh dấu mới",
     "cut": "Cắt",
+    "deleteFlagError": "Xóa cờ thất bại",
+    "flagDeleted": "Xóa cờ thành công",
     "flagSelectedRecords": "Đánh dấu các bản ghi đã chọn...",
-    "paste": "Dán"
+    "flagsLabel": "Cờ",
+    "paste": "Dán",
+    "removeFlags": "Xóa cờ"
   },
   "checklist": {
     "dropdowns": {

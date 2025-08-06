@@ -117,8 +117,12 @@
     "createFlagError": "Markering maken mislukt",
     "createNewFlag": "Nieuwe markering maken",
     "cut": "Knippen",
+    "deleteFlagError": "Verwijderen van vlag mislukt",
+    "flagDeleted": "Vlag met succes verwijderd",
     "flagSelectedRecords": "Geselecteerde records markeren...",
-    "paste": "Plakken"
+    "flagsLabel": "Vlaggen",
+    "paste": "Plakken",
+    "removeFlags": "Vlag(gen) verwijderen"
   },
   "checklist": {
     "dropdowns": {

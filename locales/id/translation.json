@@ -117,8 +117,12 @@
     "createFlagError": "Gagal membuat bendera",
     "createNewFlag": "Buat bendera baru",
     "cut": "Potong",
+    "deleteFlagError": "Gagal menghapus bendera",
+    "flagDeleted": "Bendera berhasil dihapus",
     "flagSelectedRecords": "Tandai record terpilih dengan bendera...",
-    "paste": "Tempel"
+    "flagsLabel": "Bendera",
+    "paste": "Tempel",
+    "removeFlags": "Hapus bendera"
   },
   "checklist": {
     "dropdowns": {

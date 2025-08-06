@@ -118,8 +118,12 @@
     "createFlagError": "Impossibile creare un flag",
     "createNewFlag": "Crea nuovo flag",
     "cut": "Taglia",
+    "deleteFlagError": "Impossibile eliminare il flag",
+    "flagDeleted": "Flag eliminato correttamente",
     "flagSelectedRecords": "Contrassegna i record selezionati...",
-    "paste": "Incolla"
+    "flagsLabel": "Flag",
+    "paste": "Incolla",
+    "removeFlags": "Rimuovi il/i flag"
   },
   "checklist": {
     "dropdowns": {

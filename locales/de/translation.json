@@ -118,8 +118,12 @@
     "createFlagError": "Die Markierung konnte nicht erstellt werden",
     "createNewFlag": "Neue Markierung erstellen",
     "cut": "Ausschneiden",
+    "deleteFlagError": "Löschen der Markierung fehlgeschlagen",
+    "flagDeleted": "Markierung erfolgreich gelöscht",
     "flagSelectedRecords": "Ausgewählte Einträge markieren ...",
-    "paste": "Einfügen"
+    "flagsLabel": "Markierungen",
+    "paste": "Einfügen",
+    "removeFlags": "Markierung(en) entfernt"
   },
   "checklist": {
     "dropdowns": {

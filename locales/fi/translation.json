@@ -117,8 +117,12 @@
     "createFlagError": "Merkinnän luominen epäonnistui",
     "createNewFlag": "Luo uusi merkintä",
     "cut": "Leikkaa",
+    "deleteFlagError": "Merkinnän poistaminen epäonnistui",
+    "flagDeleted": "Merkinnän poistaminen onnistui",
     "flagSelectedRecords": "Merkitse valitut tietueet...",
-    "paste": "Liitä"
+    "flagsLabel": "Merkinnät",
+    "paste": "Liitä",
+    "removeFlags": "Poista merkinnät"
   },
   "checklist": {
     "dropdowns": {

@@ -117,8 +117,12 @@
     "createFlagError": "Det gick inte att skapa flaggan",
     "createNewFlag": "Skapa en ny flagga",
     "cut": "Klipp",
+    "deleteFlagError": "Flaggan kunde inte raderas",
+    "flagDeleted": "Flaggan raderades",
     "flagSelectedRecords": "Flagga valda poster ...",
-    "paste": "Klistra in"
+    "flagsLabel": "Flaggor",
+    "paste": "Klistra in",
+    "removeFlags": "Ta bort flaggor"
   },
   "checklist": {
     "dropdowns": {

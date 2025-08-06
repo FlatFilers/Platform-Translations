@@ -118,8 +118,12 @@
     "createFlagError": "Falha ao criar sinalizador",
     "createNewFlag": "Criar novo sinalizador",
     "cut": "Cortar",
+    "deleteFlagError": "Falha ao eliminar aviso",
+    "flagDeleted": "Aviso eliminado com êxito",
     "flagSelectedRecords": "Sinalizar os registos selecionados...",
-    "paste": "Colar"
+    "flagsLabel": "Avisos",
+    "paste": "Colar",
+    "removeFlags": "Remover aviso(s)"
   },
   "checklist": {
     "dropdowns": {

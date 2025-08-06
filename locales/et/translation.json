@@ -117,8 +117,12 @@
     "createFlagError": "Märgistuse loomine nurjus",
     "createNewFlag": "Loo uus märgistus",
     "cut": "Lõika",
+    "deleteFlagError": "Märgistuse kustutamine nurjus",
+    "flagDeleted": "Märgistuse eemaldamine õnnestus",
     "flagSelectedRecords": "Märgistuse valitud kirjed ...",
-    "paste": "Kleebi"
+    "flagsLabel": "Märgistused",
+    "paste": "Kleebi",
+    "removeFlags": "Eemalda märgistus(ed)"
   },
   "checklist": {
     "dropdowns": {

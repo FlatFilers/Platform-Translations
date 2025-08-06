@@ -119,8 +119,12 @@
     "createFlagError": "Nie udało się utworzyć oznaczenia",
     "createNewFlag": "Utwórz nowe oznaczenie",
     "cut": "Wytnij",
+    "deleteFlagError": "Nie udało się usunąć flagi",
+    "flagDeleted": "Flaga pomyślnie usunięta",
     "flagSelectedRecords": "Oznacz wybrane rekordy...",
-    "paste": "Wklej"
+    "flagsLabel": "Flagi",
+    "paste": "Wklej",
+    "removeFlags": "Usuń flagę(-i)"
   },
   "checklist": {
     "dropdowns": {

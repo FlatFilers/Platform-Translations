@@ -118,8 +118,12 @@
     "createFlagError": "Échec de la création du signalement",
     "createNewFlag": "Créer un nouveau signalement",
     "cut": "Couper",
+    "deleteFlagError": "Échec de suppression du signalement",
+    "flagDeleted": "Le signalement a bien été supprimé",
     "flagSelectedRecords": "Signaler les enregistrements sélectionnés...",
-    "paste": "Coller"
+    "flagsLabel": "Signalements",
+    "paste": "Coller",
+    "removeFlags": "Supprimer le(s) signalement(s)"
   },
   "checklist": {
     "dropdowns": {

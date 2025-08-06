@@ -119,8 +119,12 @@
     "createFlagError": "Не вдалося створити прапорець",
     "createNewFlag": "Створити новий прапорець",
     "cut": "Вирізати",
+    "deleteFlagError": "Не вдалось видалити позначку",
+    "flagDeleted": "Позначку видалено успішно",
     "flagSelectedRecords": "Позначити вибрані записи...",
-    "paste": "Вставити"
+    "flagsLabel": "Позначки",
+    "paste": "Вставити",
+    "removeFlags": "Видалити позначку(и)"
   },
   "checklist": {
     "dropdowns": {

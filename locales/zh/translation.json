@@ -117,8 +117,12 @@
     "createFlagError": "创建标记失败",
     "createNewFlag": "创建新标记",
     "cut": "剪切",
+    "deleteFlagError": "删除标记失败",
+    "flagDeleted": "成功删除标记",
     "flagSelectedRecords": "标记选定的记录……",
-    "paste": "粘贴"
+    "flagsLabel": "标记",
+    "paste": "粘贴",
+    "removeFlags": "移除标记"
   },
   "checklist": {
     "dropdowns": {

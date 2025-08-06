@@ -118,8 +118,12 @@
     "createFlagError": "Échec de la création du drapeau",
     "createNewFlag": "Créer un nouveau drapeau",
     "cut": "Couper",
+    "deleteFlagError": "Échec de la suppression du signalement",
+    "flagDeleted": "Signalement supprimé avec succès",
     "flagSelectedRecords": "Marquer les enregistrements sélectionnés d'un drapeau...",
-    "paste": "Coller"
+    "flagsLabel": "Signalements",
+    "paste": "Coller",
+    "removeFlags": "Supprimer le(s) signalement(s)"
   },
   "checklist": {
     "dropdowns": {

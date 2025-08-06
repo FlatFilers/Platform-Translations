@@ -118,8 +118,12 @@
     "createFlagError": "Échec de la création du marquage",
     "createNewFlag": "Créer un nouveau marquage",
     "cut": "Couper",
+    "deleteFlagError": "Échec de la suppression du drapeau",
+    "flagDeleted": "Drapeau supprimé avec succès",
     "flagSelectedRecords": "Marquer les enregistrements sélectionnés...",
-    "paste": "Coller"
+    "flagsLabel": "Drapeaux",
+    "paste": "Coller",
+    "removeFlags": "Supprimer le(s) drapeau(x)"
   },
   "checklist": {
     "dropdowns": {

@@ -118,8 +118,12 @@
     "createFlagError": "Error al crear la señal.",
     "createNewFlag": "Crear señal nueva",
     "cut": "Cortar",
+    "deleteFlagError": "Error al eliminar la señal.",
+    "flagDeleted": "Señal eliminada",
     "flagSelectedRecords": "Señalar registros seleccionados...",
-    "paste": "Pegar"
+    "flagsLabel": "Señales",
+    "paste": "Pegar",
+    "removeFlags": "Eliminar señal(es)"
   },
   "checklist": {
     "dropdowns": {

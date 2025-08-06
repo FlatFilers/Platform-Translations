@@ -118,8 +118,12 @@
     "createFlagError": "Bayrak oluşturulamadı",
     "createNewFlag": "Yeni bayrak oluştur",
     "cut": "Kes",
+    "deleteFlagError": "Bayrak silinemedi",
+    "flagDeleted": "Bayrak başarıyla silindi",
     "flagSelectedRecords": "Seçili kayıtları işaretle...",
-    "paste": "Yapıştır"
+    "flagsLabel": "Bayraklar",
+    "paste": "Yapıştır",
+    "removeFlags": "Bayrağı/bayrakları kaldır"
   },
   "checklist": {
     "dropdowns": {

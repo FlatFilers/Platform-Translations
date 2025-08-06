@@ -117,8 +117,12 @@
     "createFlagError": "フラグを作成できませんでした",
     "createNewFlag": "新しいフラグを作成",
     "cut": "カット",
+    "deleteFlagError": "フラグは削除できませんでした",
+    "flagDeleted": "フラグは削除されました",
     "flagSelectedRecords": "選択したレコードにフラグを設定...",
-    "paste": "ペースト"
+    "flagsLabel": "フラグ",
+    "paste": "ペースト",
+    "removeFlags": "フラグを削除"
   },
   "checklist": {
     "dropdowns": {

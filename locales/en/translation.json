@@ -110,18 +110,19 @@
     "sum": "Sum: {{sum}}"
   },
   "cellContextMenu": {
-    "flagsLabel": "Flags",
-    "flagDeleted": "Flag deleted successfully",
-    "deleteFlagError": "Failed to delete flag",
-    "removeFlags": "Remove flag(s)",
+    "clearFlags": "Clear flags",
     "comment": "Comment",
     "copy": "Copy",
     "createFlag": "Create flag",
     "createFlagError": "Failed to create flag",
     "createNewFlag": "Create new flag",
     "cut": "Cut",
+    "deleteFlagError": "Failed to delete flag",
+    "flagDeleted": "Flag deleted successfully",
+    "flagSelectedRecords": "Flag selected records...",
+    "flagsLabel": "Flags",
     "paste": "Paste",
-    "flagSelectedRecords": "Flag selected records..."
+    "removeFlags": "Remove flag(s)"
   },
   "checklist": {
     "dropdowns": {
@@ -515,11 +516,6 @@
     "unauthorized": "Your access credentials are invalid.",
     "unknownError": "Something went wrong",
     "workbookNotFound": "Workbook not found"
-  },
-  "flags": {
-    "errors": {
-      "create": "Failed to create flag"
-    }
   },
   "files": {
     "availableDownloadsTab": "Available downloads",
@@ -1472,6 +1468,13 @@
             }
           }
         },
+        "clearFlags": {
+          "popover": {
+            "successMessage_one": "Cleared flags from {{count}} record",
+            "successMessage_other": "Cleared flags from {{count}} records",
+            "successMessageNoCount": "Flags cleared from records"
+          }
+        },
         "delete": {
           "modal": {
             "cancelButton": "Cancel",
@@ -1533,6 +1536,13 @@
             "disabled": "No records to download"
           }
         },
+        "flagRecords": {
+          "popover": {
+            "successMessage_one": "{{count}} record flagged",
+            "successMessage_other": "{{count}} records flagged",
+            "successMessageNoCount": "Records flagged"
+          }
+        },
         "markForDeletion": {
           "modal": {
             "cancelButton": "Cancel",
@@ -1586,20 +1596,6 @@
               "deleteDisabled": "Restoring records is disabled in this Sheet.",
               "noRecordsSelected": "Select at least one record in order to restore it"
             }
-          }
-        },
-        "flagRecords": {
-          "popover": {
-            "successMessage_one": "{{count}} record flagged",
-            "successMessage_other": "{{count}} records flagged",
-            "successMessageNoCount": "Records flagged"
-          }
-        },
-        "clearFlags": {
-          "popover": {
-            "successMessage_one": "Cleared flags from {{count}} record",
-            "successMessage_other": "Cleared flags from {{count}} records",
-            "successMessageNoCount": "Flags cleared from records"
           }
         }
       },

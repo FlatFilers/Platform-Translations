@@ -118,8 +118,12 @@
     "createFlagError": "Falha ao criar marcação",
     "createNewFlag": "Criar nova marcação",
     "cut": "Recortar",
+    "deleteFlagError": "Falha ao excluir o sinalizador",
+    "flagDeleted": "Sinalizador excluído com sucesso",
     "flagSelectedRecords": "Marcar registros selecionados...",
-    "paste": "Colar"
+    "flagsLabel": "Sinalizadores",
+    "paste": "Colar",
+    "removeFlags": "Remover sinalizador(es)"
   },
   "checklist": {
     "dropdowns": {

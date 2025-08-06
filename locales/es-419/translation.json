@@ -117,8 +117,12 @@
     "createFlagError": "No se pudo crear el marcador",
     "createNewFlag": "Crear nuevo marcador",
     "cut": "Cortar",
+    "deleteFlagError": "No se pudo eliminar la indicación",
+    "flagDeleted": "Indicación eliminada correctamente",
     "flagSelectedRecords": "Marcar los registros seleccionados...",
-    "paste": "Pegar"
+    "flagsLabel": "Indicaciones",
+    "paste": "Pegar",
+    "removeFlags": "Eliminar indicación(es)"
   },
   "checklist": {
     "dropdowns": {
