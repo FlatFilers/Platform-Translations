@@ -1815,6 +1815,9 @@
       "title": "Smart Extract Assistant"
     },
     "complexFile": "Complex file detected",
+    "complexFileTooltip": "This file has complexities and we recommend you use Smart Extract to extract the data.",
+    "complexFileLowConfidence": "Complex file, low confidence",
+    "complexFileLowConfidenceTooltip": "This file contains complexities that are not yet supported by Smart Extract and can't be extracted with high confidence.",
     "reanalyze": "Re-analyze",
     "review": "Review extraction",
     "smartExtractComplete": "Smart extract analysis complete",
