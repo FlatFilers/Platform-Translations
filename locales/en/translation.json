@@ -1828,14 +1828,23 @@
   "smartImport": {
     "sheetSelection": {
       "cancel": "Cancel",
-      "description": "Select a sheet to import this data to",
+      "description": "Choose your source sheet, then choose the destination to map your data.",
       "loading": "Loading...",
       "loadingImport": "Loading import...",
       "loadingWorkbooks": "Loading workbooks...",
       "noWorkbooks": "No workbooks available",
       "noWorkbooksDescription": "No workbooks available to import to",
       "select": "Select",
-      "title": "Select destination"
+      "title": "Setup data mapping",
+      "placeholder": "Select a sheet"
+    },
+    "sourceSheetSelection": {
+      "label": "Source sheet",
+      "placeholder": "Select a sheet"
+    },
+    "destinationSheetSelection": {
+      "label": "Destination sheet",
+      "description": "Select the workbook and sheet where your data should be mapped to."
     }
   },
   "snapshot": {
