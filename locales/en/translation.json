@@ -697,7 +697,6 @@
           "defaultRetryLabel": "Retry",
           "defaultUrlLabel": "Visit external webpage",
           "defaultViewLabel": "  Update view",
-          "defaultClearFiltersLabel": "Clear filters",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continue"
           }
