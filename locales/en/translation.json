@@ -669,8 +669,18 @@
           "defaultConfirmButton": "Confirm",
           "defaultLoadingButton": "Loading...",
           "isRequired": "{{field}} is required",
-          "mustBeNumber": "{{field}} must be a number"
-        },
+          "mustBeNumber": "{{field}} must be a number",
+          "backButton": "Back",
+          "nextButton": "Next",
+          "pageIndicator": "{{current}} of {{total}}",
+          "notProvided": "Not provided",
+          "notSelected": "Not selected",
+          "editLink": "Edit",
+          "confirmationSuccessTitle": "Form Submitted Successfully",
+          "confirmationSuccessSubtitle": "Returning back to your last location",
+          "confirmationErrorTitle": "Form Submission Failed",
+          "confirmationErrorSubtitle": "Please try again"
+          },
         "defaultJobName": "Job",
         "defaultResourceName": "this resource",
         "foregroundJobProgressModal": {
