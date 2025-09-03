@@ -703,11 +703,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Назад",
           "cancelButton": "Скасувати",
+          "confirmationErrorSubtitle": "Будь ласка, спробуйте знову",
+          "confirmationErrorTitle": "Форму не вдалось надіслати",
+          "confirmationSuccessSubtitle": "Повертаємось до вашої останньої локації",
+          "confirmationSuccessTitle": "Форма успішно надіслана",
           "defaultConfirmButton": "Підтвердити",
           "defaultLoadingButton": "Завантажується...",
+          "editLink": "Змінити",
           "isRequired": "{{field}} є обов'язковим",
-          "mustBeNumber": "{{field}} має бути числом"
+          "mustBeNumber": "{{field}} має бути числом",
+          "nextButton": "Далі",
+          "notProvided": "Не надано",
+          "notSelected": "Не вибрано",
+          "pageIndicator": "{{current}} із {{total}}"
         },
         "defaultJobName": "Завдання",
         "defaultResourceName": "цей ресурс",
@@ -721,6 +731,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Продовжити"
           },
+          "defaultClearFiltersLabel": "Прибрати фільтри",
           "defaultDownloadLabel": "Завантажити",
           "defaultFileName": "файл",
           "defaultHeading": {
@@ -1957,6 +1968,9 @@
       "title": "Помічник з розумного вилучення"
     },
     "complexFile": "Виявлено складний файл",
+    "complexFileLowConfidence": "Складний файл, низька впевненість у результатах",
+    "complexFileLowConfidenceTooltip": "У цьому файлі є складні елементи, які Smart Extract поки що не підтримує, тому дані не можуть бути вилучені з високою точністю.",
+    "complexFileTooltip": "Цей файл містить складні елементи, тому ми рекомендуємо використовувати Smart Extract для вилучення даних.",
     "reanalyze": "Повторно проаналізувати",
     "review": "Переглянути екстракцію",
     "smartExtractComplete": "Аналіз смарт-екстрагування завершено",
@@ -1965,6 +1979,10 @@
     "verb": "Видобути"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Виберіть робочу книгу та аркуш, в яких мають бути розміщені ваші дані.",
+      "label": "Цільовий аркуш"
+    },
     "sheetSelection": {
       "cancel": "Скасувати",
       "description": "Виберіть аркуш для імпорту цих даних",
@@ -1973,8 +1991,13 @@
       "loadingWorkbooks": "Завантаження робочих книг...",
       "noWorkbooks": "Немає доступних робочих книг",
       "noWorkbooksDescription": "Немає доступних робочих книг для імпорту",
+      "placeholder": "Виберіть аркуш",
       "select": "Вибрати",
       "title": "Виберіть пункт призначення"
+    },
+    "sourceSheetSelection": {
+      "label": "Первинний аркуш",
+      "placeholder": "Виберіть аркуш"
     }
   },
   "snapshot": {

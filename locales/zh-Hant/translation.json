@@ -664,11 +664,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "返回",
           "cancelButton": "取消",
+          "confirmationErrorSubtitle": "請再試一次",
+          "confirmationErrorTitle": "表格提交失敗",
+          "confirmationSuccessSubtitle": "返回您的上一個地點",
+          "confirmationSuccessTitle": "表格已成功提交",
           "defaultConfirmButton": "確認",
           "defaultLoadingButton": "正在載入...",
+          "editLink": "編輯",
           "isRequired": "{{field}} 為必填欄位",
-          "mustBeNumber": "{{field}} 必須是數字"
+          "mustBeNumber": "{{field}} 必須是數字",
+          "nextButton": "下一個",
+          "notProvided": "未提供",
+          "notSelected": "未選擇",
+          "pageIndicator": "{{total}} 之 {{current}}"
         },
         "defaultJobName": "作業",
         "defaultResourceName": "此資源",
@@ -682,6 +692,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "繼續"
           },
+          "defaultClearFiltersLabel": "清除篩選條件",
           "defaultDownloadLabel": "下載",
           "defaultFileName": "檔案",
           "defaultHeading": {
@@ -1813,6 +1824,9 @@
       "title": "智慧擷取助理"
     },
     "complexFile": "偵測到複合檔案",
+    "complexFileLowConfidence": "複雜的文件，可信度低",
+    "complexFileLowConfidenceTooltip": "該文件含有 Smart Extract 尚不能支援的複雜內容，因此所擷取內容的可信度可能不高。",
+    "complexFileTooltip": "該文件具有較複雜的內容，我們建議您使用 Smart Extract 擷取資料。",
     "reanalyze": "再分析",
     "review": "檢視擷取",
     "smartExtractComplete": "智慧擷取分析已完成",
@@ -1821,6 +1835,10 @@
     "verb": "解壓縮"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "選擇您要輸入所擷取資料的工作簿和表單。",
+      "label": "目的地表單"
+    },
     "sheetSelection": {
       "cancel": "取消",
       "description": "選擇要匯入這筆資料的表單",
@@ -1829,8 +1847,13 @@
       "loadingWorkbooks": "活頁簿載入中 ......",
       "noWorkbooks": "沒有活頁簿可以提供",
       "noWorkbooksDescription": "沒有可供匯入的活頁簿",
+      "placeholder": "選擇表單",
       "select": "選取",
       "title": "選擇目的地"
+    },
+    "sourceSheetSelection": {
+      "label": "來源表單",
+      "placeholder": "選擇表單"
     }
   },
   "snapshot": {

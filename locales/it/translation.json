@@ -678,11 +678,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Indietro",
           "cancelButton": "Annulla",
+          "confirmationErrorSubtitle": "Riprova",
+          "confirmationErrorTitle": "Invio del modulo non riuscito",
+          "confirmationSuccessSubtitle": "Indietro all'ultima posizione",
+          "confirmationSuccessTitle": "Modulo inviato correttamente",
           "defaultConfirmButton": "Conferma",
           "defaultLoadingButton": "In caricamento",
+          "editLink": "Modifica",
           "isRequired": "{{field}} è richiesto",
-          "mustBeNumber": "{{field}} dev'essere un numero"
+          "mustBeNumber": "{{field}} dev'essere un numero",
+          "nextButton": "Successivo",
+          "notProvided": "Non fornito",
+          "notSelected": "Non selezionato",
+          "pageIndicator": "{{current}} di {{total}}"
         },
         "defaultJobName": "Lavoro",
         "defaultResourceName": "questa risorsa",
@@ -696,6 +706,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Continua"
           },
+          "defaultClearFiltersLabel": "Svuota i filtri",
           "defaultDownloadLabel": "Scarica",
           "defaultFileName": "file",
           "defaultHeading": {
@@ -1862,6 +1873,9 @@
       "title": "Assistente Smart Extract"
     },
     "complexFile": "File complesso rilevato",
+    "complexFileLowConfidence": "File complesso, scarsa affidabilità",
+    "complexFileLowConfidenceTooltip": "Questo file contiene complessità che non sono ancora supportate da Smart Extract e non possono essere estratte con elevata sicurezza.",
+    "complexFileTooltip": "Questo file presenta delle complessità e ti consigliamo di utilizzare Smart Extract per estrarre i dati.",
     "reanalyze": "Rianalizzare",
     "review": "Esaminare estrazione",
     "smartExtractComplete": "Analisi estrazione intelligente completata",
@@ -1870,6 +1884,10 @@
     "verb": "Estrai"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Seleziona la cartella di lavoro e il foglio in cui vuoi che vengano mappati i tuoi dati.",
+      "label": "Foglio di destinazione"
+    },
     "sheetSelection": {
       "cancel": "Annulla",
       "description": "Seleziona un foglio su cui importare questi dati",
@@ -1878,8 +1896,13 @@
       "loadingWorkbooks": "Caricamento dei fogli di lavoro in corso...",
       "noWorkbooks": "Nessun foglio di lavoro disponibile",
       "noWorkbooksDescription": "Nessun foglio di lavoro disponibile per l'importazione",
+      "placeholder": "Seleziona un foglio",
       "select": "Seleziona",
       "title": "Seleziona destinazione"
+    },
+    "sourceSheetSelection": {
+      "label": "Foglio sorgente",
+      "placeholder": "Seleziona un foglio"
     }
   },
   "snapshot": {

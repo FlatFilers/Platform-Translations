@@ -677,11 +677,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Tagasi",
           "cancelButton": "Tühista",
+          "confirmationErrorSubtitle": "Palun proovi uuesti",
+          "confirmationErrorTitle": "Vormi esitamine nurjus",
+          "confirmationSuccessSubtitle": "Eelmisesse asukohta naasmine",
+          "confirmationSuccessTitle": "Vormi esitamine õnnestus",
           "defaultConfirmButton": "Kinnita",
           "defaultLoadingButton": "Laadimine...",
+          "editLink": "Redigeeri",
           "isRequired": "{{field}} on kohustuslik",
-          "mustBeNumber": "{{field}} peab olema number"
+          "mustBeNumber": "{{field}} peab olema number",
+          "nextButton": "Järgmine",
+          "notProvided": "Ei ole antud",
+          "notSelected": "Ei ole valitud",
+          "pageIndicator": "{{current}} / {{total}}"
         },
         "defaultJobName": "Töö",
         "defaultResourceName": "see allikas",
@@ -695,6 +705,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Jätka"
           },
+          "defaultClearFiltersLabel": "Eemalda filtrid",
           "defaultDownloadLabel": "Laadi alla",
           "defaultFileName": "fail",
           "defaultHeading": {
@@ -1861,6 +1872,9 @@
       "title": "Nutika ekstraktimise abiline"
     },
     "complexFile": "Tuvastati keeruline fail",
+    "complexFileLowConfidence": "Keerukas fail, madal kindlus",
+    "complexFileLowConfidenceTooltip": "See fail sisaldab keerukusi, mida Smart Extract veel ei toeta ja mida ei saa suure kindlusega ekstraheerida.",
+    "complexFileTooltip": "See fail on keerukas ja andmete ekstraheerimiseks soovitame kasutada funktsiooni Smart Extract.",
     "reanalyze": "Analüüsi uuesti",
     "review": "Ekstraktimise ülevaade",
     "smartExtractComplete": "Ekstraktimise nutianalüüs lõpetatud",
@@ -1869,6 +1883,10 @@
     "verb": "Paki lahti"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Valige töövihik ja leht, kuhu teie andmed tuleb vastendada.",
+      "label": "Sihtleht"
+    },
     "sheetSelection": {
       "cancel": "Tühista",
       "description": "Vali koht, kuhu need andmed importida",
@@ -1877,8 +1895,13 @@
       "loadingWorkbooks": "Töövihikute laadimine ...",
       "noWorkbooks": "Töövihikuid pole saadaval",
       "noWorkbooksDescription": "Töövihikuid, kuhu importida, pole saadaval",
+      "placeholder": "Vali leht",
       "select": "Vali",
       "title": "Vali sihtkoht"
+    },
+    "sourceSheetSelection": {
+      "label": "Allikaleht",
+      "placeholder": "Vali leht"
     }
   },
   "snapshot": {

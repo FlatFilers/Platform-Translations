@@ -665,11 +665,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Quay lại",
           "cancelButton": "Hủy",
+          "confirmationErrorSubtitle": "Vui lòng thử lại",
+          "confirmationErrorTitle": "Gửi Biểu mẫu Không thành công",
+          "confirmationSuccessSubtitle": "Quay lại vị trí cuối cùng của bạn",
+          "confirmationSuccessTitle": "Đã gửi Biểu mẫu Thành công",
           "defaultConfirmButton": "Xác nhận",
           "defaultLoadingButton": "Đang tải...",
+          "editLink": "Chỉnh sửa",
           "isRequired": "{{field}} là nội dung bắt buộc",
-          "mustBeNumber": "{{field}} phải là một số"
+          "mustBeNumber": "{{field}} phải là một số",
+          "nextButton": "Kế tiếp",
+          "notProvided": "Chưa cung cấp",
+          "notSelected": "Chưa chọn",
+          "pageIndicator": "{{current}} trên {{total}}"
         },
         "defaultJobName": "Công việc",
         "defaultResourceName": "tài nguyên này",
@@ -683,6 +693,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Tiếp tục"
           },
+          "defaultClearFiltersLabel": "Xóa bộ lọc",
           "defaultDownloadLabel": "Tải xuống",
           "defaultFileName": "tệp",
           "defaultHeading": {
@@ -1814,6 +1825,9 @@
       "title": "Trợ lý trích xuất thông minh"
     },
     "complexFile": "Phát hiện tệp phức tạp",
+    "complexFileLowConfidence": "Tập tin phức tạp, độ tin cậy thấp",
+    "complexFileLowConfidenceTooltip": "Tập tin này chứa những nội dung phức tạp mà tính năng Trích xuất thông minh chưa hỗ trợ và không thể trích xuất với độ tin cậy cao.",
+    "complexFileTooltip": "Tập tin này có những nội dung phức tạp và chúng tôi khuyên bạn nên sử dụng tính năng Trích xuất thông minh để trích xuất dữ liệu.",
     "reanalyze": "Phân tích lại",
     "review": "Xem lại kết quả trích xuất",
     "smartExtractComplete": "Phân tích trích xuất thông minh hoàn tất",
@@ -1822,6 +1836,10 @@
     "verb": "Trích xuất"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Chọn bảng tính và trang tính mà dữ liệu của bạn sẽ được ánh xạ đến.",
+      "label": "Bảng tính đích"
+    },
     "sheetSelection": {
       "cancel": "Hủy",
       "description": "Chọn một trang tính để nhập dữ liệu này vào",
@@ -1830,8 +1848,13 @@
       "loadingWorkbooks": "Đang tải sổ làm việc...",
       "noWorkbooks": "Không có sổ làm việc nào khả dụng",
       "noWorkbooksDescription": "Không có sổ làm việc nào khả dụng để nhập vào",
+      "placeholder": "Chọn bảng tính",
       "select": "Chọn",
       "title": "Chọn điểm đến"
+    },
+    "sourceSheetSelection": {
+      "label": "Bảng tính nguồn",
+      "placeholder": "Chọn bảng tính"
     }
   },
   "snapshot": {

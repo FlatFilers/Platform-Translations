@@ -677,11 +677,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Terug",
           "cancelButton": "Annuleren",
+          "confirmationErrorSubtitle": "Probeer opnieuw",
+          "confirmationErrorTitle": "Formulierinzending mislukt",
+          "confirmationSuccessSubtitle": "Terugkeren naar uw laatste locatie",
+          "confirmationSuccessTitle": "Formulier succesvol verzonden",
           "defaultConfirmButton": "Bevestig",
           "defaultLoadingButton": "Bezig met laden...",
+          "editLink": "Bewerken",
           "isRequired": "{{field}} is vereist",
-          "mustBeNumber": "{{field}} moet een getal zijn"
+          "mustBeNumber": "{{field}} moet een getal zijn",
+          "nextButton": "Volgende",
+          "notProvided": "Niet voorzien",
+          "notSelected": "Niet geselecteerd",
+          "pageIndicator": "{{current}} van {{total}}"
         },
         "defaultJobName": "Taak",
         "defaultResourceName": "deze bron",
@@ -695,6 +705,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Ga door"
           },
+          "defaultClearFiltersLabel": "Filters wissen",
           "defaultDownloadLabel": "Downloaden",
           "defaultFileName": "bestand",
           "defaultHeading": {
@@ -1861,6 +1872,9 @@
       "title": "Slimme extractie-assistent"
     },
     "complexFile": "Complex bestand gedetecteerd",
+    "complexFileLowConfidence": "Complex bestand met laag vertrouwen",
+    "complexFileLowConfidenceTooltip": "Dit bestand bevat complexiteiten die nog niet worden ondersteund door Smart Extract en die niet met grote zekerheid kunnen worden geëxtraheerd.",
+    "complexFileTooltip": "Dit bestand is complex en we raden u aan Smart Extract te gebruiken om de gegevens te extraheren.",
     "reanalyze": "Heranalyseren",
     "review": "Review extractie",
     "smartExtractComplete": "Slimme extractie-analyse voltooid",
@@ -1869,6 +1883,10 @@
     "verb": "Uittreksel"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Selecteer het werkboek en het blad waarnaar uw gegevens moeten worden gemapt.",
+      "label": "Bestemmingsblad"
+    },
     "sheetSelection": {
       "cancel": "Annuleren",
       "description": "Selecteer een blad waarnaar u deze gegevens wilt importeren",
@@ -1877,8 +1895,13 @@
       "loadingWorkbooks": "Werkschriften worden geladen...",
       "noWorkbooks": "Geen werkschriften beschikbaar",
       "noWorkbooksDescription": "Geen werkschriften beschikbaar om te importeren naar",
+      "placeholder": "Selecteer een blad",
       "select": "Selecteren",
       "title": "Bestemming selecteren"
+    },
+    "sourceSheetSelection": {
+      "label": "Bronblad",
+      "placeholder": "Selecteer een blad"
     }
   },
   "snapshot": {

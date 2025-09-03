@@ -678,11 +678,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Back",
           "cancelButton": "Cancel",
+          "confirmationErrorSubtitle": "Please try again",
+          "confirmationErrorTitle": "Form Submission Failed",
+          "confirmationSuccessSubtitle": "Returning back to your last location",
+          "confirmationSuccessTitle": "Form Submitted Successfully",
           "defaultConfirmButton": "Confirm",
           "defaultLoadingButton": "Loading...",
+          "editLink": "Edit",
           "isRequired": "{{field}} is required",
-          "mustBeNumber": "{{field}} must be a number"
+          "mustBeNumber": "{{field}} must be a number",
+          "nextButton": "Next",
+          "notProvided": "Not provided",
+          "notSelected": "Not selected",
+          "pageIndicator": "{{current}} of {{total}}"
         },
         "defaultJobName": "Job",
         "defaultResourceName": "this resource",
@@ -696,6 +706,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Continue"
           },
+          "defaultClearFiltersLabel": "Clear filters",
           "defaultDownloadLabel": "Download",
           "defaultFileName": "file",
           "defaultHeading": {
@@ -1862,6 +1873,9 @@
       "title": "Smart Extract Assistant"
     },
     "complexFile": "Complex file detected",
+    "complexFileLowConfidence": "Complex file, low confidence",
+    "complexFileLowConfidenceTooltip": "This file contains complexities that are not yet supported by Smart Extract and can't be extracted with high confidence.",
+    "complexFileTooltip": "This file has complexities and we recommend you use Smart Extract to extract the data.",
     "reanalyze": "Re-analyse",
     "review": "Review extraction",
     "smartExtractComplete": "Smart extract analysis complete",
@@ -1870,6 +1884,10 @@
     "verb": "Extract"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Select the workbook and sheet where your data should be mapped to.",
+      "label": "Destination sheet"
+    },
     "sheetSelection": {
       "cancel": "Cancel",
       "description": "Select a sheet to import this data to",
@@ -1878,8 +1896,13 @@
       "loadingWorkbooks": "Loading workbooks...",
       "noWorkbooks": "No workbooks available",
       "noWorkbooksDescription": "No workbooks available to import to",
+      "placeholder": "Select a sheet",
       "select": "Select",
       "title": "Select destination"
+    },
+    "sourceSheetSelection": {
+      "label": "Source sheet",
+      "placeholder": "Select a sheet"
     }
   },
   "snapshot": {

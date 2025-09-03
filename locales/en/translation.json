@@ -665,9 +665,15 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Back",
           "cancelButton": "Cancel",
+          "confirmationErrorSubtitle": "Please try again",
+          "confirmationErrorTitle": "Form Submission Failed",
+          "confirmationSuccessSubtitle": "Returning back to your last location",
+          "confirmationSuccessTitle": "Form Submitted Successfully",
           "defaultConfirmButton": "Confirm",
           "defaultLoadingButton": "Loading...",
+          "editLink": "Edit",
           "isRequired": "{{field}} is required",
           "mustBeNumber": "{{field}} must be a number",
           "backButton": "Back",
@@ -693,6 +699,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Continue"
           },
+          "defaultClearFiltersLabel": "Clear filters",
           "defaultDownloadLabel": "Download",
           "defaultFileName": "file",
           "defaultHeading": {
@@ -1826,9 +1833,9 @@
       "title": "Smart Extract Assistant"
     },
     "complexFile": "Complex file detected",
-    "complexFileTooltip": "This file has complexities and we recommend you use Smart Extract to extract the data.",
     "complexFileLowConfidence": "Complex file, low confidence",
     "complexFileLowConfidenceTooltip": "This file contains complexities that are not yet supported by Smart Extract and can't be extracted with high confidence.",
+    "complexFileTooltip": "This file has complexities and we recommend you use Smart Extract to extract the data.",
     "reanalyze": "Re-analyze",
     "review": "Review extraction",
     "smartExtractComplete": "Smart extract analysis complete",
@@ -1837,6 +1844,10 @@
     "verb": "Extract"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Select the workbook and sheet where your data should be mapped to.",
+      "label": "Destination sheet"
+    },
     "sheetSelection": {
       "cancel": "Cancel",
       "description": "Choose your source sheet, then choose the destination to map your data.",
@@ -1845,6 +1856,7 @@
       "loadingWorkbooks": "Loading workbooks...",
       "noWorkbooks": "No workbooks available",
       "noWorkbooksDescription": "No workbooks available to import to",
+      "placeholder": "Select a sheet",
       "select": "Select",
       "title": "Setup data mapping",
       "placeholder": "Select a sheet"

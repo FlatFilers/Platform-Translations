@@ -677,11 +677,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Atrás",
           "cancelButton": "Cancelar",
+          "confirmationErrorSubtitle": "Por favor, intenta nuevamente",
+          "confirmationErrorTitle": "Envío fallido del formulario",
+          "confirmationSuccessSubtitle": "Regresando a tu última ubicación",
+          "confirmationSuccessTitle": "Envío exitoso del formulario",
           "defaultConfirmButton": "Confirmar",
           "defaultLoadingButton": "Cargando...",
+          "editLink": "Editar",
           "isRequired": "Se requiere {{field}}",
-          "mustBeNumber": "{{field}} debe ser un número"
+          "mustBeNumber": "{{field}} debe ser un número",
+          "nextButton": "Siguiente",
+          "notProvided": "No indicado",
+          "notSelected": "No seleccionado",
+          "pageIndicator": "{{current}} de {{total}}"
         },
         "defaultJobName": "Trabajo",
         "defaultResourceName": "este recurso",
@@ -695,6 +705,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Continuar"
           },
+          "defaultClearFiltersLabel": "Borrar los filtros",
           "defaultDownloadLabel": "Descargar",
           "defaultFileName": "archivo",
           "defaultHeading": {
@@ -1861,6 +1872,9 @@
       "title": "Asistente de extracción inteligente"
     },
     "complexFile": "Archivo complejo detectado",
+    "complexFileLowConfidence": "Archivo complejo, baja confianza",
+    "complexFileLowConfidenceTooltip": "Este archivo contiene complejidades que aún no son compatibles con Smart Extract y no pueden extraerse con un alto nivel de confianza.",
+    "complexFileTooltip": "Este archivo tiene complejidades y le recomendamos usar Smart Extract para extraer los datos.",
     "reanalyze": "Volver a analizar",
     "review": "Revisar extracción",
     "smartExtractComplete": "Análisis de extracción inteligente completado",
@@ -1869,6 +1883,10 @@
     "verb": "Extraer"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Seleccione el libro de trabajo y la hoja a donde se deberán incorporar sus datos.",
+      "label": "Hoja de destino"
+    },
     "sheetSelection": {
       "cancel": "Cancelar",
       "description": "Seleccione una hoja donde importar estos datos",
@@ -1877,8 +1895,13 @@
       "loadingWorkbooks": "Cargando libros de trabajo...",
       "noWorkbooks": "No hay libros de trabajo disponibles",
       "noWorkbooksDescription": "No hay libros de trabajos disponibles para importar",
+      "placeholder": "Seleccione una hoja",
       "select": "Seleccionar",
       "title": "Seleccionar destino"
+    },
+    "sourceSheetSelection": {
+      "label": "Hoja fuente",
+      "placeholder": "Seleccione una hoja"
     }
   },
   "snapshot": {

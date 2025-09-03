@@ -678,11 +678,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Geri",
           "cancelButton": "İptal",
+          "confirmationErrorSubtitle": "Lütfen tekrar dene",
+          "confirmationErrorTitle": "Form Gönderimi Başarısız Oldu",
+          "confirmationSuccessSubtitle": "Son konumuna geri dön",
+          "confirmationSuccessTitle": "Form Başarıyla Gönderildi",
           "defaultConfirmButton": "Onayla",
           "defaultLoadingButton": "Yükleniyor...",
+          "editLink": "Düzenle",
           "isRequired": "{{field}} gereklidir",
-          "mustBeNumber": "{{field}} bir sayı olmalıdır"
+          "mustBeNumber": "{{field}} bir sayı olmalıdır",
+          "nextButton": "Sonraki",
+          "notProvided": "Sunulmadı",
+          "notSelected": "Seçilmedi",
+          "pageIndicator": "{{current}} / {{total}}"
         },
         "defaultJobName": "İş",
         "defaultResourceName": "bu kaynak",
@@ -696,6 +706,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Devam et"
           },
+          "defaultClearFiltersLabel": "Filtreleri temizle",
           "defaultDownloadLabel": "İndir",
           "defaultFileName": "dosya",
           "defaultHeading": {
@@ -1862,6 +1873,9 @@
       "title": "Akıllı Çıkartma Yardımcısı"
     },
     "complexFile": "Karmaşık dosya algılandı",
+    "complexFileLowConfidence": "Karmaşık dosya, düşük güvenilirlik",
+    "complexFileLowConfidenceTooltip": "Bu dosya, henüz Smart Extract tarafından desteklenmeyen ve yüksek güvenilirlikle çıkarılamayan karmaşıklıklar içeriyor.",
+    "complexFileTooltip": "Bu dosya karmaşık ve verileri çıkarmak için Smart Extract'i kullanmanızı öneririz.",
     "reanalyze": "Yeniden analiz et",
     "review": "Çıkarma işlemini incele",
     "smartExtractComplete": "Akıllı çıkarma analizi tamamlandı",
@@ -1870,6 +1884,10 @@
     "verb": "Çıkarıcı"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Verilerinizin eşleştirileceği çalışma kitabını ve sayfayı seçin.",
+      "label": "Hedef sayfası"
+    },
     "sheetSelection": {
       "cancel": "İptal et",
       "description": "Bu verileri içe aktarmak için bir sayfa seç",
@@ -1878,8 +1896,13 @@
       "loadingWorkbooks": "Çalışma kitapları yükleniyor...",
       "noWorkbooks": "Hiçbir çalışma kitabı yok",
       "noWorkbooksDescription": "İçeri aktarılacak çalışma kitabı yok",
+      "placeholder": "Bir sayfa seç",
       "select": "Seç",
       "title": "Hedefi seç"
+    },
+    "sourceSheetSelection": {
+      "label": "Kaynak sayfası",
+      "placeholder": "Bir sayfa seç"
     }
   },
   "snapshot": {

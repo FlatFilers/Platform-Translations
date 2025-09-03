@@ -665,11 +665,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "返回",
           "cancelButton": "取消",
+          "confirmationErrorSubtitle": "请重试",
+          "confirmationErrorTitle": "表单提交失败",
+          "confirmationSuccessSubtitle": "正在返回上次的位置",
+          "confirmationSuccessTitle": "表单提交成功",
           "defaultConfirmButton": "确认",
           "defaultLoadingButton": "正在加载……",
+          "editLink": "编辑",
           "isRequired": "{{field}} 为必填",
-          "mustBeNumber": "{{field}} 必须为数字"
+          "mustBeNumber": "{{field}} 必须为数字",
+          "nextButton": "下一步",
+          "notProvided": "未提供",
+          "notSelected": "未选择",
+          "pageIndicator": "第 {{current}}，共 {{total}}"
         },
         "defaultJobName": "作业",
         "defaultResourceName": "该资源",
@@ -683,6 +693,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "继续"
           },
+          "defaultClearFiltersLabel": "清除筛选条件",
           "defaultDownloadLabel": "下载",
           "defaultFileName": "文件",
           "defaultHeading": {
@@ -1814,6 +1825,9 @@
       "title": "智能提取助手"
     },
     "complexFile": "检测到复杂文件",
+    "complexFileLowConfidence": "复杂结构文件，置信度较低",
+    "complexFileLowConfidenceTooltip": "此文件包含智能提取目前尚不支持的复杂结构，无法以高置信度提取。",
+    "complexFileTooltip": "该文件结构复杂，我们建议您使用智能提取来提取数据。",
     "reanalyze": "重新分析",
     "review": "查看提取结果",
     "smartExtractComplete": "智能提取分析已完成",
@@ -1822,6 +1836,10 @@
     "verb": "提取"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "选择要将数据映射到的工作簿和工作表。",
+      "label": "目标工作表"
+    },
     "sheetSelection": {
       "cancel": "取消",
       "description": "选择要导入此数据的工作表",
@@ -1830,8 +1848,13 @@
       "loadingWorkbooks": "正在加载工作簿……",
       "noWorkbooks": "没有可用的工作簿",
       "noWorkbooksDescription": "没有可导入的工作簿",
+      "placeholder": "选择工作表",
       "select": "选择",
       "title": "选择目标位置"
+    },
+    "sourceSheetSelection": {
+      "label": "源表",
+      "placeholder": "选择工作表"
     }
   },
   "snapshot": {

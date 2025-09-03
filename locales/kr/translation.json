@@ -665,11 +665,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "뒤로",
           "cancelButton": "취소하기",
+          "confirmationErrorSubtitle": "다시 시도해주세요",
+          "confirmationErrorTitle": "양식 제출 실패",
+          "confirmationSuccessSubtitle": "마지막 위치로 돌아가는 중",
+          "confirmationSuccessTitle": "양식 제출 성공",
           "defaultConfirmButton": "확인하기",
           "defaultLoadingButton": "로드 중...",
+          "editLink": "수정",
           "isRequired": "{{field}} 필수",
-          "mustBeNumber": "{{field}}는 반드시 숫자여야 함"
+          "mustBeNumber": "{{field}}는 반드시 숫자여야 함",
+          "nextButton": "다음",
+          "notProvided": "제공되지 않음",
+          "notSelected": "선택되지 않음",
+          "pageIndicator": "{{total}}개 중 {{current}}개"
         },
         "defaultJobName": "작업",
         "defaultResourceName": "이 리소르",
@@ -683,6 +693,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "계속하기"
           },
+          "defaultClearFiltersLabel": "필터 초기화",
           "defaultDownloadLabel": "다운로드",
           "defaultFileName": "파일",
           "defaultHeading": {
@@ -1814,6 +1825,9 @@
       "title": "스마트 추출 도우미"
     },
     "complexFile": "복잡한 파일 감지됨",
+    "complexFileLowConfidence": "복잡한 파일, 낮은 신뢰도",
+    "complexFileLowConfidenceTooltip": "이 파일에는 Smart Extract에서 아직 지원하지 않는 복잡한 요소가 포함되어 있으며, 파일을 높은 신뢰도로 추출할 수 없습니다.",
+    "complexFileTooltip": "이 파일에는 복잡한 요소가 포함되어 있습니다. 데이터를 추출하려면 Smart Extract를 사용하시길 바랍니다.",
     "reanalyze": "다시 분석",
     "review": "추출 검토",
     "smartExtractComplete": "스마트 추출 분석 완료",
@@ -1822,6 +1836,10 @@
     "verb": "추출"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "데이터를 매핑할 통합 문서와 시트를 선택하세요.",
+      "label": "대상 시트"
+    },
     "sheetSelection": {
       "cancel": "취소",
       "description": "이 데이터를 불러올 시트를 선택하세요",
@@ -1830,8 +1848,13 @@
       "loadingWorkbooks": "워크북 로딩 중...",
       "noWorkbooks": "사용 가능한 워크북 없음",
       "noWorkbooksDescription": "항목을 불러올 수 있는 워크북이 없습니다",
+      "placeholder": "시트 선택",
       "select": "선택",
       "title": "대상 선택"
+    },
+    "sourceSheetSelection": {
+      "label": "원본 시트",
+      "placeholder": "시트 선택"
     }
   },
   "snapshot": {

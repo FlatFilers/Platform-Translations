@@ -112,13 +112,13 @@
     "clearFlags": "ลบธง",
     "comment": "ความเห็น",
     "copy": "คัดลอก",
-    "createFlag": "ทำเครื่องหมาย",
-    "createFlagError": "ไม่สามารถทำเครื่องหมาย",
-    "createNewFlag": "ทำเครื่องหมายใหม่",
+    "createFlag": "สร้างธง",
+    "createFlagError": "สร้างธงไม่สำเร็จ",
+    "createNewFlag": "สร้างธงใหม่",
     "cut": "ตัด",
     "deleteFlagError": "ลบเครื่องหมาย (ธง) ไม่สำเร็จ",
     "flagDeleted": "ลบเครื่องหมายเรียบร้อยแล้ว",
-    "flagSelectedRecords": "ทำเครื่องหมายระเบียนที่เลือกไว้...",
+    "flagSelectedRecords": "ติดธงบนรายการบันทึกที่เลือกไว้...",
     "flagsLabel": "เครื่องหมาย (ธง)",
     "paste": "วาง",
     "removeFlags": "ลบเครื่องหมาย"
@@ -257,7 +257,7 @@
     "older": "เก่ากว่า",
     "thisWeek": "สัปดาห์นี้",
     "today": "วันนี้",
-    "tryAgainLater": "โปรดลองใหม่ในภายหลัง",
+    "tryAgainLater": "โปรดลองอีกครั้งภายหลัง",
     "yesterday": "เมื่อวาน"
   },
   "dataClips": {
@@ -623,7 +623,7 @@
   },
   "flags": {
     "errors": {
-      "create": "ไม่สามารถทำเครื่องหมาย"
+      "create": "สร้างธงไม่สำเร็จ"
     }
   },
   "guestInvite": {
@@ -664,11 +664,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "ย้อนกลับ",
           "cancelButton": "ยกเลิก",
+          "confirmationErrorSubtitle": "โปรดลองอีกครั้ง",
+          "confirmationErrorTitle": "ไม่สามารถส่งแบบฟอร์ม",
+          "confirmationSuccessSubtitle": "กลับไปยังตำแหน่งสุดท้ายของคุณ",
+          "confirmationSuccessTitle": "ส่งแบบฟอร์มออกไปเรียบร้อยแล้ว",
           "defaultConfirmButton": "ยืนยัน",
           "defaultLoadingButton": "กำลังโหลด...",
+          "editLink": "แก้ไข",
           "isRequired": "จำเป็นต้องระบุ {{field}}",
-          "mustBeNumber": "{{field}} ต้องเป็นตัวเลข"
+          "mustBeNumber": "{{field}} ต้องเป็นตัวเลข",
+          "nextButton": "ถัดไป",
+          "notProvided": "ไม่มีให้",
+          "notSelected": "ไม่ได้เลือก",
+          "pageIndicator": "{{current}} จาก {{total}}"
         },
         "defaultJobName": "งาน",
         "defaultResourceName": "ทรัพยากรนี้",
@@ -682,6 +692,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "ดำเนินการต่อ"
           },
+          "defaultClearFiltersLabel": "ล้างตัวกรอง",
           "defaultDownloadLabel": "ดาวน์โหลด",
           "defaultFileName": "ไฟล์",
           "defaultHeading": {
@@ -1468,9 +1479,9 @@
         },
         "clearFlags": {
           "popover": {
-            "successMessage_other": "ลบธงออกจาก {{count}} ระเบียนแล้ว",
-            "successMessage_zero": "ลบธงออกจาก {{count}} ระเบียนแล้ว",
-            "successMessageNoCount": "ลบธงออกจากระเบียนแล้ว"
+            "successMessage_other": "ลบธงจาก\n{{count}} \nรายการบันทึก",
+            "successMessage_zero": "ลบธงจาก {{count}}\nรายการบันทึก",
+            "successMessageNoCount": "ลบธงจากรายการบันทึกแล้ว"
           }
         },
         "delete": {
@@ -1536,9 +1547,9 @@
         },
         "flagRecords": {
           "popover": {
-            "successMessage_other": "ทำเครื่องหมายแล้ว {{count}} ระเบียน",
-            "successMessage_zero": "ทำเครื่องหมายแล้ว {{count}} ระเบียน",
-            "successMessageNoCount": "ทำเครื่องหมายระเบียนแล้ว"
+            "successMessage_other": "{{count}}\nรายการบันทึกที่มีธงติดไว้",
+            "successMessage_zero": "{{count}}\nรายการบันทึกที่มีธงติดไว้",
+            "successMessageNoCount": "รายการบันทึกที่มีธงติดไว้"
           }
         },
         "markForDeletion": {
@@ -1813,6 +1824,9 @@
       "title": "ตัวช่วยสกัดอัจฉริยะ"
     },
     "complexFile": "ตรวจพบไฟล์ซับซ้อน",
+    "complexFileLowConfidence": "ไฟล์ซับซ้อน ความมั่นใจต่ำ",
+    "complexFileLowConfidenceTooltip": "ไฟล์นี้มีความซับซ้อนที่ Smart Extract ยังไม่รองรับและไม่สามารถดึงข้อมูลด้วยความมั่นใจสูงได้",
+    "complexFileTooltip": "ไฟล์นี้มีความซับซ้อนและเราแนะนำให้คุณใช้ Smart Extract เพื่อดึงข้อมูล",
     "reanalyze": "วิเคราะห์ใหม่",
     "review": "ตรวจสอบการแยกข้อมูล",
     "smartExtractComplete": "การวิเคราะห์การแยกข้อมูลอัจฉริยะเสร็จสมบูรณ์",
@@ -1821,6 +1835,10 @@
     "verb": "สกัด/ดึงออก/ตัดตอน"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "เลือกสมุดงานและแผ่นงานที่คุณต้องการแมปข้อมูลไป",
+      "label": "แผ่นงานปลายทาง"
+    },
     "sheetSelection": {
       "cancel": "ยกเลิก",
       "description": "เลือกชีตที่จะนำเข้าข้อมูลนี้",
@@ -1829,8 +1847,13 @@
       "loadingWorkbooks": "กำลังโหลดเวิร์กบุ๊ก...",
       "noWorkbooks": "ไม่มีเวิร์กบุ๊ก",
       "noWorkbooksDescription": "ไม่มีเวิร์กบุ๊กให้นำเข้าข้อมูล",
+      "placeholder": "เลือกแผ่นงาน",
       "select": "เลือก",
       "title": "เลือกปลายทาง"
+    },
+    "sourceSheetSelection": {
+      "label": "แผ่นงานต้นทาง",
+      "placeholder": "เลือกแผ่นงาน"
     }
   },
   "snapshot": {

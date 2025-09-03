@@ -703,11 +703,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Назад",
           "cancelButton": "Отменить",
+          "confirmationErrorSubtitle": "Повторите попытку",
+          "confirmationErrorTitle": "Не удалось отправить форму",
+          "confirmationSuccessSubtitle": "Возвращение назад к вашему прошлому местонахождению",
+          "confirmationSuccessTitle": "Форма успешно отправлена",
           "defaultConfirmButton": "Подтвердить",
           "defaultLoadingButton": "Загрузка...",
+          "editLink": "Изменить",
           "isRequired": "{{field}} обязательно",
-          "mustBeNumber": "{{field}} должно быть числом"
+          "mustBeNumber": "{{field}} должно быть числом",
+          "nextButton": "Далее",
+          "notProvided": "Не предоставлено",
+          "notSelected": "Не выбрано",
+          "pageIndicator": "{{current}} из {{total}}"
         },
         "defaultJobName": "Работа",
         "defaultResourceName": "этом ресурсе",
@@ -721,6 +731,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Продолжить"
           },
+          "defaultClearFiltersLabel": "Очистить фильтры",
           "defaultDownloadLabel": "Загрузить",
           "defaultFileName": "файл",
           "defaultHeading": {
@@ -1957,6 +1968,9 @@
       "title": "Интеллектуальный помощник по извлечению"
     },
     "complexFile": "Обнаружен сложный файл",
+    "complexFileLowConfidence": "Сложный файл, низкая степень уверенности",
+    "complexFileLowConfidenceTooltip": "Этот файл содержит сложные элементы, которые пока не поддерживаются Smart Extract и не могут быть извлечены с высокой степенью уверенности.",
+    "complexFileTooltip": "Этот файл содержит сложные элементы, и для извлечения данных мы рекомендуем использовать функцию Smart Extract.",
     "reanalyze": "Повторный анализ",
     "review": "Проверьте результат извлечения",
     "smartExtractComplete": "Анализ умного извлечения завершен",
@@ -1965,6 +1979,10 @@
     "verb": "Извлечь"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Выберите рабочую книгу и лист, где должны быть отображены ваши данные.",
+      "label": "Целевой лист"
+    },
     "sheetSelection": {
       "cancel": "Отменить",
       "description": "Выбрать лист для импортирования этих данных",
@@ -1973,8 +1991,13 @@
       "loadingWorkbooks": "Рабочие книги загружаются...",
       "noWorkbooks": "Нет рабочих книг",
       "noWorkbooksDescription": "Нет рабочих книг для импортирования",
+      "placeholder": "Выберите лист",
       "select": "Выбрать",
       "title": "Выбрать получателя"
+    },
+    "sourceSheetSelection": {
+      "label": "Исходный лист",
+      "placeholder": "Выберите лист"
     }
   },
   "snapshot": {

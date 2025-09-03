@@ -665,11 +665,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "戻る",
           "cancelButton": "キャンセル",
+          "confirmationErrorSubtitle": "もう一度お試しください",
+          "confirmationErrorTitle": "フォームの提出に失敗しました",
+          "confirmationSuccessSubtitle": "直前の場所に戻る",
+          "confirmationSuccessTitle": "フォームが正しく提出されました",
           "defaultConfirmButton": "確認",
           "defaultLoadingButton": "読み込み中...",
+          "editLink": "編集",
           "isRequired": "{{field}} が必要です",
-          "mustBeNumber": "{{field}} は数値でなければなりません"
+          "mustBeNumber": "{{field}} は数値でなければなりません",
+          "nextButton": "次",
+          "notProvided": "提供されていません",
+          "notSelected": "選択されていません",
+          "pageIndicator": "{{total}}中{{current}}"
         },
         "defaultJobName": "ジョブ",
         "defaultResourceName": "このリソース",
@@ -683,6 +693,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "続行"
           },
+          "defaultClearFiltersLabel": "フィルターを解除",
           "defaultDownloadLabel": "ダウンロード",
           "defaultFileName": "ファイル",
           "defaultHeading": {
@@ -1814,6 +1825,9 @@
       "title": "スマート抽出アシスタント"
     },
     "complexFile": "コンプレックスファイルが検出されました",
+    "complexFileLowConfidence": "複雑なファイル、低確度",
+    "complexFileLowConfidenceTooltip": "このファイルにはまだSmart Extractがサポートしていない複雑な要素が含まれており、高い確度で抽出できません。",
+    "complexFileTooltip": "このファイルには複雑な要素が含まれており、データの抽出にはSmart Extractの使用を推奨します。",
     "reanalyze": "再分析",
     "review": "抽出をレビュー",
     "smartExtractComplete": "スマート抽出分析が完了しました",
@@ -1822,6 +1836,10 @@
     "verb": "抽出する"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "データのマッピング先となるワークブックとシートを選択してください。",
+      "label": "宛先シート"
+    },
     "sheetSelection": {
       "cancel": "キャンセル",
       "description": "このデータをインポートするシートを選択してください",
@@ -1830,8 +1848,13 @@
       "loadingWorkbooks": "ワークブックを読み込んでいます...",
       "noWorkbooks": "利用可能なワークブックがありません",
       "noWorkbooksDescription": "インポート可能なワークブックがありません",
+      "placeholder": "シートを選択",
       "select": "選択",
       "title": "送信先を選択"
+    },
+    "sourceSheetSelection": {
+      "label": "ソースシート",
+      "placeholder": "シートを選択"
     }
   },
   "snapshot": {

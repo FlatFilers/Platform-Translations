@@ -664,11 +664,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Kembali",
           "cancelButton": "Batalkan",
+          "confirmationErrorSubtitle": "Sila cuba lagi",
+          "confirmationErrorTitle": "Penyerahan Borang Gagal",
+          "confirmationSuccessSubtitle": "Kembali semula ke lokasi terakhir anda",
+          "confirmationSuccessTitle": "Borang Berjaya Diserahkan",
           "defaultConfirmButton": "Sahkan",
           "defaultLoadingButton": "Memuatkan...",
+          "editLink": "Edit",
           "isRequired": "{{field}} diperlukan",
-          "mustBeNumber": "{{field}} hendaklah dalam bentuk nombor"
+          "mustBeNumber": "{{field}} hendaklah dalam bentuk nombor",
+          "nextButton": "Seterusnya",
+          "notProvided": "Tidak disediakan",
+          "notSelected": "Tidak dipilih",
+          "pageIndicator": "{{current}} daripada {{total}}"
         },
         "defaultJobName": "Kerja",
         "defaultResourceName": "sumber ini",
@@ -682,6 +692,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Teruskan"
           },
+          "defaultClearFiltersLabel": "Kosongkan penapis",
           "defaultDownloadLabel": "Muat turun",
           "defaultFileName": "fail",
           "defaultHeading": {
@@ -1813,6 +1824,9 @@
       "title": "Pembantu Ekstrak Pintar"
     },
     "complexFile": "Fail kompleks dikesan",
+    "complexFileLowConfidence": "Fail rumit, keyakinan rendah",
+    "complexFileLowConfidenceTooltip": "Fail ini mengandungi kerumitan yang belum disokong oleh Ekstrak Pintar dan tidak boleh diekstrak dengan keyakinan tinggi.",
+    "complexFileTooltip": "Fail ini mempunyai kerumitan dan kami mengesyorkan anda untuk menggunakan Ekstrak Pintar untuk mengekstrak datanya.",
     "reanalyze": "Menganalisis semula",
     "review": "Semak pengekstrakan",
     "smartExtractComplete": "Analisis ekstrak pintar selesai",
@@ -1821,6 +1835,10 @@
     "verb": "Ekstrak"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Pilih buku kerja dan lembaran di mana data harus dipetakan kepada.",
+      "label": "Lembaran destinasi"
+    },
     "sheetSelection": {
       "cancel": "Batal",
       "description": "Pilih helaian untuk mengimport data ini",
@@ -1829,8 +1847,13 @@
       "loadingWorkbooks": "Memuatkan buku kerja...",
       "noWorkbooks": "Tiada buku kerja tersedia",
       "noWorkbooksDescription": "Tiada buku kerja tersedia untuk diimport",
+      "placeholder": "Pilih lembaran",
       "select": "Pilih",
       "title": "Pilih destinasi"
+    },
+    "sourceSheetSelection": {
+      "label": "Lembaran sumber",
+      "placeholder": "Pilih lembaran"
     }
   },
   "snapshot": {

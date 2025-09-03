@@ -678,11 +678,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Voltar",
           "cancelButton": "Cancelar",
+          "confirmationErrorSubtitle": "Tente novamente",
+          "confirmationErrorTitle": "Falha no envio do formulário",
+          "confirmationSuccessSubtitle": "A regressar à sua última localização",
+          "confirmationSuccessTitle": "Formulário enviado com sucesso",
           "defaultConfirmButton": "Confirmar",
           "defaultLoadingButton": "A carregar...",
+          "editLink": "Editar",
           "isRequired": "{{field}} obrigatório",
-          "mustBeNumber": "{{field}} tem de ser um número"
+          "mustBeNumber": "{{field}} tem de ser um número",
+          "nextButton": "Seguinte",
+          "notProvided": "Não fornecido",
+          "notSelected": "Não selecionado",
+          "pageIndicator": "{{current}} de {{total}}"
         },
         "defaultJobName": "Trabalho",
         "defaultResourceName": "este recurso",
@@ -696,6 +706,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Continuar"
           },
+          "defaultClearFiltersLabel": "Limpar filtros",
           "defaultDownloadLabel": "Descarregar",
           "defaultFileName": "ficheiro",
           "defaultHeading": {
@@ -1862,6 +1873,9 @@
       "title": "Assistente de Extração Inteligente"
     },
     "complexFile": "Detetado ficheiro complexo",
+    "complexFileLowConfidence": "Ficheiro complexo, confiança baixa",
+    "complexFileLowConfidenceTooltip": "Este ficheiro tem complexidades que ainda não são suportadas pelo Smart Extract e não pode ser extraído com confiança alta.",
+    "complexFileTooltip": "Este ficheiro tem complexidades e recomendamos que utilize o Smart Extract para extrair os dados.",
     "reanalyze": "Reanalisar",
     "review": "Rever extração",
     "smartExtractComplete": "Análise de extração inteligente concluída",
@@ -1870,6 +1884,10 @@
     "verb": "Extrair"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Selecione o livro e a folha onde os seus dados devem ser mapeados.",
+      "label": "Folha de destino"
+    },
     "sheetSelection": {
       "cancel": "Cancelar",
       "description": "Selecione uma folha para a qual importar estes dados",
@@ -1878,8 +1896,13 @@
       "loadingWorkbooks": "A carregar livros...",
       "noWorkbooks": "Sem livros disponíveis",
       "noWorkbooksDescription": "Sem livros disponíveis para os quais importar",
+      "placeholder": "Selecione uma folha",
       "select": "Selecionar",
       "title": "Selecionar destino"
+    },
+    "sourceSheetSelection": {
+      "label": "Folha de origem",
+      "placeholder": "Selecione uma folha"
     }
   },
   "snapshot": {

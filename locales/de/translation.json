@@ -678,11 +678,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Zurück",
           "cancelButton": "Abbrechen",
+          "confirmationErrorSubtitle": "Bitte versuchen Sie es erneut",
+          "confirmationErrorTitle": "Formularübermittlung fehlgeschlagen",
+          "confirmationSuccessSubtitle": "Zurück zu Ihrem letzten Standort",
+          "confirmationSuccessTitle": "Formular erfolgreich übermittelt",
           "defaultConfirmButton": "Bestätigen",
           "defaultLoadingButton": "Wird geladen",
+          "editLink": "Bearbeiten",
           "isRequired": "{{field}} ist erforderlich",
-          "mustBeNumber": "{{field}} muss eine Zahl sein"
+          "mustBeNumber": "{{field}} muss eine Zahl sein",
+          "nextButton": "Weiter",
+          "notProvided": "Nicht angegeben",
+          "notSelected": "Nicht ausgewählt",
+          "pageIndicator": "{{current}} von {{total}}"
         },
         "defaultJobName": "Job",
         "defaultResourceName": "diese Ressource",
@@ -696,6 +706,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Weiter"
           },
+          "defaultClearFiltersLabel": "Filter löschen",
           "defaultDownloadLabel": "Herunterladen",
           "defaultFileName": "Datei",
           "defaultHeading": {
@@ -1862,6 +1873,9 @@
       "title": "Smart Extract Assistant"
     },
     "complexFile": "Komplexe Datei erkannt",
+    "complexFileLowConfidence": "Komplexe Datei, geringe Zuverlässigkeit",
+    "complexFileLowConfidenceTooltip": "Diese Datei enthält komplexe Daten, die von Smart Extract noch nicht unterstützt werden und daher nicht mit hoher Zuverlässigkeit extrahiert werden können.",
+    "complexFileTooltip": "Diese Datei weist komplexe Daten auf. Wir empfehlen Ihnen daher, Smart Extract zum Extrahieren der Daten zu verwenden.",
     "reanalyze": "Erneut analysieren",
     "review": "Extraktion überprüfen",
     "smartExtractComplete": "Intelligente Extraktionsanalyse abgeschlossen",
@@ -1870,6 +1884,10 @@
     "verb": "Extrahieren"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Wählen Sie die Arbeitsmappe und das Blatt aus, denen Ihre Daten zugeordnet werden sollen.",
+      "label": "Zielblatt"
+    },
     "sheetSelection": {
       "cancel": "Abbrechen",
       "description": "Wählen Sie ein Blatt aus, in das diese Daten importiert werden sollen.",
@@ -1878,8 +1896,13 @@
       "loadingWorkbooks": "Arbeitsmappen werden geladen",
       "noWorkbooks": "Es sind keine Arbeitsmappen verfügbar.",
       "noWorkbooksDescription": "Es sind keine Arbeitsmappen zum Importieren verfügbar.",
+      "placeholder": "Blatt auswählen",
       "select": "Auswählen",
       "title": "Ziel auswählen"
+    },
+    "sourceSheetSelection": {
+      "label": "Quellblatt",
+      "placeholder": "Blatt auswählen"
     }
   },
   "snapshot": {

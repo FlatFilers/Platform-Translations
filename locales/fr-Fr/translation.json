@@ -678,11 +678,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Retour",
           "cancelButton": "Annuler",
+          "confirmationErrorSubtitle": "Veuillez réessayer",
+          "confirmationErrorTitle": "Échec de l'envoi du formulaire",
+          "confirmationSuccessSubtitle": "Retour à votre dernière position",
+          "confirmationSuccessTitle": "Formulaire envoyé avec succès",
           "defaultConfirmButton": "Confirmer",
           "defaultLoadingButton": "Chargement...",
+          "editLink": "Modifier",
           "isRequired": "{{field}} est requis",
-          "mustBeNumber": "{{field}} doit être un nombre"
+          "mustBeNumber": "{{field}} doit être un nombre",
+          "nextButton": "Suivant",
+          "notProvided": "Non fourni",
+          "notSelected": "Non sélectionné",
+          "pageIndicator": "{{current}} sur {{total}}"
         },
         "defaultJobName": "Tâche",
         "defaultResourceName": "cette ressource",
@@ -696,6 +706,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Continuer"
           },
+          "defaultClearFiltersLabel": "Supprimer les filtres",
           "defaultDownloadLabel": "Télécharger",
           "defaultFileName": "fichier",
           "defaultHeading": {
@@ -1862,6 +1873,9 @@
       "title": "Assistant d'extraction intelligente"
     },
     "complexFile": "Fichier complexe détecté",
+    "complexFileLowConfidence": "Fichier complexe, faible fiabilité",
+    "complexFileLowConfidenceTooltip": "Ce fichier contient des éléments complexes qui ne sont pas encore pris en charge par Smart Extract et ne peuvent pas être extraits avec fiabilité.",
+    "complexFileTooltip": "Ce fichier contient des éléments complexes et nous vous recommandons d'utiliser Smart Extract pour extraire les données.",
     "reanalyze": "Relancer l'analyse",
     "review": "Révision de l'extraction",
     "smartExtractComplete": "Analyse d'extraction intelligente terminée",
@@ -1870,6 +1884,10 @@
     "verb": "Extraire"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Sélectionnez le classeur et la feuille où vos données doivent être mappées.",
+      "label": "Feuille de destination"
+    },
     "sheetSelection": {
       "cancel": "Annuler",
       "description": "Sélectionnez une feuille vers laquelle importer ces données",
@@ -1878,8 +1896,13 @@
       "loadingWorkbooks": "Chargement des classeurs...",
       "noWorkbooks": "Aucun classeur disponible",
       "noWorkbooksDescription": "Aucun classeur disponible vers lequel importer",
+      "placeholder": "Sélectionner une feuille",
       "select": "Sélectionner",
       "title": "Sélectionnez la destination"
+    },
+    "sourceSheetSelection": {
+      "label": "Feuille source",
+      "placeholder": "Sélectionner une feuille"
     }
   },
   "snapshot": {

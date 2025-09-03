@@ -678,11 +678,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Voltar",
           "cancelButton": "Cancelar",
+          "confirmationErrorSubtitle": "Tente novamente",
+          "confirmationErrorTitle": "Falha no Envio do Formulário",
+          "confirmationSuccessSubtitle": "Voltando para sua última localização",
+          "confirmationSuccessTitle": "Formulário Enviado com Sucesso",
           "defaultConfirmButton": "Confirmar",
           "defaultLoadingButton": "Carregando...",
+          "editLink": "Editar",
           "isRequired": "{{field}} é obrigatório",
-          "mustBeNumber": "{{field}} deve ser um número"
+          "mustBeNumber": "{{field}} deve ser um número",
+          "nextButton": "Avançar",
+          "notProvided": "Não fornecido",
+          "notSelected": "Não selecionado",
+          "pageIndicator": "{{current}} de {{total}}"
         },
         "defaultJobName": "Trabalho",
         "defaultResourceName": "este recurso",
@@ -696,6 +706,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Continuar"
           },
+          "defaultClearFiltersLabel": "Limpar filtros",
           "defaultDownloadLabel": "Download",
           "defaultFileName": "arquivo",
           "defaultHeading": {
@@ -1862,6 +1873,9 @@
       "title": "Assistente de Extração Inteligente"
     },
     "complexFile": "Arquivo complexo detectado",
+    "complexFileLowConfidence": "Arquivo complexo, baixa confiança",
+    "complexFileLowConfidenceTooltip": "Este arquivo contém complexidades para as quais o Smart Extract ainda não oferece suporte e que não podem ser extraídas com alta confiança.",
+    "complexFileTooltip": "Este arquivo tem complexidades, recomendamos que você use o Smart Extract para extrair os dados.",
     "reanalyze": "Reanalisar",
     "review": "Avaliar extração",
     "smartExtractComplete": "Análise da extração inteligente concluída",
@@ -1870,6 +1884,10 @@
     "verb": "Extrair"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Selecione a pasta de trabalho e a planilha onde seus dados devem ser mapeados.",
+      "label": "Planilha de destino"
+    },
     "sheetSelection": {
       "cancel": "Cancelar",
       "description": "Selecione uma planilha para a qual importar estes dados",
@@ -1878,8 +1896,13 @@
       "loadingWorkbooks": "Carregando apostilas...",
       "noWorkbooks": "Nenhuma apostila disponível",
       "noWorkbooksDescription": "Nenhuma apostila disponível para a qual importar",
+      "placeholder": "Selecione uma planilha",
       "select": "Selecionar",
       "title": "Selecionar destino"
+    },
+    "sourceSheetSelection": {
+      "label": "Planilha de origem",
+      "placeholder": "Selecione uma planilha"
     }
   },
   "snapshot": {

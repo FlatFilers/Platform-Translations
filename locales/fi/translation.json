@@ -677,11 +677,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Takaisin",
           "cancelButton": "Peruuta",
+          "confirmationErrorSubtitle": "Yritäthän uudelleen",
+          "confirmationErrorTitle": "Lomakkeen lähetys epäonnistui",
+          "confirmationSuccessSubtitle": "Palataan edelliseen sijaintiisi",
+          "confirmationSuccessTitle": "Lomakkeen lähetys onnistui",
           "defaultConfirmButton": "Vahvista",
           "defaultLoadingButton": "Ladataan...",
+          "editLink": "Muokkaa",
           "isRequired": "{{field}} on pakollinen",
-          "mustBeNumber": "{{field}} on oltava numero"
+          "mustBeNumber": "{{field}} on oltava numero",
+          "nextButton": "Seuraava",
+          "notProvided": "Ei annettu",
+          "notSelected": "Ei valittu",
+          "pageIndicator": "{{current}}/{{total}}"
         },
         "defaultJobName": "Työ",
         "defaultResourceName": "tämä resurssi",
@@ -695,6 +705,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Jatka"
           },
+          "defaultClearFiltersLabel": "Tyhjennä suodattimet",
           "defaultDownloadLabel": "Lataa",
           "defaultFileName": "tiedosto",
           "defaultHeading": {
@@ -1861,6 +1872,9 @@
       "title": "Älykäs vientiapuri"
     },
     "complexFile": "Monimutkainen tiedosto havaittu...",
+    "complexFileLowConfidence": "Monimutkainen tiedosto, heikko luotettavuus",
+    "complexFileLowConfidenceTooltip": "Tämä tiedosto sisältää monimutkaisia osia, joita älykäs tuonti ei vielä tue, joten niitä ei voida purkaa suurella luotettavuudella.",
+    "complexFileTooltip": "Tässä tiedostossa on monimutkaisia osia, joten suosittelemme, että käytät älykästä tuontia tietojen tuomiseen.",
     "reanalyze": "Analysoi uudelleen",
     "review": "Tarkista purkaminen",
     "smartExtractComplete": "Pikapurkamisen analyysi valmis",
@@ -1869,6 +1883,10 @@
     "verb": "Poimi"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Valitse työkirja ja taulukko, johon tiedot kuvataan.",
+      "label": "Kohdetaulukko"
+    },
     "sheetSelection": {
       "cancel": "Peruuta",
       "description": "Valitse taulukko, johon nämä tiedot viedään",
@@ -1877,8 +1895,13 @@
       "loadingWorkbooks": "Ladataan työkirjoja...",
       "noWorkbooks": "Työkirjoja ei saatavilla",
       "noWorkbooksDescription": "Työkirjoja ei saatavilla tuotaviksi",
+      "placeholder": "Valitse taulukko",
       "select": "Valitse",
       "title": "Valitse kohde"
+    },
+    "sourceSheetSelection": {
+      "label": "Lähdetaulukko",
+      "placeholder": "Valitse taulukko"
     }
   },
   "snapshot": {

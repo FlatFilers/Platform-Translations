@@ -677,11 +677,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Tillbaka",
           "cancelButton": "Avbryt",
+          "confirmationErrorSubtitle": "Försök igen",
+          "confirmationErrorTitle": "Formuläret kunde inte lämnas in",
+          "confirmationSuccessSubtitle": "Återvänder till din senaste plats",
+          "confirmationSuccessTitle": "Formuläret har lämnats in",
           "defaultConfirmButton": "Bekräfta",
           "defaultLoadingButton": "Laddar...",
+          "editLink": "Redigera",
           "isRequired": "{{field}} är obligatorisk",
-          "mustBeNumber": "{{field}} måste vara en siffra"
+          "mustBeNumber": "{{field}} måste vara en siffra",
+          "nextButton": "Nästa",
+          "notProvided": "Anges ej",
+          "notSelected": "Ej valt",
+          "pageIndicator": "{{current}} av {{total}}"
         },
         "defaultJobName": "Jobb",
         "defaultResourceName": "den här resursen",
@@ -695,6 +705,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Fortsätt"
           },
+          "defaultClearFiltersLabel": "Rensa filter",
           "defaultDownloadLabel": "Ladda ner",
           "defaultFileName": "fil",
           "defaultHeading": {
@@ -1861,6 +1872,9 @@
       "title": "Smart extraheringsassistent"
     },
     "complexFile": "Komplex fil upptäckt",
+    "complexFileLowConfidence": "Komplex fil, problematisk",
+    "complexFileLowConfidenceTooltip": "Den här filen innehåller komplexa delar som ännu inte stöds av Smart Extract, så den kan inte med säkerhet extraheras tillfredsställande.",
+    "complexFileTooltip": "Den här filen är komplex, så vi rekommenderar att du använder Smart Extraction för att extrahera data.",
     "reanalyze": "Analysera igen",
     "review": "Granska extrahering",
     "smartExtractComplete": "Analys av smart extrahering slutförd",
@@ -1869,6 +1883,10 @@
     "verb": "Extrahera"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Välj arbetsbok och blad som dina data ska in i.",
+      "label": "Målark"
+    },
     "sheetSelection": {
       "cancel": "Avbryt",
       "description": "Välj ett ark dit dessa data ska importoeras",
@@ -1877,8 +1895,13 @@
       "loadingWorkbooks": "Läser in arbetsböcker ...",
       "noWorkbooks": "Det finns inga arbetsböcker",
       "noWorkbooksDescription": "Det finns inga arbetsböcker att importera till",
+      "placeholder": "Välj ett ark",
       "select": "Välj",
       "title": "Välj mål"
+    },
+    "sourceSheetSelection": {
+      "label": "Källark",
+      "placeholder": "Välj ett ark"
     }
   },
   "snapshot": {

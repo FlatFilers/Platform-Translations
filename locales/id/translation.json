@@ -665,11 +665,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Kembali",
           "cancelButton": "Batal",
+          "confirmationErrorSubtitle": "Silakan coba lagi",
+          "confirmationErrorTitle": "Pengiriman Formulir Gagal",
+          "confirmationSuccessSubtitle": "Kembali ke lokasi terakhir Anda",
+          "confirmationSuccessTitle": "Formulir Berhasil Dikirim",
           "defaultConfirmButton": "Konfirmasikan",
           "defaultLoadingButton": "Memuat...",
+          "editLink": "Edit",
           "isRequired": "{{field}} diperlukan",
-          "mustBeNumber": "{{field}} harus berupa angka"
+          "mustBeNumber": "{{field}} harus berupa angka",
+          "nextButton": "Selanjutnya",
+          "notProvided": "Tidak disediakan",
+          "notSelected": "Tidak dipilih",
+          "pageIndicator": "{{current}} dari {{total}}"
         },
         "defaultJobName": "Pekerjaan",
         "defaultResourceName": "sumber daya ini",
@@ -683,6 +693,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Lanjutkan"
           },
+          "defaultClearFiltersLabel": "Hapus filter",
           "defaultDownloadLabel": "Unduh",
           "defaultFileName": "berkas",
           "defaultHeading": {
@@ -1814,6 +1825,9 @@
       "title": "Smart Extract Assistant"
     },
     "complexFile": "Berkas kompleks terdeteksi",
+    "complexFileLowConfidence": "File kompleks, keyakinan rendah",
+    "complexFileLowConfidenceTooltip": "Berkas ini berisi kerumitan yang belum didukung oleh Ekstrak Pintar dan tidak dapat diekstraksi dengan keyakinan tinggi.",
+    "complexFileTooltip": "Berkas ini memiliki kompleksitas dan kami sarankan Anda menggunakan Ekstrak Pintar untuk mengekstrak datanya.",
     "reanalyze": "Analisis Ulang",
     "review": "Tinjauan ekstraksi",
     "smartExtractComplete": "Analisis ekstrak cerdas lengkap",
@@ -1822,6 +1836,10 @@
     "verb": "Ekstrak"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Pilih buku kerja dan lembar tempat data Anda akan dipetakan.",
+      "label": "Lembar tujuan"
+    },
     "sheetSelection": {
       "cancel": "Batal",
       "description": "Pilih lembar untuk mengimpor data ini",
@@ -1830,8 +1848,13 @@
       "loadingWorkbooks": "Memuat buku kerja...",
       "noWorkbooks": "Tidak ada buku kerja yang tersedia",
       "noWorkbooksDescription": "Tidak ada buku kerja yang tersedia untuk impor",
+      "placeholder": "Pilih lembar",
       "select": "Pilih",
       "title": "Pilih tujuan"
+    },
+    "sourceSheetSelection": {
+      "label": "Lembar sumber",
+      "placeholder": "Pilih lembar"
     }
   },
   "snapshot": {

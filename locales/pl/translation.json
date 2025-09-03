@@ -703,11 +703,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "Wstecz",
           "cancelButton": "Anuluj",
+          "confirmationErrorSubtitle": "Spróbuj ponownie",
+          "confirmationErrorTitle": "Nie udało się przesłać formularza",
+          "confirmationSuccessSubtitle": "Powracanie do Twojej ostatniej lokalizacji",
+          "confirmationSuccessTitle": "Pomyślnie przesłano formularz",
           "defaultConfirmButton": "Potwierdź",
           "defaultLoadingButton": "Wczytywanie…",
+          "editLink": "Edytuj",
           "isRequired": "{{field}} jest wymagane",
-          "mustBeNumber": "{{field}} musi być liczbą"
+          "mustBeNumber": "{{field}} musi być liczbą",
+          "nextButton": "Dalej",
+          "notProvided": "Nie podano",
+          "notSelected": "Nie wybrano",
+          "pageIndicator": "{{current}} z {{total}}"
         },
         "defaultJobName": "Zadanie",
         "defaultResourceName": "ten zasób",
@@ -721,6 +731,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "Kontynuuj"
           },
+          "defaultClearFiltersLabel": "Wyczyść filtry",
           "defaultDownloadLabel": "Pobierz",
           "defaultFileName": "plik",
           "defaultHeading": {
@@ -1957,6 +1968,9 @@
       "title": "Inteligentny Asystent Wyodrębniania"
     },
     "complexFile": "Wykryto złożony plik",
+    "complexFileLowConfidence": "Plik złożony, niski poziom pewności",
+    "complexFileLowConfidenceTooltip": "Ten plik zawiera złożone elementy, które nie są jeszcze obsługiwane przez Smart Extract i nie mogą być wyodrębnione z wysoką pewnością.",
+    "complexFileTooltip": "Ten plik zawiera złożone elementy i zalecamy użycie Smart Extract do wyodrębnienia danych.",
     "reanalyze": "Przeanalizuj ponownie",
     "review": "Zweryfikuj wyodrębnienie",
     "smartExtractComplete": "Analiza inteligentnego wyodrębnienia zakończona",
@@ -1965,6 +1979,10 @@
     "verb": "Wyodrębnij"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "Wybierz skoroszyt i arkusz, w których mają zostać odwzorowane Twoje dane.",
+      "label": "Arkusz docelowy"
+    },
     "sheetSelection": {
       "cancel": "Anuluj",
       "description": "Wybierz arkusz, do którego chcesz zaimportować dane",
@@ -1973,8 +1991,13 @@
       "loadingWorkbooks": "Ładowanie skoroszytów...",
       "noWorkbooks": "Brak dostępnych skoroszytów",
       "noWorkbooksDescription": "Brak skoroszytów, do których można zaimportować dane",
+      "placeholder": "Wybierz arkusz",
       "select": "Wybierz",
       "title": "Wybierz pole docelowe"
+    },
+    "sourceSheetSelection": {
+      "label": "Arkusz źródłowy",
+      "placeholder": "Wybierz arkusz"
     }
   },
   "snapshot": {

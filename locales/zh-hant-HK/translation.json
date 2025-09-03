@@ -664,11 +664,21 @@
     "customActions": {
       "modals": {
         "confirmModal": {
+          "backButton": "返回",
           "cancelButton": "取消",
+          "confirmationErrorSubtitle": "请重试",
+          "confirmationErrorTitle": "表单提交失败",
+          "confirmationSuccessSubtitle": "正在返回上次所在位置",
+          "confirmationSuccessTitle": "表单提交成功",
           "defaultConfirmButton": "确认",
           "defaultLoadingButton": "正在加载……",
+          "editLink": "编辑",
           "isRequired": "{{field}} 为必填",
-          "mustBeNumber": "{{field}} 必须为数字"
+          "mustBeNumber": "{{field}} 必须为数字",
+          "nextButton": "下一步",
+          "notProvided": "未提供",
+          "notSelected": "未选择",
+          "pageIndicator": "第 {{current}}条 ，共 {{total}}条"
         },
         "defaultJobName": "作业",
         "defaultResourceName": "此资源",
@@ -682,6 +692,7 @@
           "acknowledgementModal": {
             "defaultContinueButton": "继续"
           },
+          "defaultClearFiltersLabel": "清除筛选条件",
           "defaultDownloadLabel": "下载",
           "defaultFileName": "文件",
           "defaultHeading": {
@@ -1813,6 +1824,9 @@
       "title": "智能提取助手"
     },
     "complexFile": "检测到复杂文件",
+    "complexFileLowConfidence": "文件复杂，识别准确度不高。",
+    "complexFileLowConfidenceTooltip": "该文件包含“智能提取”功能不支持的复杂内容，无法确保高准确度地提取数据。",
+    "complexFileTooltip": "文件复杂，推荐使用“智能提取”功能提取数据。",
     "reanalyze": "重新分析",
     "review": "审查提取结果",
     "smartExtractComplete": "智能提取分析已完成",
@@ -1821,6 +1835,10 @@
     "verb": "提取"
   },
   "smartImport": {
+    "destinationSheetSelection": {
+      "description": "请选择数据要对应的工作簿文件和工作表。",
+      "label": "目标工作表"
+    },
     "sheetSelection": {
       "cancel": "取消",
       "description": "请选择要导入此数据的工作表",
@@ -1829,8 +1847,13 @@
       "loadingWorkbooks": "正在加载工作簿……",
       "noWorkbooks": "暂无可用工作簿",
       "noWorkbooksDescription": "无可导入的工作簿",
+      "placeholder": "选择工作表",
       "select": "选择",
       "title": "选择目标位置"
+    },
+    "sourceSheetSelection": {
+      "label": "源工作表",
+      "placeholder": "选择工作表"
     }
   },
   "snapshot": {
