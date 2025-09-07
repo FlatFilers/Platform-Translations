@@ -870,6 +870,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Submit"
+      },
+      "confirmation": {
+        "allValidRecords": "All records will be submitted.",
+        "onlyValidRecords": "Only valid records will be submitted. Invalid records will be skipped."
       }
     }
   },
