@@ -659,6 +659,8 @@
   "inlineTransformations": {
     "assistant": "Assistant",
     "error": "Something went wrong. Please try again.",
+    "identifiedIssues": "Identified issues",
+    "instructionPlaceholder": "Type a fix, like \"remove leading zeros\" or \"standardize dates\". Use @ to mention fields.",
     "preview": "Preview"
   },
   "jobs": {
