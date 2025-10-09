@@ -672,6 +672,8 @@
   "inlineTransformations": {
     "assistant": "Assistent",
     "error": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+    "identifiedIssues": "Identifizierte Probleme",
+    "instructionPlaceholder": "Geben Sie eine Lösung ein, z. B. „Führende Nullen entfernen“ oder „Datumsangaben standardisieren“. Verwenden Sie @, um Felder zu erwähnen.",
     "preview": "Vorschau"
   },
   "jobs": {
@@ -876,6 +878,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Absenden"
+      },
+      "confirmation": {
+        "allValidRecords": "Alle Datensätze werden übermittelt.",
+        "onlyValidRecords": "Es werden nur gültige Datensätze übermittelt. Ungültige Datensätze werden übersprungen."
       }
     }
   },

@@ -659,6 +659,8 @@
   "inlineTransformations": {
     "assistant": "Asisten",
     "error": "Terjadi kesalahan. Silakan coba lagi.",
+    "identifiedIssues": "Isu teridentifikasi",
+    "instructionPlaceholder": "Ketik perbaikan, misalnya ‘hapus nol di depan’ atau ‘standarisasi tanggal’. Gunakan @ untuk menyebut field.”",
     "preview": "Pratinjau"
   },
   "jobs": {
@@ -863,6 +865,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Kirim"
+      },
+      "confirmation": {
+        "allValidRecords": "Semua catatan akan dikirimkan.",
+        "onlyValidRecords": "Hanya catatan valid yang akan dikirimkan. Catatan tidak valid akan dilewati."
       }
     }
   },

@@ -671,6 +671,8 @@
   "inlineTransformations": {
     "assistant": "Assistent",
     "error": "Er ging iets fout. Probeer opnieuw.",
+    "identifiedIssues": "Geconstateerde problemen",
+    "instructionPlaceholder": "Typ een oplossing, zoals ‘voorgaande nullen verwijderen’ of ‘datums standaardiseren’. Gebruik @ om velden te vermelden.",
     "preview": "Voorbeschouwing"
   },
   "jobs": {
@@ -875,6 +877,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Verzenden"
+      },
+      "confirmation": {
+        "allValidRecords": "Alle records worden ingediend.",
+        "onlyValidRecords": "Alleen geldige records worden ingediend. Ongeldige records worden overgeslagen."
       }
     }
   },

@@ -672,6 +672,8 @@
   "inlineTransformations": {
     "assistant": "Assistant",
     "error": "Something went wrong. Please try again.",
+    "identifiedIssues": "Identified issues",
+    "instructionPlaceholder": "Type a fix, like \"remove leading zeros\" or \"standardise dates\". Use @ to mention fields.",
     "preview": "Preview"
   },
   "jobs": {
@@ -876,6 +878,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Submit"
+      },
+      "confirmation": {
+        "allValidRecords": "All records will be submitted.",
+        "onlyValidRecords": "Only valid records will be submitted. Invalid records will be skipped."
       }
     }
   },

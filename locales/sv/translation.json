@@ -671,6 +671,8 @@
   "inlineTransformations": {
     "assistant": "Assistent",
     "error": "Något gick fel. Försök igen.",
+    "identifiedIssues": "Identifierade problem",
+    "instructionPlaceholder": "Skriv in en åtgärd, såsom \"ta bort inledande nollor\" eller \"standardisera datum\". Använd @ för att ange fält.",
     "preview": "Förhandsvisa"
   },
   "jobs": {
@@ -875,6 +877,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Skicka in"
+      },
+      "confirmation": {
+        "allValidRecords": "Alla poster kommer att skickas in.",
+        "onlyValidRecords": "Endast giltiga poster kommer att skickas in. Ogiltiga poster hoppas över."
       }
     }
   },

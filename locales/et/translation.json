@@ -671,6 +671,8 @@
   "inlineTransformations": {
     "assistant": "Abiline",
     "error": "Midagi läks valesti. Palun proovige uuesti.",
+    "identifiedIssues": "Tuvastatud probleemid",
+    "instructionPlaceholder": "Sisestage lahendus, näiteks „eemalda algusnullid” või „standardiseeri kuupäevad”. Kasuta väljade mainimiseks @-märki.",
     "preview": "Eelvaade"
   },
   "jobs": {
@@ -875,6 +877,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Esita"
+      },
+      "confirmation": {
+        "allValidRecords": "Kõik kanded esitatakse.",
+        "onlyValidRecords": "Esitatakse vaid kehtivad kanded. Vigaseid kandeid eiratakse."
       }
     }
   },

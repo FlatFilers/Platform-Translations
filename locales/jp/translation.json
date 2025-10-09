@@ -659,6 +659,8 @@
   "inlineTransformations": {
     "assistant": "アシスタント",
     "error": "問題が発生しました。もう一度お試しください。",
+    "identifiedIssues": "特定された問題",
+    "instructionPlaceholder": "「先頭のゼロを削除する」や「日付を標準化する」などの修正を入力してください。フィールドを指定するには @ を使用してください。",
     "preview": "プレビュー"
   },
   "jobs": {
@@ -863,6 +865,10 @@
     "submit": {
       "button": {
         "defaultLabel": "提出する"
+      },
+      "confirmation": {
+        "allValidRecords": "すべての記録が送信されます。",
+        "onlyValidRecords": "有効な記録のみが送信されます。無効な記録はスキップされます。"
       }
     }
   },

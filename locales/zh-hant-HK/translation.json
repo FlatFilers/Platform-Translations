@@ -658,6 +658,8 @@
   "inlineTransformations": {
     "assistant": "助手",
     "error": "发生错误，请重试。",
+    "identifiedIssues": "发现的问题",
+    "instructionPlaceholder": "请输入修复方法，例如“去掉前导零”或“标准化日期”。使用 @ 来提及字段。",
     "preview": "预览"
   },
   "jobs": {
@@ -862,6 +864,10 @@
     "submit": {
       "button": {
         "defaultLabel": "提交"
+      },
+      "confirmation": {
+        "allValidRecords": "所有记录都将被提交。",
+        "onlyValidRecords": "仅会提交有效记录。无效记录将被跳过。"
       }
     }
   },

@@ -659,6 +659,8 @@
   "inlineTransformations": {
     "assistant": "助手",
     "error": "出了点问题。请再试一次。",
+    "identifiedIssues": "已识别问题",
+    "instructionPlaceholder": "输入修正指令，例如“去除前导零”或“统一日期格式”。使用 @ 符号提及相关字段。",
     "preview": "预览"
   },
   "jobs": {
@@ -863,6 +865,10 @@
     "submit": {
       "button": {
         "defaultLabel": "提交"
+      },
+      "confirmation": {
+        "allValidRecords": "所有记录都将被提交。",
+        "onlyValidRecords": "仅提交有效记录。无效记录将被跳过。"
       }
     }
   },

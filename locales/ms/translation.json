@@ -658,6 +658,8 @@
   "inlineTransformations": {
     "assistant": "Pembantu",
     "error": "Ralat telah berlaku. Sila cuba lagi.",
+    "identifiedIssues": "Isu yang dikenal pasti",
+    "instructionPlaceholder": "Taip pembetulan, seperti \"buang sifar di hadapan\" atau \"seragamkan tarikh\". Guna @ untuk petik medan.",
     "preview": "Previu"
   },
   "jobs": {
@@ -862,6 +864,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Hantar"
+      },
+      "confirmation": {
+        "allValidRecords": "Semua rekod akan dihantar.",
+        "onlyValidRecords": "Hanya rekod yang sah akan dihantar. Rekod yang tidak sah akan dilangkau."
       }
     }
   },

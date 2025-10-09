@@ -672,6 +672,8 @@
   "inlineTransformations": {
     "assistant": "Assistant",
     "error": "Une erreur est survenue. Veuillez réessayer.",
+    "identifiedIssues": "Problèmes identifiés",
+    "instructionPlaceholder": "Saisissez un correctif, comme \"supprimer les zéros devant\" ou \"standardiser les dates\". Utilisez @ pour mentionner des champs.",
     "preview": "Aperçu"
   },
   "jobs": {
@@ -876,6 +878,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Envoyer"
+      },
+      "confirmation": {
+        "allValidRecords": "Tous les enregistrements seront soumis.",
+        "onlyValidRecords": "Seuls les enregistrements valides seront soumis. Les enregistrements non valides seront ignorés."
       }
     }
   },

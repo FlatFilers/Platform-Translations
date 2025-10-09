@@ -672,6 +672,8 @@
   "inlineTransformations": {
     "assistant": "Asistente",
     "error": "Se ha producido un error. Inténtalo de nuevo.",
+    "identifiedIssues": "Problemas identificados",
+    "instructionPlaceholder": "Escribe una solución, por ejemplo \"eliminar ceros a la izquierda\" o \"estandarizar fechas\". Usa @ para mencionar campos.",
     "preview": "Vista previa"
   },
   "jobs": {
@@ -876,6 +878,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Enviar"
+      },
+      "confirmation": {
+        "allValidRecords": "Se presentarán todos los registros.",
+        "onlyValidRecords": "Solo se enviarán los registros válidos. Los registros no válidos se omitirán."
       }
     }
   },

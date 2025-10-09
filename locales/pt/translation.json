@@ -672,6 +672,8 @@
   "inlineTransformations": {
     "assistant": "Assistente",
     "error": "Ocorreu um erro. Tente novamente.",
+    "identifiedIssues": "Problemas identificados",
+    "instructionPlaceholder": "Escreva uma correção, como “remover zeros à esquerda” ou “normalizar datas”. Use @ para mencionar campos.",
     "preview": "Pré-visualização"
   },
   "jobs": {
@@ -876,6 +878,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Submeter"
+      },
+      "confirmation": {
+        "allValidRecords": "Serão submetidos todos os registos.",
+        "onlyValidRecords": "Apenas serão submetidos registos válidos. Os registos inválidos serão ignorados."
       }
     }
   },

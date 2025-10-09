@@ -672,6 +672,8 @@
   "inlineTransformations": {
     "assistant": "Asistan",
     "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+    "identifiedIssues": "Belirlenen sorunlar",
+    "instructionPlaceholder": "\"Baştaki sıfırları kaldır\" veya \"tarihleri ​​standartlaştır\" gibi bir düzeltme yaz. Alanlardan bahsetmek için @ ögesini kullan.",
     "preview": "Ön izleme"
   },
   "jobs": {
@@ -876,6 +878,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Gönder"
+      },
+      "confirmation": {
+        "allValidRecords": "Tüm kayıtlar gönderilecek.",
+        "onlyValidRecords": "Yalnızca geçerli kayıtlar gönderilecek. Geçersiz kayıtlar atlanacak."
       }
     }
   },

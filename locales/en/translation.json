@@ -677,7 +677,11 @@
           "defaultLoadingButton": "Loading...",
           "editLink": "Edit",
           "isRequired": "{{field}} is required",
-          "mustBeNumber": "{{field}} must be a number"
+          "mustBeNumber": "{{field}} must be a number",
+          "nextButton": "Next",
+          "notProvided": "Not provided",
+          "notSelected": "Not selected",
+          "pageIndicator": "{{current}} of {{total}}"
         },
         "defaultJobName": "Job",
         "defaultResourceName": "this resource",
@@ -706,7 +710,6 @@
           "defaultRetryLabel": "Retry",
           "defaultUrlLabel": "Visit external webpage",
           "defaultViewLabel": "  Update view",
-          "defaultClearFiltersLabel": "Clear filters",
           "permanentOutcomeModal": {
             "defaultContinueButton": "Continue"
           }
@@ -1854,16 +1857,11 @@
       "noWorkbooksDescription": "No workbooks available to import to",
       "placeholder": "Select a sheet",
       "select": "Select",
-      "title": "Setup data mapping",
-      "placeholder": "Select a sheet"
+      "title": "Setup data mapping"
     },
     "sourceSheetSelection": {
       "label": "Source sheet",
       "placeholder": "Select a sheet"
-    },
-    "destinationSheetSelection": {
-      "label": "Destination sheet",
-      "description": "Select the workbook and sheet where your data should be mapped to."
     }
   },
   "snapshot": {

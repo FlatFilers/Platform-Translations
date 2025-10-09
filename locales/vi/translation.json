@@ -863,6 +863,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Gửi"
+      },
+      "confirmation": {
+        "allValidRecords": "Tất cả các bản ghi sẽ được gửi đi.",
+        "onlyValidRecords": "Chỉ những bản ghi hợp lệ mới được gửi đi. Các bản ghi không hợp lệ sẽ bị bỏ qua."
       }
     }
   },

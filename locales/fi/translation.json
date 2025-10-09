@@ -671,6 +671,8 @@
   "inlineTransformations": {
     "assistant": "Avustaja",
     "error": "Jotakin meni pieleen. Yritä uudelleen.",
+    "identifiedIssues": "Tunnistetut ongelmat",
+    "instructionPlaceholder": "Kirjoita ratkaisu ongelmaan, kuten ”poista alkunollat” tai ”yhdenmukaista päivämäärät”. Mainitse kentät käyttämällä @-merkkiä.",
     "preview": "Esikatselu"
   },
   "jobs": {
@@ -875,6 +877,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Lähetä"
+      },
+      "confirmation": {
+        "allValidRecords": "Kaikki tietueet lähetetään.",
+        "onlyValidRecords": "Vain kelvolliset tietueet lähetetään. Virheelliset tietueet ohitetaan."
       }
     }
   },

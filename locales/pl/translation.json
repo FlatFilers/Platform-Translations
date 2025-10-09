@@ -697,6 +697,8 @@
   "inlineTransformations": {
     "assistant": "Asystent",
     "error": "Coś poszło nie tak. Spróbuj ponownie.",
+    "identifiedIssues": "Wykryte problemy",
+    "instructionPlaceholder": "Wpisz polecenie korekty, np. „usuń zera wiodące” lub „standaryzuj daty”. Użyj znaku @, aby odwołać się do pól.",
     "preview": "Podgląd"
   },
   "jobs": {
@@ -901,6 +903,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Prześlij"
+      },
+      "confirmation": {
+        "allValidRecords": "Wszystkie rekordy zostaną przesłane.",
+        "onlyValidRecords": "Przesłane zostaną tylko poprawne rekordy. Niepoprawne rekordy zostaną pominięte."
       }
     }
   },

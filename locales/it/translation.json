@@ -672,6 +672,8 @@
   "inlineTransformations": {
     "assistant": "Assistente",
     "error": "Qualcosa è andato storto. Riprova.",
+    "identifiedIssues": "Problemi identificati",
+    "instructionPlaceholder": "Digita una correzione, ad esempio \"rimuovi gli zeri iniziali\" o \"standardizza le date\". Usa @ per menzionare i campi.",
     "preview": "Anteprima"
   },
   "jobs": {
@@ -876,6 +878,10 @@
     "submit": {
       "button": {
         "defaultLabel": "Invia"
+      },
+      "confirmation": {
+        "allValidRecords": "Saranno inviate tutte le voci.",
+        "onlyValidRecords": "Saranno inviate solo le voci valide. Quelle non valide saranno ignorate."
       }
     }
   },

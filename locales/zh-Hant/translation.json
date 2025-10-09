@@ -658,6 +658,8 @@
   "inlineTransformations": {
     "assistant": "助理",
     "error": "出了點問題。請再試一次。",
+    "identifiedIssues": "已識別問題",
+    "instructionPlaceholder": "輸入修正內容，例如「移除數字前的零」或「標準化日期格式」等。使用 @ 符號來提及欄位。",
     "preview": "預覽"
   },
   "jobs": {
@@ -862,6 +864,10 @@
     "submit": {
       "button": {
         "defaultLabel": "送出"
+      },
+      "confirmation": {
+        "allValidRecords": "將提交所有的記錄。",
+        "onlyValidRecords": "僅提交有效的記錄。無效的記錄將被略過。"
       }
     }
   },
