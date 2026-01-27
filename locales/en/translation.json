@@ -733,6 +733,12 @@
       "copiedPopover": "Copied Job ID",
       "copyIdTooltip": "Copy Job ID"
     },
+    "mapping": {
+      "noRecords": {
+        "heading": "No Records Found",
+        "message": "No data rows were found in the source. The file may contain only headers with no data records."
+      }
+    },
     "messages": {
       "startingJob": "Starting job"
     },
