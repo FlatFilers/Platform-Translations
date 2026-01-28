@@ -659,6 +659,8 @@
   "inlineTransformations": {
     "assistant": "Trợ lý",
     "error": "Đã xảy ra lỗi. Vui lòng thử lại.",
+    "identifiedIssues": "Các vấn đề đã phát hiện",
+    "instructionPlaceholder": "Nhập cách sửa, ví dụ “xóa số 0 ở đầu” hoặc “chuẩn hóa ngày tháng”. Dùng @ để gọi tên các trường dữ liệu.",
     "preview": "Xem trước"
   },
   "jobs": {
