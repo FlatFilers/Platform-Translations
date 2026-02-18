@@ -537,6 +537,8 @@
     "returnToDashboardButton": "Повернутися на панель керування",
     "sessionExpired": "Сесія закінчилася",
     "sessionExpiredDescription": "Доступ до поточної сесії завершився.",
+    "spaceExpired": "Термін дії цього простору закінчився",
+    "spaceExpiredDescription": "Дані в цьому просторі були видалені відповідно до вашої політики зберігання даних.",
     "sheetNotFound": "Аркуш не знайдено",
     "spaceNotFound": "Простір не знайдено",
     "unauthorized": "Ваші облікові дані недопустимі.",

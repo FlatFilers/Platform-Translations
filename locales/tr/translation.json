@@ -520,6 +520,8 @@
     "returnToDashboardButton": "Gösterge Paneline Dön",
     "sessionExpired": "Oturumun süresi doldu",
     "sessionExpiredDescription": "Geçerli oturuma erişim süresi doldu.",
+    "spaceExpired": "Bu alanın süresi doldu",
+    "spaceExpiredDescription": "Bu alandaki veriler, veri saklama politikanıza uygun olarak kaldırılmıştır.",
     "sheetNotFound": "Çalışma sayfası bulunamadı",
     "spaceNotFound": "Alan bulunamadı",
     "unauthorized": "Erişim bilgileriniz geçersiz.",

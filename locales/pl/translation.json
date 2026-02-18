@@ -537,6 +537,8 @@
     "returnToDashboardButton": "Powrót do Pulpitu",
     "sessionExpired": "Sesja wygasła",
     "sessionExpiredDescription": "Wygasł dostęp do bieżącej sesji.",
+    "spaceExpired": "Ta przestrzeń wygasła",
+    "spaceExpiredDescription": "Dane w tej przestrzeni zostały usunięte zgodnie z polityką przechowywania danych.",
     "sheetNotFound": "Nie znaleziono arkusza",
     "spaceNotFound": "Nie znaleziono przestrzeni",
     "unauthorized": "Twoje poświadczenia dostępu są nieprawidłowe.",

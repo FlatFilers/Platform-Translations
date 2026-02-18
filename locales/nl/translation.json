@@ -519,6 +519,8 @@
     "returnToDashboardButton": "Terug naar Dashboard",
     "sessionExpired": "Sessie is verlopen",
     "sessionExpiredDescription": "Toegang tot de huidige sessie is verlopen.",
+    "spaceExpired": "Deze ruimte is verlopen",
+    "spaceExpiredDescription": "De gegevens in deze ruimte zijn verwijderd in overeenstemming met uw beleid voor gegevensbewaring.",
     "sheetNotFound": "Blad niet gevonden",
     "spaceNotFound": "Ruimte niet gevonden",
     "unauthorized": "Je toegangsgegevens zijn ongeldig.",

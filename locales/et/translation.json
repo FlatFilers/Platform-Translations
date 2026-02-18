@@ -519,6 +519,8 @@
     "returnToDashboardButton": "Naase töölauale",
     "sessionExpired": "Seanss on aegunud",
     "sessionExpiredDescription": "Juurdepääs praegusele seansile on aegunud.",
+    "spaceExpired": "See ruum on aegunud",
+    "spaceExpiredDescription": "Selle ruumi andmed on eemaldatud vastavalt teie andmete säilitamise poliitikale.",
     "sheetNotFound": "Lehte ei leitud",
     "spaceNotFound": "Ruumi ei leitud",
     "unauthorized": "Teie juurdepääsumandaadid on kehtetud.",

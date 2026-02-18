@@ -511,6 +511,8 @@
     "returnToDashboardButton": "ダッシュボードに戻る",
     "sessionExpired": "セッションは期限切れとなりました",
     "sessionExpiredDescription": "現在のセッションへのアクセスは有効期限切れです。",
+    "spaceExpired": "このスペースは有効期限が切れました",
+    "spaceExpiredDescription": "このスペースのデータは、データ保持ポリシーに従って削除されました。",
     "sheetNotFound": "シートが見つかりません",
     "spaceNotFound": "スペースが見つかりません",
     "unauthorized": "アクセス資格情報が無効です。",

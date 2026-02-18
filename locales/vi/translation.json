@@ -511,6 +511,8 @@
     "returnToDashboardButton": "Quay lại Trang tổng quan",
     "sessionExpired": "Phiên đã hết hạn",
     "sessionExpiredDescription": "Quyền truy cập phiên hiện tại đã hết hạn.",
+    "spaceExpired": "Không gian này đã hết hạn",
+    "spaceExpiredDescription": "Dữ liệu trong không gian này đã được xóa theo chính sách lưu giữ dữ liệu của bạn.",
     "sheetNotFound": "Không tìm thấy trang tính",
     "spaceNotFound": "Không tìm thấy không gian",
     "unauthorized": "Thông tin truy cập của bạn không hợp lệ.",

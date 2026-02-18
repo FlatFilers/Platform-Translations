@@ -510,6 +510,8 @@
     "returnToDashboardButton": "กลับไปยังแดชบอร์ด",
     "sessionExpired": "เซสชันหมดอายุ",
     "sessionExpiredDescription": "การเข้าถึงเซสชันปัจจุบันหมดอายุแล้ว",
+    "spaceExpired": "พื้นที่นี้หมดอายุแล้ว",
+    "spaceExpiredDescription": "ข้อมูลในพื้นที่นี้ถูกลบออกตามนโยบายการเก็บรักษาข้อมูลของคุณ",
     "sheetNotFound": "ไม่พบแผ่นงาน",
     "spaceNotFound": "ไม่พบพื้นที่",
     "unauthorized": "ข้อมูลประจำตัวในการเข้าถึงของคุณไม่ถูกต้อง",

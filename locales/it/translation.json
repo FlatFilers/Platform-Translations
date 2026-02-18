@@ -520,6 +520,8 @@
     "returnToDashboardButton": "Ritorna al Cruscotto",
     "sessionExpired": "La sessione è scaduta",
     "sessionExpiredDescription": "L'accesso alla sessione corrente è scaduto.",
+    "spaceExpired": "Questo spazio è scaduto",
+    "spaceExpiredDescription": "I dati in questo spazio sono stati rimossi in conformità con la politica di conservazione dei dati.",
     "sheetNotFound": "Foglio non trovato",
     "spaceNotFound": "Spazio non trovato",
     "unauthorized": "Le tue credenziali di accesso non sono valide.",

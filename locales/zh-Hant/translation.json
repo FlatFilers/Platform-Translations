@@ -510,6 +510,8 @@
     "returnToDashboardButton": "返回儀表板",
     "sessionExpired": "工作階段已過期",
     "sessionExpiredDescription": "目前工作階段的存取已過期。",
+    "spaceExpired": "此空間已過期",
+    "spaceExpiredDescription": "此空間中的資料已根據您的資料保留政策被移除。",
     "sheetNotFound": "找不到工作表",
     "spaceNotFound": "未找到空間",
     "unauthorized": "您的存取憑證無效。",

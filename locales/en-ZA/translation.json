@@ -520,6 +520,8 @@
     "returnToDashboardButton": "Return to Dashboard",
     "sessionExpired": "Session has expired",
     "sessionExpiredDescription": "Access to the current session has expired.",
+    "spaceExpired": "This space has expired",
+    "spaceExpiredDescription": "Data in this space has been removed in accordance with your data retention policy.",
     "sheetNotFound": "Sheet not found",
     "spaceNotFound": "Space not found",
     "unauthorized": "Your access credentials are invalid.",

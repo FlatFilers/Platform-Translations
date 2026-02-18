@@ -520,6 +520,8 @@
     "returnToDashboardButton": "Volver al Panel de Control",
     "sessionExpired": "La sesión ha caducado",
     "sessionExpiredDescription": "Ha caducado el acceso a la sesión actual.",
+    "spaceExpired": "Este espacio ha caducado",
+    "spaceExpiredDescription": "Los datos en este espacio han sido eliminados de acuerdo con su política de retención de datos.",
     "sheetNotFound": "Hoja no encontrada",
     "spaceNotFound": "Espacio no encontrado",
     "unauthorized": "Sus credenciales de acceso no son válidas.",

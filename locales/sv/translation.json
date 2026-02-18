@@ -519,6 +519,8 @@
     "returnToDashboardButton": "Återgå till instrumentpanelen",
     "sessionExpired": "Sessionen har löpt ut",
     "sessionExpiredDescription": "Åtkomsten till den aktuella sessionen har löpt ut.",
+    "spaceExpired": "Detta utrymme har löpt ut",
+    "spaceExpiredDescription": "Data i detta utrymme har tagits bort i enlighet med din datalagringspolicy.",
     "sheetNotFound": "Bladet hittades inte",
     "spaceNotFound": "Platsen hittades inte",
     "unauthorized": "Dina inloggningsuppgifter är ogiltiga.",

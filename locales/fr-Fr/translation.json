@@ -520,6 +520,8 @@
     "returnToDashboardButton": "Revenir au tableau de bord",
     "sessionExpired": "La session a expiré",
     "sessionExpiredDescription": "L'accès à la session en cours a expiré.",
+    "spaceExpired": "Cet espace a expiré",
+    "spaceExpiredDescription": "Les données de cet espace ont été supprimées conformément à votre politique de conservation des données.",
     "sheetNotFound": "Feuille introuvable",
     "spaceNotFound": "Espace introuvable",
     "unauthorized": "Vos identifiants d'accès ne sont pas valides.",

@@ -510,6 +510,8 @@
     "returnToDashboardButton": "Kembali ke Papan Pemuka",
     "sessionExpired": "Sesi telah tamat tempoh",
     "sessionExpiredDescription": "Akses kepada sesi semasa telah tamat tempoh.",
+    "spaceExpired": "Ruang ini telah tamat tempoh",
+    "spaceExpiredDescription": "Data dalam ruang ini telah dialih keluar mengikut dasar pengekalan data anda.",
     "sheetNotFound": "Lembaran tidak ditemui",
     "spaceNotFound": "Ruang tidak ditemui",
     "unauthorized": "Butiran akses anda tidak sah.",

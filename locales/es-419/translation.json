@@ -519,6 +519,8 @@
     "returnToDashboardButton": "Regresar al tablero",
     "sessionExpired": "La sesión ha expirado",
     "sessionExpiredDescription": "El acceso a la sesión actual expiró.",
+    "spaceExpired": "Este espacio ha caducado",
+    "spaceExpiredDescription": "Los datos en este espacio han sido eliminados de acuerdo con su política de retención de datos.",
     "sheetNotFound": "Hoja no encontrada",
     "spaceNotFound": "Espacio no encontrado",
     "unauthorized": "Sus credenciales de acceso no son válidas.",

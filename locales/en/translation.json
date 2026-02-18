@@ -512,6 +512,8 @@
     "sessionExpired": "Session has expired",
     "sessionExpiredDescription": "Access to the current session has expired.",
     "sheetNotFound": "Sheet not found",
+    "spaceExpired": "This space has expired",
+    "spaceExpiredDescription": "Data in this space has been removed in accordance with your data retention policy.",
     "spaceNotFound": "Space not found",
     "unauthorized": "Your access credentials are invalid.",
     "unknownError": "Something went wrong",

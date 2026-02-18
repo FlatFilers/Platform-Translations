@@ -511,6 +511,8 @@
     "returnToDashboardButton": "Kembali ke Dasbor",
     "sessionExpired": "Sesi telah kedaluwarsa",
     "sessionExpiredDescription": "Akses ke sesi ini telah berakhir.",
+    "spaceExpired": "Ruang ini telah kedaluwarsa",
+    "spaceExpiredDescription": "Data di ruang ini telah dihapus sesuai dengan kebijakan retensi data Anda.",
     "sheetNotFound": "Lembar tidak ditemukan",
     "spaceNotFound": "Ruang tidak ditemukan",
     "unauthorized": "Kredensial akses Anda tidak valid.",

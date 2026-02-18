@@ -510,6 +510,8 @@
     "returnToDashboardButton": "返回仪表板",
     "sessionExpired": "会话已过期",
     "sessionExpiredDescription": "当前会话的访问权限已过期。",
+    "spaceExpired": "此空間已過期",
+    "spaceExpiredDescription": "此空間中的資料已根據您的資料保留政策被移除。",
     "sheetNotFound": "未找到表格",
     "spaceNotFound": "未找到空间",
     "unauthorized": "您的访问凭证无效。",

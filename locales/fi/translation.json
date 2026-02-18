@@ -519,6 +519,8 @@
     "returnToDashboardButton": "Palaa koontinäyttöön",
     "sessionExpired": "Istunto on päättynyt",
     "sessionExpiredDescription": "Nykyisen istunnon käyttöoikeus on päättynyt.",
+    "spaceExpired": "Tämä tila on vanhentunut",
+    "spaceExpiredDescription": "Tämän tilan tiedot on poistettu tietojen säilytyskäytäntösi mukaisesti.",
     "sheetNotFound": "Taulukkoa ei löytynyt",
     "spaceNotFound": "Tilaa ei löytynyt",
     "unauthorized": "Käyttäjätunnuksesi ovat virheelliset.",

@@ -520,6 +520,8 @@
     "returnToDashboardButton": "Zurück zum Dashboard",
     "sessionExpired": "Die Sitzung ist abgelaufen",
     "sessionExpiredDescription": "Der Zugriff auf die aktuelle Sitzung ist abgelaufen.",
+    "spaceExpired": "Dieser Space ist abgelaufen",
+    "spaceExpiredDescription": "Die Daten in diesem Space wurden gemäß Ihrer Datenaufbewahrungsrichtlinie entfernt.",
     "sheetNotFound": "Arbeitsblatt nicht gefunden",
     "spaceNotFound": "Bereich nicht gefunden",
     "unauthorized": "Ihre Zugangsdaten sind ungültig.",

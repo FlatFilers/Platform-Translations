@@ -520,6 +520,8 @@
     "returnToDashboardButton": "Regressar ao painel de controlo",
     "sessionExpired": "A sessão expirou",
     "sessionExpiredDescription": "O acesso à sessão atual expirou.",
+    "spaceExpired": "Este espaço expirou",
+    "spaceExpiredDescription": "Os dados neste espaço foram removidos de acordo com a sua política de retenção de dados.",
     "sheetNotFound": "Folha não encontrada",
     "spaceNotFound": "Espaço não encontrado",
     "unauthorized": "As suas credenciais de acesso são inválidas.",
