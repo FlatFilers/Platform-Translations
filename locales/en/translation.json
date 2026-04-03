@@ -1,4 +1,75 @@
 {
+  "activity": {
+    "dateRange": {
+      "allTime": "All time",
+      "last24Hours": "Last 24 hours",
+      "last30Days": "Last 30 days",
+      "last7Days": "Last 7 days",
+      "selectDateRange": "Select date range"
+    },
+    "empty": "No activity logs found.",
+    "errors": {
+      "loading": "Unable to load activity logs"
+    },
+    "filters": {
+      "noFilter": "No filter",
+      "placeholder": "Filter by Event type"
+    },
+    "noEventTypeFound": "No event type found.",
+    "searchPlaceholder": "Search event types...",
+    "table": {
+      "headings": {
+        "actor": "Actor",
+        "context": "Context",
+        "eventType": "Event type",
+        "name": "Name",
+        "timestamp": "Timestamp"
+      }
+    },
+    "title": "Activity logs"
+  },
+  "agent": {
+    "chat": {
+      "emptyState": {
+        "description": "What would you like to do?",
+        "title": "Flatfile Assistant"
+      },
+      "errors": {
+        "applyRuleFailed": "Failed to apply rule",
+        "createJobFailed": "Failed to create job",
+        "openPreprocessingFailed": "Failed to open preprocessing chat",
+        "rollbackFailed": "Failed to rollback",
+        "ruleNotFound": "Rule not found",
+        "saveTransformFailed": "Failed to save transformation",
+        "sheetNotFound": "Sheet not found",
+        "toolApplyFailed": "Failed to apply tool"
+      },
+      "rollbackFailed": "Rollback failed",
+      "saveTransform": {
+        "active": "Save transform",
+        "completed": "Saved transform",
+        "inProgress": "Saving transform..."
+      },
+      "status": {
+        "awaitingInput": "Awaiting user input...",
+        "thinking": "Agent is thinking..."
+      },
+      "title": "Prepare"
+    },
+    "extractor": {
+      "addComment": "Add a comment…",
+      "error": "I am sorry, I had an error. Please try again.",
+      "options": {
+        "completingExtraction": "Completing the extraction process",
+        "finishExtraction": "Looks good, finish extraction",
+        "furtherEdits": "Make further edits",
+        "makeEdits": "Make edits",
+        "regeneratePreview": "Regenerate preview",
+        "regenerateWithEdits": "Regenerate the preview with the new edits",
+        "whatNeedsChanging": "What needs to be changed?"
+      }
+    }
+  },
   "aiTransform": {
     "changedColumnsText_one": "1 column with data changed",
     "changedColumnsText_other": "{{count}} columns with data changed",
@@ -70,6 +141,106 @@
   "app": {
     "trialBanner": {
       "daysLeft": "{{days}} days left in trial"
+    }
+  },
+  "buildMode": {
+    "appTemplateNotice": {
+      "cancel": "Cancel",
+      "continueIn": "Continue in…",
+      "opening": "Opening...",
+      "question": "What would you like to edit?",
+      "template": "Template"
+    },
+    "assistant": {
+      "description": "I can help you build and configure your Flatfile integration. Ask me anything about setting up your workbook, fields, or data handling.",
+      "emptyState": "Flatfile Assistant",
+      "placeholder": "What would you like to do?"
+    },
+    "confirmations": {
+      "deleteConstraint": {
+        "body": "Are you sure you want to delete this constraint? This action cannot be undone.",
+        "title": "Delete Constraint"
+      },
+      "deleteField": {
+        "body": "Are you sure you want to delete this field? This action cannot be undone.",
+        "title": "Delete Field"
+      },
+      "deleteRule": {
+        "body": "Are you sure you want to delete this rule? This action cannot be undone.",
+        "title": "Delete Rule"
+      },
+      "deleteSheet": {
+        "title": "Delete Sheet"
+      },
+      "deleteWorkbook": {
+        "title": "Delete Workbook"
+      },
+      "unsavedChanges": {
+        "body": "You have unsaved changes. Are you sure you want to close without saving?",
+        "closeWithoutSaving": "Close without saving",
+        "title": "Unsaved Changes"
+      }
+    },
+    "deploy": {
+      "advancedSettings": "Advanced settings",
+      "appId": "App ID",
+      "appName": "App Name",
+      "appVisibility": "App Visibility",
+      "cancel": "Cancel",
+      "continueTesting": "Continue Testing",
+      "deploy": "Deploy",
+      "deploymentFailed": "Deployment failed",
+      "entity": "Entity",
+      "errors": {
+        "deployFailed": "Deploy to production failed"
+      },
+      "icon": "Icon",
+      "selectIcon": "Select an icon",
+      "setAsDefault": "Set as Default App for Account",
+      "success": "Successfully deployed!",
+      "title": "Deploy"
+    },
+    "downloadAgent": {
+      "heading": "Download Agent",
+      "label": "Download Agent Code",
+      "message": "Agent code is ready for download"
+    },
+    "fields": {
+      "addField": "Add Field",
+      "cancelChanges": "Cancel changes",
+      "description": "Enter description",
+      "fieldLabel": "Field Label",
+      "searchFields": "Search fields..."
+    },
+    "goLive": {
+      "cancel": "Cancel",
+      "chooseEnvironment": "Choose environment...",
+      "creatingAndDeploying": "Creating and deploying agent...",
+      "errors": {
+        "promotionFailed": "Deploy to production failed"
+      },
+      "goLive": "Go Live",
+      "goLiveWith": "Go Live with…",
+      "selectEnvironment": "Select production environment:",
+      "success": "Successfully went live!"
+    },
+    "sheets": {
+      "addSheet": "Add Sheet",
+      "searchSheets": "Search sheets..."
+    },
+    "theme": {
+      "apply": "Apply",
+      "cancel": "Cancel",
+      "color": "Color",
+      "companyUrl": "Company URL",
+      "errors": {
+        "unableToGetTheme": "Unable to get theme"
+      },
+      "fetchTheme": "Fetch Theme",
+      "fetchThemeDescription": "We will fetch your logo and primary brand color from the provided URL.",
+      "logoPreview": "Logo preview",
+      "logoUrl": "Logo URL",
+      "title": "Theme"
     }
   },
   "blocks": {
@@ -250,14 +421,34 @@
     "you": "You"
   },
   "common": {
+    "apply": "Apply",
+    "back": "Back",
     "cancel": "Cancel",
+    "clear": "Clear",
+    "close": "Close",
     "confirm": "Confirm",
+    "continue": "Continue",
     "creating": "Creating...",
+    "delete": "Delete",
+    "dismiss": "Dismiss",
+    "done": "Done",
+    "edit": "Edit",
+    "error": "Error",
+    "false": "False",
     "lastWeek": "Last Week",
+    "learnMore": "Learn more",
+    "loading": "Loading...",
     "name": "Name",
+    "next": "Next",
+    "noResultsFound": "No results found.",
     "older": "Older",
+    "previous": "Previous",
+    "save": "Save",
+    "search": "Search...",
+    "somethingWentWrong": "Something went wrong",
     "thisWeek": "This Week",
     "today": "Today",
+    "true": "True",
     "tryAgainLater": "Please try again later",
     "yesterday": "Yesterday"
   },
@@ -930,6 +1121,15 @@
       "title": "Revoke access"
     }
   },
+  "mappingProgram": {
+    "errors": {
+      "acceptAllFailed": "Failed to accept all suggestions.",
+      "acceptFailed": "Failed to accept suggestion.",
+      "clearRuleFailed": "Failed to clear mapping rule.",
+      "rejectAllFailed": "Failed to reject all suggestions.",
+      "rejectFailed": "Failed to reject suggestion."
+    }
+  },
   "mapping": {
     "clearFields": {
       "modalHeader": "Clear Destination Fields",
@@ -1066,11 +1266,33 @@
       "unmapped": "Unmapped"
     }
   },
+  "noListenerModal": {
+    "cancelJob": "Cancel job",
+    "description": "A job was triggered, but no listener was configured to handle it. To handle this job, you'll need to set up a listener.",
+    "setUpListener": "Set up a listener",
+    "title": "Job started"
+  },
   "nativeActions": {
     "addColumn": "Add column",
     "clearColumn": "Clear Column",
     "removeColumn": "Remove column",
     "renameColumn": "Rename column"
+  },
+  "onboarding": {
+    "buildMode": {
+      "subtitle": "Learn how to configure your workbook, fields, and data handling",
+      "title": "Build Mode Tutorial"
+    },
+    "steps": {
+      "fieldTypes": "Field Types",
+      "guestManagement": "Guest Management",
+      "welcome": "Welcome to Build Mode"
+    },
+    "workflow": {
+      "fileUpload": "File upload and extraction",
+      "subtitle": "Learn how to set up your data import workflow",
+      "title": "Workflow Tutorial"
+    }
   },
   "platform": {
     "pubnub": {
@@ -1100,6 +1322,33 @@
       "halfway": "Halfway there, hang tight...",
       "updatingTable": "Updating the table to only view mapped fields"
     }
+  },
+  "routineActions": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "conditionalSplit": {
+      "description": "Conditionally split rows into different destination sheets based on field values.",
+      "title": "Conditional Split"
+    },
+    "delete": {
+      "body": "Are you sure you want to delete this routine? This action cannot be undone.",
+      "title": "Delete"
+    },
+    "deleteInstruction": {
+      "body": "Are you sure you want to delete this instruction?",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "title": "Delete Instruction"
+    },
+    "fill": {
+      "description": "Fill empty cells with a specified value.",
+      "title": "Fill"
+    },
+    "newField": "New field",
+    "rowSelectionTools": {
+      "downloadDescription": "Download the selected rows as a CSV file"
+    },
+    "update": "Update"
   },
   "routines": {
     "combine": {
@@ -1158,6 +1407,30 @@
       "name": "Unpivot"
     }
   },
+  "savedTransformations": {
+    "deleteConfirmation": {
+      "body": "This action cannot be undone.",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "title": "Delete saved transformation"
+    },
+    "errors": {
+      "applyFailed": {
+        "description": "Something went wrong while applying the transformations",
+        "title": "Apply Error"
+      },
+      "previewFailed": {
+        "description": "Something went wrong while previewing the runbook",
+        "title": "Preview Error"
+      }
+    },
+    "savedToRunbook": "Transformation saved to Runbook",
+    "search": {
+      "placeholder": "Search...",
+      "searchFields": "Search fields...",
+      "toggleSelectAll": "Toggle select all saved transformations"
+    }
+  },
   "secrets": {
     "create": "Create Secret",
     "delete": "Delete Secret",
@@ -1182,6 +1455,18 @@
     "userSecrets": "User Secrets",
     "value": "Secret Value",
     "valuePlaceholder": "Enter value…"
+  },
+  "sftp": {
+    "close": "Close",
+    "credentials": {
+      "host": "Host",
+      "password": "Password",
+      "port": "Port",
+      "username": "Username"
+    },
+    "description": "Use these credentials to connect to your SFTP server.",
+    "getCredentials": "Get SFTP Credentials",
+    "title": "SFTP Credentials"
   },
   "sheet": {
     "columnManagement": {
@@ -1830,6 +2115,12 @@
       "show": "Show sidebar"
     }
   },
+  "smartImportCanvas": {
+    "cancel": "Cancel",
+    "completeMapping": "Complete Mapping",
+    "sourceRequired": "Source workbook and sheet information required for smart import",
+    "title": "Smart Import"
+  },
   "smartExtractor": {
     "analyze": "Smart Extract",
     "analyzingFileShape": "Analyzing file shape...",
@@ -2132,6 +2423,95 @@
     }
   },
   "spaceLoadingMessage": "Preparing Space...",
+  "subscriptionPending": {
+    "description": "Please wait while we set up your event subscription",
+    "retrying": "Retrying in {{countdown}}...",
+    "title": "Event Subscription Pending"
+  },
+  "transform": {
+    "chat": {
+      "emptyState": {
+        "description": "Ask me anything about transforming your data.",
+        "title": "Flatfile Assistant"
+      },
+      "newChat": "New Chat",
+      "placeholder": "Ask about transforming your data...",
+      "status": {
+        "awaitingInput": "Awaiting user input...",
+        "thinking": "Agent is thinking..."
+      },
+      "title": "Transform",
+      "tools": {
+        "calculate": {
+          "description": "populate numeric fields by describing the calculation",
+          "title": "Calculate"
+        },
+        "combine": {
+          "title": "Combine"
+        },
+        "extract": {
+          "title": "Extract"
+        },
+        "generatingPreview": "Generating Preview",
+        "previewComplete": "Preview Complete",
+        "transform": {
+          "title": "Transform"
+        }
+      }
+    },
+    "errors": {
+      "snapshotFailed": "Failed to create snapshot"
+    }
+  },
+  "uploadManager": {
+    "complexFile": {
+      "cancel": "Cancel",
+      "continueWithImport": "Continue with Import",
+      "select": "Select",
+      "smartExtract": "Smart Extract",
+      "title": "Complex file detected"
+    }
+  },
+  "endProject": {
+    "cancel": "Cancel",
+    "contactSupport": "Yes, contact support",
+    "description": "Ending this project will permanently remove all data and configurations. This action cannot be undone.",
+    "endProject": "End Project",
+    "title": "End Project?"
+  },
+  "inviteGuest": {
+    "inviteGuest": "Invite guest",
+    "learnMore": "Learn more",
+    "title": "Invite guests"
+  },
+  "manageUsersPage": {
+    "title": "Manage Guests"
+  },
+  "secretsPage": {
+    "title": "Secrets"
+  },
+  "ui": {
+    "breadcrumb": "breadcrumb",
+    "carousel": {
+      "nextSlide": "Next slide",
+      "previousSlide": "Previous slide",
+      "roleDescription": "carousel",
+      "slideRoleDescription": "slide"
+    },
+    "drawer": {
+      "close": "Close",
+      "hide": "Hide"
+    },
+    "loadingSpinner": "Loading spinner",
+    "morePages": "More pages",
+    "pagination": {
+      "goToNextPage": "Go to next page",
+      "goToPreviousPage": "Go to previous page",
+      "label": "pagination",
+      "next": "Next",
+      "previous": "Previous"
+    }
+  },
   "utils": {
     "buttons": {
       "clearAll": "Clear All",
